@@ -1,0 +1,25 @@
+# GitHub 有時會跳過不活躍 repo 的 cron job
+# 這個 workflow 每天在 gapper 之前跑，確保 repo 保持活躍
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: "0 10 * * 1-5"   # 週一～五 10:00 UTC（比 gapper 早 3 小時）
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ping repo to keep scheduled workflows alive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: keep-alive $(date -u +%Y-%m-%d) [skip ci]"
+          git push

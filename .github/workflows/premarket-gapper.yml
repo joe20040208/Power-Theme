@@ -1,0 +1,135 @@
+# 盤前掃描：每 5 分鐘觸發，workflow 內部檢查是否在 8:00 AM–12:00 PM ET 窗口內
+# GitHub Actions cron 延遲可達 1-3 小時，所以放寬 UTC 範圍 + ET 窗口
+# 一天只掃一次：成功掃過後後續 run 會跳過
+name: Pre-Market Gapper Scan
+
+on:
+  schedule:
+    - cron: "*/5 11-17 * * 1-5"  # Every 5 min, 11:00–17:55 UTC (wide buffer for GHA delays)
+  workflow_dispatch: {}
+
+concurrency:
+  group: gapper-scan
+  cancel-in-progress: false
+
+jobs:
+  gapper-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      issues: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check NYSE trading day + ET window (8:00 AM–12:00 PM) + already scanned today
+        id: trading_day
+        run: |
+          pip install exchange-calendars -q
+          python - <<'EOF'
+          import exchange_calendars as xcals, os, json
+          from datetime import date, datetime
+          from zoneinfo import ZoneInfo
+
+          # workflow_dispatch (manual trigger) bypasses window + already-scanned checks
+          is_manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+
+          nyse = xcals.get_calendar("XNYS")
+          today = date.today().isoformat()
+          is_session = nyse.is_session(today)
+
+          # Check ET window: 8:00 AM – 12:00 PM (wide to absorb GHA cron delays)
+          et_now = datetime.now(ZoneInfo("America/New_York"))
+          et_minutes = et_now.hour * 60 + et_now.minute
+          in_window = 480 <= et_minutes <= 720  # 8:00 AM–12:00 PM
+
+          # Check if already scanned today (avoid duplicate runs)
+          already_scanned = False
+          try:
+              with open("public/gapper_data.json") as f:
+                  data = json.load(f)
+              scan_date = data.get("scan_time", "")[:10]  # "YYYY-MM-DD ..."
+              et_today = et_now.strftime("%Y-%m-%d")
+              if scan_date == et_today:
+                  already_scanned = True
+                  print(f"Already scanned today ({scan_date}), skipping")
+          except Exception:
+              pass
+
+          if is_manual:
+              should_run = True
+              print(f"Manual trigger — forcing run (session: {is_session}, ET: {et_now.strftime('%H:%M')})")
+          else:
+              should_run = is_session and in_window and not already_scanned
+              print(f"NYSE session: {is_session} | ET time: {et_now.strftime('%H:%M')} | in window: {in_window} | already scanned: {already_scanned} | will run: {should_run}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"is_trading_day={'true' if should_run else 'false'}\n")
+          EOF
+
+      - uses: actions/setup-python@v5
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: pip install requests beautifulsoup4 tradingview-screener google-genai exchange-calendars python-dotenv yfinance
+
+      - name: Run gapper scanner
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python gapper_service.py
+
+      # 把最新的 gapper_data.json 存回 repo，讓 daily scrape build 也能用到新資料
+      - name: Commit gapper data to repo
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/gapper_data.json
+          git diff --staged --quiet || git commit -m "data: gapper_data $(date -u +%Y-%m-%dT%H:%M) [skip ci]"
+          git pull --rebase && git push
+
+      - uses: actions/setup-node@v4
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        with:
+          node-version: 18
+
+      - run: npm install --legacy-peer-deps
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+
+      - name: Build React app
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: npm run build
+        env:
+          CI: false
+
+      - uses: actions/configure-pages@v4
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        with:
+          path: ./build
+
+      - id: deployment
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        uses: actions/deploy-pages@v4
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --title "⚠️ Pre-Market Gapper 失敗 $(date -u +%Y-%m-%d)" \
+            --body "盤前掃描失敗，網頁未更新。請查看：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --label "bug"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

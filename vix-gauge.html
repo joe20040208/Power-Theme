@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIX Fear Gauge</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+}
+
+.widget {
+  width: 460px;
+  background: #171717;
+  border: 1px solid #272727;
+  border-radius: 18px;
+  padding: 24px 24px 20px;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.75);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #505050;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.badge {
+  font-size: 9px;
+  color: #383838;
+  background: #1e1e1e;
+  border: 1px solid #2c2c2c;
+  border-radius: 4px;
+  padding: 2px 7px;
+  letter-spacing: 0.06em;
+}
+
+svg.gauge {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.info-box {
+  margin-top: 14px;
+  padding: 13px 16px;
+  background: #1c1c1c;
+  border: 1px solid #282828;
+  border-radius: 10px;
+  min-height: 72px;
+  transition: border-color 0.35s ease;
+}
+.info-name {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  transition: color 0.35s ease;
+}
+.info-range {
+  font-size: 9px;
+  color: #3c3c3c;
+  letter-spacing: 0.07em;
+  font-family: monospace;
+  margin-bottom: 6px;
+}
+.info-impact {
+  font-size: 11px;
+  color: #585858;
+  line-height: 1.65;
+}
+
+.slider-row {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.slider-lbl {
+  font-size: 9px;
+  color: #383838;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+input[type=range] {
+  flex: 1;
+  -webkit-appearance: none;
+  height: 2px;
+  background: #262626;
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255,255,255,0.15);
+}
+.slider-val {
+  font-size: 10px;
+  font-family: monospace;
+  color: #484848;
+  min-width: 40px;
+  text-align: right;
+}
+</style>
+</head>
+<body>
+
+<div class="widget">
+  <div class="header">
+    <span class="title">VIX Fear Gauge</span>
+    <span class="badge">CBOE · QQQ IMPACT</span>
+  </div>
+
+  <svg class="gauge" viewBox="0 0 400 245" xmlns="http://www.w3.org/2000/svg">
+    <g id="g-arcs"></g>
+    <g id="g-ticks"></g>
+    <g id="g-labels"></g>
+    <g id="g-needle"></g>
+    <g id="g-center"></g>
+  </svg>
+
+  <div class="info-box" id="infoBox">
+    <div class="info-name" id="infoName">–</div>
+    <div class="info-range" id="infoRange">–</div>
+    <div class="info-impact" id="infoImpact">–</div>
+  </div>
+
+  <div class="slider-row">
+    <span class="slider-lbl">VIX</span>
+    <input type="range" id="slider" min="0" max="45" step="0.5" value="18">
+    <span class="slider-val" id="sliderVal">18.0</span>
+  </div>
+</div>
+
+<script>
+(() => {
+  /* ─── Layout constants ───────────────────────────────────────── */
+  const CX = 200, CY = 185;
+  const RO = 142, RI = 88;   // outer / inner radius
+  const GAP = 1.2;            // gap between zone arcs (degrees)
+  const VIX_MAX = 40;
+
+  /* ─── Zone definitions ───────────────────────────────────────── */
+  const ZONES = [
+    {
+      name: 'Extreme Complacency', range: 'VIX < 12',
+      color: '#00e676',
+      vMin: 0,  vMax: 12, aStart: 180, aEnd: 126,
+      label: ['EXTREME', 'COMPLACENCY'],
+      impact: 'Markets are dangerously calm. High performance and a steady grind higher — but watch for sharp "rug pull" corrections as complacency peaks.'
+    },
+    {
+      name: 'Healthy / Normal', range: 'VIX 12–20',
+      color: '#ffee58',
+      vMin: 12, vMax: 20, aStart: 126, aEnd: 90,
+      label: ['HEALTHY', 'NORMAL'],
+      impact: 'Tech stocks thrive in stable macro environments. QQQ sees consistent, sustainable growth with minimal headline risk.'
+    },
+    {
+      name: 'Elevated Concern', range: 'VIX 20–30',
+      color: '#ff9100',
+      vMin: 20, vMax: 30, aStart: 90,  aEnd: 45,
+      label: ['ELEVATED', 'CONCERN'],
+      impact: 'Choppy, headline-driven trading. QQQ often struggles to hold gains. Reduce position size and tighten stops.'
+    },
+    {
+      name: 'Extreme Panic', range: 'VIX 30+',
+      color: '#ff1744',
+      vMin: 30, vMax: 40, aStart: 45,  aEnd: 0,
+      label: ['EXTREME', 'PANIC'],
+      impact: 'Maximum fear. While painful initially, extreme VIX spikes are historically the best entry points for massive QQQ rallies. Buy fear, sell greed.'
+    }
+  ];
+
+  /* ─── Math helpers ───────────────────────────────────────────── */
+  const toRad = d => d * Math.PI / 180;
+  const f     = n => n.toFixed(2);
+  const pt    = (r, deg) => [CX + r * Math.cos(toRad(deg)), CY - r * Math.sin(toRad(deg))];
+  const svgEl = tag => document.createElementNS('http://www.w3.org/2000/svg', tag);
+  const v2a   = v => 180 - Math.min(Math.max(v, 0), VIX_MAX) / VIX_MAX * 180;
+  const zoneOf = v => ZONES.find(z => v >= z.vMin && v < z.vMax) ?? ZONES[ZONES.length - 1];
+
+  function arcPath(aS, aE, r1, r2, g = 0) {
+    const s = aS - g, e = aE + g;
+    const large = (s - e) > 180 ? 1 : 0;
+    const [ox1, oy1] = pt(r2, s), [ox2, oy2] = pt(r2, e);
+    const [ix1, iy1] = pt(r1, s), [ix2, iy2] = pt(r1, e);
+    return `M${f(ox1)} ${f(oy1)} A${r2} ${r2} 0 ${large} 0 ${f(ox2)} ${f(oy2)}`
+         + ` L${f(ix2)} ${f(iy2)} A${r1} ${r1} 0 ${large} 1 ${f(ix1)} ${f(iy1)}Z`;
+  }
+
+  /* ─── Zone arcs ──────────────────────────────────────────────── */
+  const gArcs   = document.getElementById('g-arcs');
+  const gLabels = document.getElementById('g-labels');
+
+  ZONES.forEach((z, i) => {
+    const p = svgEl('path');
+    p.setAttribute('d', arcPath(z.aStart, z.aEnd, RI, RO, GAP));
+    p.setAttribute('fill', z.color);
+    p.setAttribute('opacity', '0.78');
+    p.style.cursor = 'pointer';
+    p.style.transition = 'opacity 0.22s, filter 0.22s';
+
+    p.addEventListener('mouseenter', () => {
+      ZONES.forEach((zz, j) => {
+        zz._p.setAttribute('opacity', j === i ? '1' : '0.16');
+        zz._p.style.filter = j === i ? `drop-shadow(0 0 10px ${z.color}55)` : '';
+      });
+      setInfo(z);
+    });
+    p.addEventListener('mouseleave', () => {
+      ZONES.forEach(zz => { zz._p.setAttribute('opacity', '0.78'); zz._p.style.filter = ''; });
+      setInfo(zoneOf(currentVix));
+    });
+
+    z._p = p;
+    gArcs.appendChild(p);
+
+    /* Zone label — two lines, tangent-rotated on arc */
+    const mid = (z.aStart + z.aEnd) / 2;
+    const lr  = (RI + RO) / 2;
+    const [lx, ly] = pt(lr, mid);
+    const rot = -(90 - mid);     // tangent to arc at this angle
+
+    const g = svgEl('g');
+    g.setAttribute('transform', `rotate(${f(rot)} ${f(lx)} ${f(ly)})`);
+    g.style.pointerEvents = 'none';
+
+    z.label.forEach((line, li) => {
+      const t = svgEl('text');
+      t.setAttribute('x', f(lx));
+      t.setAttribute('y', f(ly + (li === 0 ? -5 : 5.5)));
+      t.setAttribute('text-anchor', 'middle');
+      t.setAttribute('dominant-baseline', 'middle');
+      t.setAttribute('fill', '#0d0d0d');
+      t.setAttribute('font-size', '7.5');
+      t.setAttribute('font-weight', '900');
+      t.setAttribute('letter-spacing', '0.05em');
+      t.setAttribute('font-family', 'system-ui, -apple-system, sans-serif');
+      t.textContent = line;
+      g.appendChild(t);
+    });
+
+    gLabels.appendChild(g);
+  });
+
+  /* ─── Tick marks + scale labels ─────────────────────────────── */
+  const gTicks = document.getElementById('g-ticks');
+
+  [0, 12, 20, 30, 40].forEach(v => {
+    const a = v2a(v);
+    const [x1, y1] = pt(RO + 4,  a);
+    const [x2, y2] = pt(RO + 13, a);
+    const [lx, ly] = pt(RO + 24, a);
+
+    const tick = svgEl('line');
+    tick.setAttribute('x1', f(x1)); tick.setAttribute('y1', f(y1));
+    tick.setAttribute('x2', f(x2)); tick.setAttribute('y2', f(y2));
+    tick.setAttribute('stroke', '#303030');
+    tick.setAttribute('stroke-width', '1.5');
+    gTicks.appendChild(tick);
+
+    const t = svgEl('text');
+    t.setAttribute('x', f(lx)); t.setAttribute('y', f(ly));
+    t.setAttribute('text-anchor', 'middle');
+    t.setAttribute('dominant-baseline', 'middle');
+    t.setAttribute('fill', '#303030');
+    t.setAttribute('font-size', '9');
+    t.setAttribute('font-family', 'monospace');
+    t.textContent = v;
+    gTicks.appendChild(t);
+  });
+
+  /* ─── Needle ─────────────────────────────────────────────────── */
+  const gNeedle  = document.getElementById('g-needle');
+  const needleEl = svgEl('path');
+  needleEl.setAttribute('fill', '#e0e0e0');
+  needleEl.setAttribute('opacity', '0.95');
+
+  // Subtle needle shadow
+  const needleShadow = svgEl('path');
+  needleShadow.setAttribute('fill', 'rgba(0,0,0,0.35)');
+  needleShadow.setAttribute('transform', 'translate(1.5,2)');
+
+  const hub = svgEl('circle');
+  hub.setAttribute('cx', CX); hub.setAttribute('cy', CY); hub.setAttribute('r', '8');
+  hub.setAttribute('fill', '#242424');
+  hub.setAttribute('stroke', '#3c3c3c');
+  hub.setAttribute('stroke-width', '1.5');
+
+  gNeedle.appendChild(needleShadow);
+  gNeedle.appendChild(needleEl);
+  gNeedle.appendChild(hub);
+
+  function drawNeedle(v) {
+    const a = v2a(v);
+    const [tx, ty]   = pt(RO - 10, a);
+    const [b1x, b1y] = pt(10, a + 90);
+    const [b2x, b2y] = pt(10, a - 90);
+    const d = `M${f(tx)} ${f(ty)} L${f(b1x)} ${f(b1y)} L${f(b2x)} ${f(b2y)}Z`;
+    needleEl.setAttribute('d', d);
+    needleShadow.setAttribute('d', d);
+  }
+
+  /* ─── Centre VIX readout ─────────────────────────────────────── */
+  const gCenter = document.getElementById('g-center');
+
+  const numEl = svgEl('text');
+  numEl.setAttribute('x', CX);
+  numEl.setAttribute('y', CY + 34);
+  numEl.setAttribute('text-anchor', 'middle');
+  numEl.setAttribute('font-size', '36');
+  numEl.setAttribute('font-weight', '700');
+  numEl.setAttribute('font-family', 'system-ui, -apple-system, sans-serif');
+  gCenter.appendChild(numEl);
+
+  const lblEl = svgEl('text');
+  lblEl.setAttribute('x', CX);
+  lblEl.setAttribute('y', CY + 54);
+  lblEl.setAttribute('text-anchor', 'middle');
+  lblEl.setAttribute('fill', '#2a2a2a');
+  lblEl.setAttribute('font-size', '8.5');
+  lblEl.setAttribute('letter-spacing', '0.22em');
+  lblEl.setAttribute('font-family', 'system-ui, sans-serif');
+  lblEl.textContent = 'VIX';
+  gCenter.appendChild(lblEl);
+
+  /* ─── Info box ───────────────────────────────────────────────── */
+  const infoBox    = document.getElementById('infoBox');
+  const infoName   = document.getElementById('infoName');
+  const infoRange  = document.getElementById('infoRange');
+  const infoImpact = document.getElementById('infoImpact');
+
+  function setInfo(z) {
+    infoName.textContent    = z.name;
+    infoName.style.color    = z.color;
+    infoRange.textContent   = z.range;
+    infoImpact.textContent  = z.impact;
+    infoBox.style.borderColor = z.color + '28';
+  }
+
+  /* ─── Unified update ─────────────────────────────────────────── */
+  let currentVix = 18;
+
+  function update(v) {
+    currentVix = v;
+    const z = zoneOf(v);
+    drawNeedle(v);
+    numEl.setAttribute('fill', z.color);
+    numEl.textContent = v.toFixed(1);
+    setInfo(z);
+  }
+
+  /* ─── Slider ─────────────────────────────────────────────────── */
+  const slider    = document.getElementById('slider');
+  const sliderVal = document.getElementById('sliderVal');
+  slider.addEventListener('input', () => {
+    const v = parseFloat(slider.value);
+    sliderVal.textContent = v.toFixed(1);
+    update(v);
+  });
+
+  /* ─── Init ───────────────────────────────────────────────────── */
+  update(18);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+# Thematic Scanner — every 5 min trigger, 9:00 AM – 4:30 PM ET
+# Scraper takes ~8-10 min, so concurrency queues (not cancels) → effective ~10 min updates
+name: Daily scrape & deploy
+
+on:
+  schedule:
+    - cron: "*/5 12-20 * * 1-5"  # Every 5 min, 12:00–20:55 UTC (covers 9AM-4:30PM ET both seasons)
+  workflow_dispatch: {}
+
+concurrency:
+  group: thematic-scrape
+  cancel-in-progress: false  # Queue — scraper takes ~10 min, cancelling would prevent completion
+
+jobs:
+  scrape-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      issues: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install requests beautifulsoup4 exchange-calendars yfinance lxml
+
+      - name: Check NYSE trading day + ET window (9:00 AM – 4:30 PM)
+        id: trading_day
+        run: |
+          python - <<'EOF'
+          import exchange_calendars as xcals, os
+          from datetime import date, datetime
+          from zoneinfo import ZoneInfo
+
+          nyse = xcals.get_calendar("XNYS")
+          today = date.today().isoformat()
+          is_session = nyse.is_session(today)
+
+          et_now = datetime.now(ZoneInfo("America/New_York"))
+          et_minutes = et_now.hour * 60 + et_now.minute
+          in_window = 540 <= et_minutes <= 990  # 9:00 AM – 4:30 PM ET
+
+          should_run = is_session and in_window
+          print(f"NYSE session: {is_session} | ET: {et_now.strftime('%H:%M')} | in window: {in_window} | will run: {should_run}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"is_trading_day={'true' if should_run else 'false'}\n")
+          EOF
+
+      - name: Run scraper (retry on failure)
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        env:
+          CI: true
+        run: |
+          for attempt in 1 2 3; do
+            echo "=== Scraper attempt $attempt / 3 ==="
+            if python scraper.py; then
+              echo "Scraper OK"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Failed — waiting 2 minutes before retry..."
+              sleep 120
+            fi
+          done
+          echo "Scraper failed after 3 attempts"
+          exit 1
+
+      - name: Commit thematic data to repo
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/thematic_data.json
+          git diff --staged --quiet || git commit -m "data: thematic_data $(date -u +%Y-%m-%dT%H:%M) [skip ci]"
+          git pull --rebase && git push
+
+      - uses: actions/setup-node@v4
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        with:
+          node-version: 18
+
+      - run: npm install --legacy-peer-deps
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+
+      - name: Build React app
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: npm run build
+        env:
+          CI: false
+
+      - uses: actions/configure-pages@v4
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        with:
+          path: ./build
+
+      - id: deployment
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        uses: actions/deploy-pages@v4
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --title "⚠️ Thematic Scanner 失敗 $(date -u +%Y-%m-%dT%H:%M)" \
+            --body "爬蟲或部署失敗，網頁未更新。請查看：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --label "bug"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
