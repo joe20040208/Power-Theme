@@ -638,10 +638,10 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
         </div>
       )}
 
-      {stocks.length > 0 ? (
-        <div className="overflow-x-auto">
+      {stocks.filter(s => (s.gates_passed ?? 5) === 5).length > 0 ? (
+        <div className="overflow-auto max-h-[190px]">
           <table className="w-full text-left">
-            <thead>
+            <thead className="sticky top-0 bg-zinc-900 z-10">
               <tr className="border-b border-zinc-800/60">
                 <th className="px-2 py-1.5 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Ticker</th>
                 <th className="px-2 py-1.5 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Price</th>
@@ -656,7 +656,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
               </tr>
             </thead>
             <tbody>
-              {stocks.map(s => {
+              {stocks.filter(s => (s.gates_passed ?? 5) === 5).map(s => {
                 const gp = s.gates_passed ?? 5;
                 const gatesCls = gp === 5 ? 'text-emerald-400' : gp >= 4 ? 'text-yellow-400' : 'text-zinc-500';
                 const rsCls = (s.rs_52w || 0) >= 85 ? 'text-emerald-400' : (s.rs_52w || 0) >= 70 ? 'text-yellow-400' : 'text-red-400';
@@ -685,7 +685,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
           </table>
         </div>
       ) : (
-        <div className="text-center py-6 text-zinc-600 text-[12px]">No stocks found for this theme</div>
+        <div className="text-center py-6 text-zinc-600 text-[12px]">No 5/5 gate stocks found for this theme</div>
       )}
     </div>
   );
