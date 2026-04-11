@@ -1199,9 +1199,9 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   const chartTop = Math.max(edgeTop, Math.min(anchorRect.top, vh - TV_MAX_H - 130));
 
   // Position popup directly above the chart, aligned to chart's left edge
+  // Use `bottom` (distance from viewport bottom) so popup height doesn't matter
   const left = Math.max(EDGE, Math.min(chartLeft, vw - MAX_W - EDGE));
-  const POPUP_H = 380;
-  const top = Math.max(edgeTop, chartTop - POPUP_H - 8);
+  const bottom = vh - chartTop + 8; // popup bottom edge = chartTop - 8
 
   const rsColor = avgRS >= 70 ? 'text-emerald-400' : avgRS >= 50 ? 'text-yellow-400' : 'text-red-400';
   const perfColor = (v) => v >= 0 ? 'text-emerald-400' : 'text-red-400';
@@ -1210,7 +1210,7 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   return (
     <>
       <div style={{ position:'fixed', inset:0, zIndex:9998 }} onClick={onClose}/>
-      <div style={{ position:'fixed', left, top, width:MAX_W, zIndex:10000, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden' }}
+      <div style={{ position:'fixed', left, bottom, width:MAX_W, zIndex:10000, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden', maxHeight:`calc(100vh - ${edgeTop}px - ${bottom}px - 8px)`, overflowY:'auto' }}
         onClick={e => e.stopPropagation()}>
         {/* Header */}
         <div style={{ background: avg1d >= 0 ? 'rgba(16,185,129,0.12)' : 'rgba(239,68,68,0.12)', borderBottom:'1px solid rgba(63,63,70,0.5)' }}
