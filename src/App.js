@@ -1052,8 +1052,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                 <tr
                   onClick={e => {
                     if (isIndustryView) { setExpanded(isExpanded ? null : t.name); return; }
-                    const heatmapRect = document.getElementById('theme-heatmap')?.getBoundingClientRect() || e.currentTarget.getBoundingClientRect();
-                    setThemeStats(prev => prev?.themeName === t.name ? null : { themeName: t.name, anchorRect: heatmapRect });
                     onThemeSelect && onThemeSelect(t.name);
                   }}
                   className={`border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
@@ -1062,7 +1060,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                     <div className="flex items-center gap-1.5">
                       <span
                         className="text-[12px] font-semibold text-zinc-200 cursor-pointer hover:text-blue-400 transition-colors"
-                        onClick={e => { e.stopPropagation(); const etf = THEME_ETF_MAP[t.name]; if (!etf) return; const rect = e.currentTarget.getBoundingClientRect(); setThemeHover(prev => prev?.ticker === etf ? null : { ticker: etf, rect }); }}
+                        onClick={e => { e.stopPropagation(); const etf = THEME_ETF_MAP[t.name]; const rect = e.currentTarget.getBoundingClientRect(); if (etf) setThemeHover(prev => prev?.ticker === etf ? null : { ticker: etf, rect }); setThemeStats(prev => prev?.themeName === t.name ? null : { themeName: t.name, anchorRect: rect }); }}
                       >{t.name}</span>
                       {t.stage2_momentum && <span className="px-1.5 py-0.5 text-[9px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full leading-none">STAGE 2</span>}
                       {t.n_industries && <span className="text-[10px] text-zinc-600">{t.n_industries} ind</span>}
@@ -1181,12 +1179,17 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   if (!anchorRect) return null;
   const MAX_W = 420, EDGE = 12;
   const vw = window.innerWidth, vh = window.innerHeight;
-  // Center horizontally over the heatmap
-  const centeredLeft = anchorRect.left + (anchorRect.width - MAX_W) / 2;
-  const left = Math.max(EDGE, Math.min(centeredLeft, vw - MAX_W - EDGE));
   const navEl = document.getElementById("app-navbar");
   const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
-  const top = Math.max(edgeTop, Math.min(anchorRect.top, vh - EDGE - 300));
+  // Position on top of chart: same side logic as TVPopup
+  const anchorCenterX = anchorRect.left + anchorRect.width / 2;
+  let left;
+  if (anchorCenterX > vw / 2) {
+    left = Math.max(EDGE, anchorRect.left - MAX_W - 8);
+  } else {
+    left = Math.max(EDGE, Math.min(anchorRect.right + 4, vw - MAX_W - EDGE));
+  }
+  const top = Math.max(edgeTop, Math.min(anchorRect.top, vh - EDGE - 400));
 
   const rsColor = avgRS >= 70 ? 'text-emerald-400' : avgRS >= 50 ? 'text-yellow-400' : 'text-red-400';
   const perfColor = (v) => v >= 0 ? 'text-emerald-400' : 'text-red-400';
@@ -1195,7 +1198,7 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   return (
     <>
       <div style={{ position:'fixed', inset:0, zIndex:9998 }} onClick={onClose}/>
-      <div style={{ position:'fixed', left, top, width:MAX_W, zIndex:9999, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden' }}
+      <div style={{ position:'fixed', left, top, width:MAX_W, zIndex:10000, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden' }}
         onClick={e => e.stopPropagation()}>
         {/* Header */}
         <div style={{ background: avg1d >= 0 ? 'rgba(16,185,129,0.12)' : 'rgba(239,68,68,0.12)', borderBottom:'1px solid rgba(63,63,70,0.5)' }}
