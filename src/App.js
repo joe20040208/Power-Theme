@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import React, { useState, useEffect, useLayoutEffect, useMemo, useCallback, useRef } from "react";
 import { ChevronDown, ChevronRight, Star, Activity, BarChart3, RefreshCw, Search, SlidersHorizontal, X, Layers, Zap, TrendingUp, AlertTriangle, Trophy, Landmark, Minimize2, Clock, ExternalLink, FlaskConical } from "lucide-react";
 import { useReactTable, getCoreRowModel, flexRender } from "@tanstack/react-table";
 import useMarketStore from "./useMarketStore";
@@ -1159,6 +1159,9 @@ const TVPopup = ({ ticker, anchorRect, chartUrl, onClose }) => {
 };
 
 const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
+  const popupRef = useRef(null);
+  const [popupStyle, setPopupStyle] = useState({ visibility: 'hidden', top: 0, left: 0 });
+
   const stocks = useMemo(() => {
     if (!themeName || !themes) return [];
     const theme = themes.find(t => normalizeTheme(t).name.toLowerCase() === themeName.toLowerCase());
@@ -1178,29 +1181,33 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   const best      = sorted.filter(s => (s.perf_1d ?? 0) > 0).slice(0, 3);
   const worst     = sorted.filter(s => (s.perf_1d ?? 0) < 0).slice(-3).reverse();
 
+  // After render, measure actual popup height and position bottom edge at chart top
+  useLayoutEffect(() => {
+    if (!popupRef.current || !anchorRect) return;
+    const popupH = popupRef.current.getBoundingClientRect().height;
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const navEl = document.getElementById("app-navbar");
+    const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
+    const TV_MAX_W = 600, TV_MAX_H = 200, TV_EDGE = 8;
+    const anchorCenterX = anchorRect.left + anchorRect.width / 2;
+    let chartLeft;
+    if (anchorCenterX > vw / 2) {
+      const panelLeft = document.getElementById("search-result-panel")?.getBoundingClientRect().left ?? anchorRect.left;
+      const maxRight = panelLeft - 20;
+      const chartW = Math.max(220, Math.min(TV_MAX_W, maxRight - TV_EDGE));
+      chartLeft = Math.max(TV_EDGE, maxRight - chartW);
+    } else {
+      chartLeft = Math.max(TV_EDGE, Math.min(anchorRect.right + 4, vw - TV_MAX_W - TV_EDGE));
+    }
+    const chartTop = Math.max(edgeTop, Math.min(anchorRect.top, vh - TV_MAX_H - 130));
+    const MAX_W = 420, EDGE = 8;
+    const left = Math.max(EDGE, Math.min(chartLeft, vw - MAX_W - EDGE));
+    const top = Math.max(edgeTop, chartTop - popupH);
+    setPopupStyle({ visibility: 'visible', top, left });
+  }, [anchorRect, themeName, stocks.length]);
+
   if (!anchorRect) return null;
-  const MAX_W = 420, EDGE = 8;
-  const vw = window.innerWidth, vh = window.innerHeight;
-  const navEl = document.getElementById("app-navbar");
-  const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
-
-  // Mirror TVPopup left: chart appears right of anchor (left half) or left of anchor (right half)
-  const TV_MAX_W = 600, TV_MAX_H = 200, TV_EDGE = 8;
-  const anchorCenterX = anchorRect.left + anchorRect.width / 2;
-  let chartLeft;
-  if (anchorCenterX > vw / 2) {
-    const panelLeft = document.getElementById("search-result-panel")?.getBoundingClientRect().left ?? anchorRect.left;
-    const maxRight = panelLeft - 20;
-    const chartW = Math.max(220, Math.min(TV_MAX_W, maxRight - TV_EDGE));
-    chartLeft = Math.max(TV_EDGE, maxRight - chartW);
-  } else {
-    chartLeft = Math.max(TV_EDGE, Math.min(anchorRect.right + 4, vw - TV_MAX_W - TV_EDGE));
-  }
-  const chartTop = Math.max(edgeTop, Math.min(anchorRect.top, vh - TV_MAX_H - 130));
-
-  // Popup bottom edge aligns with chart top edge
-  const left = Math.max(EDGE, Math.min(chartLeft, vw - MAX_W - EDGE));
-  const bottom = vh - chartTop; // popup bottom = chartTop
+  const MAX_W = 420;
 
   const rsColor = avgRS >= 70 ? 'text-emerald-400' : avgRS >= 50 ? 'text-yellow-400' : 'text-red-400';
   const perfColor = (v) => v >= 0 ? 'text-emerald-400' : 'text-red-400';
@@ -1209,7 +1216,7 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   return (
     <>
       <div style={{ position:'fixed', inset:0, zIndex:9998 }} onClick={onClose}/>
-      <div style={{ position:'fixed', left, bottom, width:MAX_W, zIndex:10000, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden', maxHeight:`calc(100vh - ${edgeTop}px - ${bottom}px)`, overflowY:'auto' }}
+      <div ref={popupRef} style={{ position:'fixed', ...popupStyle, width:MAX_W, zIndex:10000, borderRadius:10, border:'1px solid rgba(63,63,70,0.7)', boxShadow:'0 24px 64px rgba(0,0,0,0.85)', background:'#18181b', overflow:'hidden' }}
         onClick={e => e.stopPropagation()}>
         {/* Header */}
         <div style={{ background: avg1d >= 0 ? 'rgba(16,185,129,0.12)' : 'rgba(239,68,68,0.12)', borderBottom:'1px solid rgba(63,63,70,0.5)' }}
