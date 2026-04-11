@@ -1151,7 +1151,7 @@ const TVPopup = ({ ticker, anchorRect, chartUrl, onClose }) => {
   return (
     <>
       {onClose && <div style={{ position:"fixed", inset:0, zIndex:9998 }} onClick={onClose}/>}
-      <div style={{ position:"fixed", left, top, width:W, height:H, zIndex:9999, borderRadius:8, overflow:"hidden", border:"1px solid #27272a", boxShadow:"0 24px 64px rgba(0,0,0,0.85)", pointerEvents:"none", background:"#fff" }}>
+      <div id="tv-popup-chart" style={{ position:"fixed", left, top, width:W, height:H, zIndex:9999, borderRadius:8, overflow:"hidden", border:"1px solid #27272a", boxShadow:"0 24px 64px rgba(0,0,0,0.85)", pointerEvents:"none", background:"#fff" }}>
         <img src={src} alt={ticker} referrerPolicy="no-referrer" style={{ width:"100%", height:"100%", objectFit:"fill", display:"block" }}/>
       </div>
     </>
@@ -1185,24 +1185,24 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   useLayoutEffect(() => {
     if (!popupRef.current || !anchorRect) return;
     const popupH = popupRef.current.getBoundingClientRect().height;
-    const vw = window.innerWidth, vh = window.innerHeight;
+    const vw = window.innerWidth;
     const navEl = document.getElementById("app-navbar");
     const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
-    const TV_MAX_W = 600, TV_MAX_H = 200, TV_EDGE = 8;
-    const anchorCenterX = anchorRect.left + anchorRect.width / 2;
-    let chartLeft;
-    if (anchorCenterX > vw / 2) {
-      const panelLeft = document.getElementById("search-result-panel")?.getBoundingClientRect().left ?? anchorRect.left;
-      const maxRight = panelLeft - 20;
-      const chartW = Math.max(220, Math.min(TV_MAX_W, maxRight - TV_EDGE));
-      chartLeft = Math.max(TV_EDGE, maxRight - chartW);
-    } else {
-      chartLeft = Math.max(TV_EDGE, Math.min(anchorRect.right + 4, vw - TV_MAX_W - TV_EDGE));
-    }
-    const chartTop = Math.max(edgeTop, Math.min(anchorRect.top, vh - TV_MAX_H - 130));
     const MAX_W = 420, EDGE = 8;
-    const left = Math.max(EDGE, Math.min(chartLeft, vw - MAX_W - EDGE));
-    const top = Math.max(edgeTop, chartTop - popupH);
+
+    // Read TVPopup chart's actual DOM position directly
+    const chartEl = document.getElementById('tv-popup-chart');
+    const chartRect = chartEl ? chartEl.getBoundingClientRect() : null;
+
+    let left, top;
+    if (chartRect) {
+      left = Math.max(EDGE, Math.min(chartRect.left, vw - MAX_W - EDGE));
+      top = Math.max(edgeTop, chartRect.top - popupH);
+    } else {
+      // fallback: anchor-based positioning
+      left = Math.max(EDGE, Math.min(anchorRect.right + 4, vw - MAX_W - EDGE));
+      top = Math.max(edgeTop, anchorRect.top - popupH);
+    }
     setPopupStyle({ visibility: 'visible', top, left });
   }, [anchorRect, themeName, stocks.length]);
 
