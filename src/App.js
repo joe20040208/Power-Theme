@@ -1177,19 +1177,29 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   const worst     = sorted.filter(s => (s.perf_1d ?? 0) < 0).slice(-3).reverse();
 
   if (!anchorRect) return null;
-  const MAX_W = 420, EDGE = 12;
+  const MAX_W = 420, EDGE = 8;
   const vw = window.innerWidth, vh = window.innerHeight;
   const navEl = document.getElementById("app-navbar");
   const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
-  // Position on top of chart: same side logic as TVPopup
+
+  // Mirror TVPopup left: chart appears right of anchor (left half) or left of anchor (right half)
+  const TV_MAX_W = 600, TV_MAX_H = 200, TV_EDGE = 8;
   const anchorCenterX = anchorRect.left + anchorRect.width / 2;
-  let left;
+  let chartLeft;
   if (anchorCenterX > vw / 2) {
-    left = Math.max(EDGE, anchorRect.left - MAX_W - 8);
+    const panelLeft = document.getElementById("search-result-panel")?.getBoundingClientRect().left ?? anchorRect.left;
+    const maxRight = panelLeft - 20;
+    const chartW = Math.max(220, Math.min(TV_MAX_W, maxRight - TV_EDGE));
+    chartLeft = Math.max(TV_EDGE, maxRight - chartW);
   } else {
-    left = Math.max(EDGE, Math.min(anchorRect.right + 4, vw - MAX_W - EDGE));
+    chartLeft = Math.max(TV_EDGE, Math.min(anchorRect.right + 4, vw - TV_MAX_W - TV_EDGE));
   }
-  const top = Math.max(edgeTop, Math.min(anchorRect.top, vh - EDGE - 400));
+  const chartTop = Math.max(edgeTop, Math.min(anchorRect.top, vh - TV_MAX_H - 130));
+
+  // Position popup directly above the chart, aligned to chart's left edge
+  const left = Math.max(EDGE, Math.min(chartLeft, vw - MAX_W - EDGE));
+  const POPUP_H = 380;
+  const top = Math.max(edgeTop, chartTop - POPUP_H - 8);
 
   const rsColor = avgRS >= 70 ? 'text-emerald-400' : avgRS >= 50 ? 'text-yellow-400' : 'text-red-400';
   const perfColor = (v) => v >= 0 ? 'text-emerald-400' : 'text-red-400';
