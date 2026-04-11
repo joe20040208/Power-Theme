@@ -844,7 +844,7 @@ const ThemeHeatmap = ({ themes, finvizThemeRankings }) => {
   if (!topBottom.length) return null;
 
   return (
-    <div className="mb-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-3">
+    <div id="theme-heatmap" className="mb-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-3">
       <div className="flex items-center justify-between mb-2">
         <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.18em]">
           Theme Heatmap — 1D RS Performance
@@ -1052,8 +1052,8 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                 <tr
                   onClick={e => {
                     if (isIndustryView) { setExpanded(isExpanded ? null : t.name); return; }
-                    const rect = e.currentTarget.getBoundingClientRect();
-                    setThemeStats(prev => prev?.themeName === t.name ? null : { themeName: t.name, anchorRect: rect });
+                    const heatmapRect = document.getElementById('theme-heatmap')?.getBoundingClientRect() || e.currentTarget.getBoundingClientRect();
+                    setThemeStats(prev => prev?.themeName === t.name ? null : { themeName: t.name, anchorRect: heatmapRect });
                     onThemeSelect && onThemeSelect(t.name);
                   }}
                   className={`border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
@@ -1181,16 +1181,9 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, onClose }) => {
   if (!anchorRect) return null;
   const MAX_W = 420, EDGE = 12;
   const vw = window.innerWidth, vh = window.innerHeight;
-  const spaceRight = vw - anchorRect.right - EDGE;
-  const spaceLeft  = anchorRect.left - EDGE;
-  let left;
-  if (spaceRight >= MAX_W) {
-    left = anchorRect.right + 8;
-  } else if (spaceLeft >= MAX_W) {
-    left = anchorRect.left - MAX_W - 8;
-  } else {
-    left = Math.max(EDGE, Math.min(anchorRect.left, vw - MAX_W - EDGE));
-  }
+  // Center horizontally over the heatmap
+  const centeredLeft = anchorRect.left + (anchorRect.width - MAX_W) / 2;
+  const left = Math.max(EDGE, Math.min(centeredLeft, vw - MAX_W - EDGE));
   const navEl = document.getElementById("app-navbar");
   const edgeTop = navEl ? navEl.getBoundingClientRect().bottom + 8 : 72;
   const top = Math.max(edgeTop, Math.min(anchorRect.top, vh - EDGE - 300));
