@@ -1110,8 +1110,10 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
         )}
       </div>
     </div>
-    {themeHover && <TVPopup ticker={themeHover.ticker} anchorRect={themeHover.rect} onClose={() => setThemeHover(null)}/>}
-    {themeStats && <ThemeStatsPopup themeName={themeStats.themeName} themes={themes} anchorRect={themeStats.anchorRect} onClose={() => setThemeStats(null)}/>}
+    {(themeHover || themeStats) && (() => { const closeAll = () => { setThemeHover(null); setThemeStats(null); }; return (<>
+      {themeHover && <TVPopup ticker={themeHover.ticker} anchorRect={themeHover.rect} onClose={closeAll}/>}
+      {themeStats && <ThemeStatsPopup themeName={themeStats.themeName} themes={themes} anchorRect={themeStats.anchorRect} onClose={closeAll}/>}
+    </>); })()}
     </>
   );
 };
