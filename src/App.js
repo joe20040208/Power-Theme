@@ -1891,6 +1891,10 @@ const PositionCalc = ({ ibkrThemesData }) => {
   const [stopStrategy, setStopStrategy] = React.useState('3');
   const [stopMode, setStopMode] = React.useState('atr');
   const [manualStop, setManualStop] = React.useState('');
+  const [lodTicker, setLodTicker] = React.useState('');
+  const [lod, setLod] = React.useState(null);
+  const [lodLoading, setLodLoading] = React.useState(false);
+  const [lodError, setLodError] = React.useState(false);
 
   const accountEquity = ibkrThemesData?.account_equity ?? null;
   const effectiveEquity = accountEquity != null ? accountEquity : (parseFloat(equity) || 0);
@@ -1899,8 +1903,31 @@ const PositionCalc = ({ ibkrThemesData }) => {
   const a = parseFloat(atr) || 0;
   const r = parseFloat(riskPct) || 1;
 
-  const shares = (effectiveEquity > 0 && a > 0)
-    ? Math.floor((effectiveEquity * r / 100) / a)
+  const fetchLOD = React.useCallback(async (sym) => {
+    const s = sym.trim().toUpperCase();
+    if (!s) return;
+    setLodLoading(true);
+    setLodError(false);
+    setLod(null);
+    try {
+      const res = await fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FINNHUB_KEY}`);
+      const data = await res.json();
+      const low = data?.l;
+      if (low != null && low > 0) setLod(parseFloat(low.toFixed(2)));
+      else setLodError(true);
+    } catch {
+      setLodError(true);
+    } finally {
+      setLodLoading(false);
+    }
+  }, []);
+
+  // risk unit: entry − LOD (LOD mode), ATR (ATR/manual mode)
+  const lodRisk = lod != null && e > lod ? e - lod : 0;
+  const riskUnit = stopMode === 'lod' ? lodRisk : a;
+
+  const shares = (effectiveEquity > 0 && riskUnit > 0)
+    ? Math.floor((effectiveEquity * r / 100) / riskUnit)
     : null;
 
   let stops = [];
@@ -1908,6 +1935,8 @@ const PositionCalc = ({ ibkrThemesData }) => {
     if (stopMode === 'manual') {
       const ms = parseFloat(manualStop);
       if (ms > 0) stops = [ms];
+    } else if (stopMode === 'lod') {
+      if (lod != null && lod > 0) stops = [lod];
     } else if (a > 0) {
       stops = stopStrategy === '3'
         ? [e - a, e - 2 * a, e - 3 * a]
@@ -1915,8 +1944,8 @@ const PositionCalc = ({ ibkrThemesData }) => {
     }
   }
 
-  const dollarRisk = shares != null && a > 0 ? shares * a : null;
-  const target2r = e > 0 && a > 0 ? e + 2 * a : null;
+  const dollarRisk = shares != null && riskUnit > 0 ? shares * riskUnit : null;
+  const target2r = e > 0 && riskUnit > 0 ? e + 2 * riskUnit : null;
 
   const fmtPrice = v => v != null ? `$${v.toFixed(2)}` : '—';
   const fmtDollar = v => v != null ? `$${v.toLocaleString('en-US', { maximumFractionDigits: 0 })}` : '—';
@@ -1975,6 +2004,26 @@ const PositionCalc = ({ ibkrThemesData }) => {
         <Tog active={stopMode === 'manual'} onClick={() => setStopMode('manual')}>Manual</Tog>
       </div>
 
+      {/* LOD ticker input */}
+      {stopMode === 'lod' && (
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-[10px] text-zinc-500 flex-shrink-0">Ticker</span>
+          <input
+            type="text" value={lodTicker}
+            onChange={ev => { setLodTicker(ev.target.value.toUpperCase()); setLod(null); setLodError(false); }}
+            onBlur={() => fetchLOD(lodTicker)}
+            onKeyDown={ev => ev.key === 'Enter' && fetchLOD(lodTicker)}
+            placeholder="e.g. AAPL"
+            className="flex-1 bg-zinc-800/60 border border-zinc-700/50 rounded px-2 py-1 text-[11px] font-mono text-zinc-200 placeholder-zinc-700 outline-none focus:border-zinc-600 uppercase"/>
+          <span className="text-[11px] font-mono min-w-[48px] text-right">
+            {lodLoading ? <span className="text-zinc-500">...</span>
+              : lodError ? <span className="text-red-400">ERR</span>
+              : lod != null ? <span className="text-amber-400">${lod.toFixed(2)}</span>
+              : null}
+          </span>
+        </div>
+      )}
+
       {/* Manual stop price input */}
       {stopMode === 'manual' && (
         <div className="flex items-center gap-2 mb-2">
@@ -1992,7 +2041,7 @@ const PositionCalc = ({ ibkrThemesData }) => {
         </div>
         {stops.map((s, i) => (
           <div key={i}>
-            <div className="text-[9px] text-zinc-600 mb-0.5">Stop {i + 1}</div>
+            <div className="text-[9px] text-zinc-600 mb-0.5">{stopMode === 'lod' ? 'LOD Stop' : `Stop ${i + 1}`}</div>
             <div className="text-[13px] font-mono font-bold text-zinc-300">{fmtPrice(s)}</div>
           </div>
         ))}
