@@ -2259,7 +2259,91 @@ const VixFearGaugeV2 = ({ vix }) => {
   );
 };
 
+const INTERNALS_NOTES = [
+  {
+    label: "ADV/DEC",
+    desc: "漲跌家數比",
+    lines: [
+      "漲的股票數 / 跌的股票數",
+      "綠 ≥60%：多頭廣度健康",
+      "黃 40–60%：中性，謹慎選股",
+      "紅 <40%：空頭廣度，避免追高",
+      "跌多漲少 → 即使指數平，內部已惡化",
+    ],
+  },
+  {
+    label: "SMA50 ↑",
+    desc: "站上 50 日線的股票佔比",
+    lines: [
+      "短中線健康度指標",
+      "≥60%：多頭動能充足",
+      "40–60%：邊緣，選強勢股",
+      "<40%：中期偏弱",
+      "箭頭 ↑ = 比例上升中（改善）",
+    ],
+  },
+  {
+    label: "SMA200 ↑",
+    desc: "站上 200 日線的股票佔比",
+    lines: [
+      "長線牛熊分界指標",
+      "≥60%：長線牛市結構",
+      "50–60%：警戒，注意守線",
+      "<50%：近半股票進入長線下跌",
+    ],
+  },
+  {
+    label: "52W Hi",
+    desc: "創 52 週新高的股票數",
+    lines: [
+      "數字越大 = 多頭動能越強",
+      "理想：Hi >> Lo（Hi/Lo 比值 >5）",
+      "進度條滿格 ≈ 500 檔",
+    ],
+  },
+  {
+    label: "52W Lo",
+    desc: "創 52 週新低的股票數",
+    lines: [
+      "數字小 = 恐慌有限、空頭壓力輕",
+      "若 Lo 突然暴增 → 市場開始崩潰",
+    ],
+  },
+  {
+    label: "TICK",
+    desc: "NYSE 瞬間漲跌家數差（盤中即時）",
+    lines: [
+      "+800 以上：機構搶買，極度強勢",
+      "+200 ~ +800：偏多",
+      "-200 ~ +200：中性震盪",
+      "-800 以下：恐慌拋售",
+      "盤後顯示「—」為正常",
+    ],
+  },
+  {
+    label: "TRIN",
+    desc: "Arms Index — 成交量加權漲跌比（盤中即時）",
+    lines: [
+      "<0.7：成交量集中在漲股，Buy 訊號",
+      "0.7–1.3：中性",
+      ">1.3：成交量集中在跌股，Sell 訊號",
+      ">2.0：極度恐慌，可能短線超賣反彈",
+    ],
+  },
+  {
+    label: "T2108",
+    desc: "站上 40 日線的股票佔比（Worden）",
+    lines: [
+      "<20%：市場超賣，尋找反彈機會",
+      "20–70%：正常區間",
+      ">70%：過熱，注意回調風險",
+      "盤後顯示「—」為正常",
+    ],
+  },
+];
+
 const MarketInternalsV2 = ({ mc, internalsData }) => {
+  const [showNotes, setShowNotes] = React.useState(false);
   if (!mc) return null;
   const { adv_dec, new_hl, sma50_counts, sma200_counts } = mc;
   const advTxt = adv_dec ? `${adv_dec.advancing}/${adv_dec.declining}` : "—";
@@ -2285,34 +2369,66 @@ const MarketInternalsV2 = ({ mc, internalsData }) => {
   };
   return (
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <PanelLabel badge="IBKR">Market Internals</PanelLabel>
-      <div className="space-y-1.5">
-        <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">ADV/DEC</span><span className={`font-mono font-semibold ${advCls}`}>{advTxt}</span></div>
-          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${advBar}`} style={{ width: `${Math.min(100, Math.max(0, advPct))}%` }}/></div>
-        </div>
-        <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
-          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma50bar}`} style={{ width: `${Math.min(100, sma50pct)}%` }}/></div>
-        </div>
-        <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
-          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma200bar}`} style={{ width: `${Math.min(100, sma200pct)}%` }}/></div>
-        </div>
-        <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
-          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-blue-500" style={{ width: `${Math.min(100, (newHigh / 500) * 100)}%` }}/></div>
-        </div>
-        <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-400">{newLow}</span></div>
-          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-red-500" style={{ width: `${Math.min(100, (newLow / 500) * 100)}%` }}/></div>
-        </div>
+      <div className="flex items-center justify-between mb-2">
+        <PanelLabel badge="IBKR">Market Internals</PanelLabel>
+        <button
+          onClick={() => setShowNotes(v => !v)}
+          className={`text-[10px] px-2 py-0.5 rounded border transition-colors ${
+            showNotes
+              ? "border-zinc-500 text-zinc-300 bg-zinc-800"
+              : "border-zinc-700 text-zinc-500 hover:text-zinc-300 hover:border-zinc-500"
+          }`}
+        >
+          {showNotes ? "▲ 注釋" : "▼ 注釋"}
+        </button>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[10px] font-mono">
-        <span className="text-zinc-500">TICK</span><span className={`text-right ${tick == null ? "text-zinc-600" : tick >= 0 ? "text-emerald-400" : "text-red-400"}`}>{tick == null ? "—" : (tick > 0 ? "+" : "") + tick}</span>
-        <span className="text-zinc-500">TRIN</span><span className="text-zinc-300 text-right">{trin == null ? "—" : `${trin.toFixed(2)} ${interpret("trin", trin)}`}</span>
-        <span className="text-zinc-500">T2108</span><span className="text-zinc-300 text-right">{t2108 == null ? "—" : `${t2108.toFixed(2)} ${interpret("t2108", t2108)}`}</span>
-      </div>
+      {showNotes ? (
+        <div className="space-y-2.5">
+          {INTERNALS_NOTES.map(n => (
+            <div key={n.label} className="border-b border-zinc-800/60 pb-2 last:border-0 last:pb-0">
+              <div className="flex items-baseline gap-1.5 mb-0.5">
+                <span className="text-[10px] font-semibold text-zinc-200">{n.label}</span>
+                <span className="text-[9px] text-zinc-500">{n.desc}</span>
+              </div>
+              <ul className="space-y-0.5">
+                {n.lines.map((l, i) => (
+                  <li key={i} className="text-[9px] text-zinc-400 leading-snug pl-2 before:content-['·'] before:mr-1 before:text-zinc-600">{l}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <>
+          <div className="space-y-1.5">
+            <div>
+              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">ADV/DEC</span><span className={`font-mono font-semibold ${advCls}`}>{advTxt}</span></div>
+              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${advBar}`} style={{ width: `${Math.min(100, Math.max(0, advPct))}%` }}/></div>
+            </div>
+            <div>
+              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
+              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma50bar}`} style={{ width: `${Math.min(100, sma50pct)}%` }}/></div>
+            </div>
+            <div>
+              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
+              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma200bar}`} style={{ width: `${Math.min(100, sma200pct)}%` }}/></div>
+            </div>
+            <div>
+              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
+              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-blue-500" style={{ width: `${Math.min(100, (newHigh / 500) * 100)}%` }}/></div>
+            </div>
+            <div>
+              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-400">{newLow}</span></div>
+              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-red-500" style={{ width: `${Math.min(100, (newLow / 500) * 100)}%` }}/></div>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[10px] font-mono">
+            <span className="text-zinc-500">TICK</span><span className={`text-right ${tick == null ? "text-zinc-600" : tick >= 0 ? "text-emerald-400" : "text-red-400"}`}>{tick == null ? "—" : (tick > 0 ? "+" : "") + tick}</span>
+            <span className="text-zinc-500">TRIN</span><span className="text-zinc-300 text-right">{trin == null ? "—" : `${trin.toFixed(2)} ${interpret("trin", trin)}`}</span>
+            <span className="text-zinc-500">T2108</span><span className="text-zinc-300 text-right">{t2108 == null ? "—" : `${t2108.toFixed(2)} ${interpret("t2108", t2108)}`}</span>
+          </div>
+        </>
+      )}
     </div>
   );
 };
