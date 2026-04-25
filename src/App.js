@@ -2247,7 +2247,9 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
   }, [thematicData]);
 
   // risk unit: entry − LOD (LOD mode), entry − manualStop (manual mode), ATR (ATR mode)
-  const lodRisk = lod != null && e > lod ? e - lod : 0;
+  // LOD stop is placed 0.08% below the actual LOD to avoid being stopped by brief wicks
+  const effectiveLod = lod != null && lod > 0 ? parseFloat((lod * (1 - 0.0008)).toFixed(2)) : null;
+  const lodRisk = effectiveLod != null && e > effectiveLod ? e - effectiveLod : 0;
   const ms = parseFloat(manualStop);
   const manualRisk = stopMode === 'manual' && ms > 0 && e > ms ? e - ms : 0;
   const riskUnit = stopMode === 'lod' ? lodRisk : stopMode === 'manual' ? manualRisk : a;
@@ -2261,9 +2263,9 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
     if (stopMode === 'manual') {
       if (ms > 0) stops = [ms];
     } else if (stopMode === 'lod') {
-      if (lod != null && lod > 0 && e > lod) {
+      if (effectiveLod != null && effectiveLod > 0 && e > effectiveLod) {
         const n = parseInt(stopStrategy, 10);
-        const dist = e - lod;
+        const dist = e - effectiveLod;
         stops = Array.from({ length: n }, (_, i) => e - dist * (i + 1) / n);
       }
     } else if (a > 0) {
@@ -2409,7 +2411,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
                       {stopMode === 'atr'
                         ? (stopStrategy === '3' ? `−${i + 1}× ATR` : (i === 0 ? '−1.5× ATR' : '−3× ATR'))
                         : stopMode === 'lod'
-                          ? (i === stops.length - 1 ? 'LOD' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
+                          ? (i === stops.length - 1 ? 'LOD −0.08%' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
                           : `Stop ${i + 1}`}
                     </div>
                     <div className="text-[12px] font-mono font-bold text-zinc-200">{fmtPrice(s)}</div>
