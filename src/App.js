@@ -2261,7 +2261,11 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
     if (stopMode === 'manual') {
       if (ms > 0) stops = [ms];
     } else if (stopMode === 'lod') {
-      if (lod != null && lod > 0) stops = [lod];
+      if (lod != null && lod > 0 && e > lod) {
+        const n = parseInt(stopStrategy, 10);
+        const dist = e - lod;
+        stops = Array.from({ length: n }, (_, i) => e - dist * (i + 1) / n);
+      }
     } else if (a > 0) {
       stops = stopStrategy === '3'
         ? [e - a, e - 2 * a, e - 3 * a]
@@ -2404,7 +2408,9 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
                     <div className="text-[8px] text-zinc-500 uppercase">
                       {stopMode === 'atr'
                         ? (stopStrategy === '3' ? `−${i + 1}× ATR` : (i === 0 ? '−1.5× ATR' : '−3× ATR'))
-                        : `Stop ${i + 1}`}
+                        : stopMode === 'lod'
+                          ? (i === stops.length - 1 ? 'LOD' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
+                          : `Stop ${i + 1}`}
                     </div>
                     <div className="text-[12px] font-mono font-bold text-zinc-200">{fmtPrice(s)}</div>
                     {lossPct > 0 && <div className="text-[9px] font-mono text-red-400/80">−{lossPct.toFixed(2)}%</div>}
