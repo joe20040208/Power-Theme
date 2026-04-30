@@ -1167,9 +1167,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                   </div>
                 </div>
               </th>
-              {view === "themes" && (
-                <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap text-center">Source</th>
-              )}
             </tr>
           </thead>
           <tbody>
@@ -1295,11 +1292,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                       : (rsVal > 0 ? `+${rsVal}` : `${rsVal}`);
                     return <td className={`px-1 py-1.5 align-middle text-center text-[11px] font-mono font-bold ${cls}`}>{display}</td>;
                   })()}
-                  {view === "themes" && (
-                    <td className="px-1 py-1.5 align-middle text-center">
-                      <IbkrSourceBadge source={hasIbkrSource ? 'ibkr' : 'fallback'} />
-                    </td>
-                  )}
                 </tr>
                 {isExpanded && industries.map(ind => (
                   <tr key={ind.name} className="bg-zinc-800/20 border-b border-zinc-800/20">
