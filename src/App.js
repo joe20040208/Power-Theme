@@ -344,9 +344,9 @@ const RSvsSPYBadge = ({ stockPerf, spyPerf }) => {
   if (stockPerf == null || spyPerf == null)
     return <span className="text-[11px] text-zinc-700">—</span>;
   const diff = stockPerf - spyPerf;
-  if (diff > 5) return <span className="px-1 py-0.5 text-[10px] font-bold rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/20">Leader</span>;
-  if (diff < -5) return <span className="px-1 py-0.5 text-[10px] font-bold rounded bg-orange-500/15 text-orange-400 border border-orange-500/20">Lagging</span>;
-  return <span className="px-1 py-0.5 text-[10px] font-bold rounded bg-zinc-700/40 text-zinc-500 border border-zinc-600/30">In-Line</span>;
+  if (diff > 5) return <span className="px-1 py-0.5 text-[11px] font-bold rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/20">Leader</span>;
+  if (diff < -5) return <span className="px-1 py-0.5 text-[11px] font-bold rounded bg-orange-500/15 text-orange-400 border border-orange-500/20">Lagging</span>;
+  return <span className="px-1 py-0.5 text-[11px] font-bold rounded bg-zinc-700/40 text-zinc-500 border border-zinc-600/30">In-Line</span>;
 };
 
 // ── Market Condition ──
@@ -389,7 +389,7 @@ const MarketCondition = ({ mc }) => {
       <div className="flex-1 min-w-[160px] bg-zinc-900/60 border border-zinc-700/40 rounded-lg px-3 py-2">
         <div className="flex justify-between items-baseline mb-1.5">
           <span className="text-[11px] font-semibold text-emerald-400">{leftLabel}</span>
-          {centerLabel && <span className="text-[10px] text-zinc-500 font-medium">{centerLabel}</span>}
+          {centerLabel && <span className="text-[11px] text-zinc-500 font-medium">{centerLabel}</span>}
           <span className="text-[11px] font-semibold text-red-400">{rightLabel}</span>
         </div>
         <div className="flex justify-between items-baseline mb-1">
@@ -612,7 +612,7 @@ const IbkrGatesBadge = ({ passed }) => {
             : passed === 4 ? 'bg-yellow-500/15 text-yellow-400 border-yellow-500/30'
             :                'bg-red-500/15 text-red-400 border-red-500/30';
   return (
-    <span className={`inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[10px] font-bold rounded border font-mono ${cls}`}>
+    <span className={`inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[11px] font-bold rounded border font-mono ${cls}`}>
       ✓ {passed}/{total}
     </span>
   );
@@ -621,7 +621,7 @@ const IbkrGatesBadge = ({ passed }) => {
 const IbkrSourceBadge = ({ source }) => {
   const isIbkr = source === 'ibkr';
   return (
-    <span className={`px-1.5 py-0.5 text-[10px] font-bold rounded border font-mono ${isIbkr ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30' : 'bg-zinc-700/40 text-zinc-500 border-zinc-600/40'}`}>
+    <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border font-mono ${isIbkr ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30' : 'bg-zinc-700/40 text-zinc-500 border-zinc-600/40'}`}>
       {isIbkr ? 'IBKR' : 'Finviz'}
     </span>
   );
@@ -678,7 +678,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
           ✦ Thematic Spotlight — {themeName}{themeRS != null ? ` · RS ${themeRS}` : ''}
         </span>
         {lbView === 'ibkr' && (
-          <span className={`px-1.5 py-0.5 text-[10px] font-bold rounded border font-mono ${ibkrThemesData?.data_source === 'ibkr' ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/40' : 'bg-orange-500/15 text-orange-400 border-orange-500/40'}`}>
+          <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border font-mono ${ibkrThemesData?.data_source === 'ibkr' ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/40' : 'bg-orange-500/15 text-orange-400 border-orange-500/40'}`}>
             {ibkrThemesData?.data_source === 'ibkr' ? '● LIVE' : '◐ DELAYED'}
           </span>
         )}
@@ -687,7 +687,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
       {analysis && (
         <div className="mb-3 border border-emerald-800/40 bg-emerald-900/10 rounded-lg p-3">
           <div className="flex items-center gap-1.5 mb-1.5">
-            <span className="text-[10px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI CATALYST</span>
+            <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI CATALYST</span>
           </div>
           <p className="text-[12px] text-zinc-300 leading-relaxed">{analysis}</p>
         </div>
@@ -730,7 +730,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
                     <td className={`px-2 py-1.5 text-[12px] font-mono font-bold text-center ${gatesCls}`}>{gp === 5 ? '✓ 5/5' : `${gp}/5`}</td>
                     <td className="px-2 py-1.5 text-center">
                       {s.setup_label
-                        ? <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${setupCls(s.setup_label)}`}>{s.setup_label}</span>
+                        ? <span className={`text-[11px] font-bold px-1.5 py-0.5 rounded border ${setupCls(s.setup_label)}`}>{s.setup_label}</span>
                         : '—'}
                     </td>
                   </tr>
@@ -803,12 +803,12 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt 
     <>
       <div className="mb-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-3">
         <div className="flex items-center justify-between mb-2">
-          <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.18em]">
+          <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.18em]">
             Theme Heatmap — 1D RS Performance
           </div>
           <div className="flex items-center gap-2">
             <UpdatedAt ts={generatedAt}/>
-            {hasEnough && <div className="text-[9px] text-zinc-600 uppercase tracking-wider">Top 5 · Bottom 5</div>}
+            {hasEnough && <div className="text-[11px] text-zinc-600 uppercase tracking-wider">Top 5 · Bottom 5</div>}
           </div>
         </div>
         <div className="grid gap-1" style={{ gridTemplateColumns: 'repeat(5, 1fr)' }}>
@@ -843,7 +843,7 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt 
             <div className="flex items-center justify-between px-4 py-3 border-b border-zinc-800">
               <div>
                 <div className="text-sm font-bold text-zinc-100">{selectedTheme.name}</div>
-                <div className="text-[10px] text-zinc-500 mt-0.5">{selectedTheme.stocks.length} 檔股票</div>
+                <div className="text-[11px] text-zinc-500 mt-0.5">{selectedTheme.stocks.length} 檔股票</div>
               </div>
               <button
                 onClick={() => setSelectedTheme(null)}
@@ -863,7 +863,7 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt 
               ) : (
                 <table className="w-full text-xs">
                   <thead className="sticky top-0 bg-zinc-900 border-b border-zinc-800">
-                    <tr className="text-zinc-500 text-[10px] uppercase tracking-wider">
+                    <tr className="text-zinc-500 text-[11px] uppercase tracking-wider">
                       <th className="text-left px-4 py-2 font-medium">Ticker</th>
                       <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">公司</th>
                       <th className="text-right px-3 py-2 font-medium">價格</th>
@@ -892,7 +892,7 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt 
                             >
                               {s.ticker}
                             </a>
-                            {s.pure_play && <span className="ml-1 text-[9px] bg-violet-500/20 text-violet-300 px-1 rounded">PP</span>}
+                            {s.pure_play && <span className="ml-1 text-[11px] bg-violet-500/20 text-violet-300 px-1 rounded">PP</span>}
                           </td>
                           <td className="px-4 py-2 text-zinc-400 truncate max-w-[140px] hidden sm:table-cell">{s.company || '—'}</td>
                           <td className="px-3 py-2 text-right text-zinc-200 font-mono">{s.price != null ? `$${s.price.toFixed(2)}` : '—'}</td>
@@ -905,7 +905,7 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt 
                               : <span className="text-zinc-600">—</span>}
                           </td>
                           <td className="px-3 py-2 text-right text-zinc-400 hidden sm:table-cell">{s.adr_pct != null ? `${s.adr_pct.toFixed(1)}%` : '—'}</td>
-                          <td className="px-3 py-2 text-zinc-500 text-[10px] hidden md:table-cell truncate max-w-[120px]">{s._subtheme || '—'}</td>
+                          <td className="px-3 py-2 text-zinc-500 text-[11px] hidden md:table-cell truncate max-w-[120px]">{s._subtheme || '—'}</td>
                         </tr>
                       );
                     })}
@@ -1105,8 +1105,8 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
         className={`px-1 py-2 text-center cursor-pointer select-none ${w || 'w-12'} ${isActive ? (isPrimary ? 'text-blue-400' : 'text-violet-400') : isBlocked ? 'text-zinc-700' : 'text-zinc-500 hover:text-zinc-300'}`}>
         <span className="inline-flex items-center justify-center gap-0.5 text-[11px] font-semibold uppercase tracking-wider">
           {label}
-          {isPrimary   && <span className="text-[9px] text-blue-400/70">①{dir === 'desc' ? '▼' : '▲'}</span>}
-          {isSecondary && <span className="text-[9px] text-violet-400/70">②{dir === 'desc' ? '▼' : '▲'}</span>}
+          {isPrimary   && <span className="text-[11px] text-blue-400/70">①{dir === 'desc' ? '▼' : '▲'}</span>}
+          {isSecondary && <span className="text-[11px] text-violet-400/70">②{dir === 'desc' ? '▼' : '▲'}</span>}
         </span>
       </th>
     );
@@ -1122,7 +1122,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
         <UpdatedAt ts={generatedAt}/>
         {secondaryKey && (
           <button onClick={() => setSortPriority([{ key: 'rs_score', direction: 'desc' }])}
-            className="text-[10px] text-zinc-600 hover:text-zinc-400 px-1.5 py-0.5 border border-zinc-700/50 rounded transition-colors">
+            className="text-[11px] text-zinc-600 hover:text-zinc-400 px-1.5 py-0.5 border border-zinc-700/50 rounded transition-colors">
             ✕ Reset
           </button>
         )}
@@ -1154,13 +1154,13 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                 <div className="flex flex-col items-center gap-0.5">
                   <span className="inline-flex items-center gap-0.5 text-[11px] font-semibold uppercase tracking-wider">
                     RS
-                    {sortPriority[0]?.key === 'rs_score' && <span className="text-[9px] text-blue-400/70">①{sortPriority[0].direction === 'desc' ? '▼' : '▲'}</span>}
+                    {sortPriority[0]?.key === 'rs_score' && <span className="text-[11px] text-blue-400/70">①{sortPriority[0].direction === 'desc' ? '▼' : '▲'}</span>}
                   </span>
                   <div className="flex gap-0.5" onClick={e => e.stopPropagation()}>
                     {RS_MODES.map(m => (
                       <button key={m.key}
                         onClick={() => { setRsMode(m.key); setSortPriority([{ key: 'rs_score', direction: 'desc' }]); }}
-                        className={`text-[8px] px-0.5 py-px rounded leading-none transition-colors ${rsMode === m.key ? 'bg-blue-500/30 text-blue-300' : 'text-zinc-600 hover:text-zinc-400'}`}>
+                        className={`text-[11px] px-0.5 py-px rounded leading-none transition-colors ${rsMode === m.key ? 'bg-blue-500/30 text-blue-300' : 'text-zinc-600 hover:text-zinc-400'}`}>
                         {m.label}
                       </button>
                     ))}
@@ -1238,8 +1238,8 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                           onThemeSelect && onThemeSelect(t.name);
                         }}
                       >{t.name}</span>
-                      {t.stage2_momentum && <span className="px-1.5 py-0.5 text-[9px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full leading-none">STAGE 2</span>}
-                      {t.n_industries && <span className="text-[10px] text-zinc-600">{t.n_industries} ind</span>}
+                      {t.stage2_momentum && <span className="px-1.5 py-0.5 text-[11px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full leading-none">STAGE 2</span>}
+                      {t.n_industries && <span className="text-[11px] text-zinc-600">{t.n_industries} ind</span>}
                     </div>
                   </td>
                   {view === "themes" && (
@@ -1270,7 +1270,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                       <td className="px-2 py-1.5">
                         <div className="flex flex-wrap gap-1">
                           {leaderTickers.map(l => (
-                            <span key={l.ticker} className={`text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded border ${l.setupCls}`}>{l.ticker}</span>
+                            <span key={l.ticker} className={`text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded border ${l.setupCls}`}>{l.ticker}</span>
                           ))}
                           {leaderTickers.length === 0 && <span className="text-zinc-600 text-[11px]">—</span>}
                         </div>
@@ -1544,14 +1544,14 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, chartAnchor, onClose }
             { label:'AVG RS',      val:String(avgRS || '—'),                cls:rsColor },
           ].map(({ label, val, cls }) => (
             <div key={label} className="px-3 py-2.5 text-center">
-              <div className="text-[9px] font-semibold text-zinc-500 uppercase tracking-widest mb-1">{label}</div>
+              <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-widest mb-1">{label}</div>
               <div className={`text-[15px] font-bold font-mono ${cls}`}>{val}</div>
             </div>
           ))}
         </div>
         {/* Movers */}
         <div className="px-4 py-3 border-b border-zinc-700/50">
-          <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-widest mb-2">TODAY'S MOVERS</div>
+          <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-widest mb-2">TODAY'S MOVERS</div>
           <div className="flex flex-col gap-1.5">
             <div className="flex items-center gap-2">
               <TrendingUp size={11} className="text-emerald-400 flex-shrink-0"/>
@@ -1621,7 +1621,7 @@ const AlphaLeaderBadge = ({ stock, sortPriority = [], spyPerf1d = 0 }) => {
   const style = grade === 'A+'
     ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
     : 'bg-blue-500/20 text-blue-300 border-blue-500/40';
-  return <span className={`inline-flex items-center gap-0.5 px-1 py-0.5 text-[10px] font-bold rounded border ${style}`}>🔥 {grade}</span>;
+  return <span className={`inline-flex items-center gap-0.5 px-1 py-0.5 text-[11px] font-bold rounded border ${style}`}>🔥 {grade}</span>;
 };
 
 const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, themeName, subthemeName }) => {
@@ -1688,8 +1688,8 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
         className={`py-3 px-2 font-medium cursor-pointer select-none hover:text-zinc-300 transition-colors text-${align} ${w || ''} ${isActive ? (isPrimary ? 'text-blue-400' : 'text-violet-400') : isBlocked ? 'text-zinc-700' : 'text-zinc-500'}`}>
         <span className="inline-flex items-center gap-0.5">
           {label}
-          {isPrimary && <span className="text-[9px] text-blue-400/70 ml-0.5">①{dir === 'desc' ? '▼' : '▲'}</span>}
-          {isSecondary && <span className="text-[9px] text-violet-400/70 ml-0.5">②{dir === 'desc' ? '▼' : '▲'}</span>}
+          {isPrimary && <span className="text-[11px] text-blue-400/70 ml-0.5">①{dir === 'desc' ? '▼' : '▲'}</span>}
+          {isSecondary && <span className="text-[11px] text-violet-400/70 ml-0.5">②{dir === 'desc' ? '▼' : '▲'}</span>}
         </span>
       </th>
     );
@@ -1703,7 +1703,7 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
           <span className="text-blue-400">①{primaryKey}</span>
           {' → '}<span className="text-violet-400">②{secondaryKey}</span>
         </span>
-        <button onClick={() => setSortPriority([{ key: 'rs_52w', direction: 'desc' }])} className="text-[10px] text-zinc-600 hover:text-zinc-400 px-1.5 py-0.5 border border-zinc-700/50 rounded transition-colors">✕ Reset</button>
+        <button onClick={() => setSortPriority([{ key: 'rs_52w', direction: 'desc' }])} className="text-[11px] text-zinc-600 hover:text-zinc-400 px-1.5 py-0.5 border border-zinc-700/50 rounded transition-colors">✕ Reset</button>
       </div>
     )}
     <div className="overflow-x-auto overflow-y-auto rounded-lg border border-zinc-700/40" style={{maxHeight:'520px'}}>
@@ -1742,10 +1742,10 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
                       >{s.ticker}</span>
                       <GradeBadge grade={getEliteGrade(s)}/>
                       <AlphaLeaderBadge stock={s} sortPriority={sortPriority} spyPerf1d={spyPerf || 0}/>
-                      {isVCPStage1(s) && <Tip text="Narrowing consolidation + VDU + near 52W high" color="violet"><span className="text-[10px] font-bold text-violet-400 bg-violet-500/15 border border-violet-500/30 px-1 py-0.5 rounded cursor-pointer">🎯 VCP S1</span></Tip>}
-                      {!isVCPStage1(s) && isVDU(s) && <Tip text="Volume below 50% of 10-day avg — selling pressure exhausted" color="blue"><span className="text-[10px] font-bold text-blue-400 bg-blue-500/15 border border-blue-500/30 px-1 py-0.5 rounded cursor-pointer">VDU</span></Tip>}
-                      {isTight(s) && <Tip text="Last 3 days range < 1.5% — extremely tight" color="fuchsia"><span className="text-[10px] font-bold text-fuchsia-400 bg-fuchsia-500/15 border border-fuchsia-500/30 px-1 py-0.5 rounded cursor-pointer">Tight</span></Tip>}
-                      {isInsideDay(s) && <Tip text="Today's range inside yesterday's range" color="slate"><span className="text-[10px] font-bold text-slate-400 bg-slate-500/15 border border-slate-500/30 px-1 py-0.5 rounded cursor-pointer">ID</span></Tip>}
+                      {isVCPStage1(s) && <Tip text="Narrowing consolidation + VDU + near 52W high" color="violet"><span className="text-[11px] font-bold text-violet-400 bg-violet-500/15 border border-violet-500/30 px-1 py-0.5 rounded cursor-pointer">🎯 VCP S1</span></Tip>}
+                      {!isVCPStage1(s) && isVDU(s) && <Tip text="Volume below 50% of 10-day avg — selling pressure exhausted" color="blue"><span className="text-[11px] font-bold text-blue-400 bg-blue-500/15 border border-blue-500/30 px-1 py-0.5 rounded cursor-pointer">VDU</span></Tip>}
+                      {isTight(s) && <Tip text="Last 3 days range < 1.5% — extremely tight" color="fuchsia"><span className="text-[11px] font-bold text-fuchsia-400 bg-fuchsia-500/15 border border-fuchsia-500/30 px-1 py-0.5 rounded cursor-pointer">Tight</span></Tip>}
+                      {isInsideDay(s) && <Tip text="Today's range inside yesterday's range" color="slate"><span className="text-[11px] font-bold text-slate-400 bg-slate-500/15 border border-slate-500/30 px-1 py-0.5 rounded cursor-pointer">ID</span></Tip>}
                       <span className="hidden sm:flex items-center gap-0.5">
                         {getEliteBadges(s, { isTopTheme, isTopADR: topADRTickers?.has(s.ticker) }).map(b => <EliteBadge key={b} type={b}/>)}
                       </span>
@@ -2042,7 +2042,7 @@ const VerificationBadge = ({ verification, headlines }) => {
           {discrepancy_note && <div className="text-[11px] text-amber-300 mb-1.5 leading-snug">⚠ {discrepancy_note}</div>}
           {headlines?.length > 0 && (
             <div className="border-t border-zinc-800 pt-1.5 space-y-1">
-              <div className="text-[10px] text-zinc-600 uppercase tracking-widest mb-1">Sources</div>
+              <div className="text-[11px] text-zinc-600 uppercase tracking-widest mb-1">Sources</div>
               {headlines.map((h, i) => (
                 <div key={i} className="text-[11px] text-zinc-400 leading-snug">
                   <span className="text-zinc-600">[{h.source}]</span>{" "}
@@ -2246,7 +2246,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
 
   const Tog = ({ active, onClick, children }) => (
     <button onClick={onClick}
-      className={`flex-1 text-[10px] font-bold py-1 rounded transition-colors ${active ? 'bg-zinc-700 text-white' : 'text-zinc-500 hover:text-zinc-300'}`}>
+      className={`flex-1 text-[11px] font-bold py-1 rounded transition-colors ${active ? 'bg-zinc-700 text-white' : 'text-zinc-500 hover:text-zinc-300'}`}>
       {children}
     </button>
   );
@@ -2258,20 +2258,20 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
 
   return (
     <div className="bg-zinc-900/60 rounded-xl border border-zinc-800/60 p-3">
-      <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.18em] mb-2">Position Calc</div>
+      <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.18em] mb-2">Position Calc</div>
 
       {/* Equity row */}
       <div className="mb-2">
         {accountEquity != null ? (
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-zinc-500">Account Equity</span>
+            <span className="text-[11px] text-zinc-500">Account Equity</span>
             <span className="text-[12px] font-mono font-bold text-zinc-200">
               {accountEquity.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}
             </span>
           </div>
         ) : (
           <div className="flex items-center gap-2">
-            <span className="text-[10px] text-zinc-500 flex-shrink-0">Equity $</span>
+            <span className="text-[11px] text-zinc-500 flex-shrink-0">Equity $</span>
             <input type="number" value={equity} onChange={ev => setEquity(ev.target.value)} placeholder="e.g. 25000"
               className="flex-1 bg-zinc-800/60 border border-zinc-700/50 rounded px-2 py-1 text-[11px] font-mono text-zinc-200 placeholder-zinc-700 outline-none focus:border-zinc-600"/>
           </div>
@@ -2280,7 +2280,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
 
       {/* Ticker input — above Entry; auto-fetches ATR-14 + LOD from Finnhub */}
       <div className="flex items-center gap-2 mb-2">
-        <span className="text-[10px] text-zinc-500 flex-shrink-0">Ticker</span>
+        <span className="text-[11px] text-zinc-500 flex-shrink-0">Ticker</span>
         <input
           type="text" value={lodTicker}
           onChange={ev => { setLodTicker(ev.target.value.toUpperCase()); setLod(null); setCurrentPrice(null); setLodError(false); setEmaValues({ 9: null, 21: null, 50: null }); }}
@@ -2297,7 +2297,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
             ? <span className="text-[12px] font-mono font-bold text-zinc-100">${currentPrice.toFixed(2)}</span>
             : null}
           {!lodLoading && !lodError && lod != null && (
-            <span className="text-[9px] font-mono text-amber-400/70">L {lod.toFixed(2)}</span>
+            <span className="text-[11px] font-mono text-amber-400/70">L {lod.toFixed(2)}</span>
           )}
         </div>
       </div>
@@ -2305,25 +2305,25 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
       {/* Entry / ATR / Risk % */}
       <div className="grid grid-cols-3 gap-1.5 mb-2">
         <div>
-          <div className="text-[9px] text-zinc-600 mb-0.5">Entry</div>
+          <div className="text-[11px] text-zinc-600 mb-0.5">Entry</div>
           {numInput(entry, setEntry, '0.00')}
           <div className="mt-0.5 leading-tight">
-            <div className="text-[8px] text-zinc-600 uppercase tracking-wider">Position</div>
-            <div className="text-[10px] font-mono font-bold text-zinc-300">{positionValue != null ? fmtDollar(positionValue) : <span className="text-zinc-700">—</span>}</div>
+            <div className="text-[11px] text-zinc-600 uppercase tracking-wider">Position</div>
+            <div className="text-[11px] font-mono font-bold text-zinc-300">{positionValue != null ? fmtDollar(positionValue) : <span className="text-zinc-700">—</span>}</div>
           </div>
         </div>
         <div>
-          <div className="text-[9px] text-zinc-600 mb-0.5">ADR %</div>
+          <div className="text-[11px] text-zinc-600 mb-0.5">ADR %</div>
           <div className="bg-zinc-800/60 border border-zinc-700/50 rounded px-1.5 py-1 text-[11px] font-mono font-bold text-zinc-200">
             {a > 0 ? `${a.toFixed(2)}%` : <span className="text-zinc-700">—</span>}
           </div>
         </div>
         <div>
-          <div className="text-[9px] text-zinc-600 mb-0.5">Risk %</div>
+          <div className="text-[11px] text-zinc-600 mb-0.5">Risk %</div>
           {numInput(riskPct, setRiskPct, '1')}
           <div className="mt-0.5 leading-tight">
-            <div className="text-[8px] text-zinc-600 uppercase tracking-wider">Max Loss</div>
-            <div className="text-[10px] font-mono font-bold text-red-400/90">{maxLossBudget != null ? `−${fmtDollar(maxLossBudget)}` : <span className="text-zinc-700">—</span>}</div>
+            <div className="text-[11px] text-zinc-600 uppercase tracking-wider">Max Loss</div>
+            <div className="text-[11px] font-mono font-bold text-red-400/90">{maxLossBudget != null ? `−${fmtDollar(maxLossBudget)}` : <span className="text-zinc-700">—</span>}</div>
           </div>
         </div>
       </div>
@@ -2355,7 +2355,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
       {/* Manual stop price input */}
       {stopMode === 'manual' && (
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-[10px] text-zinc-500 flex-shrink-0">Stop $</span>
+          <span className="text-[11px] text-zinc-500 flex-shrink-0">Stop $</span>
           <input type="number" value={manualStop} onChange={ev => setManualStop(ev.target.value)} placeholder="0.00"
             className="flex-1 bg-zinc-800/60 border border-zinc-700/50 rounded px-2 py-1 text-[11px] font-mono text-zinc-200 placeholder-zinc-700 outline-none focus:border-zinc-600"/>
         </div>
@@ -2364,10 +2364,10 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
       {/* EMA value display */}
       {stopMode === 'ema' && (
         <div className="flex items-center justify-between mb-2 px-1">
-          <span className="text-[10px] text-zinc-500">EMA {emaMode} −1.5%</span>
+          <span className="text-[11px] text-zinc-500">EMA {emaMode} −1.5%</span>
           {activeEmaPrice != null
             ? <span className="text-[11px] font-mono text-cyan-400">${emaStop?.toFixed(2)}</span>
-            : <span className="text-[10px] font-mono text-zinc-600">輸入 Ticker 後自動計算</span>}
+            : <span className="text-[11px] font-mono text-zinc-600">輸入 Ticker 後自動計算</span>}
         </div>
       )}
 
@@ -2375,16 +2375,16 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
       <div className="pt-2 border-t border-zinc-800/60 space-y-2">
         <div className="grid grid-cols-2 gap-x-3">
           <div>
-            <div className="text-[9px] text-zinc-600 mb-0.5">Shares</div>
+            <div className="text-[11px] text-zinc-600 mb-0.5">Shares</div>
             <div className="text-[14px] font-mono font-bold text-zinc-100">{shares ?? '—'}</div>
           </div>
           <div>
-            <div className="text-[9px] text-zinc-600 mb-0.5">$ at Risk</div>
+            <div className="text-[11px] text-zinc-600 mb-0.5">$ at Risk</div>
             <div className="text-[14px] font-mono font-bold text-red-400">{fmtDollar(dollarRisk)}</div>
           </div>
         </div>
         <div>
-          <div className="text-[9px] text-zinc-600 mb-1 uppercase tracking-wider">
+          <div className="text-[11px] text-zinc-600 mb-1 uppercase tracking-wider">
             {stopMode === 'lod' ? 'LOD Stop' : stopMode === 'manual' ? 'Manual Stop' : stopMode === 'ema' ? `EMA ${emaMode} Stop (−1.5%)` : `${stopStrategy}-Stop Levels`}
           </div>
           {stops.length > 0 ? (
@@ -2393,14 +2393,14 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
                 const lossPct = e > 0 && s > 0 && e > s ? (e - s) / e * 100 : 0;
                 return (
                   <div key={i} className="bg-zinc-800/40 rounded px-2 py-1.5">
-                    <div className="text-[8px] text-zinc-500 uppercase">
+                    <div className="text-[11px] text-zinc-500 uppercase">
                       {stopMode === 'lod'
                         ? (i === stops.length - 1 ? 'LOD −0.08%' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
                         : stopMode === 'ema' ? `EMA ${emaMode} −1.5%`
                         : `Stop ${i + 1}`}
                     </div>
                     <div className="text-[12px] font-mono font-bold text-zinc-200">{fmtPrice(s)}</div>
-                    {lossPct > 0 && <div className="text-[9px] font-mono text-red-400/80">−{lossPct.toFixed(2)}%</div>}
+                    {lossPct > 0 && <div className="text-[11px] font-mono text-red-400/80">−{lossPct.toFixed(2)}%</div>}
                   </div>
                 );
               })}
@@ -2422,8 +2422,8 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
 
 const PanelLabel = ({ children, badge, badgeClass = "bg-emerald-500/10 text-emerald-400 border-emerald-500/30" }) => (
   <div className="flex items-center justify-between mb-2">
-    <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">{children}</div>
-    {badge && <span className={`px-1.5 py-0.5 text-[9px] font-bold rounded border ${badgeClass}`}>{badge}</span>}
+    <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">{children}</div>
+    {badge && <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border ${badgeClass}`}>{badge}</span>}
   </div>
 );
 
@@ -2432,7 +2432,7 @@ const UpdatedAt = ({ ts }) => {
   if (!ts) return null;
   const m = ts.match(/(\d{1,2}:\d{2})\s*(EDT|EST|ET)?/);
   const display = m ? `${m[1]} ${m[2] || 'ET'}` : ts;
-  return <span className="text-[9px] text-zinc-600 font-mono tabular-nums">↻ {display}</span>;
+  return <span className="text-[11px] text-zinc-600 font-mono tabular-nums">↻ {display}</span>;
 };
 
 const VixFearGaugeV2 = ({ vix, generatedAt }) => {
@@ -2452,19 +2452,19 @@ const VixFearGaugeV2 = ({ vix, generatedAt }) => {
   return (
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
       <div className="flex items-center justify-between mb-2">
-        <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">VIX Fear Gauge</div>
-        <div className="flex items-center gap-1.5"><UpdatedAt ts={generatedAt}/><span className="px-1.5 py-0.5 text-[9px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span></div>
+        <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">VIX Fear Gauge</div>
+        <div className="flex items-center gap-1.5"><UpdatedAt ts={generatedAt}/><span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span></div>
       </div>
       <div className="text-[28px] leading-none font-bold font-mono text-zinc-100">{v ? v.toFixed(1) : "—"}</div>
       <div className={`text-[11px] font-semibold mt-1 ${cfg.cls}`}>⚠ {cfg.label}</div>
       <div className="mt-2 pt-2 border-t border-zinc-800/60">
-        <div className="text-[10px] text-zinc-500">SPX Expected Move</div>
+        <div className="text-[11px] text-zinc-500">SPX Expected Move</div>
         <div className="text-[14px] font-bold font-mono text-zinc-200">±{expectedMove}%</div>
       </div>
       <div className="mt-2 pt-2 border-t border-zinc-800/60">
         <div className="flex items-center gap-1.5 mb-1">
           <span className="text-[11px] text-blue-400">✦</span>
-          <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Gemini</div>
+          <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Gemini</div>
         </div>
         <div className="text-[11px] leading-snug text-zinc-300">{geminiText}</div>
       </div>
@@ -2575,13 +2575,13 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
   return (
     <div className="relative bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
       <div className="flex items-center justify-between mb-2">
-        <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Market Internals</div>
+        <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Market Internals</div>
         <div className="flex items-center gap-1.5">
           <UpdatedAt ts={generatedAt}/>
-          <span className="px-1.5 py-0.5 text-[9px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span>
+          <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span>
           <button
             onClick={() => setShowNotes(v => !v)}
-            className={`text-[10px] px-2 py-0.5 rounded border transition-colors ${
+            className={`text-[11px] px-2 py-0.5 rounded border transition-colors ${
               showNotes
                 ? "border-zinc-500 text-zinc-300 bg-zinc-800"
                 : "border-zinc-700 text-zinc-500 hover:text-zinc-300 hover:border-zinc-500"
@@ -2593,7 +2593,7 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
       </div>
       <div className="space-y-1.5">
         <div>
-          <div className="flex items-baseline justify-between text-[10px]">
+          <div className="flex items-baseline justify-between text-[11px]">
             <span className="text-zinc-500">ADV/DEC</span>
             {adv_dec ? (
               <span className="font-mono font-semibold">
@@ -2608,23 +2608,23 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
           <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${advBar}`} style={{ width: `${Math.min(100, Math.max(0, advPct))}%` }}/></div>
         </div>
         <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
+          <div className="flex items-baseline justify-between text-[11px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
           <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma50bar}`} style={{ width: `${Math.min(100, sma50pct)}%` }}/></div>
         </div>
         <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
+          <div className="flex items-baseline justify-between text-[11px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
           <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma200bar}`} style={{ width: `${Math.min(100, sma200pct)}%` }}/></div>
         </div>
         <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
+          <div className="flex items-baseline justify-between text-[11px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
           <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-blue-500" style={{ width: `${Math.min(100, (newHigh / 500) * 100)}%` }}/></div>
         </div>
         <div>
-          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-500">{newLow}</span></div>
+          <div className="flex items-baseline justify-between text-[11px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-500">{newLow}</span></div>
           <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-red-500" style={{ width: `${Math.min(100, (newLow / 500) * 100)}%` }}/></div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[10px] font-mono">
+      <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[11px] font-mono">
         <span className="text-zinc-500">TICK</span><span className={`text-right ${tick == null ? "text-zinc-600" : tick >= 0 ? "text-emerald-400" : "text-red-500"}`}>{tick == null ? "—" : (tick > 0 ? "+" : "") + tick}</span>
         <span className="text-zinc-500">TRIN</span><span className="text-zinc-300 text-right">{trin == null ? "—" : `${trin.toFixed(2)} ${interpret("trin", trin)}`}</span>
         <span className="text-zinc-500">T2108</span><span className="text-zinc-300 text-right">{t2108 == null ? "—" : `${t2108.toFixed(2)} ${interpret("t2108", t2108)}`}</span>
@@ -2657,15 +2657,15 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
                     return (
                       <>
                       <div className="flex items-baseline justify-between mb-0.5">
-                        <span className="text-[10px] font-semibold text-zinc-200">{n.label}</span>
-                        {display != null && <span className={`text-[9px] font-mono ${sigCls}`}>{display}</span>}
+                        <span className="text-[11px] font-semibold text-zinc-200">{n.label}</span>
+                        {display != null && <span className={`text-[11px] font-mono ${sigCls}`}>{display}</span>}
                       </div>
                       <ul className="space-y-0.5">
                         {n.lines.map((l, i) => {
                           const isActive = raw != null && l.active && l.active(raw);
                           const lineDot = isActive ? dotCls : "before:text-zinc-700";
                           return (
-                            <li key={i} className={`text-[9px] leading-snug pl-1 before:content-['·'] before:mr-1 ${
+                            <li key={i} className={`text-[11px] leading-snug pl-1 before:content-['·'] before:mr-1 ${
                               isActive ? `font-semibold ${sigCls} ${lineDot}` : "text-zinc-500 before:text-zinc-700"
                             }`}>{l.text}</li>
                           );
@@ -2691,15 +2691,15 @@ const AlertRulesCard = () => (
     <div className="space-y-1.5">
       <div className="bg-emerald-500/[0.06] border border-emerald-500/20 rounded-md px-2 py-1.5">
         <div className="text-[11px] font-semibold text-emerald-400">AI &amp; Semi RS &gt; 95</div>
-        <div className="text-[9px] text-zinc-500 mt-0.5">Push · ntfy.sh · Active</div>
+        <div className="text-[11px] text-zinc-500 mt-0.5">Push · ntfy.sh · Active</div>
       </div>
       <div className="bg-amber-500/[0.06] border border-amber-500/20 rounded-md px-2 py-1.5">
         <div className="text-[11px] font-semibold text-amber-400">Gapper T1 Catalyst</div>
-        <div className="text-[9px] text-zinc-500 mt-0.5">Push · Pushover · Active</div>
+        <div className="text-[11px] text-zinc-500 mt-0.5">Push · Pushover · Active</div>
       </div>
       <button className="w-full text-left text-[11px] text-zinc-500 hover:text-zinc-300 px-2 py-1.5 border border-dashed border-zinc-800 rounded-md">
         + Add Rule
-        <div className="text-[9px] text-zinc-700">Theme RS · Grade · ADR · RS cross</div>
+        <div className="text-[11px] text-zinc-700">Theme RS · Grade · ADR · RS cross</div>
       </button>
     </div>
   </div>
@@ -2708,15 +2708,15 @@ const AlertRulesCard = () => (
 
 const ActiveAlertsCardV2 = () => (
   <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-    <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Active Alerts</div>
+    <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Active Alerts</div>
     <div className="space-y-1.5">
       <div className="bg-emerald-500/[0.06] border border-emerald-500/20 rounded-md px-2 py-1.5">
         <div className="text-[11px] font-semibold text-emerald-400">AI Semi RS &gt; 95</div>
-        <div className="text-[9px] text-zinc-500 mt-0.5">Fired · ntfy.sh ✓</div>
+        <div className="text-[11px] text-zinc-500 mt-0.5">Fired · ntfy.sh ✓</div>
       </div>
       <div className="bg-amber-500/[0.06] border border-amber-500/20 rounded-md px-2 py-1.5">
         <div className="text-[11px] font-semibold text-amber-400">RKLB T1 Gapper</div>
-        <div className="text-[9px] text-zinc-500 mt-0.5">Fired · Pushover ✓</div>
+        <div className="text-[11px] text-zinc-500 mt-0.5">Fired · Pushover ✓</div>
       </div>
     </div>
   </div>
@@ -2727,10 +2727,10 @@ const IBKRTWSScannerCard = ({ ibkrData }) => {
   const top = scanner.slice(0, 5);
   return (
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1">IBKR TWS Scanner</div>
-      <div className="text-[9px] text-zinc-600 mb-2">Mirroring: Top Pre-Mkt Gainers</div>
+      <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1">IBKR TWS Scanner</div>
+      <div className="text-[11px] text-zinc-600 mb-2">Mirroring: Top Pre-Mkt Gainers</div>
       {top.length === 0 ? (
-        <div className="text-[10px] text-zinc-600 italic">TWS offline</div>
+        <div className="text-[11px] text-zinc-600 italic">TWS offline</div>
       ) : (
         <div className="space-y-0.5">
           {top.map(s => {
@@ -2753,11 +2753,11 @@ const DataSourcesCard = ({ ibkrData }) => {
   const ibkrLive = ibkrData?.connected;
   return (
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Data Sources</div>
-      <div className="space-y-1 text-[10px]">
+      <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Data Sources</div>
+      <div className="space-y-1 text-[11px]">
         <div className="flex items-center justify-between">
           <span className="text-zinc-500">Primary</span>
-          <span className={`px-1.5 py-0.5 text-[9px] font-bold rounded border ${ibkrLive ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/30" : "bg-zinc-800 text-zinc-500 border-zinc-700"}`}>IBKR TWS</span>
+          <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border ${ibkrLive ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/30" : "bg-zinc-800 text-zinc-500 border-zinc-700"}`}>IBKR TWS</span>
         </div>
         <div className="flex items-center justify-between"><span className="text-zinc-500">Fallback 1</span><span className="text-zinc-400">Finviz</span></div>
         <div className="flex items-center justify-between"><span className="text-zinc-500">Fallback 2</span><span className="text-zinc-400">yfinance</span></div>
@@ -2771,7 +2771,7 @@ const DataSourcesCard = ({ ibkrData }) => {
 const BottomStatusBar = ({ ibkrData, briefData }) => {
   const ibkrLive = ibkrData?.connected;
   return (
-    <div className="border-t border-zinc-800/60 bg-zinc-950/80 px-4 py-1.5 mt-3 flex items-center justify-between text-[10px] font-mono text-zinc-500 flex-wrap gap-2">
+    <div className="border-t border-zinc-800/60 bg-zinc-950/80 px-4 py-1.5 mt-3 flex items-center justify-between text-[11px] font-mono text-zinc-500 flex-wrap gap-2">
       <div className="flex items-center gap-3 flex-wrap">
         <span className="flex items-center gap-1">
           <span className={`w-1.5 h-1.5 rounded-full ${ibkrLive ? "bg-emerald-400" : "bg-zinc-600"}`}/>
@@ -2959,7 +2959,7 @@ const BreakingNewsAlert = ({ newsData }) => {
           style={{ animationDuration: "2s" }}
         >
           <span className="text-red-600 font-black text-xs tracking-widest italic">⚡ BREAKING NEWS</span>
-          <span className="bg-red-600 text-white text-[10px] font-black rounded-full w-4 h-4 flex items-center justify-center">
+          <span className="bg-red-600 text-white text-[11px] font-black rounded-full w-4 h-4 flex items-center justify-center">
             {visible.length}
           </span>
         </button>
@@ -2977,7 +2977,7 @@ const BreakingNewsAlert = ({ newsData }) => {
               <span className="text-red-600 font-black text-sm tracking-widest italic animate-pulse" style={{ animationDuration: "2s" }}>
                 ⚡ BREAKING NEWS
               </span>
-              <span className="text-red-800 text-[10px] font-bold border border-red-900 px-1">{visible.length}</span>
+              <span className="text-red-800 text-[11px] font-bold border border-red-900 px-1">{visible.length}</span>
             </div>
             <button
               onClick={() => setExpanded(false)}
@@ -2998,9 +2998,9 @@ const BreakingNewsAlert = ({ newsData }) => {
               >×</button>
               <div className="flex items-center gap-2 mb-2 pr-5">
                 <span className="text-red-700 font-black text-[11px] border border-red-700 px-1">{top.grade}/10</span>
-                <span className="text-red-900 text-[10px] font-semibold uppercase tracking-widest">{top.source}</span>
+                <span className="text-red-900 text-[11px] font-semibold uppercase tracking-widest">{top.source}</span>
                 {formatAlertTime(top.pub_time || top.timestamp) && (
-                  <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(top.pub_time || top.timestamp)}</span>
+                  <span className="text-zinc-600 text-[11px] font-mono">{formatAlertTime(top.pub_time || top.timestamp)}</span>
                 )}
               </div>
               <p className="text-red-500 font-extrabold text-sm uppercase leading-snug">
@@ -3017,10 +3017,10 @@ const BreakingNewsAlert = ({ newsData }) => {
                   aria-label="Dismiss"
                 >×</button>
                 <div className="flex items-center gap-2 mb-1 pr-5">
-                  <span className="text-red-800 text-[10px] font-bold border border-red-900 px-1">{alert.grade}/10</span>
-                  <span className="text-red-900 text-[10px] font-semibold uppercase tracking-widest">{alert.source}</span>
+                  <span className="text-red-800 text-[11px] font-bold border border-red-900 px-1">{alert.grade}/10</span>
+                  <span className="text-red-900 text-[11px] font-semibold uppercase tracking-widest">{alert.source}</span>
                   {formatAlertTime(alert.pub_time || alert.timestamp) && (
-                    <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>
+                    <span className="text-zinc-600 text-[11px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>
                   )}
                 </div>
                 <p className="text-red-700 font-bold text-xs uppercase leading-snug">{highlightText(alert.headline)}</p>
@@ -3028,7 +3028,7 @@ const BreakingNewsAlert = ({ newsData }) => {
             ))}
 
             {newsData.last_checked && (
-              <p className="text-[10px] text-zinc-700 text-right px-3 py-2">
+              <p className="text-[11px] text-zinc-700 text-right px-3 py-2">
                 Last checked: {newsData.last_checked}
               </p>
             )}
@@ -3142,15 +3142,15 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
           <span className="text-sm flex-shrink-0">🔥</span>
           <div>
             <div className="text-[11px] font-bold text-amber-400">[REVERSAL SIGNAL DETECTED]</div>
-            <div className="text-[10px] text-amber-300/70 mt-0.5">{reversal_signals.description}</div>
+            <div className="text-[11px] text-amber-300/70 mt-0.5">{reversal_signals.description}</div>
           </div>
         </div>
       )}
       {/* 1. Global Snapshot */}
       {global_snapshot.length > 0 && (
         <div>
-          <div className="text-[10px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">1. Global Snapshot</div>
-          <table className="w-full text-[10px]">
+          <div className="text-[11px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">1. Global Snapshot</div>
+          <table className="w-full text-[11px]">
             <thead>
               <tr className="text-zinc-600 border-b border-zinc-800/60">
                 <th className="text-left py-0.5 font-medium">Asset</th>
@@ -3192,7 +3192,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
           {Object.values(global_indices).some(g => g?.change_pct != null) && (
             <div className="flex gap-2 mt-1.5 flex-wrap">
               {Object.entries(global_indices).map(([k, g]) => g?.change_pct != null && (
-                <span key={k} className="text-[10px]">
+                <span key={k} className="text-[11px]">
                   <span className="text-zinc-600">{g.label?.split(" ")[0]}</span>
                   <span className={`ml-0.5 font-mono ${g.change_pct >= 0 ? "text-emerald-400" : "text-red-400"}`}>
                     {g.change_pct >= 0 ? "+" : ""}{g.change_pct.toFixed(2)}%
@@ -3206,7 +3206,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
       {/* 2. Macro Risk & Breadth */}
       {(macro_breadth.credit_spread != null || macro_breadth.s5fi != null) && (
         <div>
-          <div className="text-[10px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">2. Macro Risk &amp; Breadth</div>
+          <div className="text-[11px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">2. Macro Risk &amp; Breadth</div>
           <div className="space-y-1">
             {macro_breadth.credit_spread != null && (
               <div className="text-[11px] text-zinc-400">
@@ -3239,7 +3239,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
       {/* 3. Analysis & Lessons */}
       {(analysis.analysis_para1 || analysis.analysis_para2) && (
         <div>
-          <div className="text-[10px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">3. Analysis &amp; Lessons</div>
+          <div className="text-[11px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">3. Analysis &amp; Lessons</div>
           <div className="space-y-2">
             {analysis.analysis_para1 && <p className="text-[11px] text-zinc-300 leading-relaxed">{analysis.analysis_para1}</p>}
             {analysis.analysis_para2 && <p className="text-[11px] text-zinc-400 leading-relaxed">{analysis.analysis_para2}</p>}
@@ -3249,15 +3249,15 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
       {/* 4. Ticker Intelligence */}
       {analysis.ticker_intel?.length > 0 && (
         <div>
-          <div className="text-[10px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">4. Ticker Intel</div>
+          <div className="text-[11px] text-zinc-600 uppercase tracking-widest mb-1.5 font-semibold">4. Ticker Intel</div>
           <div className="space-y-1.5">
             {analysis.ticker_intel.map((t, i) => (
               <div key={i} className="flex gap-1.5 items-start">
-                <span className={`text-[10px] font-bold px-1 py-0.5 rounded border flex-shrink-0 mt-0.5 ${gradeCls(t.grade)}`}>{t.grade}</span>
+                <span className={`text-[11px] font-bold px-1 py-0.5 rounded border flex-shrink-0 mt-0.5 ${gradeCls(t.grade)}`}>{t.grade}</span>
                 <div>
                   <span className="text-[11px] font-bold text-zinc-200 font-mono">${t.ticker}</span>
-                  {t.company && <span className="text-[10px] text-zinc-500 ml-1">({t.company})</span>}
-                  {t.reason && <p className="text-[10px] text-zinc-400 leading-snug mt-0.5">{t.reason}</p>}
+                  {t.company && <span className="text-[11px] text-zinc-500 ml-1">({t.company})</span>}
+                  {t.reason && <p className="text-[11px] text-zinc-400 leading-snug mt-0.5">{t.reason}</p>}
                 </div>
               </div>
             ))}
@@ -3277,7 +3277,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
               <div className="flex items-center gap-2">
                 <span className="text-base">{sessionEmoji}</span>
                 <span className="text-sm font-bold text-zinc-200 uppercase tracking-wide">{sessionLabel}</span>
-                {generated_at && <span className="text-[10px] text-zinc-500 ml-1">{generated_at}</span>}
+                {generated_at && <span className="text-[11px] text-zinc-500 ml-1">{generated_at}</span>}
               </div>
               <button onClick={() => setShowFullBrief(false)} className="text-zinc-500 hover:text-zinc-300 text-xl leading-none ml-4">×</button>
             </div>
@@ -3295,7 +3295,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
             <div className="flex items-center justify-between px-5 py-3 border-b border-red-900/40 sticky top-0 bg-zinc-950 z-10">
               <div className="flex items-center gap-2">
                 <span className="text-red-600 font-black text-sm tracking-widest italic animate-pulse" style={{ animationDuration: "2s" }}>⚡ BREAKING NEWS</span>
-                <span className="bg-red-600 text-white text-[10px] font-black rounded-full w-4 h-4 flex items-center justify-center">{visibleAlerts.length}</span>
+                <span className="bg-red-600 text-white text-[11px] font-black rounded-full w-4 h-4 flex items-center justify-center">{visibleAlerts.length}</span>
               </div>
               <button onClick={() => setShowBreakingNews(false)} className="text-zinc-500 hover:text-zinc-300 text-xl leading-none ml-4">×</button>
             </div>
@@ -3304,8 +3304,8 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
                 <div key={alert.headline} className={i > 0 ? "pt-4 border-t border-red-900/20" : ""}>
                   <div className="flex items-center gap-2 mb-2 flex-wrap">
                     {alert.grade != null && <span className="text-red-700 font-black text-[11px] border border-red-700 px-1">{alert.grade}/10</span>}
-                    {alert.source && <span className="text-red-900 text-[10px] font-semibold uppercase tracking-widest">{alert.source}</span>}
-                    {formatAlertTime(alert.pub_time || alert.timestamp) && <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>}
+                    {alert.source && <span className="text-red-900 text-[11px] font-semibold uppercase tracking-widest">{alert.source}</span>}
+                    {formatAlertTime(alert.pub_time || alert.timestamp) && <span className="text-zinc-600 text-[11px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>}
                   </div>
                   <p className={`font-extrabold text-sm uppercase leading-snug ${i === 0 ? "text-red-500" : "text-red-700"}`}>
                     {highlightText(alert.headline)}
@@ -3313,7 +3313,7 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
                 </div>
               ))}
               {newsData?.last_checked && (
-                <p className="text-[10px] text-zinc-700 text-right pt-2 border-t border-zinc-800/60">Last checked: {newsData.last_checked}</p>
+                <p className="text-[11px] text-zinc-700 text-right pt-2 border-t border-zinc-800/60">Last checked: {newsData.last_checked}</p>
               )}
             </div>
           </div>
@@ -3330,15 +3330,15 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
               <span className="text-[11px] font-bold text-zinc-300 uppercase tracking-wide">{session ? `${session} Brief` : "Market Brief"}</span>
             </div>
             <div className="flex-shrink-0 ml-2">
-              {generated_at && <div className="text-[10px] text-zinc-600">{generated_at}</div>}
-              <div className="text-[10px] text-zinc-500">Next: {getNextBriefTime()}</div>
+              {generated_at && <div className="text-[11px] text-zinc-600">{generated_at}</div>}
+              <div className="text-[11px] text-zinc-500">Next: {getNextBriefTime()}</div>
             </div>
           </div>
           <div className="flex items-center gap-1.5">
             {/* Full brief expand button */}
             <button
               onClick={() => setShowFullBrief(true)}
-              className="text-[10px] text-zinc-500 hover:text-zinc-300 border border-zinc-700/50 rounded px-1.5 py-0.5 transition-colors flex items-center gap-1"
+              className="text-[11px] text-zinc-500 hover:text-zinc-300 border border-zinc-700/50 rounded px-1.5 py-0.5 transition-colors flex items-center gap-1"
             >
               {sessionLabel} <ExternalLink size={9}/>
             </button>
@@ -3346,10 +3346,10 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
             {visibleAlerts.length > 0 && (
               <button
                 onClick={() => setShowBreakingNews(true)}
-                className="flex items-center gap-1 bg-black border border-red-400/30 px-2 py-0.5 text-[10px] font-semibold italic tracking-wider text-red-400/70 hover:border-red-400/50 hover:text-red-400 transition-colors"
+                className="flex items-center gap-1 bg-black border border-red-400/30 px-2 py-0.5 text-[11px] font-semibold italic tracking-wider text-red-400/70 hover:border-red-400/50 hover:text-red-400 transition-colors"
               >
                 ⚡ NEWS
-                <span className="bg-red-400/40 text-red-200 text-[9px] font-semibold rounded-full w-3.5 h-3.5 flex items-center justify-center">
+                <span className="bg-red-400/40 text-red-200 text-[11px] font-semibold rounded-full w-3.5 h-3.5 flex items-center justify-center">
                   {visibleAlerts.length}
                 </span>
               </button>
@@ -3383,7 +3383,7 @@ const IBKRScannerTable = ({ ibkrScanner, onTickerClick }) => {
         <span className="text-[12px] font-bold text-zinc-300 uppercase tracking-wide">
           IBKR TWS Scanner — Pre-Market <span className="normal-case">(mirrored)</span>
         </span>
-        <span className="px-1.5 py-0.5 text-[9px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
+        <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
           IBKR
         </span>
       </div>
@@ -3468,7 +3468,7 @@ const IBKRScannerTable = ({ ibkrScanner, onTickerClick }) => {
                         <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded border text-[11px] font-bold font-mono ${passed >= 4 ? 'bg-yellow-500/15 text-yellow-400 border-yellow-500/30' : 'bg-red-500/15 text-red-400 border-red-500/30'}`}>
                           {passed}/5
                           {failedGates.length > 0 && (
-                            <span className="font-normal text-[10px] opacity-80">
+                            <span className="font-normal text-[11px] opacity-80">
                               · {failedGates.join(', ')} fail
                             </span>
                           )}
@@ -3477,7 +3477,7 @@ const IBKRScannerTable = ({ ibkrScanner, onTickerClick }) => {
                     </td>
                     {/* Source */}
                     <td className="py-2 px-3 text-center">
-                      <span className="px-1.5 py-0.5 text-[10px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
+                      <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
                         IBKR
                       </span>
                     </td>
@@ -3505,8 +3505,8 @@ const EarningsStrip = ({ earningsData, gapperTickers = new Set(), onTickerClick 
     <div className="mb-3 bg-zinc-900/60 border border-zinc-800/50 rounded-lg px-3 py-2">
       <div className="flex items-center gap-1.5 mb-1.5">
         <Clock size={11} className="text-zinc-500 flex-shrink-0"/>
-        <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-widest">Earnings Today</span>
-        <span className="text-[10px] text-zinc-700">{today.length} co.</span>
+        <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-widest">Earnings Today</span>
+        <span className="text-[11px] text-zinc-700">{today.length} co.</span>
       </div>
       <div className="flex gap-2 overflow-x-auto pb-0.5" style={{ scrollbarWidth: 'none' }}>
         {today.map(entry => {
@@ -3525,7 +3525,7 @@ const EarningsStrip = ({ earningsData, gapperTickers = new Set(), onTickerClick 
                 {entry.ticker}
               </span>
               {entry.time_of_day && (
-                <span className={`px-1 py-0.5 text-[9px] font-bold rounded border leading-none ${timeCls}`}>
+                <span className={`px-1 py-0.5 text-[11px] font-bold rounded border leading-none ${timeCls}`}>
                   {entry.time_of_day}
                 </span>
               )}
@@ -3535,7 +3535,7 @@ const EarningsStrip = ({ earningsData, gapperTickers = new Set(), onTickerClick 
                 </span>
               )}
               {isGapper && (
-                <span className="text-[9px] font-bold text-blue-400 leading-none">⚡GAP</span>
+                <span className="text-[11px] font-bold text-blue-400 leading-none">⚡GAP</span>
               )}
             </div>
           );
@@ -3727,7 +3727,7 @@ const TradeJournalTab = ({ data }) => {
   const rCls    = (v) => { const n = parseFloat(v); return isNaN(n) ? "text-zinc-500" : n >= 2 ? "text-emerald-400 font-bold" : n > 0 ? "text-emerald-400" : n < 0 ? "text-red-400" : "text-zinc-500"; };
 
   const TH = ({ children, w }) => (
-    <th className={`px-2 py-2 text-[10px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap ${w || ""}`}>{children}</th>
+    <th className={`px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap ${w || ""}`}>{children}</th>
   );
 
   return (
@@ -3742,7 +3742,7 @@ const TradeJournalTab = ({ data }) => {
           { label: "Avg Hold",         value: avgHold != null ? `${avgHold.toFixed(1)}d` : "—", cls: "text-zinc-300", sub: `${holdDays.length} trades with exit date` },
         ].map(m => (
           <div key={m.label} className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-4">
-            <div className="text-[10px] text-zinc-500 uppercase tracking-wider mb-1.5">{m.label}</div>
+            <div className="text-[11px] text-zinc-500 uppercase tracking-wider mb-1.5">{m.label}</div>
             <div className={`text-[22px] font-bold font-mono leading-none mb-1 ${m.cls}`}>{m.value}</div>
             <div className="text-[11px] text-zinc-600">{m.sub}</div>
           </div>
@@ -3848,11 +3848,11 @@ const TradeJournalTab = ({ data }) => {
                     <InlineText value={t.theme} onChange={v => updateField(t.id, "theme", v)} placeholder="Theme"/>
                   </td>
                   <td className="px-2 py-1.5 text-[11px] font-mono text-zinc-300">{t.entry_price ? `$${t.entry_price}` : "—"}</td>
-                  <td className="px-2 py-1.5 text-[11px] font-mono text-zinc-300">{t.exit_price ? `$${t.exit_price}` : <span className="text-blue-400 text-[10px]">Open</span>}</td>
+                  <td className="px-2 py-1.5 text-[11px] font-mono text-zinc-300">{t.exit_price ? `$${t.exit_price}` : <span className="text-blue-400 text-[11px]">Open</span>}</td>
                   <td className="px-2 py-1.5 text-[11px] font-mono text-zinc-400">{t.shares || "—"}</td>
                   <td className="px-2 py-1.5">
                     <InlineSelect value={t.stop_used} options={STOP_OPTS} onChange={v => updateField(t.id, "stop_used", v)}
-                      cls="text-[10px] font-mono text-zinc-500"/>
+                      cls="text-[11px] font-mono text-zinc-500"/>
                   </td>
                   <td className={`px-2 py-1.5 text-[11px] font-mono ${pnlCls(t.pnl_dollars)}`}>
                     {t.pnl_dollars ? `${parseFloat(t.pnl_dollars) >= 0 ? "+" : ""}$${parseFloat(t.pnl_dollars).toFixed(0)}` : "—"}
@@ -3888,7 +3888,7 @@ const TradeJournalTab = ({ data }) => {
               <thead className="border-b border-zinc-800/40">
                 <tr>
                   {["Theme","Trades","Wins","Win %","Total P&L","Avg P&L"].map(h => (
-                    <th key={h} className="px-3 py-2 text-[10px] font-semibold text-zinc-600 uppercase tracking-wider">{h}</th>
+                    <th key={h} className="px-3 py-2 text-[11px] font-semibold text-zinc-600 uppercase tracking-wider">{h}</th>
                   ))}
                 </tr>
               </thead>
@@ -3916,12 +3916,12 @@ const TradeJournalTab = ({ data }) => {
       {/* ── Gemini Journal Analysis ──────────────────────────────────────── */}
       <div className="border border-emerald-800/40 bg-emerald-900/10 rounded-xl p-4">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-[10px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI JOURNAL ANALYSIS</span>
+          <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI JOURNAL ANALYSIS</span>
           <button onClick={runAI} disabled={aiLoading || trades.length === 0}
             className="flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-medium bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-lg hover:bg-emerald-500/30 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
             {aiLoading ? <><RefreshCw size={10} className="animate-spin"/> Analysing…</> : "Analyse Journal"}
           </button>
-          {!JOURNAL_AI_KEY && <span className="text-[10px] text-zinc-600">Set REACT_APP_GEMINI_KEY to enable</span>}
+          {!JOURNAL_AI_KEY && <span className="text-[11px] text-zinc-600">Set REACT_APP_GEMINI_KEY to enable</span>}
         </div>
         {aiResult
           ? <pre className="text-[12px] text-zinc-200 leading-relaxed whitespace-pre-wrap font-sans">{aiResult}</pre>
@@ -4179,8 +4179,8 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2">
               <span className="font-mono text-[15px] font-bold text-white">{stock.ticker}</span>
-              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 leading-none">✦ AI ANALYSIS</span>
-              {themeName && <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none">{themeName}</span>}
+              <span className="text-[11px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 leading-none">✦ AI ANALYSIS</span>
+              {themeName && <span className="text-[11px] font-medium px-1.5 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none">{themeName}</span>}
             </div>
             <span className="text-[11px] text-zinc-500 truncate block">{stock.company}</span>
           </div>
@@ -4228,11 +4228,11 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
             <div className="space-y-3">
               {sections.map((sec, i) => (
                 <div key={i} className="rounded-lg border border-zinc-800 bg-zinc-900/50 px-3 py-2.5">
-                  <div className="text-[10px] font-bold tracking-widest text-zinc-500 uppercase mb-1">{sec.title}</div>
+                  <div className="text-[11px] font-bold tracking-widest text-zinc-500 uppercase mb-1">{sec.title}</div>
                   <p className="text-[12px] text-zinc-300 leading-snug mb-2">{sec.summary}</p>
                   <div className="flex flex-wrap gap-1.5">
                     {(sec.keywords || []).map((kw, ki) => (
-                      <span key={ki} className={`text-[10px] font-medium px-2 py-0.5 rounded-full border ${chipColors[ki % chipColors.length]}`}>
+                      <span key={ki} className={`text-[11px] font-medium px-2 py-0.5 rounded-full border ${chipColors[ki % chipColors.length]}`}>
                         {kw}
                       </span>
                     ))}
@@ -4245,10 +4245,10 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
 
         {/* Footer */}
         <div className="border-t border-zinc-800/60 px-4 py-2 flex-shrink-0 flex items-center justify-between">
-          <span className="text-[10px] text-zinc-700">Powered by Gemini 2.5 Flash · Based on latest available earnings data</span>
+          <span className="text-[11px] text-zinc-700">Powered by Gemini 2.5 Flash · Based on latest available earnings data</span>
           <a href={`https://www.tradingview.com/chart/?symbol=${stock.ticker}`}
              target="_blank" rel="noopener noreferrer"
-             className="text-[10px] text-zinc-500 hover:text-cyan-400 transition-colors flex items-center gap-1">
+             className="text-[11px] text-zinc-500 hover:text-cyan-400 transition-colors flex items-center gap-1">
             Open chart <ExternalLink size={9}/>
           </a>
         </div>
@@ -4378,12 +4378,12 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
         <div className="flex items-center gap-1.5 min-w-0 pr-2">
           <span className="text-[12px] text-zinc-300 truncate">{e.company || "—"}</span>
           {tickerThemeMap[e.ticker] && (
-            <span className="flex-shrink-0 text-[9px] font-medium px-1 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none truncate max-w-[90px]">{tickerThemeMap[e.ticker]}</span>
+            <span className="flex-shrink-0 text-[11px] font-medium px-1 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none truncate max-w-[90px]">{tickerThemeMap[e.ticker]}</span>
           )}
           <button
             onClick={() => setAnalysisStock(e)}
             title="Gemini AI earnings analysis"
-            className="flex-shrink-0 w-4 h-4 flex items-center justify-center rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-500 hover:bg-emerald-500/25 hover:border-emerald-500/50 transition-colors leading-none text-[9px] font-bold"
+            className="flex-shrink-0 w-4 h-4 flex items-center justify-center rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-500 hover:bg-emerald-500/25 hover:border-emerald-500/50 transition-colors leading-none text-[11px] font-bold"
             aria-label="AI analysis">
             ✦
           </button>
@@ -4392,7 +4392,7 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
         {/* Time — pill badge */}
         <div className="flex justify-start">
           {tod
-            ? <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border leading-none ${todCls}`}>{todLabel}</span>
+            ? <span className={`text-[11px] font-bold px-1.5 py-0.5 rounded border leading-none ${todCls}`}>{todLabel}</span>
             : <span className="text-[12px] text-zinc-600">—</span>}
         </div>
 
@@ -4459,18 +4459,18 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
                 <div className="flex flex-col gap-0.5 w-full">
                   {econCnt > 0 && (
                     <div className="flex items-center justify-between">
-                      <span className="text-[9px] text-zinc-600">Economic</span>
-                      <span className="text-[9px] font-mono text-zinc-400">{econCnt}</span>
+                      <span className="text-[11px] text-zinc-600">Economic</span>
+                      <span className="text-[11px] font-mono text-zinc-400">{econCnt}</span>
                     </div>
                   )}
                   {earnCnt > 0 && (
                     <div className="flex items-center justify-between">
-                      <span className="text-[9px] text-zinc-600">Earnings</span>
-                      <span className="text-[9px] font-mono text-zinc-400">{earnCnt}</span>
+                      <span className="text-[11px] text-zinc-600">Earnings</span>
+                      <span className="text-[11px] font-mono text-zinc-400">{earnCnt}</span>
                     </div>
                   )}
                   {econCnt === 0 && earnCnt === 0 && (
-                    <span className="text-[9px] text-zinc-700">—</span>
+                    <span className="text-[11px] text-zinc-700">—</span>
                   )}
                 </div>
               </button>
@@ -4510,13 +4510,13 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
               {/* Table header */}
               <div className="grid items-center border-b border-zinc-800/60 bg-zinc-800/40 px-4 py-2"
                    style={{ gridTemplateColumns: "72px 180px 20px 1fr 110px 100px 100px" }}>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider">Time</span>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider">Country</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">Time</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">Country</span>
                 <span/>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider pl-2">Event</span>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Actual</span>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Forecast</span>
-                <span className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Prior</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider pl-2">Event</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Actual</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Forecast</span>
+                <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-right">Prior</span>
               </div>
 
               {timeKeys.map((time, gi) => {
@@ -4543,7 +4543,7 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
                           {/* Time — only show on first row of time group */}
                           {j === 0 ? (
                             isNextSlot
-                              ? <span className="inline-flex w-fit items-center px-1.5 py-0.5 rounded bg-red-500 text-white text-[10px] font-bold leading-none">{time}</span>
+                              ? <span className="inline-flex w-fit items-center px-1.5 py-0.5 rounded bg-red-500 text-white text-[11px] font-bold leading-none">{time}</span>
                               : <span className={`text-[12px] font-mono font-semibold ${isPast ? "text-zinc-600" : "text-amber-400"}`}>{time}</span>
                           ) : <span/>}
 
@@ -4566,7 +4566,7 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
                           {/* Actual */}
                           <div className="text-right">
                             {actual == null
-                              ? <span className="text-[10px] text-amber-500/70 font-medium">Coming soon</span>
+                              ? <span className="text-[11px] text-amber-500/70 font-medium">Coming soon</span>
                               : <span className={`text-[12px] font-mono font-semibold ${actualColor}`}>{actual}</span>}
                           </div>
 
@@ -4605,7 +4605,7 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
               <div className="grid items-center border-b border-zinc-800/60 bg-zinc-800/40 px-3 py-2 min-w-[900px]"
                    style={{ gridTemplateColumns: "90px 1fr 90px 90px 80px 80px 90px 90px 90px 90px" }}>
                 {["Ticker","Company","Time","Mkt Cap","EPS Est","EPS Act","EPS Surp","Rev Est","Rev Act","Rev Surp"].map((col, ci) => (
-                  <span key={ci} className={`text-[10px] font-semibold text-zinc-500 uppercase tracking-wider ${ci >= 3 ? "text-right" : ""} ${ci === 2 ? "!text-left" : ""}`}>{col}</span>
+                  <span key={ci} className={`text-[11px] font-semibold text-zinc-500 uppercase tracking-wider ${ci >= 3 ? "text-right" : ""} ${ci === 2 ? "!text-left" : ""}`}>{col}</span>
                 ))}
               </div>
 
@@ -4619,19 +4619,19 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
                 return <>
                   {thematic.length > 0 && <>
                     <div className="px-3 py-1.5 bg-sky-900/20 border-b border-sky-800/30">
-                      <span className="text-[9px] text-sky-500 uppercase tracking-widest font-semibold">Thematic Scanner</span>
+                      <span className="text-[11px] text-sky-500 uppercase tracking-widest font-semibold">Thematic Scanner</span>
                     </div>
                     {thematic.map((e, i) => <EarningsRow key={`th-${i}`} e={e}/>)}
                   </>}
                   {bmo.length > 0 && <>
                     <div className="px-3 py-1.5 bg-zinc-800/30 border-y border-zinc-800/60">
-                      <span className="text-[9px] text-zinc-600 uppercase tracking-widest font-semibold">Before Market Open</span>
+                      <span className="text-[11px] text-zinc-600 uppercase tracking-widest font-semibold">Before Market Open</span>
                     </div>
                     {bmo.map((e, i) => <EarningsRow key={`bmo-${i}`} e={e}/>)}
                   </>}
                   {amc.length > 0 && <>
                     <div className="px-3 py-1.5 bg-zinc-800/30 border-y border-zinc-800/60">
-                      <span className="text-[9px] text-zinc-600 uppercase tracking-widest font-semibold">After Market Close</span>
+                      <span className="text-[11px] text-zinc-600 uppercase tracking-widest font-semibold">After Market Close</span>
                     </div>
                     {amc.map((e, i) => <EarningsRow key={`amc-${i}`} e={e}/>)}
                   </>}
@@ -4712,9 +4712,9 @@ const GeminiBreathAnalysis = ({ mc, internalsData }) => {
   return (
     <div className="mb-4 border border-emerald-800/40 bg-emerald-900/10 rounded-xl p-4">
       <div className="flex items-center gap-2 mb-2">
-        <span className="text-[10px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI BREADTH READ</span>
+        <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI BREADTH READ</span>
         {loading && <RefreshCw size={10} className="text-emerald-600 animate-spin"/>}
-        {!BREADTH_GEMINI_KEY && <span className="text-[10px] text-zinc-600">Set REACT_APP_GEMINI_KEY to enable</span>}
+        {!BREADTH_GEMINI_KEY && <span className="text-[11px] text-zinc-600">Set REACT_APP_GEMINI_KEY to enable</span>}
       </div>
       {text
         ? <p className="text-[13px] text-zinc-200 leading-relaxed">{text}</p>
@@ -4860,9 +4860,9 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
         <div className="flex flex-wrap gap-2 mb-4">
           {metrics.map(m => (
             <div key={m.label} className="flex-1 min-w-[100px] bg-zinc-900/60 border border-zinc-800/60 rounded-lg px-2.5 py-1.5">
-              <div className="text-[9px] text-zinc-500 uppercase tracking-wider">{m.label}</div>
+              <div className="text-[11px] text-zinc-500 uppercase tracking-wider">{m.label}</div>
               <div className={`text-[15px] font-bold font-mono leading-tight ${m.color}`}>{m.value}</div>
-              {m.sub && <div className="text-[9px] text-zinc-600 truncate">{m.sub}</div>}
+              {m.sub && <div className="text-[11px] text-zinc-600 truncate">{m.sub}</div>}
             </div>
           ))}
         </div>
@@ -4873,7 +4873,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
             {/* Title header */}
             <div className="px-4 py-2 border-b border-zinc-800/60 flex items-center gap-2">
               <span className="text-[11px] font-semibold text-zinc-300">Market Breadth — NYSE / S&P 500</span>
-              {data?.last_updated && <span className="text-[10px] text-zinc-600">{data.last_updated}</span>}
+              {data?.last_updated && <span className="text-[11px] text-zinc-600">{data.last_updated}</span>}
             </div>
 
             {/* Single horizontal row */}
@@ -4886,13 +4886,13 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
                 return (
                   <div key={row.label}
                     className="flex-1 min-w-[140px] px-3 py-2.5 flex flex-col justify-between gap-1">
-                    <div className="text-[9px] text-zinc-500 uppercase tracking-wide truncate">{row.label}</div>
+                    <div className="text-[11px] text-zinc-500 uppercase tracking-wide truncate">{row.label}</div>
                     <div className="flex items-baseline gap-1 text-[12px] font-mono font-semibold leading-none">
                       <span className="text-emerald-400">{lp.toFixed(1)}%</span>
-                      {row.leftCount  != null && <span className="text-[9px] text-zinc-600">({row.leftCount})</span>}
+                      {row.leftCount  != null && <span className="text-[11px] text-zinc-600">({row.leftCount})</span>}
                       <span className="text-zinc-300 mx-0.5">/</span>
                       <span className="text-red-500">{rp.toFixed(1)}%</span>
-                      {row.rightCount != null && <span className="text-[9px] text-zinc-600">({row.rightCount})</span>}
+                      {row.rightCount != null && <span className="text-[11px] text-zinc-600">({row.rightCount})</span>}
                     </div>
                     <div className="flex h-[4px] rounded-full overflow-hidden gap-px">
                       <div className="bg-emerald-500/70 rounded-l-full" style={{ width: `${lp}%` }} />
@@ -4910,7 +4910,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
               {/* SPY / QQQ columns */}
               {[["SPY", mc.spy], ["QQQ", mc.qqq]].map(([name, idx]) => idx && (
                 <div key={name} className="flex-1 min-w-[130px] px-3 py-2.5 flex flex-col gap-1">
-                  <div className="text-[10px] font-semibold text-zinc-300">{name}</div>
+                  <div className="text-[11px] font-semibold text-zinc-300">{name}</div>
                   <div className="flex gap-4">
                     {[
                       { k: "sma50_pct",  l: "vs SMA50"  },
@@ -4918,7 +4918,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
                       { k: "ema10_pct",  l: "vs EMA10"  },
                     ].filter(({ k }) => idx[k] != null).map(({ k, l }) => (
                       <div key={k}>
-                        <div className="text-[9px] text-zinc-600">{l}</div>
+                        <div className="text-[11px] text-zinc-600">{l}</div>
                         <div className={`text-[12px] font-mono font-bold ${idx[k] > 0 ? "text-emerald-400" : "text-red-400"}`}>
                           {idx[k] > 0 ? "+" : ""}{idx[k].toFixed(2)}%
                         </div>
@@ -4943,7 +4943,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
 
         {/* Daily Brief cards */}
         <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-          <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2.5">Daily Brief</div>
+          <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-2.5">Daily Brief</div>
           <div className="flex flex-col gap-2.5">
             {[
               { label: "Short-term",  verdict: shortTermVerdict },
@@ -4951,9 +4951,9 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
               { label: "T2108",       verdict: t2108Verdict },
             ].map(({ label, verdict }) => (
               <div key={label}>
-                <div className="text-[10px] text-zinc-600 mb-0.5">{label}</div>
+                <div className="text-[11px] text-zinc-600 mb-0.5">{label}</div>
                 <div className={`text-[12px] font-semibold ${verdict.cls} leading-tight`}>{verdict.label}</div>
-                <div className="text-[10px] text-zinc-600 leading-tight mt-0.5">{verdict.detail}</div>
+                <div className="text-[11px] text-zinc-600 leading-tight mt-0.5">{verdict.detail}</div>
               </div>
             ))}
           </div>
@@ -4961,7 +4961,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
 
         {/* Internals block */}
         <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-          <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Internals</div>
+          <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Internals</div>
           <div className="flex flex-col gap-1">
             {internals.map(({ label, value, color }) => (
               <div key={label} className="flex items-center justify-between">
@@ -4971,7 +4971,7 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
             ))}
           </div>
           {internalsData?.generated_at && (
-            <div className="text-[9px] text-zinc-700 mt-2 border-t border-zinc-800/40 pt-1.5">
+            <div className="text-[11px] text-zinc-700 mt-2 border-t border-zinc-800/40 pt-1.5">
               {new Date(internalsData.generated_at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
             </div>
           )}
@@ -4980,11 +4980,11 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
         {/* Leading Themes */}
         {leadingThemes.length > 0 && (
           <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-            <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Leading Themes · 1D</div>
+            <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Leading Themes · 1D</div>
             <div className="flex flex-col gap-1.5">
               {leadingThemes.map((t, i) => (
                 <div key={t.name} className="flex items-center gap-1.5">
-                  <span className="text-[10px] text-zinc-700 font-mono w-4 text-right">{i + 1}</span>
+                  <span className="text-[11px] text-zinc-700 font-mono w-4 text-right">{i + 1}</span>
                   <span className="text-[11px] text-zinc-300 flex-1 truncate leading-tight">{t.name}</span>
                   <span className={`text-[11px] font-mono font-bold flex-shrink-0 ${(t.perf_1d || 0) > 0 ? "text-emerald-400" : "text-red-400"}`}>
                     {(t.perf_1d || 0) > 0 ? "+" : ""}{(t.perf_1d || 0).toFixed(1)}%
@@ -4997,15 +4997,15 @@ const MarketBreadthTab = ({ data, internalsData, econData }) => {
 
         {/* Macro Risk Flags */}
         <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-          <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Macro Risk · Today</div>
+          <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">Macro Risk · Today</div>
           {macroFlags.length > 0 ? (
             <div className="flex flex-col gap-2">
               {macroFlags.map((e, i) => (
                 <div key={i} className="flex items-start gap-1.5">
-                  <span className="text-[9px] font-bold text-red-400 mt-0.5 flex-shrink-0">●</span>
+                  <span className="text-[11px] font-bold text-red-400 mt-0.5 flex-shrink-0">●</span>
                   <div>
                     <div className="text-[11px] text-zinc-300 leading-tight">{e.event || e.name}</div>
-                    {e.time && <div className="text-[9px] text-zinc-600">{e.time} ET</div>}
+                    {e.time && <div className="text-[11px] text-zinc-600">{e.time} ET</div>}
                   </div>
                 </div>
               ))}
@@ -5071,7 +5071,7 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
         <div className="text-[12px] font-semibold text-zinc-200 mb-0.5">
           {mode === "gapper" ? "Gate Leaders" : "Leaders — All Themes"}
         </div>
-        <div className="text-[9px] text-zinc-600 leading-tight">
+        <div className="text-[11px] text-zinc-600 leading-tight">
           {mode === "gapper"
             ? "Gappers passing all 5 gates + peers"
             : "RS>85 · Price>$12 · Vol>$100M · Cap>$2B · ADR≥4%"}
@@ -5081,7 +5081,7 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
       {/* Leaders list */}
       <div className="flex flex-col gap-0.5 mb-3">
         {leaders.length > 0 && (
-          <div className="flex items-center justify-between text-[9px] text-zinc-600 pb-0.5 mb-0.5 border-b border-zinc-800/60">
+          <div className="flex items-center justify-between text-[11px] text-zinc-600 pb-0.5 mb-0.5 border-b border-zinc-800/60">
             <span>Ticker · Price · Chg</span>
             <span>RS</span>
           </div>
@@ -5103,13 +5103,13 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
                   onMouseLeave={cancelHover}
                 >
                   {ticker}
-                  {isPeer && <span className="text-[8px] text-zinc-600 ml-0.5">peer</span>}
+                  {isPeer && <span className="text-[11px] text-zinc-600 ml-0.5">peer</span>}
                 </span>
-                {price != null && <span className="text-[9px] font-mono text-zinc-500">${price.toFixed(2)}</span>}
-                {gap_pct != null && <span className="text-[9px] font-mono font-bold text-emerald-400">+{gap_pct.toFixed(1)}%</span>}
+                {price != null && <span className="text-[11px] font-mono text-zinc-500">${price.toFixed(2)}</span>}
+                {gap_pct != null && <span className="text-[11px] font-mono font-bold text-emerald-400">+{gap_pct.toFixed(1)}%</span>}
               </div>
               {rs != null && (
-                <span className={`text-[9px] font-bold font-mono px-1 py-0.5 rounded border leading-none flex-shrink-0 ${rsCls}`}>
+                <span className={`text-[11px] font-bold font-mono px-1 py-0.5 rounded border leading-none flex-shrink-0 ${rsCls}`}>
                   {rs}
                 </span>
               )}
@@ -5123,11 +5123,11 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
 
       {/* Active Alerts */}
       <div className="mb-3">
-        <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">Active Alerts</div>
+        <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">Active Alerts</div>
         {ibkrThemesData?.power_themes?.slice(0, 2).map(pt => pt.theme_rs >= 90 ? (
           <div key={pt.name} className="mb-1 p-1.5 rounded-lg bg-emerald-500/5 border border-emerald-500/15">
-            <div className="text-[10px] font-bold text-emerald-400">{pt.name.split(' ')[0]} {pt.name.split(' ')[1] || ''} RS &gt; 90</div>
-            <div className="text-[9px] text-zinc-600 mt-0.5 font-mono">
+            <div className="text-[11px] font-bold text-emerald-400">{pt.name.split(' ')[0]} {pt.name.split(' ')[1] || ''} RS &gt; 90</div>
+            <div className="text-[11px] text-zinc-600 mt-0.5 font-mono">
               {isLive ? '● ntfy.sh ✓' : '◐ Pending'}
             </div>
           </div>
@@ -5142,17 +5142,17 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
 
       {/* IBKR TWS Scanner */}
       <div>
-        <div className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">
+        <div className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">
           IBKR TWS Scanner
         </div>
         {ibkrThemesData?.ibkr_scanner?.length > 0 ? (
           <div className="flex flex-col gap-0.5">
-            <div className="text-[9px] text-zinc-600 mb-1">Mirroring: Top Pre-Mkt Gainers</div>
+            <div className="text-[11px] text-zinc-600 mb-1">Mirroring: Top Pre-Mkt Gainers</div>
             {ibkrThemesData.ibkr_scanner.slice(0, 4).map(row => (
               <div key={row.ticker} className="flex items-center justify-between px-1 py-0.5 rounded hover:bg-zinc-800/40 transition-colors">
                 <span className="text-[11px] font-mono font-semibold text-zinc-200">{row.ticker}</span>
                 {row.change_pct != null && (
-                  <span className={`text-[10px] font-mono font-bold ${row.change_pct >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
+                  <span className={`text-[11px] font-mono font-bold ${row.change_pct >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
                     {row.change_pct >= 0 ? '+' : ''}{Number(row.change_pct).toFixed(1)}%
                   </span>
                 )}
@@ -5393,7 +5393,7 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                       <Tip text={(g.technical_status || "").startsWith("Fail")
                         ? `✗ 未通過技術門檻：${g.technical_status.replace("Fail — ", "")}。整排灰色 = 不建議交易`
                         : "✓ 通過技術門檻：平均日成交金額 >$100M 且 ADR >4%，具備足夠流動性與波動性"}>
-                        <span className={`text-[9px] font-semibold px-1 py-0.5 rounded leading-none ${
+                        <span className={`text-[11px] font-semibold px-1 py-0.5 rounded leading-none ${
                           (g.technical_status || "").startsWith("Fail")
                             ? "text-red-400 bg-red-500/10 border border-red-500/20"
                             : "text-emerald-400 bg-emerald-500/10 border border-emerald-500/20"
@@ -5404,7 +5404,7 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                     )}
                     {(g.theme || g.category) === "Technical / Flow" && (
                       <Tip text="找不到明確催化劑（無財報、合約、政策等新聞）。歸類為資金流向/技術突破。自動降為 C 級，風險較高，謹慎操作">
-                        <span className="text-[9px] text-amber-500 font-semibold">🔍 Flow</span>
+                        <span className="text-[11px] text-amber-500 font-semibold">🔍 Flow</span>
                       </Tip>
                     )}
                   </div>
@@ -5427,7 +5427,7 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                         <span className="line-clamp-1 text-[11px] text-zinc-300 block">{catalyst || "—"}</span>
                         <button
                           onClick={(e) => { e.stopPropagation(); setModalData(g); }}
-                          className="text-[10px] text-blue-400 hover:text-blue-300 mt-0.5"
+                          className="text-[11px] text-blue-400 hover:text-blue-300 mt-0.5"
                         >•••</button>
                       </div>
                     );
@@ -6068,8 +6068,8 @@ const SearchBar = ({ data, search, setSearch }) => {
       {open && q.length === 0 && searchHistory.length > 0 && (
         <div className="absolute top-full right-0 mt-1.5 w-72 bg-zinc-900 border border-zinc-700/60 rounded-lg shadow-2xl z-50 py-1">
           <div className="px-3 py-1 flex items-center justify-between">
-            <span className="text-[10px] text-zinc-600 uppercase tracking-widest">最近搜尋</span>
-            <button onMouseDown={e => { e.preventDefault(); setSearchHistory([]); localStorage.removeItem('searchHistory'); }} className="text-[10px] text-zinc-600 hover:text-zinc-400">清除</button>
+            <span className="text-[11px] text-zinc-600 uppercase tracking-widest">最近搜尋</span>
+            <button onMouseDown={e => { e.preventDefault(); setSearchHistory([]); localStorage.removeItem('searchHistory'); }} className="text-[11px] text-zinc-600 hover:text-zinc-400">清除</button>
           </div>
           {searchHistory.map(h => (
             <button key={h} onMouseDown={e => { e.preventDefault(); setSearch(h); setOpen(true); }}
@@ -6089,7 +6089,7 @@ const SearchBar = ({ data, search, setSearch }) => {
               className="w-full flex items-center gap-2 px-3 py-1.5 hover:bg-zinc-800 text-left">
               <span className="text-[13px] font-bold text-zinc-200 w-14 flex-shrink-0">{s.ticker}</span>
               <span className="text-[12px] text-zinc-500 truncate flex-1">{s.company}</span>
-              {s.inScanner && <span className="text-[10px] text-blue-400 flex-shrink-0">in scanner</span>}
+              {s.inScanner && <span className="text-[11px] text-blue-400 flex-shrink-0">in scanner</span>}
             </button>
           ))}
         </div>
@@ -6170,7 +6170,7 @@ const SearchBar = ({ data, search, setSearch }) => {
                               onClick={() => setSelectedSubTheme(isOpen ? null : a.subtheme)}
                             >
                               {a.subtheme}
-                              <span className="text-zinc-500 text-[10px] ml-0.5">{isOpen ? '▲' : '▼'}</span>
+                              <span className="text-zinc-500 text-[11px] ml-0.5">{isOpen ? '▲' : '▼'}</span>
                             </button>
                           );
                         })}
@@ -6255,23 +6255,23 @@ const SearchBar = ({ data, search, setSearch }) => {
                       onMouseDown={e => e.preventDefault()}
                     >
                       <div className="flex items-center gap-1.5 mb-1">
-                        <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${item.catalyst.color}`}>
+                        <span className={`text-[11px] font-semibold px-1.5 py-0.5 rounded border ${item.catalyst.color}`}>
                           {item.catalyst.label}
                         </span>
                         {item.sentiment && (
-                          <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${item.sentiment === "good" ? "text-emerald-400 bg-emerald-500/10 border-emerald-500/30" : item.sentiment === "bad" ? "text-red-400 bg-red-500/10 border-red-500/30" : "text-zinc-400 bg-zinc-700/20 border-zinc-600/30"}`}>
+                          <span className={`text-[11px] font-semibold px-1.5 py-0.5 rounded border ${item.sentiment === "good" ? "text-emerald-400 bg-emerald-500/10 border-emerald-500/30" : item.sentiment === "bad" ? "text-red-400 bg-red-500/10 border-red-500/30" : "text-zinc-400 bg-zinc-700/20 border-zinc-600/30"}`}>
                             {item.sentiment}
                           </span>
                         )}
                         {date && (
-                          <span className="text-[10px] text-zinc-600">{date}</span>
+                          <span className="text-[11px] text-zinc-600">{date}</span>
                         )}
                       </div>
                       <p className="text-[12px] text-zinc-300 group-hover:text-blue-400 leading-snug transition-colors">
                         {item.headline}
                       </p>
                       {item.source && (
-                        <p className="text-[10px] text-zinc-700 mt-0.5">{item.source}</p>
+                        <p className="text-[11px] text-zinc-700 mt-0.5">{item.source}</p>
                       )}
                     </a>
                   );
@@ -6427,7 +6427,7 @@ const MacroRiskCard = () => {
             </div>
             <PctChange v={d.change_pct}/>
             {!isVix && d.open != null && (
-              <div className="text-[10px] text-zinc-700 mt-1 font-mono">
+              <div className="text-[11px] text-zinc-700 mt-1 font-mono">
                 O:{d.open.toFixed(2)} H:{d.high?.toFixed(2)} L:{d.low?.toFixed(2)}
               </div>
             )}
@@ -6449,7 +6449,7 @@ const MacroRiskCard = () => {
               <span className={`text-[11px] font-bold px-2 py-0.5 rounded border mt-1 inline-block ${regimeCls(credit.regime)}`}>
                 {credit.regime}
               </span>
-              {credit.date && <div className="text-[10px] text-zinc-700 mt-1.5">FRED · {credit.date}</div>}
+              {credit.date && <div className="text-[11px] text-zinc-700 mt-1.5">FRED · {credit.date}</div>}
             </>
           ) : <div className="text-zinc-600 text-[13px]">No data</div>}
         </div>
@@ -6542,7 +6542,7 @@ const MacroRiskCard = () => {
                 )}
                 {ana.analysis_para2 && (
                   <div>
-                    <div className="text-[10px] text-zinc-600 uppercase tracking-wide mb-1">Mechanical Catalyst</div>
+                    <div className="text-[11px] text-zinc-600 uppercase tracking-wide mb-1">Mechanical Catalyst</div>
                     <p className="text-[13px] text-zinc-300 leading-relaxed">{ana.analysis_para2}</p>
                   </div>
                 )}
@@ -6569,7 +6569,7 @@ const MacroRiskCard = () => {
               <div className="grid grid-cols-2 gap-2">
                 {(ana.ticker_intel.a_grade || []).map((t, i) => (
                   <div key={i} className="bg-emerald-500/10 border border-emerald-500/20 rounded p-2 flex gap-2 items-start">
-                    <span className="text-[10px] font-bold text-emerald-500 border border-emerald-500/40 rounded px-1 mt-0.5 flex-shrink-0">A</span>
+                    <span className="text-[11px] font-bold text-emerald-500 border border-emerald-500/40 rounded px-1 mt-0.5 flex-shrink-0">A</span>
                     <div>
                       <div className="font-mono text-[13px] font-bold text-zinc-200">{t.ticker}</div>
                       <div className="text-[11px] text-zinc-400 leading-tight mt-0.5">{t.reason}</div>
@@ -6578,7 +6578,7 @@ const MacroRiskCard = () => {
                 ))}
                 {(ana.ticker_intel.c_grade || []).map((t, i) => (
                   <div key={i} className="bg-red-500/10 border border-red-500/20 rounded p-2 flex gap-2 items-start">
-                    <span className="text-[10px] font-bold text-red-400 border border-red-500/40 rounded px-1 mt-0.5 flex-shrink-0">C</span>
+                    <span className="text-[11px] font-bold text-red-400 border border-red-500/40 rounded px-1 mt-0.5 flex-shrink-0">C</span>
                     <div>
                       <div className="font-mono text-[13px] font-bold text-zinc-200">{t.ticker}</div>
                       <div className="text-[11px] text-zinc-400 leading-tight mt-0.5">{t.reason}</div>
@@ -6648,7 +6648,7 @@ const MomentumCockpit = () => {
         return (
           <div>
             <div className="font-bold font-mono text-[13px] text-zinc-100 hover:text-blue-400 cursor-pointer" onClick={() => fetchAnalysis(g.ticker, g)}>{g.ticker}</div>
-            <div className="text-[10px] text-zinc-500 truncate max-w-[90px]">{g.company || ""}</div>
+            <div className="text-[11px] text-zinc-500 truncate max-w-[90px]">{g.company || ""}</div>
           </div>
         );
       }
@@ -6713,7 +6713,7 @@ const MomentumCockpit = () => {
       cell: ({ row }) => {
         const d = row.original.analysis_detail;
         const text = d?.catalyst || d?.impact || "";
-        if (!text) return <span className="text-zinc-600 text-[10px]">—</span>;
+        if (!text) return <span className="text-zinc-600 text-[11px]">—</span>;
         return (
           <div className="flex flex-col gap-0.5">
             <span className="text-[11px] text-zinc-300 line-clamp-1 leading-tight">
@@ -6721,7 +6721,7 @@ const MomentumCockpit = () => {
             </span>
             <button
               onClick={(e) => { e.stopPropagation(); setModalData(row.original); }}
-              className="text-[10px] text-blue-400 hover:text-blue-300 self-start"
+              className="text-[11px] text-blue-400 hover:text-blue-300 self-start"
             >
               ••• more
             </button>
@@ -6753,7 +6753,7 @@ const MomentumCockpit = () => {
         <table className="w-full min-w-[1100px] text-left border-collapse">
           <thead>
             {table.getHeaderGroups().map(hg => (
-              <tr key={hg.id} className="text-[10px] text-zinc-500 uppercase tracking-wider bg-zinc-900/80 border-b border-zinc-700/40">
+              <tr key={hg.id} className="text-[11px] text-zinc-500 uppercase tracking-wider bg-zinc-900/80 border-b border-zinc-700/40">
                 {hg.headers.map(h => (
                   <th key={h.id} className="py-2 px-2 font-medium whitespace-nowrap">
                     {flexRender(h.column.columnDef.header, h.getContext())}
@@ -6794,7 +6794,7 @@ const MomentumCockpit = () => {
             <span className="font-bold font-mono text-zinc-100">{selectedTicker}</span>
             {analysis?.grade && <span className={`text-[13px] font-bold px-1.5 py-0.5 rounded border ${gradeStyle(analysis.grade)}`}>{analysis.grade}</span>}
             {analysis?.technical_status && (
-              <span className={`text-[10px] px-1.5 py-0.5 rounded ${analysis.technical_status === "Pass" ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" : "bg-red-500/20 text-red-400 border border-red-500/30"}`}>
+              <span className={`text-[11px] px-1.5 py-0.5 rounded ${analysis.technical_status === "Pass" ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" : "bg-red-500/20 text-red-400 border border-red-500/30"}`}>
                 {analysis.technical_status}
               </span>
             )}
@@ -6825,7 +6825,7 @@ const MomentumCockpit = () => {
                   { label: "Avg Vol",  value: analysis.avg_vol_10d != null ? `${(analysis.avg_vol_10d/1000).toFixed(0)}K` : "—" },
                 ].map(({ label, value }) => (
                   <div key={label} className="bg-zinc-900 rounded p-2">
-                    <div className="text-[10px] text-zinc-500 uppercase tracking-wide">{label}</div>
+                    <div className="text-[11px] text-zinc-500 uppercase tracking-wide">{label}</div>
                     <div className="font-mono text-[13px] text-zinc-200 mt-0.5">{value}</div>
                   </div>
                 ))}
@@ -6834,11 +6834,11 @@ const MomentumCockpit = () => {
               {/* Category + Conviction */}
               <div className="flex gap-2">
                 <div className="flex-1 bg-zinc-900 rounded p-2">
-                  <div className="text-[10px] text-zinc-500 uppercase mb-0.5">Category</div>
+                  <div className="text-[11px] text-zinc-500 uppercase mb-0.5">Category</div>
                   <div className="text-[13px] text-zinc-200">{analysis.category || "—"}</div>
                 </div>
                 <div className="bg-zinc-900 rounded p-2 text-center w-20">
-                  <div className="text-[10px] text-zinc-500 uppercase mb-0.5">Conviction</div>
+                  <div className="text-[11px] text-zinc-500 uppercase mb-0.5">Conviction</div>
                   <div className={`text-base font-bold ${analysis.conviction >= 70 ? "text-emerald-400" : analysis.conviction >= 50 ? "text-amber-400" : "text-zinc-500"}`}>{analysis.conviction ?? "—"}</div>
                 </div>
               </div>
@@ -6846,7 +6846,7 @@ const MomentumCockpit = () => {
               {/* Reasoning */}
               {analysis.reasoning && (
                 <div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-wide mb-1">Mechanical Trigger</div>
+                  <div className="text-[11px] text-zinc-500 uppercase tracking-wide mb-1">Mechanical Trigger</div>
                   <div className="text-[13px] text-zinc-300 bg-zinc-900 rounded p-2.5 leading-relaxed">{analysis.reasoning}</div>
                 </div>
               )}
@@ -6854,7 +6854,7 @@ const MomentumCockpit = () => {
               {/* Catalyst + Impact */}
               {analysis.analysis_detail && (
                 <div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-wide mb-1">Catalyst Breakdown</div>
+                  <div className="text-[11px] text-zinc-500 uppercase tracking-wide mb-1">Catalyst Breakdown</div>
                   <div className="bg-zinc-900 rounded p-3 space-y-2">
                     {analysis.analysis_detail.catalyst && (
                       <div className="text-[12px] text-zinc-300 leading-relaxed"
@@ -6870,7 +6870,7 @@ const MomentumCockpit = () => {
               {/* Full Analysis markdown */}
               {analysis.analysis_details && (
                 <div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-wide mb-1">Full Analysis</div>
+                  <div className="text-[11px] text-zinc-500 uppercase tracking-wide mb-1">Full Analysis</div>
                   <div className="text-[12px] text-zinc-400 bg-zinc-900 rounded p-3 leading-relaxed whitespace-pre-line"
                     dangerouslySetInnerHTML={{ __html: analysis.analysis_details
                       .replace(/\*\*(.*?)\*\*/g, '<strong class="text-zinc-200">$1</strong>') }}/>
@@ -6880,7 +6880,7 @@ const MomentumCockpit = () => {
               {/* Trade Hypothesis */}
               {analysis.hypothesis && (
                 <div className="bg-blue-500/10 border border-blue-500/30 rounded p-3">
-                  <div className="text-[10px] text-blue-400 uppercase tracking-wide mb-1">Trade Hypothesis</div>
+                  <div className="text-[11px] text-blue-400 uppercase tracking-wide mb-1">Trade Hypothesis</div>
                   <div className="text-[12px] text-blue-300 leading-relaxed">{analysis.hypothesis}</div>
                 </div>
               )}
@@ -6888,7 +6888,7 @@ const MomentumCockpit = () => {
               {/* Headlines */}
               {analysis.headlines?.length > 0 && (
                 <div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-wide mb-1">Recent Headlines</div>
+                  <div className="text-[11px] text-zinc-500 uppercase tracking-wide mb-1">Recent Headlines</div>
                   <div className="space-y-1">
                     {analysis.headlines.map((h, i) => (
                       <div key={i} className="text-[11px] text-zinc-400 bg-zinc-900/60 rounded px-2 py-1.5 leading-snug">· {h}</div>
@@ -7003,7 +7003,7 @@ const MarketBriefPanel = ({ data }) => {
           <div className="space-y-2">
             {b.articles_reviewed.map((row, i) => (
               <div key={i} className="bg-zinc-900/60 border border-zinc-800/50 rounded-lg px-3 py-2.5 flex flex-wrap gap-2 items-start">
-                <span className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded border shrink-0 ${credStyle(row.credibility)}`}>
+                <span className={`text-[11px] font-bold uppercase px-2 py-0.5 rounded border shrink-0 ${credStyle(row.credibility)}`}>
                   {row.credibility || "—"}
                 </span>
                 <div className="min-w-0 flex-1">
@@ -7461,15 +7461,15 @@ const filtered = useMemo(() => {
             {/* IBKR Live badge + Updated time */}
             <div className="flex items-center gap-2 flex-shrink-0">
               {wsStatus === "live" && (
-                <span className="px-2 py-0.5 text-[10px] font-bold rounded-full border font-mono bg-blue-500/15 text-blue-400 border-blue-500/40 whitespace-nowrap animate-pulse">⚡ LIVE</span>
+                <span className="px-2 py-0.5 text-[11px] font-bold rounded-full border font-mono bg-blue-500/15 text-blue-400 border-blue-500/40 whitespace-nowrap animate-pulse">⚡ LIVE</span>
               )}
               {wsStatus === "connecting" && (
-                <span className="px-2 py-0.5 text-[10px] font-bold rounded-full border font-mono bg-yellow-500/10 text-yellow-500 border-yellow-500/30 whitespace-nowrap">◌ WS...</span>
+                <span className="px-2 py-0.5 text-[11px] font-bold rounded-full border font-mono bg-yellow-500/10 text-yellow-500 border-yellow-500/30 whitespace-nowrap">◌ WS...</span>
               )}
               {ibkrThemesData?.data_source === "ibkr" ? (
-                <span className="px-2 py-0.5 text-[10px] font-bold rounded-full border font-mono bg-emerald-500/15 text-emerald-400 border-emerald-500/40 whitespace-nowrap">● IBKR Live</span>
+                <span className="px-2 py-0.5 text-[11px] font-bold rounded-full border font-mono bg-emerald-500/15 text-emerald-400 border-emerald-500/40 whitespace-nowrap">● IBKR Live</span>
               ) : (
-                <span className="px-2 py-0.5 text-[10px] font-bold rounded-full border font-mono bg-zinc-800/60 text-zinc-500 border-zinc-700/40 whitespace-nowrap">◐ IBKR Offline</span>
+                <span className="px-2 py-0.5 text-[11px] font-bold rounded-full border font-mono bg-zinc-800/60 text-zinc-500 border-zinc-700/40 whitespace-nowrap">◐ IBKR Offline</span>
               )}
               {data && (
                 <div className="text-right leading-tight">
@@ -7477,7 +7477,7 @@ const filtered = useMemo(() => {
                     {data.generated_at || data.last_updated}
                   </div>
                   {countdown != null && (
-                    <div className="text-[10px] text-zinc-500">
+                    <div className="text-[11px] text-zinc-500">
                       <span className="font-mono">{countdown >= 60 ? `${Math.floor(countdown/60)}m ${countdown%60}s` : `${countdown}s`}</span>
                     </div>
                   )}
