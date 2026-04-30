@@ -2721,50 +2721,6 @@ const ActiveAlertsCardV2 = () => (
   </div>
 );
 
-const IBKRTWSScannerCard = ({ ibkrData }) => {
-  const scanner = ibkrData?.scanner || [];
-  const top = scanner.slice(0, 5);
-  return (
-    <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1">IBKR TWS Scanner</div>
-      <div className="text-[11px] text-zinc-600 mb-2">Mirroring: Top Pre-Mkt Gainers</div>
-      {top.length === 0 ? (
-        <div className="text-[11px] text-zinc-600 italic">TWS offline</div>
-      ) : (
-        <div className="space-y-0.5">
-          {top.map(s => {
-            const chg = s.change_pct ?? 0;
-            const cls = chg >= 10 ? "text-emerald-400" : chg >= 0 ? "text-amber-400" : "text-red-400";
-            return (
-              <div key={s.ticker} className="flex items-center justify-between text-[12px] py-1 border-b border-zinc-800/40 last:border-0">
-                <span className="font-bold text-blue-400 font-mono">{s.ticker}</span>
-                <span className={`font-mono font-semibold ${cls}`}>{chg >= 0 ? "+" : ""}{chg.toFixed(1)}%</span>
-              </div>
-            );
-          })}
-        </div>
-      )}
-    </div>
-  );
-};
-
-const DataSourcesCard = ({ ibkrData }) => {
-  const ibkrLive = ibkrData?.connected;
-  return (
-    <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Data Sources</div>
-      <div className="space-y-1 text-[11px]">
-        <div className="flex items-center justify-between">
-          <span className="text-zinc-500">Primary</span>
-          <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border ${ibkrLive ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/30" : "bg-zinc-800 text-zinc-500 border-zinc-700"}`}>IBKR TWS</span>
-        </div>
-        <div className="flex items-center justify-between"><span className="text-zinc-500">Fallback 1</span><span className="text-zinc-400">Finviz</span></div>
-        <div className="flex items-center justify-between"><span className="text-zinc-500">Fallback 2</span><span className="text-zinc-400">yfinance</span></div>
-        <div className="flex items-center justify-between"><span className="text-zinc-500">News</span><span className="text-zinc-400">IBKR→Benzinga</span></div>
-      </div>
-    </div>
-  );
-};
 
 
 const BottomStatusBar = ({ ibkrData, briefData }) => {
@@ -7632,8 +7588,6 @@ const filtered = useMemo(() => {
           {/* ── RIGHT SIDEBAR ────────────────────────────────────── */}
           <aside className="w-[200px] flex-shrink-0 flex flex-col gap-3">
             <ActiveAlertsCardV2/>
-            <IBKRTWSScannerCard ibkrData={ibkrData}/>
-            <DataSourcesCard ibkrData={ibkrData}/>
           </aside>
         </div>
 
