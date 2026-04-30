@@ -45,11 +45,8 @@ const MOCK_DATA = {
 };
 
 const PERF_KEYS = [
-  { key: "perf_1d", label: "1D" },
-  { key: "perf_1w", label: "1W" },
   { key: "perf_1m", label: "1M" },
   { key: "perf_3m", label: "3M" },
-  { key: "perf_6m", label: "6M" },
 ];
 
 const LB_KEYS = [
@@ -1756,7 +1753,7 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
               <td className="text-center py-3 px-2 font-mono text-zinc-200 text-[13px]" data-price-cell={s.ticker}>${s.price.toFixed(2)}</td>
               {PERF_KEYS.map(p => <PerfCell key={p.key} value={s[p.key]} ticker={p.key === 'perf_1d' ? s.ticker : undefined}/>)}
               <EarningsCell value={s.earnings}/>
-              <td className="text-center py-3 px-2"><div className="flex justify-center"><Sparkline data={sparklineSeries(s)}/></div></td>
+              <td className="text-center py-3 px-2"><div className="flex justify-center"><Sparkline data={sparklineSeries(s)} width={120} height={40}/></div></td>
               <td className="text-center py-3 px-2 font-mono text-zinc-400 text-[13px]">{s["52w_high"] ? `$${s["52w_high"].toFixed(2)}` : "—"}</td>
               <td className="text-center py-3 px-2 font-mono text-zinc-500 text-[13px]">{s["52w_low"] ? `$${s["52w_low"].toFixed(2)}` : "—"}</td>
               <Dist52wCell value={s.dist_52w_high}/>
