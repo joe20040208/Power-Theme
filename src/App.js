@@ -123,7 +123,7 @@ const RSBadge = ({ value, trend }) => {
   return (
     <span className="inline-flex items-center gap-0.5">
       <span className={`inline-flex items-center px-1.5 py-0.5 text-[12px] font-semibold rounded border ${cl}`}>{value}</span>
-      {trend === "up"   && <span className="text-[11px] font-bold text-cyan-400" title="RS Improving">▲</span>}
+      {trend === "up"   && <span className="text-[11px] font-bold text-blue-400" title="RS Improving">▲</span>}
       {trend === "down" && <span className="text-[11px] font-bold text-rose-400" title="RS Declining">▼</span>}
     </span>
   );
@@ -685,9 +685,9 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
       </div>
 
       {analysis && (
-        <div className="mb-3 border border-emerald-800/40 bg-emerald-900/10 rounded-lg p-3">
+        <div className="mb-3 border border-zinc-700/40 bg-zinc-800/20 rounded-lg p-3">
           <div className="flex items-center gap-1.5 mb-1.5">
-            <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI CATALYST</span>
+            <span className="text-[11px] font-bold text-zinc-400 uppercase tracking-wider">✦ GEMINI CATALYST</span>
           </div>
           <p className="text-[12px] text-zinc-300 leading-relaxed">{analysis}</p>
         </div>
@@ -970,7 +970,7 @@ const SubThemeStocksModal = ({ subthemeName, stocks, onClose }) => {
                       setHovered(h => h?.ticker === s.ticker ? null : { ticker: s.ticker, rect });
                     }}>
                     <td className="py-1.5 pr-2 text-right font-mono text-zinc-600">{i + 1}</td>
-                    <td className="px-2 py-1.5 font-mono font-semibold text-cyan-400">{s.ticker}</td>
+                    <td className="px-2 py-1.5 font-mono font-semibold text-blue-400">{s.ticker}</td>
                     <td className="px-2 py-1.5 text-zinc-300 max-w-[180px] truncate">{s.company || "—"}</td>
                     <td className={`px-2 py-1.5 text-right font-mono font-bold ${rsCls}`}>{s.rs_52w ?? "—"}</td>
                     <td className="px-2 py-1.5 text-right font-mono text-zinc-300">{s.adr_pct != null ? `${s.adr_pct.toFixed(1)}%` : "—"}</td>
@@ -1965,7 +1965,7 @@ const CATEGORY_STYLE = {
   "New Contract/Partnership": "bg-blue-500/15 text-blue-400 border-blue-500/25",
   "Thematic Narratives":      "bg-violet-500/15 text-violet-400 border-violet-500/25",
   "Government Policy":        "bg-amber-500/15 text-amber-400 border-amber-500/25",
-  "Institutional Buying":     "bg-cyan-500/15 text-cyan-400 border-cyan-500/25",
+  "Institutional Buying":     "bg-blue-500/15 text-blue-400 border-blue-500/25",
   "Insider Buying":           "bg-fuchsia-500/15 text-fuchsia-400 border-fuchsia-500/25",
   "Upgrade":                  "bg-zinc-700/40 text-zinc-400 border-zinc-600/30",
   "FDA":                      "bg-rose-500/15 text-rose-400 border-rose-500/25",
@@ -2365,7 +2365,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
         <div className="flex items-center justify-between mb-2 px-1">
           <span className="text-[11px] text-zinc-500">EMA {emaMode} −1.5%</span>
           {activeEmaPrice != null
-            ? <span className="text-[11px] font-mono text-cyan-400">${emaStop?.toFixed(2)}</span>
+            ? <span className="text-[11px] font-mono text-blue-400">${emaStop?.toFixed(2)}</span>
             : <span className="text-[11px] font-mono text-zinc-600">輸入 Ticker 後自動計算</span>}
         </div>
       )}
@@ -2452,7 +2452,7 @@ const VixFearGaugeV2 = ({ vix, generatedAt }) => {
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
       <div className="flex items-center justify-between mb-2">
         <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">VIX Fear Gauge</div>
-        <div className="flex items-center gap-1.5"><UpdatedAt ts={generatedAt}/><span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span></div>
+        <div className="flex items-center gap-1.5"><UpdatedAt ts={generatedAt}/><span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-zinc-700/60 text-zinc-300 border-zinc-600/40">IBKR</span></div>
       </div>
       <div className="text-[28px] leading-none font-bold font-mono text-zinc-100">{v ? v.toFixed(1) : "—"}</div>
       <div className={`text-[11px] font-semibold mt-1 ${cfg.cls}`}>⚠ {cfg.label}</div>
@@ -2577,7 +2577,7 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
         <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Market Internals</div>
         <div className="flex items-center gap-1.5">
           <UpdatedAt ts={generatedAt}/>
-          <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span>
+          <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-zinc-700/60 text-zinc-300 border-zinc-600/40">IBKR</span>
           <button
             onClick={() => setShowNotes(v => !v)}
             className={`text-[11px] px-2 py-0.5 rounded border transition-colors ${
@@ -3334,11 +3334,11 @@ const IBKRScannerTable = ({ ibkrScanner, onTickerClick }) => {
     <div className="mt-6">
       {/* Section header */}
       <div className="flex items-center gap-2 mb-2">
-        <Activity size={12} className="text-emerald-400 flex-shrink-0"/>
+        <Activity size={12} className="text-zinc-400 flex-shrink-0"/>
         <span className="text-[12px] font-bold text-zinc-300 uppercase tracking-wide">
           IBKR TWS Scanner — Pre-Market <span className="normal-case">(mirrored)</span>
         </span>
-        <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
+        <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-zinc-700/60 text-zinc-300 border-zinc-600/40 font-mono leading-none">
           IBKR
         </span>
       </div>
@@ -3432,7 +3432,7 @@ const IBKRScannerTable = ({ ibkrScanner, onTickerClick }) => {
                     </td>
                     {/* Source */}
                     <td className="py-2 px-3 text-center">
-                      <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-emerald-500/15 text-emerald-400 border-emerald-500/30 font-mono leading-none">
+                      <span className="px-1.5 py-0.5 text-[11px] font-bold rounded border bg-zinc-700/60 text-zinc-300 border-zinc-600/40 font-mono leading-none">
                         IBKR
                       </span>
                     </td>
@@ -3869,9 +3869,9 @@ const TradeJournalTab = ({ data }) => {
       )}
 
       {/* ── Gemini Journal Analysis ──────────────────────────────────────── */}
-      <div className="border border-emerald-800/40 bg-emerald-900/10 rounded-xl p-4">
+      <div className="border border-zinc-700/40 bg-zinc-800/20 rounded-xl p-4">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI JOURNAL ANALYSIS</span>
+          <span className="text-[11px] font-bold text-zinc-400 uppercase tracking-wider">✦ GEMINI JOURNAL ANALYSIS</span>
           <button onClick={runAI} disabled={aiLoading || trades.length === 0}
             className="flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-medium bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-lg hover:bg-emerald-500/30 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
             {aiLoading ? <><RefreshCw size={10} className="animate-spin"/> Analysing…</> : "Analyse Journal"}
@@ -4134,7 +4134,7 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2">
               <span className="font-mono text-[15px] font-bold text-white">{stock.ticker}</span>
-              <span className="text-[11px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 leading-none">✦ AI ANALYSIS</span>
+              <span className="text-[11px] font-bold px-1.5 py-0.5 rounded bg-zinc-700/40 border border-zinc-700/60 text-zinc-300 leading-none">✦ AI ANALYSIS</span>
               {themeName && <span className="text-[11px] font-medium px-1.5 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none">{themeName}</span>}
             </div>
             <span className="text-[11px] text-zinc-500 truncate block">{stock.company}</span>
@@ -4168,7 +4168,7 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
         <div className="flex-1 overflow-y-auto p-4">
           {loading ? (
             <div className="flex flex-col items-center justify-center py-16 gap-3">
-              <RefreshCw size={20} className="text-emerald-500 animate-spin"/>
+              <RefreshCw size={20} className="text-zinc-500 animate-spin"/>
               <p className="text-[12px] text-zinc-500">Gemini is analysing {stock.ticker} earnings…</p>
             </div>
           ) : error ? (
@@ -4203,7 +4203,7 @@ const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
           <span className="text-[11px] text-zinc-700">Powered by Gemini 2.5 Flash · Based on latest available earnings data</span>
           <a href={`https://www.tradingview.com/chart/?symbol=${stock.ticker}`}
              target="_blank" rel="noopener noreferrer"
-             className="text-[11px] text-zinc-500 hover:text-cyan-400 transition-colors flex items-center gap-1">
+             className="text-[11px] text-zinc-500 hover:text-blue-400 transition-colors flex items-center gap-1">
             Open chart <ExternalLink size={9}/>
           </a>
         </div>
@@ -4338,7 +4338,7 @@ const CalendarTab = ({ econData, earningsData, thematicData }) => {
           <button
             onClick={() => setAnalysisStock(e)}
             title="Gemini AI earnings analysis"
-            className="flex-shrink-0 w-4 h-4 flex items-center justify-center rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-500 hover:bg-emerald-500/25 hover:border-emerald-500/50 transition-colors leading-none text-[11px] font-bold"
+            className="flex-shrink-0 w-4 h-4 flex items-center justify-center rounded-full bg-zinc-700/40 border border-zinc-700/60 text-zinc-400 hover:bg-zinc-700/60 hover:border-zinc-600 transition-colors leading-none text-[11px] font-bold"
             aria-label="AI analysis">
             ✦
           </button>
@@ -4665,10 +4665,10 @@ const GeminiBreathAnalysis = ({ mc, internalsData }) => {
   if (!mc) return null;
 
   return (
-    <div className="mb-4 border border-emerald-800/40 bg-emerald-900/10 rounded-xl p-4">
+    <div className="mb-4 border border-zinc-700/40 bg-zinc-800/20 rounded-xl p-4">
       <div className="flex items-center gap-2 mb-2">
-        <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">✦ GEMINI BREADTH READ</span>
-        {loading && <RefreshCw size={10} className="text-emerald-600 animate-spin"/>}
+        <span className="text-[11px] font-bold text-zinc-400 uppercase tracking-wider">✦ GEMINI BREADTH READ</span>
+        {loading && <RefreshCw size={10} className="text-zinc-500 animate-spin"/>}
         {!BREADTH_GEMINI_KEY && <span className="text-[11px] text-zinc-600">Set REACT_APP_GEMINI_KEY to enable</span>}
       </div>
       {text
@@ -5629,7 +5629,7 @@ const CATALYST_CATEGORIES = [
   {
     key: "contract",
     label: "Contract",
-    color: "text-cyan-400 bg-cyan-500/10 border-cyan-500/30",
+    color: "text-blue-400 bg-blue-500/10 border-blue-500/30",
     keywords: [
       "awarded contract", "wins contract", "government contract awarded",
       "defense contract", "multi-year contract", "exclusive supply agreement",
