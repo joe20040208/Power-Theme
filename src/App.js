@@ -578,6 +578,7 @@ const IbkrSourceBadge = ({ source }) => {
 };
 
 const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData }) => {
+  const [hovered, setHovered] = useState(null);
   const fmtMktCap = (v) => {
     if (!v) return '—';
     if (v >= 1e12) return `$${(v/1e12).toFixed(1)}T`;
@@ -598,9 +599,9 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
       || null;
     if (!name) return { themeName: null, stocks: [], themeRS: null, analysis: null };
 
-    if (lbView === 'ibkr') {
-      const pt = (ibkrThemesData?.power_themes || []).find(t => t.name === name);
-      if (!pt) return { themeName: name, stocks: [], themeRS: null, analysis: null };
+    // Try ibkr data first (regardless of lbView), then fall back to thematic_data
+    const pt = (ibkrThemesData?.power_themes || []).find(t => t.name === name);
+    if (pt) {
       return {
         themeName: name,
         stocks: (pt.leaders || []).map(l => ({ ...l, float_shares: null, short_pct: null })),
@@ -666,7 +667,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
                 const rsCls = (s.rs_52w || 0) >= 85 ? 'text-emerald-400' : (s.rs_52w || 0) >= 70 ? 'text-yellow-400' : 'text-red-400';
                 return (
                   <tr key={s.ticker} className="border-b border-zinc-800/20 hover:bg-zinc-800/30 transition-colors">
-                    <td className="px-2 py-1.5 text-[12px] font-mono font-semibold text-zinc-100">{s.ticker}</td>
+                    <td className="px-2 py-1.5"><span className="text-[12px] font-mono font-semibold text-blue-400 hover:text-blue-300 cursor-pointer transition-colors" onClick={e => { const rect = e.currentTarget.getBoundingClientRect(); setHovered(prev => prev?.ticker === s.ticker ? null : { ticker: s.ticker, rect }); }}>{s.ticker}</span></td>
                     <td className="px-2 py-1.5 text-[12px] font-mono text-zinc-300 text-right">{s.price ? `$${Number(s.price).toFixed(2)}` : '—'}</td>
                     <td className="px-2 py-1.5 text-[12px] font-mono text-zinc-300 text-right">{s.adr_pct ? `${Number(s.adr_pct).toFixed(1)}%` : '—'}</td>
                     <td className={`px-2 py-1.5 text-[12px] font-mono font-bold text-right ${rsCls}`}>{s.rs_52w ?? '—'}</td>
@@ -691,6 +692,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
       ) : (
         <div className="text-center py-6 text-zinc-600 text-[12px]">No stocks found for this theme</div>
       )}
+      {hovered && <TVPopup ticker={hovered.ticker} anchorRect={hovered.rect} onClose={() => setHovered(null)}/>}
     </div>
   );
 };
@@ -808,7 +810,7 @@ const IbkrLeaderboard = ({ ibkrThemesData, onTickerHover, onThemeSelect }) => {
   );
 };
 
-const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings }) => {
+const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings, generatedAt }) => {
   const [selectedTheme, setSelectedTheme] = useState(null); // { name, stocks }
 
   const heatData = useMemo(() => {
@@ -867,9 +869,10 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings }) => {
           <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.18em]">
             Theme Heatmap — 1D RS Performance
           </div>
-          {hasEnough && (
-            <div className="text-[9px] text-zinc-600 uppercase tracking-wider">Top 5 · Bottom 5</div>
-          )}
+          <div className="flex items-center gap-2">
+            <UpdatedAt ts={generatedAt}/>
+            {hasEnough && <div className="text-[9px] text-zinc-600 uppercase tracking-wider">Top 5 · Bottom 5</div>}
+          </div>
         </div>
         <div className="grid gap-1" style={{ gridTemplateColumns: 'repeat(5, 1fr)' }}>
           {topBottom.map((item, idx) => {
@@ -980,12 +983,96 @@ const ThemeHeatmap = ({ themes, heatmapThemes, finvizThemeRankings }) => {
   );
 };
 
-const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, themes = [], themeSparklines = {}, ibkrThemesData, onViewChange, onThemeSelect }) => {
+const SubThemeStocksModal = ({ subthemeName, stocks, onClose }) => {
+  const sorted = useMemo(() => [...stocks].sort((a, b) => (b.rs_52w ?? 0) - (a.rs_52w ?? 0)), [stocks]);
+  const [hovered, setHovered] = useState(null); // { ticker, rect }
+
+  useEffect(() => {
+    const handler = (e) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
+  }, [onClose]);
+
+  return (
+    <div className="fixed inset-0 z-[9998] flex items-center justify-center bg-black/60 backdrop-blur-sm" onClick={onClose}>
+      <div className="relative w-full max-w-2xl max-h-[80vh] bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl flex flex-col overflow-hidden" onClick={e => e.stopPropagation()}>
+        {/* Header */}
+        <div className="flex items-center justify-between px-4 py-3 border-b border-zinc-800 shrink-0">
+          <div className="flex items-center gap-2">
+            <span className="text-sm font-semibold text-zinc-100">{subthemeName}</span>
+            <span className="text-xs text-zinc-500 bg-zinc-800 px-1.5 py-0.5 rounded">{sorted.length} stocks · sorted by RS</span>
+          </div>
+          <button onClick={onClose} className="text-zinc-500 hover:text-zinc-300 transition-colors p-1 rounded hover:bg-zinc-800">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+          </button>
+        </div>
+        {/* Table */}
+        <div className="overflow-y-auto flex-1 px-2 py-1">
+          <table className="w-full border-collapse text-left text-xs">
+            <thead className="sticky top-0 bg-zinc-900 z-10">
+              <tr className="border-b border-zinc-800 text-zinc-500">
+                <th className="w-8 py-2 pr-2 text-right font-medium">#</th>
+                <th className="px-2 py-2 font-medium">Ticker</th>
+                <th className="px-2 py-2 font-medium">Company</th>
+                <th className="px-2 py-2 font-medium text-right">RS</th>
+                <th className="px-2 py-2 font-medium text-right">ADR%</th>
+                <th className="px-2 py-2 font-medium text-right">$ Vol</th>
+                <th className="px-2 py-2 font-medium text-right">1D Change%</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sorted.map((s, i) => {
+                const rsCls = s.rs_52w >= 90 ? "text-emerald-300" : s.rs_52w >= 70 ? "text-emerald-400" : s.rs_52w >= 50 ? "text-zinc-300" : "text-red-400";
+                const chgCls = (s.change_pct ?? 0) > 0 ? "text-emerald-400" : (s.change_pct ?? 0) < 0 ? "text-red-400" : "text-zinc-400";
+                const fmtVol = (v) => { if (v == null) return "—"; if (v >= 1e9) return `$${(v/1e9).toFixed(1)}B`; if (v >= 1e6) return `$${(v/1e6).toFixed(0)}M`; return `$${(v/1e3).toFixed(0)}K`; };
+                const fmtPct = (v) => v == null ? "—" : `${v > 0 ? "+" : ""}${v.toFixed(2)}%`;
+                return (
+                  <tr key={s.ticker} className="border-b border-zinc-800/50 hover:bg-zinc-800/30 cursor-pointer"
+                    onClick={e => {
+                      const rect = e.currentTarget.getBoundingClientRect();
+                      setHovered(h => h?.ticker === s.ticker ? null : { ticker: s.ticker, rect });
+                    }}>
+                    <td className="py-1.5 pr-2 text-right font-mono text-zinc-600">{i + 1}</td>
+                    <td className="px-2 py-1.5 font-mono font-semibold text-cyan-400">{s.ticker}</td>
+                    <td className="px-2 py-1.5 text-zinc-300 max-w-[180px] truncate">{s.company || "—"}</td>
+                    <td className={`px-2 py-1.5 text-right font-mono font-bold ${rsCls}`}>{s.rs_52w ?? "—"}</td>
+                    <td className="px-2 py-1.5 text-right font-mono text-zinc-300">{s.adr_pct != null ? `${s.adr_pct.toFixed(1)}%` : "—"}</td>
+                    <td className="px-2 py-1.5 text-right font-mono text-zinc-400">{fmtVol(s.dollar_volume)}</td>
+                    <td className={`px-2 py-1.5 text-right font-mono font-semibold ${chgCls}`}>{fmtPct(s.change_pct)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+            <tfoot>
+              <tr className="border-t border-zinc-700 text-zinc-600 text-xs">
+                <td colSpan={7} className="py-1.5 pr-2 text-right font-mono">{sorted.length} stocks</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      {hovered && <TVPopup ticker={hovered.ticker} anchorRect={hovered.rect} onClose={() => setHovered(null)}/>}
+    </div>
+  );
+};
+
+const RS_MODES = [
+  { key: '1d',  label: '1D',  perfKey: 'perf_1d',  spyKey: null       },
+  { key: '1w',  label: '1W',  perfKey: 'perf_1w',  spyKey: 'perf_1w'  },
+  { key: '1m',  label: '1M',  perfKey: 'perf_1m',  spyKey: 'perf_1m'  },
+  { key: '3m',  label: '3M',  perfKey: 'perf_3m',  spyKey: 'perf_3m'  },
+  { key: '6m',  label: '6M',  perfKey: 'perf_6m',  spyKey: 'perf_6m'  },
+  { key: '52w', label: '52W', perfKey: 'rs_52w',   spyKey: null       },
+];
+
+const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, themes = [], themeSparklines = {}, ibkrThemesData, spyBenchmarks, generatedAt, onViewChange, onThemeSelect }) => {
   const [sortPriority, setSortPriority] = useState([{ key: 'rs_score', direction: 'desc' }]);
   const [expanded, setExpanded] = useState(null);
   const [view, setView] = useState("themes"); // "themes" (Finviz map) or "industry"
   const [themeHover, setThemeHover] = useState(null); // { ticker, rect }
   const [themeStats, setThemeStats] = useState(null); // { themeName, anchorRect }
+  const [subThemeModal, setSubThemeModal] = useState(null); // { subthemeName, stocks }
+  const [rsMode, setRsMode] = useState('52w');
 
   const activeData = view === "themes" ? finvizThemeRankings : themeRankings;
 
@@ -1013,14 +1100,23 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
   // Build theme name → avg rs_52w map from actual stock data
   const themeAvgRS = useMemo(() => {
     const map = {};
+    const mode = RS_MODES.find(m => m.key === rsMode) ?? RS_MODES[RS_MODES.length - 1];
+    const spyVal = mode.spyKey ? (spyBenchmarks?.[mode.spyKey] ?? null) : null;
     for (const theme of (themes || [])) {
       const norm = normalizeTheme(theme);
       const stocks = norm.subthemes.flatMap(s => s.stocks);
-      const vals = stocks.map(s => s.rs_52w).filter(v => v != null);
-      map[norm.name.toLowerCase()] = vals.length ? Math.round(vals.reduce((a, v) => a + v, 0) / vals.length) : null;
+      if (rsMode === '52w') {
+        const vals = stocks.map(s => s.rs_52w).filter(v => v != null);
+        map[norm.name.toLowerCase()] = vals.length ? Math.round(vals.reduce((a, v) => a + v, 0) / vals.length) : null;
+      } else {
+        const vals = stocks.map(s => s[mode.perfKey]).filter(v => v != null);
+        if (!vals.length) { map[norm.name.toLowerCase()] = null; continue; }
+        const avg = vals.reduce((a, v) => a + v, 0) / vals.length;
+        map[norm.name.toLowerCase()] = spyVal != null ? Math.round((avg - spyVal) * 10) / 10 : Math.round(avg * 10) / 10;
+      }
     }
     return map;
-  }, [themes]);
+  }, [themes, rsMode, spyBenchmarks]);
 
   const ranked = useMemo(() => {
     if (!activeData || !activeData.length) return [];
@@ -1086,6 +1182,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
         <BarChart3 size={13} className="text-blue-400 flex-shrink-0"/>
         <span className="text-[13px] font-semibold text-zinc-300 whitespace-nowrap">Theme Leaderboard</span>
         <span className="text-[11px] text-zinc-600">Top 5 of {ranked.length} themes</span>
+        <UpdatedAt ts={generatedAt}/>
         {secondaryKey && (
           <button onClick={() => setSortPriority([{ key: 'rs_score', direction: 'desc' }])}
             className="text-[10px] text-zinc-600 hover:text-zinc-400 px-1.5 py-0.5 border border-zinc-700/50 rounded transition-colors">
@@ -1127,7 +1224,24 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                 </>
               )}
               {LB_KEYS.map(k => <LBSortHeader key={k.key} k={k.key} label={k.label} />)}
-              <LBSortHeader k="rs_score" label="RS" w="w-14" />
+              <th onClick={e => handleLBSort('rs_score', e.shiftKey)}
+                className={`px-1 py-2 text-center cursor-pointer select-none w-14 ${sortPriority[0]?.key === 'rs_score' ? 'text-blue-400' : 'text-zinc-500 hover:text-zinc-300'}`}>
+                <div className="flex flex-col items-center gap-0.5">
+                  <span className="inline-flex items-center gap-0.5 text-[11px] font-semibold uppercase tracking-wider">
+                    RS
+                    {sortPriority[0]?.key === 'rs_score' && <span className="text-[9px] text-blue-400/70">①{sortPriority[0].direction === 'desc' ? '▼' : '▲'}</span>}
+                  </span>
+                  <div className="flex gap-0.5" onClick={e => e.stopPropagation()}>
+                    {RS_MODES.map(m => (
+                      <button key={m.key}
+                        onClick={() => { setRsMode(m.key); setSortPriority([{ key: 'rs_score', direction: 'desc' }]); }}
+                        className={`text-[8px] px-0.5 py-px rounded leading-none transition-colors ${rsMode === m.key ? 'bg-blue-500/30 text-blue-300' : 'text-zinc-600 hover:text-zinc-400'}`}>
+                        {m.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </th>
               {view === "themes" && (
                 <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap text-center">Source</th>
               )}
@@ -1206,8 +1320,26 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                   {view === "themes" && (
                     <>
                       <td className="px-2 py-1.5 min-w-[120px]">
-                        <div className="text-[11px] text-zinc-400 leading-tight">
-                          {subThemeNames.join(' · ') || <span className="text-zinc-600">—</span>}
+                        <div className="text-[11px] text-zinc-400 leading-tight flex flex-wrap gap-x-1 gap-y-0.5">
+                          {subThemeNames.length === 0
+                            ? <span className="text-zinc-600">—</span>
+                            : subThemeNames.map((sn, si) => {
+                                const matchedTheme = themes.find(th => (th.name || '').toLowerCase() === (t.name || '').toLowerCase());
+                                const subObj = matchedTheme?.subthemes?.find(s => s.name === sn);
+                                return (
+                                  <React.Fragment key={sn}>
+                                    {si > 0 && <span className="text-zinc-700">·</span>}
+                                    <button
+                                      className="hover:text-blue-400 hover:underline transition-colors cursor-pointer"
+                                      onClick={e => {
+                                        e.stopPropagation();
+                                        if (subObj) setSubThemeModal({ subthemeName: sn, stocks: subObj.stocks || [] });
+                                      }}
+                                    >{sn}</button>
+                                  </React.Fragment>
+                                );
+                              })
+                          }
                         </div>
                       </td>
                       <td className="px-2 py-1.5">
@@ -1221,9 +1353,16 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                     </>
                   )}
                   {LB_KEYS.map(k => <PerfCellLB key={k.key} val={t[k.key]}/>)}
-                  <td className={`px-1 py-1.5 text-center text-[11px] font-mono font-bold ${(themeAvgRS[t.name?.toLowerCase()] ?? 0) >= 85 ? 'text-emerald-400' : 'text-red-400'}`}>
-                    {themeAvgRS[t.name?.toLowerCase()] ?? '—'}
-                  </td>
+                  {(() => {
+                    const rsVal = themeAvgRS[t.name?.toLowerCase()];
+                    const cls = rsVal == null ? 'text-zinc-600'
+                      : rsMode === '52w' ? (rsVal >= 85 ? 'text-emerald-400' : 'text-red-400')
+                      : (rsVal > 0 ? 'text-emerald-400' : rsVal < 0 ? 'text-red-400' : 'text-zinc-400');
+                    const display = rsVal == null ? '—'
+                      : rsMode === '52w' ? rsVal
+                      : (rsVal > 0 ? `+${rsVal}` : `${rsVal}`);
+                    return <td className={`px-1 py-1.5 text-center text-[11px] font-mono font-bold ${cls}`}>{display}</td>;
+                  })()}
                   {view === "themes" && (
                     <td className="px-1 py-1.5 text-center">
                       <IbkrSourceBadge source={hasIbkrSource ? 'ibkr' : 'fallback'} />
@@ -1249,6 +1388,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
     </div>
     {themeHover && <TVPopup ticker={themeHover.ticker} anchorRect={themeHover.rect} onClose={() => { setThemeHover(null); setThemeStats(null); }}/>}
     {themeStats && <ThemeStatsPopup themeName={themeStats.themeName} themes={themes} anchorRect={themeStats.anchorRect} chartAnchor={themeHover?.rect} onClose={() => { setThemeStats(null); setThemeHover(null); }}/>}
+    {subThemeModal && <SubThemeStocksModal subthemeName={subThemeModal.subthemeName} stocks={subThemeModal.stocks} onClose={() => setSubThemeModal(null)}/>}
     </>
   );
 };
@@ -2123,14 +2263,16 @@ const VixGauge = ({ initialVix }) => {
 };
 
 /* ──────────────────────────────────────────────── POSITION CALCULATOR ── */
-const PositionCalc = ({ ibkrThemesData }) => {
+const PositionCalc = ({ ibkrThemesData, thematicData }) => {
   const [equity, setEquity] = React.useState('');
   const [entry, setEntry] = React.useState('');
   const [atr, setAtr] = React.useState('');
   const [riskPct, setRiskPct] = React.useState('1');
   const [stopStrategy, setStopStrategy] = React.useState('3');
-  const [stopMode, setStopMode] = React.useState('atr');
+  const [stopMode, setStopMode] = React.useState('lod');
   const [manualStop, setManualStop] = React.useState('');
+  const [emaMode, setEmaMode] = React.useState('9');
+  const [emaValues, setEmaValues] = React.useState({ 9: null, 21: null, 50: null });
   const [lodTicker, setLodTicker] = React.useState('');
   const [lod, setLod] = React.useState(null);
   const [currentPrice, setCurrentPrice] = React.useState(null);
@@ -2150,49 +2292,113 @@ const PositionCalc = ({ ibkrThemesData }) => {
     setLodLoading(true);
     setLodError(false);
     setLod(null);
+
+    // Use local thematic data for ADR-20 (fast, no API call needed)
+    let thematicBarsFallbackPrice = null;
+    let thematicBarsFound = false;
+    if (thematicData?.themes) {
+      outer: for (const t of thematicData.themes) {
+        for (const sub of (t.subthemes || [])) {
+          for (const stk of (sub.stocks || [])) {
+            if (stk.ticker?.toUpperCase() === s) {
+              if (stk.bars_30d?.length >= 15) {
+                thematicBarsFound = true;
+                const bars = stk.bars_30d;
+                const slice = bars.slice(-20);
+                const adr20 = slice.reduce((sum, b) => sum + (b.l > 0 ? (b.h - b.l) / b.l * 100 : 0), 0) / slice.length;
+                setAtr(adr20.toFixed(2));
+              }
+              if (stk.price > 0) thematicBarsFallbackPrice = parseFloat(stk.price.toFixed(2));
+              break outer;
+            }
+          }
+        }
+      }
+    }
+
+    // Always fetch live price + LOD from Finnhub; Yahoo Finance only when no thematic bars
     try {
-      const now = Math.floor(Date.now() / 1000);
-      const from = now - 60 * 86400; // 60 days for ATR-14 candles
-      const [quoteRes, candleRes] = await Promise.all([
-        fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FINNHUB_KEY}`),
-        fetch(`https://finnhub.io/api/v1/stock/candle?symbol=${s}&resolution=D&from=${from}&to=${now}&token=${FINNHUB_KEY}`)
-      ]);
-      const quoteData = await quoteRes.json();
-      const candleData = await candleRes.json();
+      // Always call Yahoo (also has price + LOD via meta), call Finnhub when key is set
+      const yahooFetch = fetch(`https://corsproxy.io/?${encodeURIComponent(`https://query1.finance.yahoo.com/v8/finance/chart/${s}?range=90d&interval=1d`)}`);
+      const finnhubFetch = FINNHUB_KEY
+        ? fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FINNHUB_KEY}`).then(r => r.ok ? r.json() : null).catch(() => null)
+        : Promise.resolve(null);
+      const [yahooRes, quoteData] = await Promise.all([yahooFetch, finnhubFetch]);
+      const yahooData = await yahooRes.json().catch(() => null);
 
-      // Current price + LOD from quote
-      const cur = quoteData?.c;
-      if (cur != null && cur > 0) setCurrentPrice(parseFloat(cur.toFixed(2)));
-      const low = quoteData?.l;
-      if (low != null && low > 0) setLod(parseFloat(low.toFixed(2)));
-      else setLodError(true);
+      // Yahoo meta has live regularMarketPrice + previousClose
+      const yMeta = yahooData?.chart?.result?.[0]?.meta;
+      const yPrice = yMeta?.regularMarketPrice;
+      const yPrevClose = yMeta?.previousClose ?? yMeta?.chartPreviousClose;
+      const yLow = yMeta?.regularMarketDayLow;
 
-      // ATR-14 calculated from daily candles
-      if (candleData?.s === 'ok' && candleData.h?.length >= 15) {
-        const { h, l, c } = candleData;
-        const trs = [];
-        for (let i = 1; i < h.length; i++) {
-          trs.push(Math.max(h[i] - l[i], Math.abs(h[i] - c[i - 1]), Math.abs(l[i] - c[i - 1])));
+      // Live price: Finnhub.c → Finnhub.pc → Yahoo regularMarketPrice → Yahoo previousClose → thematic data
+      const fCur = quoteData?.c;
+      const fPrevClose = quoteData?.pc;
+      const livePrice =
+        (fCur != null && fCur > 0) ? fCur :
+        (yPrice != null && yPrice > 0) ? yPrice :
+        (fPrevClose != null && fPrevClose > 0) ? fPrevClose :
+        (yPrevClose != null && yPrevClose > 0) ? yPrevClose :
+        thematicBarsFallbackPrice;
+      if (livePrice != null) setCurrentPrice(parseFloat(parseFloat(livePrice).toFixed(2)));
+
+      // LOD: Finnhub.l → Yahoo regularMarketDayLow → Finnhub.pc → Yahoo previousClose
+      const fLow = quoteData?.l;
+      const lodVal =
+        (fLow != null && fLow > 0) ? fLow :
+        (yLow != null && yLow > 0) ? yLow :
+        (fPrevClose != null && fPrevClose > 0) ? fPrevClose :
+        (yPrevClose != null && yPrevClose > 0) ? yPrevClose : null;
+      if (lodVal != null) setLod(parseFloat(parseFloat(lodVal).toFixed(2)));
+
+      // ADR-20 from Yahoo Finance (only when thematic bars not available)
+      const q = yahooData?.chart?.result?.[0]?.indicators?.quote?.[0];
+      if (!thematicBarsFound && q?.high?.length >= 15) {
+        const { high: h, low: l } = q;
+        const valid = [];
+        for (let i = 0; i < h.length; i++) {
+          if (h[i] != null && l[i] != null && l[i] > 0) valid.push((h[i] - l[i]) / l[i] * 100);
         }
-        // Wilder's smoothing: seed with simple average of first 14, then smooth
-        let atr14 = trs.slice(0, 14).reduce((a, b) => a + b, 0) / 14;
-        for (let i = 14; i < trs.length; i++) {
-          atr14 = (atr14 * 13 + trs[i]) / 14;
+        const slice = valid.slice(-20);
+        if (slice.length > 0) {
+          const adr20 = slice.reduce((a, b) => a + b, 0) / slice.length;
+          setAtr(adr20.toFixed(2));
         }
-        setAtr(atr14.toFixed(2));
+      }
+      // EMA 9 / 21 / 50 from Yahoo Finance closes
+      if (q?.close) {
+        const closes = q.close.filter(c => c != null);
+        const calcEMA = (prices, p) => {
+          if (prices.length < p) return null;
+          const k = 2 / (p + 1);
+          let ema = prices.slice(0, p).reduce((a, b) => a + b, 0) / p;
+          for (let i = p; i < prices.length; i++) ema = prices[i] * k + ema * (1 - k);
+          return ema;
+        };
+        setEmaValues({
+          9: calcEMA(closes, 9),
+          21: calcEMA(closes, 21),
+          50: calcEMA(closes, 50),
+        });
       }
     } catch {
-      setLodError(true);
+      if (thematicBarsFallbackPrice != null) setCurrentPrice(thematicBarsFallbackPrice);
     } finally {
       setLodLoading(false);
     }
-  }, []);
+  }, [thematicData]);
 
-  // risk unit: entry − LOD (LOD mode), entry − manualStop (manual mode), ATR (ATR mode)
-  const lodRisk = lod != null && e > lod ? e - lod : 0;
+  // risk unit: entry − LOD (LOD mode), entry − manualStop (manual mode), entry − emaStop (EMA mode)
+  // LOD stop is placed 0.08% below the actual LOD to avoid being stopped by brief wicks
+  const effectiveLod = lod != null && lod > 0 ? parseFloat((lod * (1 - 0.0008)).toFixed(2)) : null;
+  const lodRisk = effectiveLod != null && e > effectiveLod ? e - effectiveLod : 0;
   const ms = parseFloat(manualStop);
   const manualRisk = stopMode === 'manual' && ms > 0 && e > ms ? e - ms : 0;
-  const riskUnit = stopMode === 'lod' ? lodRisk : stopMode === 'manual' ? manualRisk : a;
+  const activeEmaPrice = stopMode === 'ema' ? (emaValues[parseInt(emaMode)] ?? null) : null;
+  const emaStop = activeEmaPrice != null ? parseFloat((activeEmaPrice * 0.99).toFixed(2)) : null;
+  const emaRisk = emaStop != null && e > emaStop ? e - emaStop : 0;
+  const riskUnit = stopMode === 'lod' ? lodRisk : stopMode === 'manual' ? manualRisk : stopMode === 'ema' ? emaRisk : 0;
 
   const shares = (effectiveEquity > 0 && riskUnit > 0)
     ? Math.floor((effectiveEquity * r / 100) / riskUnit)
@@ -2209,21 +2415,19 @@ const PositionCalc = ({ ibkrThemesData }) => {
         stops = [ms];
       }
     } else if (stopMode === 'lod') {
-      if (lod != null && lod > 0 && e > lod) {
+      if (effectiveLod != null && effectiveLod > 0 && e > effectiveLod) {
         const n = parseInt(stopStrategy, 10);
-        const dist = e - lod;
+        const dist = e - effectiveLod;
         stops = Array.from({ length: n }, (_, i) => e - dist * (i + 1) / n);
       }
-    } else if (a > 0) {
-      stops = stopStrategy === '3'
-        ? [e - a, e - 2 * a, e - 3 * a]
-        : [e - 1.5 * a, e - 3 * a];
+    } else if (stopMode === 'ema') {
+      if (emaStop != null && emaStop > 0 && e > emaStop) stops = [emaStop];
     }
   }
 
+  const maxLossBudget = effectiveEquity > 0 && r > 0 ? effectiveEquity * r / 100 : null;
   const dollarRisk = shares != null && riskUnit > 0 ? shares * riskUnit : null;
   const positionValue = shares != null && e > 0 ? shares * e : null;
-  const maxLossBudget = effectiveEquity > 0 && r > 0 ? effectiveEquity * r / 100 : null;
 
   const fmtPrice = v => v != null ? `$${v.toFixed(2)}` : '—';
   const fmtDollar = v => v != null ? `$${v.toLocaleString('en-US', { maximumFractionDigits: 0 })}` : '—';
@@ -2262,34 +2466,14 @@ const PositionCalc = ({ ibkrThemesData }) => {
         )}
       </div>
 
-      {/* Entry / ATR / Risk % */}
-      <div className="grid grid-cols-3 gap-1.5 mb-2">
-        <div><div className="text-[9px] text-zinc-600 mb-0.5">Entry</div>{numInput(entry, setEntry, '0.00')}</div>
-        <div><div className="text-[9px] text-zinc-600 mb-0.5">ATR-14</div>{numInput(atr, setAtr, '0.00')}</div>
-        <div><div className="text-[9px] text-zinc-600 mb-0.5">Risk %</div>{numInput(riskPct, setRiskPct, '1')}</div>
-      </div>
-
-      {/* Stop Strategy toggle */}
-      <div className="flex gap-0.5 bg-zinc-800/40 rounded p-0.5 mb-1.5">
-        <Tog active={stopStrategy === '3'} onClick={() => setStopStrategy('3')}>3-Stop</Tog>
-        <Tog active={stopStrategy === '2'} onClick={() => setStopStrategy('2')}>2-Stop</Tog>
-      </div>
-
-      {/* Stop Mode toggle */}
-      <div className="flex gap-0.5 bg-zinc-800/40 rounded p-0.5 mb-2">
-        <Tog active={stopMode === 'atr'} onClick={() => setStopMode('atr')}>ATR Auto</Tog>
-        <Tog active={stopMode === 'lod'} onClick={() => setStopMode('lod')}>LOD</Tog>
-        <Tog active={stopMode === 'manual'} onClick={() => setStopMode('manual')}>Manual</Tog>
-      </div>
-
-      {/* Ticker input — always visible; auto-fetches ATR-14 + LOD from Finnhub */}
+      {/* Ticker input — above Entry; auto-fetches ATR-14 + LOD from Finnhub */}
       <div className="flex items-center gap-2 mb-2">
         <span className="text-[10px] text-zinc-500 flex-shrink-0">Ticker</span>
         <input
           type="text" value={lodTicker}
-          onChange={ev => { setLodTicker(ev.target.value.toUpperCase()); setLod(null); setCurrentPrice(null); setLodError(false); }}
-          onBlur={() => fetchTickerData(lodTicker)}
-          onKeyDown={ev => ev.key === 'Enter' && fetchTickerData(lodTicker)}
+          onChange={ev => { setLodTicker(ev.target.value.toUpperCase()); setLod(null); setCurrentPrice(null); setLodError(false); setEmaValues({ 9: null, 21: null, 50: null }); }}
+          onBlur={ev => fetchTickerData(ev.target.value)}
+          onKeyDown={ev => ev.key === 'Enter' && fetchTickerData(ev.target.value)}
           placeholder="e.g. AAPL"
           className="flex-1 bg-zinc-800/60 border border-zinc-700/50 rounded px-2 py-1 text-[11px] font-mono text-zinc-200 placeholder-zinc-700 outline-none focus:border-zinc-600 uppercase"/>
         <div className="flex flex-col items-end min-w-[52px]">
@@ -2306,12 +2490,72 @@ const PositionCalc = ({ ibkrThemesData }) => {
         </div>
       </div>
 
+      {/* Entry / ATR / Risk % */}
+      <div className="grid grid-cols-3 gap-1.5 mb-2">
+        <div>
+          <div className="text-[9px] text-zinc-600 mb-0.5">Entry</div>
+          {numInput(entry, setEntry, '0.00')}
+          <div className="mt-0.5 leading-tight">
+            <div className="text-[8px] text-zinc-600 uppercase tracking-wider">Position</div>
+            <div className="text-[10px] font-mono font-bold text-zinc-300">{positionValue != null ? fmtDollar(positionValue) : <span className="text-zinc-700">—</span>}</div>
+          </div>
+        </div>
+        <div>
+          <div className="text-[9px] text-zinc-600 mb-0.5">ADR %</div>
+          <div className="bg-zinc-800/60 border border-zinc-700/50 rounded px-1.5 py-1 text-[11px] font-mono font-bold text-zinc-200">
+            {a > 0 ? `${a.toFixed(2)}%` : <span className="text-zinc-700">—</span>}
+          </div>
+        </div>
+        <div>
+          <div className="text-[9px] text-zinc-600 mb-0.5">Risk %</div>
+          {numInput(riskPct, setRiskPct, '1')}
+          <div className="mt-0.5 leading-tight">
+            <div className="text-[8px] text-zinc-600 uppercase tracking-wider">Max Loss</div>
+            <div className="text-[10px] font-mono font-bold text-red-400/90">{maxLossBudget != null ? `−${fmtDollar(maxLossBudget)}` : <span className="text-zinc-700">—</span>}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Stop Mode main toggle */}
+      <div className="flex gap-0.5 bg-zinc-800/40 rounded p-0.5 mb-1">
+        <Tog active={stopMode === 'lod'} onClick={() => setStopMode('lod')}>LOD</Tog>
+        <Tog active={stopMode === 'manual'} onClick={() => setStopMode('manual')}>Manual</Tog>
+        <Tog active={stopMode === 'ema'} onClick={() => setStopMode('ema')}>EMA</Tog>
+      </div>
+
+      {/* Sub-row: 2-Stop / 3-Stop (LOD and Manual only) */}
+      {(stopMode === 'lod' || stopMode === 'manual') && (
+        <div className="flex gap-0.5 bg-zinc-800/30 rounded p-0.5 mb-2">
+          <Tog active={stopStrategy === '2'} onClick={() => setStopStrategy('2')}>2-Stop</Tog>
+          <Tog active={stopStrategy === '3'} onClick={() => setStopStrategy('3')}>3-Stop</Tog>
+        </div>
+      )}
+
+      {/* Sub-row: EMA period selector */}
+      {stopMode === 'ema' && (
+        <div className="flex gap-0.5 bg-zinc-800/30 rounded p-0.5 mb-2">
+          <Tog active={emaMode === '9'} onClick={() => setEmaMode('9')}>EMA 9</Tog>
+          <Tog active={emaMode === '21'} onClick={() => setEmaMode('21')}>EMA 21</Tog>
+          <Tog active={emaMode === '50'} onClick={() => setEmaMode('50')}>EMA 50</Tog>
+        </div>
+      )}
+
       {/* Manual stop price input */}
       {stopMode === 'manual' && (
         <div className="flex items-center gap-2 mb-2">
           <span className="text-[10px] text-zinc-500 flex-shrink-0">Stop $</span>
           <input type="number" value={manualStop} onChange={ev => setManualStop(ev.target.value)} placeholder="0.00"
             className="flex-1 bg-zinc-800/60 border border-zinc-700/50 rounded px-2 py-1 text-[11px] font-mono text-zinc-200 placeholder-zinc-700 outline-none focus:border-zinc-600"/>
+        </div>
+      )}
+
+      {/* EMA value display */}
+      {stopMode === 'ema' && (
+        <div className="flex items-center justify-between mb-2 px-1">
+          <span className="text-[10px] text-zinc-500">EMA {emaMode}</span>
+          {activeEmaPrice != null
+            ? <span className="text-[11px] font-mono text-cyan-400">${activeEmaPrice.toFixed(2)} → stop ${emaStop?.toFixed(2)}</span>
+            : <span className="text-[10px] font-mono text-zinc-600">輸入 Ticker 後自動計算</span>}
         </div>
       )}
 
@@ -2329,7 +2573,7 @@ const PositionCalc = ({ ibkrThemesData }) => {
         </div>
         <div>
           <div className="text-[9px] text-zinc-600 mb-1 uppercase tracking-wider">
-            {stopMode === 'lod' ? 'LOD Stop' : stopMode === 'manual' ? 'Manual Stop' : `${stopStrategy}-Stop Levels`}
+            {stopMode === 'lod' ? 'LOD Stop' : stopMode === 'manual' ? 'Manual Stop' : stopMode === 'ema' ? `EMA ${emaMode} Stop (−1%)` : `${stopStrategy}-Stop Levels`}
           </div>
           {stops.length > 0 ? (
             <div className={`grid gap-2 ${stops.length === 3 ? 'grid-cols-3' : stops.length === 2 ? 'grid-cols-2' : 'grid-cols-1'}`}>
@@ -2339,7 +2583,8 @@ const PositionCalc = ({ ibkrThemesData }) => {
                   <div key={i} className="bg-zinc-800/40 rounded px-2 py-1.5">
                     <div className="text-[8px] text-zinc-500 uppercase">
                       {stopMode === 'lod'
-                        ? (i === stops.length - 1 ? 'LOD' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
+                        ? (i === stops.length - 1 ? 'LOD −0.08%' : `${Math.round((i + 1) / stops.length * 100)}% LOD`)
+                        : stopMode === 'ema' ? `EMA ${emaMode} −1%`
                         : `Stop ${i + 1}`}
                     </div>
                     <div className="text-[12px] font-mono font-bold text-zinc-200">{fmtPrice(s)}</div>
@@ -2370,7 +2615,15 @@ const PanelLabel = ({ children, badge, badgeClass = "bg-emerald-500/10 text-emer
   </div>
 );
 
-const VixFearGaugeV2 = ({ vix }) => {
+// 從各種格式的時間字串擷取 HH:MM TZ，顯示在 panel 角落
+const UpdatedAt = ({ ts }) => {
+  if (!ts) return null;
+  const m = ts.match(/(\d{1,2}:\d{2})\s*(EDT|EST|ET)?/);
+  const display = m ? `${m[1]} ${m[2] || 'ET'}` : ts;
+  return <span className="text-[9px] text-zinc-600 font-mono tabular-nums">↻ {display}</span>;
+};
+
+const VixFearGaugeV2 = ({ vix, generatedAt }) => {
   const v = vix ?? 0;
   const cfg =
     v >= 30 ? { label: "EXTREME FEAR", cls: "text-red-400" } :
@@ -2386,7 +2639,10 @@ const VixFearGaugeV2 = ({ vix }) => {
     : "Low VIX = trend friendly. Standard entries on RS leaders OK.";
   return (
     <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <PanelLabel badge="IBKR">VIX Fear Gauge</PanelLabel>
+      <div className="flex items-center justify-between mb-2">
+        <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">VIX Fear Gauge</div>
+        <div className="flex items-center gap-1.5"><UpdatedAt ts={generatedAt}/><span className="px-1.5 py-0.5 text-[9px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span></div>
+      </div>
       <div className="text-[28px] leading-none font-bold font-mono text-zinc-100">{v ? v.toFixed(1) : "—"}</div>
       <div className={`text-[11px] font-semibold mt-1 ${cfg.cls}`}>⚠ {cfg.label}</div>
       <div className="mt-2 pt-2 border-t border-zinc-800/60">
@@ -2407,87 +2663,79 @@ const VixFearGaugeV2 = ({ vix }) => {
 const INTERNALS_NOTES = [
   {
     label: "ADV/DEC",
-    desc: "漲跌家數比",
+    desc: "Advancing / Declining stocks ratio",
     lines: [
-      "漲的股票數 / 跌的股票數",
-      "綠 ≥60%：多頭廣度健康",
-      "黃 40–60%：中性，謹慎選股",
-      "紅 <40%：空頭廣度，避免追高",
-      "跌多漲少 → 即使指數平，內部已惡化",
+      { text: "≥60% advancing → healthy breadth", active: v => v >= 60, signal: "green" },
+      { text: "40–60% → neutral, be selective", active: v => v >= 40 && v < 60, signal: "yellow" },
+      { text: "<40% → bad breadth, avoid chasing", active: v => v < 40, signal: "red" },
     ],
   },
   {
     label: "SMA50 ↑",
-    desc: "站上 50 日線的股票佔比",
+    desc: "% of stocks above 50-day MA",
     lines: [
-      "短中線健康度指標",
-      "≥60%：多頭動能充足",
-      "40–60%：邊緣，選強勢股",
-      "<40%：中期偏弱",
-      "箭頭 ↑ = 比例上升中（改善）",
+      { text: "≥60% → bull momentum healthy", active: v => v >= 60, signal: "green" },
+      { text: "40–60% → borderline, buy leaders only", active: v => v >= 40 && v < 60, signal: "yellow" },
+      { text: "<40% → weak market internals", active: v => v < 40, signal: "red" },
     ],
   },
   {
     label: "SMA200 ↑",
-    desc: "站上 200 日線的股票佔比",
+    desc: "% of stocks above 200-day MA",
     lines: [
-      "長線牛熊分界指標",
-      "≥60%：長線牛市結構",
-      "50–60%：警戒，注意守線",
-      "<50%：近半股票進入長線下跌",
+      { text: "≥60% → long-term bull structure", active: v => v >= 60, signal: "green" },
+      { text: "50–60% → caution zone", active: v => v >= 50 && v < 60, signal: "yellow" },
+      { text: "<50% → majority in downtrend", active: v => v < 50, signal: "red" },
     ],
   },
   {
     label: "52W Hi",
-    desc: "創 52 週新高的股票數",
+    desc: "Stocks making 52-week highs",
     lines: [
-      "數字越大 = 多頭動能越強",
-      "理想：Hi >> Lo（Hi/Lo 比值 >5）",
-      "進度條滿格 ≈ 500 檔",
+      { text: "More highs = stronger bull momentum" },
+      { text: "Healthy: Hi/Lo ratio >5", active: v => v > 5, signal: "green" },
     ],
   },
   {
     label: "52W Lo",
-    desc: "創 52 週新低的股票數",
+    desc: "Stocks making 52-week lows",
     lines: [
-      "數字小 = 恐慌有限、空頭壓力輕",
-      "若 Lo 突然暴增 → 市場開始崩潰",
+      { text: "Low number = limited panic", active: v => v < 50, signal: "green" },
+      { text: "Sudden spike in Lo → market breakdown", active: v => v >= 100, signal: "red" },
     ],
   },
   {
     label: "TICK",
-    desc: "NYSE 瞬間漲跌家數差（盤中即時）",
+    desc: "NYSE intraday upticks minus downticks",
     lines: [
-      "+800 以上：機構搶買，極度強勢",
-      "+200 ~ +800：偏多",
-      "-200 ~ +200：中性震盪",
-      "-800 以下：恐慌拋售",
-      "盤後顯示「—」為正常",
+      { text: ">+800 → institutional buying, very strong", active: v => v > 800, signal: "green" },
+      { text: "+200 to +800 → bullish", active: v => v >= 200 && v <= 800, signal: "green" },
+      { text: "-200 to +200 → neutral", active: v => v > -200 && v < 200, signal: "yellow" },
+      { text: "<-800 → panic selling", active: v => v < -800, signal: "red" },
     ],
   },
   {
     label: "TRIN",
-    desc: "Arms Index — 成交量加權漲跌比（盤中即時）",
+    desc: "Arms Index — volume-weighted adv/dec ratio",
     lines: [
-      "<0.7：成交量集中在漲股，Buy 訊號",
-      "0.7–1.3：中性",
-      ">1.3：成交量集中在跌股，Sell 訊號",
-      ">2.0：極度恐慌，可能短線超賣反彈",
+      { text: "<0.7 → volume in advancing stocks → Buy", active: v => v < 0.7, signal: "green" },
+      { text: "0.7–1.3 → neutral", active: v => v >= 0.7 && v <= 1.3, signal: "yellow" },
+      { text: ">1.3 → volume in declining stocks → Sell", active: v => v > 1.3 && v <= 2.0, signal: "red" },
+      { text: ">2.0 → extreme panic, oversold bounce possible", active: v => v > 2.0, signal: "red" },
     ],
   },
   {
     label: "T2108",
-    desc: "站上 40 日線的股票佔比（Worden）",
+    desc: "% of stocks above 40-day MA (Worden)",
     lines: [
-      "<20%：市場超賣，尋找反彈機會",
-      "20–70%：正常區間",
-      ">70%：過熱，注意回調風險",
-      "盤後顯示「—」為正常",
+      { text: "<20% → oversold, look for bounce", active: v => v < 20, signal: "yellow" },
+      { text: "20–70% → normal range", active: v => v >= 20 && v <= 70, signal: "green" },
+      { text: ">70% → overbought, watch for pullback", active: v => v > 70, signal: "red" },
     ],
   },
 ];
 
-const MarketInternalsV2 = ({ mc, internalsData }) => {
+const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
   const [showNotes, setShowNotes] = React.useState(false);
   if (!mc) return null;
   const { adv_dec, new_hl, sma50_counts, sma200_counts } = mc;
@@ -2495,9 +2743,9 @@ const MarketInternalsV2 = ({ mc, internalsData }) => {
   const advPct = adv_dec ? (adv_dec.adv_pct ?? 0) : 0;
   const sma50pct = sma50_counts?.above_pct ?? 0;
   const sma200pct = sma200_counts?.above_pct ?? 0;
-  const advCls = advPct >= 60 ? "text-emerald-400" : advPct >= 40 ? "text-amber-400" : "text-red-400";
-  const sma50cls = sma50pct >= 60 ? "text-emerald-400" : sma50pct >= 40 ? "text-amber-400" : "text-red-400";
-  const sma200cls = sma200pct >= 60 ? "text-emerald-400" : sma200pct >= 40 ? "text-amber-400" : "text-red-400";
+  const advCls = advPct >= 60 ? "text-emerald-400" : advPct >= 40 ? "text-amber-400" : "text-red-500";
+  const sma50cls = sma50pct >= 60 ? "text-emerald-400" : sma50pct >= 40 ? "text-amber-400" : "text-red-500";
+  const sma200cls = sma200pct >= 60 ? "text-emerald-400" : sma200pct >= 40 ? "text-amber-400" : "text-red-500";
   const advBar = advPct >= 60 ? "bg-emerald-500" : advPct >= 40 ? "bg-amber-500" : "bg-red-500";
   const sma50bar = sma50pct >= 60 ? "bg-emerald-500" : sma50pct >= 40 ? "bg-amber-500" : "bg-red-500";
   const sma200bar = sma200pct >= 60 ? "bg-emerald-500" : sma200pct >= 40 ? "bg-amber-500" : "bg-red-500";
@@ -2513,65 +2761,112 @@ const MarketInternalsV2 = ({ mc, internalsData }) => {
     return "";
   };
   return (
-    <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
+    <div className="relative bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
       <div className="flex items-center justify-between mb-2">
-        <PanelLabel badge="IBKR">Market Internals</PanelLabel>
-        <button
-          onClick={() => setShowNotes(v => !v)}
-          className={`text-[10px] px-2 py-0.5 rounded border transition-colors ${
-            showNotes
-              ? "border-zinc-500 text-zinc-300 bg-zinc-800"
-              : "border-zinc-700 text-zinc-500 hover:text-zinc-300 hover:border-zinc-500"
-          }`}
-        >
-          {showNotes ? "▲ 注釋" : "▼ 注釋"}
-        </button>
-      </div>
-      {showNotes ? (
-        <div className="space-y-2.5">
-          {INTERNALS_NOTES.map(n => (
-            <div key={n.label} className="border-b border-zinc-800/60 pb-2 last:border-0 last:pb-0">
-              <div className="flex items-baseline gap-1.5 mb-0.5">
-                <span className="text-[10px] font-semibold text-zinc-200">{n.label}</span>
-                <span className="text-[9px] text-zinc-500">{n.desc}</span>
-              </div>
-              <ul className="space-y-0.5">
-                {n.lines.map((l, i) => (
-                  <li key={i} className="text-[9px] text-zinc-400 leading-snug pl-2 before:content-['·'] before:mr-1 before:text-zinc-600">{l}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Market Internals</div>
+        <div className="flex items-center gap-1.5">
+          <UpdatedAt ts={generatedAt}/>
+          <span className="px-1.5 py-0.5 text-[9px] font-bold rounded border bg-emerald-500/10 text-emerald-400 border-emerald-500/30">IBKR</span>
+          <button
+            onClick={() => setShowNotes(v => !v)}
+            className={`text-[10px] px-2 py-0.5 rounded border transition-colors ${
+              showNotes
+                ? "border-zinc-500 text-zinc-300 bg-zinc-800"
+                : "border-zinc-700 text-zinc-500 hover:text-zinc-300 hover:border-zinc-500"
+            }`}
+          >
+            {showNotes ? "▲ Notes" : "▼ Notes"}
+          </button>
         </div>
-      ) : (
+      </div>
+      <div className="space-y-1.5">
+        <div>
+          <div className="flex items-baseline justify-between text-[10px]">
+            <span className="text-zinc-500">ADV/DEC</span>
+            {adv_dec ? (
+              <span className="font-mono font-semibold">
+                <span className="text-emerald-300">{adv_dec.adv_pct?.toFixed(1)}%</span>
+                <span className="text-emerald-300"> ({adv_dec.advancing})</span>
+                <span className="text-zinc-300"> / </span>
+                <span className="text-red-500">{adv_dec.dec_pct?.toFixed(1)}%</span>
+                <span className="text-red-500"> ({adv_dec.declining})</span>
+              </span>
+            ) : <span className={`font-mono font-semibold ${advCls}`}>—</span>}
+          </div>
+          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${advBar}`} style={{ width: `${Math.min(100, Math.max(0, advPct))}%` }}/></div>
+        </div>
+        <div>
+          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
+          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma50bar}`} style={{ width: `${Math.min(100, sma50pct)}%` }}/></div>
+        </div>
+        <div>
+          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
+          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma200bar}`} style={{ width: `${Math.min(100, sma200pct)}%` }}/></div>
+        </div>
+        <div>
+          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
+          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-blue-500" style={{ width: `${Math.min(100, (newHigh / 500) * 100)}%` }}/></div>
+        </div>
+        <div>
+          <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-500">{newLow}</span></div>
+          <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-red-500" style={{ width: `${Math.min(100, (newLow / 500) * 100)}%` }}/></div>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[10px] font-mono">
+        <span className="text-zinc-500">TICK</span><span className={`text-right ${tick == null ? "text-zinc-600" : tick >= 0 ? "text-emerald-400" : "text-red-500"}`}>{tick == null ? "—" : (tick > 0 ? "+" : "") + tick}</span>
+        <span className="text-zinc-500">TRIN</span><span className="text-zinc-300 text-right">{trin == null ? "—" : `${trin.toFixed(2)} ${interpret("trin", trin)}`}</span>
+        <span className="text-zinc-500">T2108</span><span className="text-zinc-300 text-right">{t2108 == null ? "—" : `${t2108.toFixed(2)} ${interpret("t2108", t2108)}`}</span>
+      </div>
+      {showNotes && (
         <>
-          <div className="space-y-1.5">
-            <div>
-              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">ADV/DEC</span><span className={`font-mono font-semibold ${advCls}`}>{advTxt}</span></div>
-              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${advBar}`} style={{ width: `${Math.min(100, Math.max(0, advPct))}%` }}/></div>
-            </div>
-            <div>
-              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA50 ↑</span><span className={`font-mono font-semibold ${sma50cls}`}>{sma50pct.toFixed(0)}%</span></div>
-              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma50bar}`} style={{ width: `${Math.min(100, sma50pct)}%` }}/></div>
-            </div>
-            <div>
-              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">SMA200 ↑</span><span className={`font-mono font-semibold ${sma200cls}`}>{sma200pct.toFixed(0)}%</span></div>
-              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className={`h-full ${sma200bar}`} style={{ width: `${Math.min(100, sma200pct)}%` }}/></div>
-            </div>
-            <div>
-              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Hi</span><span className="font-mono font-semibold text-blue-400">{newHigh}</span></div>
-              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-blue-500" style={{ width: `${Math.min(100, (newHigh / 500) * 100)}%` }}/></div>
-            </div>
-            <div>
-              <div className="flex items-baseline justify-between text-[10px]"><span className="text-zinc-500">52W Lo</span><span className="font-mono font-semibold text-red-400">{newLow}</span></div>
-              <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-0.5"><div className="h-full bg-red-500" style={{ width: `${Math.min(100, (newLow / 500) * 100)}%` }}/></div>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 mt-2 pt-2 border-t border-zinc-800/60 text-[10px] font-mono">
-            <span className="text-zinc-500">TICK</span><span className={`text-right ${tick == null ? "text-zinc-600" : tick >= 0 ? "text-emerald-400" : "text-red-400"}`}>{tick == null ? "—" : (tick > 0 ? "+" : "") + tick}</span>
-            <span className="text-zinc-500">TRIN</span><span className="text-zinc-300 text-right">{trin == null ? "—" : `${trin.toFixed(2)} ${interpret("trin", trin)}`}</span>
-            <span className="text-zinc-500">T2108</span><span className="text-zinc-300 text-right">{t2108 == null ? "—" : `${t2108.toFixed(2)} ${interpret("t2108", t2108)}`}</span>
-          </div>
+        <div className="fixed inset-0 z-40" onClick={() => setShowNotes(false)} />
+        <div className="absolute top-0 left-full ml-1 z-50 w-64 bg-zinc-900 border border-zinc-700 rounded-xl p-3 shadow-xl space-y-2 overflow-y-auto max-h-[80vh]">
+          {(() => {
+            const hiLoRatio = newLow > 0 ? newHigh / newLow : null;
+            const noteVals = {
+              "ADV/DEC":  { raw: adv_dec ? advPct : null,  display: adv_dec ? `${advPct.toFixed(0)}% (${advTxt})` : null },
+              "SMA50 ↑":  { raw: sma50pct,                 display: `${sma50pct.toFixed(0)}%` },
+              "SMA200 ↑": { raw: sma200pct,                display: `${sma200pct.toFixed(0)}%` },
+              "52W Hi":   { raw: hiLoRatio,                 display: `${newHigh} (Hi/Lo ${newLow > 0 ? `ratio ${hiLoRatio?.toFixed(1)}` : "—"})` },
+              "52W Lo":   { raw: newLow,                   display: `${newLow}` },
+              "TICK":     { raw: tick,                     display: tick != null ? (tick > 0 ? `+${tick}` : `${tick}`) : null },
+              "TRIN":     { raw: trin,                     display: trin != null ? trin.toFixed(2) : null },
+              "T2108":    { raw: t2108,                    display: t2108 != null ? `${t2108.toFixed(1)}%` : null },
+            };
+            return INTERNALS_NOTES.map(n => {
+              const { raw, display } = noteVals[n.label] || {};
+              return (
+                <div key={n.label} className="border-b border-zinc-800/40 pb-1.5 last:border-0 last:pb-0">
+                  {(() => {
+                    const activeLine = raw != null ? n.lines.find(l => l.active && l.active(raw)) : null;
+                    const sig = activeLine?.signal;
+                    const sigCls = sig === "green" ? "text-emerald-400" : sig === "yellow" ? "text-amber-400" : sig === "red" ? "text-red-400" : "text-zinc-500";
+                    const dotCls = sig === "green" ? "before:text-emerald-400" : sig === "yellow" ? "before:text-amber-400" : sig === "red" ? "before:text-red-400" : "before:text-amber-400";
+                    return (
+                      <>
+                      <div className="flex items-baseline justify-between mb-0.5">
+                        <span className="text-[10px] font-semibold text-zinc-200">{n.label}</span>
+                        {display != null && <span className={`text-[9px] font-mono ${sigCls}`}>{display}</span>}
+                      </div>
+                      <ul className="space-y-0.5">
+                        {n.lines.map((l, i) => {
+                          const isActive = raw != null && l.active && l.active(raw);
+                          const lineDot = isActive ? dotCls : "before:text-zinc-700";
+                          return (
+                            <li key={i} className={`text-[9px] leading-snug pl-1 before:content-['·'] before:mr-1 ${
+                              isActive ? `font-semibold ${sigCls} ${lineDot}` : "text-zinc-500 before:text-zinc-700"
+                            }`}>{l.text}</li>
+                          );
+                        })}
+                      </ul>
+                      </>
+                    );
+                  })()}
+                </div>
+              );
+            });
+          })()}
+        </div>
         </>
       )}
     </div>
@@ -2615,12 +2910,23 @@ const LeadersAllThemesCard = ({ themes }) => {
         <div className="text-[10px] text-zinc-600 italic">No qualifiers</div>
       ) : (
         <div className="space-y-0.5">
-          {filtered.map(s => (
-            <div key={s.ticker} className="flex items-center justify-between text-[12px] py-1 border-b border-zinc-800/40 last:border-0">
-              <span className="font-bold text-blue-400 font-mono">{s.ticker}</span>
-              <span className="font-mono text-emerald-400 font-semibold">{s.rs_52w}</span>
-            </div>
-          ))}
+          <div className="flex items-center justify-between text-[9px] text-zinc-600 pb-0.5 mb-0.5 border-b border-zinc-800/60">
+            <span>Ticker · Price · Chg</span>
+            <span>RS</span>
+          </div>
+          {filtered.map(s => {
+            const chg = s.change_pct ?? s.perf_1d ?? null;
+            return (
+              <div key={s.ticker} className="flex items-center justify-between text-[12px] py-1 border-b border-zinc-800/40 last:border-0">
+                <div className="flex items-center gap-1.5 min-w-0">
+                  <span className="font-bold text-blue-400 font-mono">{s.ticker}</span>
+                  {s.price != null && <span className="text-[9px] font-mono text-zinc-500">${s.price.toFixed(2)}</span>}
+                  {chg != null && <span className={`text-[9px] font-mono font-bold ${chg >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>{chg >= 0 ? '+' : ''}{chg.toFixed(1)}%</span>}
+                </div>
+                <span className="font-mono text-emerald-400 font-semibold">{s.rs_52w}</span>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
@@ -2924,21 +3230,9 @@ const BreakingNewsAlert = ({ newsData }) => {
                   <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(top.pub_time || top.timestamp)}</span>
                 )}
               </div>
-              <p className="text-red-500 font-extrabold text-sm uppercase leading-snug mb-3">
+              <p className="text-red-500 font-extrabold text-sm uppercase leading-snug">
                 {highlightText(top.headline)}
               </p>
-              {top.analysis && (
-                <div className="mb-2">
-                  <h4 className="text-sky-400 font-bold text-[10px] uppercase tracking-widest mb-1">Analysis</h4>
-                  <p className="text-zinc-300 text-xs leading-relaxed">{highlightText(top.analysis)}</p>
-                </div>
-              )}
-              {top.impact && (
-                <div>
-                  <h4 className="text-amber-400 font-bold text-[10px] uppercase tracking-widest mb-1">Impact</h4>
-                  <p className="text-zinc-300 text-xs leading-relaxed">{highlightText(top.impact)}</p>
-                </div>
-              )}
             </div>
 
             {/* Secondary alerts */}
@@ -2956,19 +3250,7 @@ const BreakingNewsAlert = ({ newsData }) => {
                     <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>
                   )}
                 </div>
-                <p className="text-red-700 font-bold text-xs uppercase leading-snug mb-2">{highlightText(alert.headline)}</p>
-                {alert.analysis && (
-                  <div className="mb-1">
-                    <h4 className="text-sky-400 font-bold text-[9px] uppercase tracking-widest mb-0.5">Analysis</h4>
-                    <p className="text-zinc-400 text-[11px] leading-relaxed">{highlightText(alert.analysis)}</p>
-                  </div>
-                )}
-                {alert.impact && (
-                  <div>
-                    <h4 className="text-amber-400 font-bold text-[9px] uppercase tracking-widest mb-0.5">Impact</h4>
-                    <p className="text-zinc-400 text-[11px] leading-relaxed">{highlightText(alert.impact)}</p>
-                  </div>
-                )}
+                <p className="text-red-700 font-bold text-xs uppercase leading-snug">{highlightText(alert.headline)}</p>
               </div>
             ))}
 
@@ -3252,21 +3534,9 @@ const ScannerBriefFeed = ({ briefData, newsData }) => {
                     {alert.source && <span className="text-red-900 text-[10px] font-semibold uppercase tracking-widest">{alert.source}</span>}
                     {formatAlertTime(alert.pub_time || alert.timestamp) && <span className="text-zinc-600 text-[9px] font-mono">{formatAlertTime(alert.pub_time || alert.timestamp)}</span>}
                   </div>
-                  <p className={`font-extrabold text-sm uppercase leading-snug mb-3 ${i === 0 ? "text-red-500" : "text-red-700"}`}>
+                  <p className={`font-extrabold text-sm uppercase leading-snug ${i === 0 ? "text-red-500" : "text-red-700"}`}>
                     {highlightText(alert.headline)}
                   </p>
-                  {alert.analysis && (
-                    <div className="mb-2">
-                      <h4 className="text-sky-400 font-bold text-[10px] uppercase tracking-widest mb-1">Analysis</h4>
-                      <p className="text-zinc-300 text-xs leading-relaxed">{highlightText(alert.analysis)}</p>
-                    </div>
-                  )}
-                  {alert.impact && (
-                    <div>
-                      <h4 className="text-amber-400 font-bold text-[10px] uppercase tracking-widest mb-1">Impact</h4>
-                      <p className="text-zinc-300 text-xs leading-relaxed">{highlightText(alert.impact)}</p>
-                    </div>
-                  )}
                 </div>
               ))}
               {newsData?.last_checked && (
@@ -4047,21 +4317,29 @@ Rules for keywords: each is a short phrase (2–4 words), factual, no fluff. Mix
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
     tools: [{ google_search: {} }],
-    generationConfig: { temperature: 0.3, maxOutputTokens: 1500 },
+    generationConfig: { temperature: 0.3, maxOutputTokens: 4000, thinkingConfig: { thinkingBudget: 0 } },
   };
   const res  = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-  if (!res.ok) throw new Error(`Gemini ${res.status}`);
+  if (!res.ok) throw new Error(`Gemini API error ${res.status}`);
   const json = await res.json();
   // Concatenate all text parts (search grounding may split into multiple parts)
   const parts = json?.candidates?.[0]?.content?.parts || [];
   const raw = parts.map(p => p.text || "").join("").trim();
-  if (!raw) return null;
-  // Strip markdown code fences and extract JSON object
-  const cleaned = raw.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "").trim();
-  // Extract first {...} block in case grounding adds trailing text
-  const match = cleaned.match(/\{[\s\S]*\}/);
-  if (!match) return null;
-  try { return JSON.parse(match[0]); } catch { return null; }
+  if (!raw) throw new Error("Gemini returned an empty response — please retry");
+  // Strip markdown code fences
+  const cleaned = raw.replace(/```(?:json)?\n?/g, "").replace(/\n?```/g, "").trim();
+  // Use balanced brace counting to extract the first complete JSON object
+  // (greedy regex fails when google_search grounding appends citation footnotes)
+  const start = cleaned.indexOf("{");
+  if (start === -1) throw new Error("Could not find JSON in Gemini response — please retry");
+  let depth = 0, end = -1;
+  for (let i = start; i < cleaned.length; i++) {
+    if (cleaned[i] === "{") depth++;
+    else if (cleaned[i] === "}") { depth--; if (depth === 0) { end = i; break; } }
+  }
+  if (end === -1) throw new Error("Incomplete JSON from Gemini — please retry");
+  try { return JSON.parse(cleaned.slice(start, end + 1)); }
+  catch { throw new Error("Invalid JSON from Gemini — please retry"); }
 }
 
 // Simple markdown bold renderer (for **text** patterns)
@@ -4074,11 +4352,12 @@ function renderMarkdown(text) {
   });
 }
 
-const EarningsAnalysisDrawer = ({ stock, onClose }) => {
+const EarningsAnalysisDrawer = ({ stock, onClose, themeName }) => {
   const [analysis, setAnalysis] = useState(null);
   const [loading,  setLoading]  = useState(true);
   const [error,    setError]    = useState(null);
   const [lang,     setLang]     = useState("en");
+  const [retryKey, setRetryKey] = useState(0);
 
   useEffect(() => {
     if (!EARNINGS_GEMINI_KEY) {
@@ -4088,6 +4367,7 @@ const EarningsAnalysisDrawer = ({ stock, onClose }) => {
     }
     setLoading(true);
     setError(null);
+    setAnalysis(null);
     fetchEarningsAnalysis(
       stock.ticker, stock.company,
       stock.eps_estimate, stock.eps_act, stock.eps_surp_pct,
@@ -4095,8 +4375,8 @@ const EarningsAnalysisDrawer = ({ stock, onClose }) => {
       stock.mkt_cap,
     )
       .then(data => { setAnalysis(data); setLoading(false); })
-      .catch(e  => { setError(`Failed: ${e.message}`); setLoading(false); });
-  }, [stock.ticker]); // eslint-disable-line react-hooks/exhaustive-deps
+      .catch(e  => { setError(e.message); setLoading(false); });
+  }, [stock.ticker, retryKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Escape key closes drawer
   useEffect(() => {
@@ -4127,6 +4407,7 @@ const EarningsAnalysisDrawer = ({ stock, onClose }) => {
             <div className="flex items-center gap-2">
               <span className="font-mono text-[15px] font-bold text-white">{stock.ticker}</span>
               <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 leading-none">✦ AI ANALYSIS</span>
+              {themeName && <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none">{themeName}</span>}
             </div>
             <span className="text-[11px] text-zinc-500 truncate block">{stock.company}</span>
           </div>
@@ -4163,8 +4444,12 @@ const EarningsAnalysisDrawer = ({ stock, onClose }) => {
               <p className="text-[12px] text-zinc-500">Gemini is analysing {stock.ticker} earnings…</p>
             </div>
           ) : error ? (
-            <div className="py-10 text-center">
+            <div className="py-10 text-center flex flex-col items-center gap-3">
               <p className="text-[13px] text-rose-400">{error}</p>
+              <button onClick={() => setRetryKey(k => k + 1)}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-zinc-800 hover:bg-zinc-700 text-[11px] text-zinc-300 transition-colors">
+                <RefreshCw size={11}/> Retry
+              </button>
             </div>
           ) : sections.length > 0 ? (
             <div className="space-y-3">
@@ -4199,13 +4484,22 @@ const EarningsAnalysisDrawer = ({ stock, onClose }) => {
   );
 };
 
-const CalendarTab = ({ econData, earningsData }) => {
+const CalendarTab = ({ econData, earningsData, thematicData }) => {
   const _todayD = new Date();
   const todayStr = `${_todayD.getFullYear()}-${String(_todayD.getMonth()+1).padStart(2,"0")}-${String(_todayD.getDate()).padStart(2,"0")}`;
   const [calSubTab, setCalSubTab] = useState("economic");  // "economic" | "earnings"
   const [selectedDay, setSelectedDay] = useState(todayStr);
   const [weekOffset, setWeekOffset]   = useState(0);
   const [analysisStock, setAnalysisStock] = useState(null); // stock object for AI drawer
+
+  const tickerThemeMap = useMemo(() => {
+    const m = {};
+    for (const theme of thematicData?.themes || [])
+      for (const sub of theme.subthemes || [])
+        for (const s of sub.stocks || [])
+          if (s.ticker && !m[s.ticker]) m[s.ticker] = theme.name;
+    return m;
+  }, [thematicData]);
 
   const weekDays = useMemo(() => calGetWeekDays(weekOffset), [weekOffset]);
 
@@ -4264,8 +4558,13 @@ const CalendarTab = ({ econData, earningsData }) => {
     const ORDER = { BMO: 0, AMC: 1 };
     return allEarnings
       .filter(e => e.date === selectedDay)
-      .sort((a, b) => (ORDER[a.time_of_day] ?? 2) - (ORDER[b.time_of_day] ?? 2));
-  }, [allEarnings, selectedDay]);
+      .sort((a, b) => {
+        const aHasTheme = tickerThemeMap[a.ticker] ? 0 : 1;
+        const bHasTheme = tickerThemeMap[b.ticker] ? 0 : 1;
+        if (aHasTheme !== bHasTheme) return aHasTheme - bHasTheme;
+        return (ORDER[a.time_of_day] ?? 2) - (ORDER[b.time_of_day] ?? 2);
+      });
+  }, [allEarnings, selectedDay, tickerThemeMap]);
 
   // ── Group econ events by time slot ────────────────────────────────────────
   const econByTime = useMemo(() => {
@@ -4302,9 +4601,12 @@ const CalendarTab = ({ econData, earningsData }) => {
         <a href={`https://www.tradingview.com/chart/?symbol=${e.ticker}`} target="_blank" rel="noopener noreferrer"
            className="text-[13px] font-mono font-bold text-sky-400 hover:text-sky-300 transition-colors">{e.ticker}</a>
 
-        {/* Company + AI icon */}
+        {/* Company + theme tag + AI icon */}
         <div className="flex items-center gap-1.5 min-w-0 pr-2">
           <span className="text-[12px] text-zinc-300 truncate">{e.company || "—"}</span>
+          {tickerThemeMap[e.ticker] && (
+            <span className="flex-shrink-0 text-[9px] font-medium px-1 py-0.5 rounded bg-sky-500/10 border border-sky-500/25 text-sky-400 leading-none truncate max-w-[90px]">{tickerThemeMap[e.ticker]}</span>
+          )}
           <button
             onClick={() => setAnalysisStock(e)}
             title="Gemini AI earnings analysis"
@@ -4534,22 +4836,35 @@ const CalendarTab = ({ econData, earningsData }) => {
                 ))}
               </div>
 
-              {/* BMO rows */}
-              {dayEarnings.filter(e => e.time_of_day === "BMO").map((e, i) => <EarningsRow key={`bmo-${i}`} e={e}/>)}
-
-              {/* AMC divider */}
-              {dayEarnings.some(e => e.time_of_day === "BMO") && dayEarnings.some(e => e.time_of_day === "AMC") && (
-                <div className="px-3 py-1.5 bg-zinc-800/30 border-y border-zinc-800/60">
-                  <span className="text-[9px] text-zinc-600 uppercase tracking-widest font-semibold">After Market Close</span>
-                </div>
-              )}
-
-              {/* AMC rows */}
-              {dayEarnings.filter(e => e.time_of_day === "AMC").map((e, i) => <EarningsRow key={`amc-${i}`} e={e}/>)}
-
-              {/* Unknown timing rows */}
-              {dayEarnings.filter(e => !e.time_of_day || (e.time_of_day !== "BMO" && e.time_of_day !== "AMC"))
-                .map((e, i) => <EarningsRow key={`unk-${i}`} e={e}/>)}
+              {/* Thematic Scanner stocks first */}
+              {(() => {
+                const thematic = dayEarnings.filter(e => tickerThemeMap[e.ticker]);
+                const rest     = dayEarnings.filter(e => !tickerThemeMap[e.ticker]);
+                const bmo      = rest.filter(e => e.time_of_day === "BMO");
+                const amc      = rest.filter(e => e.time_of_day === "AMC");
+                const unk      = rest.filter(e => !e.time_of_day || (e.time_of_day !== "BMO" && e.time_of_day !== "AMC"));
+                return <>
+                  {thematic.length > 0 && <>
+                    <div className="px-3 py-1.5 bg-sky-900/20 border-b border-sky-800/30">
+                      <span className="text-[9px] text-sky-500 uppercase tracking-widest font-semibold">Thematic Scanner</span>
+                    </div>
+                    {thematic.map((e, i) => <EarningsRow key={`th-${i}`} e={e}/>)}
+                  </>}
+                  {bmo.length > 0 && <>
+                    <div className="px-3 py-1.5 bg-zinc-800/30 border-y border-zinc-800/60">
+                      <span className="text-[9px] text-zinc-600 uppercase tracking-widest font-semibold">Before Market Open</span>
+                    </div>
+                    {bmo.map((e, i) => <EarningsRow key={`bmo-${i}`} e={e}/>)}
+                  </>}
+                  {amc.length > 0 && <>
+                    <div className="px-3 py-1.5 bg-zinc-800/30 border-y border-zinc-800/60">
+                      <span className="text-[9px] text-zinc-600 uppercase tracking-widest font-semibold">After Market Close</span>
+                    </div>
+                    {amc.map((e, i) => <EarningsRow key={`amc-${i}`} e={e}/>)}
+                  </>}
+                  {unk.map((e, i) => <EarningsRow key={`unk-${i}`} e={e}/>)}
+                </>;
+              })()}
             </div>
           )}
         </div>
@@ -4560,6 +4875,7 @@ const CalendarTab = ({ econData, earningsData }) => {
         <EarningsAnalysisDrawer
           stock={analysisStock}
           onClose={() => setAnalysisStock(null)}
+          themeName={tickerThemeMap[analysisStock.ticker] || null}
         />
       )}
     </div>
@@ -4950,9 +5266,9 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
       const seen = new Set();
       for (const g of gappers) {
         if (g.meets_all_gates) {
-          if (!seen.has(g.ticker)) { seen.add(g.ticker); rows.push({ ticker: g.ticker, rs: g.rs_52w ?? null, isPeer: false }); }
+          if (!seen.has(g.ticker)) { seen.add(g.ticker); rows.push({ ticker: g.ticker, rs: g.rs_52w ?? null, isPeer: false, price: g.price ?? null, gap_pct: g.gap_pct ?? null }); }
           for (const p of (g.peer_tickers || [])) {
-            if (!seen.has(p)) { seen.add(p); rows.push({ ticker: p, rs: null, isPeer: true }); }
+            if (!seen.has(p)) { seen.add(p); rows.push({ ticker: p, rs: null, isPeer: true, price: null, gap_pct: null }); }
           }
         }
       }
@@ -4991,26 +5307,36 @@ const LeaderColumn = ({ ibkrThemesData, gapperData, mode }) => {
 
       {/* Leaders list */}
       <div className="flex flex-col gap-0.5 mb-3">
+        {leaders.length > 0 && (
+          <div className="flex items-center justify-between text-[9px] text-zinc-600 pb-0.5 mb-0.5 border-b border-zinc-800/60">
+            <span>Ticker · Price · Chg</span>
+            <span>RS</span>
+          </div>
+        )}
         {leaders.length === 0 ? (
           <div className="text-[11px] text-zinc-600 py-2 text-center">No qualifying leaders</div>
-        ) : leaders.map(({ ticker, rs, isPeer }) => {
+        ) : leaders.map(({ ticker, rs, isPeer, price, gap_pct }) => {
           const rsCls = rs != null && rs >= 90 ? "bg-emerald-500/20 text-emerald-400 border-emerald-500/30"
                       : rs != null && rs >= 85 ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
                       : "bg-zinc-800/60 text-zinc-500 border-zinc-700/40";
           return (
             <div key={ticker}
               className={`flex items-center justify-between px-1.5 py-1 rounded hover:bg-zinc-800/50 transition-colors ${isPeer ? "opacity-60" : ""}`}>
-              <span
-                className="text-[12px] font-mono font-semibold text-blue-400 cursor-pointer hover:text-blue-300 transition-colors leading-none"
-                onClick={e => { clearTimeout(hoverTimer.current); const rect = e.currentTarget.getBoundingClientRect(); setHovered(prev => prev?.ticker === ticker ? null : { ticker, rect }); }}
-                onMouseEnter={e => startHover(ticker, e.currentTarget.getBoundingClientRect())}
-                onMouseLeave={cancelHover}
-              >
-                {ticker}
-                {isPeer && <span className="text-[8px] text-zinc-600 ml-0.5">peer</span>}
-              </span>
+              <div className="flex items-center gap-1.5 min-w-0 flex-wrap">
+                <span
+                  className="text-[12px] font-mono font-semibold text-blue-400 cursor-pointer hover:text-blue-300 transition-colors leading-none"
+                  onClick={e => { clearTimeout(hoverTimer.current); const rect = e.currentTarget.getBoundingClientRect(); setHovered(prev => prev?.ticker === ticker ? null : { ticker, rect }); }}
+                  onMouseEnter={e => startHover(ticker, e.currentTarget.getBoundingClientRect())}
+                  onMouseLeave={cancelHover}
+                >
+                  {ticker}
+                  {isPeer && <span className="text-[8px] text-zinc-600 ml-0.5">peer</span>}
+                </span>
+                {price != null && <span className="text-[9px] font-mono text-zinc-500">${price.toFixed(2)}</span>}
+                {gap_pct != null && <span className="text-[9px] font-mono font-bold text-emerald-400">+{gap_pct.toFixed(1)}%</span>}
+              </div>
               {rs != null && (
-                <span className={`text-[9px] font-bold font-mono px-1 py-0.5 rounded border leading-none ${rsCls}`}>
+                <span className={`text-[9px] font-bold font-mono px-1 py-0.5 rounded border leading-none flex-shrink-0 ${rsCls}`}>
                   {rs}
                 </span>
               )}
@@ -5077,7 +5403,6 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
   const [gapperData, setGapperData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [hovered, setHovered] = useState(null);
-  const { active: tvActive, onEnter: tvOnEnter, onLeave: tvOnLeave } = useHoverDelay(2000);
   const [tickerDb, setTickerDb] = useState({});
 
   // Filter state — human-friendly units: PMVol/AvgVol in K, MktCap in $B, DolVol in $M
@@ -5087,6 +5412,8 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
   const [fMinAvgVol, setFMinAvgVol] = useState(0);    // K
   const [fMinMktCap, setFMinMktCap] = useState(0);      // $B
   const [fMinDolVol, setFMinDolVol] = useState(0);     // $M
+  const [modalData, setModalData] = useState(null);
+  const [chartAnchorRect, setChartAnchorRect] = useState(null);
 
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/stock_db.json`)
@@ -5129,6 +5456,7 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
     </div>
   );
 
+  const GRADE_RANK = { "A+": 4, "A": 3, "B": 2, "C": 1 };
   const filtered = gapperData.gappers.filter(g =>
     g.gap_pct   >= fMinGap &&
     g.pm_volume >= fMinPMVol * 1000 &&
@@ -5138,7 +5466,7 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
     (g.avg_dollar_vol || g.price * (g.avg_vol_10d || 0)) >= fMinDolVol * 1e6 &&
     // In Stress regime: hide C-grade gappers to reduce noise
     (creditRegime !== "Stress" || (g.grade && g.grade !== "C"))
-  );
+  ).sort((a, b) => (GRADE_RANK[b.grade] || 0) - (GRADE_RANK[a.grade] || 0));
 
   const resetFilters = () => {
     setFMinGap(5); setFMinPMVol(200); setFMinPrice(5);
@@ -5186,54 +5514,54 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
       <div className="overflow-x-auto rounded-lg border border-zinc-700/40">
         <table className="w-full table-fixed min-w-[1300px]">
           <colgroup>
-            <col style={{width:"5%"}}/>
-            <col style={{width:"5%"}}/>
-            <col style={{width:"5%"}}/>
-            <col style={{width:"4%"}}/>
-            <col style={{width:"4%"}}/>
-            <col style={{width:"4%"}}/>
-            <col style={{width:"5%"}}/>
-            <col style={{width:"6%"}}/>
-            <col style={{width:"8%"}}/>
-            <col style={{width:"8%"}}/>
-            <col style={{width:"4%"}}/>
-            <col style={{width:"18%"}}/>
-            <col style={{width:"24%"}}/>
+            <col style={{width:"80px"}}/>
+            <col style={{width:"80px"}}/>
+            <col style={{width:"70px"}}/>
+            <col style={{width:"55px"}}/>
+            <col style={{width:"60px"}}/>
+            <col style={{width:"55px"}}/>
+            <col style={{width:"65px"}}/>
+            <col style={{width:"90px"}}/>
+            <col style={{width:"110px"}}/>
+            <col style={{width:"90px"}}/>
+            <col style={{width:"45px"}}/>
+            <col style={{width:"150px"}}/>
+            <col style={{width:"170px"}}/>
           </colgroup>
           <thead>
             <tr className="text-[11px] text-zinc-500 uppercase tracking-wider bg-zinc-900/80 border-b border-zinc-700/40 align-middle">
-              <th className="text-center py-2 px-1.5 font-medium align-middle">Ticker</th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle leading-tight">Premkt<br/>Price<br/>Chg %</th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle leading-tight">Premkt<br/>Vol</th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle"><Tip text="Relative Volume：今日成交量 ÷ 過去10天平均量。🟢 ≥5x 極強  🟡 ≥3x 強  ⚪ ≥2x 中等  灰色 &lt;2x 弱">RVol</Tip></th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle"><Tip text="Daily %：昨日收盤漲跌幅（非盤前）">Daily %</Tip></th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle leading-tight"><Tip text="Short Interest：放空股數佔流通股比例。>20% 有軋空 (Short Squeeze) 潛力，但也代表市場看空">Short<br/>Int</Tip></th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle"><Tip text="Float：市場上可自由買賣的流通股數。Float 越小，股價越容易被大幅推動">Float</Tip></th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle">Sector</th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle">Industry</th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle"><Tip width="w-72" text="催化劑分類：Earnings 財報｜Upgrade 分析師升評｜FDA 藥品審批｜Government Policy 政策｜Contract/Partnership 合約｜Institutional/Insider Buying 機構/內部人買入｜Thematic Narratives 主題敘事｜Technical/Flow 無明確催化劑">Category</Tip></th>
-              <th className="text-center py-2 px-1 font-medium align-middle"><Tip width="w-64" text="Gemini 信心評分：A+ 極高 (90+)｜A 高 (75-89)｜B 中 (50-74)｜C 低 (&lt;50)。Pass/Fail = 技術門檻 ($Vol >$100M 且 ADR >4%)">Grade</Tip></th>
-              <th className="text-center py-2 px-1.5 font-medium align-middle">Reasoning</th>
-              <th className="text-center py-2 px-2 font-medium align-middle">Analysis Details</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle">Ticker</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle leading-tight">Premkt<br/>Price<br/>Chg %</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle leading-tight">Premkt<br/>Vol</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle"><Tip text="Relative Volume：今日成交量 ÷ 過去10天平均量。🟢 ≥5x 極強  🟡 ≥3x 強  ⚪ ≥2x 中等  灰色 &lt;2x 弱">RVol</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle"><Tip text="Daily %：昨日收盤漲跌幅（非盤前）">Daily %</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle leading-tight"><Tip text="Short Interest：放空股數佔流通股比例。>20% 有軋空 (Short Squeeze) 潛力，但也代表市場看空">Short<br/>Int</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle"><Tip text="Float：市場上可自由買賣的流通股數。Float 越小，股價越容易被大幅推動">Float</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle">Sector</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle">Industry</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle"><Tip width="w-72" text="催化劑分類：Earnings 財報｜Upgrade 分析師升評｜FDA 藥品審批｜Government Policy 政策｜Contract/Partnership 合約｜Institutional/Insider Buying 機構/內部人買入｜Thematic Narratives 主題敘事｜Technical/Flow 無明確催化劑">Category</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle"><Tip width="w-64" text="Gemini 信心評分：A+ 極高 (90+)｜A 高 (75-89)｜B 中 (50-74)｜C 低 (&lt;50)。Pass/Fail = 技術門檻 ($Vol >$100M 且 ADR >4%)">Grade</Tip></th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle">Reasoning</th>
+              <th className="text-center py-1.5 px-2 font-medium align-middle">Analysis Details</th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((g, i) => {
               const techFail   = (g.technical_status || "").startsWith("Fail");
+              if (techFail) return null;
               const flowTheme  = (g.theme || g.category || "") === "Technical / Flow";
               const rowCls     = [
                 "border-t align-middle transition-colors",
-                techFail  ? "opacity-40 grayscale border-zinc-800/30" : "border-zinc-800/40 hover:bg-zinc-800/20",
+                "border-zinc-800/40 hover:bg-zinc-800/20",
                 flowTheme ? "border-dashed border-amber-800/40" : "",
               ].join(" ");
               return (
               <tr key={g.ticker + i} className={rowCls}>
                 {/* Ticker */}
-                <td className="py-2 px-1.5 text-center">
+                <td className="py-1 px-2 align-middle text-center">
                   <span
                     className="font-bold text-zinc-100 text-[13px] hover:text-blue-400 transition-colors cursor-pointer"
-                    onMouseEnter={e => { const rect = e.currentTarget.getBoundingClientRect(); setHovered({ ticker: g.ticker, rect }); tvOnEnter(); }}
-                    onMouseLeave={() => { setHovered(null); tvOnLeave(); }}
+                    onClick={e => { const rect = e.currentTarget.getBoundingClientRect(); setHovered(prev => prev?.ticker === g.ticker ? null : { ticker: g.ticker, rect }); }}
                   >
                     {g.ticker}
                   </span>
@@ -5243,24 +5571,24 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                   <div className="text-[11px] font-mono text-zinc-500">${g.price.toFixed(2)}</div>
                 </td>
                 {/* Premkt % */}
-                <td className="py-2 px-1.5 text-center">
+                <td className="py-1 px-2 align-middle text-center">
                   <div className="text-[12px] font-mono text-zinc-300">${g.price.toFixed(2)}</div>
                   <span className="text-[13px] font-bold font-mono text-emerald-400">+{g.gap_pct.toFixed(1)}%</span>
                 </td>
                 {/* Premkt Vol */}
-                <td className="py-2 px-1.5 text-center text-[12px] font-mono text-zinc-400">{fmtNum(g.pm_volume)}</td>
+                <td className="py-1 px-2 align-middle text-center text-[12px] font-mono text-zinc-400">{fmtNum(g.pm_volume)}</td>
                 {/* RVol */}
-                <td className="py-2 px-1.5 text-center">
+                <td className="py-1 px-2 align-middle text-center">
                   <span className={`text-[12px] font-bold font-mono ${g.rvol >= 5 ? "text-emerald-300" : g.rvol >= 3 ? "text-emerald-400" : g.rvol >= 2 ? "text-amber-400" : "text-zinc-500"}`}>
                     {g.rvol.toFixed(2)}x
                   </span>
                 </td>
                 {/* Daily % */}
-                <td className="py-2 px-1.5 text-center"><DailyChg val={g.daily_pct}/></td>
+                <td className="py-1 px-2 align-middle text-center"><DailyChg val={g.daily_pct}/></td>
                 {/* Short Int */}
-                <td className="py-2 px-1.5 text-center text-[12px] font-mono text-zinc-400">{g.short_float || "—"}</td>
+                <td className="py-1 px-2 align-middle text-center text-[12px] font-mono text-zinc-400">{g.short_float || "—"}</td>
                 {/* Float */}
-                <td className="py-2 px-1.5 text-center text-[12px] font-mono text-zinc-400">{g.float_shares || "—"}</td>
+                <td className="py-1 px-2 align-middle text-center text-[12px] font-mono text-zinc-400">{g.float_shares || "—"}</td>
                 {/* Sector / Industry */}
                 {(() => {
                   const db = tickerDb[g.ticker] || {};
@@ -5268,19 +5596,19 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                   const industry = db.industry || g.industry || "";
                   return (
                     <>
-                      <td className="py-2 px-1.5 text-center text-[11px] text-zinc-200 align-middle">{sector || <span className="text-zinc-600">—</span>}</td>
-                      <td className="py-2 px-1.5 text-center text-[11px] text-zinc-200 align-middle">{industry || <span className="text-zinc-600">—</span>}</td>
+                      <td className="py-1 px-2 align-middle text-center text-[11px] text-zinc-200">{sector || <span className="text-zinc-600">—</span>}</td>
+                      <td className="py-1 px-2 align-middle text-center text-[11px] text-zinc-200">{industry || <span className="text-zinc-600">—</span>}</td>
                     </>
                   );
                 })()}
                 {/* Category */}
-                <td className="py-2 px-1.5 text-center">
+                <td className="py-1 px-2 align-middle text-center">
                   <span className={`text-[11px] font-semibold px-1.5 py-0.5 rounded-full border ${CATEGORY_STYLE[g.category] || CATEGORY_STYLE["Others"]}`}>
                     {g.category}
                   </span>
                 </td>
                 {/* Grade + Technical Status + Verification */}
-                <td className="py-2 px-1 text-center">
+                <td className="py-1 px-2 align-middle text-center">
                   <div className="flex flex-col items-center gap-0.5">
                     <div className="flex items-center gap-1">
                       {g.grade
@@ -5308,24 +5636,30 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
                     )}
                   </div>
                 </td>
-                {/* Reasoning — shows analysis_detail with bold Catalyst/Impact */}
-                <td className="py-2 px-1.5 text-[12px] text-zinc-400 leading-relaxed align-middle whitespace-normal break-words">
-                  {g.analysis_detail ? (() => {
-                    const parts = g.analysis_detail.split(" | Impact: ");
-                    if (parts.length === 2) {
-                      const catalystText = parts[0].replace(/^Catalyst:\s*/i, "");
-                      return (
-                        <div className="space-y-1">
-                          <p><span className="font-bold text-zinc-300">Catalyst:</span> {catalystText}</p>
-                          <p><span className="font-bold text-zinc-300">Impact:</span> {parts[1]}</p>
-                        </div>
-                      );
-                    }
-                    return g.analysis_detail;
-                  })() : g.reasoning}
+                {/* Reasoning */}
+                <td className="py-1 px-2 align-middle">
+                  <span className="line-clamp-2 text-[11px] text-zinc-400 block">
+                    {g.reasoning || "—"}
+                  </span>
                 </td>
                 {/* Analysis Details */}
-                <td className="py-2 px-2 align-middle"><AnalysisCell text={g.analysis_details}/></td>
+                <td className="py-1 px-2 align-middle">
+                  {(() => {
+                    const d = g.analysis_detail;
+                    const catalyst = typeof d === "object"
+                      ? d?.catalyst
+                      : (typeof d === "string" ? d.split(" | Impact: ")[0].replace(/^Catalyst:\s*/i, "") : null);
+                    return (
+                      <div>
+                        <span className="line-clamp-1 text-[11px] text-zinc-300 block">{catalyst || "—"}</span>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); setModalData(g); }}
+                          className="text-[10px] text-blue-400 hover:text-blue-300 mt-0.5"
+                        >•••</button>
+                      </div>
+                    );
+                  })()}
+                </td>
               </tr>
               );
             })}
@@ -5339,7 +5673,82 @@ const GapperScanner = ({ earningsData, ibkrThemesData }) => {
       </div>
       <LeaderColumn ibkrThemesData={ibkrThemesData} gapperData={gapperData} mode="gapper" />
     </div>
-    {tvActive && hovered && <TVPopup ticker={hovered.ticker} anchorRect={hovered.rect}/>}
+    {hovered && <TVPopup ticker={hovered.ticker} anchorRect={hovered.rect} onClose={() => setHovered(null)}/>}
+    {modalData && (
+      <div
+        className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center"
+        onClick={() => { setModalData(null); setChartAnchorRect(null); }}
+      >
+        <div
+          className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 max-w-2xl w-full mx-4 shadow-2xl relative flex flex-col max-h-[85vh] overflow-y-auto"
+          onClick={e => e.stopPropagation()}
+        >
+          <button
+            onClick={() => { setModalData(null); setChartAnchorRect(null); }}
+            className="absolute top-3 right-3 text-zinc-400 hover:text-zinc-100 transition-colors"
+          >
+            <X size={16}/>
+          </button>
+          <div className="flex items-center gap-2 mb-5 flex-wrap">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                const rect = e.currentTarget.getBoundingClientRect();
+                setChartAnchorRect(rect);
+              }}
+              className="text-xl font-bold font-mono text-zinc-100 hover:text-blue-400 transition-colors"
+            >
+              {modalData.ticker} ↗
+            </button>
+            <span className={`text-[11px] font-semibold px-1.5 py-0.5 rounded-full border ${CATEGORY_STYLE[modalData.category] || CATEGORY_STYLE["Others"]}`}>
+              {modalData.category}
+            </span>
+            {modalData.grade && (
+              <span className={`text-[11px] font-bold px-1 py-0.5 rounded border ${gradeStyle(modalData.grade)}`}>
+                {modalData.grade}
+              </span>
+            )}
+          </div>
+          {(() => {
+            const d = modalData.analysis_detail;
+            let catalyst = null, impact = null;
+            if (d && typeof d === "object") {
+              catalyst = d.catalyst;
+              impact = d.impact;
+            } else if (typeof d === "string") {
+              const parts = d.split(" | Impact: ");
+              catalyst = parts[0]?.replace(/^Catalyst:\s*/i, "") || null;
+              impact = parts[1] || null;
+            }
+            catalyst = catalyst || modalData.category;
+            const hypothesis = [modalData.hypothesis, modalData.hypothesis_detail].filter(Boolean).join("\n\n") || null;
+            const sections = [
+              { label: "CATALYST",   value: catalyst },
+              { label: "IMPACT",     value: impact },
+              { label: "REASONING",  value: modalData.reasoning },
+              { label: "HYPOTHESIS", value: hypothesis },
+            ];
+            return (
+              <div className="space-y-4">
+                {sections.map(({ label, value }) => value ? (
+                  <div key={label}>
+                    <div className="text-[11px] uppercase text-zinc-500 mb-1 font-semibold tracking-wider">{label}</div>
+                    <p className="text-[13px] text-zinc-200 leading-relaxed whitespace-pre-line">{renderMarkdown(value)}</p>
+                  </div>
+                ) : null)}
+              </div>
+            );
+          })()}
+        </div>
+      </div>
+    )}
+    {chartAnchorRect && modalData && (
+      <TVPopup
+        ticker={modalData.ticker}
+        anchorRect={chartAnchorRect}
+        onClose={() => setChartAnchorRect(null)}
+      />
+    )}
     </>
   );
 };
@@ -6425,6 +6834,7 @@ const MomentumCockpit = () => {
   const [selectedTicker, setSelectedTicker] = useState(null);
   const [analysis, setAnalysis] = useState(null);
   const [analyzing, setAnalyzing] = useState(false);
+  const [modalData, setModalData] = useState(null);
 
   // Gapper data — poll every 5 min (matches scanner schedule)
   useEffect(() => {
@@ -6519,17 +6929,29 @@ const MomentumCockpit = () => {
     },
     {
       id: "reasoning", header: "Reasoning", accessorKey: "reasoning",
-      cell: ({ getValue }) => <span className="text-[11px] text-zinc-400 leading-tight line-clamp-2">{getValue() || "—"}</span>
+      cell: ({ getValue }) => (
+        <span className="text-[11px] text-zinc-400 line-clamp-2 leading-tight block max-w-[150px]">
+          {getValue() || "—"}
+        </span>
+      )
     },
     {
       id: "analysis", header: "Analysis Detail",
       cell: ({ row }) => {
         const d = row.original.analysis_detail;
-        if (!d) return <span className="text-zinc-600 text-[11px]">—</span>;
+        const text = d?.catalyst || d?.impact || "";
+        if (!text) return <span className="text-zinc-600 text-[10px]">—</span>;
         return (
-          <div className="text-[11px] leading-snug space-y-1">
-            {d.catalyst && <div className="text-zinc-300 line-clamp-2">{d.catalyst}</div>}
-            {d.impact && <div className="text-zinc-500 italic line-clamp-1">{d.impact}</div>}
+          <div className="flex flex-col gap-0.5">
+            <span className="text-[11px] text-zinc-300 line-clamp-1 leading-tight">
+              {text}
+            </span>
+            <button
+              onClick={(e) => { e.stopPropagation(); setModalData(row.original); }}
+              className="text-[10px] text-blue-400 hover:text-blue-300 self-start"
+            >
+              ••• more
+            </button>
           </div>
         );
       }
@@ -6574,14 +6996,14 @@ const MomentumCockpit = () => {
               const isSelected = selectedTicker === g.ticker;
               return (
                 <tr key={row.id}
-                  className={`border-b border-zinc-800/40 transition-colors cursor-pointer
+                  className={`border-b border-zinc-800/40 transition-colors cursor-pointer h-[56px]
                     ${isSelected ? "bg-blue-500/10" : "hover:bg-zinc-800/20"}
                     ${isFail ? "opacity-40" : ""}
                   `}
                   onClick={() => fetchAnalysis(g.ticker, g)}
                 >
                   {row.getVisibleCells().map(cell => (
-                    <td key={cell.id} className={`py-1.5 px-2 align-top ${cell.column.id === "analysis" ? "min-w-[280px]" : ""}`}>
+                    <td key={cell.id} className={`py-1 px-2 align-top max-h-[56px] overflow-hidden ${cell.column.id === "analysis" ? "min-w-[280px]" : ""}`}>
                       {flexRender(cell.column.columnDef.cell, cell.getContext())}
                     </td>
                   ))}
@@ -6973,11 +7395,12 @@ export default function App() {
         .then(r => r.ok ? r.json() : null)
         .catch(() => null);
 
+    const v = Date.now();
     Promise.all([
-      safeFetch("ibkr_themes.json"),
-      safeFetch("earnings_calendar.json"),
-      safeFetch("econ_calendar.json"),
-      safeFetch("market_internals.json"),
+      safeFetch(`ibkr_themes.json?v=${v}`),
+      safeFetch(`earnings_calendar.json?v=${v}`),
+      safeFetch(`econ_calendar.json?v=${v}`),
+      safeFetch(`market_internals.json?v=${v}`),
     ]).then(([ibkrThemes, earnings, econ, internals]) => {
       setIbkrThemesData(ibkrThemes);
       setEarningsData(earnings);
@@ -7301,13 +7724,14 @@ const filtered = useMemo(() => {
             if (!todayEvents.length) return null;
             return (
               <div className="hidden lg:flex items-center gap-1 text-[11px] font-mono py-0.5 border-t border-zinc-800/40 flex-wrap overflow-hidden">
-                <span className="text-zinc-600 font-semibold mr-1 whitespace-nowrap">ECON TODAY →</span>
+                <span className="text-amber-400 font-bold mr-1 whitespace-nowrap tracking-wide">ECON TODAY</span>
+                <span className="text-zinc-600 mr-1">→</span>
                 {todayEvents.map((ev, idx) => (
                   <React.Fragment key={idx}>
                     <span className="flex items-center gap-1 whitespace-nowrap">
-                      {ev.time && <span className="text-zinc-600">{ev.time}</span>}
-                      <span className="text-zinc-400">{ev.event || ev.name}</span>
-                      {ev.estimate != null && <span className="text-zinc-600">Est {ev.estimate}</span>}
+                      {ev.time && <span className="text-zinc-500">{ev.time}</span>}
+                      <span className="text-zinc-300">{(ev.event || ev.name || '').replace(/\s+Index$/i, '')}</span>
+                      {ev.estimate != null && <span className="text-zinc-500">Est {ev.estimate}</span>}
                     </span>
                     {idx < todayEvents.length - 1 && <Sep/>}
                   </React.Fragment>
@@ -7404,26 +7828,28 @@ const filtered = useMemo(() => {
         </div>
       </div>
 
-      {tab === "journal" ? <TradeJournalTab data={data}/> : tab === "news" ? <CalendarTab econData={econData} earningsData={earningsData}/> : tab === "breadth" ? <MarketBreadthTab data={data} internalsData={internalsData} econData={econData}/> : tab === "gapper" ? <GapperScanner finvizThemeRankings={data?.finviz_theme_rankings || []} themeRankings={data?.theme_rankings || []} earningsData={earningsData} ibkrThemesData={ibkrThemesData}/> : (
+      {tab === "journal" ? <TradeJournalTab data={data}/> : tab === "news" ? <CalendarTab econData={econData} earningsData={earningsData} thematicData={data}/> : tab === "breadth" ? <MarketBreadthTab data={data} internalsData={internalsData} econData={econData}/> : tab === "gapper" ? <GapperScanner finvizThemeRankings={data?.finviz_theme_rankings || []} themeRankings={data?.theme_rankings || []} earningsData={earningsData} ibkrThemesData={ibkrThemesData}/> : (
         <>
         <div className="max-w-[1560px] mx-auto px-4 pt-2 pb-4 flex items-start gap-3">
           {/* ── LEFT SIDEBAR ─────────────────────────────────────── */}
           <aside className="w-[260px] flex-shrink-0 flex flex-col gap-3">
-            <VixFearGaugeV2 vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix}/>
-            <MarketInternalsV2 mc={data?.market_condition} internalsData={internalsData}/>
+            <VixFearGaugeV2 vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix} generatedAt={data?.generated_at}/>
+            <MarketInternalsV2 mc={data?.market_condition} internalsData={internalsData} generatedAt={data?.generated_at}/>
             <PositionCalc ibkrThemesData={ibkrData} thematicData={data}/>
             <AlertRulesCard/>
           </aside>
 
           {/* ── CENTER MAIN CONTENT ──────────────────────────────── */}
           <main className="flex-1 min-w-0 flex flex-col gap-3">
-            <ThemeHeatmap themes={data?.themes} heatmapThemes={data?.heatmap_themes} finvizThemeRankings={data?.finviz_theme_rankings}/>
+            <ThemeHeatmap themes={data?.themes} heatmapThemes={data?.heatmap_themes} finvizThemeRankings={data?.finviz_theme_rankings} generatedAt={data?.generated_at}/>
             {data && <Leaderboard
               themeRankings={data.theme_rankings}
               industryRankings={data.industry_rankings}
               finvizThemeRankings={data.finviz_theme_rankings}
               themes={data.themes}
+              spyBenchmarks={data.spy_benchmarks}
               ibkrThemesData={ibkrThemesData}
+              generatedAt={data.generated_at}
               onViewChange={v => { setLbView(v); setSpotlightThemeName(null); }}
               onThemeSelect={name => setSpotlightThemeName(name)}
             />}
