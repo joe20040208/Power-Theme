@@ -593,11 +593,11 @@ function formatSubthemeName(name) {
 }
 
 const PerfCellLB = ({ val }) => {
-  if (val == null) return <td className="px-1 py-1.5 text-center text-[11px] text-zinc-600">—</td>;
+  if (val == null) return <td className="px-1 py-1.5 align-middle text-center text-[11px] text-zinc-600">—</td>;
   const color = val > 0 ? 'text-emerald-400' : val < 0 ? 'text-red-400' : 'text-zinc-400';
   const bg = val > 5 ? 'bg-emerald-500/10' : val < -5 ? 'bg-red-500/10' : '';
   return (
-    <td className="px-1 py-1.5 text-center">
+    <td className="px-1 py-1.5 align-middle text-center">
       <span className={`inline-block rounded-md px-1 py-0.5 text-[11px] font-mono font-medium ${color} ${bg}`}>{val > 0 ? '+' : ''}{val.toFixed(1)}%</span>
     </td>
   );
@@ -1203,12 +1203,12 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                     if (isIndustryView) { setExpanded(isExpanded ? null : t.name); return; }
                     onThemeSelect && onThemeSelect(t.name);
                   }}
-                  className={`border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
-                  <td className={`px-1 py-2 text-[12px] font-bold font-mono whitespace-nowrap ${i === 0 ? 'text-blue-400' : 'text-zinc-600'}`}>{i + 1}</td>
-                  <td className="px-2 py-2">
-                    <div className="flex items-center gap-1.5">
+                  className={`h-14 border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
+                  <td className={`px-1 py-2 align-middle text-[12px] font-bold font-mono whitespace-nowrap ${i === 0 ? 'text-blue-400' : 'text-zinc-600'}`}>{i + 1}</td>
+                  <td className="px-2 py-2 align-middle min-w-0">
+                    <div className="flex items-center gap-1.5 flex-nowrap min-w-0">
                       <span
-                        className="text-[12px] font-semibold text-zinc-200 hover:text-blue-400 transition-colors cursor-pointer"
+                        className="text-[12px] font-semibold text-zinc-200 hover:text-blue-400 transition-colors cursor-pointer truncate"
                         onClick={e => {
                           e.stopPropagation();
                           const row = e.currentTarget.closest('tr');
@@ -1238,39 +1238,46 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                           onThemeSelect && onThemeSelect(t.name);
                         }}
                       >{t.name}</span>
-                      {t.stage2_momentum && <span className="px-1.5 py-0.5 text-[11px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full leading-none">STAGE 2</span>}
+                      {t.stage2_momentum && <span className="px-1 py-0.5 text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full leading-none flex-shrink-0 whitespace-nowrap">STAGE 2</span>}
                       {t.n_industries && <span className="text-[11px] text-zinc-600">{t.n_industries} ind</span>}
                     </div>
                   </td>
                   {view === "themes" && (
                     <>
-                      <td className="px-2 py-1.5 min-w-[120px]">
-                        <div className="text-[11px] text-zinc-400 leading-tight flex flex-wrap gap-x-1 gap-y-0.5">
+                      <td className="px-2 py-1.5 align-middle max-w-[200px] overflow-hidden">
+                        <div className="text-[11px] text-zinc-400 leading-tight flex items-center gap-x-1 flex-nowrap overflow-hidden">
                           {subThemeNames.length === 0
                             ? <span className="text-zinc-600">—</span>
-                            : subThemeNames.map((sn, si) => {
-                                const matchedTheme = themes.find(th => (th.name || '').toLowerCase() === (t.name || '').toLowerCase());
-                                const subObj = matchedTheme?.subthemes?.find(s => s.name === sn);
-                                return (
-                                  <React.Fragment key={sn}>
-                                    {si > 0 && <span className="text-zinc-700">·</span>}
-                                    <button
-                                      className="hover:text-blue-400 hover:underline transition-colors cursor-pointer"
-                                      onClick={e => {
-                                        e.stopPropagation();
-                                        if (subObj) setSubThemeModal({ subthemeName: sn, stocks: subObj.stocks || [] });
-                                      }}
-                                    >{sn}</button>
-                                  </React.Fragment>
-                                );
-                              })
+                            : (() => {
+                                const visible = subThemeNames.slice(0, 2);
+                                const extra = subThemeNames.length - 2;
+                                const matchedThemeInner = themes.find(th => (th.name || '').toLowerCase() === (t.name || '').toLowerCase());
+                                return (<>
+                                  {visible.map((sn, si) => {
+                                    const subObj = matchedThemeInner?.subthemes?.find(s => s.name === sn);
+                                    return (
+                                      <React.Fragment key={sn}>
+                                        {si > 0 && <span className="text-zinc-700 flex-shrink-0">·</span>}
+                                        <button
+                                          className="hover:text-blue-400 hover:underline transition-colors cursor-pointer whitespace-nowrap truncate"
+                                          onClick={e => {
+                                            e.stopPropagation();
+                                            if (subObj) setSubThemeModal({ subthemeName: sn, stocks: subObj.stocks || [] });
+                                          }}
+                                        >{sn}</button>
+                                      </React.Fragment>
+                                    );
+                                  })}
+                                  {extra > 0 && <span className="text-zinc-600 flex-shrink-0 whitespace-nowrap">+{extra}</span>}
+                                </>);
+                              })()
                           }
                         </div>
                       </td>
-                      <td className="px-2 py-1.5">
-                        <div className="flex flex-wrap gap-1">
+                      <td className="px-2 py-1.5 align-middle">
+                        <div className="flex flex-nowrap gap-1">
                           {leaderTickers.map(l => (
-                            <span key={l.ticker} className={`text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded border ${l.setupCls}`}>{l.ticker}</span>
+                            <span key={l.ticker} className={`text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded border whitespace-nowrap ${l.setupCls}`}>{l.ticker}</span>
                           ))}
                           {leaderTickers.length === 0 && <span className="text-zinc-600 text-[11px]">—</span>}
                         </div>
@@ -1286,10 +1293,10 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                     const display = rsVal == null ? '—'
                       : rsMode === '52w' ? rsVal
                       : (rsVal > 0 ? `+${rsVal}` : `${rsVal}`);
-                    return <td className={`px-1 py-1.5 text-center text-[11px] font-mono font-bold ${cls}`}>{display}</td>;
+                    return <td className={`px-1 py-1.5 align-middle text-center text-[11px] font-mono font-bold ${cls}`}>{display}</td>;
                   })()}
                   {view === "themes" && (
-                    <td className="px-1 py-1.5 text-center">
+                    <td className="px-1 py-1.5 align-middle text-center">
                       <IbkrSourceBadge source={hasIbkrSource ? 'ibkr' : 'fallback'} />
                     </td>
                   )}
