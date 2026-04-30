@@ -2,11 +2,11 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "React Dev Server",
+      "name": "React Dev Server charming",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["start"],
-      "port": 3001,
-      "env": { "PORT": "3001", "BROWSER": "none" }
+      "port": 3002,
+      "env": { "PORT": "3002", "BROWSER": "none" }
     }
   ]
 }
