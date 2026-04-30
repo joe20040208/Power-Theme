@@ -531,6 +531,56 @@ const CorrelationGuard = ({ themes }) => {
   );
 };
 
+const MarketWarnings = ({ themes }) => {
+  const counterTrend = useMemo(() => {
+    const themeAvg = (t, key) => {
+      const norm = t.subthemes ? t : { ...t, subthemes: [{ name: t.name, stocks: t.stocks || [] }] };
+      const vals = norm.subthemes.flatMap(s => s.stocks).map(s => s[key]).filter(v => v != null);
+      return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+    };
+    const ranked1d = [...themes]
+      .map(t => ({ name: (t.subthemes ? t : { ...t, subthemes: [] }).name, avg1d: themeAvg(t, "perf_1d"), avg6m: themeAvg(t, "perf_6m") }))
+      .filter(t => t.avg1d != null && t.avg6m != null)
+      .sort((a, b) => b.avg1d - a.avg1d);
+    return ranked1d.find((t, i) => i === 0 && t.avg6m <= -15) ?? null;
+  }, [themes]);
+
+  const correlation = useMemo(() => {
+    const top5 = themes.slice(0, 5);
+    const tr = top5.map(t => ({ name: (t.subthemes ? t : { ...t, subthemes: [{ name: t.name, stocks: t.stocks || [] }] }).name, returns: getThemeDailyReturns(t) })).filter(t => t.returns.length >= 3);
+    for (let i = 0; i < tr.length; i++)
+      for (let j = i + 1; j < tr.length; j++)
+        for (let k = j + 1; k < tr.length; k++) {
+          const len = Math.min(tr[i].returns.length, tr[j].returns.length, tr[k].returns.length);
+          if (pearson(tr[i].returns.slice(-len), tr[j].returns.slice(-len)) > 0.80 &&
+              pearson(tr[i].returns.slice(-len), tr[k].returns.slice(-len)) > 0.80 &&
+              pearson(tr[j].returns.slice(-len), tr[k].returns.slice(-len)) > 0.80)
+            return [tr[i].name, tr[j].name, tr[k].name];
+        }
+    return null;
+  }, [themes]);
+
+  if (!counterTrend && !correlation) return null;
+  return (
+    <div className="flex flex-wrap items-center gap-2 mb-1">
+      {correlation && (
+        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-orange-500/10 border border-orange-500/30 rounded-full text-[11px] text-orange-400">
+          <AlertTriangle size={10} className="flex-shrink-0"/>
+          <span className="font-semibold">Concentration:</span>
+          <span className="text-orange-300/80">{correlation.join(' · ')}</span>
+        </span>
+      )}
+      {counterTrend && (
+        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-rose-500/10 border border-rose-500/30 rounded-full text-[11px] text-rose-400">
+          <AlertTriangle size={10} className="flex-shrink-0"/>
+          <span className="font-semibold">Dead-Cat:</span>
+          <span className="text-rose-300/80">{counterTrend.name} ({counterTrend.avg6m?.toFixed(1)}% 6M)</span>
+        </span>
+      )}
+    </div>
+  );
+};
+
 function normalizeThemeRaw(t) {
   if (t.subthemes) return t;
   return { ...t, subthemes: [{ name: t.name, stocks: t.stocks || [] }] };
@@ -693,119 +743,6 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
         <div className="text-center py-6 text-zinc-600 text-[12px]">No stocks found for this theme</div>
       )}
       {hovered && <TVPopup ticker={hovered.ticker} anchorRect={hovered.rect} onClose={() => setHovered(null)}/>}
-    </div>
-  );
-};
-
-const IbkrLeaderboard = ({ ibkrThemesData, onTickerHover, onThemeSelect }) => {
-  const powerThemes = ibkrThemesData?.power_themes || [];
-  const isLive = ibkrThemesData?.data_source === 'ibkr';
-
-  if (!ibkrThemesData) {
-    return (
-      <div className="flex items-center justify-center py-12 text-zinc-600 text-[12px]">
-        IBKR themes not yet generated — run ibkr_themes.py
-      </div>
-    );
-  }
-
-  if (powerThemes.length === 0) {
-    return (
-      <div className="flex items-center justify-center py-12 text-zinc-600 text-[12px]">
-        No power themes found in current scan
-      </div>
-    );
-  }
-
-  return (
-    <div>
-      {/* Data source status bar */}
-      <div className="flex items-center gap-2 px-2 pb-2 border-b border-zinc-800/40 mb-1">
-        <span className={`px-2 py-0.5 text-[10px] font-bold rounded-full border font-mono ${isLive ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/40' : 'bg-orange-500/15 text-orange-400 border-orange-500/40'}`}>
-          {isLive ? '● LIVE' : '◐ DELAYED'}
-        </span>
-        <span className="text-[10px] text-zinc-600">{ibkrThemesData.data_source} · {powerThemes.length} themes · {powerThemes.reduce((n, t) => n + t.leaders.length, 0)} leaders</span>
-        {ibkrThemesData.generated_at && (
-          <span className="text-[10px] text-zinc-700 ml-auto">
-            {new Date(ibkrThemesData.generated_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-          </span>
-        )}
-      </div>
-      <table className="w-full text-left">
-        <thead style={{ position: 'sticky', top: 0, zIndex: 1, background: '#18181b' }}>
-          <tr className="border-b border-zinc-800/60">
-            <th className="px-2 py-2 w-6 text-[11px] text-zinc-600 select-none">#</th>
-            <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Theme</th>
-            <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-center whitespace-nowrap">Leaders</th>
-            <th className="px-2 py-2 w-14 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-center">1D</th>
-            <th className="px-2 py-2 w-14 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-center">RS</th>
-            <th className="px-2 py-2 w-16 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-center">Gates</th>
-            <th className="px-2 py-2 w-16 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider text-center">Src</th>
-          </tr>
-        </thead>
-        <tbody>
-          {powerThemes.map((theme, i) => {
-            const perf1d = theme.perf_1d;
-            const perfCls = perf1d == null ? 'text-zinc-600' : perf1d > 0 ? 'text-emerald-400' : perf1d < 0 ? 'text-red-400' : 'text-zinc-500';
-            const rsCls = (theme.theme_rs || 0) >= 85 ? 'text-emerald-400' : 'text-red-400';
-            const leaders = theme.leaders || [];
-            const topLeaders = leaders.slice(0, 3);
-            // Gates: use the min gates_passed among leaders as the theme-level indicator
-            const minGates = topLeaders.reduce((m, l) => Math.min(m, l.gates_passed ?? 5), 5);
-            // Secondary themes: collect unique secondary themes across top leaders
-            const secThemes = [...new Set(topLeaders.flatMap(l => l.secondary_themes || []))].slice(0, 3);
-            // Source: theme-level is live/fallback from ibkrThemesData
-            const themeSource = ibkrThemesData?.data_source || 'fallback';
-
-            return (
-              <tr key={theme.name}
-                onClick={() => onThemeSelect && onThemeSelect(theme.name)}
-                className={`border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
-                <td className={`px-1 py-2 text-[12px] font-bold font-mono whitespace-nowrap ${i === 0 ? 'text-blue-400' : 'text-zinc-600'}`}>{i + 1}</td>
-                <td className="px-2 py-2 min-w-0">
-                  <div className="text-[12px] font-semibold text-zinc-200 whitespace-nowrap">{theme.name}</div>
-                  {secThemes.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mt-0.5">
-                      {secThemes.map(s => (
-                        <span key={s} className="text-[9px] text-zinc-600 bg-zinc-800/60 px-1 py-0.5 rounded leading-none">{s}</span>
-                      ))}
-                    </div>
-                  )}
-                </td>
-                <td className="px-2 py-1.5">
-                  <div className="flex flex-wrap gap-1">
-                    {topLeaders.map(l => {
-                      const setupCls = l.setup_label === 'Flag' ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20'
-                                     : l.setup_label === 'Base' ? 'text-blue-400 bg-blue-500/10 border-blue-500/20'
-                                     : l.setup_label === 'Watch' ? 'text-yellow-400 bg-yellow-500/10 border-yellow-500/20'
-                                     : 'text-zinc-500 bg-zinc-800/60 border-zinc-700/40';
-                      return (
-                        <span key={l.ticker}
-                          className={`text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded border cursor-pointer transition-colors hover:opacity-80 ${setupCls}`}
-                          onClick={e => onTickerHover && onTickerHover(l.ticker, e.currentTarget.getBoundingClientRect())}>
-                          {l.ticker}
-                        </span>
-                      );
-                    })}
-                  </div>
-                </td>
-                <td className={`px-1 py-1.5 text-center text-[11px] font-mono font-bold ${perfCls}`}>
-                  {perf1d != null ? `${perf1d > 0 ? '+' : ''}${perf1d.toFixed(1)}%` : '—'}
-                </td>
-                <td className={`px-1 py-1.5 text-center text-[11px] font-mono font-bold ${rsCls}`}>
-                  {theme.theme_rs != null ? Math.round(theme.theme_rs) : '—'}
-                </td>
-                <td className="px-1 py-1.5 text-center">
-                  <IbkrGatesBadge passed={minGates} />
-                </td>
-                <td className="px-1 py-1.5 text-center">
-                  <IbkrSourceBadge source={themeSource} />
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
     </div>
   );
 };
@@ -1191,27 +1128,15 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
         )}
         <div className="flex-1"></div>
         <div className="flex bg-zinc-800/60 rounded-lg p-0.5 border border-zinc-700/40 flex-shrink-0">
-          {[{k:"themes",l:"Themes Map"},{k:"industry",l:"Industry"},{k:"ibkr",l:"IBKR Power"}].map(v => (
+          {[{k:"themes",l:"Themes Map"},{k:"industry",l:"Industry"}].map(v => (
             <button key={v.k} onClick={() => { setView(v.k); setExpanded(null); onViewChange && onViewChange(v.k); }}
               className={`px-2.5 py-1 text-[11px] font-medium rounded-md transition-all flex items-center gap-1 ${view === v.k ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30' : 'text-zinc-500 hover:text-zinc-300 border border-transparent'}`}>
               {v.l}
-              {v.k === "ibkr" && (
-                ibkrThemesData?.data_source === "ibkr"
-                  ? <span className="px-1 py-0.5 text-[9px] font-bold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 leading-none">LIVE</span>
-                  : <span className="px-1 py-0.5 text-[9px] font-bold rounded bg-orange-500/20 text-orange-400 border border-orange-500/30 leading-none">DELAYED</span>
-              )}
             </button>
           ))}
         </div>
       </div>
       <div className="overflow-y-auto overflow-x-auto" style={{ maxHeight: '497px' }}>
-        {view === "ibkr" ? (
-          <IbkrLeaderboard
-            ibkrThemesData={ibkrThemesData}
-            onTickerHover={(ticker, rect) => setThemeHover(prev => prev?.ticker === ticker ? null : { ticker, rect })}
-            onThemeSelect={onThemeSelect}
-          />
-        ) : (
         <table className="w-full text-left">
           <thead style={{ position: 'sticky', top: 0, zIndex: 1, background: '#18181b' }}>
             <tr className="border-b border-zinc-800/60">
@@ -1383,7 +1308,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
             })}
           </tbody>
         </table>
-        )}
       </div>
     </div>
     {themeHover && <TVPopup ticker={themeHover.ticker} anchorRect={themeHover.rect} onClose={() => { setThemeHover(null); setThemeStats(null); }}/>}
@@ -2149,118 +2073,6 @@ const VIX_ZONES = [
   { name: "Extreme Panic",       range: "VIX 30+",   color: "#ff1744", vMin: 30, vMax: 40, aStart: 45,  aEnd: 0,   label: ["EXTREME","PANIC"],         impact: "Maximum fear. While painful initially, extreme VIX spikes are historically the best entry points for massive SPX rallies." },
 ];
 
-const VixGauge = ({ initialVix }) => {
-  const vix = initialVix ?? 18;
-
-  const VMAX = 40;
-  const zoneOf = v => VIX_ZONES.find(z => v >= z.vMin && v < z.vMax) ?? VIX_ZONES[VIX_ZONES.length - 1];
-  const active = zoneOf(vix);
-  const expectedMovePct = vix / 16;
-  const arrowPct = Math.min(Math.max(vix, 0), VMAX) / VMAX * 100;
-
-  /* Glow color for ambient effect */
-  const glowRgb = active.color === '#00e676' ? '0,230,118'
-    : active.color === '#ffee58' ? '255,238,88'
-    : active.color === '#ff9100' ? '255,145,0'
-    : '255,23,68';
-
-  return (
-    <div className="px-5 pt-3 pb-4 rounded-2xl h-[240px] flex flex-col relative overflow-hidden"
-      style={{
-        background: 'linear-gradient(145deg, #141414 0%, #0f0f0f 100%)',
-        border: `1px solid rgba(${glowRgb},0.18)`,
-        boxShadow: `0 0 32px rgba(${glowRgb},0.07), inset 0 1px 0 rgba(255,255,255,0.04)`,
-      }}>
-
-      {/* Ambient glow blob */}
-      <div className="absolute -top-8 -right-8 w-32 h-32 rounded-full pointer-events-none"
-        style={{ background: `radial-gradient(circle, rgba(${glowRgb},0.12) 0%, transparent 70%)` }} />
-
-      {/* Header */}
-      <div className="flex items-center justify-between mb-2 relative z-10">
-        <span className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.18em]">VIX Fear Gauge</span>
-        <span className="text-[9px] text-zinc-700 border border-zinc-800/80 rounded-md px-1.5 py-0.5 font-mono tracking-wider">CBOE · SPX</span>
-      </div>
-
-      {/* VIX number + badge */}
-      <div className="flex items-end gap-3 mb-2 relative z-10">
-        <div>
-          <span className="text-[32px] font-black font-mono tabular-nums leading-none"
-            style={{
-              color: active.color,
-              textShadow: `0 0 24px rgba(${glowRgb},0.55), 0 0 8px rgba(${glowRgb},0.3)`,
-              letterSpacing: '-0.02em',
-            }}>
-            {vix.toFixed(1)}
-          </span>
-        </div>
-        <div className="mb-1.5 flex flex-col gap-0.5">
-          <span className="text-[9px] font-bold uppercase tracking-[0.15em] leading-none"
-            style={{ color: active.color, opacity: 0.6 }}>VIX Index</span>
-          <span className="text-[11px] font-extrabold uppercase tracking-wider leading-tight"
-            style={{ color: active.color }}>{active.name}</span>
-        </div>
-      </div>
-
-      {/* Gradient bar section */}
-      <div className="relative mt-3 mb-1 z-10">
-        {/* Arrow marker */}
-        <div className="relative h-3 mb-1">
-          <div className="absolute transition-all duration-500" style={{ left: `calc(${arrowPct}% - 6px)` }}>
-            <svg width="12" height="9" viewBox="0 0 12 9">
-              <defs>
-                <filter id="arrow-glow">
-                  <feGaussianBlur stdDeviation="1.5" result="blur"/>
-                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-                </filter>
-              </defs>
-              <polygon points="6,9 0,0 12,0" fill={active.color} filter="url(#arrow-glow)" />
-            </svg>
-          </div>
-        </div>
-
-        {/* Bar with inner shadow and segment dividers */}
-        <div className="relative h-2.5 rounded-full overflow-hidden"
-          style={{
-            background: 'linear-gradient(to right, #00e676 0%, #39e07a 30%, #ffee58 30%, #ffd600 50%, #ff9100 50%, #ff6d00 75%, #ff1744 75%, #d50000 100%)',
-            boxShadow: 'inset 0 1px 3px rgba(0,0,0,0.5), inset 0 -1px 0 rgba(255,255,255,0.06)',
-          }}>
-          {/* Segment dividers */}
-          {[30, 50, 75].map(p => (
-            <div key={p} className="absolute top-0 bottom-0 w-px"
-              style={{ left: `${p}%`, background: 'rgba(0,0,0,0.4)' }} />
-          ))}
-          {/* Gloss overlay */}
-          <div className="absolute inset-0 rounded-full"
-            style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.12) 0%, transparent 60%)' }} />
-        </div>
-
-        {/* Tick labels */}
-        <div className="flex mt-1">
-          {VIX_ZONES.map((z, i) => (
-            <div key={i} className="flex-shrink-0 text-[9px] font-mono text-zinc-700"
-              style={{ width: `${(z.vMax - z.vMin) / VMAX * 100}%` }}>
-              {z.vMin}
-            </div>
-          ))}
-          <span className="text-[9px] font-mono text-zinc-700">40</span>
-        </div>
-      </div>
-
-      {/* Expected move + description */}
-      <div className="mt-2 pt-2 border-t z-10 relative" style={{ borderColor: `rgba(${glowRgb},0.12)` }}>
-        <div className="flex items-center gap-2 mb-0.5">
-          <span className="text-[9px] font-bold text-zinc-600 uppercase tracking-[0.14em]">Expected Move</span>
-          <span className="text-[9px] text-zinc-700 font-mono">$SPX</span>
-          <span className="text-[13px] font-extrabold font-mono tabular-nums ml-auto"
-            style={{ color: active.color }}>±{expectedMovePct.toFixed(2)}%</span>
-        </div>
-        <p className="text-[10px] leading-relaxed text-zinc-600">{active.impact}</p>
-      </div>
-
-    </div>
-  );
-};
 
 /* ──────────────────────────────────────────────── POSITION CALCULATOR ── */
 const PositionCalc = ({ ibkrThemesData, thematicData }) => {
@@ -2893,45 +2705,6 @@ const AlertRulesCard = () => (
   </div>
 );
 
-const LeadersAllThemesCard = ({ themes }) => {
-  const all = (themes || []).flatMap(t => (t.subthemes || []).flatMap(s => s.stocks || []));
-  const seen = new Set();
-  const dedup = [];
-  for (const s of all) { if (!seen.has(s.ticker)) { seen.add(s.ticker); dedup.push(s); } }
-  const filtered = dedup
-    .filter(s => (s.rs_52w ?? 0) >= 85 && (s.price ?? 0) >= 12 && (s.adr_pct ?? 0) >= 4)
-    .sort((a, b) => (b.rs_52w ?? 0) - (a.rs_52w ?? 0))
-    .slice(0, 12);
-  return (
-    <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-      <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1">Leaders — All Themes</div>
-      <div className="text-[9px] text-zinc-600 mb-2 leading-tight">RS&gt;85 · Price&gt;$12 · Vol&gt;$100M · Cap&gt;$2B · ADR≥4%</div>
-      {filtered.length === 0 ? (
-        <div className="text-[10px] text-zinc-600 italic">No qualifiers</div>
-      ) : (
-        <div className="space-y-0.5">
-          <div className="flex items-center justify-between text-[9px] text-zinc-600 pb-0.5 mb-0.5 border-b border-zinc-800/60">
-            <span>Ticker · Price · Chg</span>
-            <span>RS</span>
-          </div>
-          {filtered.map(s => {
-            const chg = s.change_pct ?? s.perf_1d ?? null;
-            return (
-              <div key={s.ticker} className="flex items-center justify-between text-[12px] py-1 border-b border-zinc-800/40 last:border-0">
-                <div className="flex items-center gap-1.5 min-w-0">
-                  <span className="font-bold text-blue-400 font-mono">{s.ticker}</span>
-                  {s.price != null && <span className="text-[9px] font-mono text-zinc-500">${s.price.toFixed(2)}</span>}
-                  {chg != null && <span className={`text-[9px] font-mono font-bold ${chg >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>{chg >= 0 ? '+' : ''}{chg.toFixed(1)}%</span>}
-                </div>
-                <span className="font-mono text-emerald-400 font-semibold">{s.rs_52w}</span>
-              </div>
-            );
-          })}
-        </div>
-      )}
-    </div>
-  );
-};
 
 const ActiveAlertsCardV2 = () => (
   <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
@@ -7853,14 +7626,12 @@ const filtered = useMemo(() => {
               onViewChange={v => { setLbView(v); setSpotlightThemeName(null); }}
               onThemeSelect={name => setSpotlightThemeName(name)}
             />}
-            {data && <CorrelationGuard themes={data.themes}/>}
-            {data && <CounterTrendWarning themes={data.themes}/>}
+            {data && <MarketWarnings themes={data.themes}/>}
             <ThematicSpotlight lbView={lbView} spotlightThemeName={spotlightThemeName} data={data} ibkrThemesData={ibkrThemesData}/>
           </main>
 
           {/* ── RIGHT SIDEBAR ────────────────────────────────────── */}
           <aside className="w-[200px] flex-shrink-0 flex flex-col gap-3">
-            <LeadersAllThemesCard themes={data?.themes}/>
             <ActiveAlertsCardV2/>
             <IBKRTWSScannerCard ibkrData={ibkrData}/>
             <DataSourcesCard ibkrData={ibkrData}/>
