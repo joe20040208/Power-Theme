@@ -790,26 +790,9 @@ const HeroZone = ({ data, briefData, themesCount, tickersCount }) => {
     return stocks.sort((a, b) => (b.rs_52w || 0) - (a.rs_52w || 0)).slice(0, 3);
   }, [data]);
 
-  // Column 3: top 5 themes by 1D perf
-  const themeRows = useMemo(() => {
-    const rankings = data?.finviz_theme_rankings || [];
-    const source = rankings.length > 0
-      ? rankings.map(r => ({ name: r.name, perf_1d: r.perf_1d }))
-      : (data?.themes || []).map(t => {
-          const norm = t.subthemes ? t : { ...t, subthemes: [{ stocks: t.stocks || [] }] };
-          const stocks = norm.subthemes.flatMap(s => s.stocks);
-          const vals = stocks.map(s => s.perf_1d).filter(v => v != null);
-          return { name: norm.name, perf_1d: vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null };
-        });
-    return source.filter(r => r.perf_1d != null)
-      .sort((a, b) => (b.perf_1d || 0) - (a.perf_1d || 0))
-      .slice(0, 5);
-  }, [data]);
-
-  const maxPerf = Math.max(...themeRows.map(r => Math.abs(r.perf_1d || 0)), 1);
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px', padding: '10px 0 0' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', padding: '10px 0 0' }}>
       {/* ── Col 1: Market Signal + AI Pulse ── */}
       <div style={{
         background: signalCfg.cardBg,
@@ -857,25 +840,6 @@ const HeroZone = ({ data, briefData, themesCount, tickersCount }) => {
         })}
       </div>
 
-      {/* ── Col 3: Top 5 Themes Today ── */}
-      <div className="bg-zinc-900/60 border border-zinc-700/40 rounded-lg p-3 flex flex-col" style={{ gap: '5px' }}>
-        <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-wider mb-0.5">Top 5 Themes Today</div>
-        {themeRows.length === 0 && <span className="text-[11px] text-zinc-600 italic">No data loaded</span>}
-        {themeRows.map(r => (
-          <div key={r.name} className="flex items-center gap-2">
-            <span className="text-[11px] text-zinc-400 truncate flex-1 min-w-0">{r.name}</span>
-            <div className="w-14 h-1.5 bg-zinc-800 rounded-full overflow-hidden flex-shrink-0">
-              <div
-                className={`h-full rounded-full ${(r.perf_1d || 0) >= 0 ? 'bg-emerald-500' : 'bg-red-500'}`}
-                style={{ width: `${Math.min(100, Math.abs(r.perf_1d || 0) / maxPerf * 100)}%` }}
-              />
-            </div>
-            <span className={`text-[11px] font-mono font-medium w-10 text-right flex-shrink-0 ${(r.perf_1d || 0) >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
-              {(r.perf_1d || 0) >= 0 ? '+' : ''}{(r.perf_1d || 0).toFixed(1)}%
-            </span>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
@@ -1135,16 +1099,14 @@ const RS_MODES = [
   { key: '52w', label: '52W', perfKey: 'rs_52w',   spyKey: null       },
 ];
 
-const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, themes = [], themeSparklines = {}, ibkrThemesData, spyBenchmarks, generatedAt, onViewChange, onThemeSelect }) => {
+const Leaderboard = ({ finvizThemeRankings, themes = [], ibkrThemesData, spyBenchmarks, generatedAt, onThemeSelect }) => {
   const [sortPriority, setSortPriority] = useState([{ key: 'rs_score', direction: 'desc' }]);
-  const [expanded, setExpanded] = useState(null);
-  const [view, setView] = useState("themes"); // "themes" (Finviz map) or "industry"
   const [themeHover, setThemeHover] = useState(null); // { ticker, rect }
   const [themeStats, setThemeStats] = useState(null); // { themeName, anchorRect }
   const [subThemeModal, setSubThemeModal] = useState(null); // { subthemeName, stocks }
   const [rsMode, setRsMode] = useState('52w');
 
-  const activeData = view === "themes" ? finvizThemeRankings : themeRankings;
+  const activeData = finvizThemeRankings;
 
   const handleLBSort = (key, isShift) => {
     if (isShift) {
@@ -1208,23 +1170,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
   }, [activeData, sortPriority, themeAvgRS]);
 
 
-  const industryMap = useMemo(() => {
-    if (!industryRankings) return {};
-    const m = {};
-    for (const ind of industryRankings) {
-      const p = ind.parent_theme;
-      if (!m[p]) m[p] = [];
-      m[p].push(ind);
-    }
-    for (const k of Object.keys(m)) {
-      m[k].sort((a, b) => {
-        const sa = (a.perf_1w||0)*0.2 + (a.perf_1m||0)*0.3 + (a.perf_3m||0)*0.3 + (a.perf_6m||0)*0.2;
-        const sb = (b.perf_1w||0)*0.2 + (b.perf_1m||0)*0.3 + (b.perf_3m||0)*0.3 + (b.perf_6m||0)*0.2;
-        return sb - sa;
-      });
-    }
-    return m;
-  }, [industryRankings]);
 
   const LBSortHeader = ({ k, label, w }) => {
     const priIdx = sortPriority.findIndex(p => p.key === k);
@@ -1260,14 +1205,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
           </button>
         )}
         <div className="flex-1"></div>
-        <div className="flex bg-zinc-800/60 rounded-lg p-0.5 border border-zinc-700/40 flex-shrink-0">
-          {[{k:"themes",l:"Themes Map"},{k:"industry",l:"Industry"}].map(v => (
-            <button key={v.k} onClick={() => { setView(v.k); setExpanded(null); onViewChange && onViewChange(v.k); }}
-              className={`px-2.5 py-1 text-[11px] font-medium rounded-md transition-all flex items-center gap-1 ${view === v.k ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30' : 'text-zinc-500 hover:text-zinc-300 border border-transparent'}`}>
-              {v.l}
-            </button>
-          ))}
-        </div>
       </div>
       <div className="overflow-y-auto overflow-x-auto" style={{ maxHeight: '497px' }}>
         <table className="w-full text-left">
@@ -1275,12 +1212,8 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
             <tr className="border-b border-zinc-800/60">
               <th className="px-2 py-2 w-6 text-[11px] text-zinc-600 select-none whitespace-nowrap">#</th>
               <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Theme</th>
-              {view === "themes" && (
-                <>
-                  <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Sub-Themes</th>
-                  <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Leaders</th>
-                </>
-              )}
+              <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Sub-Themes</th>
+              <th className="px-2 py-2 text-[11px] font-semibold text-zinc-500 uppercase tracking-wider whitespace-nowrap">Leaders</th>
               {LB_KEYS.map(k => <LBSortHeader key={k.key} k={k.key} label={k.label} />)}
               <th onClick={e => handleLBSort('rs_score', e.shiftKey)}
                 className={`px-1 py-2 text-center cursor-pointer select-none w-14 ${sortPriority[0]?.key === 'rs_score' ? 'text-blue-400' : 'text-zinc-500 hover:text-zinc-300'}`}>
@@ -1304,33 +1237,26 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
           </thead>
           <tbody>
             {ranked.slice(0, 5).map((t, i) => {
-              const isIndustryView = view === "industry";
-              const isExpanded = isIndustryView && expanded === t.name;
-              const industries = isIndustryView ? (industryMap[t.name] || []) : [];
-
               // Sub-themes & leaders for themes view
               let subThemeNames = [];
               let leaderTickers = [];
               let hasIbkrSource = false;
-              if (view === "themes") {
-                const matchedTheme = themes.find(th => (th.name || '').toLowerCase() === (t.name || '').toLowerCase());
-                if (matchedTheme) {
-                  subThemeNames = (matchedTheme.subthemes || []).slice(0, 3).map(s => s.name);
-                }
-                const ibkrPT = ibkrThemesData?.power_themes?.find(pt => pt.name?.toLowerCase() === t.name?.toLowerCase());
-                if (ibkrPT) {
-                  hasIbkrSource = true;
-                  leaderTickers = (ibkrPT.leaders || []).slice(0, 3).map(l => ({ ticker: l.ticker, setupCls: l.setup_label === 'Flag' ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' : l.setup_label === 'Base' ? 'text-blue-400 bg-blue-500/10 border-blue-500/20' : 'text-zinc-400 bg-zinc-800/60 border-zinc-700/40' }));
-                } else if (matchedTheme) {
-                  const allStocks = (matchedTheme.subthemes || []).flatMap(s => s.stocks || []);
-                  leaderTickers = [...allStocks].sort((a, b) => (b.rs_52w || 0) - (a.rs_52w || 0)).slice(0, 3).map(s => ({ ticker: s.ticker, setupCls: 'text-zinc-400 bg-zinc-800/60 border-zinc-700/40' }));
-                }
+              const matchedTheme = themes.find(th => (th.name || '').toLowerCase() === (t.name || '').toLowerCase());
+              if (matchedTheme) {
+                subThemeNames = (matchedTheme.subthemes || []).slice(0, 3).map(s => s.name);
+              }
+              const ibkrPT = ibkrThemesData?.power_themes?.find(pt => pt.name?.toLowerCase() === t.name?.toLowerCase());
+              if (ibkrPT) {
+                hasIbkrSource = true;
+                leaderTickers = (ibkrPT.leaders || []).slice(0, 3).map(l => ({ ticker: l.ticker, setupCls: l.setup_label === 'Flag' ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' : l.setup_label === 'Base' ? 'text-blue-400 bg-blue-500/10 border-blue-500/20' : 'text-zinc-400 bg-zinc-800/60 border-zinc-700/40' }));
+              } else if (matchedTheme) {
+                const allStocks = (matchedTheme.subthemes || []).flatMap(s => s.stocks || []);
+                leaderTickers = [...allStocks].sort((a, b) => (b.rs_52w || 0) - (a.rs_52w || 0)).slice(0, 3).map(s => ({ ticker: s.ticker, setupCls: 'text-zinc-400 bg-zinc-800/60 border-zinc-700/40' }));
               }
 
               return (<React.Fragment key={`lb-${t.name}`}>
                 <tr
-                  onClick={e => {
-                    if (isIndustryView) { setExpanded(isExpanded ? null : t.name); return; }
+                  onClick={() => {
                     onThemeSelect && onThemeSelect(t.name);
                   }}
                   className={`h-14 border-b border-zinc-800/30 transition-colors cursor-pointer ${i === 0 ? 'bg-blue-500/5' : 'hover:bg-zinc-800/40'}`}>
@@ -1372,9 +1298,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                       {t.n_industries && <span className="text-[11px] text-zinc-600">{t.n_industries} ind</span>}
                     </div>
                   </td>
-                  {view === "themes" && (
-                    <>
-                      <td className="px-2 py-1.5 align-middle max-w-[200px] overflow-hidden">
+                  <td className="px-2 py-1.5 align-middle max-w-[200px] overflow-hidden">
                         <div className="text-[11px] text-zinc-400 leading-tight flex items-center gap-x-1 flex-nowrap overflow-hidden">
                           {subThemeNames.length === 0
                             ? <span className="text-zinc-600">—</span>
@@ -1411,9 +1335,7 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                           ))}
                           {leaderTickers.length === 0 && <span className="text-zinc-600 text-[11px]">—</span>}
                         </div>
-                      </td>
-                    </>
-                  )}
+                  </td>
                   {LB_KEYS.map(k => <PerfCellLB key={k.key} val={t[k.key]}/>)}
                   {(() => {
                     const rsVal = themeAvgRS[t.name?.toLowerCase()];
@@ -1426,16 +1348,6 @@ const Leaderboard = ({ themeRankings, industryRankings, finvizThemeRankings, the
                     return <td className={`px-1 py-1.5 align-middle text-center text-[11px] font-mono font-bold ${cls}`}>{display}</td>;
                   })()}
                 </tr>
-                {isExpanded && industries.map(ind => (
-                  <tr key={ind.name} className="bg-zinc-800/20 border-b border-zinc-800/20">
-                    <td className="px-2 py-1.5"></td>
-                    <td className="px-2 py-1.5 pl-4 whitespace-nowrap">
-                      <span className="text-[11px] text-zinc-400">{ind.name}</span>
-                    </td>
-                    {LB_KEYS.map(k => <PerfCellLB key={k.key} val={ind[k.key]}/>)}
-                    <td className="px-2 py-1.5"></td>
-                  </tr>
-                ))}
               </React.Fragment>);
             })}
           </tbody>
@@ -1728,33 +1640,7 @@ const ThemeStatsPopup = ({ themeName, themes, anchorRect, chartAnchor, onClose }
 const SORT_PERF_COLS = new Set(['perf_1d','perf_1w','perf_1m','perf_3m','perf_6m']);
 const SORT_TECH_COLS = new Set(['rs_52w','rvol','avg_dollar_volume','adr_pct','dist_52w_high','volume','price','52w_high','ticker']);
 
-function getAlphaGrade(s, spyPerf1d = 0) {
-  const rs = s.rs_52w || 0;
-  if (rs > 97 && (s.perf_1m||0) > 0 && (s.perf_1d||0) > 0) return 'A+';
-  if (rs > 95 && (s.perf_1m||0) > 0) return 'A';
-  if (rs > 90 || (s.perf_1d||0) > spyPerf1d) return 'B';
-  return null;
-}
 
-// Returns true if stock "fits" a given sort key (used for dynamic badge)
-function fitsSortKey(stock, key) {
-  if (SORT_PERF_COLS.has(key)) return (stock[key] || 0) > 0;
-  if (key === 'rs_52w') return (stock.rs_52w || 0) > 95;
-  return true;
-}
-
-const AlphaLeaderBadge = ({ stock, sortPriority = [], spyPerf1d = 0 }) => {
-  const grade = getAlphaGrade(stock, spyPerf1d);
-  if (!grade || grade === 'B') return null;
-  if ((stock.perf_1d||0) <= 0) return null;
-  // Dynamic: must fit the current top-2 sort priorities
-  const fits = sortPriority.slice(0, 2).every(p => fitsSortKey(stock, p.key));
-  if (!fits) return null;
-  const style = grade === 'A+'
-    ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
-    : 'bg-blue-500/20 text-blue-300 border-blue-500/40';
-  return <span className={`inline-flex items-center gap-0.5 px-1 py-0.5 text-[11px] font-bold rounded border ${style}`}>🔥 {grade}</span>;
-};
 
 const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, themeName, subthemeName }) => {
   const [hovered, setHovered] = useState(null);
@@ -1848,9 +1734,7 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
             <th className="text-center py-3 px-2 font-medium w-[84px] text-zinc-500">Earnings</th>
             <th className="text-center py-3 px-2 font-medium w-[84px] text-zinc-500">6M</th>
             <SH k="52w_high" label="52W Hi" w="w-[80px]"/>
-            <SH k="52w_low" label="52W Lo" w="w-[80px]"/>
             <SH k="dist_52w_high" label="Dist" w="w-[64px]"/>
-            <SH k="volume" label="Vol" w="w-[68px]"/>
             <SH k="rvol" label="RVol" w="w-[64px]"/>
             <SH k="avg_dollar_volume" label="Avg $V" w="w-[72px]"/>
             <SH k="adr_pct" label="ADR" w="w-[56px]"/>
@@ -1873,7 +1757,6 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
                         onClick={e => { const rect = e.currentTarget.getBoundingClientRect(); setHovered(prev => prev?.ticker === s.ticker ? null : { ticker: s.ticker, rect }); }}
                       >{s.ticker}</span>
                       <GradeBadge grade={getEliteGrade(s)}/>
-                      <AlphaLeaderBadge stock={s} sortPriority={sortPriority} spyPerf1d={spyPerf || 0}/>
                       {isVCPStage1(s) && <Tip text="Narrowing consolidation + VDU + near 52W high" color="violet"><span className="text-[11px] font-bold text-violet-400 bg-violet-500/15 border border-violet-500/30 px-1 py-0.5 rounded cursor-pointer">🎯 VCP S1</span></Tip>}
                       {!isVCPStage1(s) && isVDU(s) && <Tip text="Volume below 50% of 10-day avg — selling pressure exhausted" color="blue"><span className="text-[11px] font-bold text-blue-400 bg-blue-500/15 border border-blue-500/30 px-1 py-0.5 rounded cursor-pointer">VDU</span></Tip>}
                       {isTight(s) && <Tip text="Last 3 days range < 1.5% — extremely tight" color="fuchsia"><span className="text-[11px] font-bold text-fuchsia-400 bg-fuchsia-500/15 border border-fuchsia-500/30 px-1 py-0.5 rounded cursor-pointer">Tight</span></Tip>}
@@ -1891,9 +1774,7 @@ const StockTable = ({ stocks, spyPerf, rsSPYKey, isTopTheme, topADRTickers, them
               <EarningsCell value={s.earnings}/>
               <td className="text-center py-3 px-2"><div className="flex justify-center"><Sparkline data={sparklineSeries(s)}/></div></td>
               <td className="text-center py-3 px-2 font-mono text-zinc-400 text-[13px]">{s["52w_high"] ? `$${s["52w_high"].toFixed(2)}` : "—"}</td>
-              <td className="text-center py-3 px-2 font-mono text-zinc-500 text-[13px]">{s["52w_low"] ? `$${s["52w_low"].toFixed(2)}` : "—"}</td>
               <Dist52wCell value={s.dist_52w_high}/>
-              <td className="text-center py-3 px-2 text-zinc-500 text-[13px] font-mono">{fmtNum(s.volume)}</td>
               <RVolCell value={s.rvol}/>
               <td className="text-center py-3 px-2 text-zinc-500 text-[13px] font-mono">{fmtVol(s.avg_dollar_volume || s.dollar_volume)}</td>
               <td className="text-center py-3 px-2 text-zinc-400 text-[13px] font-mono">{s.adr_pct.toFixed(1)}%</td>
@@ -2552,13 +2433,6 @@ const PositionCalc = ({ ibkrThemesData, thematicData }) => {
 // Compact widgets for the new Thematic Scanner v2 layout (matches screenshot)
 // ─────────────────────────────────────────────────────────────────────────────
 
-const PanelLabel = ({ children, badge, badgeClass = "bg-emerald-500/10 text-emerald-400 border-emerald-500/30" }) => (
-  <div className="flex items-center justify-between mb-2">
-    <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">{children}</div>
-    {badge && <span className={`px-1.5 py-0.5 text-[11px] font-bold rounded border ${badgeClass}`}>{badge}</span>}
-  </div>
-);
-
 // 從各種格式的時間字串擷取 HH:MM TZ，顯示在 panel 角落
 const UpdatedAt = ({ ts }) => {
   if (!ts) return null;
@@ -2817,42 +2691,8 @@ const MarketInternalsV2 = ({ mc, internalsData, generatedAt }) => {
   );
 };
 
-const AlertRulesCard = () => (
-  <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-    <PanelLabel badge="ntfy.sh" badgeClass="bg-blue-500/10 text-blue-400 border-blue-500/30">Alert Rules</PanelLabel>
-    <div className="space-y-1.5">
-      <div className="bg-emerald-500/[0.06] border border-emerald-500/20 rounded-md px-2 py-1.5">
-        <div className="text-[11px] font-semibold text-emerald-400">AI &amp; Semi RS &gt; 95</div>
-        <div className="text-[11px] text-zinc-500 mt-0.5">Push · ntfy.sh · Active</div>
-      </div>
-      <div className="bg-amber-500/[0.06] border border-amber-500/20 rounded-md px-2 py-1.5">
-        <div className="text-[11px] font-semibold text-amber-400">Gapper T1 Catalyst</div>
-        <div className="text-[11px] text-zinc-500 mt-0.5">Push · Pushover · Active</div>
-      </div>
-      <button className="w-full text-left text-[11px] text-zinc-500 hover:text-zinc-300 px-2 py-1.5 border border-dashed border-zinc-800 rounded-md">
-        + Add Rule
-        <div className="text-[11px] text-zinc-700">Theme RS · Grade · ADR · RS cross</div>
-      </button>
-    </div>
-  </div>
-);
 
 
-const ActiveAlertsCardV2 = () => (
-  <div className="bg-zinc-900/60 border border-zinc-800/60 rounded-xl p-3">
-    <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-2">Active Alerts</div>
-    <div className="space-y-1.5">
-      <div className="bg-emerald-500/[0.06] border border-emerald-500/20 rounded-md px-2 py-1.5">
-        <div className="text-[11px] font-semibold text-emerald-400">AI Semi RS &gt; 95</div>
-        <div className="text-[11px] text-zinc-500 mt-0.5">Fired · ntfy.sh ✓</div>
-      </div>
-      <div className="bg-amber-500/[0.06] border border-amber-500/20 rounded-md px-2 py-1.5">
-        <div className="text-[11px] font-semibold text-amber-400">RKLB T1 Gapper</div>
-        <div className="text-[11px] text-zinc-500 mt-0.5">Fired · Pushover ✓</div>
-      </div>
-    </div>
-  </div>
-);
 
 
 
@@ -2876,7 +2716,6 @@ const BottomStatusBar = ({ ibkrData, briefData }) => {
         <span className="text-zinc-700">|</span>
         <span>Fallback: Finviz · yfinance · Benzinga · TradingView Screener</span>
       </div>
-      <div>Backend: localhost:8000 · Frontend: Render</div>
     </div>
   );
 };
@@ -7134,7 +6973,7 @@ export default function App() {
   const [earningsData, setEarningsData]     = useState(null);
   const [econData, setEconData]             = useState(null);
   const [internalsData, setInternalsData]   = useState(null);
-  const [lbView, setLbView]                 = useState("themes");
+  const lbView = "themes";
   const [spotlightThemeName, setSpotlightThemeName] = useState(null);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -7682,7 +7521,6 @@ const filtered = useMemo(() => {
             <VixFearGaugeV2 vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix} generatedAt={data?.generated_at}/>
             <MarketInternalsV2 mc={data?.market_condition} internalsData={internalsData} generatedAt={data?.generated_at}/>
             <PositionCalc ibkrThemesData={ibkrData} thematicData={data}/>
-            <AlertRulesCard/>
           </aside>
 
           {/* ── CENTER MAIN CONTENT ──────────────────────────────── */}
@@ -7690,24 +7528,17 @@ const filtered = useMemo(() => {
             <HeroZone data={data} briefData={briefData} themesCount={filtered.length} tickersCount={unique.length}/>
             <ThemeHeatmap themes={data?.themes} heatmapThemes={data?.heatmap_themes} finvizThemeRankings={data?.finviz_theme_rankings} generatedAt={data?.generated_at}/>
             {data && <Leaderboard
-              themeRankings={data.theme_rankings}
-              industryRankings={data.industry_rankings}
               finvizThemeRankings={data.finviz_theme_rankings}
               themes={data.themes}
               spyBenchmarks={data.spy_benchmarks}
               ibkrThemesData={ibkrThemesData}
               generatedAt={data.generated_at}
-              onViewChange={v => { setLbView(v); setSpotlightThemeName(null); }}
               onThemeSelect={name => setSpotlightThemeName(name)}
             />}
             {data && <MarketWarnings themes={data.themes}/>}
             <ThematicSpotlight lbView={lbView} spotlightThemeName={spotlightThemeName} data={data} ibkrThemesData={ibkrThemesData}/>
           </main>
 
-          {/* ── RIGHT SIDEBAR ────────────────────────────────────── */}
-          <aside className="w-[200px] flex-shrink-0 flex flex-col gap-3">
-            <ActiveAlertsCardV2/>
-          </aside>
         </div>
 
 
