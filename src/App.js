@@ -2592,8 +2592,25 @@ const VIX_ZONES_NOTE = [
   },
 ];
 
+const MARKET_PULSE_GEMINI_KEY = process.env.REACT_APP_GEMINI_KEY || "";
+const MARKET_PULSE_CACHE_KEY  = "gemini_market_pulse_v2";
+
+async function fetchGeminiMarketPulse(payload) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${MARKET_PULSE_GEMINI_KEY}`;
+  const body = {
+    contents: [{ parts: [{ text: `You are a concise stock market analyst. Given these live market indicators, write exactly 2 sentences in English: (1) summarize today's market regime by citing VIX level, S5FI breadth %, ADV/DEC ratio, and SMA50/SMA200 internals; (2) give a specific tactical verdict for breakout swing traders — whether to be aggressive or selective, what setup quality is required, and key condition to watch. Cite specific numbers. Be direct and actionable.\n\nData: ${JSON.stringify(payload)}` }] }],
+    generationConfig: { temperature: 0.3, maxOutputTokens: 180 },
+  };
+  const res  = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  const json = await res.json();
+  return json?.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || null;
+}
+
 const MarketPulseCard = ({ vix, generatedAt, mc, briefData }) => {
   const [showVixNote, setShowVixNote] = React.useState(false);
+  const [aiText, setAiText] = React.useState(null);
+  const [aiLoading, setAiLoading] = React.useState(false);
+  const todayKey = new Date().toISOString().slice(0, 10);
   const vixNoteRef = React.useRef(null);
   React.useEffect(() => {
     if (!showVixNote) return;
@@ -2605,6 +2622,31 @@ const MarketPulseCard = ({ vix, generatedAt, mc, briefData }) => {
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [showVixNote]);
+  React.useEffect(() => {
+    const cached = (() => { try { const r = JSON.parse(localStorage.getItem(MARKET_PULSE_CACHE_KEY)); return r?.date === todayKey ? r.text : null; } catch { return null; } })();
+    if (cached) { setAiText(cached); return; }
+    if (!MARKET_PULSE_GEMINI_KEY) return;
+    const v = vix ?? 0;
+    const s5fi = briefData?.macro_breadth?.s5fi;
+    const adv_pct = mc?.adv_dec?.adv_pct;
+    if (!v && s5fi == null && adv_pct == null) return;
+    setAiLoading(true);
+    fetchGeminiMarketPulse({
+      vix: v,
+      vix_zone: v >= 30 ? "EXTREME FEAR" : v >= 24 ? "ELEVATED CONCERN" : v >= 18 ? "CAUTION" : v >= 14 ? "NORMAL" : "COMPLACENT",
+      s5fi_breadth_pct: s5fi,
+      adv_dec_pct: adv_pct,
+      sma50_above_pct: mc?.sma50_counts?.above_pct,
+      sma200_above_pct: mc?.sma200_counts?.above_pct,
+      new_52w_highs: mc?.new_hl?.new_high,
+      new_52w_lows: mc?.new_hl?.new_low,
+    })
+      .then(t => {
+        if (t) { setAiText(t); try { localStorage.setItem(MARKET_PULSE_CACHE_KEY, JSON.stringify({ date: todayKey, text: t })); } catch { /* quota */ } }
+      })
+      .catch(() => {})
+      .finally(() => setAiLoading(false));
+  }, [vix, mc, briefData, todayKey]);
   const v = vix ?? 0;
   const vixCfg =
     v >= 30 ? { label: "EXTREME FEAR", cls: "text-red-400" } :
@@ -2689,9 +2731,10 @@ const MarketPulseCard = ({ vix, generatedAt, mc, briefData }) => {
         <div className="flex items-center gap-1.5 mb-1">
           <span className="text-[11px] text-blue-400">✦</span>
           <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-[0.15em]">Gemini</div>
+          {aiLoading && <RefreshCw size={10} className="text-zinc-500 animate-spin"/>}
         </div>
         <div className="text-[11px] leading-snug text-zinc-300">
-          {actionLine || vixFallback}
+          {aiText || actionLine || vixFallback}
         </div>
       </div>
     </div>
