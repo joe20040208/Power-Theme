@@ -2157,6 +2157,11 @@ def build_etf_signals(unique_etfs: list) -> list:
         signal, level = _classify_etf_signal(detail, closes)
         if signal is None:
             continue
+        # Require positive 3M momentum to qualify as a "hot theme" ETF
+        perf_3m = detail.get("perf_3m") or 0
+        if perf_3m <= 0:
+            logger.info(f"  ETF signal: {etf} skipped (3M perf {perf_3m:.1f}% ≤ 0)")
+            continue
         signals.append({
             "etf": etf,
             "theme": etf_theme.get(etf, etf),
@@ -2191,8 +2196,14 @@ def main():
         etf_holdings[etf] = fetch_etf_holdings(etf)
     output["etf_holdings"] = etf_holdings
 
-    logger.info("Building ETF breakout / support signals...")
-    output["etf_signals"] = build_etf_signals(unique_etfs)
+    # Only build ETF signals for ETFs whose themes were selected as top themes this run
+    top_theme_names = {t["name"] for t in output.get("themes", [])}
+    hot_etfs = sorted({
+        etf for theme, etf in _THEME_ETF_MAP.items()
+        if theme in top_theme_names
+    })
+    logger.info(f"Building ETF breakout / support signals for {len(hot_etfs)} hot-theme ETFs: {hot_etfs}")
+    output["etf_signals"] = build_etf_signals(hot_etfs)
 
     out_path = Path("public/thematic_data.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
