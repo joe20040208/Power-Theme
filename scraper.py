@@ -2112,7 +2112,8 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
 def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     """Classify a theme ETF as a breakout or support setup.
 
-    breakout — fresh ~5-week closing high while holding above SMA50 & SMA200
+    breakout — just broke above a resistance level established 4-11 weeks ago,
+               AND is still within 10% of that resistance (i.e. fresh, not extended)
     support  — price hugging a rising key MA with the long-term trend intact
     Returns (signal, level): signal is 'breakout' | 'support' | None.
     """
@@ -2120,21 +2121,20 @@ def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     s50 = detail.get("sma50_pct")
     s200 = detail.get("sma200_pct")
 
-    if closes and len(closes) >= 35 and s50 is not None and s200 is not None:
+    if closes and len(closes) >= 55 and s50 is not None and s200 is not None:
         last = closes[-1]
         recent_high = max(closes[-6:])
-        base_high = max(closes[-35:-6])
-        # Require a tight "launch pad" in the 2.5 weeks before the break.
-        # If the ETF was still strongly trending in that window (>10% range),
-        # it is extended rather than fresh, so skip it.
-        launch_pad = closes[-18:-6]
-        pad_lo = min(launch_pad) if launch_pad else 0
-        pad_hi = max(launch_pad) if launch_pad else 0
-        pad_range_pct = (pad_hi - pad_lo) / pad_lo * 100 if pad_lo > 0 else 999
+        # Use a longer lookback (4-11 weeks ago) to capture the resistance level
+        # that existed BEFORE the current run started, rather than a recent peak
+        # inside an ongoing trend.
+        base_high = max(closes[-55:-20])
+        # "Fresh breakout": price just cleared that resistance and hasn't run far.
+        # > 10% above the breakout level means it's already extended.
+        dist_pct = (last - base_high) / base_high * 100 if base_high > 0 else 999
         if (s50 > 0 and s200 > 0
                 and last >= recent_high * 0.985
                 and recent_high > base_high
-                and pad_range_pct <= 10):
+                and dist_pct <= 10):
             return ("breakout", None)
 
     if s200 is not None and s200 > 0:
