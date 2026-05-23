@@ -2206,13 +2206,13 @@ def main():
         etf_holdings[etf] = fetch_etf_holdings(etf)
     output["etf_holdings"] = etf_holdings
 
-    # Only build ETF signals for ETFs whose themes were selected as top themes this run
-    top_theme_names = {t["name"] for t in output.get("themes", [])}
+    # Build ETF signals for the top 10 ranked themes (broader than the top-5 used for stocks)
+    top10_theme_names = {t["name"] for t in output.get("theme_rankings", [])[:10]}
     hot_etfs = sorted({
         etf for theme, etf in _THEME_ETF_MAP.items()
-        if theme in top_theme_names
+        if theme in top10_theme_names
     })
-    logger.info(f"Building ETF breakout / support signals for {len(hot_etfs)} hot-theme ETFs: {hot_etfs}")
+    logger.info(f"Building ETF breakout / support signals for {len(hot_etfs)} top-10-theme ETFs: {hot_etfs}")
     output["etf_signals"] = build_etf_signals(hot_etfs)
 
     out_path = Path("public/thematic_data.json")
