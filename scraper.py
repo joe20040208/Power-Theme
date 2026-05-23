@@ -2112,7 +2112,8 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
 def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     """Classify a theme ETF as a breakout or support setup.
 
-    breakout — fresh ~5-week closing high while holding above SMA50 & SMA200
+    breakout — just broke above a resistance level established 4-11 weeks ago,
+               AND is still within 10% of that resistance (i.e. fresh, not extended)
     support  — price hugging a rising key MA with the long-term trend intact
     Returns (signal, level): signal is 'breakout' | 'support' | None.
     """
@@ -2120,11 +2121,20 @@ def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     s50 = detail.get("sma50_pct")
     s200 = detail.get("sma200_pct")
 
-    if closes and len(closes) >= 35 and s50 is not None and s200 is not None:
+    if closes and len(closes) >= 55 and s50 is not None and s200 is not None:
         last = closes[-1]
         recent_high = max(closes[-6:])
-        base_high = max(closes[-35:-6])
-        if s50 > 0 and s200 > 0 and last >= recent_high * 0.985 and recent_high > base_high:
+        # Use a longer lookback (4-11 weeks ago) to capture the resistance level
+        # that existed BEFORE the current run started, rather than a recent peak
+        # inside an ongoing trend.
+        base_high = max(closes[-55:-20])
+        # "Fresh breakout": price just cleared that resistance and hasn't run far.
+        # > 10% above the breakout level means it's already extended.
+        dist_pct = (last - base_high) / base_high * 100 if base_high > 0 else 999
+        if (s50 > 0 and s200 > 0
+                and last >= recent_high * 0.985
+                and recent_high > base_high
+                and dist_pct <= 10):
             return ("breakout", None)
 
     if s200 is not None and s200 > 0:
@@ -2156,6 +2166,11 @@ def build_etf_signals(unique_etfs: list) -> list:
         _sleep()
         signal, level = _classify_etf_signal(detail, closes)
         if signal is None:
+            continue
+        # Require positive 3M momentum to qualify as a "hot theme" ETF
+        perf_3m = detail.get("perf_3m") or 0
+        if perf_3m <= 0:
+            logger.info(f"  ETF signal: {etf} skipped (3M perf {perf_3m:.1f}% ≤ 0)")
             continue
         signals.append({
             "etf": etf,
@@ -2191,8 +2206,14 @@ def main():
         etf_holdings[etf] = fetch_etf_holdings(etf)
     output["etf_holdings"] = etf_holdings
 
-    logger.info("Building ETF breakout / support signals...")
-    output["etf_signals"] = build_etf_signals(unique_etfs)
+    # Only build ETF signals for ETFs whose themes were selected as top themes this run
+    top_theme_names = {t["name"] for t in output.get("themes", [])}
+    hot_etfs = sorted({
+        etf for theme, etf in _THEME_ETF_MAP.items()
+        if theme in top_theme_names
+    })
+    logger.info(f"Building ETF breakout / support signals for {len(hot_etfs)} hot-theme ETFs: {hot_etfs}")
+    output["etf_signals"] = build_etf_signals(hot_etfs)
 
     out_path = Path("public/thematic_data.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
