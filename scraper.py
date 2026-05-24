@@ -2104,12 +2104,12 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
 
 
 def _classify_etf_signal(detail: dict, closes: list) -> tuple:
-    """Classify a theme ETF as a breakout or support setup.
+    """Classify a theme ETF as a breakout or pullback setup.
 
     breakout — just broke above a resistance level established 4-11 weeks ago,
                AND is still within 10% of that resistance (i.e. fresh, not extended)
-    support  — price hugging a rising key MA with the long-term trend intact
-    Returns (signal, level): signal is 'breakout' | 'support' | None.
+    pullback — price pulling back to a rising key MA with the long-term trend intact
+    Returns (signal, level): signal is 'breakout' | 'pullback' | None.
     """
     s20 = detail.get("sma20_pct")
     s50 = detail.get("sma50_pct")
@@ -2134,7 +2134,7 @@ def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     if s200 is not None and s200 > 0:
         for pct, name, tol in ((s20, "SMA20", 2.5), (s50, "SMA50", 2.5), (s200, "SMA200", 3.5)):
             if pct is not None and -tol <= pct <= tol:
-                return ("support", name)
+                return ("pullback", name)
 
     return (None, None)
 
@@ -2183,7 +2183,7 @@ def build_etf_signals(unique_etfs: list) -> list:
         })
         logger.info(f"  ETF signal: {etf} → {signal}{(' @ ' + level) if level else ''}")
 
-    signals.sort(key=lambda x: ({"breakout": 0, "support": 1}.get(x["signal"], 9),
+    signals.sort(key=lambda x: ({"breakout": 0, "pullback": 1}.get(x["signal"], 9),
                                 -(x.get("perf_1d") or 0)))
     return signals
 

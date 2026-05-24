@@ -800,11 +800,11 @@ const HeroZone = ({ data, themesCount, tickersCount }) => {
         })}
       </div>
 
-      {/* ── Col 2: ETF Breakout / Support Leaderboard ── */}
+      {/* ── Col 2: ETF Breakout / Pullback Leaderboard ── */}
       <div className="bg-zinc-900/60 border border-zinc-700/40 rounded-lg p-3 flex flex-col" style={{ gap: '6px' }}>
-        <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-wider">ETF Breakout / Support</div>
+        <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-wider">ETF Breakout / Pullback</div>
         {etfSignals.length === 0 ? (
-          <span className="text-[11px] text-zinc-600 italic">No breakout / support ETFs</span>
+          <span className="text-[11px] text-zinc-600 italic">No breakout / pullback ETFs</span>
         ) : (
           <div className="overflow-y-auto overflow-x-auto" style={{ maxHeight: '210px' }}>
             <table className="w-full text-left">
@@ -820,6 +820,7 @@ const HeroZone = ({ data, themesCount, tickersCount }) => {
               <tbody>
                 {etfSignals.map(s => {
                   const isBreakout = s.signal === 'breakout';
+                  const isPullback = s.signal === 'pullback';
                   return (
                     <tr key={s.etf} className="border-b border-zinc-800/30 hover:bg-zinc-800/40 transition-colors">
                       <td className="px-2 py-1.5 align-middle whitespace-nowrap">
@@ -841,9 +842,11 @@ const HeroZone = ({ data, themesCount, tickersCount }) => {
                         <span className={`text-[10px] font-semibold uppercase tracking-wide px-1.5 py-0.5 rounded border whitespace-nowrap ${
                           isBreakout
                             ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
+                            : isPullback
+                            ? 'bg-amber-500/15 text-amber-400 border-amber-500/30'
                             : 'bg-sky-500/15 text-sky-400 border-sky-500/30'
                         }`}>
-                          {isBreakout ? 'Breakout' : (s.level ? `Support·${s.level}` : 'Support')}
+                          {isBreakout ? 'Breakout' : isPullback ? (s.level ? `Pullback·${s.level}` : 'Pullback') : (s.level ? `Support·${s.level}` : 'Support')}
                         </span>
                       </td>
                     </tr>
