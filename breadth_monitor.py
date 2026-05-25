@@ -339,8 +339,40 @@ def fetch_breadth_monitor(*, timeout: float = 45.0) -> dict[str, Any]:
 # Main
 # ---------------------------------------------------------------------------
 
+def _load_persisted_extras() -> dict[str, dict]:
+    """Return {date_str: {atr_10x_ext, above_50dma_pct}} from the existing JSON, if any."""
+    try:
+        old = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        result: dict[str, dict] = {}
+        for row in old.get("rows", []):
+            date = row.get("date")
+            if not date:
+                continue
+            entry: dict = {}
+            if row.get("atr_10x_ext") is not None:
+                entry["atr_10x_ext"] = row["atr_10x_ext"]
+            if row.get("above_50dma_pct") is not None:
+                entry["above_50dma_pct"] = row["above_50dma_pct"]
+            if entry:
+                result[date] = entry
+        return result
+    except Exception:
+        return {}
+
+
 def main() -> None:
+    persisted = _load_persisted_extras()
     data = fetch_breadth_monitor()
+
+    # Merge previously persisted 10x ATR Ext / >50 DMA values back into historical rows
+    # so they survive across re-runs (those values come from TradingView, not the sheet).
+    if data["ok"]:
+        for row in data["rows"]:
+            saved = persisted.get(row["date"], {})
+            if row.get("atr_10x_ext") is None and "atr_10x_ext" in saved:
+                row["atr_10x_ext"] = saved["atr_10x_ext"]
+            if row.get("above_50dma_pct") is None and "above_50dma_pct" in saved:
+                row["above_50dma_pct"] = saved["above_50dma_pct"]
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(data, indent=2), encoding="utf-8")
