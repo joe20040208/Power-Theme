@@ -2048,7 +2048,7 @@ _THEME_ETF_MAP = {
     "Social Media":                  "SOCL",
     "Real Estate & REITs":           "VNQ",
     "Internet of Things":            "SNSR",
-    "Industrial Automation":         "IRBO",
+    "Industrial Automation":         "ROBO",
     "Consumer Goods":                "XLY",
     "Commodities Metals":            "GDX",
     "Commodities Energy":            "USO",
@@ -2115,19 +2115,25 @@ def _classify_etf_signal(detail: dict, closes: list) -> tuple:
     s50 = detail.get("sma50_pct")
     s200 = detail.get("sma200_pct")
 
-    if closes and len(closes) >= 55 and s50 is not None and s200 is not None:
+    if closes and len(closes) >= 55 and s20 is not None and s50 is not None and s200 is not None:
         last = closes[-1]
         recent_high = max(closes[-6:])
         # Use a longer lookback (4-11 weeks ago) to capture the resistance level
         # that existed BEFORE the current run started, rather than a recent peak
         # inside an ongoing trend.
-        base_high = max(closes[-55:-20])
+        base_closes = closes[-55:-20]
+        base_high = max(base_closes)
+        base_low  = min(base_closes)
+        # Base range measures how "tight" the consolidation was.
+        # A steady uptrend produces a wide range (>25%); a true base is compressed.
+        base_range_pct = (base_high - base_low) / base_low * 100 if base_low > 0 else 999
         # "Fresh breakout": price just cleared that resistance and hasn't run far.
         # > 10% above the breakout level means it's already extended.
         dist_pct = (last - base_high) / base_high * 100 if base_high > 0 else 999
-        if (s50 > 0 and s200 > 0
+        if (s20 > 0 and s50 > 0 and s200 > 0
                 and last >= recent_high * 0.985
-                and recent_high > base_high
+                and recent_high > base_high * 1.01  # broke meaningfully above resistance
+                and base_range_pct <= 25            # base was tight, not a steady uptrend
                 and dist_pct <= 10):
             return ("breakout", None)
 
