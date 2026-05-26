@@ -7769,8 +7769,8 @@ const filtered = useMemo(() => {
 
           {/* ── CENTER MAIN CONTENT ──────────────────────────────── */}
           <main className="flex-1 min-w-0 flex flex-col gap-3">
-            <HeroZone data={data} themesCount={filtered.length} tickersCount={unique.length}/>
             <ThemeHeatmap themes={data?.themes} heatmapThemes={data?.heatmap_themes} finvizThemeRankings={data?.finviz_theme_rankings} generatedAt={data?.generated_at}/>
+            <HeroZone data={data} themesCount={filtered.length} tickersCount={unique.length}/>
             {data && <Leaderboard
               themeRankings={data.theme_rankings}
               industryRankings={data.industry_rankings}
