@@ -162,7 +162,7 @@ def fetch_finviz_headlines() -> list[dict]:
 # bypassing Gemini scoring entirely.
 
 _GOV_ACTORS = [
-    "white house", "president", "congress", "senate", "house of representatives",
+    "white house", "president", "trump", "congress", "senate", "house of representatives",
     "pentagon", "dod", "department of defense", "department of energy", "doe",
     "department of commerce", "darpa", "nasa", "faa", "fda", "epa", "sec",
     "treasury", "federal reserve", "fed ", "fomc",
@@ -178,8 +178,35 @@ _GOV_ACTIONS = [
     "national strategy", "strategic reserve", "defense authorization",
 ]
 
+# Patterns that signal an analysis/narrative article rather than a direct news fact.
+# Headlines matching any of these are NOT self-explanatory from the title alone.
+_ARTICLE_PATTERNS = re.compile(
+    r"\bhow\b"           # "How X happened / How NASA ETF turned..."
+    r"|\bwhy\b"          # "Why the Fed's move matters"
+    r"|:\s*how\b"        # "TITLE: How something works"
+    r"|:\s*why\b"
+    r"|:\s*what\b"
+    r"|\binside\b"       # "Inside Trump's drone push"
+    r"|\bbehind\b"       # "Behind the $10B deal"
+    r"|\bexplain"        # "Explaining the tariffs"
+    r"|\bunderstand"     # "Understanding the new policy"
+    r"|\bthe story\b"    # "The story of..."
+    r"|\bwhat to know\b"
+    r"|\bwhat you need\b",
+    re.IGNORECASE,
+)
+
+def _is_article_headline(title: str) -> bool:
+    """Return True if the headline is analysis/narrative rather than a direct news statement."""
+    if title.rstrip().endswith("?"):
+        return True
+    return bool(_ARTICLE_PATTERNS.search(title))
+
+
 def is_gov_policy_headline(title: str) -> bool:
-    """Return True if the headline looks like a government policy/investment announcement."""
+    """Return True if the headline is a direct government policy/investment news fact."""
+    if _is_article_headline(title):
+        return False
     t = title.lower()
     has_actor  = any(kw in t for kw in _GOV_ACTORS)
     has_action = any(kw in t for kw in _GOV_ACTIONS)
