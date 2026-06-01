@@ -2,11 +2,33 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-06-01",
+      "date_display": "6/1/2026",
+      "up_4_pct": 416,
+      "down_4_pct": 218,
+      "ratio_5d": 2.28,
+      "ratio_10d": 1.97,
+      "up_25_q": 1649,
+      "down_25_q": 872,
+      "up_25_m": 258,
+      "down_25_m": 127,
+      "up_50_m": 83,
+      "down_50_m": 29,
+      "up_13_34d": 1873,
+      "down_13_34d": 1425,
+      "atr_10x_ext": 45,
+      "above_50dma_pct": 56.1,
+      "worden_universe": 6463,
+      "t2108": 43.86,
+      "sp_index": 7600.25,
+      "universe_1b": 2615
+    },
+    {
       "date": "2026-05-29",
       "date_display": "5/29/2026",
       "up_4_pct": 329,
-      "down_4_pct": 216,
-      "ratio_5d": 2.48,
+      "down_4_pct": 218,
+      "ratio_5d": 2.47,
       "ratio_10d": 1.58,
       "up_25_q": 1602,
       "down_25_q": 860,
@@ -19,8 +41,8 @@
       "atr_10x_ext": 42,
       "above_50dma_pct": 58.7,
       "worden_universe": 6457,
-      "t2108": 45.75,
-      "sp_index": 7579.74,
+      "t2108": 45.61,
+      "sp_index": 7580.06,
       "universe_1b": 2608
     },
     {
@@ -2448,6 +2470,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-05-30T06:09:10+00:00",
-  "gemini_analysis": "TODAY \u2014 Today's up4 count was 329, falling short of a healthy buying thrust, while dn4 was 216. The selling pressure crossed the 200 threshold, indicating distribution, with an up/down ratio of 1.52.\nWEEK \u2014 The 5-day ratio improved from 1.68 on May 22nd to 2.48 today, holding above the 2.0 \"strong bull trend\" threshold. Monthly breadth, indicated by up25M rising from 213 to 266 over the same period, shows continued healthy participation.\nMONTH \u2014 With up50M at 87, the market is hot but not yet frothy, while %above50dma at 58.7% sits comfortably in a healthy bull zone. T2108 at 45.75 indicates a neutral technical state, suggesting conditions are ripe for selective swing long setups without immediate extreme overbought risk.\nREGIME \u2014 **Bullish** \u2014 The current market regime is Bullish, indicated by consistent high 5-day ratios and an expanding momentum universe. Stockbee would now watch for sustained acceleration in up13_34d and up25Q counts, alongside atrExt managing to stay below extreme levels, to confirm continued strength."
+  "fetched_at_utc": "2026-06-01T21:55:39+00:00",
+  "gemini_analysis": "TODAY \u2014 up4 at 416 crossed the \"healthy buying thrust\" threshold of 400, while dn4 at 218 indicates distribution pressure. The daily up/down ratio of 1.91 shows more buying strength, though selling pressure above 200 warrants attention.\nWEEK \u2014 The 5-day ratio is a strong 2.28, having pulled back slightly from a peak of 3.05, while the 10-day ratio has steadily improved to 1.97. Breadth is improving from mid-May lows, with up25M at 258 and up13_34d at 1873 remaining at elevated levels.\nMONTH \u2014 up50M at 83 signals a hot market, a cooling from the \"frothy\" level of 118 seen three days prior. The market sits in a healthy bull zone with 56.1% above the 50-day DMA, but swing traders should note atrExt at 45 as an amber warning.\nREGIME \u2014 Accelerating Bull \u2014 The market is in an accelerating bull regime, with consistent strong breadth readings like the 10-day ratio nearing 2.0 and up25Q expanding to 1649. Stockbee would watch for signs of exhaustion, specifically a broadening of dn25M from its current 127 count, given the amber atrExt at 45 and recent frothy up50M counts."
 }
