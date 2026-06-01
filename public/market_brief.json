@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 01, 2026 (18:30 EDT)",
+  "generated_at": "June 01, 2026 (19:12 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10338.95,
-      "change_pct": -0.68
+      "price": 10409.3,
+      "change_pct": -0.16
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Growth Leading / Tech Momentum Strong",
+  "mood": "Tech-Led Momentum Continues",
   "analysis": {
-    "action_line": "VIX 16.05 Normal + S5FI 55.5% breadth + Nikkei strong → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 surging +2.53%, while European indices were flat to negative (DAX +0.05%, FTSE 100 -0.68%). Despite this divergence, US equity breadth showed moderate health, with 55.5% of stocks above their 50-day moving average (S5FI) and 61.8% above their 200-day moving average (MMTH). The 10-year yield remained stable at 4.47%, suggesting no immediate credit distress, though the BAML HY Spread is unknown, preventing a full credit regime assessment. This indicates a market selectively rewarding growth, rather than broad-based enthusiasm or distress.",
-    "analysis_para2": "The mechanical plan dictates maintaining focus on relative strength leaders within confirmed trending themes. With the S&P 500 at 7599.96 and Nasdaq 100 at 30513.86, watch for any dips towards immediate support levels on hourly charts for entry points. A sustained close below the prior day's low on leading indices would serve as an initial yellow flag. The current market rewards breakouts from consolidations or strong bounces off short-term moving averages, particularly in Semiconductors and Hardware themes, which are showing exceptional momentum. Risk management remains paramount, with tight stops placed below identified support or pivot lows to protect capital.",
-    "technical_signal": "No reversal pattern confirmed yet. Major US indices closed positive with continued strength in leading sectors, showing no broad-based selling or significant price reversals.",
+    "action_line": "VIX 16.05 Normal + S5FI 55.5% breadth + Nikkei +2.53% strong global tape → selectively target high relative strength leaders in focused sectors.",
+    "analysis_para1": "Global markets presented a mixed picture today, yet overall sentiment leans positive. Asia saw a significant boost with the Nikkei 225 surging +2.53%, while European indices like the DAX (+0.05%) and FTSE 100 (-0.16%) were largely flat or slightly down. Domestically, US market breadth remains healthy but not overheated, with 55.5% of stocks above their 50-day moving average (S5FI) and 61.8% above their 200-day (MMTH). The BAML HY Spread's unknown regime signals a need for vigilance despite stable 10Y yields at 4.47%, suggesting underlying credit market uncertainty.",
+    "analysis_para2": "The market's persistent strength, especially in tech and growth names, suggests continued focus on relative strength leaders. Investors should monitor pullbacks to key short-term moving averages, such as the 10-day or 21-day exponential moving averages, for entry opportunities. The Nasdaq 100's +0.60% advance underscores the leadership in technology. Maintain a disciplined approach by setting stop-losses and protecting gains in highly extended names. Current conditions favor adding to positions in leading sectors on constructive consolidation patterns.",
+    "technical_signal": "No reversal pattern confirmed yet. The market continues its upward trajectory with leaders consolidating or extending gains, indicating sustained bullish momentum.",
     "ticker_intel": [
       {
         "ticker": "QTEX",
         "company": "QTREX Quantum Ltd.",
         "grade": "A+",
-        "reason": "This hardware innovator boasts an unprecedented +596.0% 1-month return and RS 98, making it an undeniable leader in the current thematic strength."
+        "reason": "QTEX, with an RS of 98 and an astounding 1-month return of +596.0%, demonstrates parabolic leadership within the surging Hardware theme, making it a prime candidate for continued momentum."
       },
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
         "grade": "A",
-        "reason": "With a robust +123.0% 1-month return and RS 98, DELL demonstrates exceptional leadership within the surging Hardware theme, confirming strong institutional interest."
+        "reason": "Micron, sporting an RS of 98 and a robust +100.2% 1-month return, is a key bellwether in the accelerating Semiconductors sector, reflecting broad industry strength."
       },
       {
         "ticker": "WDC",
         "company": "Western Digital Corporation",
         "grade": "C",
-        "reason": "Despite a strong RS 98, its relatively modest +25.7% 1-month return lags significantly behind other Hardware leaders, indicating comparative weakness in the current explosive thematic rally."
+        "reason": "Despite its high RS of 98, WDC's comparatively lower 1-month return of +25.7% suggests it may be relatively lagging its peers or entering a consolidation phase, warranting caution for new entries."
       }
     ]
   }
