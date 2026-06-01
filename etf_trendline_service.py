@@ -304,6 +304,13 @@ def analyze_etf(ticker: str, theme: str, debug: bool = False) -> dict:
     res_fits = find_upper_envelope(sh_idx, sh_prices, highs, atr) if len(sh_idx) >= 2 else []
     sup_fits = find_lower_envelope(sl_idx, sl_prices, lows,  atr) if len(sl_idx) >= 2 else []
 
+    # 計算 sparkline 視窗起始索引，確保訊號判斷只用「可畫出的線」
+    # （P1 錨點在視窗外的線無法在 sparkline 上顯示，若用它發訊號會造成有信號卻沒有線的情況）
+    _spark_len       = min(60, n)
+    _spark_start_abs = n - _spark_len
+    res_fits = [rf for rf in res_fits if rf["x_start"] >= _spark_start_abs]
+    sup_fits = [sf for sf in sup_fits if sf["x_start"] >= _spark_start_abs]
+
     res_ok = len(res_fits) > 0
     sup_ok = len(sup_fits) > 0
 
@@ -506,8 +513,8 @@ def analyze_etf(ticker: str, theme: str, debug: bool = False) -> dict:
     sup_touch_pts_all = [touch_pts(sf, sl_idx, sl_prices) for sf in sup_fits]
 
     # ── Sparkline（取最後 60 根收盤價）──────────────────────────────────────
-    spark_len       = min(60, n)
-    spark_start_abs = n - spark_len
+    spark_len       = _spark_len
+    spark_start_abs = _spark_start_abs
     sparkline       = [round(float(c), 2) for c in closes[-spark_len:]]
 
     # ── JSON 格式線段資訊（含 sparkline 座標錨點）───────────────────────────
