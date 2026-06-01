@@ -412,13 +412,6 @@ export default function Watchlist() {
                     onClick={() => setCollapsedSecs(prev => ({ ...prev, [sec.id]: !prev[sec.id] }))}
                   >▾</span>
 
-                  {/* Color / delete via modal */}
-                  <button
-                    onClick={e => { e.stopPropagation(); setModal({ mode: 'edit', secId: sec.id }); }}
-                    className="text-[9px] text-zinc-700 hover:text-zinc-400 transition-colors ml-1"
-                    style={{ opacity: hoveredSec === sec.id ? 1 : 0 }}
-                    title="Color / delete"
-                  >…</button>
                 </div>
 
                 {/* Inline icon picker */}
