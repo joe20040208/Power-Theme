@@ -349,15 +349,16 @@ def analyze_etf(ticker: str, theme: str, debug: bool = False) -> dict:
         sparkline2       = [round(float(c), 2) for c in closes[-spark_len2:]]
 
         def fmt_line_ref(fit):
-            p1b   = fit["x_start"]
-            p1_s  = p1b - spark_start_abs2
-            cl    = max(0, p1_s)
-            sv    = fit["slope"] * (spark_start_abs2 + cl) + fit["intercept"]
+            p1b  = fit["x_start"]
+            p1_s = p1b - spark_start_abs2
+            if p1_s < 0:
+                return None
+            sv = fit["slope"] * (spark_start_abs2 + p1_s) + fit["intercept"]
             return {
                 "p1":              [str(dates[p1b].date()), round(line_y(fit, p1b), 2)],
                 "p2":              [str(dates[fit["x_end"]].date()), round(line_y(fit, fit["x_end"]), 2)],
                 "today_value":     round(fit["today_value"], 2),
-                "p1_spark_bar":    cl,
+                "p1_spark_bar":    p1_s,
                 "spark_start_val": round(float(sv), 2),
                 "touches":         fit["touches"],
                 "slope":           fit["slope"],
@@ -376,8 +377,8 @@ def analyze_etf(ticker: str, theme: str, debug: bool = False) -> dict:
             "sparkline":         sparkline2,
             "resistance_today":  resistance_today,
             "support_today":     support_today,
-            "resistance_lines":  [fmt_line_ref(rf) for rf in res_fits],
-            "support_lines":     [fmt_line_ref(sf) for sf in sup_fits],
+            "resistance_lines":  [r for r in (fmt_line_ref(rf) for rf in res_fits) if r is not None],
+            "support_lines":     [s for s in (fmt_line_ref(sf) for sf in sup_fits) if s is not None],
             "res_fits":          res_fits,
             "sup_fits":          sup_fits,
             "last_date":         str(last_date.date()),
@@ -512,23 +513,24 @@ def analyze_etf(ticker: str, theme: str, debug: bool = False) -> dict:
     # ── JSON 格式線段資訊（含 sparkline 座標錨點）───────────────────────────
     def fmt_line(fit):
         p1b, p2b = fit["x_start"], fit["x_end"]
-        # P1 相對 sparkline 的位置（可能為負數，代表在圖表範圍外）
         p1_spark = p1b - spark_start_abs
-        clamped  = max(0, p1_spark)
-        spark_sv = fit["slope"] * (spark_start_abs + clamped) + fit["intercept"]
+        # P1 在 sparkline 範圍外 → 不畫此線（左邊沒有連接點，視覺浮空）
+        if p1_spark < 0:
+            return None
+        spark_sv = fit["slope"] * (spark_start_abs + p1_spark) + fit["intercept"]
         return {
             "p1":             [str(dates[p1b].date()), round(line_y(fit, p1b), 2)],
             "p2":             [str(dates[p2b].date()), round(line_y(fit, p2b), 2)],
             "today_value":    round(fit["today_value"], 2),
-            "p1_spark_bar":   clamped,                # sparkline 中的起點 bar（0-based）
-            "spark_start_val": round(float(spark_sv), 2),  # 起點對應的價格
+            "p1_spark_bar":   p1_spark,
+            "spark_start_val": round(float(spark_sv), 2),
             "touches":        fit["touches"],
             "slope":          fit["slope"],
             "intercept":      fit["intercept"],
         }
 
-    resistance_lines = [fmt_line(rf) for rf in res_fits]
-    support_lines    = [fmt_line(sf) for sf in sup_fits]
+    resistance_lines = [r for r in (fmt_line(rf) for rf in res_fits) if r is not None]
+    support_lines    = [s for s in (fmt_line(sf) for sf in sup_fits) if s is not None]
 
     return {
         "ticker":            ticker,
