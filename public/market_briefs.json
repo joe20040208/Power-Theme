@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-01 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Inflationary Growth Watch",
+    "spy_price": 756.48,
+    "spy_change_pct": 0.25,
+    "vix": 15.78,
+    "hy_oas": 2.72,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 57.0,
+    "mmth": 63.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "reason": "Benefiting from today's sharp 3.45% surge in crude oil prices, driving positive sentiment around energy sector earnings and a robust demand outlook."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Announcing a major AI infrastructure expansion for its Azure cloud services, positioning it for continued market leadership in high-growth AI applications."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "AMC",
+          "company": "AMC Entertainment Holdings, Inc.",
+          "reason": "Continues to attract speculative retail interest following yesterday's social media buzz, but without fresh fundamental news to justify sustained momentum."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-05-29 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
           "reason": "Tesla continues to consolidate technically after recent volatile swings, with ongoing demand concerns and production adjustments dictating price action."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-17 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Weakness, US Resilience",
-    "spy_price": 701.66,
-    "spy_change_pct": 0.25,
-    "vix": 17.81,
-    "hy_oas": null,
-    "yield_curve": null,
-    "credit_status": "Unknown",
-    "s5fi": 59.6,
-    "mmth": 57.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Reported Q1 earnings beat expectations on both revenue and EPS, driven by strong investment banking fees and resilient consumer lending."
-        },
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Announced a new, lower-cost electric vehicle platform with significant production efficiency improvements, boosting long-term delivery outlook."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to see strong institutional accumulation driven by AI infrastructure demand, despite no fresh news catalysts today."
         }
       ]
     }
