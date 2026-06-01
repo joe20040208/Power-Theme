@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 01, 2026 (04:10 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 01, 2026 (04:15 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Oil climbs over 3% as U.S. and Iran exchange strikes, Israel expands Lebanon offensive",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-01T04:15:23.192247-04:00",
+      "pub_time": "2026-06-01T04:13:47-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "european stocks edge lower amid usiran peace talks uncertainty",
@@ -9858,6 +9867,10 @@
     {
       "k": "trump hits out at ‘chirping’ critics as iran peace talks enter new month at impasse",
       "ts": "2026-06-01T06:20:30.687556+00:00"
+    },
+    {
+      "k": "oil climbs over 3 as us and iran exchange strikes israel expands lebanon offensive",
+      "ts": "2026-06-01T08:15:23.694306+00:00"
     }
   ]
 }
