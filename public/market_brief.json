@@ -1,6 +1,6 @@
 {
-  "generated_at": "May 29, 2026 (18:50 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 01, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,8 +16,8 @@
     },
     {
       "label": "VIX",
-      "price": 15.32,
-      "change": -0.42,
+      "price": 15.85,
+      "change": 0.53,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64693.12,
-      "change_pct": -0.47
+      "price": 66934.33,
+      "change_pct": 0.91
     },
     "dax": {
       "label": "DAX",
-      "price": 25092.25,
-      "change_pct": -0.34
+      "price": 25247.33,
+      "change_pct": 0.57
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10409.28,
-      "change_pct": -0.16
+      "price": 10382.55,
+      "change_pct": -0.26
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Cautious Strength / Sector Focus",
+  "mood": "Constructive, tech/semiconductor strength",
   "analysis": {
-    "action_line": "VIX 15.32 Normal + S5FI 57.0% breadth + Nikkei -0.47% points to selective leadership; trade RS leaders near support.",
-    "analysis_para1": "International markets displayed a mild risk-off sentiment today, with the Nikkei 225 down -0.47%, DAX -0.34%, and FTSE 100 -0.16%. Despite this global softness, US indices showed resilience, with the S&P 500 gaining +0.22% and the Nasdaq 100 up +0.36%, suggesting a domestic decoupling or rotation into US assets. The 10Y Yield remains stable at 4.45%, not signaling immediate credit concerns, although the BAML HY Spread regime is currently unknown. US market breadth, indicated by S5FI at 57.0% and MMTH at 63.9%, remains healthy, supporting the domestic market's upward bias. This environment favors a focused strategy on domestically strong sectors and individual names.",
-    "analysis_para2": "The S&P 500's close at 7580.06 suggests continued momentum, with the 7550-7570 range acting as key immediate support should any minor consolidation occur. For the Nasdaq 100, holding above the psychological 30000 level is crucial to maintain bullish sentiment in technology and growth names. Investors should continue to concentrate capital in the clearly dominant 'Hardware' and 'Semiconductors' themes, which are showing exceptional relative strength. Look for optimal entry points on pullbacks to the 10-day or 21-day exponential moving averages for leading stocks within these themes. Maintain strict risk management, cutting losses quickly if support levels fail and riding winners aggressively.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices closed higher, indicating continued upward momentum rather than a shift in trend.",
+    "action_line": "VIX 15.85 Normal + S5FI 57.0% breadth + mixed global tape (Nikkei +0.91%) → favor RS leaders on strength.",
+    "analysis_para1": "Global markets present a mixed-to-positive picture this morning, with the Nikkei 225 up 0.91% and DAX 0.57% contributing to a constructive tone despite a slight dip in the FTSE 100. In the US, the 10Y Yield remains stable at 4.45%, but the high-yield credit spread regime is currently unknown. Market breadth indicators remain encouraging, with 57.0% of S&P 500 stocks above their 50-day moving average (S5FI) and 63.9% above their 200-day (MMTH), suggesting underlying strength.",
+    "analysis_para2": "The S&P 500, currently at 7580.06, and Nasdaq 100, at 30333.18, show initial strength. Key levels to watch for continuation are resistance above their recent highs, or support at the prior day's close if they pullback. A failure to hold the prior close could signal a pause, but with VIX remaining normal at 15.85, dips in leading sectors, particularly Semiconductors and Hardware, should be considered buying opportunities. Focus on breakouts above consolidation zones or bounce entries at established moving averages.",
+    "technical_signal": "No reversal pattern confirmed yet; current market action indicates continuation of the positive trend.",
     "ticker_intel": [
-      {
-        "ticker": "QTEX",
-        "company": "QTREX Quantum Ltd.",
-        "grade": "A+",
-        "reason": "Exhibiting extraordinary momentum with RS=98 and a staggering 1-month return of +587.6%, QTEX leads the dominant Hardware theme, making it a top conviction long in the current strong market."
-      },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
-        "grade": "A",
-        "reason": "With RS=98 and a robust 1-month return of +104.7%, DELL is a strong contender within the leading Hardware sector, demonstrating sustained institutional interest and growth potential."
+        "grade": "A+",
+        "reason": "A large-cap Hardware leader, DELL exhibits strong RS=98 and a robust 1M return of +104.7%, making it a high conviction long candidate in the current tech-driven rally."
       },
       {
-        "ticker": "UCTT",
-        "company": "Ultra Clean Holdings, Inc.",
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "grade": "A",
+        "reason": "As a key Semiconductor player, MU's RS=98 and solid 1M gain of +87.3% position it as a strong performer within a leading sector, ideal for continued strength."
+      },
+      {
+        "ticker": "QTEX",
+        "company": "QTREX Quantum Ltd.",
         "grade": "C",
-        "reason": "Despite a high RS=98, its 1-month return of +18.8% and 3-month return of +41.0% are significantly weaker compared to other leaders in the Semiconductor theme, indicating relative underperformance."
+        "reason": "Despite its staggering +587.6% 1M return and RS=98, QTEX's extremely parabolic move makes it highly extended and susceptible to immediate profit-taking, posing significant risk for new long positions."
       }
     ]
   }
