@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (19:50 EST)",
+  "last_checked": "June 01, 2026 (19:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Blue Origin launchpad damaged in rocket explosion may not be restored until 2028, NASA's Isaacman says",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-01T19:55:19.209187-04:00",
+      "pub_time": "2026-06-01T19:48:05-04:00"
+    },
     {
       "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
       "source": "CNBC",
@@ -10099,6 +10107,14 @@
     {
       "k": "fedex freight ceo says the spinoff will help the company leapfrog competitors",
       "ts": "2026-06-01T23:15:25.741648+00:00"
+    },
+    {
+      "k": "asiapacific stocks set to open subdued amid uncertainty over usiran peace talks",
+      "ts": "2026-06-01T23:55:19.565742+00:00"
+    },
+    {
+      "k": "blue origin launchpad damaged in rocket explosion may not be restored until 2028 nasas isaacman sa",
+      "ts": "2026-06-01T23:55:19.565742+00:00"
     }
   ]
 }
