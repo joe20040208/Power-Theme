@@ -133,6 +133,7 @@ export default function Watchlist() {
   const [addSecId, setAddSecId] = useState('');
   const [modal,    setModal]    = useState(null); // null | { mode:'create'|'edit', secId }
   const [hoveredSec, setHoveredSec] = useState(null);
+  const [collapsedSecs, setCollapsedSecs] = useState({});
 
   const addInputRef = useRef(null);
   const dragItem    = useRef(null); // { stockId }
@@ -356,16 +357,18 @@ export default function Watchlist() {
               <div key={sec.id}>
                 {/* Section header */}
                 <div
-                  className="group flex items-center gap-1.5 px-2 py-1.5"
+                  className="group flex items-center gap-1.5 px-2 py-1.5 cursor-pointer select-none"
                   onMouseEnter={() => setHoveredSec(sec.id)}
                   onMouseLeave={() => setHoveredSec(null)}
+                  onClick={() => setCollapsedSecs(prev => ({ ...prev, [sec.id]: !prev[sec.id] }))}
                 >
                   <span className="text-[11px]" style={{ color: sec.color }}>{sec.icon}</span>
                   <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-600">{sec.label}</span>
                   <div className="flex-1 h-px bg-zinc-800 mx-1" />
+                  <span className="text-[9px] text-zinc-700 transition-transform" style={{ transform: collapsedSecs[sec.id] ? 'rotate(-90deg)' : 'rotate(0deg)', display: 'inline-block' }}>▾</span>
                   <button
-                    onClick={() => setModal({ mode: 'edit', secId: sec.id })}
-                    className="text-[9px] text-zinc-700 hover:text-zinc-400 transition-colors"
+                    onClick={e => { e.stopPropagation(); setModal({ mode: 'edit', secId: sec.id }); }}
+                    className="text-[9px] text-zinc-700 hover:text-zinc-400 transition-colors ml-1"
                     style={{ opacity: hoveredSec === sec.id ? 1 : 0 }}
                   >
                     edit
@@ -373,37 +376,39 @@ export default function Watchlist() {
                 </div>
 
                 {/* Stock rows */}
-                {secStocks.length === 0 ? (
-                  <div
-                    className="text-[10px] text-zinc-700 border border-dashed border-zinc-800 rounded-md text-center py-2 mx-2 my-1"
-                    onDragOver={e => e.preventDefault()}
-                    onDrop={e => onDropEmpty(e, sec.id)}
-                  >
-                    drop here
-                  </div>
-                ) : (
-                  secStocks.map(stock => (
+                {!collapsedSecs[sec.id] && (
+                  secStocks.length === 0 ? (
                     <div
-                      key={stock.id}
-                      className="wl-stock-row flex items-center gap-1.5 px-2 py-1 cursor-grab rounded-sm mx-1 transition-colors"
-                      draggable
-                      onDragStart={e => onDragStart(e, stock.id)}
-                      onDragEnd={onDragEnd}
-                      onDragOver={e => onDragOver(e, e.currentTarget)}
-                      onDragLeave={e => onDragLeave(e, e.currentTarget)}
-                      onDrop={e => onDrop(e, stock.id, sec.id)}
+                      className="text-[10px] text-zinc-700 border border-dashed border-zinc-800 rounded-md text-center py-2 mx-2 my-1"
+                      onDragOver={e => e.preventDefault()}
+                      onDrop={e => onDropEmpty(e, sec.id)}
                     >
-                      <GripVertical size={12} className="wl-grip text-zinc-700 opacity-0 flex-shrink-0 transition-opacity" />
-                      <span className="text-[12px] font-medium text-zinc-100 font-mono w-10 flex-shrink-0">{stock.ticker}</span>
-                      <span className="flex-1 text-[10px] text-zinc-600 truncate">{stock.note}</span>
-                      <button
-                        onClick={() => deleteStock(stock.id)}
-                        className="wl-del opacity-0 flex-shrink-0 text-zinc-700 hover:text-red-400 transition-colors"
-                      >
-                        <X size={11} />
-                      </button>
+                      drop here
                     </div>
-                  ))
+                  ) : (
+                    secStocks.map(stock => (
+                      <div
+                        key={stock.id}
+                        className="wl-stock-row flex items-center gap-1.5 px-2 py-1 cursor-grab rounded-sm mx-1 transition-colors"
+                        draggable
+                        onDragStart={e => onDragStart(e, stock.id)}
+                        onDragEnd={onDragEnd}
+                        onDragOver={e => onDragOver(e, e.currentTarget)}
+                        onDragLeave={e => onDragLeave(e, e.currentTarget)}
+                        onDrop={e => onDrop(e, stock.id, sec.id)}
+                      >
+                        <GripVertical size={12} className="wl-grip text-zinc-700 opacity-0 flex-shrink-0 transition-opacity" />
+                        <span className="text-[12px] font-medium text-zinc-100 font-mono w-10 flex-shrink-0">{stock.ticker}</span>
+                        <span className="flex-1 text-[10px] text-zinc-600 truncate">{stock.note}</span>
+                        <button
+                          onClick={() => deleteStock(stock.id)}
+                          className="wl-del opacity-0 flex-shrink-0 text-zinc-600 hover:text-red-400 transition-colors p-1.5 -mr-1"
+                        >
+                          <X size={13} />
+                        </button>
+                      </div>
+                    ))
+                  )
                 )}
               </div>
             );
