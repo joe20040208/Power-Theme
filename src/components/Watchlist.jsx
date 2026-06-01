@@ -134,6 +134,9 @@ export default function Watchlist() {
   const [modal,    setModal]    = useState(null); // null | { mode:'create'|'edit', secId }
   const [hoveredSec, setHoveredSec] = useState(null);
   const [collapsedSecs, setCollapsedSecs] = useState({});
+  const [inlineIconSec, setInlineIconSec] = useState(null);
+  const [inlineLabelSec, setInlineLabelSec] = useState(null);
+  const [inlineLabelText, setInlineLabelText] = useState('');
 
   const addInputRef = useRef(null);
   const dragItem    = useRef(null); // { stockId }
@@ -211,6 +214,17 @@ export default function Watchlist() {
       stocks.filter(s => s.secId !== secId)
     );
     setModal(null);
+  };
+
+  const updateSecIcon = (secId, icon) => {
+    persist(sections.map(s => s.id === secId ? { ...s, icon } : s), stocks);
+    setInlineIconSec(null);
+  };
+
+  const commitInlineLabel = (secId) => {
+    const label = inlineLabelText.trim();
+    if (label) persist(sections.map(s => s.id === secId ? { ...s, label } : s), stocks);
+    setInlineLabelSec(null);
   };
 
   // ── Drag & drop ────────────────────────────────────────────────────────────
@@ -357,23 +371,69 @@ export default function Watchlist() {
               <div key={sec.id}>
                 {/* Section header */}
                 <div
-                  className="group flex items-center gap-1.5 px-2 py-1.5 cursor-pointer select-none"
+                  className="group flex items-center gap-1.5 px-2 py-1.5 select-none"
                   onMouseEnter={() => setHoveredSec(sec.id)}
                   onMouseLeave={() => setHoveredSec(null)}
-                  onClick={() => setCollapsedSecs(prev => ({ ...prev, [sec.id]: !prev[sec.id] }))}
                 >
-                  <span className="text-[11px]" style={{ color: sec.color }}>{sec.icon}</span>
-                  <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-600">{sec.label}</span>
-                  <div className="flex-1 h-px bg-zinc-800 mx-1" />
-                  <span className="text-[9px] text-zinc-700 transition-transform" style={{ transform: collapsedSecs[sec.id] ? 'rotate(-90deg)' : 'rotate(0deg)', display: 'inline-block' }}>▾</span>
+                  {/* Icon — click to pick */}
+                  <button
+                    onClick={e => { e.stopPropagation(); setInlineIconSec(inlineIconSec === sec.id ? null : sec.id); setInlineLabelSec(null); }}
+                    className="text-[13px] hover:opacity-70 transition-opacity leading-none"
+                    style={{ color: sec.color }}
+                    title="Change icon"
+                  >{sec.icon}</button>
+
+                  {/* Label — click to edit inline */}
+                  {inlineLabelSec === sec.id ? (
+                    <input
+                      autoFocus
+                      value={inlineLabelText}
+                      onChange={e => setInlineLabelText(e.target.value)}
+                      onBlur={() => commitInlineLabel(sec.id)}
+                      onKeyDown={e => {
+                        if (e.key === 'Enter') { e.preventDefault(); commitInlineLabel(sec.id); }
+                        if (e.key === 'Escape') { e.preventDefault(); setInlineLabelSec(null); }
+                      }}
+                      onClick={e => e.stopPropagation()}
+                      className="text-[10px] font-medium uppercase tracking-wider text-zinc-300 bg-transparent border-b border-zinc-500 outline-none w-20"
+                    />
+                  ) : (
+                    <span
+                      className="text-[10px] font-medium uppercase tracking-wider text-zinc-600 cursor-text hover:text-zinc-400 transition-colors"
+                      onClick={e => { e.stopPropagation(); setInlineLabelSec(sec.id); setInlineLabelText(sec.label); setInlineIconSec(null); }}
+                    >{sec.label}</span>
+                  )}
+
+                  {/* Collapse toggle */}
+                  <div className="flex-1 h-px bg-zinc-800 mx-1 cursor-pointer" onClick={() => setCollapsedSecs(prev => ({ ...prev, [sec.id]: !prev[sec.id] }))} />
+                  <span
+                    className="text-[9px] text-zinc-700 cursor-pointer transition-transform"
+                    style={{ transform: collapsedSecs[sec.id] ? 'rotate(-90deg)' : 'rotate(0deg)', display: 'inline-block' }}
+                    onClick={() => setCollapsedSecs(prev => ({ ...prev, [sec.id]: !prev[sec.id] }))}
+                  >▾</span>
+
+                  {/* Color / delete via modal */}
                   <button
                     onClick={e => { e.stopPropagation(); setModal({ mode: 'edit', secId: sec.id }); }}
                     className="text-[9px] text-zinc-700 hover:text-zinc-400 transition-colors ml-1"
                     style={{ opacity: hoveredSec === sec.id ? 1 : 0 }}
-                  >
-                    edit
-                  </button>
+                    title="Color / delete"
+                  >…</button>
                 </div>
+
+                {/* Inline icon picker */}
+                {inlineIconSec === sec.id && (
+                  <div className="flex flex-wrap gap-1 px-2 pb-1.5">
+                    {ICON_OPTIONS.map(ic => (
+                      <button
+                        key={ic}
+                        onClick={() => updateSecIcon(sec.id, ic)}
+                        className={`w-6 h-6 rounded text-[12px] flex items-center justify-center border transition-colors
+                          ${sec.icon === ic ? 'border-zinc-400 bg-zinc-700' : 'border-zinc-700 bg-zinc-800 hover:border-zinc-500'}`}
+                      >{ic}</button>
+                    ))}
+                  </div>
+                )}
 
                 {/* Stock rows */}
                 {!collapsedSecs[sec.id] && (
