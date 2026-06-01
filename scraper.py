@@ -2326,11 +2326,14 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
                 logger.debug(f"  Skipping cash/MM holding: {ticker} ({name})")
                 continue
             pct = float(row.get("Holding Percent", 0)) * 100
+            if pct < 1.0:
+                skipped += 1
+                continue
             rows.append({"ticker": ticker, "name": name, "weight": round(pct, 2)})
         rows.sort(key=lambda x: x["weight"], reverse=True)
         logger.info(
             f"  ETF holdings: {etf_ticker} → {len(rows)} holdings"
-            + (f" ({skipped} foreign-listed removed)" if skipped else "")
+            + (f" ({skipped} foreign/small removed)" if skipped else "")
         )
         return rows
     except Exception as e:
