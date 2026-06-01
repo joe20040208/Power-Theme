@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 01, 2026 (14:41 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 01, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7613.67,
-      "change": 33.61,
-      "change_pct": 0.44
+      "price": 7599.96,
+      "change": 19.9,
+      "change_pct": 0.26
     },
     {
       "label": "Nasdaq 100",
-      "price": 30581.69,
-      "change": 248.51,
-      "change_pct": 0.82
+      "price": 30513.86,
+      "change": 180.68,
+      "change_pct": 0.6
     },
     {
       "label": "VIX",
-      "price": 15.75,
-      "change": 0.43,
+      "price": 16.05,
+      "change": 0.73,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 25003.04,
-      "change_pct": -0.4
+      "price": 25104.7,
+      "change_pct": 0.05
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 56.8,
-    "mmth": 62.5,
+    "s5fi": 55.5,
+    "mmth": 61.8,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-Led Rally, Selective Strength",
+  "mood": "Growth Leading / Tech Momentum Strong",
   "analysis": {
-    "action_line": "VIX 15.75 (Normal) + S5FI 56.8% breadth + Nikkei strength/Europe weakness → trade RS leaders selectively near support.",
-    "analysis_para1": "The global tape presents a mixed picture, with the Nikkei 225 surging by +2.53% signaling robust risk appetite in Asia, while European indices like the DAX (-0.40%) and FTSE 100 (-0.68%) show modest weakness. Despite European caution, US indices are advancing, led by Nasdaq 100's +0.82% gain. The stable 10Y yield at 4.47% provides a supportive backdrop for equities, while US market breadth, with S5FI at 56.8% and MMTH at 62.5%, indicates moderately healthy underlying participation.",
-    "analysis_para2": "The mechanical plan suggests monitoring the S&P 500 for continued consolidation above the 7600 level, with potential resistance near 7650. Nasdaq 100 leadership is a key signal; a sustained move above 30500 reinforces current momentum. With the VIX at a normal 15.75 and breadth metrics S5FI (56.8%) and MMTH (62.5%) above 50%, the market remains in a bullish trend. Traders should prioritize buying Relative Strength leaders on minor pullbacks, with conviction in tech and hardware themes.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are advancing with normal volatility, indicating continued bullish momentum rather than a breakdown.",
+    "action_line": "VIX 16.05 Normal + S5FI 55.5% breadth + Nikkei strong → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 surging +2.53%, while European indices were flat to negative (DAX +0.05%, FTSE 100 -0.68%). Despite this divergence, US equity breadth showed moderate health, with 55.5% of stocks above their 50-day moving average (S5FI) and 61.8% above their 200-day moving average (MMTH). The 10-year yield remained stable at 4.47%, suggesting no immediate credit distress, though the BAML HY Spread is unknown, preventing a full credit regime assessment. This indicates a market selectively rewarding growth, rather than broad-based enthusiasm or distress.",
+    "analysis_para2": "The mechanical plan dictates maintaining focus on relative strength leaders within confirmed trending themes. With the S&P 500 at 7599.96 and Nasdaq 100 at 30513.86, watch for any dips towards immediate support levels on hourly charts for entry points. A sustained close below the prior day's low on leading indices would serve as an initial yellow flag. The current market rewards breakouts from consolidations or strong bounces off short-term moving averages, particularly in Semiconductors and Hardware themes, which are showing exceptional momentum. Risk management remains paramount, with tight stops placed below identified support or pivot lows to protect capital.",
+    "technical_signal": "No reversal pattern confirmed yet. Major US indices closed positive with continued strength in leading sectors, showing no broad-based selling or significant price reversals.",
     "ticker_intel": [
       {
         "ticker": "QTEX",
         "company": "QTREX Quantum Ltd.",
         "grade": "A+",
-        "reason": "QTEX exhibits extreme strength with RS=98 and a staggering +587.6% 1-month return, making it a top contender in the current hardware-driven tech rally."
+        "reason": "This hardware innovator boasts an unprecedented +596.0% 1-month return and RS 98, making it an undeniable leader in the current thematic strength."
       },
       {
-        "ticker": "WOLF",
-        "company": "Wolfspeed, Inc.",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "WOLF shows exceptional momentum with RS=98, a +131.3% 1-month return, and +200.6% over three months, reflecting strong investor interest in semiconductors."
+        "reason": "With a robust +123.0% 1-month return and RS 98, DELL demonstrates exceptional leadership within the surging Hardware theme, confirming strong institutional interest."
       },
       {
-        "ticker": "UCTT",
-        "company": "Ultra Clean Holdings, Inc.",
+        "ticker": "WDC",
+        "company": "Western Digital Corporation",
         "grade": "C",
-        "reason": "Despite a high RS=98, UCTT's +41.0% 3-month return is significantly lagging peers, suggesting it may be a weaker play within the robust semiconductor theme."
+        "reason": "Despite a strong RS 98, its relatively modest +25.7% 1-month return lags significantly behind other Hardware leaders, indicating comparative weakness in the current explosive thematic rally."
       }
     ]
   }
