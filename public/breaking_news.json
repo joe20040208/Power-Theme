@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (16:20 EST)",
+  "last_checked": "June 01, 2026 (16:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-01T16:25:22.033302-04:00",
+      "pub_time": "2026-06-01T16:24:28-04:00"
+    },
     {
       "headline": "[CNBC] U.S. oil jumps more than 7% on report Iran will halt talks with U.S. and completely block Hormuz",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bearish",
       "timestamp": "2026-06-01T05:40:25.529257-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-01T05:10:32.129870-04:00",
-      "pub_time": "2026-06-01T05:09:46-04:00"
     }
   ],
   "seen_keys": [
@@ -10083,6 +10083,14 @@
     {
       "k": "trump administration plans to drop dojs 18b lawfare fund reports say",
       "ts": "2026-06-01T19:15:27.852815+00:00"
+    },
+    {
+      "k": "hpe skyrockets 30 on biggest earnings beat since 2018",
+      "ts": "2026-06-01T20:25:22.770873+00:00"
+    },
+    {
+      "k": "microsoft and google are late to ai coding but absolutely critical they compete for growth",
+      "ts": "2026-06-01T20:25:22.770873+00:00"
     }
   ]
 }
