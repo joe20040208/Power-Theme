@@ -215,6 +215,7 @@ export default function Watchlist() {
   // ── Drag & drop ────────────────────────────────────────────────────────────
   const onDragStart = (e, stockId) => {
     dragItem.current = stockId;
+    e.dataTransfer.effectAllowed = 'move';
     document.body.classList.add('is-dragging');
     e.currentTarget.style.opacity = '0.35';
   };
@@ -327,11 +328,11 @@ export default function Watchlist() {
               placeholder="NVDA sym tri…"
               className="w-full text-[11px] font-mono bg-zinc-800 border border-zinc-700 focus:border-zinc-500 rounded px-2 py-1 text-zinc-100 placeholder-zinc-600 outline-none"
             />
-            <div className="flex items-center gap-1.5">
+            <div className="flex items-center gap-2">
               <select
                 value={addSecId}
                 onChange={e => setAddSecId(e.target.value)}
-                className="flex-1 text-[11px] bg-zinc-800 border border-zinc-700 text-zinc-100 rounded px-1 py-1 outline-none max-w-[80px]"
+                className="min-w-0 flex-1 text-[11px] bg-zinc-800 border border-zinc-700 text-zinc-100 rounded px-1 py-1 outline-none"
               >
                 {sections.map(s => (
                   <option key={s.id} value={s.id}>{s.icon} {s.label}</option>
@@ -339,7 +340,7 @@ export default function Watchlist() {
               </select>
               <button
                 onClick={handleAddSubmit}
-                className="p-1 text-zinc-400 hover:text-emerald-400 transition-colors"
+                className="flex-shrink-0 p-1 text-zinc-400 hover:text-emerald-400 transition-colors"
               >
                 <Check size={13} />
               </button>
