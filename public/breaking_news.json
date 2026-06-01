@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (10:45 EST)",
+  "last_checked": "June 01, 2026 (10:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-01T10:50:28.918886-04:00",
+      "pub_time": "2026-06-01T10:45:00-04:00"
+    },
     {
       "headline": "Iran stops negotiations with U.S., vows to 'completely' block Strait of Hormuz: State media",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bearish",
       "timestamp": "2026-06-01T05:05:24.612999-04:00",
       "pub_time": "2026-06-01T05:03:43-04:00"
-    },
-    {
-      "headline": "Oil climbs over 3% as U.S. and Iran exchange strikes, Israel expands Lebanon offensive",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-01T04:15:23.192247-04:00",
-      "pub_time": "2026-06-01T04:13:47-04:00"
     }
   ],
   "seen_keys": [
@@ -9999,6 +9999,10 @@
     {
       "k": "remote work is worsening youth unemployment new york fed finds",
       "ts": "2026-06-01T14:45:31.663714+00:00"
+    },
+    {
+      "k": "schumer says democrats will force senate votes to block trumps doj lawfare fund",
+      "ts": "2026-06-01T14:50:29.508824+00:00"
     }
   ]
 }
