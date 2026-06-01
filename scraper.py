@@ -2607,8 +2607,13 @@ def main():
         logger.warning(f"Could not load etf_holdings_override.json ({_e}) — no overrides applied")
         etf_holdings_override = {}
 
-    # Pre-fetch ETF holdings for all unique ETFs in the theme map
-    unique_etfs = sorted(set(_THEME_ETF_MAP.values()))
+    # Pre-fetch ETF holdings for all unique ETFs in the theme map + etf_universe.json
+    _universe_path = Path(__file__).parent / "etf_universe.json"
+    try:
+        _universe_tickers = {e["ticker"] for e in json.loads(_universe_path.read_text(encoding="utf-8"))}
+    except Exception:
+        _universe_tickers = set()
+    unique_etfs = sorted(set(_THEME_ETF_MAP.values()) | _universe_tickers)
     logger.info(f"Fetching ETF holdings for {len(unique_etfs)} ETFs...")
     etf_holdings = {}
     for etf in unique_etfs:
