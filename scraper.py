@@ -2280,21 +2280,58 @@ _THEME_ETF_MAP = _load_etf_map() or {
 }
 
 
-def fetch_etf_holdings(etf_ticker: str) -> list:
-    """Fetch top holdings for an ETF via yfinance. Returns [] on any failure.
-
-    Foreign-listed tickers (non-US exchanges, e.g. 600900.SS, VWS.CO, SUZLON.BO)
-    are excluded — only US-listed stocks and ADRs are kept.  A ticker is
-    considered foreign if it contains a '.' whose suffix matches a known
-    non-US exchange code.
+def _fetch_holdings_stockanalysis(etf_ticker: str) -> list:
+    """Scrape ETF top holdings from stockanalysis.com (up to 25, sorted by weight).
+    Includes foreign-listed stocks (they enrich with '—' for price/perf).
+    Returns [] on any failure.
     """
+    try:
+        from bs4 import BeautifulSoup
+        url = f"https://stockanalysis.com/etf/{etf_ticker.lower()}/holdings/"
+        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+        r = requests.get(url, headers=headers, timeout=15)
+        if r.status_code != 200:
+            return []
+        soup = BeautifulSoup(r.text, "html.parser")
+        table = soup.find("table")
+        if not table:
+            return []
+        rows = []
+        _MM_KEYWORDS = ("money market", "government oblig", "cash", "treasury",
+                        "liquidity fund", "prime fund", "reserve fund")
+        for tr in table.find_all("tr")[1:]:
+            tds = tr.find_all("td")
+            if len(tds) < 4:
+                continue
+            raw_ticker = tds[1].get_text(strip=True)
+            name = tds[2].get_text(strip=True)
+            weight_str = tds[3].get_text(strip=True).replace("%", "").replace(",", "")
+            try:
+                weight = float(weight_str)
+            except ValueError:
+                continue
+            if weight < 1.0:
+                continue
+            # Strip exchange prefix (e.g. "KRX: 000660" → "000660", "ETR: SAP" → "SAP")
+            ticker = raw_ticker.split(": ")[-1].strip() if ": " in raw_ticker else raw_ticker
+            # Skip cash/money-market instruments
+            if any(kw in name.lower() for kw in _MM_KEYWORDS):
+                continue
+            rows.append({"ticker": ticker, "name": name, "weight": round(weight, 2)})
+        return rows
+    except Exception as e:
+        logger.warning(f"  stockanalysis.com fetch failed for {etf_ticker}: {e}")
+        return []
+
+
+def _fetch_holdings_yfinance(etf_ticker: str) -> list:
+    """Fetch ETF top holdings via yfinance (fallback). US-listed only, ≥1% weight."""
     import re
     _FOREIGN_SUFFIX_RE = re.compile(
         r"\.(SS|SZ|HK|CO|SA|BO|NS|LS|PA|DE|MC|MI|AS|BR|OL|ST|HE|TA"
         r"|L|AX|TO|T|KS|KQ|TW|VX|ME|JK|BK|NZ|SG|MX|AT|WA|VI|BE|IR|IC|TL|SW|BA|MU|CL|LM|SN|IS)$",
         re.IGNORECASE,
     )
-
     try:
         import yfinance as yf
         t = yf.Ticker(etf_ticker)
@@ -2308,22 +2345,16 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
         skipped = 0
         for sym, row in th.iterrows():
             ticker = str(sym).strip()
-            # Drop foreign-listed tickers
             if _FOREIGN_SUFFIX_RE.search(ticker):
                 skipped += 1
                 continue
-            # Drop money market funds, cash equivalents and non-equity instruments.
-            # These show up as holdings when an ETF parks cash (e.g. FGXXX, VMFXX,
-            # SGOV, BIL) — identified by ending in ≥2 X's, or known cash/mm names.
             name = str(row.get("Name", "")).strip()
-            name_lower = name.lower()
             if (ticker.upper().endswith("XX") or ticker.upper().endswith("XXX")
-                    or any(kw in name_lower for kw in (
+                    or any(kw in name.lower() for kw in (
                         "money market", "government oblig", "cash", "treasury",
                         "liquidity fund", "prime fund", "reserve fund",
                     ))):
                 skipped += 1
-                logger.debug(f"  Skipping cash/MM holding: {ticker} ({name})")
                 continue
             pct = float(row.get("Holding Percent", 0)) * 100
             if pct < 1.0:
@@ -2331,14 +2362,25 @@ def fetch_etf_holdings(etf_ticker: str) -> list:
                 continue
             rows.append({"ticker": ticker, "name": name, "weight": round(pct, 2)})
         rows.sort(key=lambda x: x["weight"], reverse=True)
-        logger.info(
-            f"  ETF holdings: {etf_ticker} → {len(rows)} holdings"
-            + (f" ({skipped} foreign/small removed)" if skipped else "")
-        )
         return rows
     except Exception as e:
-        logger.warning(f"  ETF holdings failed for {etf_ticker}: {e}")
+        logger.warning(f"  yfinance holdings failed for {etf_ticker}: {e}")
         return []
+
+
+def fetch_etf_holdings(etf_ticker: str) -> list:
+    """Fetch ETF holdings with weight ≥ 1%.
+
+    Primary source: stockanalysis.com (up to 25 holdings including foreign stocks).
+    Fallback: yfinance (top ~10, US-listed only).
+    """
+    rows = _fetch_holdings_stockanalysis(etf_ticker)
+    source = "stockanalysis.com"
+    if not rows:
+        rows = _fetch_holdings_yfinance(etf_ticker)
+        source = "yfinance"
+    logger.info(f"  ETF holdings: {etf_ticker} → {len(rows)} holdings ({source})")
+    return rows
 
 
 def enrich_etf_holdings(etf_holdings_dict: dict) -> dict:
