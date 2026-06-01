@@ -5,8 +5,8 @@ on:
   # Schedule removed — triggered externally via cron-job.org every 5 minutes
 
 concurrency:
-  group: breaking-news
-  cancel-in-progress: true  # Cancel queued run — seen_keys are committed after each run
+  group: pages-deploy
+  cancel-in-progress: false
 
 jobs:
   breaking-news:

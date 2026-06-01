@@ -2,6 +2,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

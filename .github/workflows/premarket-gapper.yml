@@ -9,7 +9,7 @@ on:
   # 12:05 UTC = 08:05 ET (EDT)
 
 concurrency:
-  group: gapper-scan
+  group: pages-deploy
   cancel-in-progress: false
 
 jobs:

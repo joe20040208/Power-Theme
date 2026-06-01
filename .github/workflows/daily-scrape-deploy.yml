@@ -10,7 +10,7 @@ on:
     - cron: "35 21 * * 1-5"   # 4:35 PM EST (Nov–Mar)
 
 concurrency:
-  group: thematic-scrape
+  group: pages-deploy
   cancel-in-progress: false  # Queue — scraper takes ~10 min, cancelling would prevent completion
 
 jobs:

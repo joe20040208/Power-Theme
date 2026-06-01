@@ -9285,9 +9285,9 @@ const UniverseTab = () => {
       </div>
       <div className="flex items-center gap-2 shrink-0 ml-2">
         {(e.trend||[]).length >= 2 && <TrendSparkline data={e.trend}/>}
-        <span className={`text-[10px] font-mono ${rsColor(e.day_rs)}`}>{e.day_rs ?? "—"}</span>
+        <span className={`text-[10px] font-mono ${rsColor(e.rs_day ?? e.day_rs)}`}>{e.rs_day ?? e.day_rs ?? "—"}</span>
         <span className="text-zinc-700 text-[9px]">→</span>
-        <span className={`text-[10px] font-mono ${rsColor(e.mth_rs)}`}>{e.mth_rs ?? "—"}</span>
+        <span className={`text-[10px] font-mono ${rsColor(e.rs_mth ?? e.mth_rs)}`}>{e.rs_mth ?? e.mth_rs ?? "—"}</span>
         <span className={`text-[11px] font-mono font-semibold ${pctColor(e.perf_1m)}`}>{fmtP(e.perf_1m)}</span>
       </div>
     </div>
