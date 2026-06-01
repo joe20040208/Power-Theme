@@ -9012,7 +9012,7 @@ const DailyWatchlistTab = ({ data }) => {
       {mode === "etf" && <EtfRsTable etfRsData={etfRsData} etfHoldings={data?.etf_holdings || {}} />}
 
       {/* ── UNIVERSE ──────────────────────────────────────── */}
-      {mode === "universe" && <UniverseTab />}
+      {mode === "universe" && <UniverseTab etfHoldings={data?.etf_holdings || {}} />}
 
       {/* ── SHORT MODE ────────────────────────────────────── */}
       {mode === "short" && (
@@ -9155,7 +9155,7 @@ const TrendSparkline = ({ data = [] }) => {
   );
 };
 
-const UniverseTab = () => {
+const UniverseTab = ({ etfHoldings = {} }) => {
   const [uData, setUData]         = useState(null);
   const [loading, setLoading]     = useState(true);
   const [sigFilter, setSigFilter] = useState("All");
@@ -9163,6 +9163,7 @@ const UniverseTab = () => {
   const [sortCol, setSortCol]     = useState("rs");
   const [sortDir, setSortDir]     = useState("desc");
   const [hmSort, setHmSort]       = useState({ col: "score", dir: "desc" }); // heatmap sort
+  const [holdingsModal, setHoldingsModal] = useState(null); // { ticker, theme, holdings }
   // Adjustable filters — defaults: RS≥85 · $Vol≥$50M · ADR≥4% · MktCap≥$1B
   const [minRS,   setMinRS]   = useState(85);
   const [minVol,  setMinVol]  = useState(50);   // $M
@@ -9244,7 +9245,11 @@ const UniverseTab = () => {
   const EtfRotCard = ({ e, dir }) => (
     <div className={`flex items-center justify-between px-3 py-2 rounded-lg border ${dir === "in" ? "bg-emerald-900/20 border-emerald-700/30" : "bg-rose-900/20 border-rose-700/30"}`}>
       <div className="flex items-center gap-2 min-w-0">
-        <span className="font-mono font-bold text-cyan-400 text-[12px] shrink-0">{e.ticker}</span>
+        <button
+          onClick={() => setHoldingsModal({ ticker: e.ticker, theme: e.theme, holdings: etfHoldings[e.ticker] ?? [] })}
+          className="font-mono font-bold text-cyan-400 text-[12px] shrink-0 hover:underline cursor-pointer bg-none border-none p-0">
+          {e.ticker}
+        </button>
         <span className="text-zinc-400 text-[11px] truncate max-w-[120px]">{e.theme}</span>
       </div>
       <div className="flex items-center gap-2 shrink-0 ml-2">
@@ -9503,6 +9508,14 @@ const UniverseTab = () => {
         </div>
       </div>
     </div>
+    {holdingsModal && (
+      <EtfHoldingsModal
+        etf={holdingsModal.ticker}
+        theme={holdingsModal.theme}
+        holdings={holdingsModal.holdings}
+        onClose={() => setHoldingsModal(null)}
+      />
+    )}
   );
 };
 
