@@ -754,7 +754,7 @@ const ThematicSpotlight = ({ lbView, spotlightThemeName, data, ibkrThemesData })
 };
 
 // ── Hero Zone — 3-column dashboard row above the heatmap ──────────────────
-const HeroZone = ({ data, themesCount, tickersCount, etfTrendlineData }) => {
+const HeroZone = ({ data, themesCount, tickersCount, etfTrendlineData, etfHoldings = {} }) => {
   const flagInnerRef = React.useRef(null);
   const col2Ref      = React.useRef(null);
   const dataLoaded   = !!data;
@@ -783,7 +783,7 @@ const HeroZone = ({ data, themesCount, tickersCount, etfTrendlineData }) => {
 
       {/* ── Col 2: ETF 趨勢線掃描 — height DOM-synced to Flagging content height ── */}
       <div ref={col2Ref} style={{ display: 'flex', flexDirection: 'column' }}>
-        <EtfTrendlinePanel etfData={etfTrendlineData}/>
+        <EtfTrendlinePanel etfData={etfTrendlineData} etfHoldings={etfHoldings}/>
       </div>
     </div>
   );
@@ -8157,7 +8157,7 @@ const EtfMiniChart = ({ sparkline, resistanceLines, supportLines, atr }) => {
   );
 };
 
-const EtfTrendlineRow = ({ etf, onTvClick, lang = 'zh' }) => {
+const EtfTrendlineRow = ({ etf, onTvClick, onHoldingsClick, lang = 'zh' }) => {
   const dotColor = { breakout: '#4ade80', near_resistance: '#fbbf24', near_support: '#60a5fa' }[etf.signal] || '#71717a';
   const distColor = etf.signal === 'near_resistance' ? '#f87171' : '#4ade80';
   const distStr   = etf.dist_pct != null
@@ -8185,12 +8185,19 @@ const EtfTrendlineRow = ({ etf, onTvClick, lang = 'zh' }) => {
         style={{ fontSize: 14, fontWeight: 600, color: '#60a5fa', background: 'none', border: 'none', cursor: 'pointer', padding: 0, flexShrink: 0, fontVariantNumeric: 'tabular-nums' }}
       >{etf.ticker}</button>
 
-      {/* Theme tag */}
-      <span style={{
-        fontSize: 10, padding: '1px 5px', borderRadius: 4,
-        background: 'rgba(113,113,122,0.2)', color: '#a1a1aa',
-        flexShrink: 0, whiteSpace: 'nowrap',
-      }}>{etf.theme}</span>
+      {/* Theme tag — clickable to open ETF holdings popup */}
+      <button
+        onClick={e => { e.stopPropagation(); onHoldingsClick(etf.ticker); }}
+        style={{
+          fontSize: 10, padding: '1px 5px', borderRadius: 4,
+          background: 'rgba(113,113,122,0.2)', color: '#a1a1aa',
+          flexShrink: 0, whiteSpace: 'nowrap', cursor: 'pointer',
+          border: '1px solid rgba(113,113,122,0.3)', transition: 'background 0.15s, color 0.15s',
+        }}
+        onMouseEnter={e => { e.currentTarget.style.background = 'rgba(113,113,122,0.4)'; e.currentTarget.style.color = '#d4d4d8'; }}
+        onMouseLeave={e => { e.currentTarget.style.background = 'rgba(113,113,122,0.2)'; e.currentTarget.style.color = '#a1a1aa'; }}
+        title={`查看 ${etf.ticker} 持股`}
+      >{etf.theme}</button>
 
       {/* Pattern */}
       <span style={{ flex: 1, fontSize: 12, color: '#71717a', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
@@ -8218,7 +8225,7 @@ const EtfTrendlineRow = ({ etf, onTvClick, lang = 'zh' }) => {
   );
 };
 
-const EtfTrendlineGroup = ({ icon, title, items, onTvClick, lang = 'zh' }) => (
+const EtfTrendlineGroup = ({ icon, title, items, onTvClick, onHoldingsClick, lang = 'zh' }) => (
   <div style={{ marginBottom: 6 }}>
     <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '6px 14px 4px', borderBottom: '1px solid rgba(63,63,70,0.5)' }}>
       <span style={{ fontSize: 13 }}>{icon}</span>
@@ -8226,13 +8233,14 @@ const EtfTrendlineGroup = ({ icon, title, items, onTvClick, lang = 'zh' }) => (
     </div>
     {items.length === 0
       ? <div style={{ padding: '6px 14px', fontSize: 11, color: '#52525b', fontStyle: 'italic' }}>{ETF_T[lang].noSignal}</div>
-      : items.map(e => <EtfTrendlineRow key={e.ticker} etf={e} onTvClick={onTvClick} lang={lang}/>)
+      : items.map(e => <EtfTrendlineRow key={e.ticker} etf={e} onTvClick={onTvClick} onHoldingsClick={onHoldingsClick} lang={lang}/>)
     }
   </div>
 );
 
-const EtfTrendlinePanel = ({ etfData }) => {
+const EtfTrendlinePanel = ({ etfData, etfHoldings = {} }) => {
   const [tvPopup, setTvPopup] = useState(null);
+  const [holdingsPopup, setHoldingsPopup] = useState(null);
   const lang = useLang();   // follows the global EN / 中文 toggle in the nav bar
   const t    = ETF_T[lang] ?? ETF_T.zh;
 
@@ -8255,15 +8263,16 @@ const EtfTrendlinePanel = ({ etfData }) => {
         {t.title}
       </div>
       <div style={{ flex: 1, overflowY: 'auto', scrollbarWidth: 'thin', scrollbarColor: '#52525b transparent', minHeight: 0 }}>
-        <EtfTrendlineGroup icon="🚀" title={t.breakout} items={breakouts} onTvClick={setTvPopup} lang={lang}/>
-        <EtfTrendlineGroup icon="👀" title={t.nearRes}  items={nearRes}   onTvClick={setTvPopup} lang={lang}/>
-        <EtfTrendlineGroup icon="🎯" title={t.nearSup}  items={nearSup}   onTvClick={setTvPopup} lang={lang}/>
+        <EtfTrendlineGroup icon="🚀" title={t.breakout} items={breakouts} onTvClick={setTvPopup} onHoldingsClick={setHoldingsPopup} lang={lang}/>
+        <EtfTrendlineGroup icon="👀" title={t.nearRes}  items={nearRes}   onTvClick={setTvPopup} onHoldingsClick={setHoldingsPopup} lang={lang}/>
+        <EtfTrendlineGroup icon="🎯" title={t.nearSup}  items={nearSup}   onTvClick={setTvPopup} onHoldingsClick={setHoldingsPopup} lang={lang}/>
       </div>
       <div style={{ padding: '5px 14px 8px', fontSize: 11, color: '#52525b', borderTop: '1px solid rgba(63,63,70,0.4)', flexShrink: 0 }}>
         {t.footer(etfData.total_scanned, etfData.total_signals, etfData.last_updated)}
       </div>
     </div>
     {tvPopup && <TVPopup ticker={tvPopup.ticker} anchorRect={tvPopup.rect} onClose={() => setTvPopup(null)}/>}
+    {holdingsPopup && <EtfHoldingsPopup etfTicker={holdingsPopup} holdingsData={etfHoldings} onClose={() => setHoldingsPopup(null)}/>}
     </>
   );
 };
@@ -10102,7 +10111,7 @@ const filtered = useMemo(() => {
           {/* ── CENTER MAIN CONTENT ──────────────────────────────── */}
           <main className="flex-1 min-w-0 flex flex-col gap-3">
             <ThemeHeatmap themes={data?.themes} heatmapThemes={data?.heatmap_themes} finvizThemeRankings={data?.finviz_theme_rankings} generatedAt={data?.generated_at} etfHoldings={data?.etf_holdings || {}} openTheme={pendingTheme} onThemeOpened={() => setPendingTheme(null)}/>
-            <HeroZone data={data} themesCount={filtered.length} tickersCount={unique.length} etfTrendlineData={etfTrendlineData}/>
+            <HeroZone data={data} themesCount={filtered.length} tickersCount={unique.length} etfTrendlineData={etfTrendlineData} etfHoldings={data?.etf_holdings || {}}/>
             {data && <Leaderboard
               themeRankings={data.theme_rankings}
               industryRankings={data.industry_rankings}
