@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (08:40 EST)",
+  "last_checked": "June 01, 2026 (08:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] U.S. intercepted Iranian missiles targeting American forces in Kuwait, Central Command says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-01T08:45:24.312258-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Treasury yields edge higher as U.S. and Iran exchange strikes",
       "source": "CNBC",
@@ -9955,6 +9963,10 @@
     {
       "k": "treasury yields hold steady after us and iran exchange strikes",
       "ts": "2026-06-01T12:20:27.844845+00:00"
+    },
+    {
+      "k": "us intercepted iranian missiles targeting american forces in kuwait central command says",
+      "ts": "2026-06-01T12:45:24.776607+00:00"
     }
   ]
 }
