@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (05:35 EST)",
+  "last_checked": "June 01, 2026 (05:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Treasury yields edge higher as U.S. and Iran exchange strikes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-01T05:40:25.529257-04:00",
+      "pub_time": null
+    },
     {
       "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment",
       "source": "CNBC",
@@ -9907,6 +9915,10 @@
     {
       "k": "oil prices climb over 3 as usiran talks at impasse israel expands lebanon offensive",
       "ts": "2026-06-01T09:20:31.799496+00:00"
+    },
+    {
+      "k": "treasury yields edge higher as us and iran exchange strikes",
+      "ts": "2026-06-01T09:40:26.203865+00:00"
     }
   ]
 }
