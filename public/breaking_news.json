@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (05:05 EST)",
+  "last_checked": "June 01, 2026 (05:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-01T05:10:32.129870-04:00",
+      "pub_time": "2026-06-01T05:09:46-04:00"
+    },
     {
       "headline": "Trump hits out at ‘chirping’ critics as U.S. and Iran launch fresh wave of strikes",
       "source": "CNBC",
@@ -9887,6 +9895,10 @@
     {
       "k": "trump hits out at ‘chirping’ critics as us and iran launch fresh wave of strikes",
       "ts": "2026-06-01T09:05:25.316997+00:00"
+    },
+    {
+      "k": "softbank becomes japans most valuable company announces 53 billion french investment",
+      "ts": "2026-06-01T09:10:32.757143+00:00"
     }
   ]
 }
