@@ -9265,6 +9265,7 @@ const UniverseTab = ({ etfHoldings = {} }) => {
   const SIGNAL_TABS = ["All", "Strong", "Emerging", "Watch", "Weakening"];
 
   return (
+    <>
     <div className="max-w-[1560px] mx-auto px-4 pt-4 pb-8 space-y-5">
 
       {/* ── Header ── */}
@@ -9516,6 +9517,7 @@ const UniverseTab = ({ etfHoldings = {} }) => {
         onClose={() => setHoldingsModal(null)}
       />
     )}
+    </>
   );
 };
 
