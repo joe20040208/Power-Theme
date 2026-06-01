@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 01, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 01, 2026 (14:41 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7580.06,
-      "change": 16.43,
-      "change_pct": 0.22
+      "price": 7613.67,
+      "change": 33.61,
+      "change_pct": 0.44
     },
     {
       "label": "Nasdaq 100",
-      "price": 30333.18,
-      "change": 109.29,
-      "change_pct": 0.36
+      "price": 30581.69,
+      "change": 248.51,
+      "change_pct": 0.82
     },
     {
       "label": "VIX",
-      "price": 15.85,
-      "change": 0.53,
+      "price": 15.75,
+      "change": 0.43,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.45,
-      "change": -0.0,
+      "price": 4.47,
+      "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66934.33,
-      "change_pct": 0.91
+      "price": 66329.5,
+      "change_pct": 2.53
     },
     "dax": {
       "label": "DAX",
-      "price": 25247.33,
-      "change_pct": 0.57
+      "price": 25003.04,
+      "change_pct": -0.4
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10382.55,
-      "change_pct": -0.26
+      "price": 10338.95,
+      "change_pct": -0.68
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 57.0,
-    "mmth": 63.9,
+    "s5fi": 56.8,
+    "mmth": 62.5,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Constructive, tech/semiconductor strength",
+  "mood": "Tech-Led Rally, Selective Strength",
   "analysis": {
-    "action_line": "VIX 15.85 Normal + S5FI 57.0% breadth + mixed global tape (Nikkei +0.91%) → favor RS leaders on strength.",
-    "analysis_para1": "Global markets present a mixed-to-positive picture this morning, with the Nikkei 225 up 0.91% and DAX 0.57% contributing to a constructive tone despite a slight dip in the FTSE 100. In the US, the 10Y Yield remains stable at 4.45%, but the high-yield credit spread regime is currently unknown. Market breadth indicators remain encouraging, with 57.0% of S&P 500 stocks above their 50-day moving average (S5FI) and 63.9% above their 200-day (MMTH), suggesting underlying strength.",
-    "analysis_para2": "The S&P 500, currently at 7580.06, and Nasdaq 100, at 30333.18, show initial strength. Key levels to watch for continuation are resistance above their recent highs, or support at the prior day's close if they pullback. A failure to hold the prior close could signal a pause, but with VIX remaining normal at 15.85, dips in leading sectors, particularly Semiconductors and Hardware, should be considered buying opportunities. Focus on breakouts above consolidation zones or bounce entries at established moving averages.",
-    "technical_signal": "No reversal pattern confirmed yet; current market action indicates continuation of the positive trend.",
+    "action_line": "VIX 15.75 (Normal) + S5FI 56.8% breadth + Nikkei strength/Europe weakness → trade RS leaders selectively near support.",
+    "analysis_para1": "The global tape presents a mixed picture, with the Nikkei 225 surging by +2.53% signaling robust risk appetite in Asia, while European indices like the DAX (-0.40%) and FTSE 100 (-0.68%) show modest weakness. Despite European caution, US indices are advancing, led by Nasdaq 100's +0.82% gain. The stable 10Y yield at 4.47% provides a supportive backdrop for equities, while US market breadth, with S5FI at 56.8% and MMTH at 62.5%, indicates moderately healthy underlying participation.",
+    "analysis_para2": "The mechanical plan suggests monitoring the S&P 500 for continued consolidation above the 7600 level, with potential resistance near 7650. Nasdaq 100 leadership is a key signal; a sustained move above 30500 reinforces current momentum. With the VIX at a normal 15.75 and breadth metrics S5FI (56.8%) and MMTH (62.5%) above 50%, the market remains in a bullish trend. Traders should prioritize buying Relative Strength leaders on minor pullbacks, with conviction in tech and hardware themes.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are advancing with normal volatility, indicating continued bullish momentum rather than a breakdown.",
     "ticker_intel": [
-      {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "grade": "A+",
-        "reason": "A large-cap Hardware leader, DELL exhibits strong RS=98 and a robust 1M return of +104.7%, making it a high conviction long candidate in the current tech-driven rally."
-      },
-      {
-        "ticker": "MU",
-        "company": "Micron Technology, Inc.",
-        "grade": "A",
-        "reason": "As a key Semiconductor player, MU's RS=98 and solid 1M gain of +87.3% position it as a strong performer within a leading sector, ideal for continued strength."
-      },
       {
         "ticker": "QTEX",
         "company": "QTREX Quantum Ltd.",
+        "grade": "A+",
+        "reason": "QTEX exhibits extreme strength with RS=98 and a staggering +587.6% 1-month return, making it a top contender in the current hardware-driven tech rally."
+      },
+      {
+        "ticker": "WOLF",
+        "company": "Wolfspeed, Inc.",
+        "grade": "A",
+        "reason": "WOLF shows exceptional momentum with RS=98, a +131.3% 1-month return, and +200.6% over three months, reflecting strong investor interest in semiconductors."
+      },
+      {
+        "ticker": "UCTT",
+        "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite its staggering +587.6% 1M return and RS=98, QTEX's extremely parabolic move makes it highly extended and susceptible to immediate profit-taking, posing significant risk for new long positions."
+        "reason": "Despite a high RS=98, UCTT's +41.0% 3-month return is significantly lagging peers, suggesting it may be a weaker play within the robust semiconductor theme."
       }
     ]
   }
