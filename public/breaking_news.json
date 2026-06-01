@@ -1,24 +1,7 @@
 {
-  "last_checked": "May 31, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Oil jumps 2% as Israel expands Lebanon offensive, rattling ceasefire hopes",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-05-31T21:05:20.925573-04:00",
-      "pub_time": "2026-05-31T20:58:02-04:00"
-    },
-    {
-      "headline": "Japanese bond yields are the highest in 40 years. The budget and a 'red flag' from PM Takaichi have markets nervous",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-05-31T19:30:22.715564-04:00",
-      "pub_time": "2026-05-31T19:15:43-04:00"
-    }
-  ],
+  "last_checked": "June 01, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "european stocks edge lower amid usiran peace talks uncertainty",
