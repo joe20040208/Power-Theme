@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-01 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Inflationary Bid / Volatile Rally",
+    "spy_price": 758.54,
+    "spy_change_pct": 0.27,
+    "vix": 16.05,
+    "hy_oas": 2.74,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 55.6,
+    "mmth": 61.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "HPE",
+          "company": "Hewlett Packard Enterprise Company",
+          "reason": "The company's new AI server launch and strategic NVIDIA partnership position it strongly in the rapidly expanding AI infrastructure market."
+        },
+        {
+          "ticker": "SPCE",
+          "company": "Virgin Galactic Holdings, Inc.",
+          "reason": "A significant new institutional investor signals renewed confidence and potential future capital injection for the space tourism pioneer."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Ongoing optimism surrounding its AI initiatives continues to drive flow, despite no fresh, specific catalyst today, making it a recycled theme."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-01 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "AMC",
           "company": "AMC Entertainment Holdings, Inc.",
           "reason": "Purely technical strength and retail flow continue to drive price action; no new fundamental catalyst to support sustained upside."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-17 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Broad Risk-On Rally",
-    "spy_price": 710.14,
-    "spy_change_pct": 1.21,
-    "vix": 17.48,
-    "hy_oas": null,
-    "yield_curve": null,
-    "credit_status": "Unknown",
-    "s5fi": 64.8,
-    "mmth": 64.1,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AEHR",
-          "company": "Aehr Test Systems",
-          "reason": "The company announced significant new contracts today, indicating strong demand and a positive outlook for its semiconductor test and burn-in solutions."
-        },
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA unveiled a next-generation AI platform, signaling continued innovation and leadership in the rapidly expanding artificial intelligence sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Tesla continues to consolidate technically after recent volatile swings, with ongoing demand concerns and production adjustments dictating price action."
         }
       ]
     }
