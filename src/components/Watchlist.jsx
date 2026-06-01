@@ -294,7 +294,7 @@ export default function Watchlist() {
         }
       `}</style>
 
-      <div className="w-56 flex-shrink-0 border-l border-zinc-800 bg-zinc-900 flex flex-col relative select-none" style={{ minHeight: 0 }}>
+      <div className="w-56 flex-shrink-0 border border-zinc-700 bg-zinc-900 rounded-xl flex flex-col relative select-none overflow-hidden" style={{ minHeight: 0, margin: '12px 10px 12px 0' }}>
 
         {/* ── Header ──────────────────────────────────────────────────────── */}
         <div className="flex items-center justify-between px-3 py-2 border-b border-zinc-800">
