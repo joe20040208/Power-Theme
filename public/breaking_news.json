@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (12:10 EST)",
+  "last_checked": "June 01, 2026 (12:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] U.S. oil jumps more than 7% on report Iran will halt talks with U.S. and completely block Hormuz",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-01T12:15:29.871779-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-01T05:10:32.129870-04:00",
       "pub_time": "2026-06-01T05:09:46-04:00"
-    },
-    {
-      "headline": "Trump hits out at ‘chirping’ critics as U.S. and Iran launch fresh wave of strikes",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-01T05:05:24.612999-04:00",
-      "pub_time": "2026-06-01T05:03:43-04:00"
     }
   ],
   "seen_keys": [
@@ -10035,6 +10035,14 @@
     {
       "k": "ralph lauren shares have flatlined in 2026 heres how to profit anyway",
       "ts": "2026-06-01T16:00:44.660102+00:00"
+    },
+    {
+      "k": "anthropic confidentially files ipo prospectus with sec",
+      "ts": "2026-06-01T16:15:30.652718+00:00"
+    },
+    {
+      "k": "us oil jumps more than 7 on report iran will halt talks with us and completely block hormuz",
+      "ts": "2026-06-01T16:15:30.652718+00:00"
     }
   ]
 }
