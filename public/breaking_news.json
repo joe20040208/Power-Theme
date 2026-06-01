@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 01, 2026 (05:00 EST)",
+  "last_checked": "June 01, 2026 (05:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump hits out at ‘chirping’ critics as U.S. and Iran launch fresh wave of strikes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-01T05:05:24.612999-04:00",
+      "pub_time": "2026-06-01T05:03:43-04:00"
+    },
     {
       "headline": "Oil climbs over 3% as U.S. and Iran exchange strikes, Israel expands Lebanon offensive",
       "source": "CNBC",
@@ -9871,6 +9879,14 @@
     {
       "k": "oil climbs over 3 as us and iran exchange strikes israel expands lebanon offensive",
       "ts": "2026-06-01T08:15:23.694306+00:00"
+    },
+    {
+      "k": "feds powell warns trumps political stress test will wreck public trust in central bank",
+      "ts": "2026-06-01T09:05:25.316997+00:00"
+    },
+    {
+      "k": "trump hits out at ‘chirping’ critics as us and iran launch fresh wave of strikes",
+      "ts": "2026-06-01T09:05:25.316997+00:00"
     }
   ]
 }
