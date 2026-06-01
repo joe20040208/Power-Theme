@@ -9133,15 +9133,23 @@ const SignalBadge = ({ signal }) => {
 // Mini sparkline for ETF trend (20-day Score)
 const TrendSparkline = ({ data = [] }) => {
   if (data.length < 2) return <span className="text-zinc-700 text-[9px]">—</span>;
-  const W = 60, H = 18, pad = 1;
-  const min = Math.min(...data), max = Math.max(...data), rng = max - min || 1;
-  const pts = data.map((v, i) =>
-    `${pad + (i / (data.length - 1)) * (W - pad * 2)},${H - pad - ((v - min) / rng) * (H - pad * 2)}`
-  ).join(" ");
+  const W = 72, H = 28, pad = 3;
+  const min = Math.min(...data), max = Math.max(...data);
+  const rng = max - min || (max * 0.02) || 1; // if flat, create artificial range for visibility
+  const x = (i) => pad + (i / (data.length - 1)) * (W - pad * 2);
+  const y = (v) => H - pad - ((v - (min - rng * 0.1)) / (rng * 1.2)) * (H - pad * 2);
+  const pts = data.map((v, i) => `${x(i)},${y(v)}`).join(" ");
+  const fillPts = `${x(0)},${H} ${pts} ${x(data.length-1)},${H}`;
   const rising = data[data.length - 1] >= data[0];
+  const color = rising ? "#34d399" : "#f87171";
+  const fillColor = rising ? "rgba(52,211,153,0.15)" : "rgba(248,113,113,0.15)";
+  const lastX = x(data.length - 1);
+  const lastY = y(data[data.length - 1]);
   return (
-    <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-      <polyline points={pts} fill="none" stroke={rising ? "#34d399" : "#f87171"} strokeWidth="1.5" strokeLinejoin="round"/>
+    <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ flexShrink: 0 }}>
+      <polygon points={fillPts} fill={fillColor}/>
+      <polyline points={pts} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round"/>
+      <circle cx={lastX} cy={lastY} r="2.5" fill={color}/>
     </svg>
   );
 };
