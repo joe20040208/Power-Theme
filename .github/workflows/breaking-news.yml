@@ -2,7 +2,9 @@ name: Emergency News Monitor
 
 on:
   workflow_dispatch: {}
-  # Schedule removed — triggered externally via cron-job.org every 5 minutes
+  schedule:
+    # Hourly during trading + extended hours: 8 AM – 6 PM ET (12:00–22:00 UTC), Mon–Fri
+    - cron: "0 12-22 * * 1-5"
 
 concurrency:
   group: pages-deploy

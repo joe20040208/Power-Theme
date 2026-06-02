@@ -160,22 +160,39 @@ def fetch_finviz_headlines() -> list[dict]:
 # ── Government Policy Fast-Track ────────────────────────────────────────────
 # Headlines matching these keyword patterns are sent to Telegram immediately,
 # bypassing Gemini scoring entirely.
+# Only major market-moving government events trigger this path — both bullish and bearish.
 
 _GOV_ACTORS = [
-    "white house", "president", "trump", "congress", "senate", "house of representatives",
-    "pentagon", "dod", "department of defense", "department of energy", "doe",
-    "department of commerce", "darpa", "nasa", "faa", "fda", "epa", "sec",
-    "treasury", "federal reserve", "fed ", "fomc",
-    "european union", "eu ", "china", "beijing", "japan", "south korea",
-    "uk government", "g7", "g20", "nato",
+    # US executive / monetary
+    "white house", "president", "trump", "congress", "senate",
+    "federal reserve", "fed ", "fomc", "treasury",
+    # Major geopolitical counterparts
+    "china", "beijing", "xi jinping",
+    "european union", "eu ",
+    "g7", "g20",
+    # Key regulators
+    " sec ", "fda",
 ]
 
 _GOV_ACTIONS = [
-    "invest", "fund", "allocat", "spend", "budget", "billion", "trillion",
-    "contract", "program", "initiative", "mandate", "policy", "law", "bill",
-    "executive order", "regulation", "deregulat", "approv", "ban", "sanction",
-    "subsid", "grant", "procure", "deploy", "launch", "creat", "expand",
-    "national strategy", "strategic reserve", "defense authorization",
+    # Trade & sanctions — always market-moving
+    "tariff", "sanction", "embargo",
+    "trade war", "trade deal", "trade agreement",
+    # Bans — specific phrasing to avoid false matches (e.g. "abandoned")
+    "ban on ", "bans ", "banned ", "banning ",
+    "export ban", "import ban",
+    # Monetary policy
+    "rate cut", "rate hike", "interest rate",
+    "quantitative easing", "emergency cut", "emergency rate",
+    # Fiscal shocks
+    "executive order",
+    "trillion",
+    "debt ceiling", "default",
+    "stimulus", "bailout",
+    # Regulatory sweeps
+    "deregulat",
+    "crackdown",
+    "emergency",
 ]
 
 # Patterns that signal an analysis/narrative article rather than a direct news fact.
