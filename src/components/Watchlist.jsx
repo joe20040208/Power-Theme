@@ -206,18 +206,19 @@ export default function Watchlist() {
 
     const fetchTicker = async (ticker) => {
       const chartUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
-      // Try direct (works in production / when CORS headers are present)
-      try {
-        const d = await fetch(chartUrl).then(r => r.json());
-        const q = parseChart(d);
-        if (q) return { ticker, ...q };
-      } catch {}
-      // Fallback: allorigins.win proxy
-      try {
-        const d = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(chartUrl)}`).then(r => r.json());
-        const q = parseChart(d);
-        if (q) return { ticker, ...q };
-      } catch {}
+      const proxies = [
+        chartUrl,
+        `https://corsproxy.io/?url=${encodeURIComponent(chartUrl)}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(chartUrl)}`,
+        `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(chartUrl)}`,
+      ];
+      for (const url of proxies) {
+        try {
+          const d = await fetch(url).then(r => r.json());
+          const q = parseChart(d);
+          if (q) return { ticker, ...q };
+        } catch {}
+      }
       return null;
     };
 
