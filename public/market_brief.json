@@ -1,56 +1,56 @@
 {
-  "generated_at": "June 02, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 02, 2026 (13:26 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7599.96,
-      "change": 19.9,
-      "change_pct": 0.26
+      "price": 7607.35,
+      "change": 7.39,
+      "change_pct": 0.1
     },
     {
       "label": "Nasdaq 100",
-      "price": 30513.86,
-      "change": 180.68,
-      "change_pct": 0.6
+      "price": 30585.88,
+      "change": 72.02,
+      "change_pct": 0.24
     },
     {
       "label": "VIX",
-      "price": 16.19,
-      "change": 0.14,
+      "price": 15.95,
+      "change": -0.1,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.44,
-      "change": -0.04,
+      "price": 4.46,
+      "change": -0.02,
       "change_pct": null,
-      "trend_label": "Falling"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66734.24,
-      "change_pct": -0.3
+      "price": 66934.33,
+      "change_pct": 0.91
     },
     "dax": {
       "label": "DAX",
-      "price": 25164.97,
-      "change_pct": 0.65
+      "price": 25124.17,
+      "change_pct": 0.48
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10347.75,
-      "change_pct": 0.08
+      "price": 10373.51,
+      "change_pct": 0.33
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 55.6,
+    "s5fi": 54.1,
     "mmth": 61.8,
     "breadth_flush": false,
     "generational": false,
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led Strength, Favorable Conditions",
+  "mood": "Tech-Led Momentum / Risk-On",
   "analysis": {
-    "action_line": "VIX 16.19 Normal with 55.6% S5FI breadth and mixed global tape (DAX +0.65%), favoring selective trading of RS leaders near support.",
-    "analysis_para1": "European markets are broadly positive this morning, with the DAX up +0.65% and FTSE 100 gaining +0.08%, though the Nikkei 225 is slightly lower at -0.30%. Domestically, the falling 10-year yield at 4.44% provides a supportive backdrop for equities, particularly growth names. US market breadth remains healthy with 55.6% of stocks above their 50-day moving average (S5FI) and 61.8% above their 200-day (MMTH), indicating underlying strength despite mixed global performance.",
-    "analysis_para2": "Given the positive pre-market momentum, particularly in tech, watch for the S&P 500 to establish support above the 7600 level early in the session. Confirmation of strength would involve the Nasdaq 100 sustaining its outperformance, signaling continued appetite for growth. Ideal entry points for leading stocks would be on a minor pullback to their 8-day exponential moving average or a test of prior breakout levels on declining volume. Maintain discipline with stop-loss orders as volatility, while normal, can pick up quickly.",
-    "technical_signal": "No reversal pattern confirmed yet. The market shows constructive upside momentum, especially in technology-related sectors.",
+    "action_line": "VIX 15.95 Normal with S5FI 54.1% breadth and Nikkei +0.91% global strength suggests buying RS leaders on constructive pullbacks.",
+    "analysis_para1": "A broadly positive global tape set the tone this morning, with the Nikkei 225 up +0.91%, the DAX gaining +0.48%, and the FTSE 100 rising +0.33%. US markets are following suit, led by technology and growth sectors. The 10Y Yield remains stable at 4.46%, indicating a lack of stress in the credit markets. Market breadth continues to show underlying health, with 54.1% of S&P 500 stocks above their 50-day moving average (S5FI) and 61.8% above their 200-day moving average (MMTH), supporting a constructive environment for equities.",
+    "analysis_para2": "The S&P 500 is currently trading around 7607.35, holding above the psychological 7600 level, which should be monitored as immediate support. The Nasdaq 100's stronger performance (+0.24%) confirms continued tech sector leadership; watch the 30500 level for sustained momentum. With the VIX normalized at 15.95, low volatility encourages a focus on momentum strategies and breakout plays. The mechanical plan involves identifying and acting on strong relative strength leaders, seeking entries on shallow pullbacks towards short-term moving averages to optimize risk-reward.",
+    "technical_signal": "No reversal pattern confirmed yet. The market currently exhibits mild positive momentum driven by selective leadership.",
     "ticker_intel": [
       {
-        "ticker": "MU",
-        "company": "Micron Technology, Inc.",
+        "ticker": "QTEX",
+        "company": "QTREX Quantum Ltd.",
         "grade": "A+",
-        "reason": "This semiconductor leader, with an RS of 98 and a staggering +100.2% 1-month return, epitomizes the current tech-driven strength."
+        "reason": "QTREX Quantum leads the hardware theme with extreme momentum, boasting an RS of 98 and a phenomenal +596.0% 1-month return, making it a prime candidate for continued outperformance in a risk-on environment."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "A robust hardware player with an RS of 98 and a +123.0% 1-month return, showcasing strong momentum in a favored sector."
+        "reason": "Dell Technologies demonstrates strong institutional interest within the robust hardware theme, with an RS of 98 and a significant +123.0% 1-month return validating its leadership in the current tech-led rally."
       },
       {
         "ticker": "WDC",
         "company": "Western Digital Corporation",
         "grade": "C",
-        "reason": "Despite an RS of 98, its +25.7% 1-month return is significantly weaker compared to peers, suggesting it lags in immediate momentum."
+        "reason": "Despite a strong RS of 98, Western Digital's +25.7% 1-month return significantly trails other hardware leaders, suggesting comparatively weaker immediate momentum in this highly competitive space."
       }
     ]
   }
