@@ -182,12 +182,12 @@ export default function Watchlist() {
       .catch(() => {});
   }, []);
 
-  // ── Merge priceCache into quotes, fill gaps with Finnhub if key available ──
+  // ── Live quotes: priceCache seed → Yahoo Finance v8 chart live fetch ────────
   useEffect(() => {
     if (!stocks.length) return;
     const tickers = [...new Set(stocks.map(s => s.ticker))];
 
-    // Seed from priceCache (prices.json — updated nightly)
+    // Seed immediately from prices.json snapshot
     const fromCache = {};
     tickers.forEach(t => {
       const p = priceCache[t];
@@ -195,23 +195,45 @@ export default function Watchlist() {
     });
     if (Object.keys(fromCache).length) setQuotes(fromCache);
 
-    // Try Finnhub for any missing tickers (or all, if key is set)
-    const key = process.env.REACT_APP_FINNHUB_KEY;
-    if (!key) return;
-    const missing = tickers.filter(t => !fromCache[t]);
-    if (!missing.length) return;
-    Promise.all(
-      missing.map(ticker =>
-        fetch(`https://finnhub.io/api/v1/quote?symbol=${ticker}&token=${key}`)
-          .then(r => r.json())
-          .then(d => (d.c != null ? { ticker, price: d.c, chg: d.dp ?? null } : null))
-          .catch(() => null)
-      )
-    ).then(results => {
-      const extra = {};
-      results.forEach(r => { if (r) extra[r.ticker] = { price: r.price, chg: r.chg }; });
-      if (Object.keys(extra).length) setQuotes(prev => ({ ...prev, ...extra }));
-    });
+    // Live fetch via Yahoo Finance v8 chart for every ticker
+    const parseChart = (d) => {
+      const meta = d?.chart?.result?.[0]?.meta;
+      if (!meta?.regularMarketPrice) return null;
+      const price = meta.regularMarketPrice;
+      const prev  = meta.chartPreviousClose ?? meta.previousClose;
+      return { price, chg: prev ? (price - prev) / prev * 100 : null };
+    };
+
+    const fetchTicker = async (ticker) => {
+      const chartUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=1d`;
+      // Try direct (works in production / when CORS headers are present)
+      try {
+        const d = await fetch(chartUrl).then(r => r.json());
+        const q = parseChart(d);
+        if (q) return { ticker, ...q };
+      } catch {}
+      // Fallback: allorigins.win proxy
+      try {
+        const d = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(chartUrl)}`).then(r => r.json());
+        const q = parseChart(d);
+        if (q) return { ticker, ...q };
+      } catch {}
+      return null;
+    };
+
+    const fetchAll = () => {
+      Promise.all(tickers.map(fetchTicker)).then(results => {
+        const live = {};
+        results.forEach(r => { if (r) live[r.ticker] = { price: r.price, chg: r.chg }; });
+        if (Object.keys(live).length) {
+          setQuotes(prev => ({ ...prev, ...live }));
+        }
+      });
+    };
+
+    fetchAll();
+    const iv = setInterval(fetchAll, 120000); // refresh every 2 min
+    return () => clearInterval(iv);
   }, [stocks, priceCache]);
 
   // ── Add stock ──────────────────────────────────────────────────────────────
