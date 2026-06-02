@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (16:25 EST)",
+  "last_checked": "June 02, 2026 (16:30 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Palo Alto Networks pops 12% on earnings beat, rosy guidance",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-02T16:30:32.987353-04:00",
+      "pub_time": "2026-06-02T16:20:12-04:00"
+    },
     {
       "headline": "Trump signs AI executive order asking companies to give government early access to models",
       "source": "CNBC",
@@ -41,29 +49,9 @@
       "direction": "bearish",
       "timestamp": "2026-06-02T09:15:30.886155-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Victoria Secret shares spike 40% after big earnings beat, raised sales outlook",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-02T07:20:26.722311-04:00",
-      "pub_time": null
     }
   ],
   "seen_keys": [
-    {
-      "k": "ai agents on base turn 15t spacex ipo into 12minute research job – here’s how",
-      "ts": "2026-05-26T20:30:29.952041+00:00"
-    },
-    {
-      "k": "what are wall street analysts target price for raymond james stock",
-      "ts": "2026-05-26T20:30:29.952041+00:00"
-    },
-    {
-      "k": "auto transport roundup market talk",
-      "ts": "2026-05-26T20:30:29.952041+00:00"
-    },
     {
       "k": "are wall street analysts predicting expand energy stock will climb or sink",
       "ts": "2026-05-26T20:40:25.086857+00:00"
@@ -9211,6 +9199,10 @@
     {
       "k": "marvell stock soars 32 as nvidias huang says it could be the next trilliondollar company",
       "ts": "2026-06-02T20:05:32.556385+00:00"
+    },
+    {
+      "k": "palo alto networks pops 12 on earnings beat rosy guidance",
+      "ts": "2026-06-02T20:30:33.439893+00:00"
     }
   ]
 }
