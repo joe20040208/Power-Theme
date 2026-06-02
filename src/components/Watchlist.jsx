@@ -137,6 +137,8 @@ export default function Watchlist() {
   const [inlineIconSec, setInlineIconSec] = useState(null);
   const [inlineLabelSec, setInlineLabelSec] = useState(null);
   const [inlineLabelText, setInlineLabelText] = useState('');
+  const [quotes, setQuotes] = useState({});
+  const [priceCache, setPriceCache] = useState({});
 
   const addInputRef = useRef(null);
   const dragItem    = useRef(null); // { stockId }
@@ -170,6 +172,47 @@ export default function Watchlist() {
     setStocks(newStocks);
     saveState({ sections: newSections, stocks: newStocks });
   }, []);
+
+  // ── Load prices.json (nightly snapshot) ───────────────────────────────────
+  useEffect(() => {
+    const base = process.env.PUBLIC_URL || '';
+    fetch(`${base}/prices.json`)
+      .then(r => r.json())
+      .then(setPriceCache)
+      .catch(() => {});
+  }, []);
+
+  // ── Merge priceCache into quotes, fill gaps with Finnhub if key available ──
+  useEffect(() => {
+    if (!stocks.length) return;
+    const tickers = [...new Set(stocks.map(s => s.ticker))];
+
+    // Seed from priceCache (prices.json — updated nightly)
+    const fromCache = {};
+    tickers.forEach(t => {
+      const p = priceCache[t];
+      if (p?.price != null) fromCache[t] = { price: p.price, chg: p.change_pct ?? null };
+    });
+    if (Object.keys(fromCache).length) setQuotes(fromCache);
+
+    // Try Finnhub for any missing tickers (or all, if key is set)
+    const key = process.env.REACT_APP_FINNHUB_KEY;
+    if (!key) return;
+    const missing = tickers.filter(t => !fromCache[t]);
+    if (!missing.length) return;
+    Promise.all(
+      missing.map(ticker =>
+        fetch(`https://finnhub.io/api/v1/quote?symbol=${ticker}&token=${key}`)
+          .then(r => r.json())
+          .then(d => (d.c != null ? { ticker, price: d.c, chg: d.dp ?? null } : null))
+          .catch(() => null)
+      )
+    ).then(results => {
+      const extra = {};
+      results.forEach(r => { if (r) extra[r.ticker] = { price: r.price, chg: r.chg }; });
+      if (Object.keys(extra).length) setQuotes(prev => ({ ...prev, ...extra }));
+    });
+  }, [stocks, priceCache]);
 
   // ── Add stock ──────────────────────────────────────────────────────────────
   const handleAddSubmit = () => {
@@ -452,7 +495,20 @@ export default function Watchlist() {
                       >
                         <GripVertical size={12} className="wl-grip text-zinc-700 opacity-0 flex-shrink-0 transition-opacity" />
                         <span className="text-[12px] font-medium text-zinc-100 font-mono w-10 flex-shrink-0">{stock.ticker}</span>
-                        <span className="flex-1 text-[10px] text-zinc-600 truncate">{stock.note}</span>
+                        <div className="flex-1 flex items-center justify-end gap-1.5 min-w-0">
+                          {quotes[stock.ticker] ? (
+                            <>
+                              <span className="text-[11px] font-mono text-zinc-300">${quotes[stock.ticker].price < 100 ? quotes[stock.ticker].price.toFixed(2) : quotes[stock.ticker].price.toFixed(1)}</span>
+                              {quotes[stock.ticker].chg != null && (
+                                <span className={`text-[10px] font-mono ${quotes[stock.ticker].chg >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
+                                  {quotes[stock.ticker].chg >= 0 ? '+' : ''}{quotes[stock.ticker].chg.toFixed(2)}%
+                                </span>
+                              )}
+                            </>
+                          ) : (
+                            <span className="text-[10px] text-zinc-700">—</span>
+                          )}
+                        </div>
                         <button
                           onClick={() => deleteStock(stock.id)}
                           className="wl-del opacity-0 flex-shrink-0 text-zinc-600 hover:text-red-400 transition-colors p-1.5 -mr-1"
