@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 02, 2026 (18:30 EDT)",
+  "generated_at": "June 02, 2026 (19:12 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10373.51,
-      "change_pct": 0.33
+      "price": 10339.0,
+      "change_pct": -0.68
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed Global / US Tech Strength",
+  "mood": "Modest Gains / Sector Strength",
   "analysis": {
-    "action_line": "VIX 15.77 Normal + S5FI 56.5% breadth + Nikkei +0.91% → focus on leading RS themes near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 showing strength at +0.91%, while the DAX slipped by -0.40% and the FTSE 100 posted a modest gain of +0.33%. The absence of BAML HY Spread data leaves the credit regime ambiguous, precluding a definitive read on broad risk appetite. Despite this, US market breadth remains healthy, with 56.5% of S&P 500 stocks above their 50-day moving average (S5FI) and 61.5% above their 200-day (MMTH), suggesting underlying resilience.",
-    "analysis_para2": "With the S&P 500 closing at 7609.78 and the Nasdaq 100 at 30660.60, the market maintains an upward bias, supported by a normal VIX at 15.77. The healthy breadth metrics (S5FI 56.5%, MMTH 61.5%) continue to favor selective long positions. Traders should prioritize strength by focusing on RS leaders from the Semiconductors and Hardware themes. Establish positions on minor pullbacks to identified support levels, employing tight stops to manage risk effectively in this mixed global environment.",
-    "technical_signal": "No reversal pattern confirmed yet. The market shows slight positive momentum in US indices.",
+    "action_line": "VIX 15.77 Normal + S5FI 56.5% breadth + mixed global tape (Nikkei up, Europe down) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets exhibited a mixed close today, with the Nikkei 225 posting a solid 0.91% gain, while European indices like the DAX (-0.40%) and FTSE 100 (-0.68%) declined. This divergence suggests a lack of broad-based global conviction. The absence of BAML HY Spread data renders the credit regime unknown, adding a layer of uncertainty to overall risk appetite. Domestically, market breadth remains positive but not robust, with 56.5% of S&P 500 stocks above their 50-day moving average (S5FI) and 61.5% above their 200-day moving average (MMTH).",
+    "analysis_para2": "Given the mixed global picture and stable but not overwhelmingly strong US breadth, the mechanical plan remains focused on Relative Strength leaders holding key support levels. The S&P 500's close at 7609.78 suggests a mild uptrend, but watch for a break below recent lows (e.g., 7500) as a potential bearish signal. The Nasdaq 100, showing stronger performance today, should hold above its 50-day moving average to maintain its leadership. A rising VIX above 18, or a significant drop in S5FI below 50%, would indicate increasing risk-off sentiment and necessitate tighter stops or reduced exposure. For now, selective long positions in high RS names near technical pullbacks are warranted.",
+    "technical_signal": "No reversal pattern confirmed yet. The market closed with modest gains, particularly in the Nasdaq, without triggering any downside reversal signals.",
     "ticker_intel": [
       {
         "ticker": "MXL",
         "company": "MaxLinear, Inc",
         "grade": "A+",
-        "reason": "Graded A+ for its leading RS of 98 and exceptional 3-month return of +413.4%, positioning it as a top semiconductor leader."
+        "reason": "With RS=98 and a staggering 3M=+413.4% return, MXL is a top semiconductor conviction long demonstrating exceptional momentum in the current regime."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "Graded A due to its strong RS of 97 and robust 1-month gain of +107.1% within the Hardware theme, indicating sustained momentum."
+        "reason": "DELL boasts RS=97 and robust 1M=+107.1% and 3M=+199.8% returns, making it a leading hardware play with significant recent strength."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Graded C due to its comparatively lower 3-month return of +51.4% despite an RS of 98, suggesting relative underperformance among its semiconductor peers."
+        "reason": "Despite an RS=98 and 1M=+20.9%, UCTT's 3M=+51.4% return is relatively less explosive compared to other high-RS peers, making it a less compelling momentum play for new conviction in this market."
       }
     ]
   }
