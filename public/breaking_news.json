@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (16:30 EST)",
+  "last_checked": "June 02, 2026 (16:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Palo Alto Networks pops 12% on earnings beat as AI fuels cybersecurity urgency",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-02T16:35:31.279382-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Palo Alto Networks pops 12% on earnings beat, rosy guidance",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-02T09:20:30.736587-04:00",
       "pub_time": "2026-06-02T09:17:25-04:00"
-    },
-    {
-      "headline": "[CNBC] Biotech takeover target Abivax sinks over 37% as cancer cases cloud trial data for bowel disease drug",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-02T09:15:30.886155-04:00",
-      "pub_time": null
     }
   ],
   "seen_keys": [
@@ -9203,6 +9203,14 @@
     {
       "k": "palo alto networks pops 12 on earnings beat rosy guidance",
       "ts": "2026-06-02T20:30:33.439893+00:00"
+    },
+    {
+      "k": "palo alto networks pops 12 on earnings beat as ai fuels cybersecurity urgency",
+      "ts": "2026-06-02T20:35:32.059078+00:00"
+    },
+    {
+      "k": "ulta shares pop as beauty retailer beats wall street expectations and hikes earnings outlook",
+      "ts": "2026-06-02T20:35:32.059078+00:00"
     }
   ]
 }
