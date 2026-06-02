@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (19:10 EST)",
+  "last_checked": "June 02, 2026 (19:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Iran has mined 'large segments' of Hormuz Strait, Secretary of State Rubio says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-02T19:15:23.921673-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Palo Alto Networks pops 12% on earnings beat as AI fuels cybersecurity urgency",
       "source": "CNBC",
@@ -41,21 +49,9 @@
       "direction": "bullish",
       "timestamp": "2026-06-02T10:10:27.850103-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "Trump picks housing Dir. Bill Pulte as acting intelligence chief, replacing Tulsi Gabbard",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-02T09:20:30.736587-04:00",
-      "pub_time": "2026-06-02T09:17:25-04:00"
     }
   ],
   "seen_keys": [
-    {
-      "k": "blackrock sells 1b bitcoin as btc etfs hit 6 day losing streak — what is happening",
-      "ts": "2026-05-26T23:15:24.111897+00:00"
-    },
     {
       "k": "analysts say this ai stock could double is it actually a buy",
       "ts": "2026-05-26T23:25:20.946498+00:00"
@@ -9011,6 +9007,10 @@
     {
       "k": "cassidy pulte not competent for intelligence director role",
       "ts": "2026-06-02T23:10:28.718286+00:00"
+    },
+    {
+      "k": "iran has mined large segments of hormuz strait secretary of state rubio says",
+      "ts": "2026-06-02T23:15:24.275029+00:00"
     }
   ]
 }
