@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (10:05 EST)",
+  "last_checked": "June 02, 2026 (10:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] HPE surges 25% after blowout earnings, pacing for its best day ever",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-02T10:10:27.850103-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Trump picks housing Dir. Bill Pulte as acting intelligence chief, replacing Tulsi Gabbard",
       "source": "CNBC",
@@ -9727,6 +9735,14 @@
     {
       "k": "marvell stock soars 20 as nvidias huang says it could be the next trilliondollar company",
       "ts": "2026-06-02T13:40:32.666258+00:00"
+    },
+    {
+      "k": "hpe surges 25 after blowout earnings pacing for its best day ever",
+      "ts": "2026-06-02T14:10:28.232326+00:00"
+    },
+    {
+      "k": "commodities regulator alleges winklevoss gemini crypto exchange was politically targeted",
+      "ts": "2026-06-02T14:10:28.232326+00:00"
     }
   ]
 }
