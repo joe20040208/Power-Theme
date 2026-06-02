@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (09:10 EST)",
+  "last_checked": "June 02, 2026 (09:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Biotech takeover target Abivax sinks over 37% as cancer cases cloud trial data for bowel disease drug",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-02T09:15:30.886155-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Victoria Secret shares spike 40% after big earnings beat, raised sales outlook",
       "source": "CNBC",
@@ -28,30 +36,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "humana hum slid as medicare advantage rate fell short of expectations",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
-    {
-      "k": "leadership change weighs on paypal holdings’ pypl q1 performance",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
-    {
-      "k": "what makes iqvia holdings iqv an investment bet",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
-    {
-      "k": "lighter rules help us uk banks add 13tn to balance sheets",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
-    {
-      "k": "here’s artisan value fund’s insights on amazoncom amzn",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
-    {
-      "k": "morgan stanley and canaccord cut price targets on joby aviation joby after q1 update",
-      "ts": "2026-05-26T13:15:27.697411+00:00"
-    },
     {
       "k": "dropbox ceo drew houston to step down after 19 years at helm of cloud storage pioneer",
       "ts": "2026-05-26T13:20:25.994827+00:00"
@@ -9867,6 +9851,10 @@
     {
       "k": "homeowners insurance premiums have soared in recent years how to reduce your costs",
       "ts": "2026-06-02T12:35:25.199644+00:00"
+    },
+    {
+      "k": "biotech takeover target abivax sinks over 37 as cancer cases cloud trial data for bowel disease dru",
+      "ts": "2026-06-02T13:15:31.634985+00:00"
     }
   ]
 }
