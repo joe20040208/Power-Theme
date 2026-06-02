@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-02 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Steady Global Uptrend",
+    "spy_price": 759.57,
+    "spy_change_pct": 0.14,
+    "vix": 15.77,
+    "hy_oas": 2.72,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 56.5,
+    "mmth": 61.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "HPE",
+          "company": "Hewlett Packard Enterprise",
+          "reason": "\"Beat & Raise\" earnings provide a fresh, specific catalyst for continued institutional interest and potential upside."
+        },
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology, Inc.",
+          "reason": "Strong \"Industry Leader Endorsement\" and anticipated demand from key growth sectors positions it for sustained momentum."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "AMC",
+          "company": "AMC Entertainment Holdings, Inc.",
+          "reason": "Lacks a fresh fundamental catalyst today, primarily driven by retail sentiment and technical flows, making it prone to volatility without clear direction."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-02 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "The company continues to benefit from persistent demand for its AI GPU chips, though today's move is likely a technical bounce without fresh specific news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-20 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-Off / Credit Concern",
-    "spy_price": 708.72,
-    "spy_change_pct": -0.2,
-    "vix": 18.87,
-    "hy_oas": null,
-    "yield_curve": null,
-    "credit_status": "Unknown",
-    "s5fi": 66.6,
-    "mmth": 62.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "USAR",
-          "company": "United States Aerospace Inc.",
-          "reason": "Shares surged following news of a major acquisition that is expected to significantly expand market share and future revenue streams."
-        },
-        {
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "reason": "The semiconductor giant secured new, high-value contracts with leading data center providers, signaling robust demand for its networking solutions."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "BA",
-          "company": "Boeing Co.",
-          "reason": "Continued operational concerns and supply chain commentary kept the stock under pressure, reflecting persistent challenges rather than fresh catalysts."
         }
       ]
     }
