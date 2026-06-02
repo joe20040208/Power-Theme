@@ -2577,28 +2577,90 @@ const VIX_ZONES = [
 
 
 /* ──────────────────────────────────────────────── POSITION CALCULATOR ── */
-const vixToRiskPct = (v) => {
-  if (!v) return null;
-  if (v >= 30) return null;       // EXTREME FEAR — no new trades
-  if (v >= 24) return '0.2';      // ELEVATED CONCERN
-  if (v >= 18) return '0.3';      // CAUTION
-  if (v >= 14) return '0.5';      // NORMAL
-  return '0.3';                   // COMPLACENT
+// VIX sets the ceiling for max allowed risk %.
+const vixCeiling = (v) => {
+  if (!v || v >= 30) return null;  // EXTREME FEAR — no new trades
+  if (v >= 24) return 0.2;        // ELEVATED CONCERN
+  if (v >= 18) return 0.3;        // CAUTION
+  if (v >= 14) return 0.5;        // NORMAL
+  return 0.3;                     // COMPLACENT (over-calm = stay conservative)
 };
 
-const PositionCalc = ({ ibkrThemesData, thematicData, vix }) => {
+// Score 6 breadth factors: each returns +1 (bullish), 0 (neutral), or -1 (bearish).
+const calcBreadthScore = (internalsData, mc) => {
+  if (!mc && !internalsData) return null;
+  let score = 0;
+  let counted = 0;
+
+  const add = (points) => { score += points; counted++; };
+
+  // ADV/DEC %
+  const adv = mc?.adv_dec?.adv_pct;
+  if (adv != null) add(adv >= 55 ? 1 : adv < 45 ? -1 : 0);
+
+  // % stocks above SMA50
+  const s50 = mc?.sma50_counts?.above_pct;
+  if (s50 != null) add(s50 >= 60 ? 1 : s50 < 40 ? -1 : 0);
+
+  // % stocks above SMA200
+  const s200 = mc?.sma200_counts?.above_pct;
+  if (s200 != null) add(s200 >= 60 ? 1 : s200 < 40 ? -1 : 0);
+
+  // 52W Hi/Lo ratio
+  const hi = mc?.new_hl?.new_high, lo = mc?.new_hl?.new_low;
+  if (hi != null && lo != null && (hi + lo) > 0) {
+    const ratio = hi / (hi + lo) * 100;
+    add(ratio >= 70 ? 1 : ratio < 40 ? -1 : 0);
+  }
+
+  // TRIN: lower = bullish (money flowing into advancing stocks)
+  const trin = internalsData?.trin;
+  if (trin != null) add(trin < 0.7 ? 1 : trin > 1.3 ? -1 : 0);
+
+  // T2108: % stocks above 40-week MA
+  const t2108 = internalsData?.t2108;
+  if (t2108 != null) add(t2108 >= 60 ? 1 : t2108 < 40 ? -1 : 0);
+
+  return counted === 0 ? null : score;
+};
+
+// Breadth score → multiplier applied on top of VIX ceiling.
+const breadthMultiplier = (score) => {
+  if (score == null) return 1.0;
+  if (score >= 4)  return 1.0;
+  if (score >= 1)  return 0.8;
+  if (score >= -1) return 0.6;
+  return 0.4;
+};
+
+// Combined VIX + Breadth → suggested risk %.
+// Returns { value: '0.4', breadthScore: 1 } or null if no-trade.
+const calcRiskPct = (vix, internalsData, mc) => {
+  const ceiling = vixCeiling(vix);
+  if (ceiling == null) return null;
+  const bs   = calcBreadthScore(internalsData, mc);
+  const mult = breadthMultiplier(bs);
+  const raw  = ceiling * mult;
+  // Round to nearest 0.1, clamp 0.1–1.0
+  const val  = Math.max(0.1, Math.min(1.0, Math.round(raw * 10) / 10));
+  return { value: val.toFixed(1), breadthScore: bs };
+};
+
+const PositionCalc = ({ ibkrThemesData, thematicData, vix, internalsData }) => {
   const lang = useLang();
+  const mc   = thematicData?.market_condition;
   const [equity, setEquity] = React.useState('');
   const [entry, setEntry] = React.useState('');
   const [atr, setAtr] = React.useState('');
   const [riskPct, setRiskPct] = React.useState('0.5');
   const [riskAutoSet, setRiskAutoSet] = React.useState(false);
+  const [breadthScore, setBreadthScore] = React.useState(null);
 
   React.useEffect(() => {
-    const suggested = vixToRiskPct(vix);
-    if (suggested) { setRiskPct(suggested); setRiskAutoSet(true); }
-    else setRiskAutoSet(false);
-  }, [vix]);
+    const result = calcRiskPct(vix, internalsData, mc);
+    if (result) { setRiskPct(result.value); setRiskAutoSet(true); setBreadthScore(result.breadthScore); }
+    else { setRiskAutoSet(false); setBreadthScore(null); }
+  }, [vix, internalsData, mc]);
   const [stopStrategy, setStopStrategy] = React.useState('3');
   const [stopMode, setStopMode] = React.useState('lod');
   const [manualStop, setManualStop] = React.useState('');
@@ -2840,7 +2902,18 @@ const PositionCalc = ({ ibkrThemesData, thematicData, vix }) => {
         <div>
           <div className="flex items-center gap-1 mb-0.5">
             <div className="text-[11px] text-zinc-600">Risk %</div>
-            {riskAutoSet && <span className="text-[9px] px-1 py-px rounded bg-blue-500/15 text-blue-400 border border-blue-500/20 leading-none">VIX</span>}
+            {riskAutoSet && (
+              <span
+                className="text-[9px] px-1 py-px rounded bg-blue-500/15 text-blue-400 border border-blue-500/20 leading-none cursor-default"
+                title={breadthScore != null
+                  ? `VIX ceiling × breadth score (${breadthScore >= 0 ? '+' : ''}${breadthScore}/6)`
+                  : 'Set from VIX'}
+              >
+                {breadthScore != null
+                  ? `VIX · B${breadthScore >= 0 ? '+' : ''}${breadthScore}`
+                  : 'VIX'}
+              </span>
+            )}
           </div>
           {numInput(riskPct, v => { setRiskPct(v); setRiskAutoSet(false); }, '0.5')}
           <div className="mt-0.5 leading-tight">
@@ -9478,7 +9551,7 @@ const filtered = useMemo(() => {
           <aside className="w-[260px] flex-shrink-0 flex flex-col gap-3">
             <MarketPulseCard vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix} generatedAt={data?.generated_at} mc={data?.market_condition} briefData={briefData}/>
             <MarketInternalsV2 mc={data?.market_condition} internalsData={internalsData} generatedAt={data?.generated_at}/>
-            <PositionCalc ibkrThemesData={ibkrData} thematicData={data} vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix}/>
+            <PositionCalc ibkrThemesData={ibkrData} thematicData={data} vix={briefData?.global_snapshot?.find(r => r.label === "VIX")?.price ?? data?.vix} internalsData={internalsData}/>
           </aside>
 
           {/* ── CENTER MAIN CONTENT ──────────────────────────────── */}
