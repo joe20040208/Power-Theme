@@ -546,11 +546,6 @@ export default function Watchlist() {
           })}
         </div>
 
-        {/* ── Footer ──────────────────────────────────────────────────────── */}
-        <div className="px-3 py-2 border-t border-zinc-800 text-[10px] text-zinc-700">
-          {stocks.length} watching
-        </div>
-
         {/* ── Section modal ────────────────────────────────────────────────── */}
         {modal && (
           <SectionModal
