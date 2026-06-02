@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (09:15 EST)",
+  "last_checked": "June 02, 2026 (09:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump picks housing Dir. Bill Pulte as acting intelligence chief, replacing Tulsi Gabbard",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-02T09:20:30.736587-04:00",
+      "pub_time": "2026-06-02T09:17:25-04:00"
+    },
     {
       "headline": "[CNBC] Biotech takeover target Abivax sinks over 37% as cancer cases cloud trial data for bowel disease drug",
       "source": "CNBC",
@@ -36,18 +44,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "dropbox ceo drew houston to step down after 19 years at helm of cloud storage pioneer",
-      "ts": "2026-05-26T13:20:25.994827+00:00"
-    },
-    {
-      "k": "jim cramers top 10 things to watch in the stock market tuesday",
-      "ts": "2026-05-26T13:20:25.994827+00:00"
-    },
-    {
-      "k": "if viking therapeutics is acquired here’s who wins",
-      "ts": "2026-05-26T13:20:25.994827+00:00"
-    },
     {
       "k": "stock market today dow up 250 points on usiran deal hopes oil prices tumble live coverage",
       "ts": "2026-05-26T13:25:26.485789+00:00"
@@ -9855,6 +9851,10 @@
     {
       "k": "biotech takeover target abivax sinks over 37 as cancer cases cloud trial data for bowel disease dru",
       "ts": "2026-06-02T13:15:31.634985+00:00"
+    },
+    {
+      "k": "trump picks housing dir bill pulte as acting intelligence chief replacing tulsi gabbard",
+      "ts": "2026-06-02T13:20:31.337378+00:00"
     }
   ]
 }
