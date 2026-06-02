@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (05:20 EST)",
+  "last_checked": "June 02, 2026 (05:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Treasury yields fall as investors pin hopes on Israel-Hezbollah ceasefire",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-02T05:25:30.197317-04:00",
+      "pub_time": "2026-06-02T04:10:15-04:00"
+    },
     {
       "headline": "Biotech takeover target Abivax sinks over 30% after bowel disease drug trial update",
       "source": "CNBC",
@@ -12,26 +20,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "‘the market has spoken’ ferrari shares fall 6 after carmaker unveils first fully electric vehicle",
-      "ts": "2026-05-26T09:20:30.043752+00:00"
-    },
-    {
-      "k": "you do not have to suffer money expert tori dunlap says you shouldnt try to whiteknuckle your",
-      "ts": "2026-05-26T09:20:30.043752+00:00"
-    },
-    {
-      "k": "sundance deploys new pouching equipment",
-      "ts": "2026-05-26T09:20:30.043752+00:00"
-    },
-    {
-      "k": "gdm signs gold offtake deal with mri trading",
-      "ts": "2026-05-26T09:20:30.043752+00:00"
-    },
-    {
-      "k": "should i stay or should i go what data says jobswitching can get you",
-      "ts": "2026-05-26T09:25:22.820634+00:00"
-    },
     {
       "k": "treasury yields slide after memorial day break as traders weigh iran peace prospects",
       "ts": "2026-05-26T09:30:27.646670+00:00"
@@ -10083,6 +10071,10 @@
     {
       "k": "asiapacific markets close mixed as iran war uncertainty keeps investors on edge",
       "ts": "2026-06-02T08:00:31.047097+00:00"
+    },
+    {
+      "k": "treasury yields fall as investors pin hopes on israelhezbollah ceasefire",
+      "ts": "2026-06-02T09:25:30.538491+00:00"
     }
   ]
 }
