@@ -1,48 +1,17 @@
 {
-  "last_checked": "June 03, 2026 (01:30 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 03, 2026 (01:35 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Oil climbs as U.S., Iran trade strikes while Trump says negotiations with Tehran underway",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-03T01:35:19.947238-04:00",
+      "pub_time": "2026-06-03T01:33:04-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "european markets head for mixed open as traders assess fragile usiran truce",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "advanced micro devices inc amd plans to invest more than 10b in taiwan’s ai market",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "citi lifts price target on marvell technology inc mrvl",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "coherent corp cohr reports q3 fiscal 2026 results",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "mizuho maintains an “outperform” rating on on semiconductor corporation on",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "globalfoundries inc gfs launches quantum technology solutions",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "jpmorgan resets hpq stock price target ahead of earnings",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "applied materials inc amat sees quarterly revenue exceeding forecasts",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "analog devices inc adi anticipates q3 revenue above estimates",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
-    {
-      "k": "is doordash dash one of the best revenue growth stocks to buy",
-      "ts": "2026-05-27T05:30:27.951888+00:00"
-    },
     {
       "k": "market crash 2 stocks id buy without hesitation",
       "ts": "2026-05-27T05:35:21.591721+00:00"
@@ -8806,6 +8775,10 @@
     {
       "k": "like indonesia indias central bank may hike rates to defend its currency",
       "ts": "2026-06-03T05:25:20.548756+00:00"
+    },
+    {
+      "k": "oil climbs as us iran trade strikes while trump says negotiations with tehran underway",
+      "ts": "2026-06-03T05:35:20.461209+00:00"
     }
   ]
 }
