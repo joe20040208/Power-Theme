@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 03, 2026 (03:35 EST)",
+  "last_checked": "June 03, 2026 (03:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump tariff plans weigh on European stocks; Dulux owner's shares halted as takeover falls through",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-03T03:40:25.929579-04:00",
+      "pub_time": "2026-06-03T03:38:09-04:00"
+    },
     {
       "headline": "European shares head for negative open as White House proposes fresh tariffs on EU",
       "source": "CNBC",
@@ -8579,6 +8587,10 @@
     {
       "k": "oecd warns of global slowdown as usiran war stymies economic growth prospects",
       "ts": "2026-06-03T07:10:24.283143+00:00"
+    },
+    {
+      "k": "trump tariff plans weigh on european stocks dulux owners shares halted as takeover falls through",
+      "ts": "2026-06-03T07:40:26.252551+00:00"
     }
   ]
 }
