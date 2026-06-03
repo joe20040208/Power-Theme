@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 02, 2026 (19:12 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 03, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,42 +16,42 @@
     },
     {
       "label": "VIX",
-      "price": 15.77,
-      "change": -0.28,
+      "price": 16.2,
+      "change": 0.43,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.45,
-      "change": -0.02,
+      "price": 4.5,
+      "change": 0.04,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Rising"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66934.33,
-      "change_pct": 0.91
+      "price": 68402.13,
+      "change_pct": 2.5
     },
     "dax": {
       "label": "DAX",
-      "price": 25003.04,
-      "change_pct": -0.4
+      "price": 24863.37,
+      "change_pct": -1.04
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10339.0,
-      "change_pct": -0.68
+      "price": 10333.27,
+      "change_pct": -0.39
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 56.5,
-    "mmth": 61.5,
+    "s5fi": 56.2,
+    "mmth": 61.8,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Modest Gains / Sector Strength",
+  "mood": "Tech Resilience, Global Mixed Signals",
   "analysis": {
-    "action_line": "VIX 15.77 Normal + S5FI 56.5% breadth + mixed global tape (Nikkei up, Europe down) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets exhibited a mixed close today, with the Nikkei 225 posting a solid 0.91% gain, while European indices like the DAX (-0.40%) and FTSE 100 (-0.68%) declined. This divergence suggests a lack of broad-based global conviction. The absence of BAML HY Spread data renders the credit regime unknown, adding a layer of uncertainty to overall risk appetite. Domestically, market breadth remains positive but not robust, with 56.5% of S&P 500 stocks above their 50-day moving average (S5FI) and 61.5% above their 200-day moving average (MMTH).",
-    "analysis_para2": "Given the mixed global picture and stable but not overwhelmingly strong US breadth, the mechanical plan remains focused on Relative Strength leaders holding key support levels. The S&P 500's close at 7609.78 suggests a mild uptrend, but watch for a break below recent lows (e.g., 7500) as a potential bearish signal. The Nasdaq 100, showing stronger performance today, should hold above its 50-day moving average to maintain its leadership. A rising VIX above 18, or a significant drop in S5FI below 50%, would indicate increasing risk-off sentiment and necessitate tighter stops or reduced exposure. For now, selective long positions in high RS names near technical pullbacks are warranted.",
-    "technical_signal": "No reversal pattern confirmed yet. The market closed with modest gains, particularly in the Nasdaq, without triggering any downside reversal signals.",
+    "action_line": "VIX 16.20 Normal + S5FI 56.2% breadth + mixed global tape (Nikkei strong, Europe weak) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets show a significant divergence this morning, with the Nikkei 225 surging +2.50% while European indices like the DAX (-1.04%) and FTSE 100 (-0.39%) are retreating. This mixed international backdrop, coupled with a rising 10Y Yield at 4.50%, warrants caution. Despite the varied global picture, US market breadth remains resilient, with 56.2% of S&P 500 stocks above their 50-day moving average and 61.8% above their 200-day.",
+    "analysis_para2": "The mechanical plan for today involves a continued focus on relative strength leaders within the dominant Semiconductors, Hardware, and Neocloud themes. Watch for potential breakouts above recent highs or constructive pullbacks to short-term moving averages in these names, given the current strong momentum. The S&P 500 and Nasdaq 100 are showing strength pre-market, so maintaining positions in strong areas is key. Monitor the VIX at 16.20 for any unexpected spikes and the 10Y yield at 4.50% as a potential macro headwind. Prioritize trades with clear entry and exit levels.",
+    "technical_signal": "No reversal pattern confirmed yet. Major indices are showing positive momentum pre-market, suggesting continued strength.",
     "ticker_intel": [
       {
         "ticker": "MXL",
         "company": "MaxLinear, Inc",
         "grade": "A+",
-        "reason": "With RS=98 and a staggering 3M=+413.4% return, MXL is a top semiconductor conviction long demonstrating exceptional momentum in the current regime."
+        "reason": "MXL, with an RS of 98 and a staggering +413.4% 3-month return, exhibits exceptional long-term momentum within the hot Semiconductor theme, offering high ADR for dynamic trading."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL boasts RS=97 and robust 1M=+107.1% and 3M=+199.8% returns, making it a leading hardware play with significant recent strength."
+        "reason": "DELL, a Hardware sector leader with an RS of 97 and a robust +107.1% 1-month return, shows powerful recent buying interest, confirming the strength in tech-related hardware."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite an RS=98 and 1M=+20.9%, UCTT's 3M=+51.4% return is relatively less explosive compared to other high-RS peers, making it a less compelling momentum play for new conviction in this market."
+        "reason": "UCTT, despite an RS of 98 and +20.9% 1-month gain, shows comparatively weaker 3-month momentum (+51.4%) relative to its high-flying Semiconductor peers, suggesting a potential lag."
       }
     ]
   }
