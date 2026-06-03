@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 03, 2026 (18:30 EDT)",
+  "generated_at": "June 03, 2026 (19:16 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10332.3,
-      "change_pct": -0.4
+      "price": 10373.5,
+      "change_pct": 0.33
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mild Risk-Off / Sector Strength",
+  "mood": "Modest Weakness / Yields Rising",
   "analysis": {
-    "action_line": "VIX 16.06 Normal + S5FI 53.7% breadth + mixed global tape (DAX up, Nikkei/FTSE down) → trade RS leaders selectively near support.",
-    "analysis_para1": "The global market presented a mixed picture today, with the DAX posting a gain of +0.48% while the Nikkei 225 and FTSE 100 closed down -0.30% and -0.40% respectively. This cautious international backdrop coincided with a rising 10-year yield at 4.49%, signaling a tightening credit environment that may weigh on broader sentiment. With the BAML HY Spread regime unknown, credit conditions warrant close monitoring. Domestically, market breadth remained moderate with S5FI at 53.7% and MMTH at 61.4%, indicating resilience in some areas despite the S&P 500's -0.74% dip.",
-    "analysis_para2": "Given the slight dip in major indices today (S&P 500 -0.74%, Nasdaq 100 -0.29%), our mechanical plan emphasizes selective engagement with proven relative strength leaders. Monitor key support levels for the S&P 500 around 7550 and Nasdaq 100 near 30500, as a break could indicate further weakness. For high RS names identified in the thematic scanner, look for constructive pullbacks to the 10- or 20-day moving averages as potential entry points. Maintain tight risk management and observe how leaders behave if broader market weakness persists, potentially signaling sector rotation or profit-taking.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's moderate dip in major indices (S&P 500 -0.74%, Nasdaq 100 -0.29%) does not constitute a significant reversal signal given the overall breadth.",
+    "action_line": "VIX 16.06 Normal + S5FI 53.7% breadth + Nikkei slightly down → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with Nikkei 225 slipping by 0.30% while European indices like the DAX (+0.48%) and FTSE 100 (+0.33%) posted modest gains. This divergence came as the US 10-Year yield continued its rise to 4.49%, potentially indicating inflationary concerns or anticipation of tighter monetary policy. The BAML HY Spread remains an unknown regime, limiting insights into US credit conditions. Despite this, US market breadth, represented by S5FI at 53.7% and MMTH at 61.4%, suggests a resilient underlying market structure even after today's decline.",
+    "analysis_para2": "In this environment of modest weakness and rising yields, the mechanical plan is to monitor key support levels for the major indices. The S&P 500's dip today suggests testing the recent range, while the Nasdaq 100 showed slightly more resilience. Traders should prioritize relative strength leaders that can hold up in a challenging backdrop, especially those from themes with strong earnings momentum. Watch for signs of accumulation at 50-day moving averages for leading stocks, and consider reduced position sizing given the rising yield environment. A close below yesterday's low for the S&P 500 would signal further caution.",
+    "technical_signal": "No reversal pattern confirmed yet. While major indices saw a slight decline today, breadth metrics remain above 50%, indicating underlying health rather than a broad capitulation.",
     "ticker_intel": [
+      {
+        "ticker": "MXL",
+        "company": "MaxLinear, Inc",
+        "grade": "A+",
+        "reason": "RS 98 and a staggering +424.6% 3-month return solidify its leadership in the booming Semiconductors theme, making it a prime candidate in a selective market."
+      },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
-        "grade": "A+",
-        "reason": "With an RS of 98 and a staggering +99.0% 1M return, DELL exemplifies leadership in the Hardware theme, showing exceptional momentum in a discerning market."
-      },
-      {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Boasting an RS of 98, a +109.3% 1M return, and +259.8% 3M return, VSH is a clear standout within the high-performing Semiconductors theme, indicating strong investor interest."
+        "reason": "With an RS of 98 and a near-100% 1-month return, DELL demonstrates exceptional momentum within the Hardware theme, suitable for continued relative strength plays."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite an RS of 98, UCTT's +26.6% 1M and +56.9% 3M returns are significantly weaker compared to its high-flying Semiconductor peers, making it a relative laggard to avoid in this market regime."
+        "reason": "Despite an RS of 98, its +56.9% 3-month return is significantly lagging other Semiconductor peers, suggesting less potent momentum in the current selective market."
       }
     ]
   }
