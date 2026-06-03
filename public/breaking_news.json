@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 03, 2026 (02:25 EST)",
+  "last_checked": "June 03, 2026 (02:30 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "European shares head for negative open as White House proposes fresh tariffs on EU",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-03T02:30:28.864259-04:00",
+      "pub_time": "2026-06-03T02:07:08-04:00"
+    },
     {
       "headline": "Oil climbs as U.S., Iran trade strikes while Trump says negotiations with Tehran underway",
       "source": "CNBC",
@@ -8651,6 +8659,10 @@
     {
       "k": "perplexity ceo tells cnbc one metric will determine who wins the ai race",
       "ts": "2026-06-03T06:25:31.847485+00:00"
+    },
+    {
+      "k": "european shares head for negative open as white house proposes fresh tariffs on eu",
+      "ts": "2026-06-03T06:30:29.712013+00:00"
     }
   ]
 }
