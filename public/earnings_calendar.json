@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T21:58:58.263166+00:00",
+  "generated_at": "2026-06-03T12:13:51.193961+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 11.18,
-      "avg_volume": 5179270,
+      "avg_volume": 5146114,
       "adr_pct": 5.6,
-      "dollar_volume": 57904239.0
+      "dollar_volume": 57533555.0
     },
     {
       "date": "2026-06-03",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 481.57,
-      "avg_volume": 23895664,
+      "avg_volume": 24162220,
       "adr_pct": 3.6,
-      "dollar_volume": 11507434912.0
+      "dollar_volume": 11635800285.0
     },
     {
       "date": "2026-06-03",
@@ -49,9 +49,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 768.95,
-      "avg_volume": 3602900,
+      "avg_volume": 3608753,
       "adr_pct": 5.0,
-      "dollar_volume": 2770449955.0
+      "dollar_volume": 2774950619.0
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "CXM",
+      "company": "Sprinklr, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 1398617590.0,
+      "eps_estimate": 0.1,
+      "eps_act": 0.13,
+      "eps_surp_pct": 34.02,
+      "rev_est": 215906220.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 5.62,
+      "avg_volume": 4007953,
+      "adr_pct": 4.2,
+      "dollar_volume": 22524696.0
     },
     {
       "date": "2026-06-03",
@@ -66,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 77.61,
-      "avg_volume": 572159,
+      "avg_volume": 573090,
       "adr_pct": 3.5,
-      "dollar_volume": 44405260.0
+      "dollar_volume": 44477515.0
     },
     {
       "date": "2026-06-03",
@@ -83,43 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 220.37,
-      "avg_volume": 1147675,
+      "avg_volume": 1162460,
       "adr_pct": 3.6,
-      "dollar_volume": 252913140.0
-    },
-    {
-      "date": "2026-06-03",
-      "ticker": "M",
-      "company": "Macy's, Inc.",
-      "time_of_day": "BMO",
-      "mkt_cap": 5715711703.0,
-      "eps_estimate": 0.03,
-      "eps_act": 1.67,
-      "eps_surp_pct": 6.73,
-      "rev_est": 4612557320.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 21.67,
-      "avg_volume": 6746820,
-      "adr_pct": 3.6,
-      "dollar_volume": 146203589.0
-    },
-    {
-      "date": "2026-06-03",
-      "ticker": "MDT",
-      "company": "Medtronic plc",
-      "time_of_day": "BMO",
-      "mkt_cap": 94686516095.0,
-      "eps_estimate": 1.55,
-      "eps_act": 1.36,
-      "eps_surp_pct": 0.89,
-      "rev_est": 9614543510.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 73.75,
-      "avg_volume": 9232981,
-      "adr_pct": 1.9,
-      "dollar_volume": 680932349.0
+      "dollar_volume": 256171310.0
     },
     {
       "date": "2026-06-03",
@@ -134,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 79.25,
-      "avg_volume": 1565082,
+      "avg_volume": 1583042,
       "adr_pct": 4.1,
-      "dollar_volume": 124032748.0
+      "dollar_volume": 125456078.0
     },
     {
       "date": "2026-06-03",
@@ -151,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 18.7,
-      "avg_volume": 1943571,
+      "avg_volume": 1922871,
       "adr_pct": 3.1,
-      "dollar_volume": 36344778.0
+      "dollar_volume": 35957688.0
     },
     {
       "date": "2026-06-03",
@@ -168,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 97.21,
-      "avg_volume": 1118045,
+      "avg_volume": 1125442,
       "adr_pct": 4.1,
-      "dollar_volume": 108685154.0
+      "dollar_volume": 109404217.0
     },
     {
       "date": "2026-06-03",
@@ -185,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 182.94,
-      "avg_volume": 2958290,
+      "avg_volume": 2980482,
       "adr_pct": 4.3,
-      "dollar_volume": 541189573.0
+      "dollar_volume": 545249377.0
     },
     {
       "date": "2026-06-04",
@@ -202,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 663.14,
-      "avg_volume": 418403,
+      "avg_volume": 416623,
       "adr_pct": 5.2,
-      "dollar_volume": 277459765.0
+      "dollar_volume": 276279376.0
     },
     {
       "date": "2026-06-04",
@@ -219,9 +202,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 627.0,
-      "avg_volume": 2691884,
+      "avg_volume": 2694392,
       "adr_pct": 6.0,
-      "dollar_volume": 1687811268.0
+      "dollar_volume": 1689383784.0
     },
     {
       "date": "2026-06-04",
@@ -236,9 +219,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 59.49,
-      "avg_volume": 2282590,
+      "avg_volume": 2321754,
       "adr_pct": 2.4,
-      "dollar_volume": 135791279.0
+      "dollar_volume": 138121145.0
     },
     {
       "date": "2026-06-04",
@@ -253,9 +236,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 55.1,
-      "avg_volume": 3947084,
+      "avg_volume": 3953001,
       "adr_pct": 4.5,
-      "dollar_volume": 217484328.0
+      "dollar_volume": 217810355.0
     },
     {
       "date": "2026-06-04",
@@ -270,9 +253,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 162.74,
-      "avg_volume": 1483945,
+      "avg_volume": 1472025,
       "adr_pct": 5.4,
-      "dollar_volume": 241497209.0
+      "dollar_volume": 239557348.0
     },
     {
       "date": "2026-06-04",
@@ -287,9 +270,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 37.36,
-      "avg_volume": 6704667,
+      "avg_volume": 6766571,
       "adr_pct": 5.9,
-      "dollar_volume": 250486359.0
+      "dollar_volume": 252799093.0
     },
     {
       "date": "2026-06-04",
@@ -304,9 +287,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 126.47,
-      "avg_volume": 3063234,
+      "avg_volume": 3076657,
       "adr_pct": 3.3,
-      "dollar_volume": 387407204.0
+      "dollar_volume": 389104811.0
     },
     {
       "date": "2026-06-04",
@@ -321,9 +304,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 12.09,
-      "avg_volume": 4589284,
+      "avg_volume": 4667703,
       "adr_pct": 5.7,
-      "dollar_volume": 55484444.0
+      "dollar_volume": 56432529.0
     },
     {
       "date": "2026-06-04",
@@ -338,9 +321,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 48.09,
-      "avg_volume": 13353650,
+      "avg_volume": 13364668,
       "adr_pct": 8.9,
-      "dollar_volume": 642177028.0
+      "dollar_volume": 642706884.0
     },
     {
       "date": "2026-06-04",
@@ -355,9 +338,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 82.33,
-      "avg_volume": 3813392,
+      "avg_volume": 3844506,
       "adr_pct": 5.8,
-      "dollar_volume": 313956563.0
+      "dollar_volume": 316518179.0
     },
     {
       "date": "2026-06-04",
@@ -372,9 +355,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 75.01,
-      "avg_volume": 1187492,
+      "avg_volume": 1189900,
       "adr_pct": 5.7,
-      "dollar_volume": 89073775.0
+      "dollar_volume": 89254399.0
     },
     {
       "date": "2026-06-04",
@@ -389,9 +372,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 89.87,
-      "avg_volume": 820685,
+      "avg_volume": 817201,
       "adr_pct": 2.8,
-      "dollar_volume": 73754961.0
+      "dollar_volume": 73441854.0
     },
     {
       "date": "2026-06-05",
@@ -406,9 +389,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 39.35,
-      "avg_volume": 537723,
+      "avg_volume": 540314,
       "adr_pct": 2.5,
-      "dollar_volume": 21159400.0
+      "dollar_volume": 21261356.0
     },
     {
       "date": "2026-06-05",
@@ -423,9 +406,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 24.64,
-      "avg_volume": 6171809,
+      "avg_volume": 6334096,
       "adr_pct": 16.9,
-      "dollar_volume": 152073374.0
+      "dollar_volume": 156072125.0
     },
     {
       "date": "2026-06-08",
@@ -440,9 +423,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 20.99,
-      "avg_volume": 8903182,
+      "avg_volume": 8872737,
       "adr_pct": 2.9,
-      "dollar_volume": 186877790.0
+      "dollar_volume": 186238750.0
     },
     {
       "date": "2026-06-08",
@@ -457,9 +440,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 135.65,
-      "avg_volume": 844276,
+      "avg_volume": 843837,
       "adr_pct": 3.2,
-      "dollar_volume": 114526039.0
+      "dollar_volume": 114466489.0
     },
     {
       "date": "2026-06-09",
@@ -474,9 +457,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.38,
-      "avg_volume": 1449248,
+      "avg_volume": 1447696,
       "adr_pct": 3.9,
-      "dollar_volume": 74462362.0
+      "dollar_volume": 74382620.0
     },
     {
       "date": "2026-06-09",
@@ -491,9 +474,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 754.21,
-      "avg_volume": 597370,
+      "avg_volume": 597468,
       "adr_pct": 3.4,
-      "dollar_volume": 450542428.0
+      "dollar_volume": 450616340.0
     },
     {
       "date": "2026-06-09",
@@ -508,9 +491,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 50.48,
-      "avg_volume": 2496104,
+      "avg_volume": 2496267,
       "adr_pct": 3.0,
-      "dollar_volume": 126003330.0
+      "dollar_volume": 126011558.0
     },
     {
       "date": "2026-06-09",
@@ -525,9 +508,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 19.84,
-      "avg_volume": 3351550,
+      "avg_volume": 3430946,
       "adr_pct": 7.1,
-      "dollar_volume": 66494752.0
+      "dollar_volume": 68069969.0
     },
     {
       "date": "2026-06-09",
@@ -542,9 +525,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 100.47,
-      "avg_volume": 1910306,
+      "avg_volume": 1894131,
       "adr_pct": 2.3,
-      "dollar_volume": 191928444.0
+      "dollar_volume": 190303342.0
     },
     {
       "date": "2026-06-09",
@@ -559,9 +542,43 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.31,
-      "avg_volume": 694443,
+      "avg_volume": 690750,
       "adr_pct": 3.3,
-      "dollar_volume": 36326313.0
+      "dollar_volume": 36133132.0
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CHWY",
+      "company": "Chewy, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 8780878856.0,
+      "eps_estimate": 0.43,
+      "eps_act": 0.09,
+      "eps_surp_pct": -1.21,
+      "rev_est": 3351562860.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 21.47,
+      "avg_volume": 8608875,
+      "adr_pct": 4.6,
+      "dollar_volume": 184832546.0
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "THO",
+      "company": "THOR Industries, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 4078288693.0,
+      "eps_estimate": 1.4,
+      "eps_act": 0.34,
+      "eps_surp_pct": 831.51,
+      "rev_est": 2351469340.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 77.54,
+      "avg_volume": 755310,
+      "adr_pct": 3.6,
+      "dollar_volume": 58566737.0
     }
   ]
 }
