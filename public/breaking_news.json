@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 03, 2026 (17:55 EST)",
+  "last_checked": "June 03, 2026 (18:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Broadcom stock plunges 12% on weak software sales, unchanged AI chip forecast for the year",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-03T18:00:30.311085-04:00",
+      "pub_time": "2026-06-03T17:59:20-04:00"
+    },
     {
       "headline": "KKR, Ares, Blackstone tumble premarket as Partners Group caps private equity fund withdrawals",
       "source": "CNBC",
@@ -6899,6 +6907,10 @@
     {
       "k": "broadcom stock plunges 14 on weak software sales unchanged ai chip forecast for the year",
       "ts": "2026-06-03T21:53:34.202275+00:00"
+    },
+    {
+      "k": "broadcom stock plunges 12 on weak software sales unchanged ai chip forecast for the year",
+      "ts": "2026-06-03T22:00:30.881242+00:00"
     }
   ]
 }
