@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-03 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Mixed Signals, Rising Volatility",
+    "spy_price": 759.57,
+    "spy_change_pct": 0.14,
+    "vix": 16.05,
+    "hy_oas": 2.72,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 56.2,
+    "mmth": 61.8,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil",
+          "reason": "Exxon Mobil is poised for gains following the nearly 2% jump in crude oil prices, boosting revenue outlook for its upstream operations."
+        },
+        {
+          "ticker": "CRM",
+          "company": "Salesforce, Inc.",
+          "reason": "Salesforce shares are drawing attention after announcing a strategic AI-powered partnership with a major enterprise, signaling strong future growth in cloud solutions."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVIDIA (NVDA) continues to attract algorithmic and retail interest, riding on persistent AI infrastructure demand and strong technical momentum, despite no new catalysts today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-02 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "AMC",
           "company": "AMC Entertainment Holdings, Inc.",
           "reason": "Retail interest continues to drive speculative flows based on technical setups rather than fresh fundamental news, fitting a recycled narrative."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-21 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Cautious Optimism, Futures Lag",
-    "spy_price": 708.72,
-    "spy_change_pct": -0.2,
-    "vix": 18.8,
-    "hy_oas": 2.83,
-    "yield_curve": 0.54,
-    "credit_status": "Complacent",
-    "s5fi": 66.9,
-    "mmth": 62.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "New AI integration features announced for its Azure cloud services are expected to drive enterprise adoption and expand market share."
-        },
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "Positive Phase 3 clinical trial data for its next-generation obesity treatment has been released, bolstering future revenue projections and market leadership."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "The company continues to benefit from persistent demand for its AI GPU chips, though today's move is likely a technical bounce without fresh specific news."
         }
       ]
     }
