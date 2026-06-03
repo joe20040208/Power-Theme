@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 02, 2026 (23:20 EST)",
+  "last_checked": "June 02, 2026 (23:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. proposes fresh tariffs on 60 economies over forced labor trade practices",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-02T23:25:24.109038-04:00",
+      "pub_time": "2026-06-02T23:19:51-04:00"
+    },
     {
       "headline": "Oil climbs as U.S.-Iran trade strikes while Trump says negotiations with Tehran underway",
       "source": "CNBC",
@@ -8923,6 +8931,10 @@
     {
       "k": "josh turek wins iowa democratic senate primary that could shape democrats path to senate majority",
       "ts": "2026-06-03T02:00:27.167762+00:00"
+    },
+    {
+      "k": "us proposes fresh tariffs on 60 economies over forced labor trade practices",
+      "ts": "2026-06-03T03:25:24.840630+00:00"
     }
   ]
 }
