@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-03 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-Off / Credit Caution",
+    "spy_price": 754.24,
+    "spy_change_pct": -0.7,
+    "vix": 16.06,
+    "hy_oas": 2.71,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 53.7,
+    "mmth": 61.4,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "INTC",
+          "company": "Intel Corporation",
+          "reason": "High conviction due to fresh AI product innovations expected to boost market share and revenue growth."
+        },
+        {
+          "ticker": "ABVX",
+          "company": "AbbVie Inc.",
+          "reason": "High conviction due to a new drug safety signal, posing potential headwinds for key pharmaceutical products."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Featured due to ongoing technical momentum and consistent institutional flow, rather than a new fundamental catalyst today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-03 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA is experiencing technical flow driven by options expiry and rebalancing, with no new fundamental catalyst reported today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-21 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Cautious / Risk-Off Bias",
-    "spy_price": 704.08,
-    "spy_change_pct": -0.65,
-    "vix": 19.5,
-    "hy_oas": 2.87,
-    "yield_curve": 0.52,
-    "credit_status": "Complacent",
-    "s5fi": 62.9,
-    "mmth": 60.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "APLD",
-          "company": "Applied Digital Corporation",
-          "reason": "The company's 'Beat & Raise' catalyst signals strong financial performance and a positive outlook for future growth."
-        },
-        {
-          "ticker": "LWLG",
-          "company": "Lightwave Logic, Inc.",
-          "reason": "News of 'AI Commercialization & GDSFactory Integration' indicates significant progress in leveraging a high-growth technology sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings, Inc.",
-          "reason": "Retail interest continues to drive speculative flows based on technical setups rather than fresh fundamental news, fitting a recycled narrative."
         }
       ]
     }

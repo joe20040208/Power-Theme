@@ -1,90 +1,90 @@
 {
-  "generated_at": "2026-06-03 08:05 ET",
-  "phase": "PRE",
-  "session": "Pre-Market",
+  "generated_at": "2026-06-03 17:05 ET",
+  "phase": "POST",
+  "session": "Post-Market",
   "assets": {
     "SPY": {
       "label": "S&P 500 ETF",
-      "price": 759.57,
-      "open": 757.03,
-      "high": 760.4,
-      "low": 756.75,
-      "close": 759.57,
-      "prev_open": 755.36,
-      "prev_close": 758.54,
-      "volume": 31410700,
-      "change_pct": 0.14
+      "price": 754.24,
+      "open": 758.15,
+      "high": 758.8,
+      "low": 753.57,
+      "close": 754.24,
+      "prev_open": 757.03,
+      "prev_close": 759.57,
+      "volume": 43721234,
+      "change_pct": -0.7
     },
     "QQQ": {
       "label": "Nasdaq 100 ETF",
-      "price": 746.16,
-      "open": 742.4,
-      "high": 746.44,
-      "low": 739.23,
-      "close": 746.16,
-      "prev_open": 737.04,
-      "prev_close": 742.74,
-      "volume": 29688500,
-      "change_pct": 0.46
+      "price": 744.21,
+      "open": 747.31,
+      "high": 748.63,
+      "low": 741.02,
+      "close": 744.21,
+      "prev_open": 742.4,
+      "prev_close": 746.16,
+      "volume": 37748173,
+      "change_pct": -0.26
     },
     "^VIX": {
       "label": "VIX",
-      "price": 16.05,
+      "price": 16.06,
       "open": 15.97,
-      "high": 16.15,
-      "low": 15.97,
-      "close": 16.05,
+      "high": 16.63,
+      "low": 15.94,
+      "close": 16.06,
       "prev_open": 16.28,
       "prev_close": 15.77,
       "volume": 0,
-      "change_pct": 1.78
+      "change_pct": 1.84
     },
     "CL=F": {
       "label": "Crude Oil",
-      "price": 95.63,
+      "price": 96.3,
       "open": 93.45,
       "high": 97.0,
       "low": 93.45,
-      "close": 95.63,
+      "close": 96.3,
       "prev_open": 92.45,
       "prev_close": 93.76,
-      "volume": 74924,
-      "change_pct": 1.99
+      "volume": 236619,
+      "change_pct": 2.71
     },
     "^N225": {
       "label": "Nikkei 225",
-      "price": 68402.13,
-      "open": 67238.53,
-      "high": 68786.49,
-      "low": 67238.53,
-      "close": 68402.13,
-      "prev_open": 66629.6,
-      "prev_close": 66734.24,
-      "volume": 0,
-      "change_pct": 2.5
+      "price": 66734.24,
+      "open": 66629.6,
+      "high": 66748.06,
+      "low": 65551.13,
+      "close": 66734.24,
+      "prev_open": 66363.43,
+      "prev_close": 66934.33,
+      "volume": 187700000,
+      "change_pct": -0.3
     },
     "^GDAXI": {
       "label": "DAX",
-      "price": 24924.6,
+      "price": 24795.94,
       "open": 24912.31,
       "high": 24973.15,
-      "low": 24832.41,
-      "close": 24924.6,
+      "low": 24761.96,
+      "close": 24795.94,
       "prev_open": 25197.9,
       "prev_close": 25124.17,
       "volume": 0,
-      "change_pct": -0.79
+      "change_pct": -1.31
     }
   },
   "fred": {
-    "hy_oas": 2.72,
+    "hy_oas": 2.71,
     "yield_curve": 0.42,
     "hy_oas_stale": false,
     "yield_curve_stale": true
   },
   "breadth": {
-    "s5fi": 56.2,
-    "mmth": 61.8
+    "s5fi": 53.7,
+    "mmth": 61.4
   },
   "regime": {
     "credit_status": "Complacent",
@@ -98,34 +98,34 @@
     }
   },
   "analysis": {
-    "title": "Pre-Market Brief: June 03, 2026",
-    "mood_emoji": "⚠️",
-    "mood": "Mixed Signals, Rising Volatility",
-    "narrative": "US equities show modest gains pre-market, but rising volatility and crude oil prices suggest underlying caution across the broader market. Global markets are divergent, with a strong Nikkei offsetting a weaker DAX, creating a complex risk landscape.",
-    "snapshot_md": "| Asset | Last | % Change | Sentiment |\n|-------|------|----------|-----------|\n| S&P 500 ETF | 759.57 | +0.14% | ➡️ |\n| Nasdaq 100 ETF | 746.16 | +0.46% | ➡️ |\n| VIX | 16.05 | +1.78% | 📈 |\n| Crude Oil | 95.63 | +1.99% | 📈 |\n| Nikkei 225 | 68402.13 | +2.50% | 📈 |\n| DAX | 24924.60 | -0.79% | 📉 |",
-    "macro_section": "The High-Yield Credit Spread (BAMLH0A0HYM2) currently sits at 2.72%, signaling a Complacent regime for credit markets. Concurrently, the 10Y-2Y yield curve (T10Y2Y) is at +0.420, indicating a Normal / Steepening environment. This combination suggests that while credit investors remain unconcerned, the yield curve behavior warrants attention, potentially tempering institutional risk appetite despite the complacent credit spreads.",
-    "analysis_para1": "Global markets are presenting a mixed picture this morning, with the Nikkei 225 surging by an impressive +2.50%, suggesting strong regional sentiment. In contrast, the DAX is down -0.79%, reflecting potential weakness in European markets. Concurrently, Crude Oil prices have jumped +1.99% to $95.63, a move that often signals either strong demand or supply concerns. Despite this divergent global performance and rising energy costs, US High-Yield Credit Spreads (BAMLH0A0HYM2) remain at a complacent 2.72%, implying that while there are pockets of global concern, US institutional risk appetite appears resilient for now.",
-    "analysis_para2": "The primary flow today appears driven by a mechanical re-pricing of risk, evidenced by the VIX climbing +1.78% to 16.05 and Crude Oil surging +1.99% to $95.63. This simultaneous rise in volatility and energy prices suggests an underlying shift in market perception, potentially fueled by emerging geopolitical headlines or supply chain anxieties not yet fully priced in. Such moves often trigger defensive positioning or profit-taking in more speculative assets, even as some regions like the Nikkei experience strong momentum.",
-    "analysis_para3": "Traders should prioritize risk management today, with the VIX uptick serving as a key indicator. Watch for the S&P 500 ETF to hold above 755 as an initial support level; a break below could signal increased selling pressure. Conversely, a sustained push above 760 for the S&P 500 ETF, coupled with a moderating VIX, might signal renewed bullish conviction. Given the rising Crude Oil prices, monitoring commodity-linked equities for potential long opportunities on pullbacks, but maintaining tight stops, is advisable. Today's focus should be on capital preservation and reacting to shifts in volatility rather than chasing momentum.",
-    "technical_signal": "No reversal pattern confirmed yet. US equity ETFs are showing modest gains, keeping them within recent ranges, while market breadth indicators (56.2% > 50DMA, 61.8% > 200DMA) remain constructive. The key watch today is sustained VIX action above 16.00; a further rise could signal an impending shift in market character and trigger broader risk-off flows.",
+    "title": "Post-Market Brief: June 03, 2026",
+    "mood_emoji": "📉",
+    "mood": "Risk-Off / Credit Caution",
+    "narrative": "Global equities experienced a broad retreat today as rising crude oil prices fueled inflation concerns, driving a cautious sentiment across markets. The VIX saw a modest increase, indicating growing unease despite complacent credit spreads.",
+    "snapshot_md": "| Asset | Last | % Change | Sentiment |\n|-------|------|----------|-----------|\n| S&P 500 ETF | 754.24 | -0.70% | 📉 |\n| Nasdaq 100 ETF | 744.21 | -0.26% | ➡️ |\n| VIX | 16.06 | +1.84% | 📈 |\n| Crude Oil | 96.30 | +2.71% | 📈 |\n| Nikkei 225 | 66734.24 | -0.30% | ➡️ |\n| DAX | 24795.94 | -1.31% | 📉 |",
+    "macro_section": "The BAMLH0A0HYM2 (HY Credit Spread) stands at 2.71%, signaling a 'Complacent' regime, while the 10Y-2Y Yield Curve remains 'Normal / Steepening' at +0.420. Despite the credit market's apparent calm, today's market action reflects a growing institutional risk appetite shift towards caution, potentially anticipating future policy responses or inflationary pressures.",
+    "analysis_para1": "Global equity markets mirrored the cautious sentiment, with the DAX down significantly by -1.31% and the Nikkei 225 slipping -0.30%. This global weakness, coupled with a robust +2.71% surge in Crude Oil to $96.30, suggests inflationary concerns are taking hold. While the US High Yield Credit Spread remains 'Complacent' at 2.71%, the divergence between this credit calm and the broader equity decline indicates that US risk appetite is likely to become more guarded, awaiting further clarity on macroeconomic trends.",
+    "analysis_para2": "The single dominant 'Why' behind today's primary flow appears to be renewed inflation fears stemming from the notable +2.71% spike in Crude Oil prices. This mechanical catalyst directly impacts market expectations for central bank policy, with higher oil prices often translating to tighter monetary conditions. The resulting price action saw equities broadly retract, particularly in Europe, as investors recalibrated their risk exposure in anticipation of potential hawkish shifts from global central banks.",
+    "analysis_para3": "Traders should maintain a cautious stance today, with key support levels for the S&P 500 ETF (SPY) around 750 and the Nasdaq 100 ETF (QQQ) near 740 to watch for stabilization. A sustained break below these thresholds, coupled with a further escalation in the VIX above 17, would signal increased risk-off conditions and warrant reduced equity exposure. Conversely, any rebound with declining VIX and stabilization in crude oil could provide opportunities for short-term longs, but caution remains paramount.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing signs of increased downside pressure, with VIX rising and major indices declining. Traders should watch for a clear daily close above yesterday's high or a significant volume spike on a bounce as potential early signs of stabilization, but current momentum favors continued weakness.",
     "ticker_intel": {
       "a_grade": [
         {
-          "ticker": "XOM",
-          "company": "Exxon Mobil",
-          "reason": "Exxon Mobil is poised for gains following the nearly 2% jump in crude oil prices, boosting revenue outlook for its upstream operations."
+          "ticker": "INTC",
+          "company": "Intel Corporation",
+          "reason": "High conviction due to fresh AI product innovations expected to boost market share and revenue growth."
         },
         {
-          "ticker": "CRM",
-          "company": "Salesforce, Inc.",
-          "reason": "Salesforce shares are drawing attention after announcing a strategic AI-powered partnership with a major enterprise, signaling strong future growth in cloud solutions."
+          "ticker": "ABVX",
+          "company": "AbbVie Inc.",
+          "reason": "High conviction due to a new drug safety signal, posing potential headwinds for key pharmaceutical products."
         }
       ],
       "c_grade": [
         {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA (NVDA) continues to attract algorithmic and retail interest, riding on persistent AI infrastructure demand and strong technical momentum, despite no new catalysts today."
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Featured due to ongoing technical momentum and consistent institutional flow, rather than a new fundamental catalyst today."
         }
       ]
     }
