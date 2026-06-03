@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 03, 2026 (14:01 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 03, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7570.53,
-      "change": -39.25,
-      "change_pct": -0.52
+      "price": 7553.68,
+      "change": -56.1,
+      "change_pct": -0.74
     },
     {
       "label": "Nasdaq 100",
-      "price": 30587.39,
-      "change": -73.21,
-      "change_pct": -0.24
+      "price": 30571.24,
+      "change": -89.36,
+      "change_pct": -0.29
     },
     {
       "label": "VIX",
-      "price": 16.16,
-      "change": 0.39,
+      "price": 16.06,
+      "change": 0.29,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24795.94,
-      "change_pct": -1.31
+      "price": 25124.17,
+      "change_pct": 0.48
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 54.5,
-    "mmth": 62.6,
+    "s5fi": 53.7,
+    "mmth": 61.4,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Weakness / Selective Opportunity",
+  "mood": "Mild Risk-Off / Sector Strength",
   "analysis": {
-    "action_line": "VIX 16.16 Normal + S5FI 54.5% breadth + negative global tape across Nikkei and DAX → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets are broadly lower today, with the DAX leading declines at -1.31%, followed by the FTSE 100 at -0.40% and Nikkei 225 at -0.30%, signaling a cautious international tone. In the US, the BAML HY Spread remains an unknown regime, providing no clear signal from the credit markets. Market breadth shows modest underlying health with S5FI at 54.5% and MMTH at 62.6%, suggesting that while the general market is weak, a majority of stocks are still above their key moving averages.",
-    "analysis_para2": "The S&P 500 is trading down 0.52% at 7570.53, while the Nasdaq 100 shows relative resilience, down 0.24% at 30587.39. Despite the day's weakness, market breadth remains constructive, with 54.5% of stocks above their 50-day moving average and 62.6% above their 200-day moving average. The mechanical plan for today involves monitoring the S&P 500 for a potential rebound off intraday support levels, or continued weakness towards previous swing lows. Focus remains on high-Relative Strength leaders, as they are likely to hold up best and offer cleaner entry points on shallow pullbacks in a consolidating market.",
-    "technical_signal": "No reversal pattern confirmed yet. The market is experiencing a moderate down day without immediate signs of a capitulation or bullish engulfing reversal.",
+    "action_line": "VIX 16.06 Normal + S5FI 53.7% breadth + mixed global tape (DAX up, Nikkei/FTSE down) → trade RS leaders selectively near support.",
+    "analysis_para1": "The global market presented a mixed picture today, with the DAX posting a gain of +0.48% while the Nikkei 225 and FTSE 100 closed down -0.30% and -0.40% respectively. This cautious international backdrop coincided with a rising 10-year yield at 4.49%, signaling a tightening credit environment that may weigh on broader sentiment. With the BAML HY Spread regime unknown, credit conditions warrant close monitoring. Domestically, market breadth remained moderate with S5FI at 53.7% and MMTH at 61.4%, indicating resilience in some areas despite the S&P 500's -0.74% dip.",
+    "analysis_para2": "Given the slight dip in major indices today (S&P 500 -0.74%, Nasdaq 100 -0.29%), our mechanical plan emphasizes selective engagement with proven relative strength leaders. Monitor key support levels for the S&P 500 around 7550 and Nasdaq 100 near 30500, as a break could indicate further weakness. For high RS names identified in the thematic scanner, look for constructive pullbacks to the 10- or 20-day moving averages as potential entry points. Maintain tight risk management and observe how leaders behave if broader market weakness persists, potentially signaling sector rotation or profit-taking.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's moderate dip in major indices (S&P 500 -0.74%, Nasdaq 100 -0.29%) does not constitute a significant reversal signal given the overall breadth.",
     "ticker_intel": [
       {
-        "ticker": "AXTI",
-        "company": "AXT Inc",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A+",
-        "reason": "AXTI earns an A+ for its market-leading RS 99 and robust 3-month gain of +165.4%, demonstrating strong momentum in the booming Semiconductor theme."
+        "reason": "With an RS of 98 and a staggering +99.0% 1M return, DELL exemplifies leadership in the Hardware theme, showing exceptional momentum in a discerning market."
       },
       {
-        "ticker": "MU",
-        "company": "Micron Technology, Inc.",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "MU is an A-grade pick due to its strong RS 98 and exceptional 1-month return of +96.2%, signaling powerful demand within the Semiconductor sector."
+        "reason": "Boasting an RS of 98, a +109.3% 1M return, and +259.8% 3M return, VSH is a clear standout within the high-performing Semiconductors theme, indicating strong investor interest."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "UCTT is graded C despite its high RS 98 due to its comparatively weaker 3-month return of +51.4%, suggesting potential underperformance or slowing momentum relative to its peers in Semiconductors."
+        "reason": "Despite an RS of 98, UCTT's +26.6% 1M and +56.9% 3M returns are significantly weaker compared to its high-flying Semiconductor peers, making it a relative laggard to avoid in this market regime."
       }
     ]
   }
