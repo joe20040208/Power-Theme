@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-04 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Global Resilience, US Tech Divergence",
+    "spy_price": 757.09,
+    "spy_change_pct": 0.38,
+    "vix": 15.4,
+    "hy_oas": 2.75,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 59.3,
+    "mmth": 64.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "OSCR",
+          "company": "Oscar Health",
+          "reason": "Shares surged following a significant analyst upgrade, signaling renewed confidence in its long-term growth trajectory and operational efficiency."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp",
+          "reason": "Microsoft announced a major new AI partnership, reinforcing its leadership in generative AI and attracting fresh investor interest in its cloud and software offerings."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp",
+          "reason": "NVIDIA continues to benefit from strong underlying demand for AI chips, but today's price action reflects ongoing momentum without a fresh, specific catalyst."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-04 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA (NVDA) maintains its upward trend on continued demand for AI compute chips, driven by strong buy-side momentum and technical breakouts above key resistance levels."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-22 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On Accumulation",
-    "spy_price": 711.21,
-    "spy_change_pct": 1.01,
-    "vix": 18.92,
-    "hy_oas": 2.85,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 62.6,
-    "mmth": 60.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSTR",
-          "company": "MicroStrategy Incorporated",
-          "reason": "Strong performance driven by continued strategic Bitcoin accumulation announcements and executive commentary, establishing leadership in the digital asset space."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Announced a groundbreaking new generative AI platform integration with a major enterprise client, significantly expanding its cloud services penetration and market share."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Sustained bullish momentum driven by ongoing AI hardware demand expectations and positive technical breakouts, rather than a fresh fundamental catalyst today."
         }
       ]
     }
