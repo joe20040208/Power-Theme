@@ -2636,8 +2636,11 @@ const PositionCalc = ({ ibkrThemesData, thematicData, vix, internalsData }) => {
   }
 
   const maxLossBudget = effectiveEquity > 0 && r > 0 ? effectiveEquity * r / 100 : null;
-  const dollarRisk = shares != null && riskUnit > 0 ? shares * riskUnit : null;
-  const positionValue = shares != null && e > 0 ? shares * e : null;
+  const dollarRisk = shares != null && shares > 0 && riskUnit > 0 ? shares * riskUnit : null;
+  const positionValue = shares != null && shares > 0 && e > 0 ? shares * e : null;
+  // When shares calculates to 0, show a budget warning instead of "0"
+  const budgetTooSmall = shares === 0 && riskUnit > 0 && effectiveEquity > 0;
+  const minEquityNeeded = budgetTooSmall ? Math.ceil(riskUnit / (r / 100)) : null;
 
   const fmtPrice = v => v != null ? `$${v.toFixed(2)}` : '—';
   const fmtDollar = v => v != null ? `$${v.toLocaleString('en-US', { maximumFractionDigits: 0 })}` : '—';
@@ -2707,7 +2710,7 @@ const PositionCalc = ({ ibkrThemesData, thematicData, vix, internalsData }) => {
           {numInput(entry, setEntry, '0.00')}
           <div className="mt-0.5 leading-tight">
             <div className="text-[11px] text-zinc-600 uppercase tracking-wider">Position</div>
-            <div className="text-[11px] font-mono font-bold text-zinc-300">{positionValue != null ? fmtDollar(positionValue) : <span className="text-zinc-700">—</span>}</div>
+            <div className="text-[11px] font-mono font-bold text-zinc-300">{positionValue != null && !budgetTooSmall ? fmtDollar(positionValue) : <span className="text-zinc-700">—</span>}</div>
           </div>
         </div>
         <div>
@@ -2785,18 +2788,29 @@ const PositionCalc = ({ ibkrThemesData, thematicData, vix, internalsData }) => {
 
       {/* Results */}
       <div className="pt-2 border-t border-zinc-800/60 space-y-2">
+        {budgetTooSmall && (
+          <div className="bg-amber-500/10 border border-amber-500/30 rounded px-2 py-1.5">
+            <div className="text-[10px] font-bold text-amber-400 uppercase tracking-wide mb-0.5">Risk Budget Too Small</div>
+            <div className="text-[10px] text-zinc-400">
+              Budget <span className="text-amber-400 font-mono">{fmtDollar(maxLossBudget)}</span> &lt; 1 share risk <span className="font-mono text-zinc-300">{fmtDollar(riskUnit)}</span>
+            </div>
+            {minEquityNeeded != null && (
+              <div className="text-[10px] text-zinc-500 mt-0.5">Need <span className="font-mono text-zinc-300">{fmtDollar(minEquityNeeded)}</span> equity or ↑ Risk %</div>
+            )}
+          </div>
+        )}
         <div className="grid grid-cols-3 gap-x-3">
           <div>
             <div className="text-[11px] text-zinc-600 mb-0.5">Shares</div>
-            <div className="text-[14px] font-mono font-bold text-zinc-100">{shares ?? '—'}</div>
+            <div className="text-[14px] font-mono font-bold text-zinc-100">{budgetTooSmall ? '—' : (shares ?? '—')}</div>
           </div>
           <div>
             <div className="text-[11px] text-zinc-600 mb-0.5">$ at Risk</div>
-            <div className="text-[14px] font-mono font-bold text-red-400">{fmtDollar(dollarRisk)}</div>
+            <div className="text-[14px] font-mono font-bold text-red-400">{budgetTooSmall ? '—' : fmtDollar(dollarRisk)}</div>
           </div>
           <div>
             <div className="text-[11px] text-zinc-600 mb-0.5">Pos Size</div>
-            <div className="text-[14px] font-mono font-bold text-zinc-100">{positionValue != null && effectiveEquity > 0 ? `${(positionValue / effectiveEquity * 100).toFixed(1)}%` : '—'}</div>
+            <div className="text-[14px] font-mono font-bold text-zinc-100">{(!budgetTooSmall && positionValue != null && effectiveEquity > 0) ? `${(positionValue / effectiveEquity * 100).toFixed(1)}%` : '—'}</div>
           </div>
         </div>
         <div>
