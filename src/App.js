@@ -2514,13 +2514,27 @@ const PositionCalc = ({ ibkrThemesData, thematicData, vix, internalsData }) => {
 
     // Always fetch live price + LOD from Finnhub; Yahoo Finance only when no thematic bars
     try {
-      // Always call Yahoo (also has price + LOD via meta), call Finnhub when key is set
-      const yahooFetch = fetch(`https://corsproxy.io/?${encodeURIComponent(`https://query1.finance.yahoo.com/v8/finance/chart/${s}?range=90d&interval=1d`)}`);
+      // Yahoo: try direct + 3 CORS proxies in order until one succeeds
+      const yhUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${s}?range=90d&interval=1d`;
+      const yhProxies = [
+        yhUrl,
+        `https://corsproxy.io/?url=${encodeURIComponent(yhUrl)}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(yhUrl)}`,
+        `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yhUrl)}`,
+      ];
+      let yahooData = null;
+      for (const url of yhProxies) {
+        try {
+          const res = await fetch(url);
+          const json = await res.json();
+          if (json?.chart?.result?.[0]) { yahooData = json; break; }
+        } catch {}
+      }
+
       const finnhubFetch = FINNHUB_KEY
         ? fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FINNHUB_KEY}`).then(r => r.ok ? r.json() : null).catch(() => null)
         : Promise.resolve(null);
-      const [yahooRes, quoteData] = await Promise.all([yahooFetch, finnhubFetch]);
-      const yahooData = await yahooRes.json().catch(() => null);
+      const quoteData = await finnhubFetch;
 
       // Yahoo meta has live regularMarketPrice + previousClose
       const yMeta = yahooData?.chart?.result?.[0]?.meta;
