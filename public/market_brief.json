@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 03, 2026 (19:16 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 04, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,34 +16,34 @@
     },
     {
       "label": "VIX",
-      "price": 16.06,
-      "change": 0.29,
+      "price": 16.5,
+      "change": 0.44,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.49,
-      "change": 0.04,
+      "price": 4.45,
+      "change": -0.04,
       "change_pct": null,
-      "trend_label": "Rising"
+      "trend_label": "Falling"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66734.24,
-      "change_pct": -0.3
+      "price": 67470.69,
+      "change_pct": -1.36
     },
     "dax": {
       "label": "DAX",
-      "price": 25124.17,
-      "change_pct": 0.48
+      "price": 24974.42,
+      "change_pct": 0.72
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10373.5,
-      "change_pct": 0.33
+      "price": 10315.76,
+      "change_pct": -0.16
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Modest Weakness / Yields Rising",
+  "mood": "Mixed Sentiment / Tech Weakness",
   "analysis": {
-    "action_line": "VIX 16.06 Normal + S5FI 53.7% breadth + Nikkei slightly down → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with Nikkei 225 slipping by 0.30% while European indices like the DAX (+0.48%) and FTSE 100 (+0.33%) posted modest gains. This divergence came as the US 10-Year yield continued its rise to 4.49%, potentially indicating inflationary concerns or anticipation of tighter monetary policy. The BAML HY Spread remains an unknown regime, limiting insights into US credit conditions. Despite this, US market breadth, represented by S5FI at 53.7% and MMTH at 61.4%, suggests a resilient underlying market structure even after today's decline.",
-    "analysis_para2": "In this environment of modest weakness and rising yields, the mechanical plan is to monitor key support levels for the major indices. The S&P 500's dip today suggests testing the recent range, while the Nasdaq 100 showed slightly more resilience. Traders should prioritize relative strength leaders that can hold up in a challenging backdrop, especially those from themes with strong earnings momentum. Watch for signs of accumulation at 50-day moving averages for leading stocks, and consider reduced position sizing given the rising yield environment. A close below yesterday's low for the S&P 500 would signal further caution.",
-    "technical_signal": "No reversal pattern confirmed yet. While major indices saw a slight decline today, breadth metrics remain above 50%, indicating underlying health rather than a broad capitulation.",
+    "action_line": "VIX 16.50 Normal + S5FI 53.7% breadth + mixed global tape (Nikkei down, DAX up) → favor RS leaders on dips.",
+    "analysis_para1": "Global markets are presenting a mixed picture this morning, with the Nikkei 225 down 1.36% and the FTSE 100 dipping 0.16%, contrasting with a 0.72% rise in the DAX. Stateside, both the S&P 500 and Nasdaq 100 are trading lower, indicating pre-market weakness. The falling 10-Year Treasury Yield to 4.45% hints at increased safety flows or growth concerns. Despite this, US market breadth remains moderate, with 53.7% of stocks above their 50-day moving average (S5FI) and 61.4% above their 200-day (MMTH), suggesting underlying support is still present even with today's dips.",
+    "analysis_para2": "Today's mechanical plan calls for caution, with major indices showing pre-market weakness. Traders should monitor key support levels on the S&P 500 and Nasdaq 100 for potential bounce opportunities or further breakdown. Given the VIX remains normal at 16.50 and breadth is moderate, we continue to favor selective long entries in RS leaders within strong themes like Hardware and Semiconductors. Look for these strong tickers to consolidate or dip constructively near prior resistance-turned-support, using tight risk management and confirming entries with strong volume.",
+    "technical_signal": "No reversal pattern confirmed yet. While US indices are pulling back, the VIX remains normal and market breadth is holding above critical levels, suggesting a standard pullback rather than a capitulation.",
     "ticker_intel": [
-      {
-        "ticker": "MXL",
-        "company": "MaxLinear, Inc",
-        "grade": "A+",
-        "reason": "RS 98 and a staggering +424.6% 3-month return solidify its leadership in the booming Semiconductors theme, making it a prime candidate in a selective market."
-      },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
+        "grade": "A+",
+        "reason": "With RS 98 and a remarkable 1-month return of +99.0%, DELL stands out as a leading Hardware play, demonstrating exceptional current momentum."
+      },
+      {
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "With an RS of 98 and a near-100% 1-month return, DELL demonstrates exceptional momentum within the Hardware theme, suitable for continued relative strength plays."
+        "reason": "Sporting an RS of 98 and an explosive +109.3% in the last month, VSH exhibits strong relative strength in the high-performing Semiconductor theme."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite an RS of 98, its +56.9% 3-month return is significantly lagging other Semiconductor peers, suggesting less potent momentum in the current selective market."
+        "reason": "Despite an RS of 98, UCTT's 1-month return of +26.6% and 3-month return of +56.9% are relatively subdued compared to its high-flying sector peers, indicating potential underperformance if the Semiconductor rally cools."
       }
     ]
   }
