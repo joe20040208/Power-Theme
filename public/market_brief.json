@@ -1,57 +1,57 @@
 {
-  "generated_at": "June 04, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 04, 2026 (12:21 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7553.68,
-      "change": -56.1,
-      "change_pct": -0.74
+      "price": 7579.23,
+      "change": 25.55,
+      "change_pct": 0.34
     },
     {
       "label": "Nasdaq 100",
-      "price": 30571.24,
-      "change": -89.36,
-      "change_pct": -0.29
+      "price": 30406.25,
+      "change": -164.99,
+      "change_pct": -0.54
     },
     {
       "label": "VIX",
-      "price": 16.5,
-      "change": 0.44,
+      "price": 15.57,
+      "change": -0.49,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.45,
-      "change": -0.04,
+      "price": 4.47,
+      "change": -0.03,
       "change_pct": null,
-      "trend_label": "Falling"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 67470.69,
-      "change_pct": -1.36
+      "price": 68402.13,
+      "change_pct": 2.5
     },
     "dax": {
       "label": "DAX",
-      "price": 24974.42,
-      "change_pct": 0.72
+      "price": 24944.95,
+      "change_pct": 0.6
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10315.76,
-      "change_pct": -0.16
+      "price": 10360.32,
+      "change_pct": 0.27
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 53.7,
-    "mmth": 61.4,
+    "s5fi": 58.2,
+    "mmth": 63.3,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed Sentiment / Tech Weakness",
+  "mood": "Thematic Strength / Mixed Broad Market",
   "analysis": {
-    "action_line": "VIX 16.50 Normal + S5FI 53.7% breadth + mixed global tape (Nikkei down, DAX up) → favor RS leaders on dips.",
-    "analysis_para1": "Global markets are presenting a mixed picture this morning, with the Nikkei 225 down 1.36% and the FTSE 100 dipping 0.16%, contrasting with a 0.72% rise in the DAX. Stateside, both the S&P 500 and Nasdaq 100 are trading lower, indicating pre-market weakness. The falling 10-Year Treasury Yield to 4.45% hints at increased safety flows or growth concerns. Despite this, US market breadth remains moderate, with 53.7% of stocks above their 50-day moving average (S5FI) and 61.4% above their 200-day (MMTH), suggesting underlying support is still present even with today's dips.",
-    "analysis_para2": "Today's mechanical plan calls for caution, with major indices showing pre-market weakness. Traders should monitor key support levels on the S&P 500 and Nasdaq 100 for potential bounce opportunities or further breakdown. Given the VIX remains normal at 16.50 and breadth is moderate, we continue to favor selective long entries in RS leaders within strong themes like Hardware and Semiconductors. Look for these strong tickers to consolidate or dip constructively near prior resistance-turned-support, using tight risk management and confirming entries with strong volume.",
-    "technical_signal": "No reversal pattern confirmed yet. While US indices are pulling back, the VIX remains normal and market breadth is holding above critical levels, suggesting a standard pullback rather than a capitulation.",
+    "action_line": "VIX 15.57 Normal + S5FI 58.2% breadth + Nikkei +2.50% strength → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets, led by a strong +2.50% surge in the Nikkei, show generally positive sentiment today, echoed by gains in the DAX and FTSE 100. Despite this global strength, the U.S. credit regime remains uncertain with the BAML HY Spread unavailable, though the 10Y Yield holds stable at 4.47%. U.S. market breadth reflects a selective environment, with 58.2% of S&P 500 stocks above their 50-day moving average and 63.3% above their 200-day, indicating underlying health but not broad-based momentum. The S&P 500's modest gain contrasts with the Nasdaq 100's slight decline, suggesting capital rotation or profit-taking within tech.",
+    "analysis_para2": "Our mechanical plan centers on exploiting the identified thematic strength in Hardware and Semiconductors. Key support for the S&P 500 near 7550 and Nasdaq 100 around 30300 should be closely monitored as potential inflection points. Given the VIX is at 15.57, aggressive chasing is not advised; instead, observe pullbacks in high RS stocks to their short-term moving averages (e.g., 10-day or 21-day EMA) for lower-risk entry points. A breach of these index supports could signal broader weakness and necessitate scaling back exposure to even thematic leaders. Maintain discipline, prioritizing trade setups with tight stops and clear risk parameters.",
+    "technical_signal": "No reversal pattern confirmed yet. The market exhibits mixed signals with sector-specific strength offsetting broader index weakness.",
     "ticker_intel": [
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A+",
-        "reason": "With RS 98 and a remarkable 1-month return of +99.0%, DELL stands out as a leading Hardware play, demonstrating exceptional current momentum."
+        "reason": "DELL dominates the Hardware theme with a +99.0% 1-month return and RS 98, showing powerful momentum in a selective market."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Sporting an RS of 98 and an explosive +109.3% in the last month, VSH exhibits strong relative strength in the high-performing Semiconductor theme."
+        "reason": "VSH demonstrates superior momentum with a +109.3% 1-month return and RS 98, a top semiconductor performer in this selective market."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite an RS of 98, UCTT's 1-month return of +26.6% and 3-month return of +56.9% are relatively subdued compared to its high-flying sector peers, indicating potential underperformance if the Semiconductor rally cools."
+        "reason": "UCTT, with RS 98, exhibits a comparatively modest +26.6% 1-month return, lagging more explosive peers within the powerful Semiconductor theme."
       }
     ]
   }
