@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 04, 2026 (18:30 EDT)",
+  "generated_at": "June 04, 2026 (18:51 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed US, Global Divergence",
+  "mood": "Sectoral Strength Amidst Divergence",
   "analysis": {
-    "action_line": "VIX 15.40 Normal + S5FI 59.3% breadth + Nikkei strong / DAX weak → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets displayed significant divergence today, with the Nikkei 225 surging +2.50% while the DAX declined -1.31%, and the FTSE 100 posted a modest +0.27% gain. US credit health remains an unknown as BAML HY Spread data is unavailable, limiting a full assessment of risk appetite from that perspective. Despite this mixed global picture, US market breadth indicates underlying strength, with 59.3% of S&P 500 stocks above their 50-day moving average and 64.0% above their 200-day moving average. The S&P 500 closed positively (+0.41%), contrasting with the Nasdaq 100's -0.53% dip, suggesting potential sector rotation. This environment points to a market with selective strength rather than broad, uniform momentum.",
-    "analysis_para2": "The mechanical plan for tomorrow is to continue focusing on high-relative-strength names within the dominant Hardware and Semiconductors themes. Optimal entry points for these leaders are typically on pullbacks to the 10-day or 21-day exponential moving averages, avoiding chasing extended moves higher. Traders should monitor the Nasdaq 100 closely, as a sustained breach below its 21-day EMA would signal a need for increased caution in growth-oriented sectors. Conversely, continued strength in the S&P 500 above the 7550 level would confirm the underlying positive bias. Maintain strict risk management with well-placed stops below key support or recent pivot lows, as market divergence can create volatility in weaker segments.",
-    "technical_signal": "No reversal pattern confirmed yet. While the Nasdaq 100 saw a slight decline, overall market breadth and the S&P 500's positive close do not indicate a broad reversal.",
+    "action_line": "VIX 15.40 Normal + S5FI 59.3% breadth + mixed global tape (Nikkei strong, DAX weak) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets displayed significant divergence today, with the Nikkei surging +2.50% while the DAX slumped -1.31%, and the FTSE 100 posted a modest +0.27% gain. In the US, the S&P 500 advanced slightly, but the Nasdaq 100 saw a minor pullback, indicating potential sector rotation. The 10-year yield remains stable at 4.48%, suggesting no immediate credit distress, though the BAML HY Spread regime is currently unknown. US breadth, with 59.3% of stocks above their 50-day moving average and 64.0% above their 200-day, reflects a healthy underlying market structure despite the mixed index performance.",
+    "analysis_para2": "Our mechanical plan emphasizes identifying continued strength in leading themes, particularly Hardware and Semiconductors, given the day's mixed broader market signals. With the S&P 500 holding positive while the Nasdaq 100 dipped, we will focus on Relative Strength (RS) 98+ stocks that exhibit robust recent performance. We look for pullbacks to key moving averages or established support zones as opportunistic entry points, while maintaining strict stop-loss discipline based on volatility and monitoring daily average true range (ADR). Continued strength in these select leaders, alongside stable breadth, will be key to sustaining portfolio alpha.",
+    "technical_signal": "No reversal pattern confirmed yet. The market shows mixed signals with some indices advancing while others retreat, lacking clear signs of a definitive trend reversal.",
     "ticker_intel": [
-      {
-        "ticker": "UMAC",
-        "company": "Unusual Machines, Inc.",
-        "grade": "A+",
-        "reason": "Exhibiting extreme leading momentum with RS 98 and a staggering +137.7% in the last month, fitting the Hardware theme's current strength."
-      },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
+        "grade": "A+",
+        "reason": "Dell exhibits exceptional momentum with RS 98 and a 1-month return of +95.1%, making it a top contender in the robust Hardware theme."
+      },
+      {
+        "ticker": "HIMX",
+        "company": "Himax Technologies, Inc.",
         "grade": "A",
-        "reason": "A prominent Hardware leader with RS 98 and robust +95.1% 1-month return, demonstrating strong institutional sponsorship in the current market."
+        "reason": "Himax leads the Semiconductors theme with an RS 98 and an impressive 1-month return of +96.5%, indicative of strong institutional interest."
       },
       {
         "ticker": "UCTT",
         "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite a high RS 98, its modest +12.7% 1-month and +67.9% 3-month returns make it a relative laggard within the Semiconductors theme compared to other explosive leaders."
+        "reason": "Despite an RS 98, Ultra Clean Holdings shows comparatively weaker 1-month (+12.7%) and 3-month (+67.9%) performance within its theme, suggesting it may lag peers."
       }
     ]
   }
