@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 04, 2026 (18:51 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 05, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,33 +16,33 @@
     },
     {
       "label": "VIX",
-      "price": 15.4,
-      "change": -0.66,
+      "price": 15.81,
+      "change": 0.41,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.48,
-      "change": -0.01,
+      "price": 4.54,
+      "change": 0.06,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Rising"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 68402.13,
-      "change_pct": 2.5
+      "price": 66588.12,
+      "change_pct": -1.31
     },
     "dax": {
       "label": "DAX",
-      "price": 24795.94,
-      "change_pct": -1.31
+      "price": 24917.26,
+      "change_pct": -0.11
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10360.32,
+      "price": 10388.59,
       "change_pct": 0.27
     }
   },
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Sectoral Strength Amidst Divergence",
+  "mood": "Selective Tech Strength, Asia Weakness",
   "analysis": {
-    "action_line": "VIX 15.40 Normal + S5FI 59.3% breadth + mixed global tape (Nikkei strong, DAX weak) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets displayed significant divergence today, with the Nikkei surging +2.50% while the DAX slumped -1.31%, and the FTSE 100 posted a modest +0.27% gain. In the US, the S&P 500 advanced slightly, but the Nasdaq 100 saw a minor pullback, indicating potential sector rotation. The 10-year yield remains stable at 4.48%, suggesting no immediate credit distress, though the BAML HY Spread regime is currently unknown. US breadth, with 59.3% of stocks above their 50-day moving average and 64.0% above their 200-day, reflects a healthy underlying market structure despite the mixed index performance.",
-    "analysis_para2": "Our mechanical plan emphasizes identifying continued strength in leading themes, particularly Hardware and Semiconductors, given the day's mixed broader market signals. With the S&P 500 holding positive while the Nasdaq 100 dipped, we will focus on Relative Strength (RS) 98+ stocks that exhibit robust recent performance. We look for pullbacks to key moving averages or established support zones as opportunistic entry points, while maintaining strict stop-loss discipline based on volatility and monitoring daily average true range (ADR). Continued strength in these select leaders, alongside stable breadth, will be key to sustaining portfolio alpha.",
-    "technical_signal": "No reversal pattern confirmed yet. The market shows mixed signals with some indices advancing while others retreat, lacking clear signs of a definitive trend reversal.",
+    "action_line": "VIX 15.81 Normal + S5FI 59.3% breadth + mixed global tape with Nikkei weakness → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets present a divergent picture this morning, with the Nikkei 225 down -1.31% indicating Asian weakness, while the DAX is nearly flat at -0.11% and the FTSE 100 shows modest strength at +0.27%. This mixed international backdrop coincides with rising 10Y Treasury yields now at 4.54%, suggesting a less accommodative environment for broader growth. However, US breadth metrics remain constructive, with 59.3% of stocks above their 50-day moving average (S5FI) and 64.0% above their 200-day moving average (MMTH), indicating underlying market health despite sector rotation.",
+    "analysis_para2": "The US pre-market points to S&P 500 strength (+0.41%) contrasting with Nasdaq 100 weakness (-0.53%), highlighting a rotation within the market. Our mechanical plan focuses on confirming support for the S&P 500 above its prior day's close while watching for the Nasdaq 100 to defend key short-term moving averages. Traders should prioritize long positions in high relative strength names from the Hardware and Semiconductors themes, ideally on pullbacks to support zones. A sustained break below the Nasdaq 100's 20-day moving average would necessitate a more defensive posture in tech.",
+    "technical_signal": "No reversal pattern confirmed yet. The divergence between the S&P 500's gains and the Nasdaq 100's dip suggests sector rotation rather than a definitive market top or bottom.",
     "ticker_intel": [
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "UMAC",
+        "company": "Unusual Machines, Inc.",
         "grade": "A+",
-        "reason": "Dell exhibits exceptional momentum with RS 98 and a 1-month return of +95.1%, making it a top contender in the robust Hardware theme."
+        "reason": "Its leading 1-month return of +137.7% combined with an RS of 98 in the strong Hardware theme positions it for continued momentum."
       },
       {
-        "ticker": "HIMX",
-        "company": "Himax Technologies, Inc.",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Himax leads the Semiconductors theme with an RS 98 and an impressive 1-month return of +96.5%, indicative of strong institutional interest."
+        "reason": "VSH's impressive +98.4% 1-month return and RS of 98 in the booming Semiconductors sector make it a high-conviction leader."
       },
       {
-        "ticker": "UCTT",
-        "company": "Ultra Clean Holdings, Inc.",
+        "ticker": "MXL",
+        "company": "MaxLinear, Inc",
         "grade": "C",
-        "reason": "Despite an RS 98, Ultra Clean Holdings shows comparatively weaker 1-month (+12.7%) and 3-month (+67.9%) performance within its theme, suggesting it may lag peers."
+        "reason": "Despite its high RS of 98, MaxLinear’s extreme +474.8% 3-month gain coupled with a relatively lower +15.3% 1-month return suggests potential overextension and risk of profit-taking."
       }
     ]
   }
