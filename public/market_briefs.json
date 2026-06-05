@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-05 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-Off / Heightened Volatility",
+    "spy_price": 737.55,
+    "spy_change_pct": -2.58,
+    "vix": 21.51,
+    "hy_oas": 2.74,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 54.2,
+    "mmth": 63.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "RDW",
+          "company": "RDW Corporation",
+          "reason": "The company secured significant new contracts, signaling strong business momentum despite the broader market downturn."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp",
+          "reason": "Microsoft announced a multi-billion dollar AI infrastructure contract, reinforcing its dominant position in enterprise cloud solutions."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "reason": "JPMorgan saw continued technical trading interest, supported by recycled speculation regarding sector consolidation and recent analyst commentary."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-05 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
           "reason": "Tesla continues to exhibit high volatility, primarily driven by technical trading flows and ongoing sentiment regarding EV demand, with no fresh material news catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-23 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Cautious Unease, Commodity-Driven",
-    "spy_price": 708.45,
-    "spy_change_pct": -0.39,
-    "vix": 19.31,
-    "hy_oas": 2.84,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 60.6,
-    "mmth": 58.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "QS",
-          "company": "QuantumScape Corporation",
-          "reason": "Reported narrower than expected losses and strong underlying demand growth for its solid-state battery technology, signaling improved operational performance."
-        },
-        {
-          "ticker": "SMR",
-          "company": "NuScale Power Corporation",
-          "reason": "Benefited from strong government loan support for small modular reactor development, enhancing its project funding and long-term commercial viability."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to see significant institutional flow driven by persistent AI demand and robust technical momentum, without a fresh fundamental catalyst today."
         }
       ]
     }
