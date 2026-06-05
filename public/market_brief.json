@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 05, 2026 (18:30 EDT)",
+  "generated_at": "June 05, 2026 (18:38 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off / Tech Sell-off",
+  "mood": "Risk-Off, Broad Market Weakness",
   "analysis": {
-    "action_line": "VIX 21.51 Elevated + S5FI 54.2% breadth + Nikkei 225 (-1.36%) down → extreme caution, highly selective longs in proven leaders, tight stops.",
-    "analysis_para1": "US equity markets experienced a significant downturn today, with the Nasdaq 100 plummeting 4.77% and the S&P 500 falling 2.64%, signaling a strong risk-off move. This occurred despite mixed global cues, as the Nikkei 225 was down 1.36% but European markets showed resilience. The elevated VIX at 21.51 and rising 10Y Yield at 4.54% confirm increasing macro concerns and risk aversion. While market breadth (S5FI 54.2%, MMTH 63.5%) technically remains above mid-points, today's concentrated selling indicates a clear deterioration in underlying market health.",
-    "analysis_para2": "Given the pronounced market weakness, the mechanical plan calls for extreme vigilance and capital preservation. Key levels to watch include the S&P 500's immediate support around 7300 and the Nasdaq 100's ability to stabilize above its recent 28000 level. Traders should monitor the VIX closely; a sustained move below 20 would indicate easing fear, while a spike above 25 would confirm deeper capitulation. In this environment, focus strictly on relative strength leaders that can hold their gains or consolidate, avoiding any bottom-fishing attempts, and always employing tight stop-losses.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in major indices indicates continued downside pressure, not a reversal.",
+    "action_line": "VIX 21.51 Elevated + S5FI 54.2% breadth + Nikkei 225 down 1.36% → remain defensive, selectively stalk high RS leaders near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 retreating by 1.36% while European indices like the DAX (+0.60%) and FTSE 100 (+0.07%) held relatively steady. In contrast, the US market faced a sharp downturn, underscored by a rising 10-year yield now at 4.54%, which typically pressures growth-oriented stocks. Despite the broad market decline, US breadth, as measured by S5FI at 54.2% and MMTH at 63.5%, remains above critical 50% levels. This suggests underlying resilience in some areas even as the major averages experienced significant distribution today.",
+    "analysis_para2": "Given the sharp sell-off, the immediate mechanical plan involves monitoring for signs of stabilization around key psychological support levels for the S&P 500 and Nasdaq 100. A close watch on the VIX, currently elevated at 21.51, for a decisive move back below 20 would signal a potential easing of fear. Traders should prioritize identifying Relative Strength leaders that can hold their gains or find support on any weakness, avoiding new entries until market breadth confirms accumulation and selling pressure subsides.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's deep market sell-off and elevated VIX indicate continued distribution rather than accumulation or a bottoming process.",
     "ticker_intel": [
-      {
-        "ticker": "SNDK",
-        "company": "Sandisk Corporation",
-        "grade": "A+",
-        "reason": "Sandisk Corporation demonstrates exceptional relative strength (RS=99) and robust 3-month performance (+195.7%), making it a conviction long as hardware leaders resist broader market weakness."
-      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
+        "grade": "A+",
+        "reason": "VSH earns an A+ conviction long grade due to its exceptional RS of 98 and staggering 3-month return of +242.7% in the leading Semiconductors theme, signaling robust demand amidst market weakness."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology shows outstanding recent performance with a 1-month gain of +70.4% and RS=98, positioning it as a top semiconductor candidate amidst sector strength."
+        "reason": "DELL is an A conviction long for its strong RS of 98 and impressive 1-month return of +65.2% within the resilient Hardware sector, demonstrating powerful recent upside momentum."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Unusual Machines, despite high RS=98 and a strong 1-month gain (+87.2%), displays comparatively weaker 3-month performance (+62.3%) and high ADR (13.9%), suggesting increased volatility and speculative risk in a downturn."
+        "reason": "UMAC is a C-grade avoid due to its highly volatile ADR of 13.9% and a disproportionately high 1-month return of +87.2% compared to its 3-month gain of +62.3%, suggesting an unsustainable short-term spike vulnerable in a risk-off environment."
       }
     ]
   }
