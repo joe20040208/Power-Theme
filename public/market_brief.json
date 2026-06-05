@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 05, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 05, 2026 (11:56 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7584.31,
-      "change": 30.63,
-      "change_pct": 0.41
+      "price": 7479.57,
+      "change": -104.74,
+      "change_pct": -1.38
     },
     {
       "label": "Nasdaq 100",
-      "price": 30407.81,
-      "change": -163.43,
-      "change_pct": -0.53
+      "price": 29609.2,
+      "change": -798.61,
+      "change_pct": -2.63
     },
     {
       "label": "VIX",
-      "price": 15.81,
-      "change": 0.41,
+      "price": 16.99,
+      "change": 1.59,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66588.12,
-      "change_pct": -1.31
+      "price": 67470.69,
+      "change_pct": -1.36
     },
     "dax": {
       "label": "DAX",
-      "price": 24917.26,
-      "change_pct": -0.11
+      "price": 24759.05,
+      "change_pct": -0.75
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10388.59,
-      "change_pct": 0.27
+      "price": 10368.05,
+      "change_pct": 0.07
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 59.3,
-    "mmth": 64.0,
+    "s5fi": 57.6,
+    "mmth": 63.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Selective Tech Strength, Asia Weakness",
+  "mood": "Risk-Off / Tech Distribution",
   "analysis": {
-    "action_line": "VIX 15.81 Normal + S5FI 59.3% breadth + mixed global tape with Nikkei weakness → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets present a divergent picture this morning, with the Nikkei 225 down -1.31% indicating Asian weakness, while the DAX is nearly flat at -0.11% and the FTSE 100 shows modest strength at +0.27%. This mixed international backdrop coincides with rising 10Y Treasury yields now at 4.54%, suggesting a less accommodative environment for broader growth. However, US breadth metrics remain constructive, with 59.3% of stocks above their 50-day moving average (S5FI) and 64.0% above their 200-day moving average (MMTH), indicating underlying market health despite sector rotation.",
-    "analysis_para2": "The US pre-market points to S&P 500 strength (+0.41%) contrasting with Nasdaq 100 weakness (-0.53%), highlighting a rotation within the market. Our mechanical plan focuses on confirming support for the S&P 500 above its prior day's close while watching for the Nasdaq 100 to defend key short-term moving averages. Traders should prioritize long positions in high relative strength names from the Hardware and Semiconductors themes, ideally on pullbacks to support zones. A sustained break below the Nasdaq 100's 20-day moving average would necessitate a more defensive posture in tech.",
-    "technical_signal": "No reversal pattern confirmed yet. The divergence between the S&P 500's gains and the Nasdaq 100's dip suggests sector rotation rather than a definitive market top or bottom.",
+    "action_line": "VIX 16.99 Normal + S5FI 57.6% breadth + mixed global tape leaning weak → maintain defensive posture, trade RS leaders cautiously.",
+    "analysis_para1": "Global markets are showing a mixed picture with notable weakness in Asia (Nikkei -1.36%) and Continental Europe (DAX -0.75%), contrasted by the FTSE 100's resilience (+0.07%). The absence of BAML HY Spread data prevents a clear read on current credit conditions. Domestically, US indices are under significant pressure, with the S&P 500 down 1.38% and Nasdaq 100 down 2.63%. Despite this, breadth metrics remain somewhat healthy, with 57.6% of stocks above their 50-day moving average (S5FI) and 63.6% above their 200-day (MMTH), suggesting that while market leaders are selling off, underlying participation hasn't completely collapsed.",
+    "analysis_para2": "Given the broad market weakness, particularly in tech, traders should prioritize risk management. A rising 10Y yield at 4.54% continues to pressure growth names. With the VIX remaining at a normal 16.99, true capitulation signs are absent, suggesting potential for further downside. Monitor S&P 500 support levels, specifically any near-term moving averages where prior bounces occurred. Focus remains on high RS leaders, but entries should be tight and stops respected, as even leaders can correct in a risk-off environment.",
+    "technical_signal": "No reversal pattern confirmed yet. The normal VIX reading (16.99) alongside significant index declines suggests a controlled distribution rather than a panic washout.",
     "ticker_intel": [
       {
-        "ticker": "UMAC",
-        "company": "Unusual Machines, Inc.",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A+",
-        "reason": "Its leading 1-month return of +137.7% combined with an RS of 98 in the strong Hardware theme positions it for continued momentum."
+        "reason": "Dell shows exceptional relative strength (RS 98) with a near 100% 1-month gain, making it a compelling leader in the hardware theme during tech's current volatility."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "VSH's impressive +98.4% 1-month return and RS of 98 in the booming Semiconductors sector make it a high-conviction leader."
+        "reason": "Vishay Intertechnology exhibits outstanding relative strength (RS 98) and a remarkable 98.4% 1-month return, positioning it as a top semiconductor performer even amidst sector pressure."
       },
       {
-        "ticker": "MXL",
-        "company": "MaxLinear, Inc",
+        "ticker": "UCTT",
+        "company": "Ultra Clean Holdings, Inc.",
         "grade": "C",
-        "reason": "Despite its high RS of 98, MaxLinear’s extreme +474.8% 3-month gain coupled with a relatively lower +15.3% 1-month return suggests potential overextension and risk of profit-taking."
+        "reason": "Despite strong overall relative strength (RS 98), Ultra Clean Holdings' muted 1-month gain of +12.7% compared to peers suggests slowing momentum, making it less compelling in a risk-off environment."
       }
     ]
   }
