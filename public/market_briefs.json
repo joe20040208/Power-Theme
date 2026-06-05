@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-05 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Mixed Sentiment / Volatility Uptick",
+    "spy_price": 757.09,
+    "spy_change_pct": 0.38,
+    "vix": 15.65,
+    "hy_oas": 2.75,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 59.3,
+    "mmth": 64.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "reason": "JPMorgan announced a new strategic partnership aimed at expanding its digital banking services, signaling aggressive growth in fintech."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft unveiled significant advancements in its AI cloud services platform, receiving strong positive analyst feedback and boosting growth expectations."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "Shares are experiencing profit-taking and encountering technical resistance after a strong recent rally, with no fresh fundamental catalysts."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-04 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continues to see significant institutional flow driven by persistent AI demand and robust technical momentum, without a fresh fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-23 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Growth Rally, Volatility Alert",
-    "spy_price": 711.21,
-    "spy_change_pct": 1.01,
-    "vix": 19.37,
-    "hy_oas": 2.85,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 62.8,
-    "mmth": 60.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet (GOOGL) surges following reports of a major breakthrough in generative AI integration for its Workspace suite, potentially unlocking new enterprise revenue streams."
-        },
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Tesla (TSLA) sees pre-market interest after announcing plans for a new gigafactory in India, signaling aggressive global expansion and addressing supply chain diversification."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA (NVDA) maintains its upward trend on continued demand for AI compute chips, driven by strong buy-side momentum and technical breakouts above key resistance levels."
         }
       ]
     }
