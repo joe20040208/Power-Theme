@@ -1,25 +1,25 @@
 {
-  "generated_at": "June 05, 2026 (11:56 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 05, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7479.57,
-      "change": -104.74,
-      "change_pct": -1.38
+      "price": 7383.74,
+      "change": -200.57,
+      "change_pct": -2.64
     },
     {
       "label": "Nasdaq 100",
-      "price": 29609.2,
-      "change": -798.61,
-      "change_pct": -2.63
+      "price": 28957.6,
+      "change": -1450.21,
+      "change_pct": -4.77
     },
     {
       "label": "VIX",
-      "price": 16.99,
-      "change": 1.59,
+      "price": 21.51,
+      "change": 6.11,
       "change_pct": null,
-      "zone_label": "Normal"
+      "zone_label": "Elevated"
     },
     {
       "label": "10Y Yield",
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24759.05,
-      "change_pct": -0.75
+      "price": 24944.95,
+      "change_pct": 0.6
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 57.6,
-    "mmth": 63.6,
+    "s5fi": 54.2,
+    "mmth": 63.5,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off / Tech Distribution",
+  "mood": "Risk-Off / Tech Sell-off",
   "analysis": {
-    "action_line": "VIX 16.99 Normal + S5FI 57.6% breadth + mixed global tape leaning weak → maintain defensive posture, trade RS leaders cautiously.",
-    "analysis_para1": "Global markets are showing a mixed picture with notable weakness in Asia (Nikkei -1.36%) and Continental Europe (DAX -0.75%), contrasted by the FTSE 100's resilience (+0.07%). The absence of BAML HY Spread data prevents a clear read on current credit conditions. Domestically, US indices are under significant pressure, with the S&P 500 down 1.38% and Nasdaq 100 down 2.63%. Despite this, breadth metrics remain somewhat healthy, with 57.6% of stocks above their 50-day moving average (S5FI) and 63.6% above their 200-day (MMTH), suggesting that while market leaders are selling off, underlying participation hasn't completely collapsed.",
-    "analysis_para2": "Given the broad market weakness, particularly in tech, traders should prioritize risk management. A rising 10Y yield at 4.54% continues to pressure growth names. With the VIX remaining at a normal 16.99, true capitulation signs are absent, suggesting potential for further downside. Monitor S&P 500 support levels, specifically any near-term moving averages where prior bounces occurred. Focus remains on high RS leaders, but entries should be tight and stops respected, as even leaders can correct in a risk-off environment.",
-    "technical_signal": "No reversal pattern confirmed yet. The normal VIX reading (16.99) alongside significant index declines suggests a controlled distribution rather than a panic washout.",
+    "action_line": "VIX 21.51 Elevated + S5FI 54.2% breadth + Nikkei 225 (-1.36%) down → extreme caution, highly selective longs in proven leaders, tight stops.",
+    "analysis_para1": "US equity markets experienced a significant downturn today, with the Nasdaq 100 plummeting 4.77% and the S&P 500 falling 2.64%, signaling a strong risk-off move. This occurred despite mixed global cues, as the Nikkei 225 was down 1.36% but European markets showed resilience. The elevated VIX at 21.51 and rising 10Y Yield at 4.54% confirm increasing macro concerns and risk aversion. While market breadth (S5FI 54.2%, MMTH 63.5%) technically remains above mid-points, today's concentrated selling indicates a clear deterioration in underlying market health.",
+    "analysis_para2": "Given the pronounced market weakness, the mechanical plan calls for extreme vigilance and capital preservation. Key levels to watch include the S&P 500's immediate support around 7300 and the Nasdaq 100's ability to stabilize above its recent 28000 level. Traders should monitor the VIX closely; a sustained move below 20 would indicate easing fear, while a spike above 25 would confirm deeper capitulation. In this environment, focus strictly on relative strength leaders that can hold their gains or consolidate, avoiding any bottom-fishing attempts, and always employing tight stop-losses.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in major indices indicates continued downside pressure, not a reversal.",
     "ticker_intel": [
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "SNDK",
+        "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "Dell shows exceptional relative strength (RS 98) with a near 100% 1-month gain, making it a compelling leader in the hardware theme during tech's current volatility."
+        "reason": "Sandisk Corporation demonstrates exceptional relative strength (RS=99) and robust 3-month performance (+195.7%), making it a conviction long as hardware leaders resist broader market weakness."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology exhibits outstanding relative strength (RS 98) and a remarkable 98.4% 1-month return, positioning it as a top semiconductor performer even amidst sector pressure."
+        "reason": "Vishay Intertechnology shows outstanding recent performance with a 1-month gain of +70.4% and RS=98, positioning it as a top semiconductor candidate amidst sector strength."
       },
       {
-        "ticker": "UCTT",
-        "company": "Ultra Clean Holdings, Inc.",
+        "ticker": "UMAC",
+        "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite strong overall relative strength (RS 98), Ultra Clean Holdings' muted 1-month gain of +12.7% compared to peers suggests slowing momentum, making it less compelling in a risk-off environment."
+        "reason": "Unusual Machines, despite high RS=98 and a strong 1-month gain (+87.2%), displays comparatively weaker 3-month performance (+62.3%) and high ADR (13.9%), suggesting increased volatility and speculative risk in a downturn."
       }
     ]
   }
