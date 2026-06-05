@@ -1,160 +1,7 @@
 {
-  "generated_at": "2026-06-04T21:53:32.705107+00:00",
+  "generated_at": "2026-06-05T12:09:50.140017+00:00",
   "data_source": "tradingview",
   "earnings": [
-    {
-      "date": "2026-06-04",
-      "ticker": "AGX",
-      "company": "Argan, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 9624763283.0,
-      "eps_estimate": 2.33,
-      "eps_act": 3.47,
-      "eps_surp_pct": 73.73,
-      "rev_est": 256026800.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 689.43,
-      "avg_volume": 415842,
-      "adr_pct": 5.2,
-      "dollar_volume": 286693950.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "COO",
-      "company": "The Cooper Companies, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 12100995053.0,
-      "eps_estimate": 1.19,
-      "eps_act": 1.1,
-      "eps_surp_pct": 5.74,
-      "rev_est": 1119983170.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 62.02,
-      "avg_volume": 2363606,
-      "adr_pct": 2.4,
-      "dollar_volume": 146590844.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "DOCU",
-      "company": "DocuSign, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 9897202936.0,
-      "eps_estimate": 0.99,
-      "eps_act": 1.01,
-      "eps_surp_pct": 4.61,
-      "rev_est": 824748030.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 50.94,
-      "avg_volume": 3929070,
-      "adr_pct": 4.8,
-      "dollar_volume": 200146826.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "GWRE",
-      "company": "Guidewire Software, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 12852348680.0,
-      "eps_estimate": 0.74,
-      "eps_act": 1.17,
-      "eps_surp_pct": 48.4,
-      "rev_est": 356087790.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 151.17,
-      "avg_volume": 1461510,
-      "adr_pct": 5.8,
-      "dollar_volume": 220936467.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "IOT",
-      "company": "Samsara Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 20517221454.0,
-      "eps_estimate": 0.13,
-      "eps_act": 0.18,
-      "eps_surp_pct": 38.78,
-      "rev_est": 455171720.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 35.21,
-      "avg_volume": 6777225,
-      "adr_pct": 6.1,
-      "dollar_volume": 238626092.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "LULU",
-      "company": "lululemon athletica inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 14934298959.0,
-      "eps_estimate": 2.69,
-      "eps_act": 5.01,
-      "eps_surp_pct": 2.76,
-      "rev_est": 2594952390.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 124.92,
-      "avg_volume": 3077378,
-      "adr_pct": 3.5,
-      "dollar_volume": 384426060.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "PL",
-      "company": "Planet Labs PBC",
-      "time_of_day": "AMC",
-      "mkt_cap": 15513795387.0,
-      "eps_estimate": -0.04,
-      "eps_act": 0.0,
-      "eps_surp_pct": 100.0,
-      "rev_est": 90132460.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 43.53,
-      "avg_volume": 13432462,
-      "adr_pct": 9.2,
-      "dollar_volume": 584715071.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "RBRK",
-      "company": "Rubrik, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 15847357372.0,
-      "eps_estimate": -0.03,
-      "eps_act": 0.04,
-      "eps_surp_pct": 135.94,
-      "rev_est": 366323440.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 77.0,
-      "avg_volume": 3885960,
-      "adr_pct": 5.6,
-      "dollar_volume": 299218920.0
-    },
-    {
-      "date": "2026-06-04",
-      "ticker": "TTAN",
-      "company": "ServiceTitan, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 7090185755.0,
-      "eps_estimate": 0.28,
-      "eps_act": 0.27,
-      "eps_surp_pct": 48.84,
-      "rev_est": 256662950.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 74.33,
-      "avg_volume": 1211715,
-      "adr_pct": 5.6,
-      "dollar_volume": 90066776.0
-    },
     {
       "date": "2026-06-05",
       "ticker": "ABM",
@@ -168,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 39.88,
-      "avg_volume": 543014,
+      "avg_volume": 549943,
       "adr_pct": 2.4,
-      "dollar_volume": 21655398.0
+      "dollar_volume": 21931727.0
     },
     {
       "date": "2026-06-05",
@@ -185,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 21.4,
-      "avg_volume": 6448306,
+      "avg_volume": 6522956,
       "adr_pct": 15.8,
-      "dollar_volume": 137993748.0
+      "dollar_volume": 139591258.0
     },
     {
       "date": "2026-06-08",
@@ -202,9 +49,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 21.55,
-      "avg_volume": 8895314,
+      "avg_volume": 8838153,
       "adr_pct": 3.1,
-      "dollar_volume": 191694017.0
+      "dollar_volume": 190462197.0
     },
     {
       "date": "2026-06-08",
@@ -219,16 +66,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 134.4,
-      "avg_volume": 840660,
+      "avg_volume": 841200,
       "adr_pct": 3.1,
-      "dollar_volume": 112984704.0
+      "dollar_volume": 113057280.0
     },
     {
       "date": "2026-06-09",
       "ticker": "ASO",
       "company": "Academy Sports and Outdoors, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 3296365549.0,
+      "mkt_cap": 3296365647.0,
       "eps_estimate": 0.92,
       "eps_act": 1.97,
       "eps_surp_pct": -5.53,
@@ -236,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.1,
-      "avg_volume": 1459735,
-      "adr_pct": 3.7,
-      "dollar_volume": 74592458.0
+      "avg_volume": 1469613,
+      "adr_pct": 3.8,
+      "dollar_volume": 75097224.0
     },
     {
       "date": "2026-06-09",
@@ -253,16 +100,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 761.57,
-      "avg_volume": 599803,
+      "avg_volume": 601268,
       "adr_pct": 3.5,
-      "dollar_volume": 456791971.0
+      "dollar_volume": 457907671.0
     },
     {
       "date": "2026-06-09",
       "ticker": "CNM",
       "company": "Core & Main, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 9853035040.0,
+      "mkt_cap": 9853035241.0,
       "eps_estimate": 0.57,
       "eps_act": 0.52,
       "eps_surp_pct": 22.9,
@@ -270,16 +117,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.37,
-      "avg_volume": 2511382,
-      "adr_pct": 2.9,
-      "dollar_volume": 131521075.0
+      "avg_volume": 2519483,
+      "adr_pct": 3.0,
+      "dollar_volume": 131945325.0
     },
     {
       "date": "2026-06-09",
       "ticker": "SAIL",
       "company": "SailPoint, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 10556012690.0,
+      "mkt_cap": 10556012344.0,
       "eps_estimate": 0.04,
       "eps_act": 0.08,
       "eps_surp_pct": -1.36,
@@ -287,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 18.61,
-      "avg_volume": 3512343,
-      "adr_pct": 6.8,
-      "dollar_volume": 65364703.0
+      "avg_volume": 3525876,
+      "adr_pct": 6.9,
+      "dollar_volume": 65616552.0
     },
     {
       "date": "2026-06-09",
@@ -304,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 101.12,
-      "avg_volume": 1891059,
+      "avg_volume": 1864801,
       "adr_pct": 2.4,
-      "dollar_volume": 191223886.0
+      "dollar_volume": 188568677.0
     },
     {
       "date": "2026-06-09",
@@ -321,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 14.14,
-      "avg_volume": 9387562,
+      "avg_volume": 9395137,
       "adr_pct": 6.8,
-      "dollar_volume": 132740127.0
+      "dollar_volume": 132847237.0
     },
     {
       "date": "2026-06-09",
@@ -338,16 +185,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.97,
-      "avg_volume": 691273,
+      "avg_volume": 691435,
       "adr_pct": 3.3,
-      "dollar_volume": 36616731.0
+      "dollar_volume": 36625312.0
     },
     {
       "date": "2026-06-10",
       "ticker": "ATEX",
       "company": "Anterix Inc.",
       "time_of_day": "AMC",
-      "mkt_cap": 1272899750.0,
+      "mkt_cap": 1272899808.0,
       "eps_estimate": null,
       "eps_act": null,
       "eps_surp_pct": null,
@@ -355,16 +202,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 67.95,
-      "avg_volume": 325753,
-      "adr_pct": 6.6,
-      "dollar_volume": 22134916.0
+      "avg_volume": 324387,
+      "adr_pct": 6.5,
+      "dollar_volume": 22042097.0
     },
     {
       "date": "2026-06-10",
       "ticker": "CHWY",
       "company": "Chewy, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 8515039635.0,
+      "mkt_cap": 8515039760.0,
       "eps_estimate": 0.43,
       "eps_act": 0.09,
       "eps_surp_pct": -1.21,
@@ -372,9 +219,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 20.82,
-      "avg_volume": 8505837,
+      "avg_volume": 8397834,
       "adr_pct": 4.6,
-      "dollar_volume": 177091526.0
+      "dollar_volume": 174842904.0
     },
     {
       "date": "2026-06-10",
@@ -389,9 +236,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 236.34,
-      "avg_volume": 27440834,
+      "avg_volume": 27477415,
       "adr_pct": 4.9,
-      "dollar_volume": 6485366708.0
+      "dollar_volume": 6494012261.0
     },
     {
       "date": "2026-06-11",
@@ -406,9 +253,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 258.42,
-      "avg_volume": 5551828,
+      "avg_volume": 5564760,
       "adr_pct": 3.6,
-      "dollar_volume": 1434703392.0
+      "dollar_volume": 1438045279.0
     },
     {
       "date": "2026-06-11",
@@ -423,9 +270,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 91.88,
-      "avg_volume": 2974612,
+      "avg_volume": 2981673,
       "adr_pct": 3.0,
-      "dollar_volume": 273307351.0
+      "dollar_volume": 273956115.0
     },
     {
       "date": "2026-06-11",
@@ -440,9 +287,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 153.25,
-      "avg_volume": 1220204,
-      "adr_pct": 6.2,
-      "dollar_volume": 186996263.0
+      "avg_volume": 1214626,
+      "adr_pct": 6.4,
+      "dollar_volume": 186141434.0
     }
   ]
 }

@@ -1,71 +1,284 @@
 {
-  "scan_time": "2026-06-04 08:05 ET",
+  "scan_time": "2026-06-05 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "SAP",
-      "price": 180.67,
-      "gap_pct": 5.23,
-      "pm_volume": 98921,
-      "avg_vol_10d": 3201895,
-      "avg_dollar_vol": 578486370,
-      "mkt_cap": 211151051928,
-      "rvol": 0.69,
-      "adr_pct": 2.96,
+      "ticker": "MRLN",
+      "price": 7.18,
+      "gap_pct": 28.41,
+      "pm_volume": 3003245,
+      "avg_vol_10d": 2535145,
+      "avg_dollar_vol": 18202341,
+      "mkt_cap": 693042702,
+      "rvol": 0.63,
+      "adr_pct": 12.52,
       "category": "New Contract/Partnership",
-      "theme": "Customer Adoption",
-      "reasoning": "SAP announced that Applied Materials is leveraging its Taulia platform, signaling continued enterprise adoption for its solutions.",
+      "theme": "Program Milestone",
+      "reasoning": "MRLN shares **surged 25%** following the successful completion of a Critical Design Review for its C-130J Autonomy Program with USSOCOM.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "B",
-      "finviz_theme": "AI Enterprise Software",
-      "analysis_detail": "Catalyst: SAP's Taulia solution is being implemented by **Applied Materials**, a major technology company, to **transform its finance function**. This highlights **strong product adoption** and the value proposition of Taulia in **optimizing supply chain finance**. | Impact: This partnership provides a **positive validation** for SAP's Taulia platform and showcases its capability to large enterprises, potentially **driving further adoption** and de-risking the solution's market penetration, despite prior day's negative sentiment.",
-      "analysis_details": "• **Impact**\nSAP announced a **key customer adoption story** with **Applied Materials**, a significant technology enterprise. Applied Materials is utilizing SAP Taulia to **transform its finance function**, specifically focusing on supply chain finance optimization. This collaboration demonstrates the **tangible benefits** and **enterprise-readiness** of SAP's specialized Taulia solution.\n\n• **Strategic Value**\nThis adoption by a prominent technology company like Applied Materials serves as a **strong endorsement** for SAP Taulia's capabilities, particularly in automating and optimizing financial processes for large organizations. It helps **validate SAP's cloud strategy** and its specific offerings, potentially leading to **increased market confidence** and driving further enterprise business, especially after recent investor skepticism.",
+      "conviction": 75,
+      "grade": "C",
+      "finviz_theme": "Defense & Aerospace",
+      "analysis_detail": "Catalyst: Merlin successfully completed the Critical Design Review (CDR) for its C-130J Autonomy Program with the US Special Operations Command (USSOCOM). This key milestone validates the design and technological readiness of its AI flight system for autonomous planes. | Impact: This event significantly de-risks the program's progression, enhances Merlin's credibility in the defense autonomy sector, and could lead to substantial future deployment contracts, underpinning the **25% stock surge**.",
+      "analysis_details": "• **Impact**\nMerlin successfully completed a **Critical Design Review (CDR)** for its C-130J Autonomy Program with the U.S. Special Operations Command (USSOCOM). This milestone is a crucial validation of the company's AI-driven flight systems, signaling a significant step forward in integrating autonomous capabilities into critical military aircraft. The **25% stock rally** reflects the market's positive outlook on this de-risking event.\n\n• **Strategic Value**\nThe successful CDR positions Merlin as a key innovator in defense autonomy, particularly for cargo and special operations platforms. This validates the company's technology for high-stakes applications and strengthens its relationship with a major government client, potentially opening doors for broader contracts and adoption within the defense sector as autonomous capabilities become increasingly vital.",
       "peer_tickers": [
-        "ORCL",
-        "WDAY"
+        "LHX",
+        "NOC"
       ],
       "headlines": [
         {
-          "title": "SAP : How Applied Materials Is Driving Transformation of the Finance Function with SAP Taulia - marketscreener.com",
+          "title": "MRLN Stock Soars 25% On Acing Key Design Review for Autonomous Planes - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeGpmbWxJNnh4b085akFFbEM0U1FNLUFkcDVwQ2xWcEowbGxxUXJSMDF6c3dtUlRxTXJBQUQ1UTIyUE16Vk42RHlYbjNIQXNWZFZPVjNBUXVqUm1kMlJWalFhWHMzeExEaEE4cVNSVlVWUTloR2ZnRkhhRzkxWFpnVG9IeGY5TGxOOFozSGZfb1VtYWVoZTBXWXo3LUtPQkxZVWJ5a3BreEZ1N0JnOW1zWXFSTXc5eXpPc1kxU2JEejJubnFmMDJRVlZNVXVEbmxYWVFpQjNJeGJ3bFdU?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbld0bDJ0TWFhSE0wdjQtel9keEZPd1pHQjZXbk9VMjVQZ1BVMllEMGVnTGdObHJCWnM4dWZpelFLWDNXT2pseDl5SkdHSVNvdWdGcl82c2Q3azFfSHAteGp0NC1KOXJIYWFKZGJxcXdKOC1oLVljR3pveGM1MExfcEtRV0RXbW5nOGc4OHNkQXh3QVox?oc=5"
         },
         {
-          "title": "Why is SAP stock surging today? - Investing.com",
+          "title": "Nasdaq, S&P 500, Dow Futures Slip As Chip Stocks Pull Back: LULU, NFLX, KEEL, MRLN Stocks In Focus - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd2NodVpEVVlqa1lUT3o3eHpLeV9ZR3hEd2pwVnhUQ2c1VWZKczRxMUx1UHFKZUVWamc3Snh1cjNCektGYUpEc2p5MVEwdlpTd0M1Z0VQSjZhZEE4MEpENlhIVkROdEFHaXRTLTZhVV9UaEljNlQzLUhlYXFOd3FpSGdLdlVSWWJlNkNxLWFiRDdSczR6cGdF?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORkd4V1pSeWVORXBMNlhsMXpwcjF3N2lfNk9rQmJ1djZ3akpFM1hLYTV0YWg4dThpd0NzRzZxS3Nha1I5blpCcnVoNDVXWFJLM0tSbTgwbE9OSHB4emR2U3phTWg4S1pISGhLZ05RUjFLWEotMnVvdE42MEpVaHFhSFdPOC00a2l3c2g5ZGN6QWhONFB6ZEM2SlVOYzVDNGNILWp2NTR2cGdRbUhtQ1F2Y1ctZnhHNldldlE?oc=5"
         },
         {
-          "title": "SAP Stock's Recovery Faces a Hurdle at €162.20 as Strategy Skepticism Persists - AD HOC NEWS",
+          "title": "Merlin Stock Soars After The Close: Here's Why - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX2ZXbWhHR0Z0MjloN0Y0WS1iWkphTnZTWFVVakROMXZIbC0xbU5kLUprV2lhMlZweGcxT0FXbW5RMnRXVkJ0LTVKdV9KQU56ZVROc25STkVSUkdSOThiaEJhT0Vma2Y1MGhqd0V0OFVCSE5zRy1STWJ4S2ZXOWJnLVl2Z2kxMGlKc2xkYklYaXFpMENjOVNkSWx5UmJLd3g2QmV2a3Z1eFkzUXJaYmxkZ2gwbnRyNnVWUWZGY1NacERWNk0zVUE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdmhaOVRjYTdfMHlnSV9PWVZYYmR6NXlReDlPckxJLTJWZU9YeWtlRkw4NzVJUk00ZjhJRHh4MVBEN0pzTDZtMkItNEE2aGhTeGhMWEhoRTc1UW80dGFMeDYxN3ZPRGx5QTMzZklEZEVJam5IbTJfWDczV2hsUEo4YTRRU0hnTmlvUk4tMUg2SWpqLTZ6cU05WkhJSkhkZm5ReGRVR2ZiOTg?oc=5"
         },
         {
-          "title": "SAP Shares Plunge After Overbought Bounce as Investors Digest AI Acquisitions and EU Inquiry - AD HOC NEWS",
+          "title": "Merlin completes design review for C-130J autonomy program - Investing.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMFo1OUxCcXdKWVA0NUpONHhjaDdIMGtrUmdjUFFOOG1kcE9xYWRwLXdLQWhGLU0tNm9rdzdxTUctYi1RTmxrMWhTeVpPOGtITmNDanA5Y1g1MHBDOTNONHByS2NtRXFsNjVfZjF3N2Jta0pkWHVOTlRmV3hJSU9ZNjdLLXNmSENaZmtVd1lyX0VIQjJmNTJJR3lGXy10NXgwYmt5cXdGS1haZ2RLZFIySWNKcDVaMUhFUVh1aXNWSmw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjhjLXV3YkxHY0stUHpyOTMtLW5MT0ktZmhYZDVhd2xrSkRYWnBSR0xUTjY3YlFZNzVMQ1JGcF9BM3dnZmlwNnEwZ0VGVGplVXhJVUwtN3Z0Z0VEcXBsYjJINzZNbU40NHFRWEgyNlJwRy1uc25lS2FtYzdlN3hscXVnQ0FuNkVUWmZ0bnBGZC1HYS1BY2pEUGMtZXV0QVBOUWdYWXVCNlU4WTZjZlk4MGl3ZmE?oc=5"
         },
         {
-          "title": "SAP SE Stock (SAP) Moved Down by 4.87% on Jun 3: Facts Behind the Movement - TradingKey",
+          "title": "US special ops test AI flight system for C-130J as Merlin clears key review - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMnpsZUVQQlI4Sk02ZlU3cDJ2U19Hb2k0SERUbXlyam5qbmRXSTRhck1QQXJXUjdSSzhnQTJTRkRiWm5OTHVsS1RkWHRYV1liX1dTWUVRNFprSHZVNDd5V3ltNHNMSEQ1VGU4b3otY3c1QTRaMHBoc1N0RFRtbEtORjAtaExZWE1rekE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPem13UlQ3U1pERTZ1ZmxQeTlXcUVENXFHb0g4RnVXeGMyX09Nci1YczlwTEotZmdXa1FmdHJuY0NPdTZSb3NzUTB1M25XNkdOeG5Pdm9pRXJCR2VqNVdvaWNiRUFwcFVBQ2xMTnJ4MWJVdHpxV1lZQnVsWl9BSTkydk5FYXpvWHNzYm9jMGVMMFItSmVJYURIbTg2OTJDbTBlR1hTdE51VjRkaHJ5SkxPeEN2RXJybmtvd3c?oc=5"
         }
       ],
-      "float_shares": "1.17B",
-      "short_float": "0.98%",
-      "daily_pct": -5.32,
-      "industry": "AI Enterprise Software",
-      "technical_status": "Fail (ADR 3.0% < 4%)",
+      "float_shares": "10.18M",
+      "short_float": "25.09%",
+      "daily_pct": -1.24,
+      "industry": "Defense & Aerospace",
+      "technical_status": "Fail (Avg $Vol $18M < $100M)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 75,
+        "confidence_score": 100,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Applied Materials is leveraging SAP's Taulia platform",
-        "discrepancy_note": "Source A (Finviz) has no mention of the claim, while Source B (Google News, link [4] from marketscreener.com) explicitly confirms that Applied Materials is driving transformation with SAP Taulia."
+        "primary_claim": "MRLN shares surged 25%",
+        "discrepancy_note": "Source A (Finviz News) confirms the successful completion of the Critical Design Review for the C-130J Autonomy Program but does not mention any stock movement or a 25% surge. Source B (Google News) contains a Yahoo Finance headline explicitly stating 'MRLN Stock Soars 25%', however, other headlines within Google News confirm the event or a general stock soar but not the specific 25% figure. As Finviz does not corroborate the specific percentage, it is a discrepancy."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "HYLN",
+      "price": 7.62,
+      "gap_pct": 5.64,
+      "pm_volume": 243250,
+      "avg_vol_10d": 8587857,
+      "avg_dollar_vol": 65439470,
+      "mkt_cap": 1358853548,
+      "rvol": 0.97,
+      "adr_pct": 14.24,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Electric Vehicles",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nHyliion (HYLN) stock **surged** between **12% and 16%** in overnight and early trading sessions, hitting a new 52-week high. News headlines attribute this move vaguely to \"Strong Demand and New Milestones\" and \"investors eyeing the data center business potential.\" These reports are reacting to the price action rather than announcing a specific, verifiable corporate event.\n\n• **Key Consideration**\nDespite the significant price action, there has been **no specific, verifiable fundamental news** released by the company or third parties within the last 24 hours to justify the move. The stated reasons are either general (\"new milestones\") or speculative (\"data center potential\"), suggesting the surge is more likely driven by technical factors, short-covering, or retail momentum rather than a concrete catalyst. This presents a **high risk of a gap and trap** scenario, as the move lacks solid fundamental backing.",
+      "peer_tickers": [
+        "PLUG",
+        "BLDP",
+        "QS"
+      ],
+      "headlines": [
+        {
+          "title": "Why Is HYLN Stock Soaring 12% Higher In Overnight Trading? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNnRhQ21oT1ROdHZUM2hYdXBjOTcwV1ZjcHpPM1JEcGVtLU9oRTJqUS1GR2NQZ0dXLU01cTZsVmRFbm1rQ3JNV1BNZHl5VUxoTmRhZTBYejdLb05FY0syTHQ2ODZxSmQ1LUdFZjJTdWM1eGpJcVlVcWFNR0g3M0paeWwxMzA0YnE2S0ZocTZla20xbURk?oc=5"
+        },
+        {
+          "title": "Hyliion Holdings Corp. (HYLN) Surges 16% Amid Strong Demand and New Milestones - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY3BxQTZWSC0tNndZY1lBNDVRM0psZFM4YXFYckpQU0RneEpnaWZWb09LelBtTEJLSGF0c2M5ZUlQZmFWcjFjblg5QmJkVnkyOHRzZGNKV09VUU1BUzduZXJ3TDg1Qi1yN0pCOTRYbnVUcnNTT3l4YUNiUkoxSkxTSXJLQWhwc2YxbUpSVVNzS3p1eTUyaXBuLTd6dE5uMW9tSXRPQm41WnV3SVNDSERCeWQ0WQ?oc=5"
+        },
+        {
+          "title": "Hyliion jumps to a new 52-week high as investors eye the data center business potential (HYLN:NYSE) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlRBR0xNVER5a1J6a1F0UnV4bWhBeE5JaC1CbE1DN1hhd3plMTVScWVnYXU3Nm9FNEZ0a29FWHptaHhyUGtDZFVqUXJBcDg5Qi1fdkdrQVJHbWM4SW16R1JRY0VQdXBtR0F4UC1WeXBBRnlKNW8tdUVJVEpON3ZONnRWSFRzRWdIX0J3bXhDSUdyTGx4c1JOaW1UcmlYVzQtMG40anU4eDVWSUhYdV9nRnlaX21ueGhwZ1dsblNpakdLcFk?oc=5"
+        }
+      ],
+      "float_shares": "121.03M",
+      "short_float": "10.76%",
+      "daily_pct": 17.96,
+      "industry": "Electric Vehicles",
+      "technical_status": "Fail (Avg $Vol $65M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found for HYLN's pre-market movement; likely technical breakout or institutional flow.",
+        "discrepancy_note": "Source A (Finviz News) has no relevant news. Source B (Google News) articles [3] (Seeking Alpha) and [4] (GuruFocus) explicitly suggest potential fundamental catalysts for HYLN's surge, such as 'data center business potential,' 'Strong Demand,' and 'New Milestones,' which directly contradict the claim that no immediate fundamental catalyst was found and the movement is likely technical/institutional."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "U",
+      "price": 30.03,
+      "gap_pct": 4.95,
+      "pm_volume": 95413,
+      "avg_vol_10d": 10371227,
+      "avg_dollar_vol": 311447947,
+      "mkt_cap": 13109146459,
+      "rvol": 0.81,
+      "adr_pct": 6.27,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo specific fundamental news for ticker U was identified within the last 24 hours. The provided headlines are for other SPAC units (QLEP.U, ZNQ.U, TPU.U, BWIV.U, SAGU.U), suggesting U might also be a SPAC unit. Any price movement in U is therefore likely driven by technical factors or low institutional flow, especially given its **0.8x RVOL** indicating below-average volume.\n\n• **Key Consideration**\nThe absence of a fundamental catalyst, combined with below-average relative volume, suggests that any recent price action is highly speculative. Momentum traders should be aware of the **high risk** of a **'gap and trap'** or a quick reversal without underlying news to support sustained momentum. Without new information, the move lacks conviction for long-term holds.",
+      "peer_tickers": [
+        "DWAC",
+        "GGPI",
+        "CFVI"
+      ],
+      "headlines": [
+        {
+          "title": "Quantum Leap Acquisition (QLEP.U) Stock Price, News & Analysis - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtZTJhcURNZHVQN0NYSmxVZkdWM2J5Q3I4V2JpVkdHT2lFRC1iVXBDd09zdEFlQ1dmZVA0TWV5WEhaYWd0QTVYdEhPQkhJTG9mZFlzY3ItNmVadw?oc=5"
+        },
+        {
+          "title": "(ZNQ.U) Equity Market Report (ZNQ.U:CA) - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUkdjVk8xU05MWGRYdGJoOGVUZTlvOFM3dE1lS0d4Tl8tamZUOWJfV21lZXNNUnpYZW11bGJjNTlUeTBESXJ1dlZSVnBmdDV6eHJKa0NJM002d2dkcTAtVG1PQ01VWnNOM2M3aXU3eDQxV1lnYWt6SVZHb2dVZ1RPcVltdHlzVEotUjA0?oc=5"
+        },
+        {
+          "title": "(TPU.U) Market Dynamics and Trading Signals (TPU.U:CA) - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVjJhNmVxa3VYX0xzVVhacU50cThQUjdvenVtTzR4ZHFhLUswVFBrd2VIWEE5bG45WlJjSVhXQS1wVDAzcVZvemRVUkNkeDRUeEEtUGRlR1ItVzVFbzdCNHRfRHhUdUpBTGNteTFoa2l3OXhZNzlYVWdBaDFiM0xDMU9rOUNRNzhRTXNGakdiajZFWEFwZHF5bmN3MmJablU?oc=5"
+        },
+        {
+          "title": "Blue Water Acquisition Corp. IV (BWIV.U) Stock Price, News & Analysis - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZdU5McEw4MnlPTC1sWW03V2szZl8xbXIwRWVKVWlLd0RDa3pZd3BLcDkzd2lFVmlTbzNOQlZXVjZoTHA1enJvZTdLSWg0VDR4NGNyT2NfdE9kdw?oc=5"
+        },
+        {
+          "title": "Shreya Acquisition Group (SAGU.U) Stock Price, News & Analysis - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iajF2NkJqZTdlT1lFVVZwY1ZzTHV3Nkt6cWdmLUlxZUtPdnRFbTYwR09BblcxOXhLRzFOUmF1aEZ4Z3ExLXoyQmJCa1FqZ0NVcjR3U0JoZWV0QQ?oc=5"
+        }
+      ],
+      "float_shares": "356.93M",
+      "short_float": "10.46%",
+      "daily_pct": 2.77,
+      "industry": "Others",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "AXTA",
+      "price": 31.77,
+      "gap_pct": 4.84,
+      "pm_volume": 141664,
+      "avg_vol_10d": 3979203,
+      "avg_dollar_vol": 126419279,
+      "mkt_cap": 6799376367,
+      "rvol": 1.02,
+      "adr_pct": 3.19,
+      "category": "Upgrade",
+      "theme": "Analyst Reinstatement",
+      "reasoning": "Citigroup reinstated coverage on Axalta with a Buy rating and a $44 price target.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 32,
+      "grade": "B",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Citigroup, a major financial institution, **reinstated** coverage on Axalta (AXTA) with a **Buy** rating and a **$44** price target on June 4th. This follows the company's routine 2026 AGM. | Impact: This significant analyst re-rating **signals renewed institutional confidence** and provides a clear price objective, potentially **driving short-term momentum** and attracting new investment into the stock.",
+      "analysis_details": "• **The Firm & Rating**\nCitigroup, a prominent investment bank, has **reinstated** coverage on Axalta (AXTA), assigning a **Buy** rating and a **$44** price target. This re-initiation by a major financial institution signals renewed confidence in the company's future prospects and valuation.\n\n• **The Thesis**\nWhile the specific details of Citigroup's underlying investment thesis were not disclosed in the headlines, the **Buy** rating and **$44** target strongly suggest a positive outlook on Axalta's performance. This could be predicated on factors such as anticipated market share gains, operational efficiency improvements leading to margin expansion, or favorable macro trends within the global coatings industry.",
+      "peer_tickers": [
+        "PPG",
+        "SHW"
+      ],
+      "headlines": [
+        {
+          "title": "Axalta (AXTA) 2026 AGM backs board slate, PwC audit and 2025 pay - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGpaYUNaaHZsVzhxZFF6aEhhTW05OXRsQVZpVmZsT1oyQndtYTZTc0tTUG1ZZUJnYTZlRUVpUV9ubkJhTUFZT1E4bmJhdkdfTnNpeml4WVhYeVZXS25xcUdOSGtpTmdaMzJTdGxFcTZIamVOWURBaFhwWVcwRkZzWEV5SWN4aTRFNldZUUZoMEtUQ29rUGJraFctTHNOQ0JPeGV3N0w0ajVYTlpiVUN2elFSMzY1Zw?oc=5"
+        },
+        {
+          "title": "AXTA Reinstated by Citigroup -- Price Target Announced at $44 - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSU5uMG9TT2VRQ0l5Vy0xX3hJc1lpM3pLdV92ektITGhoTXFwSjVXNUVQTW1SVXpKWElLQ2RQbV9MSkRYcXlwSHJJcDR0aDFTVmJZSmNQdklMRVFHU0pFNmRaa2dVX09HemlZWllGY2gtRFl4djVpUDFwRUFuYUt1VWJmNG5IQ2tMSENyU1kwT3BHWW9jR2I2dl9yQm8?oc=5"
+        },
+        {
+          "title": "Axalta Coating (AXTA) Receives Buy Rating and $44 Price Target f - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazkwbFo5QXpFb2xiMDQ5TzBNR3NZRzA0T1ZCVm9TSGt4ZVY5aDhoYjJNVUxBWEJCSkdYNVdwc3ZQLVA0SVh4bTJMbmFrdlJEQ1FtVW9rX2V6ZHhEU3ZWek92aFdLU2VWbFlOa2VmODNxYlhtMUp5MDZaaXZDRlhJZ1F6TmhMcjExYi11T0RMaFBWamZoUDZOWjF0UVFkZW5veHIyOGZPMGpaNEVB?oc=5"
+        }
+      ],
+      "float_shares": "212.99M",
+      "short_float": "4.20%",
+      "daily_pct": 1.89,
+      "industry": "Others",
+      "technical_status": "Fail (ADR 3.2% < 4%)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "$44 price target",
+        "discrepancy_note": "Source A (Finviz) does not mention the $44 price target, while Source B (Google News) confirms it in multiple articles."
       },
       "gates_passed": 4,
       "gates_detail": {
@@ -76,78 +289,79 @@
         "gate_adr": false
       },
       "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "DQ",
-      "price": 16.06,
-      "gap_pct": 3.67,
-      "pm_volume": 50900,
-      "avg_vol_10d": 746076,
-      "avg_dollar_vol": 11981981,
-      "mkt_cap": 1086718121,
-      "rvol": 1.31,
-      "adr_pct": 5.16,
-      "category": "Thematic Narratives",
-      "theme": "AI Data Center Expansion",
-      "reasoning": "Daqo New Energy announced a significant **RMB 6B investment** into an **AI data center manufacturing facility**, strategically expanding into the high-growth AI infrastructure sector.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 57,
+      "ticker": "DNUT",
+      "price": 3.27,
+      "gap_pct": 4.59,
+      "pm_volume": 61772,
+      "avg_vol_10d": 2069815,
+      "avg_dollar_vol": 6768295,
+      "mkt_cap": 563747977,
+      "rvol": 0.85,
+      "adr_pct": 5.29,
+      "category": "Insider Buying",
+      "theme": "Insider Buying",
+      "reasoning": "Director Bernardo Hees and a director-linked LLC acquired a significant number of shares in the open market, signaling strong insider conviction.",
+      "hypothesis": "Medium Conviction (RS Hold) — Insider conviction signal; look for base breakout.",
+      "conviction": 56,
       "grade": "C",
-      "finviz_theme": "AI Energy",
-      "analysis_detail": "Catalyst: Daqo New Energy announced a **RMB 6B (~$830M USD)** investment for an **AI data center manufacturing facility**, signaling a strategic pivot to supply next-gen energy equipment for the booming AI infrastructure market. | Impact: This move aims to diversify revenue streams beyond traditional polysilicon, potentially adding a new, **high-growth revenue segment** and capitalizing on the strong AI narrative.",
-      "analysis_details": "• **The Narrative**\nDaqo New Energy, traditionally a polysilicon producer, is making a **bold strategic pivot** by investing **RMB 6B** into an **AI data center manufacturing facility**. This move directly taps into the explosive growth of AI infrastructure, positioning DQ to become a supplier of next-generation energy equipment for these power-hungry data centers. The market is interpreting this as a significant re-rating opportunity based on a new, high-growth thematic narrative.\n\n• **Explosiveness**\nThis substantial capital allocation of approximately **$830M USD** represents a **material structural change** for the company, diversifying its business model and aligning with one of the strongest secular growth trends: artificial intelligence. The news indicates a commitment to capture significant market share in the AI energy sector, offering a new avenue for growth and potentially **higher margins** than its core polysilicon business. The announcement is likely to drive **strong momentum** as investors re-evaluate DQ's long-term growth prospects.",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Director Bernardo Hees and a director-linked LLC acquired a total of **~865,875 shares** of Krispy Kreme stock through open market purchases. | Impact: This represents a significant vote of confidence, with the total dollar value of purchases estimated to be **over $15 million**, more than **double** the average daily trading volume.",
+      "analysis_details": "• **The Buyer**\nDirector Bernardo Hees, a seasoned executive with a strong track record, made significant direct purchases of Krispy Kreme (DNUT) stock. Concurrently, a director-linked LLC also acquired a substantial block of shares. This coordinated and substantial buying activity underscores a deep conviction from a key insider and associated entities.\n\n• **Conviction Signal**\nThe combined acquisition of approximately **865,875 shares** by Director Bernardo Hees and his associated LLC is highly material. With an estimated value exceeding **$15 million**, this insider buying volume dramatically surpasses DNUT's average daily dollar volume of **$7 million**. Such aggressive open-market purchases by a director often signal strong belief in the company's future performance or potential undervaluation, providing a robust bullish signal to the market.",
       "peer_tickers": [
-        "VRT",
-        "ETN"
+        "CMG",
+        "SBUX",
+        "MCD"
       ],
       "headlines": [
         {
-          "title": "Daqo New Energy (DQ) Invests RMB 6B in AI Data Center Manufacturing Facility - GuruFocus",
+          "title": "Bernardo Hees Buys 150,000 Shares of Krispy Kreme (NASDAQ:DNUT) Stock - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQnk5WVFVVDJZY0tORy0yT2lsQkJPNjB4c0hHWnYwQW1oV29SR3VKV1NGMENuUGxsQllhb044OGxYeG00bmI3R0psMEwyZ1pDbk9WWG45TXhMNXE5OEFOWEprNmc1RTRDTWRGQUQ1RFN4NU5lMGJYZmlXZ09oSDRDclE2ZlAwb0llSFk3NWw5RTVNOHg4elJkcUJPT2lfOWU3LWUyQ3E5TVV5NjNxQ2psbGExZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT2o3aVZpUkNEYXA3V2N3aVdXNjh2eVlHdFM4ZG80OXFFeU51NEhOVUZNM1NWMzFvQVF3dmdSMkw5ZUVQbzBEdHVCalBhQmQ2SHJZS0t4WURuU00wd2FjV3NYM0lGZkJqbGNUSmM5YklmX090dkU4emtRbmdleWhVUnNCQmZYTEN2V2ZiQ2tlWXRyS1ZTR2xpakJlQld0VnprRHlBOEZnczZGZEVOM0xFekFHMDRjeEFudzBj?oc=5"
         },
         {
-          "title": "Assessing Daqo New Energy (DQ) Valuation After New AI Data Center Energy Storage Expansion - simplywall.st",
+          "title": "Krispy Kreme (NASDAQ:DNUT) Director Purchases $571,496.60 in Stock - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalZXY3dHTEpvdzU0OTJwd3Q4VDZrbS0wWS1jX3JCR2ZfTlhWZE5ja21UYkxGYloyNlhFeXhuU2pTNUhVR01vcUZobHdVTmtLNWl6bDgyOUs5NkZZTXoxeGxVTVlwOFhMTVNDMUQ3MlhUTmwtN29oQXl5OUl3eFFlYzh1QVhEelNzMmZDQmRLSU1yT0RnZzJnN1lna1RKZjkwT3UwRnBjdHZDR1dpd3pldGc3eE9iZS1rNldwZUIwNEdTbXYtTVp4dlIwVUFhNHJMR3fSAdcBQVVfeXFMTVN4V1lEc3dUQjI0MU5nYmxVMGZ3ZGNhQTVtLUFSekUyUnZJTDZqc2xlV0JnYWRONWFJS0FXUWJtOW93bWNfY3MwSnVjb3E2cjJ1VTVnZVRXVTNMaXVyczRKTUJyVlNha3FNYXg0QlR5bzlTUE9DUWJxZkJqOWdYSjNPbURfRWlodHJScGM2QUM3YWEzZGFXNTF5YUFsbU1ibGpCQkxiOXYwRjl1bW9wUk9FQkxVRmdJNVJpN2hNVVcxc0NJN1NuaTZYZ0hRdi1FN1NFQ1JTTms?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOG5jLXF6YWthT19zZ2J0VlRMeGxMUFNUdlk2WFJPSEttNHlWbC1sVXdhd2ZfZE81M0VlUkFjcjlZUDVLZXJfRV91cEtVb0IzQ0J6Skd2MTRpOU4wYnBOUjRRMWRWVEYtSWRBdEx0N1hCWERfOExya2REeDVQNm1tYk1RTVd4MjJwS1hyeWpmLUNkcXRFaTJoc1hBTUVQUHRiRVVwemRIV2lvZE8wR2lpdUxSUC0?oc=5"
         },
         {
-          "title": "Avoiding Lag: Real-Time Signals in (DQ) Movement - Stock Traders Daily",
+          "title": "Krispy Kreme (NASDAQ:DNUT) Director Bernardo Hees Acquires 73,640 Shares - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmZmV2JUVGFGSFZjNDJuQ1ZkLWFHU2dBNExhdUlDdzgxU1B3djRwNlFfVURSZlZ2YzlhN3c3SEpHZktfTi10dFl6QVVRVlVZR2s4cDBzallHNDM4VzlqcjJzRGVlelBwLXNMdURJckVnaHhuTXhscnVhdU8tejNyUU91bG5iYnV6LS15U0tsRllLNS1WWV9hMU85RGV1NUtfVWxzb3dDa1l1aDVuN1d2cTZFSWdPU2ZodkFPeW53aC1oQ0ZD?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTHgydGFhaWpMQTFaOE10TlR1cXozcVBLMHlQZFZCMFVsYUFhdXNEZTJyYV9YV2tTSVZiZzNTR09VcTNNOXhrUVNlYkl0a3hNMXFmVWZtWV9rTndjakQ3aFZzNWdQYk1uRzNQd3d5eEFFaXRpSHRNZ0ltVTFGS0d2cXBETm5veW9YQ1lwRzZ5TUdobjFTNm5iSTdxdkhIZDhPOXdJZ05EQ2p1aEUydDJJanI2Nm5lV2UxaG1ySGg3QQ?oc=5"
         },
         {
-          "title": "RMB 6B Daqo New Energy (NYSE: DQ) expansion into AI data center power - Stock Titan",
+          "title": "Insider Buying: Krispy Kreme (NASDAQ:DNUT) Director Buys 235,875 Shares of Stock - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDFvLUNtODl4aVBKWGVyZWtJdFlHdEtEbFlHMUplS0x5c0ZyeWRsUmxOS1h4WVhSZTBONENwRGZVbXpmYVk0S0l6d3BsdkJFNllmVnY2a2pEUFZNSGNYbE1OSGFDYkNuenhQMWQwZlFzLWxfT1hJLVRVOGxwcXAzbXhJTkVlaThEZzlKSnVVYjZWdlBrcUJjMG9nYlFHa0lJcHlZTHVvRHJaeFdTeTAwa2RkOVo?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcVdDVm5kNXpHM08wQzJlUDBZTGlIOXI1aXhDTElFcTVlc2RMT1d6akViVXZXTEszSDBWRktLOXZVZXY2TDBOMWJaLTBnd3pnU2pVZFd0MGlyZGVlenEzQm5iNlZQQTJweWg2Z01nWll5cTZ2MnJDeVhpZzllN0dzRVREQVRELU1fdmFQcXVxemducTh4S1BaLXNYLVlXQUxnYlQ4Y1FhdWl0LWRIbEtBVXY0ekViT3BqQ09memlCblJnbmp4QWFuZg?oc=5"
         },
         {
-          "title": "AI data centers drive Daqo's RMB 6B move into next-gen energy gear - Stock Titan",
+          "title": "Krispy Kreme (DNUT) director-linked LLC acquires 630K shares in open market - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ0JzTjBFQ2x4ZkF0VHI5Nmk3TFR5QXNqTUE3YXo2QWd0RGFqbEVFNW5lWi15ZGlHdUtuQnVpZTlCdjdNWUdxMVU2Z0ExLVktaXVxcjhDYVdWSjFhS2FNTU9iRUl1NVlFc0s4bUJBSktKb2hVOEY0RWVoal9aSW9zNzMwdzBmZEl4c0Z2Z1FwYXM2LXpRUEpocTlBd3ZydnNEaXpSR2RhTll1SXM5UXJj?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2pSdC1NTDRscnJYdGdZOFB6R0lyakNNeFphTElPS1lSTmF0WlRldEJnZHBTN241SmpsN2dCc0JYUTZmQVlHbWxZQVg3a2xtUk41UTMxMEdOTFZjeGppRUpDOVI2ZmttbFhYeWd2M3Z1dGFMM2UwNHRwRzJtY1VaVXkyVnJyMUpUUmp2Qk5kOWZ0Vk0wQVgtbXRyOC14NThlMmVqeEkwRmJuT2NCSlBF?oc=5"
         }
       ],
-      "float_shares": "67.28M",
-      "short_float": "4.40%",
-      "daily_pct": -4.4,
-      "industry": "AI Energy",
-      "technical_status": "Fail (Avg $Vol $12M < $100M)",
+      "float_shares": "93.68M",
+      "short_float": "18.68%",
+      "daily_pct": -0.91,
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $7M < $100M)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 80,
+        "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "RMB 6B investment",
-        "discrepancy_note": "Finviz News (Source A) provides no information regarding the RMB 6B investment. Google News (Source B) consistently reports the RMB 6B figure across multiple articles, but without confirmation from a second source, it cannot be 'Verified'."
+        "primary_claim": "Director-linked LLC acquired 630,000 shares.",
+        "discrepancy_note": "Source A (Finviz News) contains no information regarding any share acquisitions. Source B (Google News) confirms the acquisition of 630,000 shares by a director-linked LLC (Article [2]), but there is no corresponding mention or confirmation from Source A. The catalyst summary itself did not contain a specific share count, so the largest specific acquisition related to the catalyst's entities was chosen for verification."
       },
-      "gates_passed": 3,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": true,
+        "gate_price": false,
         "gate_dollar_vol": false,
         "gate_mkt_cap": false,
         "gate_adr": true
@@ -157,51 +371,61 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "RELX",
-      "price": 32.9,
-      "gap_pct": 3.59,
-      "pm_volume": 85255,
-      "avg_vol_10d": 2648502,
-      "avg_dollar_vol": 87135716,
-      "mkt_cap": 57624476224,
-      "rvol": 0.71,
-      "adr_pct": 2.37,
-      "category": "Upgrade",
-      "theme": "Analyst Upgrade",
-      "reasoning": "Goldman Sachs initiated coverage on RELX with a Buy rating, addressing misplaced AI fears.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 31,
-      "grade": "C",
-      "finviz_theme": "AI Data & Analytics",
-      "analysis_detail": "Catalyst: Goldman Sachs **initiated** coverage on RELX plc with a **Buy** rating, directly challenging the market's prevailing **AI fears** concerning the company's business model and future growth. Impact: This major analyst endorsement aims to **re-rate** the stock by shifting the narrative, potentially driving **increased institutional investment** and removing a key overhang related to AI disruption.",
-      "analysis_details": "• **The Firm & Rating**\nGoldman Sachs has **initiated coverage** on RELX plc with a **Buy rating**, signaling a strong vote of confidence from a Tier-1 investment bank. This fresh, positive perspective can attract significant institutional attention and retail interest, potentially driving a re-evaluation of the stock's valuation.\n\n• **The Thesis**\nGoldman Sachs's core thesis posits that **AI fears surrounding RELX are misplaced**, addressing a critical market overhang. By arguing against the negative impact of AI, the bank suggests the market may be **undervaluing** RELX's resilience, strategic positioning, or its potential to leverage AI for future growth, aiming to shift the narrative and improve sentiment.",
+      "ticker": "RDW",
+      "price": 21.43,
+      "gap_pct": 4.57,
+      "pm_volume": 1824015,
+      "avg_vol_10d": 69126579,
+      "avg_dollar_vol": 1481382588,
+      "mkt_cap": 4262828480,
+      "rvol": 1.18,
+      "adr_pct": 13.09,
+      "category": "New Contract/Partnership",
+      "theme": "New Contracts",
+      "reasoning": "Redwire was awarded a new contract from Astrobiome Space to launch the world's first commercial space agriculture mission.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 77,
+      "grade": "A",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Redwire secured a contract from Astrobiome Space to develop and launch the inaugural commercial space agriculture mission, focusing on a 'World's First Commercial Space Greenhouse'. This deal was announced after market close on 2026-06-04, driving significant pre-market and Thursday session rallies. | Impact: This contract strategically positions RDW at the forefront of the emerging space agriculture market, potentially opening a new, high-growth revenue vertical and demonstrating its advanced capabilities in orbital manufacturing and biological systems.",
+      "analysis_details": "• **Impact**\nRedwire was **awarded** a landmark contract by Astrobiome Space to establish the **world's first commercial space greenhouse**, initiating an inaugural space agriculture mission. This news drove a **significant pre-market rally** and **strong gains** throughout Thursday's trading session, breaking a **four-session rout**. While the stock has seen an **overnight slip**, the initial market reaction underscored the perceived value of this novel venture.\n\n• **Strategic Value**\nThis contract represents a crucial strategic move, positioning Redwire as a **pioneer** in the nascent and potentially **high-growth** space agriculture market. It validates the company's advanced capabilities in orbital manufacturing and biological systems, **diversifying** its revenue streams beyond traditional space infrastructure. The \"world's first\" designation provides a **strong competitive advantage** and narrative for future growth within the broader space economy.",
       "peer_tickers": [
-        "SPGI",
-        "VRSK",
-        "MSCI"
+        "RKLB",
+        "ASTS",
+        "LUNR"
       ],
       "headlines": [
         {
-          "title": "Goldman Sachs Starts Relx at Buy, Arguing AI Fears Are Misplaced - AskTraders",
+          "title": "ASTS, RKLB, RDW, SIDU Slip Overnight: Retail Hopes For SpaceX-Fueled S&P 500 Buying Frenzy Take A Hit - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmlTdzBtV0ZsYkZLMEFDUnpJSmV6c3Zrb0FRTGVoenc5WTNPRmZ5bWhCdXJIZHgzR1IwOHVWQTlEYW9OMWVqUVFqSEJ0TGdCSU9oNHFsSXNjTG1ONmxCX216OGN4eHJ0YXRWUlBTSWZKN000U1pkYmVTT3dLNlFrakhnUXlQX3pIRmFXZ3pNb21OZVhMMEFBVGF6cy1QQ1M4bUE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcUpybVZ3TTNjcWgyTkhEeXFRLThISktVSWF6RFZKRmpvaFpEc2xKeHJPcUM5dUZYZlNEdGtuOEtMMWdrREo5N3lYRVRFRWxzQnhWQ3RRVlVaSXY1X0tnZFdIdGNzQUxKTXlGRE5DSi1hVlJOVnp0STN4OXl5ODdUM01aUzctNGZvVXN2cUlKNTU4dUlpMlBTNGFrWGFEZS1SclI3cXlzb1Q3SWZrc1h6bQ?oc=5"
         },
         {
-          "title": "Why AI Stocks Are Back In The UK Market Conversation - Kalkine Media",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQek5Rd0Z0dnY3RzRGaldweE9ialZ0bkVyV0I3bVl0RUdScmQ1bWVMUW1kSnczSThCeWFQQTJNNjludHhhQ3JzMVRDTHBNN1dtbjRRRHdydkhIdUpUT3MwSUkyTC1yV05YQlZGaGVTVThTTzU4Q0Q3cW9OWlg0YmxMb0ZHUzVQTlZXMGdNYUZmZV9SVXBVZnBIZURMYWYwNGkzblpENk5HdHdPUUNram85VA?oc=5"
+          "title": "Redwire Has a Contract to Grow Strawberries in Space-and Space Stocks Are Soaring Yet Again",
+          "source": "Finviz",
+          "url": "https://www.barrons.com/articles/redwire-stock-price-strawberries-space-1e3fb48b?mod=bar_FV"
         },
         {
-          "title": "RELX plc stock (GB00B2B0DG97): London-listed information group draws attention after recent share we - AD HOC NEWS",
+          "title": "RDWs Pre-Market Rally Sets It On Track To End 4-Session Rout  Retail Cheers The Big Win From Space Agriculture Deal",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/8818916a-0968-38d2-99ae-88a4e83be008/rdw%E2%80%99s-pre-market-rally-sets.html"
+        },
+        {
+          "title": "Redwire Awarded a Contract from Astrobiome Space to Launch Inaugural Space Agriculture Mission in Worlds First Commercial Space Greenhouse",
+          "source": "Finviz",
+          "url": "https://www.businesswire.com/news/home/20260604588639/en/"
+        },
+        {
+          "title": "Why Redwire Stock Is Quietly Taking Off Now - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUTBDWFRQZVNMcWFTZlRyRFZWS2VHWG4yMXh2Q01rWGJFX3VqM0QteDZLYlg3UXg4S2ZveVQ2MlRIYnZPT0RIcTdsZHozVDNhblBicy14ZVN1MHRMYWFuTzNycmphYmN1a3BtM3ZVRFN3VThjdFBsbnpJWEhsOU1UcmY2c0g2SVc4XzZ0R09PbXNWNnV2MW9PM3lNY0ltUFhPS0E5RmZTbXBrR0RMLTN0MjRHMnhCTkVoeGZhVVNYRFdiQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkpJUUE3bG1yNUFvTFg4VWhoS3BFUTUyVDhSdml3S0lab0dpUTBtckZLY21rTHlIcVRnQVdySnoxc1VJeksxSnUzUFFyNG1mdnRNMUd4RGdEMVlXQUpJdDVSbVN0d3FuSEhQQW5yMGdBN1d6T1VMODFpbi1DZ2ctZUMwRkh5aFc0YlE?oc=5"
         }
       ],
-      "float_shares": "1.76B",
-      "short_float": "0.24%",
-      "daily_pct": -1.44,
-      "industry": "AI Data & Analytics",
-      "technical_status": "Fail (Avg $Vol $87M < $100M, ADR 2.4% < 4%)",
+      "float_shares": "187.44M",
+      "short_float": "15.75%",
+      "daily_pct": 15.09,
+      "industry": "Space",
+      "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
         "confidence_score": 90,
@@ -209,15 +433,63 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Goldman Sachs initiated coverage on RELX with a Buy rating.",
-        "discrepancy_note": "Source B[1] (Google News via AskTraders) explicitly states 'Goldman Sachs Starts Relx at Buy', directly confirming the claim. However, Source A (Finviz News) contains no information ('none') to corroborate this claim. Since only one of the two provided source categories mentions the claim, it is marked as a Discrepancy."
+        "primary_claim": "Redwire was awarded a new contract from Astrobiome Space to launch the world's first commercial space agriculture mission.",
+        "discrepancy_note": "Source A (Finviz [4]) explicitly confirms Redwire was awarded a contract from Astrobiome Space to launch an inaugural space agriculture mission. However, Source B (Google News) only mentions RDW's stock movement and does not provide any details confirming the specific contract with Astrobiome Space or the nature of the mission."
       },
-      "gates_passed": 3,
+      "gates_passed": 5,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": false,
+        "gate_dollar_vol": true,
         "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "TLRY",
+      "price": 5.19,
+      "gap_pct": 4.43,
+      "pm_volume": 123143,
+      "avg_vol_10d": 3100710,
+      "avg_dollar_vol": 16092685,
+      "mkt_cap": 620745935,
+      "rvol": 0.95,
+      "adr_pct": 3.93,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "118.73M",
+      "short_float": "14.16%",
+      "daily_pct": 1.57,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $16M < $100M, ADR 3.9% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 1,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": false
       },
       "meets_all_gates": false,
@@ -225,59 +497,146 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "OSCR",
-      "price": 20.5,
-      "gap_pct": 3.41,
-      "pm_volume": 80351,
-      "avg_vol_10d": 6540483,
-      "avg_dollar_vol": 134079902,
-      "mkt_cap": 5450991165,
-      "rvol": 1.04,
-      "adr_pct": 6.56,
-      "category": "Upgrade",
-      "theme": "Analyst Upgrade",
-      "reasoning": "Oscar Health received an analyst upgrade from Wells Fargo, changing its rating and significantly raising its price target.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 32,
-      "grade": "A",
-      "finviz_theme": "Digital Health",
-      "analysis_detail": "Catalyst: Wells Fargo upgraded Oscar Health to **Equalweight** from **Underweight** and increased its price target to **$20** from **$11**. This represents a substantial endorsement from a major financial institution. | Impact: This upgrade significantly **de-risks** the stock's perception, potentially attracting new institutional interest and signaling a more positive outlook on its business model and future profitability.",
-      "analysis_details": "• **The Firm & Rating**\nWells Fargo **upgraded** Oscar Health (OSCR) from **Underweight** to **Equalweight**, simultaneously **raising** its price target significantly from **$11** to **$20**. This represents a strong vote of confidence from a major financial institution, signaling a more optimistic outlook on the company's fundamentals and future prospects.\n\n• **The Thesis**\nThe upgrade implies Wells Fargo sees a **material improvement** in OSCR's business trajectory, likely related to its path to profitability or operational efficiency. The **81% increase** in the price target suggests a belief in substantial upside potential, attracting attention from momentum investors looking for re-valuation plays in the digital health sector.",
+      "ticker": "SAP",
+      "price": 187.14,
+      "gap_pct": 3.49,
+      "pm_volume": 75860,
+      "avg_vol_10d": 3281251,
+      "avg_dollar_vol": 614053312,
+      "mkt_cap": 223016394340,
+      "rvol": 1.16,
+      "adr_pct": 2.93,
+      "category": "Thematic Narratives",
+      "theme": "AI Product Launch / Strategic Pivot",
+      "reasoning": "SAP announced a game-changing product launch, aligning with strong AI and sustainability narratives, driving significant investor interest.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "B",
+      "finviz_theme": "AI Enterprise Software",
+      "analysis_detail": "Catalyst: SAP announced a **game-changing product launch**, described as contributing to **AI and sustainability momentum**, while also benefiting from positive tailwinds in **Berlin and Taiwan**. Impact: The news suggests a **strategic pivot** towards high-growth areas, potentially **re-rating** the stock by improving its competitive positioning and total addressable market in next-gen enterprise solutions.",
+      "analysis_details": "• **The Narrative**\nSAP is strategically pivoting with a new **game-changing product launch** focused on **AI and sustainability**. This positions the legacy enterprise software giant directly within two of the most potent **thematic narratives** dominating equity markets today. The market sees this as a crucial step to **modernize** its offerings and **reaccelerate growth**.\n\n• **Explosiveness**\nThe product launch, combined with positive macro tailwinds from **Berlin and Taiwan**, signals strong potential for **re-rating**. The stock moved up **4.00%** on **Jun 4** on **1.2x average volume**, suggesting institutional conviction is building as SAP aims to overcome its **45% discount** from peak levels by leveraging its AI investments. This could lead to a **sustainable uptrend** if the product gains traction.",
       "peer_tickers": [
-        "TDOC",
-        "HIMS"
+        "CRM",
+        "NOW"
       ],
       "headlines": [
         {
-          "title": "Wells Fargo Upgrades Oscar Health to Equalweight From Underweight, Adjusts PT to $20 From $11 - marketscreener.com",
+          "title": "SAP Catches Tailwinds from Berlin, Taiwan and a Game-Changing Product Launch - AD HOC NEWS",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYWk0WFVRUHV1S2Z0Yy1ZRkp4eFpLcGwzTVR5cUdTbUZHMGc1OGhmS1BWdHVYZUE2VU1SZjNwTjJVeDRkMmJhZWRDUUNiWG12cklMbkRfR0JveGY2SWI2R2VHOGpaOE9OY0VsMnFGSVZvcE5WN25lVnFaMFFZU1JfVVlZeldRNXkwWV8wXzM0NzlFMEV6RzJYRGJpdV9LMnlfQjM5Q2VqT3V1SE9KUl9TdVRaTm9QMVdJdkFNTTJqZ05GLXZRYWZyT25oT1djZkRYZ3lKRkRDemMzckE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS3RNVXZ3VDZrSDBVTnNrVzNxOTM1SDdzUFF4UWd3UGxJOG05b3hqZGFneDREaVJHYUtfRWZOekpaem9aMzdsNnE2cVN5d1I5S2FqTVdGYlhrSHNYTFdZSWJ5YzNHcVRoQUxoTVdnam55eTdkb3FHLVprbWVaSElmNUxRSGlEdVc4QjFMRGltTDl1NjQ1bGZncGdSVEhRYWNFcm9vMUtsa0RLejJveGpGRTBURzJpeVdCdDJOcW1DX2dUS3VXSXc?oc=5"
         },
         {
-          "title": "Oscar Health (OSCR) Sees 2% Increase Following Wells Fargo Upgra - GuruFocus",
+          "title": "AI-Fueled IPO Leader Tests Breakout And Takes On Legacy Giants AmEx, SAP - Investor's Business Daily",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXQtNFBZdHR5aWxVOUVZdzFGeWc1OUtya1laNnk5RXRreVBCZGR5RVZiRTBxMUR2QzBjRE44UVJNVEFHVldYS2c1MHVyR3VldURJY1R4S3h0anBEbUlCTjh3YVY3dWFBRE1rbklHMkVqM1FMRHA4V0ZJMUtYN0VLcS0wQjFkYWRTYVV6UG1vTWFhTmNNTUxOaHBkNEYtV3BIeFhqZQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmNrS0I4OW5TaC1OQmhtSVU5S3JjeUstVXZ1OE93NU5DSkxsenRqNTgwc1NzbVNOeUZ2aWZ3YzlRWUxselJtdnVNdmpXQ0FPRTRtMmhLV1VMMTdDLXpLMlg5MnNJc28yb0J4TlNBdGx1YlFhU0hCNTdKWmljN2x6dUdfVU5OaFdFNjkzblJlU3k1TVVFQWRKNV9qT0d2Q0JSS2tVeW9lRXRJMDFjbnc?oc=5"
         },
         {
-          "title": "Oscar Health Inc (OSCR) Stock Down 3.0% -- Now Undervalued? GF S - GuruFocus",
+          "title": "SAP’s AI Pivot Faces Shareholder Ire as Stock Trades 45% Below Peak - AD HOC NEWS",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalg5RnNyZkM1Tlp5cHp2ZXltME95X3Q5cjRuRzdqU2xQZTlPRVlydjlvM0ZCNWIwZnJMQWRmUkp0M0x1OE91YWdxbEw0QWllNllDbVZyQ09qMUJQN3VkNjAtcEhpRTJXcVBYSXBmNmlPT2JRUWZPQVVVOWVHZ29RVHVtS2c5aUM1MVRCTVBjNzc2YkZyUXhBWkNLSlpDZ3E1RHJnQXVONzg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZGZfamxEa1JMYjNXVmVXR0FhZmRDd1NiTjQyWTZsakM3Wnd1Y0NJY2Izb3VDVmR3S2k5Rmt5RmgtRTFnVTNMYWd1NWozM1VHUk1kMy1fRVVRbllQN2lNbFJPTlJTSUR5eHU5ZXAyUFU0V1BRQUJ6ZHlkeTQ2dGZ4VU42SFk5RXpadnJCTzJBVXN5NWxXc0l4SlA4cTBoUkd2M1VRVTJNTEZ5dXJHZFZpLTNrYy02dVlLRnBzbFFNV3lzajZFd2U4?oc=5"
+        },
+        {
+          "title": "SAP SE Stock (SAP) Moved Up by 4.00% on Jun 4: What Signal Does It Send? - TradingKey",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQWVjMVM0Wlphc05rdHV1U19MVDhwb2JVSHFXbERLT1VQRmJmc1dvS3dBenBzczdkOFJNYm53OTFKY2FkV3hNUnY2WjQtQVlPWVNZa2NjMDU2cEdGek53cmVLMWw5OXV5X3dCNjFfN2JOR3R5RnA0Yjh6c1owNjh4RzQ3V3R3Q0VzdlE?oc=5"
+        },
+        {
+          "title": "SAP Stock Jumps As AI And Sustainability Momentum Build - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibUlwZDUyemotMHhPZzVlZG9tOXdpVmRlVkFIZTczSkUxeWF2dW4ybTVNeVdPbC1TaUR1U2loczZMODQ1dWtpQjhtVkpvYWRQRmQxRkdaOGNUcjZBRnFjODY4eEVfSER0V0lWdWRKYw?oc=5"
         }
       ],
-      "float_shares": "241.01M",
-      "short_float": "7.63%",
-      "daily_pct": -3.03,
-      "industry": "Digital Health",
-      "technical_status": "Pass",
+      "float_shares": "1.17B",
+      "short_float": "0.98%",
+      "daily_pct": 3.58,
+      "industry": "AI Enterprise Software",
+      "technical_status": "Fail (ADR 2.9% < 4%)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 85,
+        "confidence_score": 80,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Wells Fargo adjusted Oscar Health's price target to $20 from $11.",
-        "discrepancy_note": "Only Source B[3] explicitly confirms the specific price target adjustment to $20 from $11. Source A contains no information regarding the claim."
+        "primary_claim": "SAP announced a game-changing product launch",
+        "discrepancy_note": "Only Google News [5] explicitly mentions 'a Game-Changing Product Launch' for SAP; Finviz has no information regarding a product launch."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "APP",
+      "price": 558.87,
+      "gap_pct": 3.24,
+      "pm_volume": 58807,
+      "avg_vol_10d": 4959936,
+      "avg_dollar_vol": 2771959432,
+      "mkt_cap": 187746783158,
+      "rvol": 1.2,
+      "adr_pct": 6.93,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "AI Ads & Search",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo specific, impactful fundamental news catalyst was released for AppLovin (APP) in the last 24 hours. While a Form 144 filing was noted, the reported **720 restricted shares** is an **extremely negligible** amount compared to APP's **$2.77B** average daily trading volume, rendering it immaterial. Opinion pieces and competitor news do not serve as direct catalysts for APP's stock move.\n\n• **Key Consideration**\nThe significant price action (implied by **ADR% of 6.9%** and **RVOL of 1.2x**) occurring on no discernable news suggests the move is driven by **technical factors** such as a breakout past key resistance levels, short covering, or institutional order flow. Without a fundamental underpinning, such price movements carry a **higher risk of reversal** and are generally less sustainable for long-term momentum.",
+      "peer_tickers": [
+        "TTD",
+        "PUBM"
+      ],
+      "headlines": [
+        {
+          "title": "Better Value & Growth: APP Leads Synopsys Stock - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVBoM1BTcmFJWU9VNEM1cGpZdHdRUVRQVFpnNC03emN5TFFqZXdCSS1qTFAwTlo0aWtxS0xnUEIzWnJ4ZDA0UUowLTllYkJoSzB0WTdNUzFvaVFjdGV2VEh0bms3TVYtYS1WUHBqT1BadUlpZVdEWGJRYmdtQm9BOGNaWHpxaWI0dUNGWDZrelVxQW9EMGFyVmlwTk9jeGpuN0FmdV9sSW8?oc=5"
+        },
+        {
+          "title": "APP (NASDAQ: APP) files Form 144 to sell 720 restricted shares - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaFhSMVBGTl8zN09rUEotT2NXZTFaRnJJSXpMVmlkTml6UzBRMm1RMDVlS0JRRHpkQmk0X2pqTHRYME5zVzZHc2x6Tk1RU2kxNzBYdzRrV3pCczlXaW1ZS1F1cnFINm9FbTYzdkVoT0RQckpURTZIeUhVb0IzQlB6ZmZaNXhRREFPZHNDWjZGcHVLSFVV?oc=5"
+        },
+        {
+          "title": "Trade Desk Is Down 44% This Year and AppLovin Is Down 17%. Are Ad-Tech Stocks Dead Money in 2026? - 24/7 Wall St.",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMEJXRDZRejFqcnJUektpTGFkay1LckJ0VmZLb0YzVzVjenU0RFREdHB0b2JvT0JQVFdOcmdLSE9lMTY2dFN4NTJGNnMxRUctSXprd28wQldmazBHUnNwbWE2STVMYWVaWEpaTUw1WmhkZG5WVUhucW45eWZwLW1VS3VLenpjejQ4YV9jZDlHTXFXVFZMNVhlc2xPamNRdWpkZ3c1SnJySlBJWExObi0yNjB5ajRZYkp0WVpGME9ObXhSeUxodE95bU82RXJ1dV9ZYmFz?oc=5"
+        },
+        {
+          "title": "Are AI Stock Trading Bots Suitable for Everyday Investors? BulkQuant Launches a Stock Quant Trading App - markets.businessinsider.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjV3Xy1KellTWVpJRnM1b0NCVWtGSnlxSHNsVzRTeDRtbnFiQXVrb1B3c2RLVWdiR1FvbXZuTjNxaGpHc2tFbzA5X2hVZzV5ZC1MdHYxVzl0eTlkOEk4aUJabFAtcXVUM3ZUX05sYzF3cEp2MTFfSE5vNjVMeG8tSEhaeEZJVHZQMEFiNWVRY0lvMGNPMGliV0FfMktoam4way0xWEV6YVpxTE96OXVzSGw1YjNtcGc4U19qNjVPT3gxeTg0X1dpYVFPSkNGZjdmc0ZRRnBpYmk3Qm5BazBRUGI1Q3UybHExcmd5eVFEaTlld0E?oc=5"
+        },
+        {
+          "title": "Liftoff Mobile IPO: Why investors are comparing it to AppLovin",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/video/liftoff-mobile-ipo-why-investors-204101755.html"
+        }
+      ],
+      "float_shares": "256.78M",
+      "short_float": "4.66%",
+      "daily_pct": -2.1,
+      "industry": "AI Ads & Search",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found for APP",
+        "discrepancy_note": ""
       },
       "gates_passed": 5,
       "gates_detail": {
