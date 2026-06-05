@@ -1,59 +1,6 @@
 {
-  "generated_at": "2026-06-04T21:52:12.771328+00:00",
+  "generated_at": "2026-06-05T21:55:05.978198+00:00",
   "data_source": "fallback",
-  "power_themes": [
-    {
-      "name": "Defense & Aerospace",
-      "theme_rs": 98.0,
-      "perf_1d": 15.09,
-      "leaders": [
-        {
-          "ticker": "RDW",
-          "price": 21.43,
-          "rs_52w": 98,
-          "adr_pct": 11.29,
-          "vol_surge": 2.32,
-          "mkt_cap": 4262828401,
-          "gates_passed": 5,
-          "gates_detail": {
-            "rs_52w > 85": true,
-            "price > 12": true,
-            "avg_dollar_vol_30d > 100M": true,
-            "mkt_cap > 2B": true,
-            "adr_pct >= 4.0": true
-          },
-          "primary_theme": "Defense & Aerospace",
-          "secondary_themes": [],
-          "setup_label": "Flag"
-        }
-      ]
-    },
-    {
-      "name": "Healthcare Services",
-      "theme_rs": 87.0,
-      "perf_1d": 15.12,
-      "leaders": [
-        {
-          "ticker": "OSCR",
-          "price": 23.6,
-          "rs_52w": 87,
-          "adr_pct": 6.06,
-          "vol_surge": 1.48,
-          "mkt_cap": 7115234915,
-          "gates_passed": 5,
-          "gates_detail": {
-            "rs_52w > 85": true,
-            "price > 12": true,
-            "avg_dollar_vol_30d > 100M": true,
-            "mkt_cap > 2B": true,
-            "adr_pct >= 4.0": true
-          },
-          "primary_theme": "Healthcare Services",
-          "secondary_themes": [],
-          "setup_label": "Base"
-        }
-      ]
-    }
-  ],
+  "power_themes": [],
   "account_equity": null
 }

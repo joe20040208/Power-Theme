@@ -2,10 +2,32 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-06-05",
+      "date_display": "6/5/2026",
+      "up_4_pct": 81,
+      "down_4_pct": 954,
+      "ratio_5d": 0.66,
+      "ratio_10d": 1.17,
+      "up_25_q": 1362,
+      "down_25_q": 1085,
+      "up_25_m": 131,
+      "down_25_m": 143,
+      "up_50_m": 38,
+      "down_50_m": 27,
+      "up_13_34d": 1418,
+      "down_13_34d": 1895,
+      "atr_10x_ext": 13,
+      "above_50dma_pct": 51.2,
+      "worden_universe": 6467,
+      "t2108": 40.26,
+      "sp_index": 7384.65,
+      "universe_1b": 2551
+    },
+    {
       "date": "2026-06-04",
       "date_display": "6/4/2026",
-      "up_4_pct": 393,
-      "down_4_pct": 114,
+      "up_4_pct": 397,
+      "down_4_pct": 116,
       "ratio_5d": 1.23,
       "ratio_10d": 1.82,
       "up_25_q": 1538,
@@ -18,9 +40,9 @@
       "down_13_34d": 1521,
       "atr_10x_ext": 34,
       "above_50dma_pct": 56.9,
-      "worden_universe": 6462,
-      "t2108": 44.56,
-      "sp_index": 7584.69,
+      "worden_universe": 6467,
+      "t2108": 44.89,
+      "sp_index": 7584.31,
       "universe_1b": 2579
     },
     {
@@ -2536,6 +2558,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-04T21:53:33+00:00",
-  "gemini_analysis": "TODAY \u2014 Today saw 393 stocks up 4%+ and 114 stocks down 4%+, indicating a relatively positive day with buying just below the \"healthy thrust\" threshold of 400. The up/down ratio of 3.45 suggests positive momentum despite not hitting extreme individual counts.\nWEEK \u2014 The 5-day ratio (`r5d`) has steadily declined from 2.47 to 1.23 this week, moving from a strong bull trend to merely bullish. Both `up25M` and `up13_34d` counts have seen a decrease from their earlier highs, indicating fading broad participation and medium-term momentum.\nMONTH \u2014 The `up50M` count is at 64, signaling a hot market but below the frothy levels (\u2265100) seen earlier in the period, while 56.9% of stocks are above their 50-day moving average, a healthy bull market range. T2108 at 44.56% is in a neutral zone, suggesting swing traders should focus on individual stock setups rather than broad market extremes.\nREGIME \u2014 Consolidation \u2014 The market is consolidating after a period of strong gains and some froth, with several breadth indicators pulling back from earlier highs. Stockbee would watch for a fresh `up4` count above 400-600 or the 5-day ratio (`r5d`) to again cross 2.0 as a leading signal for the next expansion leg."
+  "fetched_at_utc": "2026-06-05T21:56:16+00:00",
+  "gemini_analysis": "TODAY \u2014 dn4 of 954 indicates heavy selling, an extreme thrust to the downside, while up4 of 81 shows a complete lack of buying. The resulting ratio of 0.085 confirms significant distribution on this day.\nWEEK \u2014 The 5D Ratio has fallen sharply from 2.47 to 0.66 over the last week, dropping from strong bullish to bearish territory. Both up25M (266 to 131) and up13_34d (1867 to 1418) show significant fading breadth, indicating a deteriorating market.\nMONTH \u2014 up50M is at 38, below the \"hot market\" threshold, while %above50dma is a healthy 51.2% and T2108 is 40.26%. The market is no longer frothy, having cooled off from recent highs, indicating a less conducive environment for easy swing trades.\nREGIME \u2014 Distribution. Stockbee would be watching for signs of capitulation (e.g., dn50M \u226530 or T2108 \u226420) or a strong buying thrust day (up4 \u2265400) to signal a potential reversal."
 }
