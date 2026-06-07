@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 07, 2026 (16:55 EST)",
+  "last_checked": "June 07, 2026 (17:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Fragile ceasefire in jeopardy as Iran reportedly fires missiles at Israel",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-07T17:00:24.923997-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Fragile ceasefire in jeopardy as Iran reportedly fires first missiles at Israel",
       "source": "CNBC",
@@ -1355,6 +1363,10 @@
     {
       "k": "fragile ceasefire in jeopardy as iran reportedly fires first missiles at israel",
       "ts": "2026-06-07T20:10:26.025722+00:00"
+    },
+    {
+      "k": "fragile ceasefire in jeopardy as iran reportedly fires missiles at israel",
+      "ts": "2026-06-07T21:00:25.252616+00:00"
     }
   ]
 }
