@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 07, 2026 (16:05 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 07, 2026 (16:10 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Fragile ceasefire in jeopardy as Iran reportedly fires first missiles at Israel",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-07T16:10:25.322371-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "japanese bond yields are the highest in 40 years the budget and a red flag from pm takaichi have",
@@ -1342,6 +1351,10 @@
     {
       "k": "bring em on delta wants uniteds crown over the pacific too",
       "ts": "2026-06-07T18:20:25.232446+00:00"
+    },
+    {
+      "k": "fragile ceasefire in jeopardy as iran reportedly fires first missiles at israel",
+      "ts": "2026-06-07T20:10:26.025722+00:00"
     }
   ]
 }
