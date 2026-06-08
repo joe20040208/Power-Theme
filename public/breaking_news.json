@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 08, 2026 (03:15 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 08, 2026 (03:20 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Oil prices spike nearly 5% as Iran and Israel trade strikes, escalating regional tensions",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-08T03:20:25.622031-04:00",
+      "pub_time": "2026-06-08T03:19:16-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "oil climbs over 3 as us and iran exchange strikes israel expands lebanon offensive",
@@ -1334,6 +1343,10 @@
     {
       "k": "asia tech stocks extend selloff with softbank dropping 6 as investors sour on ailinked names",
       "ts": "2026-06-08T07:10:27.196085+00:00"
+    },
+    {
+      "k": "oil prices spike nearly 5 as iran and israel trade strikes escalating regional tensions",
+      "ts": "2026-06-08T07:20:26.063324+00:00"
     }
   ]
 }
