@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 08, 2026 (18:30 EDT)",
+  "generated_at": "June 08, 2026 (18:53 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led strength, cautious global tone",
+  "mood": "Tech Leadership, Global Caution",
   "analysis": {
-    "action_line": "VIX 18.92 Normal + S5FI 52.5% breadth + Nikkei -1.31% → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets showed a mixed picture today with Nikkei 225 down 1.31% and DAX lower by 0.75%, while FTSE 100 eked out a minor gain of 0.05%. US credit remains an area of uncertainty with the BAML HY Spread listed as N/A, though the 10-Year yield held stable at 4.55%. Despite international caution, US breadth metrics, with 52.5% of stocks above their 50-day moving average (S5FI) and 60.4% above their 200-day (MMTH), indicate underlying market resilience, preventing a broader pullback.",
-    "analysis_para2": "Our mechanical plan remains focused on relative strength leaders while VIX stays below 20 and breadth holds above key levels. The Nasdaq 100's strong performance today should be watched for consolidation, with 29000 acting as initial support. A sustained move by S5FI below 50% would signal increasing internal weakness, warranting a reduction in exposure. As long as these conditions hold, focus on identifying robust setups in leading sectors emerging from solid bases.",
-    "technical_signal": "No reversal pattern confirmed yet. Major indices closed positive, led by strong technology sector performance.",
+    "action_line": "VIX 18.92 Normal + S5FI 52.5% breadth + Nikkei -1.31% suggests selective long opportunities in RS leaders.",
+    "analysis_para1": "Global markets exhibited a mixed to weak performance, with the Nikkei 225 down 1.31% and the DAX off 0.75%, contrasting with a modest gain of 0.05% for the FTSE 100. US credit stability remains an area of uncertainty with the BAML HY Spread unknown, yet stable 10Y yields at 4.55% currently prevent broader bond market distress. Despite international headwinds, US equity breadth shows resilience, with 52.5% of stocks above their 50-day moving average (S5FI) and 60.4% above their 200-day moving average (MMTH). This internal market strength indicates a selective environment where leading US sectors continue to absorb global pressures.",
+    "analysis_para2": "The Nasdaq 100's robust 1.58% gain signals clear leadership, particularly from growth and technology sectors, driving the overall US market higher. Price action should be monitored for a continuation above the current close of 29414.26, with dips towards the 20-day EMA serving as potential entry points for relative strength plays. A retest of the S&P 500's 7400 level, should it occur, would offer a clearer picture of broader market conviction. Traders should maintain tight stops on new positions, given the underlying global market softness. Confirmation of sustained leadership will come from continued strong breadth readings and Nasdaq outperformance.",
+    "technical_signal": "No reversal pattern confirmed yet. The Nasdaq 100's strong showing indicates continued momentum in leading sectors.",
     "ticker_intel": [
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
         "grade": "A+",
-        "reason": "Marvell Technology, Inc. (MRVL) earns an A+ for its exceptional RS 98 and remarkable 1M return of +80.5%, positioning it as a top leader in the currently thriving Semiconductors theme."
+        "reason": "Marvell Technology demonstrates exceptional leadership with an RS of 98 and robust 1-month returns of +80.5%, indicative of strong institutional demand within the high-growth Semiconductor theme."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology, Inc. (VSH) is an A-grade long due to its strong RS 98 and impressive 1M return of +75.6%, signaling robust momentum within the leading Semiconductors sector."
+        "reason": "Vishay Intertechnology, with an RS of 98 and a phenomenal 3-month return of +240.8%, confirms powerful momentum in the Semiconductor sector, making it a compelling long candidate."
       },
       {
         "ticker": "COHU",
         "company": "Cohu, Inc.",
         "grade": "C",
-        "reason": "Cohu, Inc. (COHU) receives a C grade for showing the weakest 1M return of +10.6% among leading candidates, indicating relatively lagging momentum despite its high RS 97 in the Semiconductors theme."
+        "reason": "Cohu, despite a high RS of 97, shows comparatively weaker recent momentum with its 1-month return of +10.6%, suggesting it may lag its peers in the red-hot Semiconductor sector."
       }
     ]
   }
