@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 08, 2026 (06:50 EST)",
+  "last_checked": "June 08, 2026 (06:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump insists negotiations are continuing despite Israel and Iran trading strikes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-08T06:55:26.962447-04:00",
+      "pub_time": "2026-06-08T06:51:17-04:00"
+    },
     {
       "headline": "Trump tells Iran and Israel to stop 'shooting' after they exchange strikes",
       "source": "CNBC",
@@ -1367,6 +1375,10 @@
     {
       "k": "airline profits set to halve this year as fuel costs jump by 100 billion iata",
       "ts": "2026-06-08T10:10:28.715080+00:00"
+    },
+    {
+      "k": "trump insists negotiations are continuing despite israel and iran trading strikes",
+      "ts": "2026-06-08T10:55:27.699024+00:00"
     }
   ]
 }
