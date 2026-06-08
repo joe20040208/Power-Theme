@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 08, 2026 (12:10 EST)",
+  "last_checked": "June 08, 2026 (12:15 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -52,14 +52,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "anthropic confidentially files ipo prospectus with sec",
-      "ts": "2026-06-01T16:15:30.652718+00:00"
-    },
-    {
-      "k": "us oil jumps more than 7 on report iran will halt talks with us and completely block hormuz",
-      "ts": "2026-06-01T16:15:30.652718+00:00"
-    },
     {
       "k": "anthropic confidentially files ipo prospectus with sec prepping wall street for landmark ai deal",
       "ts": "2026-06-01T16:55:28.228446+00:00"
@@ -1383,6 +1375,10 @@
     {
       "k": "strait of hormuz traffic wont return to normal until end of the year traders say",
       "ts": "2026-06-08T15:50:38.159522+00:00"
+    },
+    {
+      "k": "chip rebound has one trader buying protection",
+      "ts": "2026-06-08T16:15:32.579058+00:00"
     }
   ]
 }
