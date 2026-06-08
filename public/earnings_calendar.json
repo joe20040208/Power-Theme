@@ -1,24 +1,7 @@
 {
-  "generated_at": "2026-06-05T21:56:15.846194+00:00",
+  "generated_at": "2026-06-08T12:17:32.149438+00:00",
   "data_source": "tradingview",
   "earnings": [
-    {
-      "date": "2026-06-08",
-      "ticker": "CPB",
-      "company": "The Campbell's Company",
-      "time_of_day": "BMO",
-      "mkt_cap": 6463815951.0,
-      "eps_estimate": 0.48,
-      "eps_act": 0.51,
-      "eps_surp_pct": -10.87,
-      "rev_est": 2382389640.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 21.68,
-      "avg_volume": 8838225,
-      "adr_pct": 3.1,
-      "dollar_volume": 191612718.0
-    },
     {
       "date": "2026-06-08",
       "ticker": "MTN",
@@ -32,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 135.37,
-      "avg_volume": 841200,
+      "avg_volume": 845431,
       "adr_pct": 3.2,
-      "dollar_volume": 113873244.0
+      "dollar_volume": 114445994.0
     },
     {
       "date": "2026-06-09",
@@ -49,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.75,
-      "avg_volume": 1469915,
+      "avg_volume": 1475771,
       "adr_pct": 3.8,
-      "dollar_volume": 76068101.0
+      "dollar_volume": 76371149.0
     },
     {
       "date": "2026-06-09",
@@ -59,16 +42,16 @@
       "company": "Casey's General Stores, Inc.",
       "time_of_day": "AMC",
       "mkt_cap": 28241665927.0,
-      "eps_estimate": 3.34,
+      "eps_estimate": 3.32,
       "eps_act": 3.49,
       "eps_surp_pct": 14.46,
-      "rev_est": 4308645940.0,
+      "rev_est": 4339829270.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 761.91,
-      "avg_volume": 601268,
+      "avg_volume": 597729,
       "adr_pct": 3.4,
-      "dollar_volume": 458112102.0
+      "dollar_volume": 455415702.0
     },
     {
       "date": "2026-06-09",
@@ -83,9 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.97,
-      "avg_volume": 2524931,
+      "avg_volume": 2520090,
       "adr_pct": 2.8,
-      "dollar_volume": 131220664.0
+      "dollar_volume": 130969077.0
     },
     {
       "date": "2026-06-09",
@@ -100,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 18.24,
-      "avg_volume": 3526839,
+      "avg_volume": 3547501,
       "adr_pct": 6.7,
-      "dollar_volume": 64329543.0
+      "dollar_volume": 64706418.0
     },
     {
       "date": "2026-06-09",
@@ -113,13 +96,13 @@
       "eps_estimate": 2.64,
       "eps_act": 2.38,
       "eps_surp_pct": 3.6,
-      "rev_est": 2260866910.0,
+      "rev_est": 2260626200.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 103.54,
-      "avg_volume": 1864801,
+      "avg_volume": 1858929,
       "adr_pct": 2.5,
-      "dollar_volume": 193081496.0
+      "dollar_volume": 192473509.0
     },
     {
       "date": "2026-06-09",
@@ -134,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 12.65,
-      "avg_volume": 9395442,
+      "avg_volume": 9412742,
       "adr_pct": 7.3,
-      "dollar_volume": 118852341.0
+      "dollar_volume": 119071186.0
     },
     {
       "date": "2026-06-09",
@@ -151,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 55.52,
-      "avg_volume": 691450,
+      "avg_volume": 697232,
       "adr_pct": 3.5,
-      "dollar_volume": 38389304.0
+      "dollar_volume": 38710321.0
     },
     {
       "date": "2026-06-10",
@@ -168,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 66.64,
-      "avg_volume": 325109,
+      "avg_volume": 328295,
       "adr_pct": 6.4,
-      "dollar_volume": 21665264.0
+      "dollar_volume": 21877579.0
     },
     {
       "date": "2026-06-10",
@@ -181,13 +164,13 @@
       "eps_estimate": 0.43,
       "eps_act": 0.09,
       "eps_surp_pct": -1.21,
-      "rev_est": 3350107490.0,
+      "rev_est": 3350126540.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 20.64,
-      "avg_volume": 8397925,
+      "avg_volume": 8374745,
       "adr_pct": 4.8,
-      "dollar_volume": 173333172.0
+      "dollar_volume": 172854737.0
     },
     {
       "date": "2026-06-10",
@@ -198,13 +181,13 @@
       "eps_estimate": 1.96,
       "eps_act": 1.79,
       "eps_surp_pct": 3.08,
-      "rev_est": 19099854300.0,
+      "rev_est": 19093705860.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 213.68,
-      "avg_volume": 27478465,
+      "avg_volume": 27553412,
       "adr_pct": 5.3,
-      "dollar_volume": 5871598401.0
+      "dollar_volume": 5887613076.0
     },
     {
       "date": "2026-06-11",
@@ -212,16 +195,16 @@
       "company": "Adobe Inc.",
       "time_of_day": "AMC",
       "mkt_cap": 101632048987.0,
-      "eps_estimate": 5.83,
+      "eps_estimate": 5.81,
       "eps_act": 6.06,
       "eps_surp_pct": 1.17,
-      "rev_est": 6454288800.0,
+      "rev_est": 6451152870.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 251.44,
-      "avg_volume": 5564839,
+      "avg_volume": 5550468,
       "adr_pct": 3.8,
-      "dollar_volume": 1399223118.0
+      "dollar_volume": 1395609674.0
     },
     {
       "date": "2026-06-11",
@@ -229,22 +212,22 @@
       "company": "Lennar Corporation",
       "time_of_day": "AMC",
       "mkt_cap": 22287532279.0,
-      "eps_estimate": 1.25,
+      "eps_estimate": 1.24,
       "eps_act": 0.93,
       "eps_surp_pct": -3.95,
-      "rev_est": 8098330470.0,
+      "rev_est": 8074688900.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 90.49,
-      "avg_volume": 2981681,
+      "avg_volume": 2973404,
       "adr_pct": 2.9,
-      "dollar_volume": 269812314.0
+      "dollar_volume": 269063328.0
     },
     {
       "date": "2026-06-11",
       "ticker": "RH",
       "company": "RH",
-      "time_of_day": "BMO",
+      "time_of_day": "AMC",
       "mkt_cap": 2771419851.0,
       "eps_estimate": -2.05,
       "eps_act": 1.53,
@@ -253,9 +236,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 146.63,
-      "avg_volume": 1214626,
+      "avg_volume": 1214228,
       "adr_pct": 6.2,
-      "dollar_volume": 178100610.0
+      "dollar_volume": 178042252.0
     }
   ]
 }
