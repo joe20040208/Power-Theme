@@ -1,29 +1,29 @@
 {
-  "generated_at": "June 08, 2026 (12:50 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 08, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7440.15,
-      "change": 56.41,
-      "change_pct": 0.76
+      "price": 7405.73,
+      "change": 21.99,
+      "change_pct": 0.3
     },
     {
       "label": "Nasdaq 100",
-      "price": 29572.86,
-      "change": 615.26,
-      "change_pct": 2.12
+      "price": 29414.26,
+      "change": 456.66,
+      "change_pct": 1.58
     },
     {
       "label": "VIX",
-      "price": 18.57,
-      "change": -2.94,
+      "price": 18.92,
+      "change": -2.59,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.56,
+      "price": 4.55,
       "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24616.22,
-      "change_pct": -0.58
+      "price": 24759.05,
+      "change_pct": -0.75
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 53.5,
-    "mmth": 60.9,
+    "s5fi": 52.5,
+    "mmth": 60.4,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led rally, selective strength",
+  "mood": "Tech-led strength, cautious global tone",
   "analysis": {
-    "action_line": "VIX 18.57 Normal + S5FI 53.5% breadth + mixed global tape → trade leading tech and hardware names near support.",
-    "analysis_para1": "European and Asian markets are largely negative today, with the Nikkei 225 down 1.31% and the DAX losing 0.58%, contrasting with strong US equity performance led by the Nasdaq 100's +2.12% surge. While the BAML HY Spread remains unknown, suggesting caution on credit, underlying US market breadth is solid with 53.5% of S&P 500 stocks above their 50-day moving average and 60.9% above their 200-day. This indicates internal sector rotation and a robust environment for leadership despite global mixed signals.",
-    "analysis_para2": "The market continues its upward momentum, particularly in growth sectors, with the S&P 500 at 7440.15 and the Nasdaq 100 showing significant outperformance. Traders should monitor the S&P 500's ability to hold above its intraday lows, treating any constructive dips towards the 7400 level as potential entry points for leading names. With the VIX at a normal 18.57, the focus remains on high relative strength stocks, particularly within the Semiconductors and Hardware themes highlighted by the scanner. A mechanical plan involves buying strength on constructive pullbacks or breakouts from tight bases in these sectors, prioritizing those with strong multi-month gains and high ADR.",
-    "technical_signal": "No reversal pattern confirmed yet. The market is showing upward momentum, particularly in tech.",
+    "action_line": "VIX 18.92 Normal + S5FI 52.5% breadth + Nikkei -1.31% → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets showed a mixed picture today with Nikkei 225 down 1.31% and DAX lower by 0.75%, while FTSE 100 eked out a minor gain of 0.05%. US credit remains an area of uncertainty with the BAML HY Spread listed as N/A, though the 10-Year yield held stable at 4.55%. Despite international caution, US breadth metrics, with 52.5% of stocks above their 50-day moving average (S5FI) and 60.4% above their 200-day (MMTH), indicate underlying market resilience, preventing a broader pullback.",
+    "analysis_para2": "Our mechanical plan remains focused on relative strength leaders while VIX stays below 20 and breadth holds above key levels. The Nasdaq 100's strong performance today should be watched for consolidation, with 29000 acting as initial support. A sustained move by S5FI below 50% would signal increasing internal weakness, warranting a reduction in exposure. As long as these conditions hold, focus on identifying robust setups in leading sectors emerging from solid bases.",
+    "technical_signal": "No reversal pattern confirmed yet. Major indices closed positive, led by strong technology sector performance.",
     "ticker_intel": [
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
+        "grade": "A+",
+        "reason": "Marvell Technology, Inc. (MRVL) earns an A+ for its exceptional RS 98 and remarkable 1M return of +80.5%, positioning it as a top leader in the currently thriving Semiconductors theme."
+      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "VSH earns an A+ due to its exceptional RS of 98 and staggering 3-month gain of +242.7%, making it a prime semiconductor leader in the current growth-oriented market."
-      },
-      {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL is a strong A-grade candidate, boasting RS of 98 and a robust +65.2% 1-month return, confirming its leadership in the booming hardware sector."
+        "reason": "Vishay Intertechnology, Inc. (VSH) is an A-grade long due to its strong RS 98 and impressive 1M return of +75.6%, signaling robust momentum within the leading Semiconductors sector."
       },
       {
-        "ticker": "ACMR",
-        "company": "ACM Research, Inc.",
+        "ticker": "COHU",
+        "company": "Cohu, Inc.",
         "grade": "C",
-        "reason": "ACMR receives a C grade because while positive with RS 97, its +69.8% 3-month return and +37.8% 1-month return are notably weaker compared to its semiconductor peers, suggesting potential underperformance in a high-momentum environment."
+        "reason": "Cohu, Inc. (COHU) receives a C grade for showing the weakest 1M return of +10.6% among leading candidates, indicating relatively lagging momentum despite its high RS 97 in the Semiconductors theme."
       }
     ]
   }
