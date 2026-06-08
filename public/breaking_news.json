@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 08, 2026 (07:50 EST)",
+  "last_checked": "June 08, 2026 (07:55 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -52,10 +52,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "the stock market just did something eerily similar to the dotcom bubble top in 2000",
-      "ts": "2026-06-01T11:55:21.762367+00:00"
-    },
     {
       "k": "treasury yields hold steady after us and iran exchange strikes",
       "ts": "2026-06-01T12:20:27.844845+00:00"
@@ -1375,6 +1371,10 @@
     {
       "k": "china is helping to cushion global oil prices below 100 — but analysts warn it won’t last",
       "ts": "2026-06-08T11:45:24.251032+00:00"
+    },
+    {
+      "k": "oil prices pull back from highs after trump says israel and iran want a ceasefire",
+      "ts": "2026-06-08T11:55:25.894944+00:00"
     }
   ]
 }
