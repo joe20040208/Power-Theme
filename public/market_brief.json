@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 08, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 08, 2026 (12:50 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7383.74,
-      "change": -200.57,
-      "change_pct": -2.64
+      "price": 7440.15,
+      "change": 56.41,
+      "change_pct": 0.76
     },
     {
       "label": "Nasdaq 100",
-      "price": 28957.6,
-      "change": -1450.21,
-      "change_pct": -4.77
+      "price": 29572.86,
+      "change": 615.26,
+      "change_pct": 2.12
     },
     {
       "label": "VIX",
-      "price": 18.77,
-      "change": -2.74,
+      "price": 18.57,
+      "change": -2.94,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.53,
-      "change": -0.01,
+      "price": 4.56,
+      "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64024.6,
-      "change_pct": -3.85
+      "price": 66588.12,
+      "change_pct": -1.31
     },
     "dax": {
       "label": "DAX",
-      "price": 24665.34,
-      "change_pct": -0.38
+      "price": 24616.22,
+      "change_pct": -0.58
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10381.48,
-      "change_pct": 0.13
+      "price": 10373.2,
+      "change_pct": 0.05
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 54.2,
-    "mmth": 63.5,
+    "s5fi": 53.5,
+    "mmth": 60.9,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Growth Sell-off / Tech Correction",
+  "mood": "Tech-led rally, selective strength",
   "analysis": {
-    "action_line": "VIX 18.77 Normal + S5FI 54.2% breadth + Nikkei 225 (-3.85%) weakness → trade RS leaders selectively near support.",
-    "analysis_para1": "The global tape presents a stark dichotomy this morning. Asia saw significant selling, particularly in the Nikkei 225 which plunged -3.85%, signaling broad risk-off sentiment in the region. Conversely, European markets proved more resilient, with the DAX down a modest -0.38% and the FTSE 100 actually gaining +0.13%. Despite the severe -4.77% drop in the Nasdaq 100 and -2.64% in the S&P 500 pre-market, US market breadth remains somewhat intact with S5FI at 54.2% and MMTH at 63.5%, though these figures are likely to erode quickly. The absence of BAML HY Spread data leaves the credit regime undetermined, adding a layer of uncertainty to the US downturn.",
-    "analysis_para2": "Today's mechanical plan dictates extreme caution amid the sharp US equity sell-off, especially in technology. Despite the deep plunges, the VIX remaining at 18.77 suggests a lack of outright panic, which could hint at institutional selling rather than forced capitulation. Traders should closely monitor for signs of stabilization around key support levels on both the S&P 500 and Nasdaq 100 once regular trading commences. Look for strong intraday reversal patterns on high volume, which would indicate buying interest. Absent such signals, focusing exclusively on names exhibiting exceptional relative strength (RS) and holding near recent highs is paramount, while maintaining tight stops.",
-    "technical_signal": "No reversal pattern confirmed yet. Major US indices, particularly the Nasdaq 100, are experiencing a deep pre-market sell-off without definitive signs of bottoming or institutional buying interest.",
+    "action_line": "VIX 18.57 Normal + S5FI 53.5% breadth + mixed global tape → trade leading tech and hardware names near support.",
+    "analysis_para1": "European and Asian markets are largely negative today, with the Nikkei 225 down 1.31% and the DAX losing 0.58%, contrasting with strong US equity performance led by the Nasdaq 100's +2.12% surge. While the BAML HY Spread remains unknown, suggesting caution on credit, underlying US market breadth is solid with 53.5% of S&P 500 stocks above their 50-day moving average and 60.9% above their 200-day. This indicates internal sector rotation and a robust environment for leadership despite global mixed signals.",
+    "analysis_para2": "The market continues its upward momentum, particularly in growth sectors, with the S&P 500 at 7440.15 and the Nasdaq 100 showing significant outperformance. Traders should monitor the S&P 500's ability to hold above its intraday lows, treating any constructive dips towards the 7400 level as potential entry points for leading names. With the VIX at a normal 18.57, the focus remains on high relative strength stocks, particularly within the Semiconductors and Hardware themes highlighted by the scanner. A mechanical plan involves buying strength on constructive pullbacks or breakouts from tight bases in these sectors, prioritizing those with strong multi-month gains and high ADR.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing upward momentum, particularly in tech.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "This semiconductor leader boasts an exceptional RS of 98 and a staggering +242.7% 3-month return, indicating robust demand amidst broader market weakness."
+        "reason": "VSH earns an A+ due to its exceptional RS of 98 and staggering 3-month gain of +242.7%, making it a prime semiconductor leader in the current growth-oriented market."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "With an RS of 98 and a 1-month return of +65.2%, DELL represents a strong hardware play capable of outperforming even during tech-sector corrections."
+        "reason": "DELL is a strong A-grade candidate, boasting RS of 98 and a robust +65.2% 1-month return, confirming its leadership in the booming hardware sector."
       },
       {
-        "ticker": "IRDM",
-        "company": "Iridium Communications Inc",
+        "ticker": "ACMR",
+        "company": "ACM Research, Inc.",
         "grade": "C",
-        "reason": "Despite its high RS of 98, IRDM's comparatively modest +16.7% 1-month return makes it a weaker option to consider avoiding during this period of growth sector correction."
+        "reason": "ACMR receives a C grade because while positive with RS 97, its +69.8% 3-month return and +37.8% 1-month return are notably weaker compared to its semiconductor peers, suggesting potential underperformance in a high-momentum environment."
       }
     ]
   }
