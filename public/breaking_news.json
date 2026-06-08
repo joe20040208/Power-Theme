@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 08, 2026 (05:40 EST)",
+  "last_checked": "June 08, 2026 (05:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Weight loss drug maker sinks 25% after new safety data spooks investors",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-08T05:45:28.542435-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Oil prices spike over 4% as Iran and Israel trade strikes",
       "source": "CNBC",
@@ -1351,6 +1359,10 @@
     {
       "k": "bidding war erupts for world’s oldest bank as italy’s intesa gatecrashes bpm offer",
       "ts": "2026-06-08T09:15:28.801254+00:00"
+    },
+    {
+      "k": "weight loss drug maker sinks 25 after new safety data spooks investors",
+      "ts": "2026-06-08T09:45:28.967142+00:00"
     }
   ]
 }
