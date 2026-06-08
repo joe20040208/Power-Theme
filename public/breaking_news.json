@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 08, 2026 (04:55 EST)",
+  "last_checked": "June 08, 2026 (05:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Oil prices spike over 4% as Iran and Israel trade strikes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-08T05:00:40.908958-04:00",
+      "pub_time": "2026-06-08T04:59:11-04:00"
+    },
     {
       "headline": "Oil prices spike over 4% as Iran and Israel trade strikes, escalating regional tensions",
       "source": "CNBC",
@@ -1359,6 +1367,10 @@
     {
       "k": "oil prices spike over 4 as iran and israel trade strikes escalating regional tensions",
       "ts": "2026-06-08T08:45:27.662564+00:00"
+    },
+    {
+      "k": "oil prices spike over 4 as iran and israel trade strikes",
+      "ts": "2026-06-08T09:00:41.415658+00:00"
     }
   ]
 }
