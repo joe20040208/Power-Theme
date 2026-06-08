@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 05, 2026 (18:38 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 08, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,34 +16,34 @@
     },
     {
       "label": "VIX",
-      "price": 21.51,
-      "change": 6.11,
+      "price": 18.77,
+      "change": -2.74,
       "change_pct": null,
-      "zone_label": "Elevated"
+      "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.54,
-      "change": 0.06,
+      "price": 4.53,
+      "change": -0.01,
       "change_pct": null,
-      "trend_label": "Rising"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 67470.69,
-      "change_pct": -1.36
+      "price": 64024.6,
+      "change_pct": -3.85
     },
     "dax": {
       "label": "DAX",
-      "price": 24944.95,
-      "change_pct": 0.6
+      "price": 24665.34,
+      "change_pct": -0.38
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10368.05,
-      "change_pct": 0.07
+      "price": 10381.48,
+      "change_pct": 0.13
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off, Broad Market Weakness",
+  "mood": "Growth Sell-off / Tech Correction",
   "analysis": {
-    "action_line": "VIX 21.51 Elevated + S5FI 54.2% breadth + Nikkei 225 down 1.36% → remain defensive, selectively stalk high RS leaders near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 retreating by 1.36% while European indices like the DAX (+0.60%) and FTSE 100 (+0.07%) held relatively steady. In contrast, the US market faced a sharp downturn, underscored by a rising 10-year yield now at 4.54%, which typically pressures growth-oriented stocks. Despite the broad market decline, US breadth, as measured by S5FI at 54.2% and MMTH at 63.5%, remains above critical 50% levels. This suggests underlying resilience in some areas even as the major averages experienced significant distribution today.",
-    "analysis_para2": "Given the sharp sell-off, the immediate mechanical plan involves monitoring for signs of stabilization around key psychological support levels for the S&P 500 and Nasdaq 100. A close watch on the VIX, currently elevated at 21.51, for a decisive move back below 20 would signal a potential easing of fear. Traders should prioritize identifying Relative Strength leaders that can hold their gains or find support on any weakness, avoiding new entries until market breadth confirms accumulation and selling pressure subsides.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's deep market sell-off and elevated VIX indicate continued distribution rather than accumulation or a bottoming process.",
+    "action_line": "VIX 18.77 Normal + S5FI 54.2% breadth + Nikkei 225 (-3.85%) weakness → trade RS leaders selectively near support.",
+    "analysis_para1": "The global tape presents a stark dichotomy this morning. Asia saw significant selling, particularly in the Nikkei 225 which plunged -3.85%, signaling broad risk-off sentiment in the region. Conversely, European markets proved more resilient, with the DAX down a modest -0.38% and the FTSE 100 actually gaining +0.13%. Despite the severe -4.77% drop in the Nasdaq 100 and -2.64% in the S&P 500 pre-market, US market breadth remains somewhat intact with S5FI at 54.2% and MMTH at 63.5%, though these figures are likely to erode quickly. The absence of BAML HY Spread data leaves the credit regime undetermined, adding a layer of uncertainty to the US downturn.",
+    "analysis_para2": "Today's mechanical plan dictates extreme caution amid the sharp US equity sell-off, especially in technology. Despite the deep plunges, the VIX remaining at 18.77 suggests a lack of outright panic, which could hint at institutional selling rather than forced capitulation. Traders should closely monitor for signs of stabilization around key support levels on both the S&P 500 and Nasdaq 100 once regular trading commences. Look for strong intraday reversal patterns on high volume, which would indicate buying interest. Absent such signals, focusing exclusively on names exhibiting exceptional relative strength (RS) and holding near recent highs is paramount, while maintaining tight stops.",
+    "technical_signal": "No reversal pattern confirmed yet. Major US indices, particularly the Nasdaq 100, are experiencing a deep pre-market sell-off without definitive signs of bottoming or institutional buying interest.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "VSH earns an A+ conviction long grade due to its exceptional RS of 98 and staggering 3-month return of +242.7% in the leading Semiconductors theme, signaling robust demand amidst market weakness."
+        "reason": "This semiconductor leader boasts an exceptional RS of 98 and a staggering +242.7% 3-month return, indicating robust demand amidst broader market weakness."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL is an A conviction long for its strong RS of 98 and impressive 1-month return of +65.2% within the resilient Hardware sector, demonstrating powerful recent upside momentum."
+        "reason": "With an RS of 98 and a 1-month return of +65.2%, DELL represents a strong hardware play capable of outperforming even during tech-sector corrections."
       },
       {
-        "ticker": "UMAC",
-        "company": "Unusual Machines, Inc.",
+        "ticker": "IRDM",
+        "company": "Iridium Communications Inc",
         "grade": "C",
-        "reason": "UMAC is a C-grade avoid due to its highly volatile ADR of 13.9% and a disproportionately high 1-month return of +87.2% compared to its 3-month gain of +62.3%, suggesting an unsustainable short-term spike vulnerable in a risk-off environment."
+        "reason": "Despite its high RS of 98, IRDM's comparatively modest +16.7% 1-month return makes it a weaker option to consider avoiding during this period of growth sector correction."
       }
     ]
   }
