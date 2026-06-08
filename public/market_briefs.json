@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-08 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Sharp Equity Pullback / Complacent Credit",
+    "spy_price": 737.55,
+    "spy_change_pct": -2.58,
+    "vix": 18.91,
+    "hy_oas": 2.74,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 54.2,
+    "mmth": 63.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp",
+          "reason": "Reported widespread supply chain disruptions impacting next-gen AI chip production, prompting significant analyst downgrades and a sharp revision to Q2 guidance."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corp",
+          "reason": "Announced a new major offshore oil discovery with significant reserve estimates, potentially boosting future production capacity amidst strengthening crude prices."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "ZM",
+          "company": "Zoom Video Communications, Inc.",
+          "reason": "Continues to face headwinds from increased competition and slowing enterprise adoption rates, with today's selling reflecting broader tech sector weakness rather than fresh news."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-05 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "Nvidia Corporation",
           "reason": "Nvidia Corporation continues to be a central topic for AI-driven investment flows, but today's interest is largely a continuation of existing narratives rather than fresh, specific news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-24 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Cautious Pullback / Complacent Credit",
-    "spy_price": 708.45,
-    "spy_change_pct": -0.39,
-    "vix": 18.79,
-    "hy_oas": 2.84,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 60.9,
-    "mmth": 59.1,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
-          "reason": "Johnson & Johnson announced surprisingly robust Q1 earnings and raised full-year guidance, driven by strong pharmaceutical sales and an optimistic outlook for its medical device segment."
-        },
-        {
-          "ticker": "AVGO",
-          "company": "Broadcom Inc.",
-          "reason": "Broadcom secured a multi-year, multi-billion dollar AI infrastructure supply deal with a major hyperscaler, significantly boosting its backlog and revenue projections."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Tesla continues to exhibit high volatility, primarily driven by technical trading flows and ongoing sentiment regarding EV demand, with no fresh material news catalyst today."
         }
       ]
     }
