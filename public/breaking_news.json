@@ -1,40 +1,7 @@
 {
-  "last_checked": "June 07, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Iran and Israel exchange strikes, threatening fragile ceasefire",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-07T22:20:24.935854-04:00",
-      "pub_time": "2026-06-07T22:17:06-04:00"
-    },
-    {
-      "headline": "[CNBC] Oil prices spike over 3% as Iran and Israel trade strikes, escalating regional tensions",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-07T22:00:27.178600-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Fragile ceasefire in jeopardy as Iran reportedly fires missiles at Israel",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-07T17:00:24.923997-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Fragile ceasefire in jeopardy as Iran reportedly fires first missiles at Israel",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-07T16:10:25.322371-04:00",
-      "pub_time": null
-    }
-  ],
+  "last_checked": "June 08, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "nvidia jumps into pcs with new armbased chip debuting in laptops from microsoft dell hp",
