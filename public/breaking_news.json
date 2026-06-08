@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 08, 2026 (07:55 EST)",
+  "last_checked": "June 08, 2026 (08:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Iran announces 'end of military operations' against Israel, but warns Lebanon strikes could trigger escalation",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-08T08:00:35.014445-04:00",
+      "pub_time": "2026-06-08T07:59:03-04:00"
+    },
     {
       "headline": "Trump insists negotiations are continuing despite Israel and Iran trading strikes",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bearish",
       "timestamp": "2026-06-08T04:45:27.144074-04:00",
       "pub_time": "2026-06-08T04:44:53-04:00"
-    },
-    {
-      "headline": "Oil prices spike nearly 5% as Iran and Israel trade strikes, escalating regional tensions",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-08T03:20:25.622031-04:00",
-      "pub_time": "2026-06-08T03:19:16-04:00"
     }
   ],
   "seen_keys": [
@@ -1375,6 +1375,10 @@
     {
       "k": "oil prices pull back from highs after trump says israel and iran want a ceasefire",
       "ts": "2026-06-08T11:55:25.894944+00:00"
+    },
+    {
+      "k": "iran announces end of military operations against israel but warns lebanon strikes could trigger",
+      "ts": "2026-06-08T12:00:40.334628+00:00"
     }
   ]
 }
