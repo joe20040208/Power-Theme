@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 08, 2026 (05:10 EST)",
+  "last_checked": "June 08, 2026 (05:15 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -28,10 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "softbank becomes japans most valuable company announces 53 billion french investment",
-      "ts": "2026-06-01T09:10:32.757143+00:00"
-    },
     {
       "k": "retail had a surprisingly robust first quarter but the real test is ahead as tax refunds dry up",
       "ts": "2026-06-01T09:15:35.030997+00:00"
@@ -1363,6 +1359,10 @@
     {
       "k": "oil prices spike over 4 as iran and israel trade strikes",
       "ts": "2026-06-08T09:00:41.415658+00:00"
+    },
+    {
+      "k": "bidding war erupts for world’s oldest bank as italy’s intesa gatecrashes bpm offer",
+      "ts": "2026-06-08T09:15:28.801254+00:00"
     }
   ]
 }
