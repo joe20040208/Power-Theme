@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 08, 2026 (18:53 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 09, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 18.92,
-      "change": -2.59,
+      "price": 17.99,
+      "change": -0.93,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.55,
-      "change": 0.02,
+      "price": 4.54,
+      "change": -0.01,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,25 +32,25 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66588.12,
-      "change_pct": -1.31
+      "price": 65416.63,
+      "change_pct": 2.17
     },
     "dax": {
       "label": "DAX",
-      "price": 24759.05,
-      "change_pct": -0.75
+      "price": 24737.61,
+      "change_pct": 0.49
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10373.2,
-      "change_pct": 0.05
+      "price": 10341.77,
+      "change_pct": -0.3
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 52.5,
+    "s5fi": 52.7,
     "mmth": 60.4,
     "breadth_flush": false,
     "generational": false,
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech Leadership, Global Caution",
+  "mood": "Tech-led Rally / Semiconductor Strength",
   "analysis": {
-    "action_line": "VIX 18.92 Normal + S5FI 52.5% breadth + Nikkei -1.31% suggests selective long opportunities in RS leaders.",
-    "analysis_para1": "Global markets exhibited a mixed to weak performance, with the Nikkei 225 down 1.31% and the DAX off 0.75%, contrasting with a modest gain of 0.05% for the FTSE 100. US credit stability remains an area of uncertainty with the BAML HY Spread unknown, yet stable 10Y yields at 4.55% currently prevent broader bond market distress. Despite international headwinds, US equity breadth shows resilience, with 52.5% of stocks above their 50-day moving average (S5FI) and 60.4% above their 200-day moving average (MMTH). This internal market strength indicates a selective environment where leading US sectors continue to absorb global pressures.",
-    "analysis_para2": "The Nasdaq 100's robust 1.58% gain signals clear leadership, particularly from growth and technology sectors, driving the overall US market higher. Price action should be monitored for a continuation above the current close of 29414.26, with dips towards the 20-day EMA serving as potential entry points for relative strength plays. A retest of the S&P 500's 7400 level, should it occur, would offer a clearer picture of broader market conviction. Traders should maintain tight stops on new positions, given the underlying global market softness. Confirmation of sustained leadership will come from continued strong breadth readings and Nasdaq outperformance.",
-    "technical_signal": "No reversal pattern confirmed yet. The Nasdaq 100's strong showing indicates continued momentum in leading sectors.",
+    "action_line": "VIX 17.99 Normal + S5FI 52.7% breadth + strong Nikkei → focus on high-RS growth leaders in semiconductors and hardware.",
+    "analysis_para1": "Asian markets established a strong positive tone this morning, with the Nikkei surging +2.17%, while European indices presented a mixed picture as the DAX gained +0.49% but the FTSE 100 lagged, dipping -0.30%. Domestically, the 10Y Yield remains stable at 4.54%, though the unknown BAML HY Spread regime warrants continued vigilance on credit conditions. US equity breadth indicates underlying health, with 52.7% of S&P 500 stocks above their 50-day moving average and 60.4% above their 200-day, supporting a selective risk-on stance.",
+    "analysis_para2": "The Nasdaq 100's robust pre-market gain of +1.58% suggests a powerful continuation of the tech-led rally. Our mechanical plan today centers on identifying and engaging with high relative strength leaders within the Semiconductors and Hardware sectors, which are showing broad strength across our thematic scanner. Traders should monitor index price action, specifically looking for sustained strength above immediate resistance levels for the Nasdaq and S&P 500. Entries should focus on confirmed breakouts or controlled pullbacks to key short-term moving averages, ensuring disciplined risk management with tight stops as overall VIX levels remain normal.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing constructive price action, especially in the Nasdaq 100, which is leading higher, suggesting bullish continuation.",
     "ticker_intel": [
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
         "grade": "A+",
-        "reason": "Marvell Technology demonstrates exceptional leadership with an RS of 98 and robust 1-month returns of +80.5%, indicative of strong institutional demand within the high-growth Semiconductor theme."
+        "reason": "With RS=98 and a staggering 1-month return of +80.5%, MRVL demonstrates exceptional leadership and momentum within the robust semiconductor theme."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology, with an RS of 98 and a phenomenal 3-month return of +240.8%, confirms powerful momentum in the Semiconductor sector, making it a compelling long candidate."
+        "reason": "VSH exhibits strong performance with RS=98 and a +75.6% 1-month return, coupled with a dominant +240.8% over three months, affirming its semiconductor sector strength."
       },
       {
-        "ticker": "COHU",
-        "company": "Cohu, Inc.",
+        "ticker": "UMAC",
+        "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Cohu, despite a high RS of 97, shows comparatively weaker recent momentum with its 1-month return of +10.6%, suggesting it may lag its peers in the red-hot Semiconductor sector."
+        "reason": "Despite a high RS=97 and recent +91.5% 1-month surge, UMAC's comparatively weaker 3-month performance of +49.6% suggests less sustained momentum compared to its peers."
       }
     ]
   }
