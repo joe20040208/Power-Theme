@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 09, 2026 (17:54 EST)",
+  "last_checked": "June 09, 2026 (17:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. military launches strikes in retaliation for Iran downing helicopter",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-09T17:55:34.384841-04:00",
+      "pub_time": "2026-06-09T17:54:56-04:00"
+    },
     {
       "headline": "U.S. military launches strikes in retaliation for Iran downing helicopter: Pentagon",
       "source": "CNBC",
@@ -1351,6 +1359,10 @@
     {
       "k": "70 billion immigration funding package passes in us house in a win for speaker johnson",
       "ts": "2026-06-09T21:54:22.532498+00:00"
+    },
+    {
+      "k": "us military launches strikes in retaliation for iran downing helicopter",
+      "ts": "2026-06-09T21:55:34.848125+00:00"
     }
   ]
 }
