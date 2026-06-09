@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 09, 2026 (17:20 EST)",
+  "last_checked": "June 09, 2026 (17:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. military launches strikes in retaliation for Iran downing helicopter: Pentagon",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-09T17:25:28.435738-04:00",
+      "pub_time": "2026-06-09T17:22:18-04:00"
+    },
     {
       "headline": "Trump says U.S. must 'respond' after Iran shoots down helicopter over Hormuz Strait",
       "source": "CNBC",
@@ -1331,6 +1339,10 @@
     {
       "k": "gm eyes new battery chemistry to grow ai data center energy storage business",
       "ts": "2026-06-09T21:10:24.605346+00:00"
+    },
+    {
+      "k": "us military launches strikes in retaliation for iran downing helicopter pentagon",
+      "ts": "2026-06-09T21:25:32.299548+00:00"
     }
   ]
 }
