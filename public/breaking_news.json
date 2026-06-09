@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 09, 2026 (01:00 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 09, 2026 (01:05 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Iraq and UAE race to establish alternative oil pipelines as exports through Hormuz dry up",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-09T01:05:20.504594-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "amazons fourday prime day event starts june 23 as shoppers battle inflation",
@@ -1366,6 +1375,10 @@
     {
       "k": "gsk in talks to acquire nuvalent for more than 9 billion in biggest deal in over a decade ft",
       "ts": "2026-06-09T04:35:21.953921+00:00"
+    },
+    {
+      "k": "iraq and uae race to establish alternative oil pipelines as exports through hormuz dry up",
+      "ts": "2026-06-09T05:05:20.999741+00:00"
     }
   ]
 }
