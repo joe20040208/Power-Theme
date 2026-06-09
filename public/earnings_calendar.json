@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-08T21:55:15.006610+00:00",
+  "generated_at": "2026-06-09T12:17:00.089417+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
       "date": "2026-06-09",
       "ticker": "ASO",
-      "company": "",
+      "company": "Academy Sports and Outdoors, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 3333135166.0,
-      "eps_estimate": null,
+      "eps_estimate": 0.92,
       "eps_act": 1.97,
       "eps_surp_pct": -5.53,
-      "rev_est": null,
+      "rev_est": 1440808960.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.67,
-      "avg_volume": 1475771,
+      "avg_volume": 1492455,
       "adr_pct": 3.7,
-      "dollar_volume": 76253088.0
+      "dollar_volume": 77115150.0
     },
     {
       "date": "2026-06-09",
       "ticker": "CASY",
-      "company": "",
+      "company": "Casey's General Stores, Inc.",
       "time_of_day": "AMC",
       "mkt_cap": 27860619032.0,
-      "eps_estimate": null,
+      "eps_estimate": 3.32,
       "eps_act": 3.49,
       "eps_surp_pct": 14.46,
-      "rev_est": null,
+      "rev_est": 4339829270.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 751.63,
-      "avg_volume": 597729,
+      "avg_volume": 590069,
       "adr_pct": 3.4,
-      "dollar_volume": 449271048.0
+      "dollar_volume": 443513562.0
     },
     {
       "date": "2026-06-09",
       "ticker": "CNM",
-      "company": "",
+      "company": "Core & Main, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 9817288178.0,
-      "eps_estimate": null,
+      "eps_estimate": 0.57,
       "eps_act": 0.52,
       "eps_surp_pct": 22.9,
-      "rev_est": null,
+      "rev_est": 1893966910.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.18,
-      "avg_volume": 2520090,
+      "avg_volume": 2530906,
       "adr_pct": 2.8,
-      "dollar_volume": 131498296.0
+      "dollar_volume": 132062675.0
     },
     {
       "date": "2026-06-09",
       "ticker": "SAIL",
-      "company": "",
+      "company": "SailPoint, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 10034167867.0,
       "eps_estimate": 0.04,
@@ -66,26 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 17.69,
-      "avg_volume": 3547501,
+      "avg_volume": 3627647,
       "adr_pct": 6.5,
-      "dollar_volume": 62755293.0
-    },
-    {
-      "date": "2026-06-09",
-      "ticker": "SJM",
-      "company": "The J. M. Smucker Company",
-      "time_of_day": "BMO",
-      "mkt_cap": 10853599067.0,
-      "eps_estimate": 2.64,
-      "eps_act": 2.38,
-      "eps_surp_pct": 3.6,
-      "rev_est": 2260626200.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 101.77,
-      "avg_volume": 1858929,
-      "adr_pct": 2.5,
-      "dollar_volume": 189183204.0
+      "dollar_volume": 64173075.0
     },
     {
       "date": "2026-06-09",
@@ -100,26 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 12.61,
-      "avg_volume": 9412742,
+      "avg_volume": 9330061,
       "adr_pct": 7.2,
-      "dollar_volume": 118694677.0
-    },
-    {
-      "date": "2026-06-09",
-      "ticker": "UNFI",
-      "company": "United Natural Foods, Inc.",
-      "time_of_day": "BMO",
-      "mkt_cap": 3146518993.0,
-      "eps_estimate": 0.77,
-      "eps_act": 0.62,
-      "eps_surp_pct": 20.13,
-      "rev_est": 7803294440.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 51.64,
-      "avg_volume": 697232,
-      "adr_pct": 4.1,
-      "dollar_volume": 36005060.0
+      "dollar_volume": 117652069.0
     },
     {
       "date": "2026-06-10",
@@ -134,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 66.24,
-      "avg_volume": 328295,
+      "avg_volume": 327723,
       "adr_pct": 6.3,
-      "dollar_volume": 21746261.0
+      "dollar_volume": 21708372.0
     },
     {
       "date": "2026-06-10",
@@ -145,15 +111,15 @@
       "time_of_day": "BMO",
       "mkt_cap": 8241020553.0,
       "eps_estimate": 0.43,
-      "eps_act": 0.09,
-      "eps_surp_pct": -1.21,
+      "eps_act": null,
+      "eps_surp_pct": null,
       "rev_est": 3350126540.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 20.15,
-      "avg_volume": 8374745,
+      "avg_volume": 8373760,
       "adr_pct": 4.8,
-      "dollar_volume": 168751112.0
+      "dollar_volume": 168731264.0
     },
     {
       "date": "2026-06-10",
@@ -168,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 211.82,
-      "avg_volume": 27553412,
+      "avg_volume": 27167393,
       "adr_pct": 5.4,
-      "dollar_volume": 5836363730.0
+      "dollar_volume": 5754597185.0
     },
     {
       "date": "2026-06-11",
@@ -185,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 244.99,
-      "avg_volume": 5550468,
+      "avg_volume": 5562368,
       "adr_pct": 3.7,
-      "dollar_volume": 1359809155.0
+      "dollar_volume": 1362724536.0
     },
     {
       "date": "2026-06-11",
@@ -202,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 90.74,
-      "avg_volume": 2973404,
+      "avg_volume": 2961173,
       "adr_pct": 2.9,
-      "dollar_volume": 269806679.0
+      "dollar_volume": 268696838.0
     },
     {
       "date": "2026-06-11",
@@ -219,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 146.8,
-      "avg_volume": 1214228,
+      "avg_volume": 1199557,
       "adr_pct": 6.2,
-      "dollar_volume": 178248670.0
+      "dollar_volume": 176094968.0
     }
   ]
 }
