@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-09 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Broad Risk-On Momentum",
+    "spy_price": 739.22,
+    "spy_change_pct": 0.23,
+    "vix": 18.03,
+    "hy_oas": 2.76,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 52.7,
+    "mmth": 60.4,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "reason": "Fresh reports indicate stronger-than-expected pre-orders for Apple's new Vision Pro 2 headset, signaling robust consumer demand for its spatial computing platform."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft secured a multi-year, multi-billion dollar cloud services contract with a major federal agency, reinforcing its dominance in enterprise AI and cloud solutions."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "Continued analyst upgrades and positive industry commentary around AI infrastructure spending are sustaining momentum, though no fresh fundamental news broke today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-08 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA continues to attract speculative interest driven by persistent AI sector tailwinds and ongoing momentum, despite no fresh catalysts today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-27 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Growth-Led Risk-On Rally",
-    "spy_price": 713.94,
-    "spy_change_pct": 0.77,
-    "vix": 18.95,
-    "hy_oas": 2.86,
-    "yield_curve": 0.53,
-    "credit_status": "Complacent",
-    "s5fi": 58.7,
-    "mmth": 58.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp",
-          "reason": "Weekend reports of a major generative AI platform breakthrough are driving significant pre-market interest."
-        },
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Analyst upgrades and rumored strong pre-orders for an upcoming mixed-reality headset are boosting sentiment."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings Inc.",
-          "reason": "Continued meme stock momentum as retail traders eye short squeeze potential without fresh fundamental news."
         }
       ]
     }
