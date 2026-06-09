@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-09 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Broad De-risking, Volatility Surges",
+    "spy_price": 737.05,
+    "spy_change_pct": -0.29,
+    "vix": 19.87,
+    "hy_oas": 2.75,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 57.2,
+    "mmth": 63.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "APLD",
+          "company": "Applied Digital Corporation",
+          "reason": "The company announced a new AI data center lease and secured a credit facility, signaling strong growth in the high-demand AI infrastructure sector."
+        },
+        {
+          "ticker": "NBIS",
+          "company": "NeuroBotics Inc. Solutions",
+          "reason": "The firm is gaining traction due to a new Nvidia-backed robotics initiative, positioning it at the forefront of AI-driven automation."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVDA continues to be a bellwether for the tech sector; watch for its response to broader Nasdaq weakness as a key technical and flow indicator, absent fresh news."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-09 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continues to see strong institutional buying interest as the secular AI theme persists, driven by ongoing sector flows rather than fresh catalysts today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-27 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Complacent Accumulation, VIX Receding",
-    "spy_price": 715.17,
-    "spy_change_pct": 0.17,
-    "vix": 18.02,
-    "hy_oas": 2.86,
-    "yield_curve": 0.57,
-    "credit_status": "Complacent",
-    "s5fi": 58.0,
-    "mmth": 59.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "OGN",
-          "company": "Organon & Co.",
-          "reason": "Organon is positioned for growth following a strategic acquisition, expanding its pharmaceutical portfolio and market reach."
-        },
-        {
-          "ticker": "MU",
-          "company": "Micron Technology, Inc.",
-          "reason": "Micron benefits from surging AI demand and successful inventory reduction efforts, signaling strong chip market recovery."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA continues to attract speculative interest driven by persistent AI sector tailwinds and ongoing momentum, despite no fresh catalysts today."
         }
       ]
     }
