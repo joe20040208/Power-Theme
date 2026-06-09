@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 09, 2026 (13:00 EST)",
+  "last_checked": "June 09, 2026 (13:05 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -9,21 +9,9 @@
       "direction": "bearish",
       "timestamp": "2026-06-09T12:50:30.937640-04:00",
       "pub_time": "2026-06-09T12:47:53-04:00"
-    },
-    {
-      "headline": "[CNBC] Iraq and UAE race to establish alternative oil pipelines as exports through Hormuz dry up",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-09T01:05:20.504594-04:00",
-      "pub_time": null
     }
   ],
   "seen_keys": [
-    {
-      "k": "iowa democratic senate primary could shape democrats path to senate majority",
-      "ts": "2026-06-02T17:00:42.334720+00:00"
-    },
     {
       "k": "how jim cramer would approach palo altos stock heading into earnings",
       "ts": "2026-06-02T17:05:30.736864+00:00"
