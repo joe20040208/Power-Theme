@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-10 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Broad De-Risking / Volatility Spike",
+    "spy_price": 725.43,
+    "spy_change_pct": -1.58,
+    "vix": 22.22,
+    "hy_oas": 2.78,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 50.8,
+    "mmth": 60.1,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "The company today announced a groundbreaking advancement in its next-gen Gemini AI model, showcasing real-time multimodal capabilities that analysts believe significantly broaden its enterprise application market."
+        },
+        {
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "reason": "Eli Lilly received expedited FDA approval for its new obesity drug, demonstrating superior weight loss efficacy in Phase 3 trials, setting the stage for substantial market share capture."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp",
+          "reason": "Microsoft saw continued selling pressure aligned with broader tech, though some dip-buyers emerged citing recycled headlines around its sustained AI leadership and robust cloud growth as long-term drivers."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-10 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "CVX",
           "company": "Chevron Corp.",
           "reason": "Continues to see technical buying momentum from the recent strength in crude oil prices, reflecting existing sector tailwinds rather than fresh news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-28 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Energy-Driven Divergence",
-    "spy_price": 711.69,
-    "spy_change_pct": -0.49,
-    "vix": 17.83,
-    "hy_oas": 2.84,
-    "yield_curve": 0.52,
-    "credit_status": "Complacent",
-    "s5fi": 57.2,
-    "mmth": 58.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "reason": "Announced a major new oil discovery in Guyana, positively impacting future production and reserves outlook."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Received an analyst upgrade to 'Strong Buy' following strong Q1 earnings and an improved outlook for net interest margins."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Price action today was largely dictated by continued profit-taking in the broader semiconductor sector and general tech weakness, with no new specific catalyst driving its decline."
         }
       ]
     }
