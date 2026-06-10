@@ -1,25 +1,25 @@
 {
-  "generated_at": "June 09, 2026 (18:55 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 10, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7386.65,
-      "change": -19.08,
-      "change_pct": -0.26
+      "price": 7405.73,
+      "change": 21.99,
+      "change_pct": 0.3
     },
     {
       "label": "Nasdaq 100",
-      "price": 29084.5,
-      "change": -329.76,
-      "change_pct": -1.12
+      "price": 29414.26,
+      "change": 456.66,
+      "change_pct": 1.58
     },
     {
       "label": "VIX",
-      "price": 19.87,
-      "change": 0.95,
+      "price": 20.98,
+      "change": 2.06,
       "change_pct": null,
-      "zone_label": "Normal"
+      "zone_label": "Elevated"
     },
     {
       "label": "10Y Yield",
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64024.6,
-      "change_pct": -3.85
+      "price": 64179.27,
+      "change_pct": 0.24
     },
     "dax": {
       "label": "DAX",
-      "price": 24616.22,
-      "change_pct": -0.58
+      "price": 24303.64,
+      "change_pct": -1.27
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10227.33,
-      "change_pct": -1.41
+      "price": 10214.3,
+      "change_pct": -1.53
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Weakness / Tech Distribution",
+  "mood": "Tech Strength / Global Divergence",
   "analysis": {
-    "action_line": "VIX 19.87 Normal + S5FI 57.2% breadth + Nikkei -3.85% global weakness → trade RS leaders selectively near support.",
-    "analysis_para1": "Today saw a notable global market retreat, led by a sharp -3.85% decline in the Nikkei 225, alongside -0.58% and -1.41% drops in the DAX and FTSE 100 respectively. This international pressure coincided with a day of distribution in US equity markets, particularly in tech. While credit regime indicators remain unavailable (N/A), US breadth metrics show resilience, with S5FI at 57.2% and MMTH at 63.3%, indicating that over half of stocks are still above their key moving averages despite the overall market weakness.",
-    "analysis_para2": "The mechanical plan for tomorrow emphasizes vigilance for continued selling pressure, especially if the Nasdaq 100 breaks below key short-term support levels. Traders should monitor the S&P 500 around its 50-day moving average, a crucial level for trend continuation. A breach of these supports, coupled with an uptick in the VIX above 20, would signal increased risk. Focus on strong relative strength leaders, but only on constructive pullbacks towards their 10-day or 21-day EMAs, or after clear consolidation patterns. Avoid initiating new positions into weakness or chasing extended moves in this environment.",
-    "technical_signal": "No reversal pattern confirmed yet. The day’s decline, particularly in tech, indicates continuation of recent selling pressure rather than a turnaround.",
+    "action_line": "VIX 20.98 Elevated + S5FI 57.2% breadth + DAX -1.27% global weakness → focus on relative strength leaders within US tech.",
+    "analysis_para1": "European indices DAX (-1.27%) and FTSE 100 (-1.53%) are notably lower, contrasting with a slightly positive Nikkei (+0.24%), signaling global divergence and potential capital flight towards the US. Despite a lack of BAML HY Spread data to assess credit conditions, the VIX at 20.98 remains elevated, indicating underlying market caution. US breadth metrics, with 57.2% of stocks above their 50-day moving average (S5FI) and 63.3% above their 200-day (MMTH), suggest decent but not broad-based participation, aligning with a selective rally.",
+    "analysis_para2": "The market's current trajectory suggests vigilance is key, especially with the Nasdaq 100 significantly outperforming the S&P 500. Traders should monitor the 7400 level on the S&P 500 as immediate support, while the Nasdaq's current momentum around 29400 indicates sustained leadership. An elevated VIX at 20.98 warrants caution; a move below 20 would signal easing fear, while a spike above 25 could indicate increasing systemic risk. Continue to favor high relative strength names within the leading Semiconductor and Hardware themes, utilizing tight stops given the potential for volatility.",
+    "technical_signal": "No reversal pattern confirmed yet. The Nasdaq's strong performance today suggests bullish momentum in leading sectors.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "VSH exhibits exceptional leadership with RS=98 and a staggering 1M return of +71.0%, perfectly aligning with the robust Semiconductors theme in a selective market."
+        "reason": "Vishay Intertechnology demonstrates exceptional relative strength (RS=98) with staggering 1-month (+71.0%) and 3-month (+238.4%) returns, making it a prime conviction long in the dominant Semiconductor theme."
       },
       {
-        "ticker": "MRVL",
-        "company": "Marvell Technology, Inc.",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "MRVL demonstrates strong momentum with RS=98 and a +56.9% 1M return, representing a key performer within the resilient Semiconductor sector amidst broader market weakness."
+        "reason": "Dell Technologies exhibits robust relative strength (RS=98) with strong 1-month (+46.6%) and 3-month (+165.5%) performance, solidifying its position as a conviction long within the leading Hardware sector."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite a strong 1M return of +78.1% and RS=97, its significantly lower 3M performance (+29.2%) and high ADR=15.7% make it a riskier, potentially volatile play during global weakness."
+        "reason": "Unusual Machines, Inc. shows a parabolic 1-month surge (+78.1%) with weaker 3-month growth (+29.2%) and a very high ADR (15.7%), indicating high volatility and potential for distribution in this speculative hardware name."
       }
     ]
   }
