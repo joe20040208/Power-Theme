@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-10 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Volatility Rises / Tech Resilient",
+    "spy_price": 739.22,
+    "spy_change_pct": 0.23,
+    "vix": 22.2,
+    "hy_oas": 2.75,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 57.2,
+    "mmth": 63.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GBLT",
+          "company": "GlobalTech Solutions",
+          "reason": "Announced a significant AI-powered cloud computing contract with a major government agency, boosting future revenue outlook."
+        },
+        {
+          "ticker": "PMED",
+          "company": "PharmaMed Innovations",
+          "reason": "Reported overwhelmingly positive Phase 3 clinical trial results for its new gene therapy, exceeding efficacy expectations."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp",
+          "reason": "Continued momentum as investors rotate into high-growth AI and semiconductor names amid broad tech sector strength, despite broader market jitters."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-09 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Price action today was largely dictated by continued profit-taking in the broader semiconductor sector and general tech weakness, with no new specific catalyst driving its decline."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-28 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Tensions / Domestic Resilience",
-    "spy_price": 715.17,
-    "spy_change_pct": 0.17,
-    "vix": 19.18,
-    "hy_oas": 2.86,
-    "yield_curve": 0.57,
-    "credit_status": "Complacent",
-    "s5fi": 58.2,
-    "mmth": 59.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "CVX",
-          "company": "Chevron Corporation",
-          "reason": "Strong energy sector performance driven by crude oil's significant 5.12% surge, making it a direct beneficiary of today's market catalyst."
-        },
-        {
-          "ticker": "RTX",
-          "company": "RTX Corporation",
-          "reason": "Geopolitical tensions implied by the VIX spike and international weakness likely driving defense sector interest, with potential for new government contract flows."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to see strong institutional buying interest as the secular AI theme persists, driven by ongoing sector flows rather than fresh catalysts today."
         }
       ]
     }
