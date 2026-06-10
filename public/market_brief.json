@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 10, 2026 (18:30 EDT)",
+  "generated_at": "June 10, 2026 (19:02 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10254.81,
-      "change_pct": 0.27
+      "price": 10227.3,
+      "change_pct": -1.41
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off / US Weakness & Divergence",
+  "mood": "Risk-Off / Elevated Volatility",
   "analysis": {
-    "action_line": "VIX 22.22 Elevated + S5FI 50.8% breadth + mixed global tape (Nikkei up, DAX down) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets presented a divergent picture today as the Nikkei 225 surged by +2.17%, contrasting sharply with the DAX's -0.74% decline and the FTSE 100's modest +0.27% gain. Domestically, the S&P 500 fell -1.62% and the Nasdaq 100 dropped -1.98% as the VIX rose to an elevated 22.22, signaling increased market anxiety. US breadth weakened, with only 50.8% of S&P 500 stocks above their 50-day moving average (S5FI), indicating a cooling off from recent strength. The unknown regime of the BAML High Yield Spread means credit conditions are currently opaque, adding to overall uncertainty.",
-    "analysis_para2": "Given the elevated VIX and declining market breadth, our mechanical plan emphasizes caution and selectivity. Focus remains on robust relative strength leaders, but only if they demonstrate constructive price action near established support levels. Traders should monitor the S&P 500 for a potential hold above 7200, or a clear base formation if further weakness ensues. A sustained move below 7200 on increasing volume would signal deeper distribution, prompting a further reduction in exposure. Conversely, any easing in the VIX below 20, coupled with S5FI recovering above 60%, would suggest improved market conditions for selective long entry.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's broad market decline with an elevated VIX suggests continued pressure without signs of an immediate bottom or capitulation.",
+    "action_line": "VIX 22.22 Elevated with S5FI 50.8% breadth and mixed global tape → remain defensive, favoring high RS leaders only on clear market stabilization.",
+    "analysis_para1": "Despite the Nikkei 225 gaining 2.17%, European markets fell sharply, with the DAX down 0.74% and FTSE 100 losing 1.41%, reflecting a general risk-off sentiment that permeated the US session. The unknown BAML HY Spread regime adds to uncertainty, while US breadth indicators S5FI at 50.8% and MMTH at 60.1% suggest underlying support is being tested. This divergence points to a lack of broad conviction, especially outside of specific strong themes.",
+    "analysis_para2": "The mechanical plan calls for extreme caution. Key levels to watch are S&P 500 support at 7200 and Nasdaq 100 support at 28000. A true bounce would require the VIX to drop back below 20 and S5FI to reclaim 60% with conviction. Until then, only highly selective, high-relative-strength names should be considered for long positions, and only if they demonstrate clear price strength and volume on intraday rallies. Preserve capital by maintaining a higher cash allocation.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's steep declines across major US indices, coupled with an elevated VIX, indicate continued selling pressure, not a capitulation low.",
     "ticker_intel": [
-      {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "grade": "A+",
-        "reason": "Dell exhibits exceptional relative strength at 98, demonstrating a robust +49.7% 1-month and +150.9% 3-month return, making it a leading hardware play in this selective market."
-      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
+        "grade": "A+",
+        "reason": "Vishay Intertechnology (VSH) earns an A+ grade for its exceptional RS 98 and 1-month return of +56.9%, demonstrating strong leadership within the resilient semiconductor theme despite broader market weakness."
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology, with an RS of 98 and an outstanding +212.3% 3-month return, stands out as a top-tier semiconductor candidate, confirming its strong momentum despite broader market weakness."
+        "reason": "Astera Labs (ALAB) receives an A grade due to its impressive RS 97 and a robust +59.6% 1-month gain, indicating sustained outperformance in the high-growth semiconductor sector."
       },
       {
         "ticker": "TIGO",
         "company": "Millicom International Cellular S.A.",
         "grade": "C",
-        "reason": "Despite a positive 1-month return of +13.7%, TIGO's significantly weaker 3-month performance of +27.4% compared to peers, coupled with its lower ADR, indicates lagging momentum in a risk-off environment."
+        "reason": "Millicom International Cellular (TIGO) is graded C, as its RS 96 and significantly lower 1-month return of +13.7% make it a weaker candidate compared to others, suggesting potential underperformance in a risk-off environment."
       }
     ]
   }
