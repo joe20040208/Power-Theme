@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (13:40 EST)",
+  "last_checked": "June 11, 2026 (13:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump cancels Iran strikes scheduled for Thursday evening",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-11T13:45:29.308702-04:00",
+      "pub_time": "2026-06-11T13:45:15-04:00"
+    },
     {
       "headline": "[CNBC] Trump threatens to seize Iran's oil export terminal Kharg Island and take 'total control' of its energy industry",
       "source": "CNBC",
@@ -40,14 +48,6 @@
       "grade": 9,
       "direction": "bearish",
       "timestamp": "2026-06-11T04:50:31.169784-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Investors brace for a 'long grind' as Iran war escalation dims hopes of an early end to hostilities",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-11T02:45:26.437170-04:00",
       "pub_time": null
     }
   ],
@@ -1415,6 +1415,10 @@
     {
       "k": "from startup to 18 trillion the investors who took a chance on spacex now reap the rewards",
       "ts": "2026-06-11T17:35:37.063142+00:00"
+    },
+    {
+      "k": "trump cancels iran strikes scheduled for thursday evening",
+      "ts": "2026-06-11T17:45:29.947147+00:00"
     }
   ]
 }
