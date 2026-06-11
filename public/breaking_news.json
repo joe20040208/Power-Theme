@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (15:37 EST)",
+  "last_checked": "June 11, 2026 (15:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Crude oil prices fall nearly 3% after Trump calls off strikes against Iran",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-11T15:40:29.404928-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Trump says he has cancelled Iran strikes scheduled for Thursday evening",
       "source": "CNBC",
@@ -40,14 +48,6 @@
       "grade": 9,
       "direction": "bearish",
       "timestamp": "2026-06-11T08:25:27.011022-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] U.S. becomes India’s top gas supplier, as Iran war cuts it off from the Gulf",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-11T05:55:31.618327-04:00",
       "pub_time": null
     }
   ],
@@ -1431,6 +1431,10 @@
     {
       "k": "trump claims iran war settled subject to finalization expects signing in next few days",
       "ts": "2026-06-11T19:37:23.927649+00:00"
+    },
+    {
+      "k": "crude oil prices fall nearly 3 after trump calls off strikes against iran",
+      "ts": "2026-06-11T19:40:29.912886+00:00"
     }
   ]
 }
