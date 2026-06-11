@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 11, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 11, 2026 (12:56 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7266.99,
-      "change": -119.66,
-      "change_pct": -1.62
+      "price": 7282.83,
+      "change": 15.84,
+      "change_pct": 0.22
     },
     {
       "label": "Nasdaq 100",
-      "price": 28508.03,
-      "change": -576.47,
-      "change_pct": -1.98
+      "price": 28760.28,
+      "change": 252.25,
+      "change_pct": 0.88
     },
     {
       "label": "VIX",
-      "price": 21.69,
-      "change": -0.53,
+      "price": 21.35,
+      "change": -0.87,
       "change_pct": null,
       "zone_label": "Elevated"
     },
     {
       "label": "10Y Yield",
-      "price": 4.55,
-      "change": 0.0,
+      "price": 4.53,
+      "change": -0.01,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64217.27,
-      "change_pct": 0.06
+      "price": 64179.27,
+      "change_pct": -1.89
     },
     "dax": {
       "label": "DAX",
-      "price": 24146.32,
-      "change_pct": -0.2
+      "price": 24209.71,
+      "change_pct": 0.06
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10321.22,
-      "change_pct": 0.65
+      "price": 10303.88,
+      "change_pct": 0.48
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 50.8,
-    "mmth": 60.1,
+    "s5fi": 53.9,
+    "mmth": 61.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off / Tech Retreat",
+  "mood": "Tech-led rally; volatility elevated",
   "analysis": {
-    "action_line": "VIX 21.69 Elevated + S5FI 50.8% breadth + mixed global tape → trade RS leaders defensively near support only.",
-    "analysis_para1": "Global indices are mixed with Asia's Nikkei up +0.06% and Europe's FTSE 100 gaining +0.65%, while the DAX trails at -0.20%. However, US futures indicate significant weakness, with the S&P 500 down -1.62% and Nasdaq 100 down -1.98% pre-market. Despite a stable 10-year yield at 4.55%, the absence of BAML HY spread data leaves US credit risk opaque. US market breadth, though still above 50% for S5FI at 50.8% and healthy at 60.1% for MMTH, is showing signs of vulnerability as major indices sharply decline.",
-    "analysis_para2": "The significant pre-market declines necessitate a highly cautious approach to the open. Initial support for the S&P 500 should be watched around 7250, with 7200 serving as a critical downside marker. For the Nasdaq 100, monitor 28500 closely, followed by 28000 as key levels. A decisive break below these points could trigger deeper selling pressure, extending the current risk-off sentiment. Conversely, a firm hold and reversal from these support areas, particularly in leading themes, would indicate a potential bounce, warranting highly selective, high-conviction entries.",
-    "technical_signal": "No reversal pattern confirmed yet. US futures are sharply lower, suggesting continued selling pressure into the open rather than a turnaround.",
+    "action_line": "VIX 21.35 elevated + S5FI 53.9% breadth + mixed global tape (Nikkei down) → prioritize RS leaders near support, manage risk.",
+    "analysis_para1": "Global markets present a mixed picture today, with the Nikkei 225 retreating sharply by -1.89%, while European indices like the DAX (+0.06%) and FTSE 100 (+0.48%) show modest gains. Domestically, with the BAML HY Spread unknown, credit health remains opaque, though the 10Y Yield is stable at 4.53%. US market breadth indicators, S5FI at 53.9% and MMTH at 61.6%, suggest a market where participation is improving but not yet robustly broad-based, indicating selectivity is key.",
+    "analysis_para2": "Given the elevated VIX at 21.35, tighter stop-loss management is paramount, particularly around the S&P 500's current level of 7282.83. A daily close above 7300 for the S&P or 29000 for the Nasdaq 100 would signal further upside momentum, attracting more capital. Conversely, a break below 7250 on the S&P could invite profit-taking and test recent support. Traders should prioritize identifying Relative Strength leaders pushing towards new 52-week highs and avoid chasing extended moves, focusing instead on pullbacks to key moving averages.",
+    "technical_signal": "No reversal pattern confirmed yet. The indices are trending higher today, with no signs of significant distribution or price exhaustion.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "VSH, with an RS of 98 and a 1-month return of +56.9%, demonstrates exceptional momentum in the robust Semiconductors theme, making it a top-tier leader even in a risk-off environment."
+        "reason": "VSH earns an A+ for its exceptional RS=98 and a staggering 3-month return of +212.3%, marking it as a top-tier semiconductor leader in a growth-seeking market."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL maintains an RS of 98 and a strong 1-month return of +49.7%, indicating compelling leadership within the Hardware theme, well-positioned for selective engagement on dips."
+        "reason": "DELL merits an A grade with RS=98 and a robust 3-month gain of +150.9%, demonstrating strong relative strength within the hardware theme."
       },
       {
         "ticker": "TIGO",
         "company": "Millicom International Cellular S.A.",
         "grade": "C",
-        "reason": "TIGO's RS of 96 and relatively weaker 1-month return of +13.7% suggest it is a laggard within its Telecommunications theme, making it an unfavorable choice in a risk-off market."
+        "reason": "TIGO receives a C grade due to its comparatively weaker 3-month return of +27.4% despite RS=96, indicating less robust momentum compared to its high-performing peers."
       }
     ]
   }
