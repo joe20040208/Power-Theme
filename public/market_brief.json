@@ -1,32 +1,32 @@
 {
-  "generated_at": "June 11, 2026 (12:56 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 11, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7282.83,
-      "change": 15.84,
-      "change_pct": 0.22
+      "price": 7394.3,
+      "change": 127.31,
+      "change_pct": 1.75
     },
     {
       "label": "Nasdaq 100",
-      "price": 28760.28,
-      "change": 252.25,
-      "change_pct": 0.88
+      "price": 29446.18,
+      "change": 938.15,
+      "change_pct": 3.29
     },
     {
       "label": "VIX",
-      "price": 21.35,
-      "change": -0.87,
+      "price": 19.44,
+      "change": -2.78,
       "change_pct": null,
-      "zone_label": "Elevated"
+      "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.53,
-      "change": -0.01,
+      "price": 4.46,
+      "change": -0.08,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Falling"
     }
   ],
   "global_indices": {
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24209.71,
-      "change_pct": 0.06
+      "price": 24195.31,
+      "change_pct": -0.97
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 53.9,
-    "mmth": 61.6,
+    "s5fi": 56.9,
+    "mmth": 63.5,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led rally; volatility elevated",
+  "mood": "Risk-On / Tech-Led Rally",
   "analysis": {
-    "action_line": "VIX 21.35 elevated + S5FI 53.9% breadth + mixed global tape (Nikkei down) → prioritize RS leaders near support, manage risk.",
-    "analysis_para1": "Global markets present a mixed picture today, with the Nikkei 225 retreating sharply by -1.89%, while European indices like the DAX (+0.06%) and FTSE 100 (+0.48%) show modest gains. Domestically, with the BAML HY Spread unknown, credit health remains opaque, though the 10Y Yield is stable at 4.53%. US market breadth indicators, S5FI at 53.9% and MMTH at 61.6%, suggest a market where participation is improving but not yet robustly broad-based, indicating selectivity is key.",
-    "analysis_para2": "Given the elevated VIX at 21.35, tighter stop-loss management is paramount, particularly around the S&P 500's current level of 7282.83. A daily close above 7300 for the S&P or 29000 for the Nasdaq 100 would signal further upside momentum, attracting more capital. Conversely, a break below 7250 on the S&P could invite profit-taking and test recent support. Traders should prioritize identifying Relative Strength leaders pushing towards new 52-week highs and avoid chasing extended moves, focusing instead on pullbacks to key moving averages.",
-    "technical_signal": "No reversal pattern confirmed yet. The indices are trending higher today, with no signs of significant distribution or price exhaustion.",
+    "action_line": "VIX 19.44 Normal + S5FI 56.9% breadth + mixed global tape (e.g., Nikkei -1.89%) → selectively focus on strong US relative strength leaders.",
+    "analysis_para1": "Despite notable weakness in Asian (Nikkei -1.89%) and European (DAX -0.97%) markets, the US equity session closed strongly, possibly supported by falling 10Y yields (4.46%). The BAML HY Spread's unknown regime adds uncertainty, yet US breadth, with S5FI at 56.9% and MMTH at 63.5%, suggests improving but not overwhelmingly strong participation. This indicates a selective rally, primarily concentrated in US growth and technology sectors.",
+    "analysis_para2": "With the S&P 500 now at 7394.30 and Nasdaq 100 at 29446.18, traders should vigilantly watch for consolidations or pullbacks to recent short-term moving averages (e.g., 5-day or 10-day MA) as potential entry points. Key support for the broader market would be the previous day's low or the rising 10-day moving average on any shallow correction. Continue to monitor VIX to remain below 20 and breadth indicators (S5FI 56.9%, MMTH 63.5%) to hold above 50% as a baseline for maintaining risk-on positioning. Prioritize leaders consolidating tightly before new breakout attempts, focusing on the strong semiconductor theme.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's strong upside in the major US indices, particularly the Nasdaq, indicates continued bullish momentum, with breadth firming up.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "VSH earns an A+ for its exceptional RS=98 and a staggering 3-month return of +212.3%, marking it as a top-tier semiconductor leader in a growth-seeking market."
+        "reason": "Vishay Intertechnology, Inc. (VSH) earns an A+ due to its exceptional RS of 98, and parabolic 1M (+74.2%) and 3M (+241.7%) returns, cementing its status as a top semiconductor leader in the current tech rally."
       },
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
         "grade": "A",
-        "reason": "DELL merits an A grade with RS=98 and a robust 3-month gain of +150.9%, demonstrating strong relative strength within the hardware theme."
+        "reason": "Marvell Technology, Inc. (MRVL) receives an A grade for its strong RS of 98, robust 1M (+70.6%) and 3M (+220.2%) performance, positioning it as a high-conviction leader within the dominant semiconductor theme."
       },
       {
-        "ticker": "TIGO",
-        "company": "Millicom International Cellular S.A.",
+        "ticker": "ICHR",
+        "company": "Ichor Holdings",
         "grade": "C",
-        "reason": "TIGO receives a C grade due to its comparatively weaker 3-month return of +27.4% despite RS=96, indicating less robust momentum compared to its high-performing peers."
+        "reason": "Ichor Holdings (ICHR) is graded C, not due to weakness, but because its 1M return of +14.7% is relatively modest compared to other Semiconductor leaders with RS 98, suggesting comparatively less immediate momentum for new aggressive entry despite overall strength."
       }
     ]
   }
