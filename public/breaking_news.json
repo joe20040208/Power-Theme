@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 10, 2026 (21:35 EST)",
+  "last_checked": "June 10, 2026 (21:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. military completes strikes on 'multiple targets' in Iran at Trump's direction",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-10T21:40:26.163497-04:00",
+      "pub_time": "2026-06-10T21:39:30-04:00"
+    },
     {
       "headline": "[CNBC] Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
@@ -1331,6 +1339,10 @@
     {
       "k": "inside india newsletter hollywood is debating ai indias filmmakers are embracing it",
       "ts": "2026-06-11T01:35:23.375037+00:00"
+    },
+    {
+      "k": "us military completes strikes on multiple targets in iran at trumps direction",
+      "ts": "2026-06-11T01:40:26.691757+00:00"
     }
   ]
 }
