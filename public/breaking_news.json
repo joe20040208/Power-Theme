@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (08:20 EST)",
+  "last_checked": "June 11, 2026 (08:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] ECB hikes interest rates for first time since 2023 as Iran war ramps-up energy costs",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-11T08:25:27.011022-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] U.S. becomes India’s top gas supplier, as Iran war cuts it off from the Gulf",
       "source": "CNBC",
@@ -1387,6 +1395,10 @@
     {
       "k": "spacex soontobe millionaires are set to spend big on luxury homes watches and private jet travel",
       "ts": "2026-06-11T12:17:21.479215+00:00"
+    },
+    {
+      "k": "ecb hikes interest rates for first time since 2023 as iran war rampsup energy costs",
+      "ts": "2026-06-11T12:25:27.564207+00:00"
     }
   ]
 }
