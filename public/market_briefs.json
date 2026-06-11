@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-11 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-On Rally / Growth Surge",
+    "spy_price": 737.76,
+    "spy_change_pct": 1.7,
+    "vix": 19.44,
+    "hy_oas": 2.8,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 56.9,
+    "mmth": 63.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "STM",
+          "company": "STMicroelectronics N.V.",
+          "reason": "STM saw strong buying interest today following a significant analyst upgrade, signaling renewed confidence in its semiconductor outlook."
+        },
+        {
+          "ticker": "NVTS",
+          "company": "Navitas Semiconductor Corporation",
+          "reason": "NVTS is a high-conviction short candidate today due to corporate governance issues and dilution from a recent share sale, pressuring its valuation."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVDA continues to ride the AI narrative and broader tech momentum, exhibiting strong technicals despite a lack of fresh fundamental news today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-11 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "Continues to see momentum from sustained AI chip demand, though lacking fresh specific catalyst today, making it a flow-driven play."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-29 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Volatility Surge / Commodity Inflation",
-    "spy_price": 711.58,
-    "spy_change_pct": -0.02,
-    "vix": 18.81,
-    "hy_oas": 2.85,
-    "yield_curve": 0.5,
-    "credit_status": "Complacent",
-    "s5fi": 54.3,
-    "mmth": 59.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MU",
-          "company": "Micron Technology",
-          "reason": "Gained momentum after an analyst re-rating and price target hike, signaling strong future growth prospects."
-        },
-        {
-          "ticker": "BE",
-          "company": "Bloom Energy",
-          "reason": "Surged following a strong earnings beat and raise, further bolstered by an optimistic AI-related narrative."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "XOM",
-          "company": "ExxonMobil",
-          "reason": "Benefited from the broad surge in crude oil prices, reflecting general commodity market strength rather than new company-specific catalysts."
         }
       ]
     }
