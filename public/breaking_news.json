@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (15:30 EST)",
+  "last_checked": "June 11, 2026 (15:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Trump says he has cancelled Iran strikes scheduled for Thursday evening",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-11T15:35:24.538379-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Trump cancels Iran strikes scheduled for Thursday evening",
       "source": "CNBC",
@@ -40,14 +48,6 @@
       "grade": 9,
       "direction": "bearish",
       "timestamp": "2026-06-11T05:55:31.618327-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Treasury yields steady as investors monitor inflation data, U.S. strikes in Iran",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-11T04:50:31.169784-04:00",
       "pub_time": null
     }
   ],
@@ -1423,6 +1423,10 @@
     {
       "k": "spacex cuts retail ipo allocation to low 20 range source says",
       "ts": "2026-06-11T19:30:32.679954+00:00"
+    },
+    {
+      "k": "trump says he has cancelled iran strikes scheduled for thursday evening",
+      "ts": "2026-06-11T19:35:25.223551+00:00"
     }
   ]
 }
