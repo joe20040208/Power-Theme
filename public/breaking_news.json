@@ -1,54 +1,14 @@
 {
-  "last_checked": "June 10, 2026 (23:55 EST)",
+  "last_checked": "June 11, 2026 (00:00 EST)",
   "has_alert": true,
   "alerts": [
     {
-      "headline": "[CNBC] Kuwait closes airspace, Israel warns of launches from Lebanon after U.S strikes in Iran",
+      "headline": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "grade": 9,
       "direction": "bearish",
-      "timestamp": "2026-06-10T23:40:22.816453-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "Kuwait says it is intercepting 'aerial targets' after U.S. military strikes Iran",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-10T22:45:27.394853-04:00",
-      "pub_time": "2026-06-10T22:43:39-04:00"
-    },
-    {
-      "headline": "Kuwait says intercepting 'aerial targets' after U.S. military strikes multiple targets in Iran",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-10T22:35:26.826864-04:00",
-      "pub_time": "2026-06-10T22:32:04-04:00"
-    },
-    {
-      "headline": "[CNBC] U.S. military completes strikes on 'multiple targets' in Iran launched at Trump's direction",
-      "source": "CNBC",
-      "grade": 10,
-      "direction": "bearish",
-      "timestamp": "2026-06-10T21:45:26.757676-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "U.S. military completes strikes on 'multiple targets' in Iran at Trump's direction",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-10T21:40:26.163497-04:00",
-      "pub_time": "2026-06-10T21:39:30-04:00"
-    },
-    {
-      "headline": "[CNBC] Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-10T20:35:23.364185-04:00",
-      "pub_time": null
+      "timestamp": "2026-06-11T00:00:31.453724-04:00",
+      "pub_time": "2026-06-10T23:57:39-04:00"
     }
   ],
   "seen_keys": [
@@ -1375,6 +1335,10 @@
     {
       "k": "kuwait closes airspace israel warns of launches from lebanon after us strikes in iran",
       "ts": "2026-06-11T03:40:23.263507+00:00"
+    },
+    {
+      "k": "oil jumps as us strikes in iran raise worries of extended disruption to energy flows",
+      "ts": "2026-06-11T04:00:32.208593+00:00"
     }
   ]
 }
