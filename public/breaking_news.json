@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (05:50 EST)",
+  "last_checked": "June 11, 2026 (05:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] U.S. becomes India’s top gas supplier, as Iran war cuts it off from the Gulf",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-11T05:55:31.618327-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Treasury yields steady as investors monitor inflation data, U.S. strikes in Iran",
       "source": "CNBC",
@@ -1383,6 +1391,10 @@
     {
       "k": "ai megalistings are just the start razer ceo says ahead of historic spacex ipo",
       "ts": "2026-06-11T09:30:37.142626+00:00"
+    },
+    {
+      "k": "us becomes india’s top gas supplier as iran war cuts it off from the gulf",
+      "ts": "2026-06-11T09:55:32.252784+00:00"
     }
   ]
 }
