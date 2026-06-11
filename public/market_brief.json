@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 11, 2026 (18:30 EDT)",
+  "generated_at": "June 11, 2026 (19:00 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10303.88,
-      "change_pct": 0.48
+      "price": 10254.8,
+      "change_pct": 0.27
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-On / Tech-Led Rally",
+  "mood": "Tech-led Rally / Strong Momentum",
   "analysis": {
-    "action_line": "VIX 19.44 Normal + S5FI 56.9% breadth + mixed global tape (e.g., Nikkei -1.89%) → selectively focus on strong US relative strength leaders.",
-    "analysis_para1": "Despite notable weakness in Asian (Nikkei -1.89%) and European (DAX -0.97%) markets, the US equity session closed strongly, possibly supported by falling 10Y yields (4.46%). The BAML HY Spread's unknown regime adds uncertainty, yet US breadth, with S5FI at 56.9% and MMTH at 63.5%, suggests improving but not overwhelmingly strong participation. This indicates a selective rally, primarily concentrated in US growth and technology sectors.",
-    "analysis_para2": "With the S&P 500 now at 7394.30 and Nasdaq 100 at 29446.18, traders should vigilantly watch for consolidations or pullbacks to recent short-term moving averages (e.g., 5-day or 10-day MA) as potential entry points. Key support for the broader market would be the previous day's low or the rising 10-day moving average on any shallow correction. Continue to monitor VIX to remain below 20 and breadth indicators (S5FI 56.9%, MMTH 63.5%) to hold above 50% as a baseline for maintaining risk-on positioning. Prioritize leaders consolidating tightly before new breakout attempts, focusing on the strong semiconductor theme.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's strong upside in the major US indices, particularly the Nasdaq, indicates continued bullish momentum, with breadth firming up.",
+    "action_line": "VIX 19.44 Normal, S5FI 56.9% breadth, and mixed Nikkei 225 suggest trading RS leaders selectively near support.",
+    "analysis_para1": "Despite notable weakness across Asian and European markets, with the Nikkei 225 down 1.89% and the DAX off 0.97%, US equities surged higher. The falling 10Y yield, in the absence of a clear BAML HY spread regime, appears to be supportive of growth narratives rather than indicating broad credit stress. US market breadth remains moderate, with 56.9% of stocks above their 50-day moving average (S5FI) and 63.5% above their 200-day (MMTH), indicating concentrated leadership despite strong index performance.",
+    "analysis_para2": "The immediate mechanical plan calls for maintaining exposure to leading growth names, particularly within the surging Semiconductor sector. Watch for the Nasdaq 100 to consolidate above its recent breakout levels, with any retest of the 28,000-28,500 zone potentially offering an entry. On individual stocks, seek entries on pullbacks to the 8-day or 21-day exponential moving averages, or constructive consolidations above prior resistance. A VIX move above 20 or broad market distribution on increased volume would signal a shift to a more cautious stance.",
+    "technical_signal": "No reversal pattern confirmed yet. The market saw broad-based strength, especially in tech, with no indications of a topping pattern.",
     "ticker_intel": [
-      {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "Vishay Intertechnology, Inc. (VSH) earns an A+ due to its exceptional RS of 98, and parabolic 1M (+74.2%) and 3M (+241.7%) returns, cementing its status as a top semiconductor leader in the current tech rally."
-      },
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
-        "grade": "A",
-        "reason": "Marvell Technology, Inc. (MRVL) receives an A grade for its strong RS of 98, robust 1M (+70.6%) and 3M (+220.2%) performance, positioning it as a high-conviction leader within the dominant semiconductor theme."
+        "grade": "A+",
+        "reason": "MRVL boasts an RS of 98 and a stellar 1M return of +70.6%, showcasing powerful momentum within the dominant Semiconductor theme."
       },
       {
-        "ticker": "ICHR",
-        "company": "Ichor Holdings",
+        "ticker": "ALAB",
+        "company": "Astera Labs, Inc.",
+        "grade": "A",
+        "reason": "With an RS of 97 and a staggering 1M return of +79.8%, ALAB is a standout leader in the red-hot Semiconductor sector."
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research Corporation",
         "grade": "C",
-        "reason": "Ichor Holdings (ICHR) is graded C, not due to weakness, but because its 1M return of +14.7% is relatively modest compared to other Semiconductor leaders with RS 98, suggesting comparatively less immediate momentum for new aggressive entry despite overall strength."
+        "reason": "Despite an RS of 97, LRCX's 3-month return of +73.0% lags significantly behind its sector peers, making it a relative underperformer within the current momentum regime."
       }
     ]
   }
