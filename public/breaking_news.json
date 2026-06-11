@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 10, 2026 (22:30 EST)",
+  "last_checked": "June 10, 2026 (22:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Kuwait says intercepting 'aerial targets' after U.S. military strikes multiple targets in Iran",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-10T22:35:26.826864-04:00",
+      "pub_time": "2026-06-10T22:32:04-04:00"
+    },
     {
       "headline": "[CNBC] U.S. military completes strikes on 'multiple targets' in Iran launched at Trump's direction",
       "source": "CNBC",
@@ -1355,6 +1363,10 @@
     {
       "k": "us military completes strikes on multiple targets in iran launched at trumps direction",
       "ts": "2026-06-11T01:45:27.320452+00:00"
+    },
+    {
+      "k": "kuwait says intercepting aerial targets after us military strikes multiple targets in iran",
+      "ts": "2026-06-11T02:35:27.235521+00:00"
     }
   ]
 }
