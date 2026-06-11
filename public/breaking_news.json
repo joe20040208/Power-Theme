@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 11, 2026 (09:25 EST)",
+  "last_checked": "June 11, 2026 (09:30 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Trump threatens to seize Iran's oil export terminal Kharg Island and take 'total control' of its energy industry",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-11T09:30:39.132878-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Trump says U.S. will seize Kharg Island and other 'oil infrastructure points'",
       "source": "CNBC",
@@ -41,25 +49,9 @@
       "direction": "bearish",
       "timestamp": "2026-06-11T02:45:26.437170-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "Oil climbs as U.S.-Iran conflict escalates and regional tensions mount",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-11T02:40:24.522394-04:00",
-      "pub_time": "2026-06-11T02:38:43-04:00"
     }
   ],
   "seen_keys": [
-    {
-      "k": "soaring stocks created 2 million new millionaires around the world last year",
-      "ts": "2026-06-04T13:25:29.924908+00:00"
-    },
-    {
-      "k": "jim cramers top 10 things to watch in the stock market thursday",
-      "ts": "2026-06-04T13:25:29.924908+00:00"
-    },
     {
       "k": "micron marvell and broadcom sink leading chip stocks lower",
       "ts": "2026-06-04T13:40:25.888776+00:00"
@@ -1403,6 +1395,14 @@
     {
       "k": "doordash lets customers use photos prompts to order food and book reservations in latest ai push",
       "ts": "2026-06-11T13:05:30.323357+00:00"
+    },
+    {
+      "k": "trump threatens to seize irans oil export terminal kharg island and take total control of its ene",
+      "ts": "2026-06-11T13:30:39.774430+00:00"
+    },
+    {
+      "k": "baldwin khanna propose new direct foreign investment review board to probe trumps deals",
+      "ts": "2026-06-11T13:30:39.774430+00:00"
     }
   ]
 }
