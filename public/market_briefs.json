@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-11 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Risk-Off / Controlled De-risking",
+    "spy_price": 725.43,
+    "spy_change_pct": -1.58,
+    "vix": 20.84,
+    "hy_oas": 2.78,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 50.8,
+    "mmth": 60.1,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "reason": "Apple unveils groundbreaking AI integration strategy for its ecosystem, potentially unlocking new revenue streams and revitalizing investor interest in its services growth."
+        },
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "reason": "JPMorgan Chase issues stronger-than-expected Q2 revenue guidance, fueled by robust performance in consumer banking and capital markets."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVIDIA shares continue to experience profit-taking after recent parabolic gains, now testing a critical technical support level as institutional flows rebalance."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-10 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "XOM",
           "company": "ExxonMobil",
           "reason": "Benefited from the broad surge in crude oil prices, reflecting general commodity market strength rather than new company-specific catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-29 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Risk-Off / Oil Surge",
-    "spy_price": 711.69,
-    "spy_change_pct": -0.49,
-    "vix": 17.97,
-    "hy_oas": 2.84,
-    "yield_curve": 0.52,
-    "credit_status": "Complacent",
-    "s5fi": 57.2,
-    "mmth": 58.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Reports of a significant breakthrough in AI-driven advertising efficiency could boost revenue projections."
-        },
-        {
-          "ticker": "UNH",
-          "company": "UnitedHealth Group Inc.",
-          "reason": "Positive analyst upgrades following robust Q1 earnings pre-announcement and strong guidance raise expectations."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "CVX",
-          "company": "Chevron Corp.",
-          "reason": "Continues to see technical buying momentum from the recent strength in crude oil prices, reflecting existing sector tailwinds rather than fresh news."
         }
       ]
     }
