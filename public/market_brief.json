@@ -1,29 +1,29 @@
 {
-  "generated_at": "June 12, 2026 (12:21 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 12, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7417.68,
-      "change": 23.38,
-      "change_pct": 0.32
+      "price": 7431.46,
+      "change": 37.16,
+      "change_pct": 0.5
     },
     {
       "label": "Nasdaq 100",
-      "price": 29559.57,
-      "change": 113.39,
-      "change_pct": 0.39
+      "price": 29635.95,
+      "change": 189.77,
+      "change_pct": 0.64
     },
     {
       "label": "VIX",
-      "price": 19.28,
-      "change": -0.16,
+      "price": 17.68,
+      "change": -1.76,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.48,
+      "price": 4.49,
       "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24635.3,
-      "change_pct": 1.76
+      "price": 24209.71,
+      "change_pct": 0.06
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 60.0,
-    "mmth": 64.5,
+    "s5fi": 61.1,
+    "mmth": 65.7,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Broad Strength, Semiconductor-Led Rally",
+  "mood": "Growth Momentum / Stable Advance",
   "analysis": {
-    "action_line": "VIX 19.28 Normal + S5FI 60.0% breadth + DAX +1.76% strength → Favor selective long entries for RS leaders near support.",
-    "analysis_para1": "European markets are leading global gains today, with the DAX up +1.76% and the FTSE 100 advancing +1.63%, while the Nikkei saw more modest gains of +0.06%. US credit remains stable, with the 10Y Yield at 4.48%, though the BAML HY Spread regime is currently unknown. This stability is reflected in healthy domestic breadth, with 60.0% of stocks above their 50-day moving average and 64.5% above their 200-day, indicating a constructive environment.",
-    "analysis_para2": "With major indices trending higher and breadth signals healthy, the mechanical plan is to establish or add to long positions in leading themes. Pay close attention to the S&P 500 for a potential retest of its 21-day EMA as an optimal buying opportunity. A sustained close below the 10-day EMA for the Nasdaq 100 would serve as a preliminary yellow flag. Maintain disciplined risk management with tight stop losses, ideally positioned below key short-term support levels for individual stocks.",
-    "technical_signal": "No reversal pattern confirmed yet. Major indices are trending higher, supported by healthy breadth and positive global cues, indicating continued upward momentum.",
+    "action_line": "VIX 17.68 Normal + S5FI 61.1% breadth + strong FTSE 100 → continue riding high RS leaders, buying pullbacks.",
+    "analysis_para1": "European markets, particularly the FTSE 100, showed significant strength today with a +1.63% gain, while the Nikkei 225 and DAX posted marginal increases of +0.06% each, contributing to a generally constructive global backdrop. Despite the BAML HY Spread's unknown regime, the stable 10Y Yield at 4.49% suggests no immediate credit market stress. US market breadth remains healthy, with 61.1% of stocks above their 50-day moving average (S5FI) and 65.7% above their 200-day (MMTH), supporting the prevailing positive sentiment.",
+    "analysis_para2": "The mechanical plan dictates monitoring the S&P 500 for holding above the 7400 level and the Nasdaq 100 above 29500 as immediate support zones. A break below these key levels, coupled with a VIX spike above 20 and S5FI dropping below 50%, would signal a material shift towards a risk-off environment. For the current regime, continue to favor high relative strength leaders from the Hardware and Semiconductors themes, using pullbacks to established support or key moving averages as optimal entry points.",
+    "technical_signal": "No reversal pattern confirmed yet. Major indices continue to trend higher with healthy breadth.",
     "ticker_intel": [
+      {
+        "ticker": "ARM",
+        "company": "Arm Holdings plc",
+        "grade": "A+",
+        "reason": "RS=97, 1M=+72.2%, demonstrating exceptional leadership and momentum in the thriving semiconductor and AI-related hardware sector."
+      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "The stock exhibits exceptional RS 98 and scorching 1-month returns of +74.2%, making it a prime leader in the currently dominant semiconductor theme."
-      },
-      {
-        "ticker": "MRVL",
-        "company": "Marvell Technology, Inc.",
         "grade": "A",
-        "reason": "With strong RS 98 and robust 1-month gains of +70.6%, Marvell Technology is a high-conviction leader within the surging semiconductor sector."
+        "reason": "RS=98, 1M=+54.2%, reflecting robust momentum and broad-based demand for its semiconductor components, aligning with current market leadership."
       },
       {
-        "ticker": "VELO",
-        "company": "Velo3D, Inc.",
+        "ticker": "UMAC",
+        "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite a strong RS 98 and 1-month run of +117.7%, its 3-month performance lags peers in the leading semiconductor theme, and its high 11.2% ADR suggests greater volatility in a less dominant sector."
+        "reason": "RS=97, 1M=+63.2%, 3M=+19.8%, exhibiting a recent parabolic spike (1M) without sustained prior strength (3M), combined with a high ADR (14.7%) indicating elevated risk for a potential pullback."
       }
     ]
   }
