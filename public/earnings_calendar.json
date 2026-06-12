@@ -1,41 +1,7 @@
 {
-  "generated_at": "2026-06-11T21:51:29.113359+00:00",
+  "generated_at": "2026-06-12T12:14:49.833381+00:00",
   "data_source": "tradingview",
   "earnings": [
-    {
-      "date": "2026-06-11",
-      "ticker": "LEN",
-      "company": "Lennar Corporation",
-      "time_of_day": "AMC",
-      "mkt_cap": 23386022454.0,
-      "eps_estimate": 1.24,
-      "eps_act": 0.93,
-      "eps_surp_pct": -3.95,
-      "rev_est": 8074688900.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 94.95,
-      "avg_volume": 2965012,
-      "adr_pct": 2.8,
-      "dollar_volume": 281527889.0
-    },
-    {
-      "date": "2026-06-11",
-      "ticker": "RH",
-      "company": "RH",
-      "time_of_day": "AMC",
-      "mkt_cap": 3011270656.0,
-      "eps_estimate": -2.07,
-      "eps_act": 1.53,
-      "eps_surp_pct": -32.99,
-      "rev_est": 792383770.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 159.32,
-      "avg_volume": 1182206,
-      "adr_pct": 5.5,
-      "dollar_volume": 188349060.0
-    },
     {
       "date": "2026-06-17",
       "ticker": "JBL",
@@ -45,13 +11,13 @@
       "eps_estimate": 3.1,
       "eps_act": 2.69,
       "eps_surp_pct": 6.2,
-      "rev_est": 8605769700.0,
+      "rev_est": 8609883830.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 376.89,
-      "avg_volume": 1211707,
+      "avg_volume": 1210850,
       "adr_pct": 4.3,
-      "dollar_volume": 456680251.0
+      "dollar_volume": 456357256.0
     },
     {
       "date": "2026-06-17",
@@ -59,16 +25,16 @@
       "company": "CarMax, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 7313694229.0,
-      "eps_estimate": 0.96,
+      "eps_estimate": 0.97,
       "eps_act": 0.34,
       "eps_surp_pct": 46.8,
-      "rev_est": 7394772080.0,
+      "rev_est": 7419272080.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.57,
-      "avg_volume": 3262312,
+      "avg_volume": 3235381,
       "adr_pct": 4.7,
-      "dollar_volume": 168237430.0
+      "dollar_volume": 166848598.0
     },
     {
       "date": "2026-06-18",
@@ -79,13 +45,13 @@
       "eps_estimate": 3.71,
       "eps_act": 2.93,
       "eps_surp_pct": 2.13,
-      "rev_est": 18742340000.0,
+      "rev_est": 18756650000.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 167.52,
-      "avg_volume": 6138756,
+      "avg_volume": 6140693,
       "adr_pct": 3.8,
-      "dollar_volume": 1028364405.0
+      "dollar_volume": 1028688891.0
     },
     {
       "date": "2026-06-18",
@@ -93,16 +59,16 @@
       "company": "The Kroger Co.",
       "time_of_day": "BMO",
       "mkt_cap": 39533872303.0,
-      "eps_estimate": 1.58,
+      "eps_estimate": 1.59,
       "eps_act": 1.28,
       "eps_surp_pct": 3.52,
-      "rev_est": 45382630490.0,
+      "rev_est": 45492175520.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.12,
-      "avg_volume": 6078653,
+      "avg_volume": 6102609,
       "adr_pct": 2.4,
-      "dollar_volume": 389763230.0
+      "dollar_volume": 391299289.0
     }
   ]
 }
