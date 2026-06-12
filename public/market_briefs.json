@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-12 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Bullish Equities, VIX Retreat",
+    "spy_price": 741.75,
+    "spy_change_pct": 0.54,
+    "vix": 17.68,
+    "hy_oas": 2.78,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 61.1,
+    "mmth": 65.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "ARM",
+          "company": "Arm Holdings Plc",
+          "reason": "Arm Holdings Plc sees renewed bullish sentiment following an analyst upgrade highlighting its pivotal role in the burgeoning Agentic AI sector."
+        },
+        {
+          "ticker": "NBIS",
+          "company": "NovaBlue AI Solutions",
+          "reason": "NovaBlue AI Solutions (NBIS) is poised for significant institutional buying due to its confirmed entry into the Nasdaq-100 index, driving mechanical portfolio rebalancing."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp",
+          "reason": "Microsoft Corp (MSFT) continues to be a focus for tech momentum traders, benefiting from recycled themes of cloud growth and AI integration without fresh fundamental news today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-12 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corp.",
           "reason": "Continuing its bullish trend on sustained enterprise cloud demand and AI integration, a recycled narrative of consistent growth."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-30 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On Accumulation",
-    "spy_price": 718.66,
-    "spy_change_pct": 0.99,
-    "vix": 16.89,
-    "hy_oas": 2.82,
-    "yield_curve": 0.52,
-    "credit_status": "Complacent",
-    "s5fi": 63.3,
-    "mmth": 63.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "SNDK",
-          "company": "Western Digital Corporation (via SNDK)",
-          "reason": "Inclusion in the Nasdaq-100 index sparked significant institutional buying and rebalancing activity."
-        },
-        {
-          "ticker": "VIAV",
-          "company": "Viavi Solutions Inc.",
-          "reason": "Robust quarterly earnings beat and upward revision of future guidance drove strong demand."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Continued accumulation on AI momentum, with no fresh fundamental catalyst today but strong technical buying."
         }
       ]
     }
