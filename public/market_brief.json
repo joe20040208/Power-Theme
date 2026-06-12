@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 11, 2026 (19:00 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 12, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,42 +16,42 @@
     },
     {
       "label": "VIX",
-      "price": 19.44,
-      "change": -2.78,
+      "price": 19.28,
+      "change": -0.16,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.46,
-      "change": -0.08,
+      "price": 4.48,
+      "change": 0.02,
       "change_pct": null,
-      "trend_label": "Falling"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64179.27,
-      "change_pct": -1.89
+      "price": 66020.04,
+      "change_pct": 2.81
     },
     "dax": {
       "label": "DAX",
-      "price": 24195.31,
-      "change_pct": -0.97
+      "price": 24504.88,
+      "change_pct": 1.22
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10254.8,
-      "change_pct": 0.27
+      "price": 10404.25,
+      "change_pct": 0.97
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 56.9,
-    "mmth": 63.5,
+    "s5fi": 56.8,
+    "mmth": 63.4,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led Rally / Strong Momentum",
+  "mood": "Strong Risk-On / Semiconductor-Led Rally",
   "analysis": {
-    "action_line": "VIX 19.44 Normal, S5FI 56.9% breadth, and mixed Nikkei 225 suggest trading RS leaders selectively near support.",
-    "analysis_para1": "Despite notable weakness across Asian and European markets, with the Nikkei 225 down 1.89% and the DAX off 0.97%, US equities surged higher. The falling 10Y yield, in the absence of a clear BAML HY spread regime, appears to be supportive of growth narratives rather than indicating broad credit stress. US market breadth remains moderate, with 56.9% of stocks above their 50-day moving average (S5FI) and 63.5% above their 200-day (MMTH), indicating concentrated leadership despite strong index performance.",
-    "analysis_para2": "The immediate mechanical plan calls for maintaining exposure to leading growth names, particularly within the surging Semiconductor sector. Watch for the Nasdaq 100 to consolidate above its recent breakout levels, with any retest of the 28,000-28,500 zone potentially offering an entry. On individual stocks, seek entries on pullbacks to the 8-day or 21-day exponential moving averages, or constructive consolidations above prior resistance. A VIX move above 20 or broad market distribution on increased volume would signal a shift to a more cautious stance.",
-    "technical_signal": "No reversal pattern confirmed yet. The market saw broad-based strength, especially in tech, with no indications of a topping pattern.",
+    "action_line": "VIX 19.28 Normal + S5FI 56.8% breadth + Nikkei +2.81% global strength → focus on RS leaders, especially in semis.",
+    "analysis_para1": "Global markets are exhibiting robust strength this morning, with the Nikkei 225 surging +2.81%, followed by solid gains in the DAX (+1.22%) and FTSE 100 (+0.97%). This positive sentiment is translating into a strong pre-market for US equities, where the S&P 500 is up +1.75% and the Nasdaq 100 leads with a +3.29% jump. US market breadth remains healthy, with 56.8% of stocks above their 50-day moving average (S5FI) and 63.4% above their 200-day moving average (MMTH), indicating broad-based participation. While the BAML HY Spread regime is unknown, the stable 10-year yield at 4.48% does not suggest immediate credit distress, supporting the prevailing risk-on mood.",
+    "analysis_para2": "Today's mechanical plan centers on confirming the strong bullish open and identifying continuation plays. Given the significant pre-market gains, specifically the Nasdaq 100's +3.29% surge, monitoring for follow-through volume after the open will be crucial. We are looking for the S&P 500 to hold above prior day's high for sustained momentum. Focus should remain on the strong Relative Strength (RS) leaders, particularly within the Semiconductor and Hardware sectors that dominate our scanner. Any intraday pullbacks on lighter volume should be viewed as potential buying opportunities, while a significant reversal on heavy volume would warrant a re-evaluation of the bullish stance.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing strong bullish momentum across global indices and US futures.",
     "ticker_intel": [
+      {
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
+        "grade": "A+",
+        "reason": "VSH boasts a top-tier RS=98 and a staggering 1M=+74.2% return, making it an elite semiconductor leader poised for continued momentum in this risk-on market."
+      },
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
-        "grade": "A+",
-        "reason": "MRVL boasts an RS of 98 and a stellar 1M return of +70.6%, showcasing powerful momentum within the dominant Semiconductor theme."
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs, Inc.",
         "grade": "A",
-        "reason": "With an RS of 97 and a staggering 1M return of +79.8%, ALAB is a standout leader in the red-hot Semiconductor sector."
+        "reason": "With an RS=98 and an impressive 1M=+70.6% return, MRVL is a high-conviction semiconductor play well-positioned within the currently dominant tech rally."
       },
       {
         "ticker": "LRCX",
         "company": "Lam Research Corporation",
         "grade": "C",
-        "reason": "Despite an RS of 97, LRCX's 3-month return of +73.0% lags significantly behind its sector peers, making it a relative underperformer within the current momentum regime."
+        "reason": "Despite an RS=97 and a 1M=+25.3% return, LRCX shows comparatively weaker 3M momentum (+73.0%) and ADR (5.8%) versus its peers, suggesting it may lag in this accelerated semiconductor rally."
       }
     ]
   }
