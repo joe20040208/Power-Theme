@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-12 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Strong Risk Appetite",
+    "spy_price": 737.76,
+    "spy_change_pct": 1.7,
+    "vix": 18.86,
+    "hy_oas": 2.8,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 56.8,
+    "mmth": 63.4,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVIDIA announced a groundbreaking new AI chip architecture expected to significantly accelerate data center performance and maintain its market leadership."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Microsoft unveiled a suite of new enterprise AI solutions focused on boosting productivity and expanding its Azure cloud service offerings."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "reason": "Apple continues to see consistent demand for its latest iPhone models, driven by steady consumer upgrade cycles and brand loyalty."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-11 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corporation",
           "reason": "Continued accumulation on AI momentum, with no fresh fundamental catalyst today but strong technical buying."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-04-30 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Mixed Signals, Tech Resilience",
-    "spy_price": 711.58,
-    "spy_change_pct": -0.02,
-    "vix": 17.97,
-    "hy_oas": 2.85,
-    "yield_curve": 0.5,
-    "credit_status": "Complacent",
-    "s5fi": 54.3,
-    "mmth": 59.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Analyst upgrade based on strong Azure AI integration and robust cloud spending outlook, driving fresh institutional interest."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "Reports accelerating growth in AWS cloud services and solid e-commerce resilience, attracting new buying flow."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Continues to see momentum from sustained AI chip demand, though lacking fresh specific catalyst today, making it a flow-driven play."
         }
       ]
     }
