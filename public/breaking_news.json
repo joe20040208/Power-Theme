@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 12, 2026 (13:05 EST)",
+  "last_checked": "June 12, 2026 (13:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Oil prices fall after Pakistan says U.S. and Iran have reached final peace deal text",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-12T13:10:34.319129-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Oil prices fall after Pakistan prime minister says U.S. and Iran have reached final peace deal",
       "source": "CNBC",
@@ -20,10 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "model routing is a fix for ai overspending thats a problem for openai and anthropic",
-      "ts": "2026-06-05T17:10:24.172604+00:00"
-    },
     {
       "k": "trump wants bill pulte to fire big chunk of national intelligence office staff wsj",
       "ts": "2026-06-05T17:30:30.167059+00:00"
@@ -1375,6 +1379,14 @@
     {
       "k": "spacex market cap tops 2 trillion after shares of elon musks rocket company gain 27 on debut",
       "ts": "2026-06-12T17:00:37.845710+00:00"
+    },
+    {
+      "k": "spacex market cap tops 2 trillion after shares of elon musks rocket company gain 30 on debut",
+      "ts": "2026-06-12T17:10:35.199269+00:00"
+    },
+    {
+      "k": "oil prices fall after pakistan says us and iran have reached final peace deal text",
+      "ts": "2026-06-12T17:10:35.199269+00:00"
     }
   ]
 }
