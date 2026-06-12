@@ -6,13 +6,13 @@
   "count": 0,
   "stocks": [],
   "spx_benchmarks": {
-    "spx_1d": 1.75,
-    "spx_1m": -0.67,
-    "spx_3m": 11.49,
-    "spx_34d": 3.2,
-    "spx_qtd": 12.46,
-    "spx_mtd": -2.71
+    "spx_1d": 0.5,
+    "spx_1m": -0.93,
+    "spx_3m": 10.93,
+    "spx_34d": 3.59,
+    "spx_qtd": 13.02,
+    "spx_mtd": -2.22
   },
-  "fetched_at_utc": "2026-06-11T21:52:11+00:00",
+  "fetched_at_utc": "2026-06-12T21:49:19+00:00",
   "source": "tv_fallback"
 }

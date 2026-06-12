@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T12:14:49.833381+00:00",
+  "generated_at": "2026-06-12T21:48:49.057303+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -7,68 +7,68 @@
       "ticker": "JBL",
       "company": "Jabil Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 39762884751.0,
+      "mkt_cap": 40599519771.0,
       "eps_estimate": 3.1,
       "eps_act": 2.69,
       "eps_surp_pct": 6.2,
       "rev_est": 8609883830.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 376.89,
-      "avg_volume": 1210850,
+      "price": 384.82,
+      "avg_volume": 1210865,
       "adr_pct": 4.3,
-      "dollar_volume": 456357256.0
+      "dollar_volume": 465965069.0
     },
     {
       "date": "2026-06-17",
       "ticker": "KMX",
       "company": "CarMax, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 7313694229.0,
+      "mkt_cap": 7269729613.0,
       "eps_estimate": 0.97,
       "eps_act": 0.34,
       "eps_surp_pct": 46.8,
       "rev_est": 7419272080.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 51.57,
-      "avg_volume": 3235381,
+      "price": 51.26,
+      "avg_volume": 3235407,
       "adr_pct": 4.7,
-      "dollar_volume": 166848598.0
+      "dollar_volume": 165846963.0
     },
     {
       "date": "2026-06-18",
       "ticker": "ACN",
       "company": "Accenture plc",
       "time_of_day": "BMO",
-      "mkt_cap": 103097700465.0,
+      "mkt_cap": 104796298123.0,
       "eps_estimate": 3.71,
       "eps_act": 2.93,
       "eps_surp_pct": 2.13,
       "rev_est": 18756650000.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 167.52,
-      "avg_volume": 6140693,
-      "adr_pct": 3.8,
-      "dollar_volume": 1028688891.0
+      "price": 170.28,
+      "avg_volume": 6140712,
+      "adr_pct": 3.9,
+      "dollar_volume": 1045640439.0
     },
     {
       "date": "2026-06-18",
       "ticker": "KR",
       "company": "The Kroger Co.",
       "time_of_day": "BMO",
-      "mkt_cap": 39533872303.0,
+      "mkt_cap": 39897640844.0,
       "eps_estimate": 1.59,
       "eps_act": 1.28,
       "eps_surp_pct": 3.52,
       "rev_est": 45492175520.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 64.12,
-      "avg_volume": 6102609,
-      "adr_pct": 2.4,
-      "dollar_volume": 391299289.0
+      "price": 64.71,
+      "avg_volume": 6102623,
+      "adr_pct": 2.3,
+      "dollar_volume": 394900734.0
     }
   ]
 }
