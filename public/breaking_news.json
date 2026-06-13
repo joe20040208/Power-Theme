@@ -1,40 +1,7 @@
 {
-  "last_checked": "June 12, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "[CNBC] Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-12T21:25:29.562926-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Oil prices fall after Pakistan says U.S. and Iran have reached final peace deal text",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-12T13:10:34.319129-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] Oil prices fall after Pakistan prime minister says U.S. and Iran have reached final peace deal",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-12T12:55:30.385192-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "U.S. and Iran have 'final, agreed upon text' of a deal, Pakistan prime minister says",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-12T12:50:30.720431-04:00",
-      "pub_time": "2026-06-12T12:47:22-04:00"
-    }
-  ],
+  "last_checked": "June 13, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "social media bans on teens risk strengthening big techs grip on the sector bluesky exec warns",
