@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 13, 2026 (13:35 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 13, 2026 (13:40 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Trump says Iran deal will be signed Sunday, Strait of Hormuz to open immediately after",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-13T13:40:33.202955-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "us confirms second texas screwworm case canada restricts livestock imports",
@@ -1418,6 +1427,10 @@
     {
       "k": "what drove the stock market last week — before and after spacexs historic ipo",
       "ts": "2026-06-13T16:45:25.701171+00:00"
+    },
+    {
+      "k": "trump says iran deal will be signed sunday strait of hormuz to open immediately after",
+      "ts": "2026-06-13T17:40:34.059756+00:00"
     }
   ]
 }
