@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 12, 2026 (21:20 EST)",
+  "last_checked": "June 12, 2026 (21:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-12T21:25:29.562926-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Oil prices fall after Pakistan says U.S. and Iran have reached final peace deal text",
       "source": "CNBC",
@@ -1427,6 +1435,10 @@
     {
       "k": "trump name must be removed from kennedy center by friday night as appeals court rejects delay",
       "ts": "2026-06-12T23:50:31.660999+00:00"
+    },
+    {
+      "k": "anthropic disables access to fable 5 and mythos 5 to comply with government directive",
+      "ts": "2026-06-13T01:25:30.149896+00:00"
     }
   ]
 }
