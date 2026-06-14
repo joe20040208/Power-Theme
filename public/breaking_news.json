@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (18:30 EST)",
+  "last_checked": "June 14, 2026 (18:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump heads to G7 summit in France after reaching deal to end war with Iran",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T18:35:22.634499-04:00",
+      "pub_time": "2026-06-14T18:30:57-04:00"
+    },
     {
       "headline": "U.S. and Iran agree on peace deal to end the war, Trump and Pakistan say",
       "source": "CNBC",
@@ -1467,6 +1475,10 @@
     {
       "k": "us and iran agree on peace deal to end the war trump and pakistan say",
       "ts": "2026-06-14T22:00:38.192028+00:00"
+    },
+    {
+      "k": "trump heads to g7 summit in france after reaching deal to end war with iran",
+      "ts": "2026-06-14T22:35:23.066172+00:00"
     }
   ]
 }
