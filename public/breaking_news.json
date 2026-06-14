@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (17:55 EST)",
+  "last_checked": "June 14, 2026 (18:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. and Iran agree on peace deal to end the war, Trump and Pakistan say",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T18:00:37.408223-04:00",
+      "pub_time": "2026-06-14T17:59:52-04:00"
+    },
     {
       "headline": "U.S. and Iran agree on peace deal to end the war, Pakistan Prime Minister Shehbaz Sharif says",
       "source": "CNBC",
@@ -1455,6 +1463,10 @@
     {
       "k": "us and iran agree on peace deal to end the war pakistan prime minister shehbaz sharif says",
       "ts": "2026-06-14T21:50:32.716942+00:00"
+    },
+    {
+      "k": "us and iran agree on peace deal to end the war trump and pakistan say",
+      "ts": "2026-06-14T22:00:38.192028+00:00"
     }
   ]
 }
