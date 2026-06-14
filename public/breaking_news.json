@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (17:45 EST)",
+  "last_checked": "June 14, 2026 (17:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. and Iran agree on peace deal to end the war, Pakistan Prime Minister Shehbaz Sharif says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T17:50:31.992581-04:00",
+      "pub_time": "2026-06-14T17:44:36-04:00"
+    },
     {
       "headline": "[CNBC] U.S. peace deal with Iran in question as Israel strikes Lebanon, Trump warns not to 'blow it'",
       "source": "CNBC",
@@ -1443,6 +1451,10 @@
     {
       "k": "charlie javice reportedly seeking a pardon from trump",
       "ts": "2026-06-14T20:30:35.961343+00:00"
+    },
+    {
+      "k": "us and iran agree on peace deal to end the war pakistan prime minister shehbaz sharif says",
+      "ts": "2026-06-14T21:50:32.716942+00:00"
     }
   ]
 }
