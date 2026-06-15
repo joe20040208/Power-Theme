@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (22:05 EST)",
+  "last_checked": "June 14, 2026 (22:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. and Iran reach peace deal to end the Mideast war, with agreement set to be signed Friday",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T22:10:28.173385-04:00",
+      "pub_time": "2026-06-14T22:06:06-04:00"
+    },
     {
       "headline": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bearish",
       "timestamp": "2026-06-14T11:10:26.715936-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "U.S. peace deal with Iran in question as Israel strikes Lebanon",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-14T10:50:25.872660-04:00",
-      "pub_time": "2026-06-14T10:45:09-04:00"
     }
   ],
   "seen_keys": [
@@ -1479,6 +1479,10 @@
     {
       "k": "markets cheer usiran agreement but some investors caution deal is yet to be signed",
       "ts": "2026-06-15T01:25:23.113679+00:00"
+    },
+    {
+      "k": "us and iran reach peace deal to end the mideast war with agreement set to be signed friday",
+      "ts": "2026-06-15T02:10:28.545171+00:00"
     }
   ]
 }
