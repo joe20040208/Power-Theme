@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 15, 2026 (03:15 EST)",
+  "last_checked": "June 15, 2026 (03:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] SoftBank surges more than 10% as Iran-U.S. deal sends Asia stocks soaring",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-15T03:20:37.600319-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] SoftBank surges more than 12% as Iran-U.S. deal sends Asia stocks soaring",
       "source": "CNBC",
@@ -36,10 +44,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "oil prices spike nearly 5 as iran and israel trade strikes escalating regional tensions",
-      "ts": "2026-06-08T07:20:26.063324+00:00"
-    },
     {
       "k": "tech stock selloff accelerates softbank drops 6 as investors sour on ailinked names",
       "ts": "2026-06-08T07:40:28.007053+00:00"
@@ -1471,6 +1475,10 @@
     {
       "k": "softbank surges more than 12 as iranus deal sends asia stocks soaring",
       "ts": "2026-06-15T07:05:31.850364+00:00"
+    },
+    {
+      "k": "softbank surges more than 10 as iranus deal sends asia stocks soaring",
+      "ts": "2026-06-15T07:20:38.071775+00:00"
     }
   ]
 }
