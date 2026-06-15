@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 15, 2026 (03:00 EST)",
+  "last_checked": "June 15, 2026 (03:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] SoftBank surges more than 12% as Iran-U.S. deal sends Asia stocks soaring",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-15T03:05:31.272700-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] U.S. and Iran reach deal to end the Mideast war, with agreement set to be signed Friday",
       "source": "CNBC",
@@ -1463,6 +1471,10 @@
     {
       "k": "us and iran reach deal to end the mideast war with agreement set to be signed friday",
       "ts": "2026-06-15T06:55:32.368699+00:00"
+    },
+    {
+      "k": "softbank surges more than 12 as iranus deal sends asia stocks soaring",
+      "ts": "2026-06-15T07:05:31.850364+00:00"
     }
   ]
 }
