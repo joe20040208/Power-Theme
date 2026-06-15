@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 15, 2026 (03:35 EST)",
+  "last_checked": "June 15, 2026 (03:40 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -44,10 +44,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "tech stock selloff accelerates softbank drops 6 as investors sour on ailinked names",
-      "ts": "2026-06-08T07:40:28.007053+00:00"
-    },
     {
       "k": "oil prices spike over 4 as iran and israel trade strikes escalating regional tensions",
       "ts": "2026-06-08T08:45:27.662564+00:00"
@@ -1479,6 +1475,10 @@
     {
       "k": "softbank surges more than 10 as iranus deal sends asia stocks soaring",
       "ts": "2026-06-15T07:20:38.071775+00:00"
+    },
+    {
+      "k": "softbank surges more than 10 as iranus deal sends asia tech stocks soaring",
+      "ts": "2026-06-15T07:40:34.170093+00:00"
     }
   ]
 }
