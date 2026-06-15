@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 15, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 15, 2026 (13:58 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7431.46,
-      "change": 37.16,
-      "change_pct": 0.5
+      "price": 7562.74,
+      "change": 131.28,
+      "change_pct": 1.77
     },
     {
       "label": "Nasdaq 100",
-      "price": 29635.95,
-      "change": 189.77,
-      "change_pct": 0.64
+      "price": 30531.8,
+      "change": 895.86,
+      "change_pct": 3.02
     },
     {
       "label": "VIX",
-      "price": 16.56,
-      "change": -1.12,
+      "price": 16.14,
+      "change": -1.54,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.45,
-      "change": -0.03,
+      "price": 4.47,
+      "change": -0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69317.5,
-      "change_pct": 4.99
+      "price": 66020.04,
+      "change_pct": 2.81
     },
     "dax": {
       "label": "DAX",
-      "price": 24965.56,
-      "change_pct": 1.34
+      "price": 24894.01,
+      "change_pct": 1.05
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10475.76,
-      "change_pct": 0.04
+      "price": 10430.62,
+      "change_pct": -0.39
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 61.1,
-    "mmth": 65.7,
+    "s5fi": 66.4,
+    "mmth": 67.4,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Strength, Tech Rally Resumes",
+  "mood": "Risk-On / Tech-Led Rally",
   "analysis": {
-    "action_line": "VIX 16.56 Normal + S5FI 61.1% breadth + Nikkei 225 surging +4.99% → favor momentum leaders in strong themes on strength.",
-    "analysis_para1": "Global markets are displaying significant strength this morning, spearheaded by an impressive +4.99% surge in the Nikkei 225, alongside a solid +1.34% gain in the German DAX. While the BAML HY Spread regime is unknown, the stable 4.45% 10Y Yield suggests no immediate credit distress. Domestically, US market breadth remains healthy, with 61.1% of S&P 500 stocks above their 50-day moving average (S5FI) and 65.7% above their 200-day (MMTH), indicating broad underlying participation.",
-    "analysis_para2": "Today's pre-market strength suggests a continuation of the recent upside momentum. Traders should monitor the S&P 500's ability to hold above its opening print, with a clear focus on the Nasdaq 100 which is leading the charge. A strong close above the prior day's high would confirm bullish sentiment. Conversely, any sustained pullback to yesterday's closing levels without a quick rebound could signal temporary exhaustion, warranting a defensive posture. The emphasis remains on identifying and participating in high relative strength (RS) names in leading sectors exhibiting follow-through.",
-    "technical_signal": "No reversal pattern confirmed yet. Current market action indicates ongoing strength and bullish continuation.",
+    "action_line": "VIX 16.14 Normal + S5FI 66.4% breadth + strong Nikkei (+2.81%) and DAX (+1.05%) → favor high-RS leaders for continuation.",
+    "analysis_para1": "Global markets are generally buoyant today, with the Nikkei 225 up a strong +2.81% and the DAX gaining +1.05%, signaling widespread positive sentiment despite a slight dip in the FTSE 100 (-0.39%). The stable 10-year yield at 4.47% suggests no immediate credit market stress, though the BAML HY Spread's regime remains unknown. Domestically, US market breadth is robust, with 66.4% of stocks above their 50-day moving average (S5FI) and 67.4% above their 200-day (MMTH), underpinning today's strong S&P 500 and Nasdaq 100 gains.",
+    "analysis_para2": "Today's robust market action, highlighted by the S&P 500 at 7562.74 and Nasdaq 100 surging past 30,000, warrants a focus on high relative strength leaders. The mechanical plan involves identifying stocks exhibiting strong momentum and institutional sponsorship, particularly within the Hardware and Semiconductors themes. Watch for potential entries on minor intraday pullbacks to short-term moving averages or retests of recent breakout levels. A decisive break below the previous day's low on the S&P 500 would signal caution, while continued VIX stability below 18 supports aggressive long positioning.",
+    "technical_signal": "No reversal pattern confirmed yet. Market exhibits strong upward momentum supported by broad participation.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "ARM exhibits exceptional momentum with RS 97, a robust +72.2% 1-month gain, and +229.0% 3-month gain, making it a leading play in the strong Semiconductors theme."
+        "reason": "ARM exhibits exceptional relative strength at 97 and a phenomenal +72.2% 1-month return, making it a prime semiconductor leader in the current risk-on tech environment."
       },
       {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "VSH demonstrates outstanding strength with RS 98, a +54.2% 1-month return, and an impressive +244.6% 3-month return, positioning it as a top semiconductor performer."
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "grade": "A",
+        "reason": "DELL Technologies demonstrates strong relative strength (97) and a remarkable +62.2% 1-month gain, positioning it as a leading hardware play amidst the ongoing market rally."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite a strong +63.2% 1-month gain, UMAC's comparatively weak +19.8% 3-month return and very high 14.7% ADR suggest potential volatility and a lack of sustained momentum relative to peers."
+        "reason": "Unusual Machines (UMAC) shows a strong recent +63.2% 1-month gain, but its significantly weaker +19.8% 3-month return and high ADR=14.7% suggest a potentially unsustainable surge susceptible to rapid reversal."
       }
     ]
   }
