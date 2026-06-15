@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 12, 2026 (18:52 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 15, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 17.68,
-      "change": -1.76,
+      "price": 16.56,
+      "change": -1.12,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.49,
-      "change": 0.02,
+      "price": 4.45,
+      "change": -0.03,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 64217.27,
-      "change_pct": 0.06
+      "price": 69317.5,
+      "change_pct": 4.99
     },
     "dax": {
       "label": "DAX",
-      "price": 24209.71,
-      "change_pct": 0.06
+      "price": 24965.56,
+      "change_pct": 1.34
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10471.72,
-      "change_pct": 1.63
+      "price": 10475.76,
+      "change_pct": 0.04
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-On / Tech-led Momentum",
+  "mood": "Global Strength, Tech Rally Resumes",
   "analysis": {
-    "action_line": "VIX 17.68 Normal + S5FI 61.1% breadth + mixed global tape (FTSE strong) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with Asian and European majors like the Nikkei and DAX posting modest gains of +0.06%. In contrast, the FTSE 100 notably outperformed, surging by +1.63%. US credit markets remained an unknown regime with the BAML HY Spread data unavailable. Despite this, US market breadth remains robust, evidenced by 61.1% of stocks above their 50-day moving average (S5FI) and 65.7% above their 200-day (MMTH), suggesting underlying market strength.",
-    "analysis_para2": "With the S&P 500 closing at 7431.46 and the Nasdaq 100 at 29635.95, the bias remains constructive. The mechanical plan involves monitoring these key indices for sustained strength above their recent intraday highs. Traders should continue to identify Relative Strength (RS) leaders, particularly in the Hardware and Semiconductors themes, looking for entry points on constructive pullbacks to short-term moving averages or clear breakouts from tight bases. Strict risk management and adherence to stop-loss levels are crucial, especially given the rapid moves seen in leading stocks.",
-    "technical_signal": "No reversal pattern confirmed yet. Major indices continue to trend upwards, supported by healthy market breadth and normal volatility.",
+    "action_line": "VIX 16.56 Normal + S5FI 61.1% breadth + Nikkei 225 surging +4.99% → favor momentum leaders in strong themes on strength.",
+    "analysis_para1": "Global markets are displaying significant strength this morning, spearheaded by an impressive +4.99% surge in the Nikkei 225, alongside a solid +1.34% gain in the German DAX. While the BAML HY Spread regime is unknown, the stable 4.45% 10Y Yield suggests no immediate credit distress. Domestically, US market breadth remains healthy, with 61.1% of S&P 500 stocks above their 50-day moving average (S5FI) and 65.7% above their 200-day (MMTH), indicating broad underlying participation.",
+    "analysis_para2": "Today's pre-market strength suggests a continuation of the recent upside momentum. Traders should monitor the S&P 500's ability to hold above its opening print, with a clear focus on the Nasdaq 100 which is leading the charge. A strong close above the prior day's high would confirm bullish sentiment. Conversely, any sustained pullback to yesterday's closing levels without a quick rebound could signal temporary exhaustion, warranting a defensive posture. The emphasis remains on identifying and participating in high relative strength (RS) names in leading sectors exhibiting follow-through.",
+    "technical_signal": "No reversal pattern confirmed yet. Current market action indicates ongoing strength and bullish continuation.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "ARM (RS=97, 1M=+72.2%) leads the tech-driven momentum market with outstanding performance."
+        "reason": "ARM exhibits exceptional momentum with RS 97, a robust +72.2% 1-month gain, and +229.0% 3-month gain, making it a leading play in the strong Semiconductors theme."
       },
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
-        "grade": "A",
-        "reason": "DELL (RS=97, 1M=+62.2%) is a strong hardware play, demonstrating leadership in the current growth environment."
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
+        "grade": "A+",
+        "reason": "VSH demonstrates outstanding strength with RS 98, a +54.2% 1-month return, and an impressive +244.6% 3-month return, positioning it as a top semiconductor performer."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "UMAC (RS=97, 1M=+63.2%) shows a significantly lower 3-month return (+19.8%) and high ADR, suggesting increased risk and potential for whipsaw in this momentum-driven regime."
+        "reason": "Despite a strong +63.2% 1-month gain, UMAC's comparatively weak +19.8% 3-month return and very high 14.7% ADR suggest potential volatility and a lack of sustained momentum relative to peers."
       }
     ]
   }
