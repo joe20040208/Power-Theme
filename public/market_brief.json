@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 15, 2026 (18:30 EDT)",
+  "generated_at": "June 15, 2026 (19:14 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "label": "VIX",
-      "price": 16.2,
-      "change": -1.48,
+      "price": 17.68,
+      "change": -1.76,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10430.62,
-      "change_pct": -0.39
+      "price": 10471.7,
+      "change_pct": 1.63
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Strong Risk-On / Tech-Led Rally",
+  "mood": "Broad Rally / Tech-Led Momentum",
   "analysis": {
-    "action_line": "VIX 16.20 Normal + S5FI 63.3% strong breadth + Nikkei 225 surging → favor high RS growth leaders aggressively near support.",
-    "analysis_para1": "Global equity markets showcased a bifurcated but generally bullish day, with the Nikkei 225 surging +2.81% and the DAX gaining +1.76%, while the FTSE 100 lagged with a -0.39% dip. This strong performance in major Asian and European benchmarks signals a renewed appetite for risk assets, echoing the stable 10Y Yield at 4.47% in the US. Domestically, market breadth remains healthy, indicated by 63.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 66.9% above their 200-day moving average (MMTH), suggesting broad underlying participation in today’s rally.",
-    "analysis_para2": "The mechanical plan dictates monitoring key support levels for continued upward momentum, particularly for the Nasdaq 100 after its impressive +3.06% daily gain, now sitting at 30543.92. With the S&P 500 closing at 7554.29 (+1.65%), the immediate focus should be on how these indices hold above their 10-day or 21-day exponential moving averages, which will serve as tactical buy points. The VIX remaining at a normal 16.20 suggests low volatility and a constructive environment for taking directional bets. Look for leading groups, specifically Semiconductors and Hardware, to maintain their momentum and provide clear entries on minor pullbacks.",
-    "technical_signal": "No reversal pattern confirmed yet. The strong daily gains in major indices suggest continued bullish momentum and a market that is absorbing any selling pressure.",
+    "action_line": "VIX 17.68 Normal + S5FI 63.3% breadth + Nikkei +2.81% → trade RS leaders aggressively on strength.",
+    "analysis_para1": "Global equity markets surged today, with the Nikkei 225 gaining +2.81%, the DAX +1.76%, and the FTSE 100 +1.63%, setting a decidedly positive tone for the session. This strong global sentiment translated directly to US markets, where the 10Y Yield remained stable at 4.47%, suggesting no immediate credit concerns despite the BAML HY Spread being an unknown regime. US market breadth confirmed widespread participation, with 63.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 66.9% above their 200-day moving average (MMTH). This indicates a broad-based move rather than a narrow rally confined to a few names.",
+    "analysis_para2": "The significant gains in the Nasdaq 100 (+3.06%) and S&P 500 (+1.65%) underscore a clear bullish trend, with momentum favoring growth and technology sectors. Traders should continue to monitor key resistance levels for these indices, looking for sustained closes above recent highs to confirm continuation of the rally. The VIX remaining normal at 17.68 suggests low immediate volatility concerns, creating a favorable environment for sustained upside. The mechanical plan involves identifying and acting on breakouts in high relative strength (RS) names, particularly those showing strong 1-month and 3-month performance within the leading Hardware and Semiconductors themes. Maintain stop-losses and respect market structure as price action develops.",
+    "technical_signal": "No reversal pattern confirmed yet. The market displayed strong upside momentum, particularly in growth sectors, without any signs of exhaustion or distribution.",
     "ticker_intel": [
-      {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "This semiconductor leader boasts exceptional RS 98, a compelling +67.7% 1-month return, and a staggering +266.6% 3-month gain, making it a top conviction long in the current tech-led regime."
-      },
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
-        "grade": "A",
-        "reason": "With an RS 98, a sector-leading +69.2% 1-month return, and a robust +237.3% 3-month performance, Marvell Technology demonstrates potent leadership within the highly favored semiconductor theme."
+        "grade": "A+",
+        "reason": "Marvell Technology is an A+ conviction long, demonstrating superior relative strength (RS=98) and an explosive 1-month return of +69.2%, indicating dominant leadership in the current tech-led rally."
       },
       {
-        "ticker": "FORM",
-        "company": "FormFactor, Inc.",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
+        "grade": "A",
+        "reason": "Vishay Intertechnology is a strong A-grade long, boasting exceptional relative strength (RS=98) and a robust 1-month gain of +67.7%, positioning it as a core beneficiary of the semiconductor sector's momentum."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
         "grade": "C",
-        "reason": "Despite an RS 97 and a respectable +19.2% 1-month return, its +68.9% 3-month gain comparatively lags the hyper-growth leaders in the semiconductor sector, indicating it's not the strongest play in a selective bullish environment."
+        "reason": "Intel Corporation is a C-grade avoid due to its comparatively weak 1-month return of +10.3% despite a high RS, suggesting relative underperformance and lagging participation within the currently strong semiconductor theme."
       }
     ]
   }
