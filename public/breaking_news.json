@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (23:35 EST)",
+  "last_checked": "June 14, 2026 (23:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "SoftBank surges more than 12% as Iran-U.S. peace deal sends Asia stocks soaring",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T23:40:32.116249-04:00",
+      "pub_time": "2026-06-14T23:26:36-04:00"
+    },
     {
       "headline": "U.S. and Iran reach peace deal to end the Mideast war, with agreement set to be signed Friday",
       "source": "CNBC",
@@ -44,10 +52,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "foreign investors have dumped billions of dollars of korean stocks this year despite record rally h",
-      "ts": "2026-06-08T03:40:22.402704+00:00"
-    },
     {
       "k": "asia tech stocks extend selloff with softbank dropping 6 as investors sour on ailinked names",
       "ts": "2026-06-08T07:10:27.196085+00:00"
@@ -1463,6 +1467,10 @@
     {
       "k": "us and iran reach peace deal to end the mideast war with agreement set to be signed friday",
       "ts": "2026-06-15T02:10:28.545171+00:00"
+    },
+    {
+      "k": "softbank surges more than 12 as iranus peace deal sends asia stocks soaring",
+      "ts": "2026-06-15T03:40:32.842064+00:00"
     }
   ]
 }
