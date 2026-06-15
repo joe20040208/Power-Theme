@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 15, 2026 (12:45 EST)",
+  "last_checked": "June 15, 2026 (12:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Oil tumbles on US-Iran deal framework: How one trader is playing the move",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-15T12:50:33.412362-04:00",
+      "pub_time": "2026-06-15T12:38:34-04:00"
+    },
     {
       "headline": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-15T02:25:32.590871-04:00",
       "pub_time": "2026-06-15T02:17:03-04:00"
-    },
-    {
-      "headline": "Trump says France must scrap tech 'sales tax' or face 100% wine tariffs: NY Post",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-15T01:45:30.746808-04:00",
-      "pub_time": "2026-06-15T01:40:28-04:00"
     }
   ],
   "seen_keys": [
@@ -1479,6 +1479,10 @@
     {
       "k": "spacex ipo leaves retail investors with too few shares and a tough holdorsell decision",
       "ts": "2026-06-15T16:45:39.349942+00:00"
+    },
+    {
+      "k": "oil tumbles on usiran deal framework how one trader is playing the move",
+      "ts": "2026-06-15T16:50:34.032585+00:00"
     }
   ]
 }
