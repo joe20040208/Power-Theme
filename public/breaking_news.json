@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 14, 2026 (20:55 EST)",
+  "last_checked": "June 14, 2026 (21:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-14T21:00:36.465193-04:00",
+      "pub_time": "2026-06-14T20:57:12-04:00"
+    },
     {
       "headline": "Trump heads to G7 summit in France after reaching deal to end war with Iran",
       "source": "CNBC",
@@ -44,10 +52,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "oil prices rise after iran fires missiles at israel escalating regional tensions",
-      "ts": "2026-06-08T01:00:26.337123+00:00"
-    },
     {
       "k": "why ai hyperscalers are now the epicenter of a bear case for stocks",
       "ts": "2026-06-08T01:10:24.559691+00:00"
@@ -1475,6 +1479,10 @@
     {
       "k": "trump heads to g7 summit in france after reaching deal to end war with iran",
       "ts": "2026-06-14T22:35:23.066172+00:00"
+    },
+    {
+      "k": "world leaders welcome usiran deal as europe signals sanctions relief urges hormuz reopening",
+      "ts": "2026-06-15T01:00:36.988119+00:00"
     }
   ]
 }
