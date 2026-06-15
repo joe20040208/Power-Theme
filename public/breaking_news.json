@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 15, 2026 (17:30 EST)",
+  "last_checked": "June 15, 2026 (17:53 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] The Iran deal came just in time as Strategic Petroleum Reserve hits lowest level since 1983",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-15T17:53:40.165278-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
@@ -1447,6 +1455,10 @@
     {
       "k": "centene to offer buyouts to some employees as health insurer cuts costs",
       "ts": "2026-06-15T21:20:41.169566+00:00"
+    },
+    {
+      "k": "the iran deal came just in time as strategic petroleum reserve hits lowest level since 1983",
+      "ts": "2026-06-15T21:53:40.581870+00:00"
     }
   ]
 }
