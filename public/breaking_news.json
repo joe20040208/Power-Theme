@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 15, 2026 (05:00 EST)",
+  "last_checked": "June 15, 2026 (05:05 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -44,10 +44,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "oil prices spike over 4 as iran and israel trade strikes",
-      "ts": "2026-06-08T09:00:41.415658+00:00"
-    },
     {
       "k": "bidding war erupts for world’s oldest bank as italy’s intesa gatecrashes bpm offer",
       "ts": "2026-06-08T09:15:28.801254+00:00"
@@ -1483,6 +1479,10 @@
     {
       "k": "spacex gains 6 in premarket after record debut",
       "ts": "2026-06-15T08:20:31.202046+00:00"
+    },
+    {
+      "k": "us crude drops below 80 for the first time since march as iran deal is set to open hormuz strait",
+      "ts": "2026-06-15T09:05:25.697694+00:00"
     }
   ]
 }
