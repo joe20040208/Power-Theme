@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 15, 2026 (06:35 EST)",
+  "last_checked": "June 15, 2026 (06:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-15T06:40:32.544664-04:00",
+      "pub_time": "2026-06-15T06:15:39-04:00"
+    },
     {
       "headline": "[CNBC] SoftBank surges more than 10% as Iran-U.S. deal sends Asia stocks soaring",
       "source": "CNBC",
@@ -1475,6 +1483,10 @@
     {
       "k": "sen warren asks trump if administration plans to raise social security retirement age",
       "ts": "2026-06-15T09:25:26.261778+00:00"
+    },
+    {
+      "k": "treasury yields slide as iran deal drives rethink on fed interest rate hikes",
+      "ts": "2026-06-15T10:40:33.198715+00:00"
     }
   ]
 }
