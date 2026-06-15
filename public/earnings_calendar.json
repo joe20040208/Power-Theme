@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T21:48:49.057303+00:00",
+  "generated_at": "2026-06-15T12:15:20.386737+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -8,16 +8,16 @@
       "company": "Jabil Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 40599519771.0,
-      "eps_estimate": 3.1,
+      "eps_estimate": 3.12,
       "eps_act": 2.69,
       "eps_surp_pct": 6.2,
-      "rev_est": 8609883830.0,
+      "rev_est": 8660883830.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 384.82,
-      "avg_volume": 1210865,
+      "avg_volume": 1205631,
       "adr_pct": 4.3,
-      "dollar_volume": 465965069.0
+      "dollar_volume": 463950921.0
     },
     {
       "date": "2026-06-17",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 51.26,
-      "avg_volume": 3235407,
+      "avg_volume": 3250492,
       "adr_pct": 4.7,
-      "dollar_volume": 165846963.0
+      "dollar_volume": 166620220.0
     },
     {
       "date": "2026-06-18",
@@ -49,9 +49,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 170.28,
-      "avg_volume": 6140712,
+      "avg_volume": 6093667,
       "adr_pct": 3.9,
-      "dollar_volume": 1045640439.0
+      "dollar_volume": 1037629617.0
     },
     {
       "date": "2026-06-18",
@@ -66,9 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.71,
-      "avg_volume": 6102623,
+      "avg_volume": 6031039,
       "adr_pct": 2.3,
-      "dollar_volume": 394900734.0
+      "dollar_volume": 390268534.0
     }
   ]
 }

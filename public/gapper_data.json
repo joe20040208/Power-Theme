@@ -1,72 +1,57 @@
 {
-  "scan_time": "2026-06-12 08:07 ET",
+  "scan_time": "2026-06-15 08:07 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "SHAZ",
-      "price": 71.51,
-      "gap_pct": 17.44,
-      "pm_volume": 269915,
-      "avg_vol_10d": 649243,
-      "avg_dollar_vol": 46427367,
-      "mkt_cap": 1187692627,
-      "rvol": 1.26,
-      "adr_pct": 12.7,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "Sharon AI secured a **$4.88 billion** AI compute collaboration with **NVIDIA**, signaling a significant new revenue stream and strategic partnership.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
+      "ticker": "TRIP",
+      "price": 12.41,
+      "gap_pct": 14.5,
+      "pm_volume": 398542,
+      "avg_vol_10d": 4275333,
+      "avg_dollar_vol": 53056883,
+      "mkt_cap": 1444042171,
+      "rvol": 2.37,
+      "adr_pct": 5.03,
+      "category": "Government Policy",
+      "theme": "Sector Sympathy",
+      "reasoning": "Moving in sympathy with the broader travel sector following the US-Iran peace deal.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 61,
       "grade": "C",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: Sharon AI announced a **$4.88 billion** AI compute collaboration with **NVIDIA** to deploy **40,000 GPUs** in Australia. | Impact: This massive partnership de-risks future growth, provides a substantial revenue pipeline, and **validates** Sharon AI's position in the high-demand AI infrastructure space.",
-      "analysis_details": "• **Impact**\nSharon AI has secured a **transformative $4.88 billion contract** with **NVIDIA** for AI compute resources. This collaboration involves the deployment of **40,000 GPUs** in Australia, establishing a substantial and long-term revenue stream for Sharon AI. The news immediately propelled the stock **up 25%**, reflecting the market's positive reaction to this significant financial commitment.\n\n• **Strategic Value**\nPartnering with **NVIDIA**, a market leader in AI hardware, offers immense strategic validation and access to cutting-edge technology. This deal not only solidifies Sharon AI's position in the competitive AI landscape but also likely opens doors for further high-profile collaborations and expands its global footprint, particularly in the Australian market. The conversion of **$97.5M in notes to 7.6M shares** indicates a recent capital restructuring, which, while potentially dilutive, is overshadowed by the positive news.",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: The US-Iran peace deal, announced on 2026-06-15, has sparked optimism across travel-related shares, leading to gains of up to 7% for some companies. This geopolitical development is seen as potentially reducing regional instability and opening avenues for increased global travel. | Impact: This news provides a **sector-wide tailwind**, boosting sentiment for online travel agencies like Tripadvisor by potentially **increasing consumer confidence** in international travel and **driving future booking volumes**.",
+      "analysis_details": "• **The Policy**\nThe announced US-Iran peace deal represents a significant geopolitical de-escalation, signaling improved stability in a key global region. Such developments inherently foster a more favorable environment for international commerce and tourism.\n\n• **Direct Impact**\nFor the global travel sector, including Tripadvisor, this news acts as a **strong positive catalyst**. Reduced geopolitical risks are expected to **increase consumer confidence** in booking international travel, potentially leading to **higher booking volumes** and **increased travel advertising spend**. While not company-specific, it creates a robust **sector-wide tailwind** that could drive sustained momentum.",
       "peer_tickers": [
-        "SMCI",
-        "DELL",
-        "ANET"
+        "BKNG",
+        "EXPE",
+        "ABNB"
       ],
       "headlines": [
         {
-          "title": "Sharon AI (NASDAQ: SHAZ) signs $4.88B NVIDIA AI compute collaboration - Stock Titan",
+          "title": "SpiceJet, Yatra, other travel-related shares gain up to 7% on US-Iran peace deal - Moneycontrol.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1JlMnpoZGFHVUtCemFoN0dZQWtFYjJXMmdJZE1fVExKYUViemhTSTI4SHlzOEhXWVdpT1daTGozYnNxY0pWMnJPUmZzNldZYlp2Um1HRGlNSHd5X0p2cFJlemFsRjBudV9RcDRFQTNoOWhnSTVyeFB3R3llYmgyY0ZlaXdxdHhoMWVZLUY1dWd1YVc1LWNqbjBzcGNpWmdQWHl6eHZHT3RnNEtENm9Fdw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc1RSTk9ybS01LWZRWjE2MFR0bG9CcmpxSFV3Q2RURzlFTmpGckZBakRwLTJKOWxfY0VZLVlFbndoU2c5NlJ0eFp5ZHJJV3dPQllMMWZRZzFBZmRuT01ham1DSlYxcUVRR2tKREtWS29QTjZFMm1WRGxIX1ZwX0ZpOEhiaU4xeDdSN2JLYVFGaGh3b1J0UHFXa0tXeF9HRUgySjBrZWJkMzg5WUZRMUFLZG5mZ1FMcnIxcTBJbmxLY3VwTkpqR1RiMnRvZkJaa0hIRXh1SVRHRWM4RU9PTlRz0gHfAUFVX3lxTE9zVFJOT3JtLTUtZlFaMTYwVHRsb0JyanFIVXdDZFRHOUVOakZyRkFqRHAtMko5bF9jRVktWUVud2hTZzk2UnR4WnlkcklXd09CWUwxZlFnMUFmZG5PTWFqbUNKVjFxRVFHa0pES1ZLb1BONkUybVZEbEhfVnBfRmk4SGJpTjF4N1I3YkthUUZoaHdvUnRQcVdrS1d4X0dFSDJKMGtlYmQzODlZRlExQUtkbmZnUUxycjFxMElubEtjdXBOSmpHVGIydG9mQlprSEhFeHVJVEdFYzhFT09OVHM?oc=5"
         },
         {
-          "title": "Inside Sharon AI and NVIDIA's plan for 40,000 GPUs in Australia - Stock Titan",
+          "title": "Tripadvisor (TRIP) Stock Valuation Gap Explored After Recent Rebound - simplywall.st",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVlp5eXlFUzZVVjFwQUxPd2JVUDVZYTY1djdJdFpRRlhpa096dVVWVHFfNXFUTkRqTUV4RTZzczVtZ0d0Qk9lUjNoT1B5NDFvVkdqODFPYUx1VE9YdVZRWkxmempZRGItQ3RvdmdjU0REZGswZENfcEtmYlpLUWRFaGZBT3dFcmlxQjJDdVBDQWFwQmxseHpfdXVSWmZ4NGhpRjNCMXkzd3ZjcWN4Z01WajFlTjByaFdQOHRhVA?oc=5"
-        },
-        {
-          "title": "Sharon AI stock surges 25% on Nvidia compute deal By Investing.com - Investing.com Australia",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmxwZGtPRlBfTUpBRGRWbXpMdGhTWUtJLUJPSFNsRVZNR252S2tQbG81cm9FVXFQTnFsZDNVOG5kOHlGcTh1WHBrdHk1Z0JwaXctTjFJSHZOWjBELUZhekFBMm90N1NuYUcwck9KaW5GNDZ5Um1LRHl4R3BmNEkyT29JcDlZMGZ2ZUhhTEowRWJLVGZlREtPZng1WlY0MFp3NHhwMXdHVDJKeXJFYlE?oc=5"
-        },
-        {
-          "title": "SharonAI Holdings (NASDAQ: SHAZ) turns $97,475,184 in notes into 7.6M shares - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTXh6YzdKLWlZUmNMYU5ITjNxX2Vjb01CeFdDbTdrUmhFNDJRSnluTmdqS2t5cUo4RHJYVmNXekZMaDVHQ2VKZGlMWVVSMmZKTmNKeTV6WkFGQnNmYTMybVBHNk9pY0phQ012TklRZ3BHMllLdU4zT1djUGx4V1o3bDdwQmtGaDhDV1MwSTJETkhqN0Z0aldvOGt3TDlrVzd4NnRGUDcxYXU1TVhrdmxBaw?oc=5"
-        },
-        {
-          "title": "[EFFECT] SharonAI Holdings Inc. SEC Filing - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRVVRc1hQc0J1V09sR00zVURQcnFoZGp6TlNhOGNZVFRSMzVZcU53V1UtY2k2LUNZSUFQREdJQy1XZ1kyRmhuVi0xM1k5M0ZLb0xiWnNsWHFDTENrbmsxczE4ZWpZT21ZX0Z3Zm9JaHhzTkJrUXVvSWgxdVpSTEEtVUpHbUhjSnRUUXZRVkdZWTBqMkZRNnp1VFNXZk92VEV5Y0JVRg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbUcxUi14bmMzVFVnRTFUNlFqc1UyRi05SjBxSDNZWEUtSFNjeTdodjJyU3hPUTRYQm1LemFIeERidWJaRzhHYXIyN1RQbGV5b19TWGxxbnVGd2o2OFFrS0U5WUs2LVJBa2NTUVNKOC1qcDJXMElyekVzdXlFVzhqcVJVWVVtUkZXekN2MUc4blg4aXNQZ1E0T204cTZWRWFJRTFuRDNkdW1uS1pTZjA3MUxlSUY3MHowNi1SaHpjV0gwTFgtT3fSAcsBQVVfeXFMTmR4WDdMUExDNm5mVzdiRDdPYmN5Snc3akNwZ2Z4emZ3NzVtSzNkRjJNdlJVM2FFZkJxcmhNd2I5d3N6ZWU3TnRYVWFsY0RfN1VWRTIxVmc0X3MyVEVJTW5Fek5ZaUc4bXlqQzJ4VnVxRGZtck1LQnlmU0loWkg5aFlmVTRrV0h2UmROQm1XNjNCQ2RRYzZaUHVzeVlzTTk5UGdGQ2U1YUh4LUdWSmtEXzhTZHNEWVh0Z3gzc3RzVmIzekFXTWtZQjQ5djg?oc=5"
         }
       ],
-      "float_shares": "11.42M",
-      "short_float": "5.54%",
-      "daily_pct": 13.71,
-      "industry": "AI Compute",
-      "technical_status": "Fail (Avg $Vol $46M < $100M)",
+      "float_shares": "100.32M",
+      "short_float": "33.04%",
+      "daily_pct": 4.2,
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $53M < $100M)",
       "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 70,
+        "status": "Unconfirmed",
+        "confidence_score": 60,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "$4.88 billion AI compute collaboration with NVIDIA",
-        "discrepancy_note": "Only Google News [5] explicitly confirms the $4.88 billion figure and the NVIDIA partnership. Finviz News provided no information to corroborate this claim."
+        "primary_claim": "US-Iran peace deal driving movement in the broader travel sector.",
+        "discrepancy_note": null
       },
       "gates_passed": 3,
       "gates_detail": {
@@ -81,70 +66,49 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "SATS",
-      "price": 128.13,
-      "gap_pct": 7.7,
-      "pm_volume": 872838,
-      "avg_vol_10d": 8441455,
-      "avg_dollar_vol": 1081603629,
-      "mkt_cap": 37133802684,
-      "rvol": 2.35,
-      "adr_pct": 6.69,
+      "ticker": "AXTI",
+      "price": 97.18,
+      "gap_pct": 13.15,
+      "pm_volume": 252549,
+      "avg_vol_10d": 8876319,
+      "avg_dollar_vol": 862600680,
+      "mkt_cap": 6357825357,
+      "rvol": 1.3,
+      "adr_pct": 14.83,
       "category": "Thematic Narratives",
-      "theme": "SpaceX IPO / Asset Revaluation",
-      "reasoning": "SATS rallied significantly as the market re-evaluated its stake in SpaceX following the announcement of SpaceX's historic IPO at $135 a share.",
+      "theme": "Tight Supply / Pricing Power",
+      "reasoning": "AXTI is benefiting from a supply crunch in the indium phosphide market, a critical material for its products, signaling potential for increased pricing power.",
       "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 61,
-      "grade": "A",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: EchoStar's (SATS) significant stake in SpaceX became a major focus for investors after SpaceX priced its historic IPO at **$135** a share, leading to a re-evaluation of SATS's intrinsic value. | Impact: The market is likely pricing in a substantial increase to SATS's net asset value, potentially de-risking future growth by leveraging its spectrum assets with strategic partners like SpaceX and AT&T.",
-      "analysis_details": "• **The Narrative**\nEchoStar (SATS) experienced its **best day this year**, surging following the news that SpaceX priced its historic IPO at **$135** a share. Investors are keenly focused on EchoStar's significant ownership stake in SpaceX, which is now being more accurately reflected in SATS's valuation. This move suggests a major re-rating of SATS's underlying assets and a fresh narrative around its strategic positioning in the booming space economy.\n\n• **Explosiveness**\nThe stock's **8.7%** rally on **2.4x** average volume indicates strong conviction from both institutional and sophisticated retail investors. The market is now recognizing the potential upside from SATS's strategic spectrum holdings and its direct and indirect ties to the burgeoning space sector, particularly through its valuable SpaceX investment and potential synergies with companies like AT&T.",
+      "conviction": 57,
+      "grade": "B",
+      "finviz_theme": "Semiconductors - Foundries",
+      "analysis_detail": "Catalyst: AXTI saw its stock **jump** following news of **tight supply** for indium phosphide, a critical compound semiconductor material used in its products. | Impact: This supply constraint could lead to **increased pricing power** for AXTI's indium phosphide substrates and potentially **higher demand** for available inventory, positively impacting revenue and margins.",
+      "analysis_details": "• **The Narrative**\nThe core narrative revolves around a **tight supply** in the indium phosphide (InP) market, a crucial component for advanced photonics, 5G, and data center applications. As a key producer of InP substrates, AXTI stands to directly benefit from this scarcity. This dynamic suggests potential for **increased average selling prices (ASPs)** and improved demand for their existing product lines, bolstering revenue and margin outlook.\n\n• **Explosiveness**\nThe stock's **jump before market open**, evidenced by a **Relative Volume of 1.3x** and a **high 20-day ADR% of 14.8%**, indicates significant speculative interest and volatility. While the fundamental catalyst is positive, the immediate price action is heavily driven by short-term supply-demand dynamics, making it a strong **momentum trade** with potential for rapid upward movement.",
       "peer_tickers": [
-        "RKLB",
-        "ASTS",
-        "RDW"
+        "VECO",
+        "COHR"
       ],
       "headlines": [
         {
-          "title": "EchoStar Spectrum Sales To SpaceX And AT&T Recast Growth And Valuation - simplywall.st",
+          "title": "AXTI jumps before market open on tight indium phosphide supply - TechStock²",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbzdVZTdSNnBfTWhldlVqaFRnZFhJZGszbVh1MW9MZG5jSkJOOVI5YlVLdkpDR1pkX2FPbXhTRlV1NERVc2FMZ1NaMFB6U2Z6YjBJZHlDOUh4TE5ocVVGdGNKLUZlR1hsQnhaWVBvS1dvdkZMNGlYOFBsZG13OVJ6SHJLNDhuMUpYczVvYW8zanc1ekRfVnNfWjQ2dXJRMVBfSlJuZDB6eWs1VUZSaWVSTVQ4M0xRN3pGQjAxNkR3T1XSAcYBQVVfeXFMUG1Bc1hkOGVybVppXy1sM3pVZDdBWVdkckR3N1RGUTFydHdudjJ0WGtFOWxhOHhDenI5ZzdGYVo3bEVmM005Qk5aVGRWdWF1SG5GVmZzUzNlcU9lLVVfWTItaWVxODRBZkdURVN1NW9LT2NnQ3lwam55V3oweXluV2pTVUJjZ05ONXJMTXFrZzJzS2Z2anMwR2oxdUpMdkt3bHB2WHdBN3haejE1c2VCUEN2VE9LN3pSN2FGN2pvejd3WncwcTdn?oc=5"
-        },
-        {
-          "title": "Is EchoStar Corp (SATS) Overvalued After 11.2% Rally? GF Value S - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0tHWXM1VjNURzZxWXM0U3RXRnNVMW1OZFRfcFRsTVpXdHNmanlfdE5lUk1iRlNzeVFJX041REtNa0hqSWtXZ2dOdDU3b3Q2WnBhVW9FYkhPdDBJN1dlWnpud0xTNkdsU3ZCWFpZR0FtemF0UnZoZHdNVUFTTEF4ZnJBal9wR2JqcDJ2NGdiNUlRNXRCWWJMVE5USlBQTmpSdkF6MzVOTmY4eG92YTVPdjVR?oc=5"
-        },
-        {
-          "title": "SATS Clocks Best Day This Year As EchoStar’s SpaceX Stake Takes Center Stage - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNWJIR0dlcDBnX2hqampjMXROZGlId1hyaDU5dk4tMS1jOU5KYXY4S3lkTk9TZ0NiRU5XZF9GR2lzeUJXQ29ZWjhVaVdyaVg5RkFEa2xkWk1nVVlVUkdoQUNtb0tGcUhaLWVLTm53VV9PdGdlSHlweUpzT2t0S2tENmtVZmdqTUFvdHh6cjdzWDktV1d2RzNTQWVZTktaUmtCWjY0NDlZN004ZjBPZnVsdVJpenlJeF93THZUMlNCeFVCLWc?oc=5"
-        },
-        {
-          "title": "ASTS, RKLB, RDW, SATS Jump As SpaceX Prices Historic IPO  Cloudflare CEO Weighs In On 'Perfect' 20% Pop Prediction",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/7cf1f310-8ed2-379d-a99c-7be0f466726e/asts%2C-rklb%2C-rdw%2C-sats-jump-as.html"
-        },
-        {
-          "title": "SATS Clocks Best Day This Year As EchoStars SpaceX Stake Takes Center Stage",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/5dcbe230-b35c-320f-a3c3-8aab76f7d204/sats-clocks-best-day-this.html"
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWpEaDFMM0d2NE9fcGFScGtwNGNwQzlLV3lxZzNMcmpiZXYxdGVQbFVmU2tQb011Y2VvSHZYTzBTLXRpR0ZRY1lPSkFnb3lJazk5MFI3d1IwWVltbm9KMXk2TGVlRUdmNVhuVmlMeDAzSU93OFVzR0lVamRZNmhLVHNObUg0RFNPTVNJ?oc=5"
         }
       ],
-      "float_shares": "132.96M",
-      "short_float": "30.89%",
-      "daily_pct": 11.19,
-      "industry": "Space",
+      "float_shares": "62.66M",
+      "short_float": "11.65%",
+      "daily_pct": 10.01,
+      "industry": "Semiconductors - Foundries",
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 90,
+        "confidence_score": 70,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "SpaceX's historic IPO at $135 a share",
-        "discrepancy_note": "Finviz Source A[3] mentions SpaceX pricing its IPO at $135 a share. However, none of the Google News sources (Source B) provide this specific IPO price to confirm."
+        "primary_claim": "AXTI is benefiting from a supply crunch in the indium phosphide market",
+        "discrepancy_note": "Source B (Google News) mentions 'AXTI jumps before market open on tight indium phosphide supply', which confirms the core claim. However, Source A (Finviz News) provides no information regarding this claim."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -159,66 +123,119 @@
       "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "TE",
-      "price": 8.47,
-      "gap_pct": 6.26,
-      "pm_volume": 771688,
-      "avg_vol_10d": 38939266,
-      "avg_dollar_vol": 329815583,
-      "mkt_cap": 2365428512,
-      "rvol": 1.17,
-      "adr_pct": 14.22,
+      "ticker": "WOLF",
+      "price": 43.14,
+      "gap_pct": 12.38,
+      "pm_volume": 328805,
+      "avg_vol_10d": 7977460,
+      "avg_dollar_vol": 344147624,
+      "mkt_cap": 2085347917,
+      "rvol": 0.8,
+      "adr_pct": 16.33,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakdown or institutional selling pressure.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Semiconductors - Compute",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests potential technical breakdown or institutional selling. High risk of further decline without fundamental backing.",
+      "analysis_details": "• **What Happened**\nBased on the Stocktwits headline, WOLF stock is **sliding premarket** today, 2026-06-15. With no identifiable fundamental news related to Cree, Inc. (WOLF) in the last 24 hours, this suggests a **technical breakdown** or **institutional selling pressure**. The news headline simply observes the movement without providing a cause, indicating an **unknown catalyst**.\n\n• **Key Consideration**\nThe absence of a specific fundamental catalyst makes this premarket move highly speculative and increases the risk of further volatility. Traders should **exercise caution** as the downward pressure without fundamental backing could indicate a **stop-running event** or **unwinding of previous positions**. The average daily volume of **$344M** and an ADR of **16.3%** highlight the stock's high liquidity and inherent volatility, making it susceptible to rapid shifts in sentiment.",
+      "peer_tickers": [
+        "ON",
+        "MCHP",
+        "STM"
+      ],
+      "headlines": [
+        {
+          "title": "HARTFORD’S LONE WOLF APPROACH BRISTOL WIN PUTS PRO STOCK ON NOTICE - Competition Plus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVzduOTNSOW5RbTB2dzFjc1otYVFDU3IxdGFTd0NYVFptb3d6WWp0SENjUm04Sm9zSXpwZ2lSekxwX1lOVEtvZTZ5cEhRZEZvQ3phVDhTbGNWZTJLelhWVDNDeWsxcmZQVWpNMHdXbmJJRHhyRjI1cjB4MFpETGVJMkpiUnZnNWdIV3lHZC1FdWFLVU1vVF9kWUtB?oc=5"
+        },
+        {
+          "title": "Why Is WOLF Stock Sliding Premarket? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeE9aVldOQnBybktBNnhoNjEwNk01OWdIcGpxaGpkU0dPbWZkeGlCSGdzVXJkRmxUQThzY0NZSURoNUZSNXhZRlVka2FaYmRQX25vRkk4ZW9HSUhCclhKX0RMNVlrd1NkXy1SMTcwS0pPcDd5TFFSbklObEhGcmpzc2VEbWE5YUszc3l3NXc3S0RZRmNrZW5TWUNBYmNtZUg0?oc=5"
+        }
+      ],
+      "float_shares": "30.05M",
+      "short_float": "87.75%",
+      "daily_pct": -5.27,
+      "industry": "Semiconductors - Compute",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found; likely technical breakdown or institutional selling pressure.",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "SBSW",
+      "price": 9.86,
+      "gap_pct": 11.26,
+      "pm_volume": 294385,
+      "avg_vol_10d": 5468087,
+      "avg_dollar_vol": 53915338,
+      "mkt_cap": 6882410880,
+      "rvol": 1.07,
+      "adr_pct": 4.28,
       "category": "Others",
       "theme": "Technical / Flow",
       "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 57,
       "grade": "C",
-      "finviz_theme": "Semiconductors - Analog",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nBased on the available headlines, there is no specific fundamental news directly related to TE Connectivity PLC that would explain a significant momentum move today. The MarketWatch headline from yesterday noted the stock **underperformed** competitors despite daily gains on Thursday, indicating mixed sentiment even for past performance. Without any clear catalyst, any substantial price action is likely driven by non-fundamental factors.\n\n• **Key Consideration**\nThe lack of a discernible fundamental catalyst implies that any recent price movement could be due to **technical factors**, such as short covering, stop-loss triggers, or algorithmic trading based on chart patterns. This increases the **risk** of volatility and potential reversals, as the move lacks the solid backing of business developments. Investors should exercise caution, as these types of moves can be **ephemeral** and prone to \"gap and trap\" scenarios without underlying support.",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown. The TipRanks article discusses a fading rally, not a new fundamental event. | Impact: Speculative. The lack of specific news suggests price action is driven by technical factors or market sentiment.",
+      "analysis_details": "• **What Happened**\nThe provided news headline from TipRanks on June 15, 2026, observes that Sibanye-Stillwater's recent **'hot rally is suddenly fading.'** This is an **observation** of price action, not a direct fundamental catalyst initiating a new move. There is no specific company news (e.g., earnings, contracts, analyst actions) reported in the last 24 hours that would explain a significant fundamental shift.\n\n• **Key Consideration**\nWithout any new fundamental drivers, any significant price movement for SBSW is likely attributable to technical trading patterns, short-term institutional flow, or broader sector sentiment. The absence of a specific catalyst increases the risk of volatility driven by non-fundamental factors, making the current price action potentially **speculative** and less predictable from a momentum perspective.",
       "peer_tickers": [
-        "AVGO",
-        "ADI",
-        "TXN"
+        "NEM",
+        "FCX",
+        "RIO"
       ],
       "headlines": [
         {
-          "title": "CVS Health Corporation $CVS Shares Sold by Te Ahumairangi Investment Management Ltd - MarketBeat",
+          "title": "Why Sibanye-Stillwater’s Hot Rally Is Suddenly Fading - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMWxtbUZhYTVmdktjUjhoVUlpWjhDRmQwTjJEQVNYQUhfT19iSk1tRjB1eDVjdHcxYkZoWUVvWEpWMzUtdjRPQmQ5NlJIMUlFdEZzQUhJczhhVzAtUGE4M0hVcUU5Vkx5UWxHWG1MaG5HdHVqNFNKLWFFZnB4Vko5YkZMdF9DOTA0VE1JREVOV1JZeDJpeDJxakd1OVBqQW1BcTc5TUVhZkZHY2ZwVWdpWThKQlFCQzJqblZaZFM1Yjh5c0hVa2VndHNwR3Z6cld2RUwzOTgxSm9kbmc?oc=5"
-        },
-        {
-          "title": "TE Connectivity PLC stock underperforms Thursday when compared to competitors despite daily gains - MarketWatch",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNLUNnM091TUl2Mzg0OENMZU5BOVY1TkFvLVJNUkE1a2tvenBDWGc3akxFTm9pRWxiRWtSamZmZTdQMTFXZmJzODd5SDh5MEF4bmw1TFIxcTN4VEZEaW1XT3VZYjRRcmFGR1FtUk9aczlkZHdEUXdtdkd0UXlIbFF4QjJ5X0pjRDBSZG93ck5jbGRyeWZNdVB4bmZXOEFxNkp0ZVZRNGstenR3ZEZIUEFwVFpBdjc4M200a0Y4NXFEZ25QZXpuTnVaYU5qa3ZlM284QWZoUmc4WnhiczZnRzlaSzlvVkJiOHdlM3pPaXE3UWFldjcwMmdlTkZveTBCS1dUX2M5WXhn?oc=5"
-        },
-        {
-          "title": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTERydnp1c3M5X3YwX0ZzQXRVTlR4LTN1QW1SUmN1QVBTeTVMWU1LTTBKMlZFcnhwUWc2LUJoZGRZeHBUMklhUEtwZlRabHE1clBwdkJTZ1VhelFuUm94MDUxX0Vpcy1wZGhKRk1TM2FsVzZWZ2dhRUtvLUVwWkpaMG1rRGNYQzQzSW1UcG1MMGc4UTZNYk5xZg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbE9PY29FR0ZuY05iVWhEWHJDMkp4ZDJOUGJFMENXbVhVNzhteVU1aTdFVjJ1NWdzUzJidVUxVWlZVElkVlhTTjI5LUZnLWNqN2dlTzVlNUJyM09lOWtqeXdQdTVBMG5ueU0xS1JnTGIxb3dnTVlGZHdQTjZTd2Q5THlQYng1WkNSajh5TmswTVVYWk5sQlE?oc=5"
         }
       ],
-      "float_shares": "227.03M",
-      "short_float": "18.36%",
-      "daily_pct": 9.57,
-      "industry": "Semiconductors - Analog",
-      "technical_status": "Pass",
+      "float_shares": "707.64M",
+      "short_float": "1.41%",
+      "daily_pct": 1.23,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (Avg $Vol $54M < $100M)",
       "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
+        "status": "Unconfirmed",
+        "confidence_score": 50,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "No immediate fundamental catalyst found for TE.",
+        "primary_claim": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
         "discrepancy_note": null
       },
-      "gates_passed": 4,
+      "gates_passed": 3,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": false,
-        "gate_dollar_vol": true,
+        "gate_dollar_vol": false,
         "gate_mkt_cap": true,
         "gate_adr": true
       },
@@ -227,76 +244,47 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "SMR",
-      "price": 9.57,
-      "gap_pct": 6.16,
-      "pm_volume": 1456239,
-      "avg_vol_10d": 41018355,
-      "avg_dollar_vol": 392545657,
-      "mkt_cap": 3497654445,
-      "rvol": 0.83,
-      "adr_pct": 8.9,
-      "category": "Thematic Narratives",
-      "theme": "AI Power Hype Reality Check",
-      "reasoning": "Stock **declined** **20%** as market sentiment shifted ahead of Q4 earnings, re-evaluating the 'AI Power Hype' narrative's impact on SMR.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 56,
+      "ticker": "ITRG",
+      "price": 2.52,
+      "gap_pct": 10.95,
+      "pm_volume": 160872,
+      "avg_vol_10d": 3330114,
+      "avg_dollar_vol": 8391887,
+      "mkt_cap": 509674186,
+      "rvol": 0.75,
+      "adr_pct": 5.48,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
       "grade": "C",
-      "finviz_theme": "Clean Energy - Nuclear",
-      "analysis_detail": "Catalyst: Market sentiment shifted on NuScale (SMR) as a 'reality check' occurred regarding the 'AI Power Hype' and its direct impact on SMR's future earnings, especially ahead of the upcoming Q4 report. This re-evaluation led to a significant **20% decline** in the stock price. | Impact: The move signals a de-rating of future growth expectations tied to AI-driven energy demand, increasing volatility and short-term downside risk until concrete Q4 earnings data provides clarity.",
-      "analysis_details": "• **The Narrative**\nSMR stock experienced a **significant decline** of **20%** as the market initiated a \"reality check\" on the \"AI Power Hype\" narrative. This re-evaluation directly impacted investor expectations for NuScale's upcoming Q4 earnings, leading to a pre-earnings sell-off. The immediate trigger appears to be a recalibration of how quickly and directly AI's power demand will translate into revenue for SMR developers.\n\n• **Explosiveness**\nThe **20% drop** ahead of earnings indicates strong negative sentiment and a rapid repricing of previous growth assumptions. Despite a positive article from Zacks highlighting NuScale's \"Behind-the-Meter Push,\" the prevailing sentiment focused on the broader industry's perceived overvaluation related to AI. This makes the stock highly **volatile** and susceptible to further swings based on actual Q4 results or evolving AI-energy demand outlooks.",
-      "peer_tickers": [
-        "XE",
-        "BWXT"
-      ],
-      "headlines": [
-        {
-          "title": "NuScale's Behind-the-Meter Push Targets the Grid Bottleneck - Zacks Investment Research",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaC1qenpnS2NZcDJobUhWb3lLMGpXaXQ0cmVrTDBxY0VicHJMZFdGNHVYOXpCNFA5VVNBZnRYZFhuMmhPc0xMYUVmYUE4LUxtSDBFS3VrY3lOMk9YZ1lsQXh0by0tVkxmcHJ1czA3RDAtVUtobzFfTnFHeFlmTVkwQ3RQT1p3ak1BNWV0WTg5cmRoN0Z6SGtReTlhZDhOM0x5?oc=5"
-        },
-        {
-          "title": "NuScale Power Stock Is Down 20%. Is It Finally Time to Buy? - AOL.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iaHcwUWxhNWpiY0Flb2ZQd0w2aHdCODFXU2RTX3B4SzEzS1hneXQ0V0JIYXR3WUdjQmlMcnJEWGJRVE5MZlJDYnRQOGRKUm5uU0w2SlkxN1pSdUp1Y2dWUU5QVVl5d1NBVXhwYjdmSXYwUDl0akp2X3U0OA?oc=5"
-        },
-        {
-          "title": "SMR Stock Slides As Long-Term Nuclear Story Builds - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTXh3M3JSa2VOTV9FaFJRNzJGc2ZrVlllQkZudXpUcTVZOGJscmdXR0gtYzhXZ1daSVRKNlNOUDZkZVFONVpwbXQ3YTdGQkh6NmM3YmRKT2Z2VUtFbzFEaS1LelBJZjJKME1lSm5FbmZ0ZFF1TW1uRzFQMFlJNEdYWWRmWVktckU?oc=5"
-        },
-        {
-          "title": "SMR Stock Falls Ahead Of Q4 Earnings: AI Power Hype Faces Reality Check - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVWU3TDF5NmpIc2xaclRUWGZtZ0F4YkVIZWVBMHFpRnhoVmJKNm0yMnZxU2FZOGcxWVM3SVN2MTctcHRfa3A1V2F4ajlkWFVWRDNIMHZ0V18wQTNSenV1Yk1LNnRjQXNQdkhNSXpLb2paMmlZZm9yQXQxZ1NiR2h1N1J3Z2JKQXIxMVBpc3hjX193OGxCaTIwUlhkSTVvS19uVHVjTUUyYlZHVkVRUmg5bjktYTNOXzN4S2Y3ZUZZWEItdjI4LXdzWkN5VQ?oc=5"
-        },
-        {
-          "title": "X-Energy: The Better SMR Bet But Not A Cheap Stock (NASDAQ:XE) - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNXRRYWxQSFdvZkZlSkVhQ1BkV25uQmNVenV2SllZdmg4N3A2ckQ3dFFrZnZEMndad19DRFFOcWxtX0p4b1gwRnZ4RXd5MkJsQzlqM0UycUVQbUF6eFJaZWpCbGx5aE5nNUJWemNvUmNJN0FKWURJakpaT2Fmemt4MU9FeDNVaXVxT19iQ2JObzl0cVBm?oc=5"
-        }
-      ],
-      "float_shares": "335.44M",
-      "short_float": "18.12%",
-      "daily_pct": 3.01,
-      "industry": "Clean Energy - Nuclear",
-      "technical_status": "Pass",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "185.12M",
+      "short_float": "1.07%",
+      "daily_pct": 2.86,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $8M < $100M)",
       "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 70,
+        "status": "Verified",
+        "confidence_score": 95,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Stock declined 20%",
-        "discrepancy_note": "Source A (Finviz News) has no information regarding the stock's percentage decline. Source B (Google News) article [1] confirms 'NuScale Power Stock Is Down 20%', but the lack of confirmation from Source A prevents a 'Verified' status."
+        "primary_claim": "No immediate fundamental catalyst found for ITRG",
+        "discrepancy_note": null
       },
-      "gates_passed": 4,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": true
       },
       "meets_all_gates": false,
@@ -304,60 +292,31 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "RKLB",
-      "price": 114.78,
-      "gap_pct": 5.61,
-      "pm_volume": 1330593,
-      "avg_vol_10d": 23583450,
-      "avg_dollar_vol": 2706908391,
-      "mkt_cap": 66442410103,
-      "rvol": 1.14,
-      "adr_pct": 8.28,
-      "category": "Institutional Buying",
-      "theme": "Index Inclusion",
-      "reasoning": "RKLB shares are rallying strongly after the announcement of its inclusion in the Nasdaq-100 index, guaranteeing significant passive institutional buying.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 57,
-      "grade": "A",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: Rocket Lab (RKLB) has been officially added to the Nasdaq-100 index, effective immediately. This significant development was announced through multiple financial news outlets. | Impact: The inclusion guarantees a substantial influx of institutional capital as index-tracking funds and ETFs are mandated to purchase RKLB shares, significantly **boosting** liquidity and market demand.",
-      "analysis_details": "• **The Buyer**\nThe announcement of Rocket Lab's inclusion in the prestigious Nasdaq-100 index will trigger a wave of forced buying from passive investment funds and ETFs that track the index. This institutional demand is expected to create **significant upward pressure** on the stock as these funds adjust their portfolios to reflect the new index composition, ensuring a **steady inflow** of capital into RKLB shares.\n\n• **Conviction Signal**\nNasdaq-100 inclusion is a strong validation of Rocket Lab's market position, growth trajectory, and liquidity. It enhances the company's profile, attracting further scrutiny and potential investment from active institutional investors who often view index inclusion as a **strong signal** of a company's increasing relevance and stability. This increased visibility and mandatory buying underpin a **positive momentum shift**.",
-      "peer_tickers": [
-        "ASTS",
-        "PL"
-      ],
-      "headlines": [
-        {
-          "title": "Stocks making the biggest moves premarket: Adobe, Rocket Lab, AMD, Carnival & more - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEVHZlJ1dGs5NDd3R0p4QzJxQXE4OFk1Q3Jiak55NHJYWXFpZDVvZXZ0M3dWZzJ4ZUlmbXdFRHJzQjRiZk5sWUJJZ2wwMzNCUkoyLWJVMU12bFdHMXg4T0NBaUk0cDU2dWp3Q3BsNGxiX1k1cmdDYWphbVpQMGwzdVF3cUJaaURqTWZTR0pHdlZ6cWJuRlVONDRqbzc?oc=5"
-        },
-        {
-          "title": "CRWV, NBIS, RKLB Shares Jump after Nasdaq Adds Stocks to Nasdaq-100 (NDX) - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQzhyUmh4T3RKTVMzc0RpZnFlZzlPc2c0QkhOcDMwR3lrV2U3aVh4X2stQXFtR1h4R0N6YWV2dUdOMXZkN0dzT2E0ZEY1UjB6UUtoYlBlOEluVEZmdjBjckJvZWp6OXlQNjRYa2JmNXBmTlhBT05XcnRVQzZJQU5DeHZGV3V4UFFlOGRmVGt3cjBsaUNzNGp2ekpsNWdDR3A5?oc=5"
-        },
-        {
-          "title": "RKLB Stock Rallies After Earning Nasdaq 100 Spot – SpaceX Could Be Next Under New Rules - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZkNwRmxKWGxGWG8yYmtoUlE5WFByVDhmejJkMWQ4alVDYlBXb3dRUGJFV3ZnWThHM3JhUEI4VEo5TURHRHpfX0JmY2VXMTEwYXluSjhIMzZFd1VsUXFNeVZxZHRRWmNlb0tIanhQYnpIUmo4elVtYTNZdF9TYjMtcGVXM0tIWS1xbEZpQzRaUXUyNndiY0NzZmJ1QVpPOVU?oc=5"
-        },
-        {
-          "title": "Why Are CRWV, NBIS Stocks Surging Over 7% In Overnight Trading?",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/a2c2b3cc-e756-3ad1-b7ff-984319247149/why-are-crwv%2C-nbis-stocks.html"
-        },
-        {
-          "title": "ASTS, RKLB, RDW, SATS Jump As SpaceX Prices Historic IPO  Cloudflare CEO Weighs In On 'Perfect' 20% Pop Prediction",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/7cf1f310-8ed2-379d-a99c-7be0f466726e/asts%2C-rklb%2C-rdw%2C-sats-jump-as.html"
-        }
-      ],
-      "float_shares": "566.26M",
-      "short_float": "5.59%",
-      "daily_pct": 9.26,
-      "industry": "Space",
-      "technical_status": "Pass",
+      "ticker": "HMY",
+      "price": 15.86,
+      "gap_pct": 10.09,
+      "pm_volume": 217676,
+      "avg_vol_10d": 4396016,
+      "avg_dollar_vol": 69720814,
+      "mkt_cap": 9896879292,
+      "rvol": 0.93,
+      "adr_pct": 3.97,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "624.74M",
+      "short_float": "1.62%",
+      "daily_pct": 4.27,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $70M < $100M, ADR 4.0% < 4%)",
       "verification": {
         "status": "Verified",
         "confidence_score": 100,
@@ -365,230 +324,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "RKLB's inclusion in the Nasdaq-100 index",
+        "primary_claim": "No immediate fundamental catalyst found",
         "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "NBIS",
-      "price": 222.24,
-      "gap_pct": 5.58,
-      "pm_volume": 232702,
-      "avg_vol_10d": 17310828,
-      "avg_dollar_vol": 3847158415,
-      "mkt_cap": 55926794518,
-      "rvol": 0.76,
-      "adr_pct": 9.79,
-      "category": "Institutional Buying",
-      "theme": "Nasdaq-100 Entry",
-      "reasoning": "NBIS shares jumped after Nasdaq announced its addition to the Nasdaq-100 index (NDX).",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 56,
-      "grade": "A",
-      "finviz_theme": "AI Cloud",
-      "analysis_detail": "Catalyst: Nebius Group (NBIS) has been officially added to the Nasdaq-100 (NDX) index, effective immediately. This inclusion prompted significant overnight trading activity, with shares **surging over 7-10%**. | Impact: Inclusion in the Nasdaq-100 will likely lead to **mandatory buying** by index-tracking funds, significantly **increasing institutional ownership**, liquidity, and overall investor visibility for NBIS.",
-      "analysis_details": "• **The Buyer**\nThe primary buyer will be institutional passive funds that track the Nasdaq-100 index. This mandatory rebalancing will lead to a significant inflow of capital into NBIS, as these funds adjust their portfolios to reflect the new index composition. This isn't discretionary buying but a required allocation shift, providing a strong demand floor for the stock.\n\n• **Conviction Signal**\nNasdaq-100 inclusion is a strong signal of the company's growing market capitalization, liquidity, and prominence within the tech sector. While not a direct endorsement of fundamental value by analysts, it provides a powerful tailwind by expanding the potential investor base and increasing the stock's profile among larger institutional investors, effectively de-risking its liquidity profile. The stock's immediate **7-10% surge** in overnight trading reflects this positive market reaction.",
-      "peer_tickers": [
-        "SMCI",
-        "PLTR",
-        "ANET"
-      ],
-      "headlines": [
-        {
-          "title": "Nebius Group’s UK AI Buildout And Nasdaq-100 Entry Reshape Investor Focus - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOHhrMWVtdWJtSHZtOG5lVmFjQkpOR0pudTAzaVhxamF1V2tQV3FFa3EzT0d5OS1jdnFiOXExdjV2T3hITWppVHB2ckdaSHBjc0d5OUpBY2NkUlhJQm5IY3p2WXNuVWd0U3h1ckJ0a1dudk51cnV0T1BNN2ZBZDVySUxGWG53aXF6OEUzMnVQZ0ZpSFBHcWNwaUNRQ2JNbEwtOU1LRUZRbVFoSFpZOGFHeDJxdlNIMGpmc2pJN1J3dEhhZlEwZnlCRmpKUdIB0AFBVV95cUxQWndHdjBHQlpEVm1VU3J4RnNQaFNlZkdMQXBKYXRuTEhDbW9FQVpMYWU2WXVrcVNCYk9pOVNmYjlCcHJQVXREaU93M3VPR0JCLW5KYlp6eVdYcV9PYTN5cWhsRWJhSlRCNXRhUGs0V2hSYldQZlprUFpPeGdocmRTamxsUm15dHh2RTVGMnNrdVVtbXBMRktZbGdqbjlYaDdILThtbDNrQ3QtN0ZmV3pneWFvMVVoZ0N2b1VaY0gxa21ZYW9sZHhOMWlQeEphWV9T?oc=5"
-        },
-        {
-          "title": "CRWV, NBIS, RKLB Shares Jump after Nasdaq Adds Stocks to Nasdaq-100 (NDX) - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQzhyUmh4T3RKTVMzc0RpZnFlZzlPc2c0QkhOcDMwR3lrV2U3aVh4X2stQXFtR1h4R0N6YWV2dUdOMXZkN0dzT2E0ZEY1UjB6UUtoYlBlOEluVEZmdjBjckJvZWp6OXlQNjRYa2JmNXBmTlhBT05XcnRVQzZJQU5DeHZGV3V4UFFlOGRmVGt3cjBsaUNzNGp2ekpsNWdDR3A5?oc=5"
-        },
-        {
-          "title": "Why Are CRWV, NBIS Stocks Surging Over 7% In Overnight Trading? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTmpJbk00bmwxLVFsaWVFNlE1Z2RtbFdIY2VDdHk1WFkzc0FWMkhkTDlfMjltTkRhaHdxRDFTMC1GaG9zVHVlZDlsLVZJVFNzSC1sbnhTS0NTallmYTA5LS1EOTFOMVdJVmtkVnNPZ2RoUWRraDhTOTdFYVdtbGY0RmVXWVZsaWxNdWpPWWFjLWlPRDNicFJubw?oc=5"
-        },
-        {
-          "title": "Rocket Lab beats out SpaceX with its Nasdaq 100 nod",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/rocket-lab-beats-out-spacex-with-its-nasdaq-100-nod-EEQT7YpXj1pZCe2wwsd2?mod=mw_FV"
-        },
-        {
-          "title": "Rocket Lab and these four stocks are joining the Nasdaq 100, with SpaceX waiting in the wings",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/story/rocket-lab-and-these-four-stocks-are-joining-the-nasdaq-100-with-spacex-waiting-in-the-wings-0e8cc71b?mod=mw_FV"
-        }
-      ],
-      "float_shares": "202.00M",
-      "short_float": "21.93%",
-      "daily_pct": 4.98,
-      "industry": "AI Cloud",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 85,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "NBIS was added to the Nasdaq-100 index (NDX).",
-        "discrepancy_note": "Source B (Google News [1, 5]) explicitly confirms NBIS's addition to the Nasdaq-100 (NDX). Source A (Finviz) mentions 'Rocket Lab and these four stocks are joining the Nasdaq 100' [3] and NBIS surging [1], but does not explicitly name NBIS as one of the stocks joining the Nasdaq-100 within the provided headlines."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "CRWV",
-      "price": 95.74,
-      "gap_pct": 5.39,
-      "pm_volume": 569960,
-      "avg_vol_10d": 29772098,
-      "avg_dollar_vol": 2850380663,
-      "mkt_cap": 52232904247,
-      "rvol": 0.77,
-      "adr_pct": 6.9,
-      "category": "Institutional Buying",
-      "theme": "Index Inclusion",
-      "reasoning": "CRWV was added to the Nasdaq-100 index, triggering mandatory institutional buying and increasing market visibility.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 56,
-      "grade": "A",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: CoreWeave was added to the Nasdaq-100 index, causing shares to jump over 7% in overnight trading. The company also proposed $3.5 billion in senior unsecured notes. | Impact: This inclusion guarantees significant institutional inflows and elevates CRWV's market profile, broadening its investor base and de-risking from a flow perspective.",
-      "analysis_details": "• **The Buyer**\nCoreWeave (CRWV) experienced a significant jump in shares following the announcement of its **inclusion in the Nasdaq-100 (NDX) index**. This addition mandates that index-tracking funds and ETFs **purchase** CRWV shares, creating strong demand and increased institutional ownership. This passive buying pressure is a powerful tailwind for the stock's near-term performance.\n\n• **Conviction Signal**\nThe Nasdaq-100 inclusion is a major **validation** for CRWV, elevating its profile among large-cap technology stocks. While the company also proposed **$3.5 billion** in senior unsecured notes, the immediate positive price action is primarily attributed to the index addition, signaling a shift in institutional perception and liquidity. This event **de-risks** the stock from a flow perspective and broadens its investor base significantly.",
-      "peer_tickers": [
-        "NVDA",
-        "SMCI"
-      ],
-      "headlines": [
-        {
-          "title": "CoreWeave stock forecast: CRWV bull, base and bear cases - FinanceFeeds",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdk5LVTZydUJ4aGxaeU42c3pUR2t5bW83T0FWNkdhQXZnTzJvUDVsY001QVNVY2xsVGtUSWNWRFF3RS1DWDNVMkVvTk1IMndsMnpxU0kyOEdWcFNoRFhITVc3YU9hV2pEaVgtRXJEVk00MkJNak55M2pvN1RYYllfYVZR?oc=5"
-        },
-        {
-          "title": "CRWV, NBIS, RKLB Shares Jump after Nasdaq Adds Stocks to Nasdaq-100 (NDX) - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQzhyUmh4T3RKTVMzc0RpZnFlZzlPc2c0QkhOcDMwR3lrV2U3aVh4X2stQXFtR1h4R0N6YWV2dUdOMXZkN0dzT2E0ZEY1UjB6UUtoYlBlOEluVEZmdjBjckJvZWp6OXlQNjRYa2JmNXBmTlhBT05XcnRVQzZJQU5DeHZGV3V4UFFlOGRmVGt3cjBsaUNzNGp2ekpsNWdDR3A5?oc=5"
-        },
-        {
-          "title": "Why Are CRWV, NBIS Stocks Surging Over 7% In Overnight Trading? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTmpJbk00bmwxLVFsaWVFNlE1Z2RtbFdIY2VDdHk1WFkzc0FWMkhkTDlfMjltTkRhaHdxRDFTMC1GaG9zVHVlZDlsLVZJVFNzSC1sbnhTS0NTallmYTA5LS1EOTFOMVdJVmtkVnNPZ2RoUWRraDhTOTdFYVdtbGY0RmVXWVZsaWxNdWpPWWFjLWlPRDNicFJubw?oc=5"
-        },
-        {
-          "title": "Rocket Lab beats out SpaceX with its Nasdaq 100 nod",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/rocket-lab-beats-out-spacex-with-its-nasdaq-100-nod-EEQT7YpXj1pZCe2wwsd2?mod=mw_FV"
-        },
-        {
-          "title": "Rocket Lab and these four stocks are joining the Nasdaq 100, with SpaceX waiting in the wings",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/story/rocket-lab-and-these-four-stocks-are-joining-the-nasdaq-100-with-spacex-waiting-in-the-wings-0e8cc71b?mod=mw_FV"
-        }
-      ],
-      "float_shares": "337.78M",
-      "short_float": "16.17%",
-      "daily_pct": 0.14,
-      "industry": "AI Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "CRWV was added to the Nasdaq-100 index",
-        "discrepancy_note": "Source B (Google News) [4] explicitly states 'CRWV, NBIS, RKLB Shares Jump after Nasdaq Adds Stocks to Nasdaq-100 (NDX)'. However, Source A (Finviz News) headlines do not explicitly confirm CRWV's addition to the Nasdaq-100 index. Headline [3] mentions 'Rocket Lab and these four stocks are joining the Nasdaq 100' but does not name CRWV specifically among them."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "LI",
-      "price": 13.78,
-      "gap_pct": 4.93,
-      "pm_volume": 84640,
-      "avg_vol_10d": 5235215,
-      "avg_dollar_vol": 72141263,
-      "mkt_cap": 13845401812,
-      "rvol": 0.73,
-      "adr_pct": 2.94,
-      "category": "Earnings",
-      "theme": "Weak Outlook & Share Offering",
-      "reasoning": "Li Auto provided a **weak Q2 outlook** and announced lineup revamp plans, which was further exacerbated by a **share offering filing**.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "C",
-      "finviz_theme": "Electric Vehicles",
-      "analysis_detail": "Catalyst: Li Auto announced a **weak Q2 outlook** and plans for a product lineup revamp, leading to an **8.7% decline** yesterday. This was followed today by a filing to sell **98,000 Class A shares**, adding to negative sentiment. | Impact: The weak guidance suggests a **deterioration** in near-term demand or competitive positioning, prompting a **downward revision** of future growth estimates. The small share offering indicates either a capital raise amidst challenging conditions or a minor dilutive event.",
-      "analysis_details": "• **The Guide**\nLi Auto's recent announcement of a **weak Q2 outlook** significantly undermines investor confidence in its near-term growth trajectory. This follows a substantial **8.7% decline** in share price yesterday, indicating the market's immediate negative reaction to the revised expectations and strategic shifts.\n\n• **The Growth (Momentum)**\nThe combination of a **weak Q2 outlook** and \"lineup revamp plans\" suggests potential underlying issues with current product demand or strategic execution. While the share filing for **98,000 Class A shares** is comparatively small relative to the average daily volume of **$72M**, it adds to a narrative of capital raising or existing shareholder liquidation during a period of uncertainty. This overall picture points to a **deterioration** in momentum for the stock.",
-      "peer_tickers": [
-        "TSLA",
-        "XPEV"
-      ],
-      "headlines": [
-        {
-          "title": "Li Auto (NASDAQ: LI) files to sell 98,000 Class A shares via Futu - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLUlRV0t4My1DaUVYcVBwOE01cXpFanhPS3E1OE5vcThjM1ExNjdyNF84TERBWlNuSGNTci1DSWtqY3Q0VU1DeXBIV0ptTGtBSnRVdmxfd09zQ0N2ZFlkQlBYWUVwcnF4QllYNmMxakhJNnBxZWpGa3BjZF91MUJWaGdWVFdLdTVYMFl6R3FvWQ?oc=5"
-        },
-        {
-          "title": "Li Ning Co Ltd Stock (KYG555551095): Dividend focus as Hong Kong-listed sportswear group eyes global - AD HOC NEWS",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdmJ0NGRlM2tMRmZDQnRGalpPV3ZfbTN4dFR3TXJ5bEdlUTJSWk50R2poc3ctMHhLazAxZXhwQUYycDZleEg4R2FwbHBFQlA2bUpmemFtNHh0SmphSXhMUGVBOU4wdmFOYmk1bE9XUUhRd1ZENjNVdzUwcUhUcUlJektLZ2E1Q0x5UzctZHBTR0hjb3FZZlBVcHVEc2RmTnVfMGdxU0VWdS1qRHFZNFBKZjBWTGJ3ZWtzbUJtMmQ4RUJEYlZNd3c?oc=5"
-        },
-        {
-          "title": "Li Auto (LI) Is Down 8.7% After Weak Q2 Outlook And Lineup Revamp Plans - Has The Bull Case Changed? - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObXRFZXFEV2tRaHN6S0lnMXhzbFA1emhQVGdnTzhuclhFNWZzb2NMc005bVg4bUJGRFpScmtHdVBhQ1BfdGZpYVcxcS1fS0xsSnMtdFJtczFqeGloeWJuTXdZNFp4RGVTRU51SlRSZnl5YmdsaXVzV0xndmhuY3dIck12bEhGWk1XbTlBUENOa0lwZFFkbnZMbXZsY0dGLVNvOVJVUnp1MV9wT2NpTTQ0RHp3LXh4cGJYV0lGX0oyaldaMDh4U2fSAcsBQVVfeXFMT08tSWx4akVhczF6by1QeEtVYUoxZHgzMGV0VWdDVkFtYTAwOEwzclYwOTN6UWpFYnhTb1Q4LUFfVUpHVnVPRkxRQkN2dklHa254dWREUzFJazNodWR0U1pmRFp5N2tmQ3NycmpHZ2Y3ZHlVYjV3M2JqWF9uT2lzZ2xwbzkwaXMwTkV2eVJnTm1WLTJBcXJmVHRtWEdGYVd1ZnBYZllQUXBJMFRUX0hqVm9HZVhKNUw0WlpJNmV5SV9MN0RyUENHTGp1eHc?oc=5"
-        }
-      ],
-      "float_shares": "842.97M",
-      "short_float": "3.02%",
-      "daily_pct": 0.66,
-      "industry": "Electric Vehicles",
-      "technical_status": "Fail (Avg $Vol $72M < $100M, ADR 2.9% < 4%)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 70,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Li Auto filed to sell 98,000 Class A shares",
-        "discrepancy_note": "Source B[1] (Stock Titan) reports Li Auto filed to sell 98,000 Class A shares. Source A (Finviz) contains no information to confirm or deny this specific number."
       },
       "gates_passed": 3,
       "gates_detail": {
@@ -603,31 +340,41 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "USAS",
-      "price": 4.99,
-      "gap_pct": 3.81,
-      "pm_volume": 54436,
-      "avg_vol_10d": 4175285,
-      "avg_dollar_vol": 20834672,
-      "mkt_cap": 1631398440,
-      "rvol": 1.0,
-      "adr_pct": 7.24,
+      "ticker": "NVTS",
+      "price": 23.39,
+      "gap_pct": 9.61,
+      "pm_volume": 647663,
+      "avg_vol_10d": 39488417,
+      "avg_dollar_vol": 923634074,
+      "mkt_cap": 5466550793,
+      "rvol": 0.76,
+      "adr_pct": 12.23,
       "category": "Others",
       "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
       "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": "270.57M",
-      "short_float": "4.19%",
-      "daily_pct": 9.19,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $21M < $100M)",
+      "finviz_theme": "Semiconductors - Analog",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNVTS is attracting significant trader engagement, as indicated by a recent Stocktwits headline grouping it with other active stocks. This interest appears to be driven by **technical momentum** or **institutional flow** rather than any specific company-issued fundamental news within the last 24 hours. The absence of a clear catalyst makes the move inherently speculative.\n\n• **Key Consideration**\nWithout a defined fundamental catalyst, the recent upward move in NVTS is **highly speculative** and vulnerable to quick reversals. The average daily volume of **$924M** is healthy, but a Relative Volume (RVOL) of **0.8x** suggests current trading activity is below its recent average, implying a potential lack of broad conviction despite the headline. Investors should approach with **caution**, as such moves often lack durability without underlying news.",
+      "peer_tickers": [
+        "ON",
+        "MPWR",
+        "WOLF"
+      ],
+      "headlines": [
+        {
+          "title": "Nasdaq, S&P 500 Futures Climb Despite Fresh US-Iran Strikes: Why NVDA, MU, NVTS, RDW, RACE Are Keeping Traders Engaged Today - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd1VrRTBBd2VXeUNHd2xTYnh2QVMyaUM4Z3YxWG5KVWdOM1NXLWp1Z1piaGIzZ1lkbHJaT1RxM0JpQWdqcDVHc0dxX3FfVzFxUlJQYWUydDNlcTUyM2ZTSEEyTnZ5YVJpY0tZRVNrTkJlc2RHMmFFbjJURldTekR2RkZONE5QZlpUN3htOGd3QXNMQ0stbktvWVZweURkOGg1RGNFMnBPRFZNZ0t6ZnNDNHI1Zm9hTVpQM1Nocl9VYjNnUkRPelE?oc=5"
+        }
+      ],
+      "float_shares": "202.42M",
+      "short_float": "17.84%",
+      "daily_pct": 5.31,
+      "industry": "Semiconductors - Analog",
+      "technical_status": "Pass",
       "verification": {
         "status": "Verified",
         "confidence_score": 90,
@@ -635,31 +382,31 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "No immediate fundamental catalyst found",
+        "primary_claim": "No immediate fundamental catalyst found for NVTS",
         "discrepancy_note": ""
       },
-      "gates_passed": 2,
+      "gates_passed": 5,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
         "gate_adr": true
       },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "VZLA",
-      "price": 3.47,
-      "gap_pct": 3.75,
-      "pm_volume": 146780,
-      "avg_vol_10d": 6919254,
-      "avg_dollar_vol": 24009811,
-      "mkt_cap": 1212761018,
-      "rvol": 0.88,
-      "adr_pct": 6.27,
+      "ticker": "USAS",
+      "price": 5.28,
+      "gap_pct": 9.47,
+      "pm_volume": 80476,
+      "avg_vol_10d": 4238046,
+      "avg_dollar_vol": 22376883,
+      "mkt_cap": 1726209240,
+      "rvol": 1.06,
+      "adr_pct": 7.25,
       "category": "Others",
       "theme": "Technical / Flow",
       "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
@@ -671,11 +418,11 @@
       "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
       "peer_tickers": [],
       "headlines": [],
-      "float_shares": "329.85M",
-      "short_float": "11.26%",
-      "daily_pct": 8.44,
+      "float_shares": "271.43M",
+      "short_float": "4.17%",
+      "daily_pct": 5.81,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $24M < $100M)",
+      "technical_status": "Fail (Avg $Vol $22M < $100M)",
       "verification": {
         "status": "Verified",
         "confidence_score": 95,
@@ -699,54 +446,44 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "KTOS",
-      "price": 58.78,
-      "gap_pct": 3.71,
-      "pm_volume": 78868,
-      "avg_vol_10d": 4623355,
-      "avg_dollar_vol": 271760807,
-      "mkt_cap": 11022424725,
-      "rvol": 0.72,
-      "adr_pct": 6.13,
-      "category": "Government Policy",
-      "theme": "Sector Sympathy (Defense Budget / Drone Sector)",
-      "reasoning": "Moving in sympathy with the broader defense and drone sector following news related to the US Defense Budget.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Drones",
-      "analysis_detail": "Catalyst: Broader market sentiment shift around the US Defense Budget has sparked a rally in drone-related stocks, including KTOS, with mentions of Cathie Wood's interest further fueling speculation. | Impact: Secondary. While positive for sector sentiment, there's no direct company-specific contract or fundamental news for KTOS, and the rally occurs on **sub-average volume (RVOL 0.7x)**, indicating **lower conviction**.",
-      "analysis_details": "• **The Policy**\nNews of a potential **increase** in the US Defense Budget has generated **positive sentiment** across the defense and drone sector. This broader tailwind is seen as a catalyst for a rally in related stocks, as investors anticipate **increased spending** and new contract opportunities.\n\n• **Direct Impact**\nWhile the sector-wide news is positive, there is **no specific contract award** or **company-specific policy change** for Kratos Defense & Security Solutions (KTOS). The current move is largely a **sympathy play**, with investor interest potentially bolstered by mentions of Cathie Wood's prior investments in the stock, adding to the speculative narrative. The move on **sub-average volume (RVOL 0.7x)** suggests **limited institutional conviction** behind the rally.",
+      "ticker": "OUST",
+      "price": 39.8,
+      "gap_pct": 8.64,
+      "pm_volume": 78263,
+      "avg_vol_10d": 4221697,
+      "avg_dollar_vol": 168023541,
+      "mkt_cap": 2534183391,
+      "rvol": 1.11,
+      "adr_pct": 11.91,
+      "category": "New Contract/Partnership",
+      "theme": "Strategic Partnership for Product Scaling",
+      "reasoning": "Ouster CEO indicated a strategic partnership with 'Benchmark' to scale new color Lidar sensors, suggesting accelerated product commercialization.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 77,
+      "grade": "A",
+      "finviz_theme": "AI Edge & IoT",
+      "analysis_detail": "Catalyst: Ouster's CEO publicly named 'Benchmark' as the **'natural fit'** to scale their new color Lidar sensors, signaling a strategic collaboration aimed at accelerating product deployment. | Impact: This partnership is poised to **accelerate** the commercialization and market penetration of Ouster's advanced color Lidar technology, potentially expanding their revenue streams and market leadership.",
+      "analysis_details": "• **Impact**\nOuster's CEO calling 'Benchmark' a **'natural fit'** to scale new color Lidar sensors indicates a significant step towards commercializing this advanced technology. This partnership is expected to **accelerate production** and market availability of the color Lidar, which could open new revenue opportunities and strengthen Ouster's competitive position in the rapidly evolving Lidar market.\n\n• **Strategic Value**\nThis strategic move signifies Ouster's commitment to innovation and expands its product roadmap with next-generation Lidar capabilities. Partnering for scale ensures that Ouster can efficiently meet anticipated demand and rapidly deploy these new sensors across various applications, enhancing its long-term growth trajectory and **solidifying its market presence** in autonomous systems.",
       "peer_tickers": [
-        "AVAV",
-        "ONDS"
+        "LAZR",
+        "INVZ"
       ],
       "headlines": [
         {
-          "title": "Why Cathie Wood seemingly can’t get enough of Kratos Defense stock - MSN",
+          "title": "OUST Stock Surges Premarket – Ouster CEO Calls Benchmark The ‘Natural Fit’ To Scale New Color Lidar Sensors - TradingView",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYXhjUnJVY1NpX2NIUUloME40R3RHYkJBVWlhakxJTjVheE8xSWhhQ21JcUQ5cWU4SWtxWTdLdkxwNk0yNkl4QVRfZDVIdzJ6Q2x3V3BKWHoybjluelBuLWdTQ1hYcWVHdUdNaHRkOWczMUtwNFhrWFl6djFnX2pHUE1TTEhaSXZWajMwc3ZENDRHc2p3YlRocFp5UEVPUVJ5aEVFNlhoR2lvUlFCbnpNUThEQ0tNZUhrdktGZQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWVDNVFoc0xEUXFFdEJocmk1eDNJcGdGb1dmbU5ycVlOUW5VQlp5RVNyY3ZzSVBhdlRZMS1SejhMaWFmRURLNUxMNmdUUzNpYnFUZHRHSmpKN2ZheUJHeDNGbGhKd05ULVptVnJ3ZWVfUVJHMWxPSy1QdVRyeG5DV09ZYUpYX2d5Znl4YnJvRTVHeWtwbl93aUJFdG9YYjhGbkJua1ltVEg1MlhLWW5JNWpiQV9JeHhRZ19ObVJRX1ptTXpNejJjeFV2UkdhT1JMLVZZV1R5TVhwXzVXcWRiQ2dKZ1JhTkg3LTNmZURYcEdjaFYxYjAw?oc=5"
         },
         {
-          "title": "ONDS, RCAT, AVAV, KTOS, DPRO: US Defense Budget Sparks Drone Stock Rally Overnight - Stocktwits",
+          "title": "Why Is Ouster Stock Soaring Monday? - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa1VybmZHZkRyemNLYUJqencyNmhtVFcyWkdvQVdvZU4yVzFVY1JqQlFPcFJjdUE2QnA2VW5OQUxLZDVlRFdKdUNKV2FJSnNHY3EwbjNqajdGSUMzT0s1Mk0tMUhJWEJYUmxuZE5ZS1phakM5RjFwbFAxbWFYNnZ0b00wd3RqMEx3VjdFd1o5UWNSOTJNTndTbm1HeG5wUHFFVVllMUtmU1BsYTFuUDRhcUZITUF4UkQzM2Q2RmpuT1RMdzVtTVNCa2JlR1N2OHdnaVNnTjBwckg?oc=5"
-        },
-        {
-          "title": "The SpaceX IPO Could Trigger a $50 Billion Spending Spree. These Stocks Will Benefit. - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQckthM3JXMER6bW5paHRDZHJqTkJCWHhJdGh1LVM1THA0VWRtZ2J4bHh5Y2szcDB0V2dwb3ZPU25BWDJJZ2tabUgzdHdhV0QxMmN1aEx1ZW8zbzBhandrdlYzZGVIUk9oUGpDRlJuak00YmNyOWRJSjZqd3lJUHNVN25Jc0gtR3hTSnVySW44NWoxMFE5?oc=5"
-        },
-        {
-          "title": "Is Kratos Defense & Security Solutions, Inc. (KTOS) A Good Stock To Buy Now? - Insider Monkey",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjhDajZSUTdONEJTOE5GRGhFN3F3c0NzRXFMSHo1dWVLdDAyZlVrX2ljZWp6QWRDN3NDdWNhOFhLUVZobGhpSV9PQ00yWU5YQjlLZG5KZG1PTUppaGIzaTZ5Ty1ydGlRNEFMem9XSnlSci1uaXRULUc5OTRnU3ZMUnR2dU8yX18yQkg0ekwzem5oY0VuSG9yTW54S1ljSV9IUV95RHJfOEF1ZnY2c1VxV2tDV3JfZ9IBvgFBVV95cUxORDU2Nmt5bTVjbEEtdURSWERlbGJZUm9uSm5DODN5UmUtMFJDelJjOVU3WldObXJrSHlZOGZGM293Z0lkQTEyNUpISWw4dktfQ0pMVXBZYm1PMTlPU21OaXdSMHdxOTlwb3F2MVhDSXVqV2Vva3NwR08wal9YRERCTnJfY3labGYwUS1ZaUxmazU0Rl9EeWhXbHRNcFQ0Z3hYZkN1RzAwWk1pWkd5ZGFaalczcmxaazdZNVNHVGVB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSTUzdXpLdVdyQmsxUWFHZzRSMHA0VFpLbDVfWnZ2eWN0Y0cwMEduR3RydDBLZHNoUDJJSHdDdGU3ZXZNR0JZa2F3ZEFpNVMzeWlVRS13eEdPQTVrNHZCUW1RRlZETzR5XzFIQXQ2YzZhU0ktNVd3VF9yWE5HLUpGX3Q4OFJ3VnJjanNFWFRFb09sZWtDZFlFLUo0bw?oc=5"
         }
       ],
-      "float_shares": "184.71M",
-      "short_float": "6.31%",
-      "daily_pct": 7.22,
-      "industry": "Drones",
+      "float_shares": "59.91M",
+      "short_float": "9.81%",
+      "daily_pct": 0.48,
+      "industry": "AI Edge & IoT",
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
@@ -755,8 +492,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "News related to the US Defense Budget is sparking a rally in the drone sector, including KTOS.",
-        "discrepancy_note": "Source A (Finviz News) provides no information related to the US Defense Budget or a sector rally. Source B (Google News [1]) explicitly confirms the claim with the headline 'US Defense Budget Sparks Drone Stock Rally Overnight' listing KTOS. Since only one source confirms the claim, it is a Discrepancy."
+        "primary_claim": "Ouster CEO indicated a strategic partnership with 'Benchmark' to scale new color Lidar sensors.",
+        "discrepancy_note": "Source A (Finviz) contains no information regarding a partnership or CEO's statement. Source B (Google News - TradingView) mentions 'Ouster CEO Calls Benchmark The ‘Natural Fit’ To Scale New Color Lidar Sensors,' confirming the involvement of Benchmark and the purpose, but it is the only source to do so."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -767,193 +504,97 @@
         "gate_adr": true
       },
       "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
     },
     {
-      "ticker": "SATL",
-      "price": 7.52,
-      "gap_pct": 3.46,
-      "pm_volume": 210988,
-      "avg_vol_10d": 9144426,
-      "avg_dollar_vol": 68766084,
-      "mkt_cap": 1114795593,
-      "rvol": 1.31,
-      "adr_pct": 10.99,
+      "ticker": "PURR",
+      "price": 8.7,
+      "gap_pct": 8.62,
+      "pm_volume": 219170,
+      "avg_vol_10d": 21924355,
+      "avg_dollar_vol": 190741888,
+      "mkt_cap": 1256693838,
+      "rvol": 0.72,
+      "adr_pct": 9.88,
       "category": "Others",
-      "theme": "Executive Change",
-      "reasoning": "SATL announced a planned CFO exit, leading to investor uncertainty and a stock decline.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 57,
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
       "grade": "C",
-      "finviz_theme": "Others",
-      "analysis_detail": "Catalyst: Planned CFO exit announced, which led to the stock closing **lower** due to market uncertainty. | Impact: Introduces instability in financial leadership and raises questions about future strategic direction.",
-      "analysis_details": "• **What Happened**\nSATL announced the **planned departure** of its Chief Financial Officer (CFO), an event that frequently introduces market uncertainty regarding a company's financial stability and strategic path. This news directly led to the stock closing **lower** as investors reacted to the executive transition.\n\n• **Key Consideration**\nDespite the immediate negative stock reaction, some Wall Street analysts maintain a long-term bullish outlook, seeing **over 70% upside** in SATL. However, the current catalyst points to short-term instability, with the **1.3x RVOL** and **11.0% ADR** highlighting increased volatility around this management change. The market is weighing future potential against current leadership shifts.",
-      "peer_tickers": [
-        "SMCI",
-        "ANET",
-        "CRWD"
-      ],
-      "headlines": [
-        {
-          "title": "SATL stock closes lower on planned CFO exit but Wall Street sees over 70% upside - MSN",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQal9sQlM1bGQyVTdJWVhSTWRERnd1SXgwbnZmenVfbDFYZDN2b1BiNnpTQS05Vkk3QmdSbUlKX1RBaGxEQzFtekVRRjRUZ1RHYm1fc1dwbHFvdXJoY1VpVUw3NTNINEhKWnI0ZFQzZ3RNSzItUkR4M0N5c0dzaW1tbXY1UWNwN1ZNQ3p5LW5tR3NJUDlOWHpSck4wQmhhUEo1c29pNElIWlBOU0IyVzd0dEU2OWV3N1AwT29Kd2hXQ01jbE1yQTNfVEp4RUplQQ?oc=5"
-        },
-        {
-          "title": "$SATL stock is up 10% today. Here's what we see in our data. - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTDJGMGhrZlptV0M1ODBvOUl5emtJUE9ROUJ2b256LTgwWFNxNWRmQVZMblE5LXNuMWktOV9lT0t2MmlkZGRqb1BkZnNNUnFsNTIyb1hpX1dsSXh6NFJla251Q2FTYmRHOUJ5bURDU2ZkSjFNbVpRenRMVmJ5eTlJOTdPZ0dYS0ZNeTJDdGJqd3hSRERpR1drVzJIMlpXLVlt?oc=5"
-        }
-      ],
-      "float_shares": "106.47M",
-      "short_float": "11.09%",
-      "daily_pct": 19.75,
-      "industry": "Others",
-      "technical_status": "Fail (Avg $Vol $69M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "stock decline",
-        "discrepancy_note": "Source B presents conflicting information regarding the stock movement. One headline states '$SATL stock is up 10% today', while another states 'SATL stock closes lower'. Source A provides no information."
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "UEC",
-      "price": 10.63,
-      "gap_pct": 3.34,
-      "pm_volume": 96182,
-      "avg_vol_10d": 14064009,
-      "avg_dollar_vol": 149500416,
-      "mkt_cap": 5260493408,
-      "rvol": 1.27,
-      "adr_pct": 8.01,
-      "category": "Earnings",
-      "theme": "Wider Quarterly Loss",
-      "reasoning": "UEC reported a wider quarterly loss and zero uranium sales, leading to a significant stock sell-off.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Nuclear",
-      "analysis_detail": "Catalyst: Uranium Energy (UEC) reported a wider quarterly loss and zero uranium sales, which resulted in significant investor disappointment. The company preserved its uranium inventory, but this did not offset the negative financial performance.\nImpact: The stock **declined** by **24.8%** as investors reacted negatively to the operational and financial update, testing patience for the company's waiting game strategy.",
-      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nUranium Energy (UEC) reported a **wider quarterly loss**, contrasting sharply with investor expectations for progress. Despite preserving its uranium inventory, the company recorded **zero uranium sales**, a key factor contributing to the **24.8% stock decline**. This indicates a significant **negative surprise** on the operational and financial front.\n\n• **The Growth (Momentum)**\nThe company's strategy of preserving uranium inventory, while potentially beneficial long-term, has led to **no immediate revenue generation** from sales, undermining near-term growth momentum. Investors are clearly reacting to the **lack of sales** and the sustained **wider losses**, questioning the efficacy and timeline of the \"waiting game\" strategy. This challenges the momentum narrative for the stock in the short to medium term.\n\n• **The Guide**\nWhile specific guidance details are not provided in the headlines, the context of \"testing investor patience\" and a \"waiting game\" suggests an implicit lack of clear, immediate positive guidance on sales or profitability. The market's **strong negative reaction** implies that the company's current outlook or strategy did not instill confidence for an imminent turnaround or significant improvement in financial performance.",
-      "peer_tickers": [
-        "CCJ",
-        "UUUU"
-      ],
-      "headlines": [
-        {
-          "title": "Analysts Offer Insights on Energy Companies: Uranium Energy (UEC) and Williams Co (WMB) - The Globe and Mail",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPOGNVN3dlM0I2dDd1UHJuWXpsLVFXVHg4VnlLcG5OSVRCS1FEbWlONFZuQzI1WF85bEtDNUtFb3U0SkJ6SUJNenJPZzNDRHJYd1VITU5pYXBUUHJXSlNZZE5IWWw4cW9MLTdpc3p6Qkh3dzBUa3lVZVdBaFhDVnppWTFqdXFlSUQxcE5ZQlJoUzdSeVlqOVJJYlM3cWtBREdBX1F5RlY1QnE1Y2t5TnowYjNzODVxdlVjSGVqWm13UG5CbUM1OWJTTjdRN2tQaFVBYXkyUmFyOUdJTEl6ckxyUTlKZFZmSEU2Q0p1eE9wa3JQXzhKLUNKeWFB?oc=5"
-        },
-        {
-          "title": "Why Uranium Energy (UEC) Is Down 24.8% After Preserving Uranium Inventory Amid Wider Quarterly Loss - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDRUVWVZdVJNajJxSXBWNFY4clluY00wS2twQ3c4UHFlUmg3aEZlQm5JdHE2c2w3RTVpdWkzX2h6WGlTeVZjTXk3R1FYTHJTYTM5SUtSQ1l6Tl82S3JWdWtCX09hekZhMi1GU21DLTZ2QmoxWmJieENCTk9rbno1ME5uU0tGbGtoYTA1dWc1ZlBmZ2FyWmhz?oc=5"
-        },
-        {
-          "title": "Zero Uranium Sales, One Giant Stock Sell-off: Uranium Energy's Waiting Game Tests Investor Patience - AD HOC NEWS",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZG9MZVpIaGF0VHZLSXhGaWdiUnFjbFN5UnlsWFlPVnRMQUs1YVZ5VG14Ni1nSTR4UlMyVHZ2VzJOaWtIcGlpNlZURUZSMUdGOXJiclNYc3ZEMEZMVWM1RHlWR3NWT2tOM01OYkVoTjZKbDBfODN4LTR6OXNYeXVmWmZielJqanlWOWM1VWw2c0hfRWkyTTAyX0lid1Y3cV9obDRPU2dOdF9Ibmh4a2o4V3RzUnZTQld1dkFoWnRlX0cxOXJFTnc?oc=5"
-        }
-      ],
-      "float_shares": "485.43M",
-      "short_float": "11.42%",
-      "daily_pct": 12.85,
-      "industry": "Clean Energy - Nuclear",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "122.43M",
+      "short_float": "6.51%",
+      "daily_pct": 2.47,
+      "industry": "—",
       "technical_status": "Pass",
       "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "zero uranium sales",
-        "discrepancy_note": "Source B (specifically AD HOC NEWS via Google News) explicitly confirms 'Zero Uranium Sales', but Source A (Finviz News) provides no information to confirm or deny this claim."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "HYLN",
-      "price": 7.51,
-      "gap_pct": 3.33,
-      "pm_volume": 51777,
-      "avg_vol_10d": 6762829,
-      "avg_dollar_vol": 50788846,
-      "mkt_cap": 1339237613,
-      "rvol": 1.06,
-      "adr_pct": 15.83,
-      "category": "Upgrade",
-      "theme": "Analyst Initiation",
-      "reasoning": "Needham initiated Hyliion with a Buy rating and announced a target price of $9, triggering a strong overnight stock surge.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 32,
-      "grade": "C",
-      "finviz_theme": "Electric Vehicles",
-      "analysis_detail": "Catalyst: Needham initiated coverage on Hyliion (HYLN.US) with a **Buy** rating and a **$9 price target**. This new analyst coverage provides a positive outlook for the stock. | Impact: This initiation offers a fresh, positive institutional endorsement, likely contributing to the **12% overnight surge** and attracting new investor interest, potentially de-risking the stock's future trajectory.",
-      "analysis_details": "• **The Firm & Rating**\nNeedham, a reputable investment bank, has initiated coverage on Hyliion with a **Buy** rating. This is a significant event for the company, as it brings new analyst attention and institutional validation to its business model and prospects. The accompanying **$9 price target** suggests substantial upside from current levels.\n\n• **The Thesis**\nThe initiation implies Needham sees compelling value and growth potential in Hyliion's electric powertrain solutions for commercial vehicles. This positive thesis likely highlights Hyliion's technology, market positioning, or future pipeline, providing investors with a fundamental rationale for the recent price appreciation. The new coverage could attract a broader base of institutional investors.",
-      "peer_tickers": [
-        "RIVN",
-        "NKLA"
-      ],
-      "headlines": [
-        {
-          "title": "Why is HYLN stock soaring 12% higher in overnight trading? - MSN",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOYjJuNXRjLTZXOFphTC0xMGVSUzQ5NmhjVzhRd0luZEg1dDNTLWxNZTBVbTVxSThOLUdPZy1aRFFocUZ1ODY3WDJPVG9uWng5MndsbHBRTWMxcHhSRkJ1ajNJaHFoTXZNaE5ET1lfMTFuNkU1bW1EMmR2MVJoQ09QcDloYWhlTTM3VXM5bnBEMzdDT1FJNDVWdzF4V012cVc0aFYwSk0zajNlZXRvWWtoZ1EtZ3F0bG1Oc2p6R2ltNEZtUEttNDBzWFRUcHpNUzc0OE95RURfdWp3R0NZOHR5YzR5YVNCN2VDX2l4X1BMVm1vWUdOZFpYVVJ1Y0k3UFB6RkhOdng4TFVjbmhSMlJVemI5WURpRkRyUFotMzh1RUd0SVNSQVZ5U3VyNEtpOUhGaWVoU1ZiUi00cE1QZDJ0MA?oc=5"
-        },
-        {
-          "title": "Needham Initiates Hyliion(HYLN.US) With Buy Rating, Announces Target Price $9 - Moomoo",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOempBNVRucG9BSEZPNi1WeTluTFI3UThpZW1ycmMxeVFEd19WaFZEODR0TnUyWE1welhreVA0WHFfbGo5b1YxX2t5Sy1udHJXZ191Z1pncmJRU0tuVG1WUUExbm11UzdiUDZHNG03bmdxTXF0TExDdkpxWktBZ01NSjhVX0pNZkJMdTE3OFdoZlhEdlJBeWN6ZTctNzRWSlFheFhRZ0pVeGhhU0Z5dWdneG1kdw?oc=5"
-        }
-      ],
-      "float_shares": "121.03M",
-      "short_float": "8.44%",
-      "daily_pct": 8.53,
-      "industry": "Electric Vehicles",
-      "technical_status": "Fail (Avg $Vol $51M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
+        "status": "Verified",
         "confidence_score": 100,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Needham announced a target price of $9 for Hyliion.",
-        "discrepancy_note": "Source A (Finviz News) has no information regarding the claim. Source B (Google News) confirms Needham initiated Hyliion with a Buy rating and announced a target price of $9."
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "MRAM",
+      "price": 24.41,
+      "gap_pct": 8.56,
+      "pm_volume": 50864,
+      "avg_vol_10d": 2327770,
+      "avg_dollar_vol": 56820866,
+      "mkt_cap": 572355339,
+      "rvol": 0.46,
+      "adr_pct": 14.26,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "18.92M",
+      "short_float": "13.12%",
+      "daily_pct": 0.87,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $57M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
         "gate_dollar_vol": false,
         "gate_mkt_cap": false,
         "gate_adr": true
@@ -963,147 +604,69 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "ASTS",
-      "price": 97.56,
-      "gap_pct": 3.27,
-      "pm_volume": 606019,
-      "avg_vol_10d": 24391990,
-      "avg_dollar_vol": 2379682544,
-      "mkt_cap": 37865430873,
-      "rvol": 0.93,
-      "adr_pct": 10.16,
-      "category": "Others",
-      "theme": "Operational Milestone / Sell the News",
-      "reasoning": "ASTS stock **declined 9.1%** following the launch of its next-gen BlueBird Satellites and FCC approval, indicating a 'sell the news' event.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: ASTS announced the successful launch of its next-gen BlueBird Satellites and received FCC approval, a crucial operational step. | Impact: The stock immediately **declined 9.1%**, indicating a 'sell the news' reaction and a failure to generate positive momentum from the milestone.",
-      "analysis_details": "• **What Happened**\nAST SpaceMobile (ASTS) experienced a **significant decline of 9.1%** in reaction to its announcement of launching next-generation BlueBird Satellites with subsequent FCC approval. This operational milestone, while positive for the company's long-term roadmap, was met with immediate negative price action.\n\n• **Key Consideration**\nThe market's **negative reaction** to an ostensibly positive operational catalyst suggests a 'sell the news' event or significant profit-taking after recent sector-wide enthusiasm driven by the SpaceX IPO. For momentum traders, this indicates a **lack of immediate buying interest** and potential for further downside, despite the underlying progress.",
-      "peer_tickers": [
-        "RKLB",
-        "LUNR"
-      ],
-      "headlines": [
-        {
-          "title": "AST SpaceMobile: The Next Phase Could Be Massive - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMG5JdkJtOUw5TDhJSHhUd3VjaVFhR1hTUlN6MHh0V2VzQUYtR1pXV1VZaE5WMFdmbWhVcjVra2hCempUQmFJTU52b1NPZVllYzFMNGVFQUpvTldJRV8xSVRvbWs2bHUzTlV1TV94bEY3endJZ1hxZ3hnbWtBNnhHUFZFd2FVOWpkZnBWdQ?oc=5"
-        },
-        {
-          "title": "SpaceX IPO Looms Ahead And These Rocket Stocks Are Popping: Here's What Is Going On With SPCE, ASTS, RKLB - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMjNhdGdCdFNOR3VrNnhhUzdVSnRWdGg4NzdRMW1ZWUtxRHZoVjJOQ0RZVWZtdlVuN29Td0xxb3k0QTFlcVd1YTJsalhROHFWZy1kTkZpekl3eEdoREU3UVdkSXY0WWhPZjJLZHFLR1ZlTVVMWXJhQ1BEcUE0TTlScnBqWVRUSmxjLWF3SkhTX0NpdnVoekVFZ0xHRjlGajJvdloxSE01SVhXdWk2MTRrN0gwQURnTHRqZkNwbXp1cTRFQUk?oc=5"
-        },
-        {
-          "title": "AST SpaceMobile (ASTS) Is Down 9.1% After Launching Next-Gen BlueBird Satellites With FCC Approval - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjNQYjVXalRXTll0NUE5WE1VdmNXSnZycWNKUDBhUW5KSno4QTdVdE4tVE9CbS1pdzRSZDdkbUptOWJjbGtkd1FUV2l6ckl5b09Nb25HLWowOF96NTVyZzBXMEctTi03cG9SVDE3VkY1dWpGRFlVWFFDWnRMRnA4elpNWExFb3I5SkVoSVo3aEJoQ1M5MF9B?oc=5"
-        },
-        {
-          "title": "ASTS, RKLB, RDW, SATS Jump As SpaceX Prices Historic IPO  Cloudflare CEO Weighs In On 'Perfect' 20% Pop Prediction",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/7cf1f310-8ed2-379d-a99c-7be0f466726e/asts%2C-rklb%2C-rdw%2C-sats-jump-as.html"
-        },
-        {
-          "title": "S&P 500, Nasdaq, Dow Futures Climb As Historic SpaceX IPO Looms, Trump Hints Iran War May End: Why SNDK, ASTS, RDW, CRWV, RKLB Are Also Trending",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/883a3d4a-05c0-398e-8646-4944c359c581/s%26p-500%2C-nasdaq%2C-dow-futures.html"
-        }
-      ],
-      "float_shares": "181.66M",
-      "short_float": "30.14%",
-      "daily_pct": 11.73,
-      "industry": "Space",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "ASTS stock declined 9.1%",
-        "discrepancy_note": "Source B[1] explicitly states 'ASTS Is Down 9.1%', matching the claim. However, Source A headlines ([1], [3], [4]) indicate ASTS was 'jumping' or 'rising' around the same time. Furthermore, Source B[4] also suggests ASTS was 'Popping'. Therefore, the claim of a 9.1% decline is confirmed by one specific headline but contradicted by other headlines across both sources."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "ARM",
-      "price": 342.23,
-      "gap_pct": 3.26,
-      "pm_volume": 82290,
-      "avg_vol_10d": 12372096,
-      "avg_dollar_vol": 4234102414,
-      "mkt_cap": 364132731689,
-      "rvol": 0.67,
-      "adr_pct": 9.31,
-      "category": "Upgrade",
-      "theme": "Analyst Upgrade (Agentic AI)",
-      "reasoning": "Bank of America lifted price targets on ARM and raised the CPU Total Addressable Market (TAM) to $170 billion, citing the emerging 'Agentic AI' opportunity.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 31,
+      "ticker": "NBIS",
+      "price": 232.36,
+      "gap_pct": 8.54,
+      "pm_volume": 370510,
+      "avg_vol_10d": 16654462,
+      "avg_dollar_vol": 3869830790,
+      "mkt_cap": 58473495712,
+      "rvol": 1.04,
+      "adr_pct": 9.63,
+      "category": "Institutional Buying",
+      "theme": "Nasdaq-100 Index Inclusion & AI Flow",
+      "reasoning": "NBIS's inclusion in the Nasdaq-100 index ensures significant passive institutional inflows and increases the stock's visibility and liquidity, signaling a strong shift in market perception for a key AI infrastructure player.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
+      "conviction": 57,
       "grade": "A",
-      "finviz_theme": "Semiconductors - Compute",
-      "analysis_detail": "Catalyst: Bank of America **upgraded** its outlook for the CPU market, **lifting price targets** for ARM and **raising the CPU TAM to $170 billion**. This revised outlook is driven by the perceived emergence of 'Agentic AI' as a game-changer. | Impact: The upgrade and significantly **increased TAM** signals a **bullish** re-rating of ARM's long-term growth potential and market positioning within the burgeoning AI ecosystem.",
-      "analysis_details": "• **The Firm & Rating**\nBank of America (BofA) has issued a **bullish** update, explicitly **raising price targets** for Arm Holdings. This action signals a strong vote of confidence from a Tier-1 investment bank, indicating that their revised models see significant **upside** potential for ARM shares.\n\n• **The Thesis**\nBofA's upgraded thesis hinges on the transformative potential of \"Agentic AI,\" which they identify as a **game-changer** expected to expand the CPU Total Addressable Market (TAM) to a staggering **$170 billion**. ARM, as a foundational IP provider for CPUs and custom silicon, is positioned to be a primary **beneficiary** of this secular growth trend, driving increased royalty and licensing revenues.",
+      "finviz_theme": "AI Compute",
+      "analysis_detail": "Catalyst: Nebius Group N.V. ($NBIS) has announced its inclusion in the Nasdaq-100 index, effective immediately or in the near term, a move explicitly tied to robust demand for AI infrastructure. This event is further underscored by reports of institutional buying from firms like Parker Investment Management LLC. | Impact: The Nasdaq-100 inclusion guarantees significant passive institutional buying from index-tracking funds, substantially enhancing the stock's liquidity and institutional ownership. It acts as a powerful validation of NBIS's market position within the high-growth AI compute sector.",
+      "analysis_details": "• **The Buyer**\nThe primary 'buyer' isn't a single discretionary fund but rather a broad mandate of **passive institutional funds** that track the Nasdaq-100 index. This inclusion means that billions of dollars managed by these funds will be reallocated to acquire NBIS shares, creating a strong, persistent buy-side demand irrespective of short-term price movements. Individual firms like Parker Investment Management LLC are also reportedly buying, likely in anticipation of or reaction to this significant index flow and the underlying AI growth narrative.\n\n• **Conviction Signal**\nInclusion in the Nasdaq-100 is a **strong conviction signal** from the market regarding Nebius Group's long-term viability and growth potential within the critical **AI infrastructure sector**. It elevates the company's profile, increases its visibility to a wider institutional investor base, and typically leads to tighter spreads and improved liquidity. This event fundamentally **re-rates** NBIS as a major player, suggesting its AI compute offerings are gaining significant traction and market share amidst exploding demand.",
       "peer_tickers": [
-        "AMD",
         "NVDA",
         "SMCI"
       ],
       "headlines": [
         {
-          "title": "AMD, Micron, Arm lead chips higher as Trump signals Iran breakthrough (AMD:NASDAQ) - Seeking Alpha",
+          "title": "Nebius Group N.V. $NBIS Shares Bought by Parker Investment Management LLC - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaWU1a2l4bGpuNzNKTjBxSDZKWjNhdVlsdG5ETllHZ09ESk1CU3prZ1p3elZiZVdLMmRmc0JFdHdDc3pQQjVWUHVGMENjWnJkTFkybFVIaEFPV2QwWmlTX1VITzZxS3oyQVVrVWpjNXd5MUZ4OGRpRElrbkdNNUFOWTcyamdCcVpQTS1sZE13MW5UMUFiRU9EczhzSTVpNXNhUmk1R2xjLVk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRHFYZHRGVHFnZDBCSHNtMmdUTTJBUDF2MGZfcmFsWDNjUnU1ajFVUE80MHQ0WGN4QU5uVWk3RXNRUzBKZS1MbTRoRGZMY1pmOS1GeFpQck9HTEVQaFFaYmF1aXdBeUlkWTNkX3FNc0xFRF9ITFhBNURwcEFCSHlsYkNhTzNsNmtDbE5famNpWnlpNGp3elJMeGxRUU9kQXlpSU5ZRlVISkJUSXJ0U2VJZkhtLW1ETjV1LTl1ZG4tR25QOXNDUVZCLWN0RQ?oc=5"
         },
         {
-          "title": "Why Arm Holdings Stock Rallied on Thursday - The Motley Fool",
+          "title": "NBIS Stock Thursday Breakdown | Nebius Group N.V. (NBIS) Stock Predictions Today Yankees Vs Brewers (yDR4YoASM6) - Fathom Journal",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeTNwYjFVQ3N3cEt0WUcyV0JvQkRjajd3ZmpncE5IY3plMGNyOElnd2hNY0FHcXEyNVM1Wkp4QUhoTXJSTUp4WklFN1pwRDdkSHhqMUpBSDB0V0djTEYtS0ZjSWE4WndjS3hRNWZlQWhwM082TWYxNmxVU0huV3dOa29pU1cwbHBHUW1sWTdn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nMUFubFQ0ZnVEVjA5MmJEalVzcnZ6Z3V5RjYtYTk0ZTRmaTZIa0x0eE1SeFdTVGtjVjFyT0hpT1BrVzZCNFVzSVhybERHTE9TSzl2dm5ndGNBcmQwZDVKb1MzZ3k?oc=5"
         },
         {
-          "title": "Arm Holdings Rallies As Agentic AI Spark Triggers Wave Of Wall Street Upgrades - Benzinga",
+          "title": "Nebius Group (NASDAQ: NBIS) Stock Enters Nasdaq-100 As AI Infrastructure Demand And Index Flows Converge - foreignpolicyjournal.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRHNGVDNlMjd5NTR0QVd2VWlmMjVucUZNYTItanZZUEZqR1I0d3diUV9kT1paYjM3NE5mSUtDSXBCa1dLdFdsWnQyVTJILUFrTm9OLURBaUxTMG9yQVhuMG5FRGVRRVVsQVBkWFNnSmJWdWlVRnJrYXltWC1idzduSDBmRUliYmR2d0FKdWRZNFdBdGFwWGhBaldHcE5ncDBRbVdVQUFjLVdkTHBSNGpvOEYzamFiNk91WmNiY2JsSXZyZTJlSGM1UkY3eDFacHMyU24xNndsNEF2Y2g4R25DWWNrektSbVA2UnF0LU9n?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRU15dU1qVzd0R3JqWmJLSXRYaDFxSjBhWXdVLXQyb254LWxqeXFiWm5BOU50UGd6Q2pLb1NmRmtXYk1xb1lXdmh6WTdLWjJVNHNCZnIwY2dIREViMVlXX2QxZm1MSFpMVE1PNF9wb192ZktGUmpyalhCbWo5X2puNVdySXFRRDR0anppaXJ3bzdpZnc0MzQzNzBoV2ljUzR4LUtTa2Q1MGZTT3pOVTZ2aWpRenhOc1MwcGkydE1RV3ZWNmpJLXVIQnF4dm9hVmxJdkh1akZWckItOXBVMlo4b0VlZXc?oc=5"
         },
         {
-          "title": "Why Arm Holdings Stock Rallied on Thursday - Yahoo Finance",
+          "title": "NBIS Stock Is Exploding… But Here’s The Risk Shane Gillis (tDh62GyWbo) - Mshale",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb3NYRlBVS1IySTdNS2poTmdSbC1DT2NBcTU1QnZKaG9hX1NGY1NJRjNZZW5nTWVHY1BMZlRsQzF0R2Jxb1pFY0NMaGxWYUsxTXVEdlp2YURUSzJQWHZ2Y3dOWC1mWk81bmNHa2tnZEFZZFFBdUJLZG1MeUpyb1VQSTJRSF9kNzRqN19TQm9LTTZxTnFCOS1zd05mdw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Qdk85OFlhTmFrRHYteGJkVkxETjZXTDNQSWlLcm1IbTBLdmxjdDVrbGZoeVktLXQyYmxEZXpCcTRrdl9scU83emZTNmNjdmdGUFhQdnQ0R2tsR2s?oc=5"
         },
         {
-          "title": "Nvidia, AMD, Arm stocks rally as BofA sees $170B agentic AI opportunity - TradingView",
+          "title": "Nebius Stock (NBIS) Opinions on NVIDIA CEO Praise and AI Infrastructure Growth - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXY2TGRYYm1RMHYtbG16OUVYdTE2eFBzdlR1ZFMybzkzX25EcjJLVHlySVhkTmxkb2hZVl83NGdKSUxEME1WZjFyQmd4MUpmSUQxUFRmUjJXRzJZeTRVMW9rRVBrMlBocjYtbUJ4SFdMdW51bkZnTmJUel9ndjVBOTFjMkQ2c1lWS2VTNmFEMldEcUtWU1pCV1hjbHNWTzVRbUJHcDNfek5sX0hKTjhkQ3NSeExNbmdadmhlallKTWFXX00?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ0RwZzFmNnh3eFp2eTN1YkF1UUFVcW1lOFZmVG5YTERvOTFySnNWTjFxSkp6Ul9ZdkN0X084bEFMUHNSYzg4ZFVDdFRRUFV6RWdRdGdlOVBVdHBaNzc5STlNYllEeEdYaWc0Y0hIRHpBRkJwMW4zekI5UDVHZDN3RnphakJfWWVnbUwyNUR6OU51d2k4MDItLXJxQlZaRTlpbllfdm9OVjB5Y0VlZW9EbFI5Q3gtdw?oc=5"
         }
       ],
-      "float_shares": "1.06B",
-      "short_float": "1.75%",
-      "daily_pct": 11.32,
-      "industry": "Semiconductors - Compute",
+      "float_shares": "202.00M",
+      "short_float": "21.93%",
+      "daily_pct": 4.55,
+      "industry": "AI Compute",
       "technical_status": "Pass",
       "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
+        "status": "Discrepancy",
+        "confidence_score": 70,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Bank of America raised the CPU Total Addressable Market (TAM) to $170 billion.",
-        "discrepancy_note": null
+        "primary_claim": "NBIS's inclusion in the Nasdaq-100 index",
+        "discrepancy_note": "Source A (Finviz News) provides no information regarding NBIS's inclusion in the Nasdaq-100 index. Source B (Google News) article [2] explicitly states 'Nebius Group (NASDAQ: NBIS) Stock Enters Nasdaq-100', but this claim is not corroborated by the other primary source."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -1118,50 +681,50 @@
       "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "USAR",
-      "price": 22.56,
-      "gap_pct": 3.26,
-      "pm_volume": 193216,
-      "avg_vol_10d": 17973971,
-      "avg_dollar_vol": 405492786,
-      "mkt_cap": 5031677481,
-      "rvol": 0.78,
-      "adr_pct": 10.22,
+      "ticker": "AU",
+      "price": 86.3,
+      "gap_pct": 8.53,
+      "pm_volume": 50783,
+      "avg_vol_10d": 3040486,
+      "avg_dollar_vol": 262393942,
+      "mkt_cap": 43582146790,
+      "rvol": 0.64,
+      "adr_pct": 4.15,
       "category": "Others",
       "theme": "Technical / Flow",
-      "reasoning": "News headline mentions 'Trump's Comments' causing a rebound, but specific details or fundamental impact on USAR are unclear, suggesting a sentiment-driven or technical move.",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
+      "conviction": 55,
       "grade": "C",
       "finviz_theme": "Others",
-      "analysis_detail": "Catalyst: Vague news regarding 'Trump's comments' led to a stock rebound. | Impact: Speculative. The lack of specific details means no quantifiable fundamental shift; move is likely sentiment-driven and short-term.",
-      "analysis_details": "• **What Happened**\nUSAR stock experienced a **rebound** following unspecified comments from Donald Trump. The FXLeaders headline itself questions whether this move is **sustainable** enough to reverse its previous trend, indicating a lack of strong conviction. The precise content of Trump's comments and their direct impact on USAR's fundamentals are **unknown**, making it difficult to assess the underlying cause of the price action.\n\n• **Key Consideration**\nThis rebound appears largely **sentiment-driven** or due to short-term **technical flows**, rather than a clear fundamental catalyst. The **below-average trading volume (RVOL 0.8x)** further suggests a lack of strong conviction behind the move. Given the **high average daily range (ADR 10.2%)**, the stock is highly volatile, and investors should be wary of a potential \"gap and trap\" scenario or a quick reversal, as the move lacks specific underlying company news or a quantifiable positive impact. **High risk** without further clarity.",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nThe stock experienced a **notable price movement** today, despite the absence of any specific fundamental news releases directly impacting the company. With an **RVOL of 0.6x**, the movement likely occurred on **lower than average volume**, suggesting it was driven by short-term technical factors or minor institutional rebalancing rather than broad market interest or a significant catalyst.\n\n• **Key Consideration**\nWithout a clear fundamental catalyst, the sustainability of any price action is **highly questionable**. Such moves are often susceptible to immediate reversals, commonly referred to as \"gap and trap\" scenarios, especially if initiated by low-float dynamics or technical stop-running. Investors should exercise **extreme caution** due to the **lack of conviction** from underlying business developments.",
       "peer_tickers": [
-        "NVDA",
         "SMCI",
-        "AMD"
+        "NVDA",
+        "AVGO"
       ],
       "headlines": [
         {
-          "title": "USAR and TNC Stock Rebound after Trump’s Comments but Is It Enough to Reverse Trend? - FXLeaders",
+          "title": "Invesco launches global enhanced equity fund - moneymanagement.com.au",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaG93ZFRzdjJUZ1dsNU1FVlpYZFlSWFJSRnRjMjlyZnk3UG9rOXJQN0tUaFEyYlN3T0tHRER1M0M0djZPclo2YWRVX2k2aG1wX2xQSFVFLV9oVUFqUHRyUVFSR25LSDVjNUhHNVVVRGthSE5NNlkxRFhxVUZzQzgwejVZc2lRWnlqVldhOHRfMGF1MHNKYmhUOURGMzBKbTZvQnV6eXFDZkNGZlNRWEJ5enFheXZOd1dUOTRUV2hoZ2l4OVU?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ1ptLUhHcFZRbFI4cmhRR0p3TWd4aUYtaFNrWFlrSU9EZFZWVEhxUEZOTlRnUlJMTV9JUTBja0Z1Y1lEaUwzSEZZelZTeklBWjhKeDNubDNCalQwQW1Pd3QyUTRJTldOM2dBWmJIYmFEaDZrZ3czSkNWdDEwZlFVNU1NcjVReE0?oc=5"
         }
       ],
-      "float_shares": "201.99M",
-      "short_float": "10.89%",
-      "daily_pct": 10.97,
+      "float_shares": "503.89M",
+      "short_float": "1.08%",
+      "daily_pct": 3.75,
       "industry": "Others",
       "technical_status": "Pass",
       "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
+        "status": "Unconfirmed",
+        "confidence_score": 50,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Trump's Comments caused USAR stock to rebound",
-        "discrepancy_note": "Source B (Google News) explicitly states 'USAR ... Rebound after Trump’s Comments', but Source A (Finviz) has no information to corroborate this claim."
+        "primary_claim": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+        "discrepancy_note": ""
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -1176,55 +739,109 @@
       "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "EOSE",
-      "price": 6.2,
-      "gap_pct": 3.23,
-      "pm_volume": 117720,
-      "avg_vol_10d": 21220685,
-      "avg_dollar_vol": 131568247,
-      "mkt_cap": 2104986971,
-      "rvol": 0.95,
-      "adr_pct": 9.72,
-      "category": "Others",
-      "theme": "Rights Offering for JV Funding",
-      "reasoning": "EOSE announced details of a rights offering to fund its Frontier JV, which the market perceived positively despite the dilutive nature.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "ticker": "MU",
+      "price": 981.61,
+      "gap_pct": 8.25,
+      "pm_volume": 1165899,
+      "avg_vol_10d": 55024966,
+      "avg_dollar_vol": 54013056875,
+      "mkt_cap": 1106994963847,
+      "rvol": 0.75,
+      "adr_pct": 7.2,
+      "category": "Thematic Narratives",
+      "theme": "AI Chip Rally & Memory Shortage",
+      "reasoning": "Micron's stock surged as increasing demand for AI chips exacerbated memory-chip shortages, further supported by broader market sentiment from Iran relief.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
       "conviction": 56,
       "grade": "B",
-      "finviz_theme": "Clean Energy - Grid",
-      "analysis_detail": "Catalyst: Eos Energy announced a rights offering involving a discounted stock-and-warrant package, and set the record date, to finance its Frontier joint venture. Impact: The market's positive response indicates confidence that this funding de-risks the JV's execution and supports EOSE's growth strategy in grid-scale energy storage, outweighing immediate dilution concerns.",
-      "analysis_details": "• **What Happened**\nEOSE announced a **rights offering** for a **discounted stock-and-warrant package**, setting the record date as part of its strategy to **fund** the **Frontier joint venture**. This move is intended to secure capital necessary for the JV's operational scale-up and project development.\n\n• **Key Consideration**\nThe market's **positive reaction** to the news, despite the **inherently dilutive** nature of a rights offering, indicates confidence in the **Frontier JV's potential**. Investors are likely weighing the long-term growth prospects and the de-risking of project funding against the immediate increase in share count, suggesting the JV is perceived as a significant growth driver in the **grid-scale energy storage** sector.",
+      "finviz_theme": "Semiconductors - Memory",
+      "analysis_detail": "Catalyst: Headlines confirm **Micron's stock surged past $1,000** as the AI chip rally intensified and a widespread memory-chip shortage began to bite, with DRAM prices **surging 6%**. Impact: This dynamic directly **benefits Micron's core business**, indicating strong pricing power and demand, potentially leading to **upward revisions** in future earnings expectations.",
+      "analysis_details": "• **The Narrative**\nMicron is benefiting from a **dual tailwind** of escalating demand for AI-specific memory solutions (HBM) and a broader **memory-chip shortage**. This supply-demand imbalance, specifically noted by a **6% surge in DRAM prices**, is creating a highly favorable pricing environment for memory manufacturers. The 'Iran Relief' further contributes to positive market sentiment, suggesting broader economic stability and potentially increased tech spending.\n\n• **Explosiveness**\nThe stock's **surge past $1,000** highlights significant momentum, driven by genuine fundamental shifts in the memory market. While the Relative Volume (RVOL) is **0.8x**, the magnitude of the price move indicates strong conviction on the back of these thematic drivers. The sustained demand from AI and the ongoing shortage provide a strong foundation for continued upward momentum, making this an **exploitable short-term opportunity**.",
       "peer_tickers": [
-        "STEM",
-        "FLNC"
+        "WDC",
+        "NVDA",
+        "SMCI"
       ],
       "headlines": [
         {
-          "title": "Eos Energy Enterprises (EOSE) Stock Surges on Rights Offering Details for Frontier JV - Blockonomi",
+          "title": "Micron Stock Surges as Memory-Chip Shortage Bites - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM2U3d18yVUtJNm5LbXp4bk5FV2hibnFmSlFEVDRXNlI1ZkdJN21EcWp6UHJmeVA0cHBpVUVHSUdOOUlKVmJjbmNaak51WnRhMHRxNW8zdmFmcE45Y0h0NjJnOEZXSTZnUm43bWl6MHNmVHc5WjBCeTNISzlmYmFrMmZ4Vk40WEJMV1VaNmFwdk5iVEQ3TGh5cU1EdEVvajBKbk5LMWRxekR4eXc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hNWt5eWxEd05GRmxWT2ZUU2N4d2x6OU8wNUtqVFY1blpNS2RDSjkzTVZVSGdQSzVVeUdTN0xJeExodG83QXhOS01ITlFYWHctak12RFNObzZmeTdEUkswS0ZxVkJuQV8tdmFjYnR4a3B4STdiV3RsQXdQRlhMZw?oc=5"
         },
         {
-          "title": "Eos Energy Announces Record Date for Rights Offering - The Manila Times",
+          "title": "Micron Stock Surges Past $1,000 as AI Chip Rally Takes Off on Iran Relief - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVnlxQThnNXlwSXNwdTFuemwzV2VoNkV4QUx0aEx2cEVTNVZpZzBseERDcGtkalhibkItVHNlamhBWWZqTlB6WlZOY2JMWWhQXzZqdnNNSGd0NGczVUR6V3dWVGxYRjFaRm5ORUhJMlFWd29KQkFraXdiMTBkU0pyMjZTX3JBU3hGMGRDZWwwTUpPQ1poZGI1ZHZoeGd6MFlteC1ZSkUwUEFPNTQ3UGFVaHo0ZjVWU0RiVzJtUDk3MGZaQW1x0gHKAUFVX3lxTFBPX3NodVRScUJmRFNNM193bGZyOUNKMUc5RW1NV3NzVkpFaDZUT1FKMnUzTnpYY1hsUzctWlJFLTBIaTVnYkxRM0pfYXNrV0Vqc19jR1J0N3RnQUlkRVVUajNFZWJsSHFGSzhBNG9yZXlMd1FwTTgwenNSeGgxQW8zb19PU0xMMXZNMkFNRl8xZUhEcnYtdk9iTzVUZjZIb0Vld3d3UGVhdXFLWjZDdjl6V19iczhOQjJLOENfMXNINUdKSGU5U21wbFE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZVRqVXlkdFBTaVAwbjNmeWtoTHNRTmY4cE5yUDZKS2xtcFhQQmI1b3B6anp1R1RNbTNxVTU0ZmpXNlRKUEw0UkxoTEFKVFRBZzFILW5MVDFkOHZkU1JBY2NablVFaGw0Rk5STWRVOTZlZWJDNUNmRUtfTEdyU0Z5OVJmTXFRT29yaVZEMl9jVjBnbFd5ZTRQTlIxaDhERnpRZE5j?oc=5"
         },
         {
-          "title": "Eos Energy plans discounted stock-and-warrant offering to fund Frontier JV - Stock Titan",
+          "title": "MU Stock Leads Memory Chip Rally Amid Iran Relief – DRAM Surges 6% As SK Hynix, Samsung Gain - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNG9nWXhDT2dlT1VkcGo2MEtLMHhxcDJwUzdHVmpZWDdSYzdCSHgybXVyNVVTb3ZGcGdVbzZfdFN5WEd6Ql9EUEZxTzM2Q2x6b1oxMzVIUk1FSFBlZkkycEZ6bDdJNVZkTEtJRHFuUHI0MmY2UFNSNDNEdkxTcjF3M1dDR0JhSG1Qdlk1V0U2WGMzamJ3dnZwN3pNSVNxTjg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS3ZxQjA0T2IxM1RvUXI4TEtGRURraDcwdmgtQXpSaW1LdkNqc3J0ajQ2YnE5Ql9IbGNtbEo0OGFIMTVINldhV2M0cHFiVlk1cEFiQmRlZHlOMnVObUxnWmYyREhyb0V0bE9VdkktRXFlSWxNQ2FUWEprTXlRSGkxem5odHZDUXA5LUtYRXd6RXdaYXZiNWc?oc=5"
         },
         {
-          "title": "Eos Energy Announces Record Date for Rights Offering",
+          "title": "Why NVDA, MU, INTC, Other Chip Stocks Are Rising In Overnight Trading - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYzNpRjMwbkprY3h4RHV1V0xUaFFYVGJsZGJoNWhXYmV4Vm1MS181TFBqT2VzN2x0amZxN2hiXzNDeDZsdHRmeXpnTjVBTFFzVUlRUmJaSkxua1dDWGQ2RXpIcHZsS3pSblVQajJxS3pCc0ZxUGhWeXVjbUdzbTB3SUV4OGpXUzl0RzE0dVRqd3NHUXR3dWNiQ0dDWUlKdHhrUk5RZTNjWUREQ2JUQjFYamlsUzJFRUZvblhaRFl3YTFtYXpqTXdJWHNB?oc=5"
+        },
+        {
+          "title": "5 big analyst AI moves: Double-upgrade for Intel; SpaceX gets Buy call after IPO",
           "source": "Finviz",
-          "url": "/news/361321/eos-energy-announces-record-date-for-rights-offering"
+          "url": "https://finance.yahoo.com/sectors/technology/articles/5-big-analyst-ai-moves-093002039.html"
         }
       ],
-      "float_shares": "333.25M",
-      "short_float": "31.06%",
-      "daily_pct": 2.14,
-      "industry": "Clean Energy - Grid",
+      "float_shares": "1.12B",
+      "short_float": "3.34%",
+      "daily_pct": -1.43,
+      "industry": "Semiconductors - Memory",
       "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Micron Stock Surges Past $1,000",
+        "discrepancy_note": "Source B (Google News), specifically article B[3] from TipRanks, states 'Micron Stock Surges Past $1,000'. However, Source A (Finviz) does not contain any mention of Micron's stock surging past $1,000 or any specific dollar amount for its surge. Other articles within Google News (B[1], B[4], B[5]) also mention Micron's surge but do not specify a $1,000 price point. Given Micron's historical trading range, the claim of surging past $1,000 is highly unusual and likely a typographical error in Source B[3]."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "GFI",
+      "price": 36.5,
+      "gap_pct": 8.16,
+      "pm_volume": 125780,
+      "avg_vol_10d": 4109163,
+      "avg_dollar_vol": 149984450,
+      "mkt_cap": 32215744225,
+      "rvol": 1.34,
+      "adr_pct": 3.58,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "895.01M",
+      "short_float": "0.41%",
+      "daily_pct": 1.67,
+      "industry": "—",
+      "technical_status": "Fail (ADR 3.6% < 4%)",
       "verification": {
         "status": "Verified",
         "confidence_score": 100,
@@ -1232,97 +849,646 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "EOSE announced a rights offering",
+        "primary_claim": "No immediate fundamental catalyst found",
         "discrepancy_note": null
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "FCEL",
-      "price": 17.69,
-      "gap_pct": 3.02,
-      "pm_volume": 85574,
-      "avg_vol_10d": 10917342,
-      "avg_dollar_vol": 193127780,
-      "mkt_cap": 1195988556,
-      "rvol": 0.67,
-      "adr_pct": 16.33,
-      "category": "Earnings",
-      "theme": "Earnings Miss",
-      "reasoning": "FCEL's stock is plunging hard today following its Q2 earnings report, which **missed analyst estimates**, despite reporting significant pipeline growth.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Hydrogen",
-      "analysis_detail": "Catalyst: FuelCell Energy reported Q2 earnings that **missed** analyst expectations, leading to a **sharp decline** in its stock price. This fundamental disappointment overshadowed the reported **267% pipeline growth**. | Impact: The earnings **miss** has triggered immediate negative price action and investor sentiment, indicating that the market is prioritizing current financial performance over future growth potential for FCEL.",
-      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nFuelCell Energy's Q2 earnings **missed** analyst estimates, leading to a **significant sell-off** in the stock today. This **negative** surprise factor contrasts with recent momentum and raises concerns about the company's operational execution and profitability.\n\n• **The Growth (Momentum)**\nDespite the earnings miss, FCEL reportedly achieved **267% pipeline growth**, indicating a substantial increase in potential future projects. However, the market's **severe negative reaction** suggests investors are currently more focused on immediate financial performance rather than future growth prospects.\n\n• **The Guide**\nWhile the headlines highlight an earnings **miss** and pipeline expansion, specific details regarding FCEL's Q3 or full-year guidance are not available. The stock's current **plunge** implies that any forward guidance provided was either uninspiring or was entirely overshadowed by the disappointing Q2 results.",
-      "peer_tickers": [
-        "PLUG",
-        "BLDP"
-      ],
-      "headlines": [
-        {
-          "title": "Why Is FCEL Stock Plunging Hard Today? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSDdDcHJLM0RwMkZ3ZUtZay1NRlRFcm9pS2pETndIV25KSHZPR3A1QlpqOUtQaG9SYUhFUjBGYzlwWC1HTHp0RmlYMWRROEpFb2p2dHMyelVPS3JIZkwtbWZ0VkFSclBNU1lZMURLbDlObV9veE5jVVNraEFvbDkwMDBIWk53OVhHbzljUEFfSWlXWmtWZ2Z1SXFFWmxzS2l3NHRr?oc=5"
-        },
-        {
-          "title": "FuelCell Energy (FCEL) Stock Valuation Check After Strong Recent Momentum - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbUY2MjhyQy1qTjZ6aUpaOVBDU2R2bGFPN0E3MWhEMlZYbGFDaS1hdHlFRUJDRUNEUlZzUXFHMkVYTEl1VERJOGxVbVpMd2RnU3dPMWFLR3VQaXkwRHVMekNwMzdVQ1hOUTNjZm9LT3Y0QzVCcjEzckZlT1VBTDFxbmxLY2phQXZQODZVemZLcHNLMXo3TV9LSEo2RUh0M3lnWHhiYWpENl9mSUV2bUNVNXJDaG5GaC1kR1ZIOEhpWjJfdVdVeGN6dmlVV2NDbkcteTdibEZR0gHbAUFVX3lxTE5LN2dOOE1LdmJOT2hCSFhmMHlYanI2Wlk5NU82VHBZdkRYeVRkWjhzMmw4RFV2TlFnNU1LSFN6SnBDTkcwZ1FUZW9jd05iY1ZKSjdTTHgzUU1oWVYtWXdUQXhIVGV0WG54UTZHVVB2bGthWG5RazZHcDZQLVVyTDZ0d2k5MjhUNWpqY3MwVFlfdFdFMklRSmdVSEdwT21HVkJMQTYyYlk0dE9USGtZZmJ4NWdsN2d3bFZiay1fa0c1d1dGZGx0MDZIdVFvUUNtakRqeXNaQzdYZy1SUQ?oc=5"
-        },
-        {
-          "title": "FCEL’s short interest is at a 2026 high, earnings miss estimates – so why does one analyst see nearly 100% upside? - MSN",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOTmhTMTR3U1Nqc3RKYUdBdDFuSUx2enlDWFdzTG52by1tRG9zN29UQzVRUHhFMEFuSnNPUFhqeGZucDVZcUVwM3M0cmRlb1NQR3ZjNjA2NW9TRGdteXJfN3pXOVRjcC11MjNONkxqX3BTRVY1Z3lQVExGVHhKeVZ5SFpreTJpckVPZ3c1T3Q0LUhiWlJac05tUE1yS0xndGlLbFNnM1JpZjY1VVIyRzlXd3h1MVRfaGtuX2w0T1Z1YzJBV3NIaUhveFp0YXQ5TVRUZWtONGRxNFlxVGVHem9UYncya3gtZXNWcDBOWElweTlpNnczWk9QemhHUG9wNU1pU1dtUmpBbEFpeFhuTUxRZ3ZXbXo2WXc4YkNQTGpZSmVMV0Q3T3B1aTYtN2V4VGdOeHdfd3l5dHFuUElmTC1RVzlsd2dialV5TzlBNzV3dC00dlBoMmZSQVozWFVaeWJhaDRWZ3ZVZVRRQjlYa0phOFN3VjJZNmZzNWRPUFJsX2ZsU0JxYzcwS3R3?oc=5"
-        },
-        {
-          "title": "Plug Power Surges 120% in a Year: Should You Buy the Stock or Wait? - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXZhcTBETk1HSEtIcFV5RDhYclNHQnV4TFlpT1A3MHdYWDRqTGM1b1NPa01zT2RtdWo5ay1iSHBpZjhaTjRJeTR4dUZTS3gyWnYzTWhTbXdZaUNONlhKV3E5dU9Gbk1kUVRpQnBHc2NSZnR4QkJwR2pEUnV2a25uZml4RjA2U1cycVluM2pua1VtUm14cEFPckxGWEtoLVFnYzNzeTQtLVhldUFObTliYzhQbW50VEo4dFFvbQ?oc=5"
-        },
-        {
-          "title": "FuelCell Stock Sinks After Q2 Earnings Miss. Why 267% Pipeline Growth Wasn’t Enought. - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMjRQR2gtZGlJZm5fZWpPakVhVU42RXBsaV9faW4wUElyWkY4SHVudDZ0QUdHbGF3Nk5ZNnJRM2diNmUxdTlpcm1HNkZsWTNZR2thUkFxR1F5cDFJMVJTQmtBRVZ0cXhNdkdXZG5kMjN6blFSMXJUZnI0UEpBNFhweUZqajNsZjEtQVBvT3JGckZ1WnpEWW1VVldBMEM3Zw?oc=5"
-        }
-      ],
-      "float_shares": "67.39M",
-      "short_float": "8.01%",
-      "daily_pct": 9.13,
-      "industry": "Clean Energy - Hydrogen",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 85,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "FCEL's Q2 earnings report missed analyst estimates",
-        "discrepancy_note": "Source A (Finviz News) provides no information to confirm or deny the claim. Source B (Google News) articles [3] and [5] both confirm that FCEL's earnings 'missed analyst estimates' or reported an 'Earnings Miss'."
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
         "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "HL",
+      "price": 15.29,
+      "gap_pct": 7.88,
+      "pm_volume": 399399,
+      "avg_vol_10d": 21013352,
+      "avg_dollar_vol": 321294152,
+      "mkt_cap": 10255192606,
+      "rvol": 0.79,
+      "adr_pct": 5.09,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "665.46M",
+      "short_float": "4.94%",
+      "daily_pct": 2.0,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "ASM",
+      "price": 6.39,
+      "gap_pct": 7.82,
+      "pm_volume": 66961,
+      "avg_vol_10d": 4387519,
+      "avg_dollar_vol": 28036246,
+      "mkt_cap": 1087583157,
+      "rvol": 1.69,
+      "adr_pct": 6.33,
+      "category": "Upgrade",
+      "theme": "Analyst Re-rating / AI Tailwinds",
+      "reasoning": "Simplywall.st reported on recent analyst upgrades and re-valuation of ASM International driven by strong AI sector tailwinds.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 34,
+      "grade": "C",
+      "finviz_theme": "Semiconductors - Lithography",
+      "analysis_detail": "Catalyst: Simplywall.st highlighted that ASM International is experiencing a re-valuation by analysts, driven by significant tailwinds from the AI sector. Impact: This signals a positive shift in market perception and potential for continued upward price momentum as the market discounts future growth opportunities tied to AI infrastructure.",
+      "analysis_details": "• **The Firm & Rating**\nSimplywall.st highlighted that ASM International's stock valuation is experiencing a **positive re-rating** by analysts. This comes after multiple firms have reportedly **upgraded their outlook** or adjusted price targets, reflecting a growing bullish consensus around the company.\n\n• **The Thesis**\nThe primary driver for these upgrades is the strong and sustained **AI tailwinds**. Analysts are increasingly recognizing ASM's critical role in providing advanced semiconductor manufacturing equipment, particularly Atomic Layer Deposition (ALD) solutions, which are essential for producing next-generation AI chips and advanced packaging. This technological edge is expected to translate into **robust revenue growth** and **margin expansion**.",
+      "peer_tickers": [
+        "ASML",
+        "LRCX",
+        "AMAT"
+      ],
+      "headlines": [
+        {
+          "title": "ASM International (ENXTAM:ASM) Stock Valuation After AI Tailwinds And Analyst Upgrades - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOekwxYmY2RndiS2hnWDRNMmVwOXV6Q19ObzItdHlOMHVRMWl1cEo1VHNUSkdYT0FBY3FQZVQxeGVxeEpQSTFRLWNDc3gwcUQ4cHlGWkxBeldBZEduYVlEb3ZQcmtuSGFCYmQ3eXpoMTZuWWxZTkRrUlJEN0JzbTVWNHIyMkNxSUdldHpYN2lwSUNfSUtOVGZUTm5JQW8yMnU4cENfQzJjelFhaU9fUFQtOU1rSFZseVVwZzgwRVA4WUhwTUkxS3NkVEVYRXR5S09hallqaHk2QndGdDJjb2fSAeMBQVVfeXFMTVFJZm0ydEczeGhMV2NYSTczaF9ZSm1sd3ZLZHFCQXpxQ2JHRnJKNUFsMGJQWmthV0dWdm5NeTIyZV9rNGJzSTZObDNyX1ZWV0VqS3VIM3kwSlZHSFZCTW81bVV4YWNrRFoycEJ0eG4wRXZsZ3hlelhIcm53SEJnUFdKNGNQQ0RUSXBlLTdfNXUtRUZiRkhUY0N5VF9jX0tVVkwtVUxsOVQ1cjZrc1lFaGw1eDI5Y1VZdkFlSm5NeXhCMUZoZjZSUl9JYm83TXNDTzU0U3l6YXB5V2pha0RFaXF2bTA?oc=5"
+        }
+      ],
+      "float_shares": "158.53M",
+      "short_float": "3.03%",
+      "daily_pct": 6.86,
+      "industry": "Semiconductors - Lithography",
+      "technical_status": "Fail (Avg $Vol $28M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Simplywall.st reported on analyst upgrades and re-valuation of ASM International driven by AI sector tailwinds.",
+        "discrepancy_note": "Source B's headline from simplywall.st confirms a report on ASM's valuation and analyst upgrades due to AI tailwinds. Source A (Finviz News) explicitly states '(none)', providing no corroborating information."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
         "gate_mkt_cap": false,
         "gate_adr": true
       },
       "meets_all_gates": false,
       "tier": "Fail",
       "tier_label": "Excluded"
+    },
+    {
+      "ticker": "STX",
+      "price": 931.04,
+      "gap_pct": 7.44,
+      "pm_volume": 58434,
+      "avg_vol_10d": 2999300,
+      "avg_dollar_vol": 2792468272,
+      "mkt_cap": 208766152663,
+      "rvol": 1.26,
+      "adr_pct": 6.2,
+      "category": "Thematic Narratives",
+      "theme": "Sector Sympathy",
+      "reasoning": "Moving in sympathy with the memory sector following hopes of an Iran peace deal.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Semiconductors - Memory",
+      "analysis_detail": "Catalyst: News reports indicate a rally in memory stocks, including STX, MU, and WDC, driven by hopes of an Iran peace deal. This geopolitical development is seen as potentially improving global economic conditions. | Impact: Secondary. No company-specific fundamental impact on STX's financials or product pipeline is evident. The move is speculative and correlated to broader sector sentiment.",
+      "analysis_details": "• **The Narrative**\nThe recent rally in **STX** and other memory stocks is primarily attributed to a speculative **market narrative** surrounding a potential **Iran peace deal**. This geopolitical development is perceived to foster global economic stability and potentially increase demand for technology components. However, this catalyst is **macro-driven**, and its direct, quantifiable impact on **STX's** specific business operations or revenue streams remains **undefined**.\n\n• **Explosiveness**\nThe stock's movement is indicative of a **sympathy rally** within the **Semiconductors - Memory** sector, evidenced by **1.3x** average daily volume, suggesting heightened trading activity. While momentum is present, the **speculative** nature of the \"peace deal\" and its indirect connection to **STX's** fundamentals make this a potentially **volatile** and **unpredictable** short-term play. Investors should note the **absence** of company-specific news.",
+      "peer_tickers": [
+        "MU",
+        "WDC"
+      ],
+      "headlines": [
+        {
+          "title": "MU, STX, WDC, DRAM: Memory Stocks Rally Amid Hopes Of Iran Peace Deal, SNDK Hits Fresh High - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbUtGZGlTWWxCVXRxS1VNTHNremJVVGlILW1EamZYbk1WYjFoSUFaX1VlZGV3cWVORV9wRmZvYTRoVFpPUXRSczIzTzFuajlDeDRZT0ZFX2lqblpOLU9JcHcxOUlabEpNSVZJU0c5cmJJcFN4eVZwNUFsTC1SdHU1RzRSakVkX0NXLTFSQjVIMWJMVF9EcVZBay1NZ0VmWHMzbG4tRTYzNXJjeVdNQlVYZ3dKSkhUQ05PalBpeEZDRGx2MWJyYlRYb2FoNFJ1d2lIdEozWk5FUEVNUzRYRlE2UUFIc3k?oc=5"
+        }
+      ],
+      "float_shares": "223.63M",
+      "short_float": "4.05%",
+      "daily_pct": 7.25,
+      "industry": "Semiconductors - Memory",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 60,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "STX is moving in sympathy with the memory sector following hopes of an Iran peace deal.",
+        "discrepancy_note": "Source A (Finviz) contains no information relevant to the claim. Source B (Google News) confirms the claim, explicitly mentioning STX among memory stocks rallying amid hopes of an Iran peace deal."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "SNDK",
+      "price": 1980.1,
+      "gap_pct": 7.13,
+      "pm_volume": 224873,
+      "avg_vol_10d": 11296055,
+      "avg_dollar_vol": 22367318506,
+      "mkt_cap": 293232544924,
+      "rvol": 1.04,
+      "adr_pct": 8.23,
+      "category": "Thematic Narratives",
+      "theme": "AI Demand",
+      "reasoning": "SanDisk stock experienced a massive surge, attributed by market headlines to increasing demand from the AI sector, driving the stock to new 52-week highs.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "A",
+      "finviz_theme": "Semiconductors - Memory",
+      "analysis_detail": "Catalyst: Market headlines are reporting a **5,000% surge** in SanDisk stock, explicitly attributing the monumental rise to soaring **AI Demand**. This narrative-driven momentum has propelled the stock to **$1,980** and new 52-week highs. | Impact: The market is fundamentally re-rating SanDisk as a significant beneficiary of the artificial intelligence boom, leading to a substantial shift in perceived value and future growth prospects within the memory sector.",
+      "analysis_details": "• **The Narrative**\nSanDisk (SNDK) is experiencing an **unprecedented surge**, with headlines citing a **5,000% increase** in stock price, primarily driven by the overarching theme of **\"AI Demand.\"** The market is increasingly viewing memory companies, like SanDisk, as critical infrastructure providers for the burgeoning AI industry, leading to a dramatic re-evaluation of their growth trajectory and market potential.\n\n• **Explosiveness**\nThe stock's ascent to **$1,980** and hitting **52-week highs** underscores the **explosive momentum** generated by this narrative. Despite no explicit company-specific news (e.g., earnings, new contracts), the strong speculative interest and **institutional flow** into AI-related memory plays are fueling this rally. The high Average Daily Range (ADR%) of **8.2%** highlights extreme volatility and robust participation in the current price action.",
+      "peer_tickers": [
+        "MU",
+        "WDC",
+        "NVDA"
+      ],
+      "headlines": [
+        {
+          "title": "SanDisk (SNDK) Stock Hits $1,980 in June 2026 — 5,000% Surge on AI Demand - FXLeaders",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUTVBVER4R1JNZENpd19mLXV1bUtjUjI0NG1xQW5NalBFSnlMeTlFLWxGLUtCejdyVnlfREVORFdqd3JVVTU5Y2F2S1E5ak0wTTc3ck5WNDQzZHpkUmlYVUw3ZmZHeUN3QU1ad2p4Rk9oazBEZVVheURSSG5rbnh1VVdCZTJINzdpdWdxMlNaTU41a0VKU3Nxa3hxc0g4TUg0UjFwTmozSU9sUDdr?oc=5"
+        },
+        {
+          "title": "GOOGL, AMZN, SNDK Stocks Hit 52-Week Highs Today: What's Fueling The Rally? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcHVtbEVCaXN4ZV9QNFczZ29VSXRDYkxJRDZHSE9nTG1iS2xzSFNDSG5jR2xqeV9HOGhQY005aE5TS2tobjN1ZENGM3B6MjRxQkJscnAwdTBzb1BNOWlSaEVhU1dZSnhpQXV1cE1mQ3dzMy1lMzRJRzdyQ0VnN0xDdE84eUNSblRkR3JSNTVxXzBYdjN6Yk1UMnBLdHEyRFVHVE9SbE1NQmhqY3BFUk9wV3k4NWYyN1BaMnZFRW5HSGJOR014c2twV05pVnNRcW41RkE?oc=5"
+        },
+        {
+          "title": "Why Did ROKU, SNDK, C Stocks Hit 52-Week Highs Last Week? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0pRdUpfQUp1U1VPYWw5X2dNWVNoNHA5TzJxU1pLZjF4SnU2R1AxX0Z6WHN0MnJfNUh6RlVQVk9HZDdOTXZGN0ticm82NFlsSkZYZ1dWRWxkT2ZQbXpIMmNrZUxzMWRQV0NhMGFmVGoxVnNGZmdRVTJWUkFZQlJjVVdJRzFzV0I0d0pPeg?oc=5"
+        },
+        {
+          "title": "$SanDisk (SNDK.US)$ - Moomoo",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQeVAxSktaeHlMaHJNSkxwYTlqZGlRck5nQXQwYkZYQURpeVJVN0NtMDlkWmx4ZnNXcDQzRHNlVHJNT3gyUXNCTWtTRWRjN3ZMZjk4ZEE3Z0JvaWxSc0xLUmkwb1N6dE5TU0tocjJqTlc3Mk05NUZjZmZKUF9xLThscUxyZlNfSGZOXzl2NldON2Y2eUJxbWtYMldGNWNUV0ZPSVJXLVlMbGFEdzlTdl9qandLUlVNYTl6ZHJMZUV6S2FzeWFTVkhHWkZDOTA5aVJtRTMzZ1M4LXp6UkFJY3NleDNwWHhGM055dUVpTHNhNEpTYURjTWpiaUlMZDVTbDFON2NPd3N2cE5vQU1aSnhlV2F6WkNZRGRMcEhydXZwTmpCTlJwb1NZWEtPV3R1NVJSTEw4RzEwRWtlTE1na0tlZGtrLWkxZEMxQ2k2d3VyUEZqYVpGamJTN2QyQXNWblVRcWdFX3NPdmJMR19fcFEyY0ZIbFdEMDhtQ21qNzBpYkV5aF9oazI4?oc=5"
+        },
+        {
+          "title": "Why Did ROKU, SNDK, C Stocks Hit 52-Week Highs Last Week?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/2194b65c-6276-3a5e-9ab8-0c8f11e1ab2d/why-did-roku%2C-sndk%2C-c-stocks.html"
+        }
+      ],
+      "float_shares": "146.13M",
+      "short_float": "6.30%",
+      "daily_pct": 5.24,
+      "industry": "Semiconductors - Memory",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "SanDisk stock experienced a massive surge, driving the stock to new 52-week highs.",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "AG",
+      "price": 17.65,
+      "gap_pct": 7.07,
+      "pm_volume": 315417,
+      "avg_vol_10d": 12756424,
+      "avg_dollar_vol": 225150884,
+      "mkt_cap": 8714536708,
+      "rvol": 1.13,
+      "adr_pct": 5.94,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nAG stock is currently experiencing a **significant overnight jump** of **over 5%**, a notable move highlighted by recent financial headlines. Despite this considerable price action, there is **no specific company-related fundamental news** or broader sector catalyst identified in the last 24 hours that would explain such an abrupt surge. The reporting simply notes the price movement without offering a clear cause.\n\n• **Key Consideration**\nGiven the absence of explicit news, the overnight move is likely driven by **technical factors** or **market microstructure effects**. Potential causes include a short squeeze, program trading, or a large block trade creating upward pressure. The stock's Average Daily Range (**ADR% of 5.9%**) indicates it can be volatile. Without fundamental backing, the sustainability of this **gap up** is questionable, and investors should consider the risk of a potential **gap and trap** scenario. The **RVOL of 1.1x** shows moderately elevated volume, but not definitively confirming overwhelming institutional conviction.",
+      "peer_tickers": [
+        "PAAS",
+        "FSM",
+        "HL"
+      ],
+      "headlines": [
+        {
+          "title": "Why is AG stock jumping over 5% in overnight trading? - MSN",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGY1eF9BQ2hTcmM2a3hVampiOS1UXy1uRHFac0VQMlMweFBsUF8zS2FOQnpOVFp2RVdpYUpxZHlWMW9uZkswc2ZDbHhsR3JBVTNFUUhrenBfME0zSWYxaHlEcGhscDc5cG9KdkZvSzVIUlVxa1BESEZBM0dRTzBvOWVRWVlQMnl0clpYQnFOZHBES3ZDSEJrVUxfZF9HVTRXbmxwNkplNDZsbzFqaHp0TGRqeURTY2JKVzhVRHNhN2x3QloxLWc?oc=5"
+        },
+        {
+          "title": "Why Is AG Stock Jumping Over 5% In Overnight Trading?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/71bd9585-a26f-3ac9-bfd9-2858e80b40f1/why-is-ag-stock-jumping-over.html"
+        },
+        {
+          "title": "SFS Group AG Stock (CH0239229302): Quiet-day focus after a modest move - AD HOC NEWS",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlNVNk9FdXY2RXBhNkFETTViVDg5cGJGQWxYTzJYWHJ1cGRHTm53Z0hBU3U2RGgzZWhSR0JQUTVWZEU5dDM1SWZYMHhXd3Y2dUlFTklfMmFMSWV3ZzNpRGlKaU16SVdGNFhfMi1jTmxlTWMySHNsOWZEODM1WlprbENtMldqdEI5TjcyUEhHR0VlQWRrUU1ETFlfT2FwWVVoYVJONWt4N2lmOTNacVhNQU44NktxZ0JXMHliZkUtZm1JTC1Z?oc=5"
+        },
+        {
+          "title": "EMS-Chemie Holding AG Stock (CH0016440353): Valuation stays in focus after recent share strength - AD HOC NEWS",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVDdBNkNQOUIzaDN2X3I1U3FuWEp6bjVVMGI4QzhnWllpbTlsN2tjRnlUWjV0Wk13Uzl4TmtGcDdUM1ZQa0duS1lDYWpyWFV6QmVFU2Z6UmNudzRmTGEwRXp2RTVUb1E2ek5yaUxGaXV2RTd0YkREd1pQc1puVS1mYmJMTlRsRnlKS0F1dElaVklMTXhyUEstUXlsMVh4cmFUQTFkal8wbEF2aXhLU2pNdVo4UERzRUF3QWhyR0lQeEp5Z0Q3WDhPQ2ln?oc=5"
+        },
+        {
+          "title": "Siemens AG Stock (DE0007236101): Shares in focus amid quiet news flow and DAX backdrop - AD HOC NEWS",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNERrcnpPblBRUWJCWmtxb0xMWVF0X3FXQmI3YnpTR19uc1Qyd21UTkxTZEZoZXhuSE9HYjhlVlQ1dEFuYVFGV21BWDZyY0FJbGNnSWhyVlBGcjNOaFhrYnhuMWM4Ri01YkdPdEx5X2JLT1k4R25ZNDVGOXEwYjVWMlNac2tDMGlVS2VEVjN3c05QNDlVWUZXajRsb3RoNVBkdUFzLWViWExraVlla2g1Vnl2SnZYTjN3dmlWM1cxWUpVR0QwZzE2bA?oc=5"
+        }
+      ],
+      "float_shares": "486.96M",
+      "short_float": "3.64%",
+      "daily_pct": 4.31,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "AG stock is jumping over 5%",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "FSM",
+      "price": 8.93,
+      "gap_pct": 6.94,
+      "pm_volume": 90833,
+      "avg_vol_10d": 5642004,
+      "avg_dollar_vol": 50383096,
+      "mkt_cap": 2705409187,
+      "rvol": 1.33,
+      "adr_pct": 4.3,
+      "category": "Government Policy",
+      "theme": "Environmental Approval",
+      "reasoning": "Fortuna Mining received environmental approval for its Diamba Sud Gold Mine in Senegal, de-risking a key growth project.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Fortuna Mining (FSM) secured environmental approval for its Diamba Sud Gold Mine in Senegal, clearing a critical regulatory hurdle after a nine-month review process. This approval is a green light for the development of a significant gold asset. | Impact: This approval **de-risks** the Diamba Sud project, providing clarity and allowing FSM to advance towards production. While no immediate financial impact is quantified, it **removes a major impediment** to future revenue generation from this mine.",
+      "analysis_details": "• **The Policy**\nFortuna Mining has successfully navigated the regulatory landscape in Senegal, obtaining **environmental approval** for its **Diamba Sud Gold Mine**. This milestone signifies the government's clearance for the project to proceed after a **nine-month review**, effectively removing a significant regulatory hurdle.\n\n• **Direct Impact**\nThe environmental approval directly **de-risks** the Diamba Sud project, an important growth asset for FSM. This regulatory certainty allows the company to move forward with development and eventual production, paving the way for **future revenue generation**. The market reacted positively, with FSM shares **gaining 6%** on the news with **1.3x average volume**, indicating investor confidence in the project's viability.",
+      "peer_tickers": [
+        "GOLD",
+        "NEM",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "Fortuna Mining (FSM) Gains 6% After Environmental Approval for D - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmNLOFEzLXlGR0lRbWhnVEJQek5ubS1XSXVNVEJvMkMzTF9EQW9wSmpoeVpLNTQ5QU5wUmY2YzZld2EyZEdJN1ZDM0RQMHgyNmxTMzNPb01WeW9nWkZoVGRkY3FnNm9PUEZqR1BzX05XcXpYUU5wQTRodS1zY2R5Mi12dmFTVDFwZ0lQX2JCaGZBa1NTWm5sWXRHc0h5bFB6WVRtWHBSMmk5TmYtMmZtYV9FNnRlWE94?oc=5"
+        },
+        {
+          "title": "Fortuna Mining (FSM) Receives Environmental Approval for Diamba Sud Gold Mine - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYlJDSndSbXBPWGx0ZkxSUnhiT1RIU0tXUFJ3Vm1veS1DU0ZOWS1QTm9TWjdWaXhpYXRZTk1TZGVxWnVGNUVkMUtDS2c2NmlYX3FvMTVkVldvS2FVLURMUHB4cVJhMUZ2ZzdtMC1STFlub1FpNm9YOWVNLTNXeGkzM2g5elBrZGZhVW83dzJMSWc1Ml9kTk1TY3U5MXVnUVFDTWhPbXIwcWdiSTZSbmRyQURQck4?oc=5"
+        },
+        {
+          "title": "Senegal clears Fortuna gold mine's environmental review in 9 months - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVGVZdXByUHZxQTlkeTVob3NWWWdicUx0WW44SG9aV1BUZHlEa3pDLTF0VE9VbWNmRTlmWU9BX05pU3JNaW1kb1ZfUEJUbm9tRG9IbDJjVHZ6U213THdpN0t5VEs1dG9ROHE3Y19NYlZKOEdoMGFkdUtPalZubEZhSThsenJsTXJhZVlXUlk5b3d0QlRrSmdldWYzVHpaeTluNU9QcG9tTnVMcS01RmVZVW8wVnFpTkk?oc=5"
+        }
+      ],
+      "float_shares": "299.96M",
+      "short_float": "5.68%",
+      "daily_pct": 3.72,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (Avg $Vol $50M < $100M)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "environmental approval for its Diamba Sud Gold Mine",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "WDC",
+      "price": 562.92,
+      "gap_pct": 6.94,
+      "pm_volume": 111041,
+      "avg_vol_10d": 6672132,
+      "avg_dollar_vol": 3755876545,
+      "mkt_cap": 194030183207,
+      "rvol": 0.95,
+      "adr_pct": 6.03,
+      "category": "Upgrade",
+      "theme": "Analyst Reiteration / AI Storage Demand",
+      "reasoning": "Mizuho reiterated its strong positive stance on WDC, citing robust AI storage demand, driving increased investor conviction.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 31,
+      "grade": "A",
+      "finviz_theme": "Semiconductors - Memory",
+      "analysis_detail": "Catalyst: Mizuho **doubled down** on WDC stock, emphasizing that **AI storage demand shows no signs of slowing down**. | Impact: This analyst endorsement **reinforces WDC's strategic positioning** in the booming AI infrastructure market, potentially leading to **increased institutional flow** and upward revisions to price targets.",
+      "analysis_details": "• **The Firm & Rating**\nMizuho has **doubled down** on its positive stance on WDC, signaling a **strong reiteration of conviction** in the stock. This comes from a **Tier-1 analyst firm** and is perceived by the market as a significant positive signal, suggesting potential for **increased institutional interest** and positive momentum.\n\n• **The Thesis**\nThe renewed confidence from Mizuho is explicitly tied to the **robust and sustained demand for AI storage**, which they highlight is **'showing no signs of slowing down.'** This solidifies WDC's critical role within the rapidly expanding AI infrastructure buildout, leveraging its **NAND flash and HDD solutions** essential for data-intensive AI workloads. This strong thematic narrative provides a **fundamental tailwind** supporting WDC's future growth prospects.",
+      "peer_tickers": [
+        "MU",
+        "STX"
+      ],
+      "headlines": [
+        {
+          "title": "Mizuho doubles down on WDC stock as AI storage demand shows no signs of slowing down - MSN",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQQzdsbFF0LWR3ZzZJal9RRlpFZUlqU3VIVEQxeEJJejlIc0FSQm5FVnhSLUFLSVIycUt3S2ZieU9VUTNPbEZSVG1kRS14UUY4TlZyOWZqdkFsYlp6TVE3VVpoNGxhbEpPSmNDdTBrSDhCb2l2ZmVhY3ZXSGM4dFU5VnQwOTh1SnNjUWx2Y1NuODE4OGJRb0ktVDBUbjhvRzVlajViRXNlbTUtZmNKOE9SaHp4Z0JWMUNWb1RoTUtta1dkemNJZWp4czlmNFBvdG5DR2tpN3h5dlpzUGd0bmFSS3ltdzllVlNhUHktMEJEbFl4QVMyTFBFa2hicXNyM3FFc0NFSlhwWU95THJXU0hlUWFWZ2ItVV9halN4NXgzQVZGby1nN3NGTVRCRmZ0d0dIQ0lESjFtQllMTnFDcmhTSjFlZ1lEU1Bhcl9BbFVuVE9ZMDhSV2V6SFZ2Yk8xdjhmaDFNZEpsZHE?oc=5"
+        },
+        {
+          "title": "MU, STX, WDC, DRAM: Memory Stocks Rally Amid Hopes Of Iran Peace Deal, SNDK Hits Fresh High - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbUtGZGlTWWxCVXRxS1VNTHNremJVVGlILW1EamZYbk1WYjFoSUFaX1VlZGV3cWVORV9wRmZvYTRoVFpPUXRSczIzTzFuajlDeDRZT0ZFX2lqblpOLU9JcHcxOUlabEpNSVZJU0c5cmJJcFN4eVZwNUFsTC1SdHU1RzRSakVkX0NXLTFSQjVIMWJMVF9EcVZBay1NZ0VmWHMzbG4tRTYzNXJjeVdNQlVYZ3dKSkhUQ05PalBpeEZDRGx2MWJyYlRYb2FoNFJ1d2lIdEozWk5FUEVNUzRYRlE2UUFIc3k?oc=5"
+        }
+      ],
+      "float_shares": "341.42M",
+      "short_float": "9.33%",
+      "daily_pct": 6.35,
+      "industry": "Semiconductors - Memory",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Mizuho reiterated its strong positive stance on WDC, citing robust AI storage demand.",
+        "discrepancy_note": "Source B[2] mentions 'Mizuho doubles down on WDC stock as AI storage demand shows no signs of slowing down', which confirms the claim. However, Source A (Finviz) has no mention of this claim."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "XNDU",
+      "price": 11.79,
+      "gap_pct": 6.88,
+      "pm_volume": 76709,
+      "avg_vol_10d": 3073785,
+      "avg_dollar_vol": 36239925,
+      "mkt_cap": 3519448647,
+      "rvol": 0.63,
+      "adr_pct": 9.98,
+      "category": "Earnings",
+      "theme": "Earnings Report - Unspecified Details",
+      "reasoning": "The company reported its 2026 financial results, though specific details of the performance were not disclosed in the headline.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 75,
+      "grade": "C",
+      "finviz_theme": "AI Compute",
+      "analysis_detail": "Catalyst: Xanadu Quantum Technologies (XNDU) announced its earnings date and reported its 2026 financial results according to a MarketBeat headline. However, the report did not include any specific performance metrics such as revenue, EPS, or guidance within the headline itself. | Impact: Without specific financial outcomes like a **beat** or **raise**, the immediate impact on revenue or future projections is **undetermined**. Any price action driven by this vague announcement would be highly speculative and lacks fundamental backing.",
+      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nThe headline merely states Xanadu Quantum Technologies (XNDU) reported its 2026 earnings, but provides no specific details regarding **revenue** or **EPS beats** or misses. Without this critical information, it's impossible to assess any financial surprise factor for momentum trading.\n\n• **The Growth (Momentum)**\nThe absence of concrete earnings figures, such as year-over-year growth rates or key performance indicators, makes it difficult to ascertain the company's underlying momentum. Investors lack the data to determine if the company is accelerating or decelerating its growth trajectory in the competitive quantum computing space.\n\n• **The Guide**\nNo forward-looking guidance or outlook for future quarters or the full year was provided in the announcement. This lack of guidance leaves a significant void for analysts and investors trying to project XNDU's future performance and valuation, reducing conviction.",
+      "peer_tickers": [
+        "IONQ",
+        "RGTI"
+      ],
+      "headlines": [
+        {
+          "title": "Xanadu Quantum Technologies Limited Class B Subordinate Voting Shares (XNDU) Earnings Date and Reports 2026 - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RbUJER0xKMk5yMmtvWTczY3lyYXFSSjk2STNDZ191b0lhckNTbG1zbEFHWkM1OGdLdUhyaFlnWHB6TmJfdzctQ3JKV3cycEY1Vm5LQm1IS3BIc2FUVGl4aEhLd280UQ?oc=5"
+        }
+      ],
+      "float_shares": "39.87M",
+      "short_float": "7.97%",
+      "daily_pct": -5.38,
+      "industry": "AI Compute",
+      "technical_status": "Fail (Avg $Vol $36M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 60,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "The company reported its 2026 financial results.",
+        "discrepancy_note": "Source B (MarketBeat via Google News) mentions 'Reports 2026' for XNDU, directly supporting the claim that 2026 financial results were reported. However, Source A (Finviz) has '(none)' and provides no information to confirm this claim."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "EXK",
+      "price": 8.59,
+      "gap_pct": 6.87,
+      "pm_volume": 91478,
+      "avg_vol_10d": 7384803,
+      "avg_dollar_vol": 63435458,
+      "mkt_cap": 2543231139,
+      "rvol": 1.57,
+      "adr_pct": 5.92,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "295.42M",
+      "short_float": "7.18%",
+      "daily_pct": 6.05,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $63M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "INFQ",
+      "price": 13.42,
+      "gap_pct": 6.86,
+      "pm_volume": 384244,
+      "avg_vol_10d": 18511759,
+      "avg_dollar_vol": 248427806,
+      "mkt_cap": 2928202202,
+      "rvol": 0.53,
+      "adr_pct": 11.82,
+      "category": "Thematic Narratives",
+      "theme": "Quantum Computing Hype / Analyst Commentary",
+      "reasoning": "Stock surged to an all-time high driven by thematic 'Quantum Hype' and positive analyst commentary from Bernstein, despite weak relative volume.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 55,
+      "grade": "C",
+      "finviz_theme": "AI Compute",
+      "analysis_detail": "Catalyst: Bernstein offered positive commentary on INFQ's potential as an early winner in the quantum race, fueling 'Quantum Hype' and a retail-driven breakout to an all-time high. | Impact: Speculative. While sentiment is positive due to thematic tailwinds, the significantly **low relative volume (0.5x)** suggests a lack of broad institutional conviction, making the breakout potentially **unsustainable** and prone to reversal.",
+      "analysis_details": "• **The Narrative**\nInfleqtion's stock experienced a significant surge to an **all-time high**, primarily fueled by intensifying 'Quantum Hype' and retail investor interest. This thematic tailwind was bolstered by an analyst comment from Bernstein, which highlighted Infleqtion and peer RGTI as potential **early winners** in the burgeoning quantum race. This narrative is driving speculative interest in the stock.\n\n• **Explosiveness**\nDespite the stock 'soaring,' the explosiveness is called into question by the technical context. The rally occurred on exceptionally **low relative volume (0.5x)**, indicating thin liquidity and a potential lack of strong institutional participation behind the move. While the price action is strong, the **weak volume** suggests a higher risk of a 'gap and trap' scenario or a rapid reversal as conviction is not broadly confirmed.",
+      "peer_tickers": [
+        "RGTI",
+        "IONQ"
+      ],
+      "headlines": [
+        {
+          "title": "INFQ Stock Soars To All-Time High — Retail Eyes Breakout On Quantum Hype - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTEtQmpoSG5FRkp6STJVb3BJRTQwQXB0UDZlQllpMHFDV0RrR2ZnYVo4OXI0RGRMUnA0RDVKNkxOazdHUkhfcElmNVUzclFhTXVXSkpadjlXdlY3S0hBRU10M0tiM2pHcVRPVWdmWHFEbUdKenp5bTNKbDRzRklhTWhSTVFMWi1mU1hKdjlGT0RyU0NXNzVFaUdoRHVxLXRTNEhDLXJOT2JCRldiSGdqSlZIWHcwbkxFY2xzLU1LeUlWZGZ0SUtqYmk3eEFURmM?oc=5"
+        },
+        {
+          "title": "RGTI, INFQ Stocks Gain Overnight: Bernstein Thinks Rigetti And Infleqtion Could Be Early Winners In Quantum Race - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTHAzMWNnMDJQU3FiVW1lc091UDBERElMOUFQX2VNbVBiS09CMW5ERDIxazR5VE1YVzhNZEpKemZqT25URmJoa3hwUWlXd292bDIzank4TVZkdUtrbFR5OENpbTFuaVZiajIzUDdMZXo5ZEF2U3RIeXNEUU1mdDBNaHFOODA2YUxMcTJudm5Ba05UVlpDVHRkTGxGcVJ4aEdNTlFFTXJPR0FzSUZjYUVGZnZtbzVEYU9TaG1ZRVdCNXI2MFBQZzZPVEhEc1Z1S05LS05rc0s2T1R1OGJpbTVxU1NxTXRSZmQ4RkJYU0NITlAyN3RzcENJajVCNFR4QXlWMTBkMw?oc=5"
+        },
+        {
+          "title": "Infleqtion (INFQ) Stock Trends and Sentiment 2026 $INFQ - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZdVhPTTVvTURlb3pnSjB0U19wZTVWUW5pRElfcU9aVjBkeW0xM09zdjNtWUFOa3JCTXQ5eTVVSDBESWRYRTh0ajVBclYwYzVOQkxjRE4tQzduWmplN3JYdXhuWF9aV28xYkxTNzZLUGNMMG8?oc=5"
+        },
+        {
+          "title": "Top Infleqtion (INFQ) Competitors 2026 - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wTUwxY0dVUG5LVHMyZnR4dmNlay1UWWdaVGhoWHU4U0xZTHh1c2dSdDRseTFUQWM5NUM2ankzdDBFSXNxcGo2OThoanQ0N21mZTRtS0RSSmlUSnFfOTI1RTUzcUdSTXA2SVlzeWNDOHQzLWVyREtWem81TDB4Zw?oc=5"
+        }
+      ],
+      "float_shares": "187.28M",
+      "short_float": "2.14%",
+      "daily_pct": -4.96,
+      "industry": "AI Compute",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 70,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Stock surged to an all-time high",
+        "discrepancy_note": "Finviz News (Source A) has no content to confirm or deny the claim. Only one article from Google News (Source B) explicitly mentions the stock soaring to an 'All-Time High'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
     }
   ],
   "ibkr_scanner": []
