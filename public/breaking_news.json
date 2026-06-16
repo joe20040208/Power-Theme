@@ -1,12 +1,17 @@
 {
-  "last_checked": "June 16, 2026 (00:30 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "June 16, 2026 (00:35 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "gsk in talks to acquire nuvalent for more than 9 billion in biggest deal in over a decade ft",
-      "ts": "2026-06-09T04:35:21.953921+00:00"
-    },
+      "headline": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-16T00:35:30.569884-04:00",
+      "pub_time": "2026-06-16T00:34:35-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "iraq and uae race to establish alternative oil pipelines as exports through hormuz dry up",
       "ts": "2026-06-09T05:05:20.999741+00:00"
@@ -1386,6 +1391,10 @@
     {
       "k": "south korean defense stocks surge on prospects for postiranwar sales boosts",
       "ts": "2026-06-16T04:25:29.620758+00:00"
+    },
+    {
+      "k": "bank of japan hikes rates to 1 highest since 1995 as yen and inflation worries take hold",
+      "ts": "2026-06-16T04:35:31.204320+00:00"
     }
   ]
 }
