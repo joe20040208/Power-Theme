@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-16 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-Off / US Weakness",
+    "spy_price": 750.33,
+    "spy_change_pct": -0.6,
+    "vix": 16.41,
+    "hy_oas": 2.66,
+    "yield_curve": 0.38,
+    "credit_status": "Complacent",
+    "s5fi": 65.7,
+    "mmth": 67.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "WDC",
+          "company": "Western Digital Corporation",
+          "reason": "An analyst price target upgrade signals renewed confidence in the company's data storage and flash memory segments, potentially driving further upside."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "reason": "A major analyst re-rating highlights improving market conditions and strong demand outlook for memory chips, attracting significant institutional interest."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "AMC",
+          "company": "AMC Entertainment Holdings, Inc.",
+          "reason": "Continues to experience highly speculative trading activity driven by social media sentiment and technical levels, lacking new fundamental catalysts."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-16 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "XOM",
           "company": "Exxon Mobil Corp.",
           "reason": "Downtick in crude oil prices puts pressure on energy sector valuations, prompting profit-taking ahead of market open."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-04 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Caution / Rising Volatility",
-    "spy_price": 718.01,
-    "spy_change_pct": -0.37,
-    "vix": 18.29,
-    "hy_oas": 2.77,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 59.3,
-    "mmth": 57.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "BB",
-          "company": "BlackBerry Ltd.",
-          "reason": "Renewed focus on its QNX embedded software division and potential re-appraisal of its intellectual property assets are fueling a revival narrative and strong institutional interest."
-        },
-        {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corp.",
-          "reason": "Positive analyst re-ratings following today's crude oil surge, combined with news of a new high-yield exploration discovery, are driving significant investor interest."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "Ongoing discussions about its cloud computing market share and lingering antitrust concerns continue to create cautious trading sentiment, lacking fresh catalysts."
         }
       ]
     }
