@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 16, 2026 (14:45 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 16, 2026 (14:50 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-16T14:50:35.720441-04:00",
+      "pub_time": "2026-06-16T14:43:59-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "the may inflation numbers are due out wednesday morning heres what to expect",
@@ -1398,6 +1407,14 @@
     {
       "k": "odds that a proposed billionaire tax appears on california ballots plunge on prediction markets",
       "ts": "2026-06-16T17:40:43.335043+00:00"
+    },
+    {
+      "k": "fed chair warsh expected to withhold dot from central banks interest rate outlook",
+      "ts": "2026-06-16T18:50:36.168916+00:00"
+    },
+    {
+      "k": "spacex gets assist from doj in effort to toss naacp air pollution lawsuit",
+      "ts": "2026-06-16T18:50:36.168916+00:00"
     }
   ]
 }
