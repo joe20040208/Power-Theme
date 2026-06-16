@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 16, 2026 (18:30 EDT)",
+  "generated_at": "June 16, 2026 (18:59 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Strength / US Tech Pullback",
+  "mood": "US Tech Weakness, Global Strength",
   "analysis": {
-    "action_line": "VIX 16.41 Normal + S5FI 65.7% breadth + Nikkei +4.99% global strength → selectively trade relative strength leaders near support.",
-    "analysis_para1": "Global markets showed remarkable strength today, with the Nikkei 225 surging nearly 5% and European indices like the DAX and FTSE 100 posting solid gains over 1%. This overseas optimism contrasted sharply with the US tape, which saw the S&P 500 down -0.57% and the Nasdaq 100 considerably weaker at -1.89%. Despite falling 10-year yields to 4.43%, suggesting some flight to quality or economic slowing, US broad market participation remained decent with 65.7% of stocks above their 50-day moving average and 67.9% above their 200-day moving average. The unknown credit regime prevents a definitive read on underlying financial stress, though falling yields could be a mixed signal depending on the driver.",
-    "analysis_para2": "The significant -1.89% pullback in the Nasdaq 100 suggests profit-taking in leading technology sectors. Traders should closely monitor the Nasdaq for signs of stabilization, with initial support potentially around its 20-day exponential moving average or previous breakout levels. For the S&P 500, holding above the 7500 level would be constructive, preventing a deeper corrective move. A mechanical plan involves identifying high relative strength stocks from the Hardware and Semiconductor themes that are either holding key support or consolidating tightly after recent parabolic moves. Only consider new entries if indices confirm a bounce or show clear accumulation, otherwise protect gains in existing positions.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in the Nasdaq 100 appears to be profit-taking after extended runs, rather than a definitive reversal.",
+    "action_line": "VIX 16.41 Normal + S5FI 65.7% breadth + strong Nikkei rally → selectively buy RS leaders on US dips near support.",
+    "analysis_para1": "International markets exhibited robust performance today, with the Nikkei surging +4.99%, DAX gaining +1.05%, and FTSE 100 up +0.61%, indicating a strong global appetite for risk. In contrast, US indices experienced a pullback, particularly the Nasdaq 100 with a -1.89% decline, suggesting a rotation or profit-taking in US tech. Despite the US equity weakness, underlying market breadth remains healthy, with S5FI at 65.7% and MMTH at 67.9%. The falling 10Y Yield to 4.43% suggests some flight to safety within fixed income or expectations of slower growth, creating a divergence with overseas equity strength.",
+    "analysis_para2": "The mechanical plan focuses on identifying and acting on strength within this mixed tape. With the S&P 500 closing at 7511.35 and Nasdaq 100 at 29968.13, key support levels for these indices will be critical to watch for stabilization. The VIX remaining normal at 16.41 indicates no immediate panic, allowing for tactical entry. Traders should monitor leading sectors like Hardware and Semiconductors for accumulation signs or bounces off their 10-day or 20-day exponential moving averages. Any confirmed volume surges on upward moves in these RS leaders, especially on broader market weakness, would signal actionable entry points.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices experienced a pullback, but without significant volume spikes or extreme VIX readings to indicate a definitive turning point or capitulation for the overall market.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "VSH, with RS 98 and a staggering +62.3% 1-month gain, demonstrates exceptional momentum within the leading Semiconductor theme, making it a high-conviction long candidate."
+        "reason": "Vishay Intertechnology, Inc. (VSH) earns an A+ grade with RS 98 and a staggering +62.3% 1-month return, demonstrating exceptional leadership in the strong Semiconductors theme."
       },
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
         "grade": "A",
-        "reason": "DELL, boasting RS 97 and a remarkable +67.0% 1-month return, leads the robust Hardware theme, offering strong relative strength in a volatile market."
+        "reason": "Marvell Technology, Inc. (MRVL) receives an A grade, boasting RS 98 and a robust +57.5% 1-month return, showcasing significant momentum within the resilient Semiconductors sector."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "UMAC, despite a strong 1M gain of +55.6%, exhibits disproportionately weaker 3M performance (+20.5%) and high ADR (14.0%), suggesting speculative, inconsistent momentum unsuitable for current conditions."
+        "reason": "Unusual Machines, Inc. (UMAC) is graded C due to its high 14.0% ADR coupled with a comparatively weaker +20.5% 3-month return (RS 97), suggesting higher volatility without proportional sustained gains compared to peers."
       }
     ]
   }
