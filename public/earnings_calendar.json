@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T21:51:19.235046+00:00",
+  "generated_at": "2026-06-16T12:11:44.810509+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -7,7 +7,7 @@
       "ticker": "JBL",
       "company": "Jabil Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 40684976637.0,
+      "mkt_cap": 40684976122.0,
       "eps_estimate": 3.12,
       "eps_act": 2.69,
       "eps_surp_pct": 6.2,
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 385.63,
-      "avg_volume": 1205631,
-      "adr_pct": 4.3,
-      "dollar_volume": 464927483.0
+      "avg_volume": 1209617,
+      "adr_pct": 4.4,
+      "dollar_volume": 466464604.0
     },
     {
       "date": "2026-06-17",
@@ -32,16 +32,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.21,
-      "avg_volume": 3250492,
+      "avg_volume": 3283134,
       "adr_pct": 4.6,
-      "dollar_volume": 169708187.0
+      "dollar_volume": 171412426.0
     },
     {
       "date": "2026-06-18",
       "ticker": "ACN",
       "company": "Accenture plc",
       "time_of_day": "BMO",
-      "mkt_cap": 101768358268.0,
+      "mkt_cap": 101768357892.0,
       "eps_estimate": 3.71,
       "eps_act": 2.93,
       "eps_surp_pct": 2.13,
@@ -49,16 +49,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 165.36,
-      "avg_volume": 6093667,
+      "avg_volume": 6121698,
       "adr_pct": 4.0,
-      "dollar_volume": 1007648775.0
+      "dollar_volume": 1012283981.0
     },
     {
       "date": "2026-06-18",
       "ticker": "KR",
       "company": "The Kroger Co.",
       "time_of_day": "BMO",
-      "mkt_cap": 39496875463.0,
+      "mkt_cap": 39496876969.0,
       "eps_estimate": 1.59,
       "eps_act": 1.28,
       "eps_surp_pct": 3.52,
@@ -66,9 +66,77 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.06,
-      "avg_volume": 6031039,
+      "avg_volume": 6016094,
       "adr_pct": 2.3,
-      "dollar_volume": 386348358.0
+      "dollar_volume": 385390982.0
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "CCL",
+      "company": "Carnival Corporation Ltd.",
+      "time_of_day": "BMO",
+      "mkt_cap": 41720404059.0,
+      "eps_estimate": 0.34,
+      "eps_act": 0.2,
+      "eps_surp_pct": 7.3,
+      "rev_est": 6686125680.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 30.12,
+      "avg_volume": 28061691,
+      "adr_pct": 4.0,
+      "dollar_volume": 845218133.0
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "FDX",
+      "company": "FedEx Corporation",
+      "time_of_day": "AMC",
+      "mkt_cap": 80828038595.0,
+      "eps_estimate": 5.92,
+      "eps_act": 5.25,
+      "eps_surp_pct": 25.69,
+      "rev_est": 23995824210.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 338.75,
+      "avg_volume": 2169919,
+      "adr_pct": 2.8,
+      "dollar_volume": 735060061.0
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "KBH",
+      "company": "KB Home",
+      "time_of_day": "AMC",
+      "mkt_cap": 3332198000.0,
+      "eps_estimate": 0.45,
+      "eps_act": 0.56,
+      "eps_surp_pct": 0.29,
+      "rev_est": 1089008180.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 53.23,
+      "avg_volume": 1201846,
+      "adr_pct": 2.9,
+      "dollar_volume": 63974263.0
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "SUNB",
+      "company": "Sunbelt Rentals Holdings, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 34560129527.0,
+      "eps_estimate": 0.78,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 2637239720.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 83.62,
+      "avg_volume": 3379064,
+      "adr_pct": 3.2,
+      "dollar_volume": 282557332.0
     }
   ]
 }
