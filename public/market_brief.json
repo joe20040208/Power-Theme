@@ -1,29 +1,29 @@
 {
-  "generated_at": "June 16, 2026 (14:05 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 16, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7532.13,
-      "change": -22.16,
-      "change_pct": -0.29
+      "price": 7511.35,
+      "change": -42.94,
+      "change_pct": -0.57
     },
     {
       "label": "Nasdaq 100",
-      "price": 30160.19,
-      "change": -383.73,
-      "change_pct": -1.26
+      "price": 29968.13,
+      "change": -575.79,
+      "change_pct": -1.89
     },
     {
       "label": "VIX",
-      "price": 15.87,
-      "change": -0.33,
+      "price": 16.41,
+      "change": 0.21,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.42,
+      "price": 4.43,
       "change": -0.06,
       "change_pct": null,
       "trend_label": "Falling"
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24910.41,
-      "change_pct": 0.07
+      "price": 24894.01,
+      "change_pct": 1.05
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 66.4,
-    "mmth": 67.7,
+    "s5fi": 65.7,
+    "mmth": 67.9,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech Pullback, Underlying Strength",
+  "mood": "Global Strength / US Tech Pullback",
   "analysis": {
-    "action_line": "VIX 15.87 Normal + S5FI 66.4% breadth + strong Nikkei → selectively buy dips in leading sectors.",
-    "analysis_para1": "The US market is seeing a mild pullback today with the S&P 500 down 0.29% and the Nasdaq 100 dropping 1.26%, but global markets show resilience, particularly the Nikkei 225 surging 4.99%. This suggests a sector-specific rotation rather than broad risk-off sentiment. US credit indicators are somewhat ambiguous with the 10Y yield falling to 4.42%, while the BAML HY spread regime remains unknown. Despite the US indices' softness, market breadth remains robust, with 66.4% of stocks above their 50-day moving average (S5FI) and 67.7% above their 200-day moving average (MMTH), indicating underlying health.",
-    "analysis_para2": "Our mechanical plan suggests focusing on leading sectors experiencing healthy pullbacks. With the VIX at a normal 15.87, volatility is not signaling a major correction, but rather a rotational environment. Watch for the S&P 500 to hold above its recent established support (implicitly around the 7500 level) and the Nasdaq 100 to consolidate near the 30,000 mark. Continue to identify and trade relative strength leaders within Hardware and Semiconductors, using their 8-day moving average or intraday support zones as entry points on strength. Maintain tight stops and consider position sizing carefully, given the mixed broader market.",
-    "technical_signal": "No reversal pattern confirmed yet. The current market action appears to be a healthy consolidation in the US, with strong global cues and sector-specific rotation.",
+    "action_line": "VIX 16.41 Normal + S5FI 65.7% breadth + Nikkei +4.99% global strength → selectively trade relative strength leaders near support.",
+    "analysis_para1": "Global markets showed remarkable strength today, with the Nikkei 225 surging nearly 5% and European indices like the DAX and FTSE 100 posting solid gains over 1%. This overseas optimism contrasted sharply with the US tape, which saw the S&P 500 down -0.57% and the Nasdaq 100 considerably weaker at -1.89%. Despite falling 10-year yields to 4.43%, suggesting some flight to quality or economic slowing, US broad market participation remained decent with 65.7% of stocks above their 50-day moving average and 67.9% above their 200-day moving average. The unknown credit regime prevents a definitive read on underlying financial stress, though falling yields could be a mixed signal depending on the driver.",
+    "analysis_para2": "The significant -1.89% pullback in the Nasdaq 100 suggests profit-taking in leading technology sectors. Traders should closely monitor the Nasdaq for signs of stabilization, with initial support potentially around its 20-day exponential moving average or previous breakout levels. For the S&P 500, holding above the 7500 level would be constructive, preventing a deeper corrective move. A mechanical plan involves identifying high relative strength stocks from the Hardware and Semiconductor themes that are either holding key support or consolidating tightly after recent parabolic moves. Only consider new entries if indices confirm a bounce or show clear accumulation, otherwise protect gains in existing positions.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in the Nasdaq 100 appears to be profit-taking after extended runs, rather than a definitive reversal.",
     "ticker_intel": [
-      {
-        "ticker": "MRVL",
-        "company": "Marvell Technology, Inc.",
-        "grade": "A+",
-        "reason": "MRVL boasts an RS of 98 and a remarkable 1-month return of +69.2%, making it a top-tier pick in the surging Semiconductors theme."
-      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
-        "grade": "A",
-        "reason": "VSH shows strong leadership with an RS of 98 and an impressive 1-month return of +67.7%, confirming its robust participation in the favored Semiconductor sector."
+        "grade": "A+",
+        "reason": "VSH, with RS 98 and a staggering +62.3% 1-month gain, demonstrates exceptional momentum within the leading Semiconductor theme, making it a high-conviction long candidate."
       },
       {
-        "ticker": "FORM",
-        "company": "FormFactor, Inc.",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "grade": "A",
+        "reason": "DELL, boasting RS 97 and a remarkable +67.0% 1-month return, leads the robust Hardware theme, offering strong relative strength in a volatile market."
+      },
+      {
+        "ticker": "UMAC",
+        "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite an RS of 97, FORM's 1-month return of +19.2% is significantly weaker than peers in the Semiconductors theme, indicating relative underperformance and potential distribution within a strong group."
+        "reason": "UMAC, despite a strong 1M gain of +55.6%, exhibits disproportionately weaker 3M performance (+20.5%) and high ADR (14.0%), suggesting speculative, inconsistent momentum unsuitable for current conditions."
       }
     ]
   }
