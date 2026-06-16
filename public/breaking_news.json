@@ -1,16 +1,7 @@
 {
-  "last_checked": "June 16, 2026 (12:33 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflation worries take hold",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-16T00:35:30.569884-04:00",
-      "pub_time": "2026-06-16T00:34:35-04:00"
-    }
-  ],
+  "last_checked": "June 16, 2026 (12:35 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "trump says us must respond after iran shoots down helicopter over hormuz strait",
@@ -1423,6 +1414,10 @@
     {
       "k": "student loan borrowers face glitches and misinformation ahead of major july 1 changes advocates say",
       "ts": "2026-06-16T16:25:47.894318+00:00"
+    },
+    {
+      "k": "jim cramer debates his next move on a software stock on an 11 day losing streak",
+      "ts": "2026-06-16T16:35:39.295154+00:00"
     }
   ]
 }
