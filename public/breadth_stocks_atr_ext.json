@@ -2,7 +2,7 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 10,
+  "count": 9,
   "stocks": [
     {
       "ticker": "GBTG",
@@ -10,128 +10,116 @@
       "industry": "Other Consumer Services",
       "price": 9.36,
       "change_pct": 0.0,
-      "adr_pct": 1.1,
-      "dollar_volume": "$30.0M",
+      "adr_pct": 1.0,
+      "dollar_volume": "$29.8M",
       "market_cap_b": 4.881,
-      "rs_ibd": 83,
-      "atr_ext_val": 16.74
+      "rs_ibd": 84,
+      "atr_ext_val": 16.43
     },
     {
       "ticker": "OGN",
       "company": "Organon & Co.",
       "industry": "Pharmaceuticals: Major",
-      "price": 13.44,
-      "change_pct": 0.0,
-      "adr_pct": 0.9,
+      "price": 13.42,
+      "change_pct": -0.15,
+      "adr_pct": 0.8,
       "dollar_volume": "$30.9M",
-      "market_cap_b": 3.529,
-      "rs_ibd": 82,
-      "atr_ext_val": 14.66
-    },
-    {
-      "ticker": "HUM",
-      "company": "Humana Inc.",
-      "industry": "Managed Health Care",
-      "price": 380.26,
-      "change_pct": 0.27,
-      "adr_pct": 3.2,
-      "dollar_volume": "$496.3M",
-      "market_cap_b": 45.655,
-      "rs_ibd": 90,
-      "atr_ext_val": 12.7
+      "market_cap_b": 3.524,
+      "rs_ibd": 84,
+      "atr_ext_val": 13.63
     },
     {
       "ticker": "CORT",
       "company": "Corcept Therapeutics Incorporated",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.12,
-      "change_pct": 0.25,
-      "adr_pct": 3.9,
-      "dollar_volume": "$80.5M",
-      "market_cap_b": 8.923,
+      "price": 83.71,
+      "change_pct": 0.71,
+      "adr_pct": 3.8,
+      "dollar_volume": "$79.3M",
+      "market_cap_b": 8.986,
       "rs_ibd": 92,
-      "atr_ext_val": 12.03
-    },
-    {
-      "ticker": "AGL",
-      "company": "agilon health, inc.",
-      "industry": "Medical/Nursing Services",
-      "price": 114.34,
-      "change_pct": 1.27,
-      "adr_pct": 8.0,
-      "dollar_volume": "$30.5M",
-      "market_cap_b": 1.908,
-      "rs_ibd": 99,
-      "atr_ext_val": 11.9
+      "atr_ext_val": 12.11
     },
     {
       "ticker": "RAMP",
       "company": "LiveRamp Holdings, Inc.",
       "industry": "Packaged Software",
-      "price": 37.57,
-      "change_pct": -0.13,
+      "price": 37.61,
+      "change_pct": 0.11,
       "adr_pct": 1.4,
-      "dollar_volume": "$64.5M",
-      "market_cap_b": 2.258,
-      "rs_ibd": 57,
-      "atr_ext_val": 11.56
+      "dollar_volume": "$65.1M",
+      "market_cap_b": 2.26,
+      "rs_ibd": 58,
+      "atr_ext_val": 11.67
+    },
+    {
+      "ticker": "PEB",
+      "company": "Pebblebrook Hotel Trust",
+      "industry": "Real Estate Investment Trusts",
+      "price": 19.38,
+      "change_pct": 4.76,
+      "adr_pct": 2.5,
+      "dollar_volume": "$60.4M",
+      "market_cap_b": 2.197,
+      "rs_ibd": 87,
+      "atr_ext_val": 11.61
+    },
+    {
+      "ticker": "AGL",
+      "company": "agilon health, inc.",
+      "industry": "Medical/Nursing Services",
+      "price": 113.27,
+      "change_pct": -0.94,
+      "adr_pct": 7.9,
+      "dollar_volume": "$30.0M",
+      "market_cap_b": 1.89,
+      "rs_ibd": 99,
+      "atr_ext_val": 11.04
+    },
+    {
+      "ticker": "HUM",
+      "company": "Humana Inc.",
+      "industry": "Managed Health Care",
+      "price": 369.49,
+      "change_pct": -2.83,
+      "adr_pct": 3.2,
+      "dollar_volume": "$508.9M",
+      "market_cap_b": 44.362,
+      "rs_ibd": 90,
+      "atr_ext_val": 10.54
     },
     {
       "ticker": "SILA",
       "company": "Sila Realty Trust, Inc.",
       "industry": "Real Estate Investment Trusts",
-      "price": 30.29,
-      "change_pct": 0.03,
+      "price": 30.31,
+      "change_pct": 0.07,
       "adr_pct": 0.3,
-      "dollar_volume": "$15.5M",
-      "market_cap_b": 1.673,
+      "dollar_volume": "$15.4M",
+      "market_cap_b": 1.674,
       "rs_ibd": 54,
-      "atr_ext_val": 11.44
-    },
-    {
-      "ticker": "APPS",
-      "company": "Digital Turbine, Inc.",
-      "industry": "Packaged Software",
-      "price": 9.83,
-      "change_pct": 0.72,
-      "adr_pct": 8.3,
-      "dollar_volume": "$78.7M",
-      "market_cap_b": 1.186,
-      "rs_ibd": 93,
-      "atr_ext_val": 10.55
+      "atr_ext_val": 10.5
     },
     {
       "ticker": "CPRX",
       "company": "Catalyst Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 31.37,
-      "change_pct": 0.03,
-      "adr_pct": 0.7,
-      "dollar_volume": "$45.4M",
-      "market_cap_b": 3.84,
-      "rs_ibd": 64,
-      "atr_ext_val": 10.28
-    },
-    {
-      "ticker": "AVNS",
-      "company": "Avanos Medical, Inc.",
-      "industry": "Medical Specialties",
-      "price": 24.96,
-      "change_pct": 0.0,
+      "price": 31.35,
+      "change_pct": -0.06,
       "adr_pct": 0.6,
-      "dollar_volume": "$30.5M",
-      "market_cap_b": 1.169,
-      "rs_ibd": 85,
-      "atr_ext_val": 10.22
+      "dollar_volume": "$45.9M",
+      "market_cap_b": 3.838,
+      "rs_ibd": 65,
+      "atr_ext_val": 10.07
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 1.65,
-    "spx_1m": 1.97,
-    "spx_3m": 12.48,
-    "spx_34d": 5.82,
-    "spx_qtd": 14.89,
-    "spx_mtd": -0.6
+    "spx_1d": -0.57,
+    "spx_1m": 1.46,
+    "spx_3m": 13.38,
+    "spx_34d": 5.26,
+    "spx_qtd": 14.24,
+    "spx_mtd": -1.17
   },
-  "fetched_at_utc": "2026-06-15T21:51:48+00:00"
+  "fetched_at_utc": "2026-06-16T21:49:12+00:00"
 }
