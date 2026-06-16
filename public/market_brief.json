@@ -1,49 +1,49 @@
 {
-  "generated_at": "June 15, 2026 (19:14 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 16, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7554.29,
-      "change": 122.83,
-      "change_pct": 1.65
+      "price": 7431.46,
+      "change": 37.16,
+      "change_pct": 0.5
     },
     {
       "label": "Nasdaq 100",
-      "price": 30543.92,
-      "change": 907.97,
-      "change_pct": 3.06
+      "price": 29635.95,
+      "change": 189.77,
+      "change_pct": 0.64
     },
     {
       "label": "VIX",
-      "price": 17.68,
-      "change": -1.76,
+      "price": 16.11,
+      "change": -1.57,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.47,
-      "change": -0.02,
+      "price": 4.44,
+      "change": -0.04,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Falling"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66020.04,
-      "change_pct": 2.81
+      "price": 69404.5,
+      "change_pct": 5.13
     },
     "dax": {
       "label": "DAX",
-      "price": 24635.3,
-      "change_pct": 1.76
+      "price": 25028.48,
+      "change_pct": 1.6
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10471.7,
-      "change_pct": 1.63
+      "price": 10499.25,
+      "change_pct": 0.26
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Broad Rally / Tech-Led Momentum",
+  "mood": "Broad Rally, Tech/Semiconductor Leadership",
   "analysis": {
-    "action_line": "VIX 17.68 Normal + S5FI 63.3% breadth + Nikkei +2.81% → trade RS leaders aggressively on strength.",
-    "analysis_para1": "Global equity markets surged today, with the Nikkei 225 gaining +2.81%, the DAX +1.76%, and the FTSE 100 +1.63%, setting a decidedly positive tone for the session. This strong global sentiment translated directly to US markets, where the 10Y Yield remained stable at 4.47%, suggesting no immediate credit concerns despite the BAML HY Spread being an unknown regime. US market breadth confirmed widespread participation, with 63.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 66.9% above their 200-day moving average (MMTH). This indicates a broad-based move rather than a narrow rally confined to a few names.",
-    "analysis_para2": "The significant gains in the Nasdaq 100 (+3.06%) and S&P 500 (+1.65%) underscore a clear bullish trend, with momentum favoring growth and technology sectors. Traders should continue to monitor key resistance levels for these indices, looking for sustained closes above recent highs to confirm continuation of the rally. The VIX remaining normal at 17.68 suggests low immediate volatility concerns, creating a favorable environment for sustained upside. The mechanical plan involves identifying and acting on breakouts in high relative strength (RS) names, particularly those showing strong 1-month and 3-month performance within the leading Hardware and Semiconductors themes. Maintain stop-losses and respect market structure as price action develops.",
-    "technical_signal": "No reversal pattern confirmed yet. The market displayed strong upside momentum, particularly in growth sectors, without any signs of exhaustion or distribution.",
+    "action_line": "VIX 16.11 Normal + S5FI 63.3% breadth + Nikkei +5.13% / DAX +1.60% strong global tape → trade RS leaders aggressively near support.",
+    "analysis_para1": "Global markets are displaying robust strength this morning, with the Nikkei 225 surging an impressive +5.13% and the DAX gaining +1.60%, signaling a strong risk-on appetite. While the BAML HY Spread data is unavailable, the falling 10Y Yield at 4.44% suggests easing financial conditions supportive of growth assets. This positive sentiment is mirrored in US breadth metrics, with 63.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 66.9% above their 200-day (MMTH), indicating broad-based participation in the current rally.",
+    "analysis_para2": "The mechanical plan for today centers on embracing the confirmed bullish momentum, particularly in the semiconductor and hardware sectors. With the S&P 500 showing strong upward movement, watch for price acceptance above yesterday's close as confirmation of continuation. Dips in leading stocks, particularly those demonstrating high relative strength and strong volume, should be considered buying opportunities near their short-term moving averages. Maintain a focus on identifying and entering positions in stocks from the thematic scanner that exhibit superior price action and hold their gains early in the session, using tight stop-losses beneath clear support levels.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing strong positive momentum across global indices and healthy US breadth metrics.",
     "ticker_intel": [
       {
         "ticker": "MRVL",
         "company": "Marvell Technology, Inc.",
         "grade": "A+",
-        "reason": "Marvell Technology is an A+ conviction long, demonstrating superior relative strength (RS=98) and an explosive 1-month return of +69.2%, indicating dominant leadership in the current tech-led rally."
+        "reason": "With an RS of 98 and a 1-month return of +69.2%, MRVL represents a top-tier performer in the leading Semiconductors theme, ideal for aggressive long plays in this risk-on environment."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology is a strong A-grade long, boasting exceptional relative strength (RS=98) and a robust 1-month gain of +67.7%, positioning it as a core beneficiary of the semiconductor sector's momentum."
+        "reason": "VSH exhibits exceptional relative strength (RS=98) and robust monthly performance (+67.7% in 1 month), positioning it as a strong leader within the favored semiconductor sector."
       },
       {
-        "ticker": "INTC",
-        "company": "Intel Corporation",
+        "ticker": "FORM",
+        "company": "FormFactor, Inc.",
         "grade": "C",
-        "reason": "Intel Corporation is a C-grade avoid due to its comparatively weak 1-month return of +10.3% despite a high RS, suggesting relative underperformance and lagging participation within the currently strong semiconductor theme."
+        "reason": "Despite meeting initial filters, FORM's 1-month return of +19.2% and 3-month return of +68.9% are comparatively weaker than its peers (RS=97), suggesting it may lag in a strong, momentum-driven rally."
       }
     ]
   }
