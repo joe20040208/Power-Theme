@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-16 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Broad Risk-On / Global Rally",
+    "spy_price": 741.75,
+    "spy_change_pct": 0.54,
+    "vix": 16.14,
+    "hy_oas": 2.71,
+    "yield_curve": 0.42,
+    "credit_status": "Complacent",
+    "s5fi": 63.3,
+    "mmth": 66.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "reason": "Fresh rumors of a groundbreaking new AI-integrated hardware device set for Q3 2026 release are driving significant pre-market interest."
+        },
+        {
+          "ticker": "TSLA",
+          "company": "Tesla Inc.",
+          "reason": "Announced a massive new gigafactory expansion in a key international market, alongside new government incentives, boosting production forecasts."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Continues to see speculative interest following recycled headlines regarding its ongoing advancements in generative AI, maintaining its recent upward trend purely on flow."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-15 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "AMZN",
           "company": "Amazon.com Inc.",
           "reason": "Ongoing discussions about its cloud computing market share and lingering antitrust concerns continue to create cautious trading sentiment, lacking fresh catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-04 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Volatile Gains, VIX Jumps",
-    "spy_price": 720.65,
-    "spy_change_pct": 0.28,
-    "vix": 18.19,
-    "hy_oas": 2.83,
-    "yield_curve": 0.51,
-    "credit_status": "Complacent",
-    "s5fi": 60.5,
-    "mmth": 59.3,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft announces a significant expansion of its Azure AI capabilities and new strategic partnership in enterprise cloud, bolstering future growth outlook."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "Amazon Web Services (AWS) secures a major multi-year cloud contract with a Fortune 100 company, reaffirming its market leadership."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Tesla (TSLA) sees continued institutional short covering amid general tech strength, driving intraday volatility and magnetizing retail interest."
         }
       ]
     }
