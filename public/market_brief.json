@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 16, 2026 (18:59 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 17, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 16.41,
-      "change": 0.21,
+      "price": 16.26,
+      "change": -0.15,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.43,
-      "change": -0.06,
+      "price": 4.44,
+      "change": -0.05,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69317.5,
-      "change_pct": 4.99
+      "price": 69902.25,
+      "change_pct": 0.72
     },
     "dax": {
       "label": "DAX",
-      "price": 24894.01,
-      "change_pct": 1.05
+      "price": 24887.45,
+      "change_pct": -0.09
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10494.21,
-      "change_pct": 0.61
+      "price": 10482.88,
+      "change_pct": -0.11
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Tech Weakness, Global Strength",
+  "mood": "Tech Sell-Off / Nasdaq Weakness",
   "analysis": {
-    "action_line": "VIX 16.41 Normal + S5FI 65.7% breadth + strong Nikkei rally → selectively buy RS leaders on US dips near support.",
-    "analysis_para1": "International markets exhibited robust performance today, with the Nikkei surging +4.99%, DAX gaining +1.05%, and FTSE 100 up +0.61%, indicating a strong global appetite for risk. In contrast, US indices experienced a pullback, particularly the Nasdaq 100 with a -1.89% decline, suggesting a rotation or profit-taking in US tech. Despite the US equity weakness, underlying market breadth remains healthy, with S5FI at 65.7% and MMTH at 67.9%. The falling 10Y Yield to 4.43% suggests some flight to safety within fixed income or expectations of slower growth, creating a divergence with overseas equity strength.",
-    "analysis_para2": "The mechanical plan focuses on identifying and acting on strength within this mixed tape. With the S&P 500 closing at 7511.35 and Nasdaq 100 at 29968.13, key support levels for these indices will be critical to watch for stabilization. The VIX remaining normal at 16.41 indicates no immediate panic, allowing for tactical entry. Traders should monitor leading sectors like Hardware and Semiconductors for accumulation signs or bounces off their 10-day or 20-day exponential moving averages. Any confirmed volume surges on upward moves in these RS leaders, especially on broader market weakness, would signal actionable entry points.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices experienced a pullback, but without significant volume spikes or extreme VIX readings to indicate a definitive turning point or capitulation for the overall market.",
+    "action_line": "VIX 16.26 Normal + S5FI 65.7% breadth + mixed global tape (ex-Nikkei) → trade RS leaders selectively near support.",
+    "analysis_para1": "A mixed global picture emerges this morning, with Nikkei 225 gaining +0.72% while European markets like the DAX (-0.09%) and FTSE 100 (-0.11%) show slight declines, mirroring early US weakness. US Treasury yields are falling, with the 10Y Yield at 4.44%, possibly signaling a flight to safety or softening economic outlook ahead of the open. Despite today's US market decline, market breadth remains relatively healthy with S5FI at 65.7% and MMTH at 67.9%, suggesting underlying strength but a watch for deterioration is warranted. The divergence indicates a nuanced environment where capital is rotating rather than broadly exiting.",
+    "analysis_para2": "With the S&P 500 at 7511.35 and the Nasdaq 100 significantly lower at 29968.13, key support levels for the SPX include 7500 and the psychological 29900-30000 range for the NDX. A failure to hold these levels on follow-through selling would confirm further downside pressure, especially if the Nasdaq breaks decisively below its 50-day moving average. Conversely, a sharp reversal off these levels could indicate a buying opportunity in resilient leading stocks. Given the VIX is at 16.26 (Normal), any surge above 18 would signal increasing volatility and a need for tighter risk management. Focus on relative strength leaders if the market finds footing; otherwise, protect capital.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing pre-market weakness, particularly in the Nasdaq 100, and is approaching initial support levels.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "Vishay Intertechnology, Inc. (VSH) earns an A+ grade with RS 98 and a staggering +62.3% 1-month return, demonstrating exceptional leadership in the strong Semiconductors theme."
+        "reason": "This Semiconductor leader with RS=98 and a staggering 1M=+62.3% and 3M=+241.7% demonstrates exceptional price momentum and robust institutional demand in a leading sector, making it a strong buy-on-dip candidate."
       },
       {
-        "ticker": "MRVL",
-        "company": "Marvell Technology, Inc.",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "Marvell Technology, Inc. (MRVL) receives an A grade, boasting RS 98 and a robust +57.5% 1-month return, showcasing significant momentum within the resilient Semiconductors sector."
+        "reason": "DELL stands out with RS=97 and the highest 1M gain on the list at +67.0%, showcasing persistent demand within the Hardware theme, making it a conviction long if market sentiment improves."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Unusual Machines, Inc. (UMAC) is graded C due to its high 14.0% ADR coupled with a comparatively weaker +20.5% 3-month return (RS 97), suggesting higher volatility without proportional sustained gains compared to peers."
+        "reason": "Despite a strong 1M=+55.6% gain, UMAC's 3M=+20.5% return is significantly weaker than its peers, indicating a lack of sustained momentum that could make it more vulnerable to market weakness."
       }
     ]
   }
