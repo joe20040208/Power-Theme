@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T21:48:54.410025+00:00",
+  "generated_at": "2026-06-17T12:12:16.068532+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,26 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 375.51,
-      "avg_volume": 1209695,
+      "avg_volume": 1212770,
       "adr_pct": 4.3,
-      "dollar_volume": 454252569.0
-    },
-    {
-      "date": "2026-06-17",
-      "ticker": "KMX",
-      "company": "CarMax, Inc.",
-      "time_of_day": "BMO",
-      "mkt_cap": 7390277545.0,
-      "eps_estimate": 0.97,
-      "eps_act": 0.34,
-      "eps_surp_pct": 46.8,
-      "rev_est": 7419272080.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 52.11,
-      "avg_volume": 3283134,
-      "adr_pct": 4.6,
-      "dollar_volume": 171084113.0
+      "dollar_volume": 455407263.0
     },
     {
       "date": "2026-06-18",
@@ -45,13 +28,13 @@
       "eps_estimate": 3.71,
       "eps_act": 2.93,
       "eps_surp_pct": 2.13,
-      "rev_est": 18756650000.0,
+      "rev_est": 18743935000.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 165.52,
-      "avg_volume": 6121864,
+      "avg_volume": 6068570,
       "adr_pct": 4.1,
-      "dollar_volume": 1013290929.0
+      "dollar_volume": 1004469706.0
     },
     {
       "date": "2026-06-18",
@@ -62,13 +45,13 @@
       "eps_estimate": 1.59,
       "eps_act": 1.28,
       "eps_surp_pct": 3.52,
-      "rev_est": 45492175520.0,
+      "rev_est": 45445457160.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.13,
-      "avg_volume": 6055007,
+      "avg_volume": 6051960,
       "adr_pct": 2.3,
-      "dollar_volume": 388307599.0
+      "dollar_volume": 388112195.0
     },
     {
       "date": "2026-06-23",
@@ -79,13 +62,13 @@
       "eps_estimate": 0.34,
       "eps_act": 0.2,
       "eps_surp_pct": 7.3,
-      "rev_est": 6686125680.0,
+      "rev_est": 6687556490.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 30.9,
-      "avg_volume": 28062681,
+      "avg_volume": 28068396,
       "adr_pct": 3.9,
-      "dollar_volume": 867136843.0
+      "dollar_volume": 867313436.0
     },
     {
       "date": "2026-06-23",
@@ -100,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 335.74,
-      "avg_volume": 2174070,
+      "avg_volume": 2171557,
       "adr_pct": 2.8,
-      "dollar_volume": 729922262.0
+      "dollar_volume": 729078547.0
     },
     {
       "date": "2026-06-23",
@@ -117,9 +100,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 53.84,
-      "avg_volume": 1201856,
+      "avg_volume": 1211410,
       "adr_pct": 2.9,
-      "dollar_volume": 64707927.0
+      "dollar_volume": 65222314.0
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "KFY",
+      "company": "Korn Ferry",
+      "time_of_day": "BMO",
+      "mkt_cap": 3747804468.0,
+      "eps_estimate": 1.38,
+      "eps_act": 1.28,
+      "eps_surp_pct": 2.53,
+      "rev_est": 745149810.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 72.23,
+      "avg_volume": 502632,
+      "adr_pct": 2.3,
+      "dollar_volume": 36305109.0
     },
     {
       "date": "2026-06-23",
@@ -134,9 +134,94 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 83.0,
-      "avg_volume": 3383682,
+      "avg_volume": 3379839,
       "adr_pct": 3.1,
-      "dollar_volume": 280845606.0
+      "dollar_volume": 280526637.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "FUL",
+      "company": "H.B. Fuller Company",
+      "time_of_day": "AMC",
+      "mkt_cap": 3471930440.0,
+      "eps_estimate": 1.38,
+      "eps_act": 0.57,
+      "eps_surp_pct": 1.66,
+      "rev_est": 923624470.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 63.72,
+      "avg_volume": 657492,
+      "adr_pct": 3.6,
+      "dollar_volume": 41895390.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 1151145820912.0,
+      "eps_estimate": 19.72,
+      "eps_act": 12.2,
+      "eps_surp_pct": 27.28,
+      "rev_est": 34521901430.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 1020.76,
+      "avg_volume": 51135462,
+      "adr_pct": 6.9,
+      "dollar_volume": 52197034191.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NG",
+      "company": "NovaGold Resources Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 3655042481.0,
+      "eps_estimate": -0.06,
+      "eps_act": -0.04,
+      "eps_surp_pct": 24.95,
+      "rev_est": 0.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 8.33,
+      "avg_volume": 3389326,
+      "adr_pct": 5.9,
+      "dollar_volume": 28233086.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "PAYX",
+      "company": "Paychex, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 35929409109.0,
+      "eps_estimate": 1.31,
+      "eps_act": 1.71,
+      "eps_surp_pct": 0.26,
+      "rev_est": 1606353190.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 100.28,
+      "avg_volume": 3588356,
+      "adr_pct": 2.8,
+      "dollar_volume": 359840340.0
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "TCOM",
+      "company": "Trip.com Group Limited",
+      "time_of_day": "AMC",
+      "mkt_cap": 29111272125.0,
+      "eps_estimate": 6.15,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 15846498960.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 46.23,
+      "avg_volume": 2702382,
+      "adr_pct": 2.1,
+      "dollar_volume": 124931120.0
     }
   ]
 }
