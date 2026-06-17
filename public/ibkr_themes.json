@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-16T21:48:11.723169+00:00",
+  "generated_at": "2026-06-17T21:47:31.629659+00:00",
   "data_source": "fallback",
   "power_themes": [
     {
       "name": "Hardware",
       "theme_rs": 98.0,
-      "perf_1d": 4.22,
+      "perf_1d": -1.64,
       "leaders": [
         {
-          "ticker": "WDC",
-          "price": 681.08,
+          "ticker": "SNDK",
+          "price": 1958.8,
           "rs_52w": 98,
-          "adr_pct": 6.19,
-          "vol_surge": 2.02,
-          "mkt_cap": 234756111672,
+          "adr_pct": 7.44,
+          "vol_surge": 0.6,
+          "mkt_cap": 290078225201,
           "gates_passed": 5,
           "gates_detail": {
             "rs_52w > 85": true,
@@ -23,6 +23,371 @@
             "adr_pct >= 4.0": true
           },
           "primary_theme": "Hardware",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        }
+      ]
+    },
+    {
+      "name": "Electric Vehicles",
+      "theme_rs": 97.0,
+      "perf_1d": 1.13,
+      "leaders": [
+        {
+          "ticker": "NVTS",
+          "price": 22.34,
+          "rs_52w": 97,
+          "adr_pct": 13.61,
+          "vol_surge": 0.61,
+          "mkt_cap": 5441021283,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Electric Vehicles",
+          "secondary_themes": [
+            "Semiconductors"
+          ],
+          "setup_label": "Flag"
+        }
+      ]
+    },
+    {
+      "name": "Semiconductors",
+      "theme_rs": 96.7,
+      "perf_1d": 3.35,
+      "leaders": [
+        {
+          "ticker": "AEHR",
+          "price": 112.62,
+          "rs_52w": 98,
+          "adr_pct": 11.84,
+          "vol_surge": 0.68,
+          "mkt_cap": 3542265551,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "MRVL",
+          "price": 289.54,
+          "rs_52w": 98,
+          "adr_pct": 9.54,
+          "vol_surge": 1.4,
+          "mkt_cap": 253289599475,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "MU",
+          "price": 1043.19,
+          "rs_52w": 98,
+          "adr_pct": 7.46,
+          "vol_surge": 0.88,
+          "mkt_cap": 1176440818584,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "AXTI",
+          "price": 92.11,
+          "rs_52w": 98,
+          "adr_pct": 15.9,
+          "vol_surge": 0.54,
+          "mkt_cap": 6026129518,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "ARM",
+          "price": 418.88,
+          "rs_52w": 98,
+          "adr_pct": 8.42,
+          "vol_surge": 1.06,
+          "mkt_cap": 445710869736,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "ACMR",
+          "price": 96.19,
+          "rs_52w": 97,
+          "adr_pct": 8.69,
+          "vol_surge": 1.41,
+          "mkt_cap": 6647641723,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "WOLF",
+          "price": 48.69,
+          "rs_52w": 97,
+          "adr_pct": 17.68,
+          "vol_surge": 1.23,
+          "mkt_cap": 2530521526,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "AMKR",
+          "price": 86.43,
+          "rs_52w": 97,
+          "adr_pct": 7.56,
+          "vol_surge": 1.73,
+          "mkt_cap": 21423621806,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "AMAT",
+          "price": 592.92,
+          "rs_52w": 97,
+          "adr_pct": 5.38,
+          "vol_surge": 1.49,
+          "mkt_cap": 470754411666,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "AMD",
+          "price": 512.48,
+          "rs_52w": 97,
+          "adr_pct": 6.51,
+          "vol_surge": 0.72,
+          "mkt_cap": 835650183627,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "INTC",
+          "price": 121.1,
+          "rs_52w": 97,
+          "adr_pct": 7.85,
+          "vol_surge": 0.88,
+          "mkt_cap": 608648592330,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "LRCX",
+          "price": 374.18,
+          "rs_52w": 97,
+          "adr_pct": 5.88,
+          "vol_surge": 1.08,
+          "mkt_cap": 467926673860,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "ASML",
+          "price": 1867.83,
+          "rs_52w": 94,
+          "adr_pct": 4.6,
+          "vol_surge": 1.27,
+          "mkt_cap": 719894660279,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Base"
+        },
+        {
+          "ticker": "CRDO",
+          "price": 249.33,
+          "rs_52w": 94,
+          "adr_pct": 9.48,
+          "vol_surge": 0.96,
+          "mkt_cap": 46494534649,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "KLAC",
+          "price": 238.73,
+          "rs_52w": 94,
+          "adr_pct": 5.92,
+          "vol_surge": 1.26,
+          "mkt_cap": 311847075302,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        }
+      ]
+    },
+    {
+      "name": "Industrials",
+      "theme_rs": 93.5,
+      "perf_1d": -2.42,
+      "leaders": [
+        {
+          "ticker": "OUST",
+          "price": 40.72,
+          "rs_52w": 94,
+          "adr_pct": 11.96,
+          "vol_surge": 1.15,
+          "mkt_cap": 2592762561,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Industrials",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "JBL",
+          "price": 374.98,
+          "rs_52w": 93,
+          "adr_pct": 5.17,
+          "vol_surge": 2.43,
+          "mkt_cap": 39561374356,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Industrials",
           "secondary_themes": [],
           "setup_label": "Flag"
         }
