@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 17, 2026 (18:30 EDT)",
+  "generated_at": "June 17, 2026 (18:55 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Pullback / Global Resilience",
+  "mood": "US Risk-Off, Sectoral Strength",
   "analysis": {
-    "action_line": "VIX 18.44 Normal + S5FI 54.6% breadth + Nikkei +0.13% → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets demonstrated resilience today with the Nikkei 225, DAX, and FTSE 100 all closing marginally higher. This contrasted sharply with the US session, where the S&P 500 shed 1.21% and the Nasdaq 100 declined by 0.99%, suggesting targeted profit-taking in US equities. Credit conditions remain undefined with the BAML HY Spread showing an unknown regime, limiting insights into broader financial stress. Despite the daily US weakness, market breadth remains constructive with 54.6% of stocks above their 50-day moving average and 64.6% above their 200-day moving average, indicating underlying market health.",
-    "analysis_para2": "The current environment calls for a mechanical plan focused on high relative strength names. Watch for the S&P 500 to consolidate near its 7400 level, potentially finding support around its 10-day moving average. A break below 7350 on the S&P 500, coupled with S5FI dipping below 50%, would signal a need for increased caution and reduced exposure. Conversely, any bounce from current levels, especially if led by volume in leading sectors, should be used to add to existing positions. Maintain exposure to high RS stocks as long as they hold their shorter-term moving averages.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's pullback in US indices was not accompanied by a strong global downturn or an extreme VIX spike, indicating more of a consolidation than a capitulation.",
+    "action_line": "VIX 18.44 Normal + S5FI 54.6% breadth + mixed global tape (Nikkei +0.13%) → selectively trade RS leaders near support.",
+    "analysis_para1": "Despite a softer session for US equities, global markets offered a mixed but generally stable picture, with the Nikkei 225, DAX, and FTSE 100 all posting modest gains. The US 10-year yield held stable at 4.46%, suggesting no immediate credit distress, though the high-yield spread regime remains unknown. US market breadth, as measured by S5FI at 54.6% and MMTH at 64.6%, indicates underlying health with more than half of stocks above their key moving averages, yet today's declines show some rotational weakness.",
+    "analysis_para2": "With the S&P 500 pulling back to 7420.10 and the Nasdaq 100 to 29670.95, vigilance is key. The mechanical plan involves monitoring these major indices for stabilization around their prior day's closing levels or key moving averages in the coming sessions. Focus remains on identifying relative strength leaders that can hold their gains or consolidate constructively, especially within the leading Hardware and Semiconductor sectors. Any retest of breakout points or prior resistance turning support on these strong names presents a viable entry point, provided broader market stability can be re-established.",
+    "technical_signal": "No reversal pattern confirmed yet. The day's decline in major indices, while moderate, does not present a clear bullish reversal signal.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "With RS=98 and a staggering 1-month return of +94.7%, ARM represents extreme strength in Semiconductors, making it a high conviction long for continued outperformance in a market that favors leadership."
+        "reason": "Arm Holdings is a high-conviction long, demonstrating exceptional relative strength (RS=98) and a staggering 1-month gain of +94.7%, indicating strong demand in the AI-driven semiconductor landscape."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Boasting an RS=98, 1-month return of +63.3%, and an impressive 3-month return of +244.9%, VSH demonstrates robust leadership within the highly favored Semiconductor theme."
+        "reason": "Vishay Intertechnology is a strong buy, showcasing robust relative strength (RS=98) and a 1-month return of +63.3%, reflecting its leadership in the thriving semiconductor components sector."
       },
       {
         "ticker": "WULF",
         "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "Despite positive momentum with RS=97 and a 1-month return of +31.8%, its comparatively lower 3-month return of +82.1% within a strong peer group suggests it might be a laggard in the Neocloud theme, posing higher relative risk."
+        "reason": "TeraWulf is a C-grade avoid due to its comparatively lower relative strength (RS=97) and weaker 3-month performance (+82.1%) within a robust peer group, suggesting less conviction in the current market."
       }
     ]
   }
