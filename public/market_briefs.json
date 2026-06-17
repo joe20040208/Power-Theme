@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-17 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Tech Weakness / Cautious Tone",
+    "spy_price": 750.33,
+    "spy_change_pct": -0.6,
+    "vix": 16.46,
+    "hy_oas": 2.71,
+    "yield_curve": 0.38,
+    "credit_status": "Complacent",
+    "s5fi": 65.7,
+    "mmth": 67.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Fresh news of a groundbreaking partnership in quantum AI computing suggests significant long-term growth and market leadership in emerging technologies."
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon.com Inc.",
+          "reason": "An influential analyst upgrade today, citing stronger-than-expected Q2 AWS guidance, positions Amazon for robust cloud revenue momentum."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "TSLA",
+          "company": "Tesla Inc.",
+          "reason": "Continues to trade on pure technicals and ongoing sentiment, with no fresh fundamental catalysts today, but remains highly active due to persistent institutional flow."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-16 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corporation",
           "reason": "Continued to benefit from broader tech sector strength and persistent optimism around its AI initiatives, without a specific fresh news catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-05 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Strength, US Hesitation",
-    "spy_price": 718.01,
-    "spy_change_pct": -0.37,
-    "vix": 17.67,
-    "hy_oas": 2.77,
-    "yield_curve": 0.5,
-    "credit_status": "Complacent",
-    "s5fi": 59.5,
-    "mmth": 57.8,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "BA",
-          "company": "Boeing Co.",
-          "reason": "Surging global industrial sentiment, evidenced by strong DAX and Nikkei performance, signals robust demand outlook for commercial aircraft orders."
-        },
-        {
-          "ticker": "DAL",
-          "company": "Delta Air Lines Inc.",
-          "reason": "Significant drop in crude oil prices by over 2% directly reduces operational fuel costs, projecting an uplift in airline profitability."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corp.",
-          "reason": "Downtick in crude oil prices puts pressure on energy sector valuations, prompting profit-taking ahead of market open."
         }
       ]
     }
