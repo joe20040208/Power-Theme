@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-17 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-Off / Heightened Volatility",
+    "spy_price": 740.96,
+    "spy_change_pct": -1.25,
+    "vix": 18.44,
+    "hy_oas": 2.71,
+    "yield_curve": 0.29,
+    "credit_status": "Complacent",
+    "s5fi": 54.6,
+    "mmth": 64.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "AMKR",
+          "company": "Amkor Technology Inc.",
+          "reason": "Announced a long-term strategic partnership in advanced packaging, signaling strong future revenue visibility and market share gains."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Unveiled a multi-billion dollar strategic AI infrastructure partnership with a leading cloud provider, solidifying its position in the rapidly expanding AI ecosystem."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "AMC",
+          "company": "AMC Entertainment Holdings Inc.",
+          "reason": "Experiencing elevated retail interest and short-squeeze potential following recent social media chatter and options flow, despite no new fundamental catalysts."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-17 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corp.",
           "reason": "Microsoft benefits from persistent institutional inflows on continued enterprise cloud and AI adoption momentum."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-05 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On / Growth Optimism",
-    "spy_price": 723.77,
-    "spy_change_pct": 0.8,
-    "vix": 17.38,
-    "hy_oas": 2.78,
-    "yield_curve": 0.5,
-    "credit_status": "Complacent",
-    "s5fi": 59.5,
-    "mmth": 57.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "DOCN",
-          "company": "DigitalOcean Holdings Inc.",
-          "reason": "Reported a strong Beat & Raise quarter, further bolstered by news of a strategic capital raise, signaling robust growth and investor confidence."
-        },
-        {
-          "ticker": "GFS",
-          "company": "GlobalFoundries Inc.",
-          "reason": "Exceeded earnings expectations and raised guidance, indicating strong demand in the semiconductor sector and operational efficiency."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Continued to benefit from broader tech sector strength and persistent optimism around its AI initiatives, without a specific fresh news catalyst today."
         }
       ]
     }
