@@ -1,32 +1,32 @@
 {
-  "generated_at": "June 17, 2026 (12:40 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 17, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7514.59,
-      "change": 3.24,
-      "change_pct": 0.04
+      "price": 7420.1,
+      "change": -91.25,
+      "change_pct": -1.21
     },
     {
       "label": "Nasdaq 100",
-      "price": 30124.89,
-      "change": 156.76,
-      "change_pct": 0.52
+      "price": 29670.95,
+      "change": -297.18,
+      "change_pct": -0.99
     },
     {
       "label": "VIX",
-      "price": 16.8,
-      "change": 0.39,
+      "price": 18.44,
+      "change": 2.03,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.43,
-      "change": -0.06,
+      "price": 4.46,
+      "change": -0.02,
       "change_pct": null,
-      "trend_label": "Falling"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24934.67,
-      "change_pct": 0.1
+      "price": 24910.41,
+      "change_pct": 0.07
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 63.4,
-    "mmth": 68.1,
+    "s5fi": 54.6,
+    "mmth": 64.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Selective Strength / Tech Leading",
+  "mood": "US Pullback / Global Resilience",
   "analysis": {
-    "action_line": "VIX 16.80 Normal + S5FI 63.4% breadth + global indices up slightly → favor strong momentum names in leading sectors.",
-    "analysis_para1": "Global equities are exhibiting a muted but positive tone this morning, with the Nikkei 225, DAX, and FTSE 100 all posting modest gains around +0.10% to +0.14%. Stateside, the falling 10-year Treasury yield at 4.43% suggests some easing of rate concerns or a potential flight to quality, though the BAML HY Spread regime remains unknown. US equity breadth indicators reflect a generally healthy market structure, with 63.4% of stocks above their 50-day moving average (S5FI) and 68.1% above their 200-day (MMTH), indicating broad participation.",
-    "analysis_para2": "The S&P 500's largely flat performance (+0.04%) today, contrasted with the Nasdaq 100's stronger showing (+0.52%), confirms a clear preference for growth and technology sectors. Traders should prioritize relative strength leaders, particularly within the Semiconductors and Hardware themes highlighted by the scanner. Key support levels for the S&P 500 and Nasdaq 100 should be monitored for potential entries on minor pullbacks. Given the robust breadth, a cautious but active approach to high-momentum names is warranted.",
-    "technical_signal": "No reversal pattern confirmed yet. The market continues to show constructive, albeit selective, upward momentum, particularly in tech.",
+    "action_line": "VIX 18.44 Normal + S5FI 54.6% breadth + Nikkei +0.13% → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets demonstrated resilience today with the Nikkei 225, DAX, and FTSE 100 all closing marginally higher. This contrasted sharply with the US session, where the S&P 500 shed 1.21% and the Nasdaq 100 declined by 0.99%, suggesting targeted profit-taking in US equities. Credit conditions remain undefined with the BAML HY Spread showing an unknown regime, limiting insights into broader financial stress. Despite the daily US weakness, market breadth remains constructive with 54.6% of stocks above their 50-day moving average and 64.6% above their 200-day moving average, indicating underlying market health.",
+    "analysis_para2": "The current environment calls for a mechanical plan focused on high relative strength names. Watch for the S&P 500 to consolidate near its 7400 level, potentially finding support around its 10-day moving average. A break below 7350 on the S&P 500, coupled with S5FI dipping below 50%, would signal a need for increased caution and reduced exposure. Conversely, any bounce from current levels, especially if led by volume in leading sectors, should be used to add to existing positions. Maintain exposure to high RS stocks as long as they hold their shorter-term moving averages.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's pullback in US indices was not accompanied by a strong global downturn or an extreme VIX spike, indicating more of a consolidation than a capitulation.",
     "ticker_intel": [
+      {
+        "ticker": "ARM",
+        "company": "Arm Holdings plc",
+        "grade": "A+",
+        "reason": "With RS=98 and a staggering 1-month return of +94.7%, ARM represents extreme strength in Semiconductors, making it a high conviction long for continued outperformance in a market that favors leadership."
+      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
-        "grade": "A+",
-        "reason": "This semiconductor stock, with RS=98 and a staggering 1M=+62.3% return, is a top conviction long in the current tech-leading environment due to its exceptional momentum."
-      },
-      {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "A robust hardware play, with high RS=97 and superior 1M momentum (+67.0%), fitting perfectly into the current market's preference for leading technology and hardware names."
+        "reason": "Boasting an RS=98, 1-month return of +63.3%, and an impressive 3-month return of +244.9%, VSH demonstrates robust leadership within the highly favored Semiconductor theme."
       },
       {
-        "ticker": "UMAC",
-        "company": "Unusual Machines, Inc.",
+        "ticker": "WULF",
+        "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "Despite strong RS=97 and a high 1M=+55.6% return, its significantly weaker 3M=+20.5% indicates inconsistent momentum, making it less suitable for sustained leadership in this selective market."
+        "reason": "Despite positive momentum with RS=97 and a 1-month return of +31.8%, its comparatively lower 3-month return of +82.1% within a strong peer group suggests it might be a laggard in the Neocloud theme, posing higher relative risk."
       }
     ]
   }
