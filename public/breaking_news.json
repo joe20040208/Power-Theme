@@ -1,12 +1,17 @@
 {
-  "last_checked": "June 17, 2026 (11:51 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "June 17, 2026 (11:56 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "trump doubles down on pulte for dni calls for shortterm extension of foreign surveillance law",
-      "ts": "2026-06-10T15:55:34.162325+00:00"
-    },
+      "headline": "[CNBC] Strait of Hormuz threat level downgraded after Iran deal, says U.S.-led maritime security group",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-17T11:56:42.032234-04:00",
+      "pub_time": null
+    }
+  ],
+  "seen_keys": [
     {
       "k": "trump doubles down on pulte for intelligence post calls for shortterm extension of foreign surveil",
       "ts": "2026-06-10T16:05:25.910866+00:00"
@@ -1410,6 +1415,14 @@
     {
       "k": "trump sabotages senate bid to fasttrack clayton as dni",
       "ts": "2026-06-17T15:51:43.034329+00:00"
+    },
+    {
+      "k": "watch trump speaks at g7 summit after threatening iran",
+      "ts": "2026-06-17T15:56:42.434630+00:00"
+    },
+    {
+      "k": "strait of hormuz threat level downgraded after iran deal says usled maritime security group",
+      "ts": "2026-06-17T15:56:42.434630+00:00"
     }
   ]
 }
