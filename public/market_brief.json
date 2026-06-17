@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 17, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 17, 2026 (12:40 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7511.35,
-      "change": -42.94,
-      "change_pct": -0.57
+      "price": 7514.59,
+      "change": 3.24,
+      "change_pct": 0.04
     },
     {
       "label": "Nasdaq 100",
-      "price": 29968.13,
-      "change": -575.79,
-      "change_pct": -1.89
+      "price": 30124.89,
+      "change": 156.76,
+      "change_pct": 0.52
     },
     {
       "label": "VIX",
-      "price": 16.26,
-      "change": -0.15,
+      "price": 16.8,
+      "change": 0.39,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.44,
-      "change": -0.05,
+      "price": 4.43,
+      "change": -0.06,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69902.25,
-      "change_pct": 0.72
+      "price": 69404.5,
+      "change_pct": 0.13
     },
     "dax": {
       "label": "DAX",
-      "price": 24887.45,
-      "change_pct": -0.09
+      "price": 24934.67,
+      "change_pct": 0.1
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10482.88,
-      "change_pct": -0.11
+      "price": 10508.61,
+      "change_pct": 0.14
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 65.7,
-    "mmth": 67.9,
+    "s5fi": 63.4,
+    "mmth": 68.1,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech Sell-Off / Nasdaq Weakness",
+  "mood": "Selective Strength / Tech Leading",
   "analysis": {
-    "action_line": "VIX 16.26 Normal + S5FI 65.7% breadth + mixed global tape (ex-Nikkei) → trade RS leaders selectively near support.",
-    "analysis_para1": "A mixed global picture emerges this morning, with Nikkei 225 gaining +0.72% while European markets like the DAX (-0.09%) and FTSE 100 (-0.11%) show slight declines, mirroring early US weakness. US Treasury yields are falling, with the 10Y Yield at 4.44%, possibly signaling a flight to safety or softening economic outlook ahead of the open. Despite today's US market decline, market breadth remains relatively healthy with S5FI at 65.7% and MMTH at 67.9%, suggesting underlying strength but a watch for deterioration is warranted. The divergence indicates a nuanced environment where capital is rotating rather than broadly exiting.",
-    "analysis_para2": "With the S&P 500 at 7511.35 and the Nasdaq 100 significantly lower at 29968.13, key support levels for the SPX include 7500 and the psychological 29900-30000 range for the NDX. A failure to hold these levels on follow-through selling would confirm further downside pressure, especially if the Nasdaq breaks decisively below its 50-day moving average. Conversely, a sharp reversal off these levels could indicate a buying opportunity in resilient leading stocks. Given the VIX is at 16.26 (Normal), any surge above 18 would signal increasing volatility and a need for tighter risk management. Focus on relative strength leaders if the market finds footing; otherwise, protect capital.",
-    "technical_signal": "No reversal pattern confirmed yet. The market is showing pre-market weakness, particularly in the Nasdaq 100, and is approaching initial support levels.",
+    "action_line": "VIX 16.80 Normal + S5FI 63.4% breadth + global indices up slightly → favor strong momentum names in leading sectors.",
+    "analysis_para1": "Global equities are exhibiting a muted but positive tone this morning, with the Nikkei 225, DAX, and FTSE 100 all posting modest gains around +0.10% to +0.14%. Stateside, the falling 10-year Treasury yield at 4.43% suggests some easing of rate concerns or a potential flight to quality, though the BAML HY Spread regime remains unknown. US equity breadth indicators reflect a generally healthy market structure, with 63.4% of stocks above their 50-day moving average (S5FI) and 68.1% above their 200-day (MMTH), indicating broad participation.",
+    "analysis_para2": "The S&P 500's largely flat performance (+0.04%) today, contrasted with the Nasdaq 100's stronger showing (+0.52%), confirms a clear preference for growth and technology sectors. Traders should prioritize relative strength leaders, particularly within the Semiconductors and Hardware themes highlighted by the scanner. Key support levels for the S&P 500 and Nasdaq 100 should be monitored for potential entries on minor pullbacks. Given the robust breadth, a cautious but active approach to high-momentum names is warranted.",
+    "technical_signal": "No reversal pattern confirmed yet. The market continues to show constructive, albeit selective, upward momentum, particularly in tech.",
     "ticker_intel": [
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A+",
-        "reason": "This Semiconductor leader with RS=98 and a staggering 1M=+62.3% and 3M=+241.7% demonstrates exceptional price momentum and robust institutional demand in a leading sector, making it a strong buy-on-dip candidate."
+        "reason": "This semiconductor stock, with RS=98 and a staggering 1M=+62.3% return, is a top conviction long in the current tech-leading environment due to its exceptional momentum."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL stands out with RS=97 and the highest 1M gain on the list at +67.0%, showcasing persistent demand within the Hardware theme, making it a conviction long if market sentiment improves."
+        "reason": "A robust hardware play, with high RS=97 and superior 1M momentum (+67.0%), fitting perfectly into the current market's preference for leading technology and hardware names."
       },
       {
         "ticker": "UMAC",
         "company": "Unusual Machines, Inc.",
         "grade": "C",
-        "reason": "Despite a strong 1M=+55.6% gain, UMAC's 3M=+20.5% return is significantly weaker than its peers, indicating a lack of sustained momentum that could make it more vulnerable to market weakness."
+        "reason": "Despite strong RS=97 and a high 1M=+55.6% return, its significantly weaker 3M=+20.5% indicates inconsistent momentum, making it less suitable for sustained leadership in this selective market."
       }
     ]
   }
