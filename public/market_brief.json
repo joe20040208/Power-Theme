@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 18, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 18, 2026 (12:36 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7420.1,
-      "change": -91.25,
-      "change_pct": -1.21
+      "price": 7493.97,
+      "change": 73.87,
+      "change_pct": 1.0
     },
     {
       "label": "Nasdaq 100",
-      "price": 29670.95,
-      "change": -297.18,
-      "change_pct": -0.99
+      "price": 30346.75,
+      "change": 675.8,
+      "change_pct": 2.28
     },
     {
       "label": "VIX",
-      "price": 17.13,
-      "change": -1.31,
+      "price": 16.88,
+      "change": -1.56,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.44,
-      "change": -0.05,
+      "price": 4.45,
+      "change": -0.04,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 71053.49,
-      "change_pct": 1.65
+      "price": 69902.25,
+      "change_pct": 0.72
     },
     "dax": {
       "label": "DAX",
-      "price": 24976.9,
-      "change_pct": 0.17
+      "price": 25026.8,
+      "change_pct": 0.37
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10413.45,
-      "change_pct": -0.91
+      "price": 10399.7,
+      "change_pct": -1.04
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 54.6,
-    "mmth": 64.6,
+    "s5fi": 55.4,
+    "mmth": 64.1,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Mixed, US Weakness",
+  "mood": "Tech-led Rally / US Outperformance",
   "analysis": {
-    "action_line": "VIX 17.13 Normal + S5FI 54.6% breadth + mixed global tape (Nikkei up, FTSE down) → trade RS leaders cautiously near support.",
-    "analysis_para1": "Global markets present a mixed picture this morning, with the Nikkei 225 up 1.65% and the DAX showing a modest 0.17% gain, contrasting sharply with the FTSE 100's 0.91% decline. In the US, the 10-Year Treasury yield is falling to 4.44%, potentially signaling underlying economic concerns or a flight to safety, though high-yield credit specifics are unavailable. Market breadth indicators suggest a slightly above-neutral stance, with 54.6% of S&P 500 stocks above their 50-day moving average (S5FI) and 64.6% above their 200-day (MMTH), indicating resilience despite current market pressure.",
-    "analysis_para2": "With US indices down over 1% pre-market, the mechanical plan involves closely monitoring the S&P 500 near the 7400 level and the Nasdaq 100 around 29500 for potential intraday support tests. A failure to hold these levels could indicate further downside, while a strong reversal with increasing volume would be a bullish signal. Keep an eye on the VIX; a move above 18-20 could signal escalating fear and lead to a more defensive posture. For individual positions, focus on relative strength leaders maintaining their upward momentum, but ensure entries are near established support or after consolidation, avoiding impulsive buys into opening volatility.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are down sharply pre-market, suggesting continued weakness from yesterday or early distribution.",
+    "action_line": "VIX 16.88 normal + S5FI 55.4% breadth + mixed global tape with FTSE 100 weakness → focus on US RS leaders near support.",
+    "analysis_para1": "The global equity landscape presents a mixed picture today, with Nikkei 225 up 0.72% and DAX 0.37% higher, contrasting sharply with the FTSE 100's notable 1.04% decline. This divergence suggests localized strength rather than a synchronized global advance. In the US, market breadth metrics are showing modest improvement, with S5FI at 55.4% and MMTH at 64.1%, indicating a decent but not overly broad participation in the current rally. The absence of a BAML HY Spread reading leaves the US credit regime uncertain, yet US equities, particularly the Nasdaq, are showing strong leadership.",
+    "analysis_para2": "The S&P 500's robust 1.00% gain and the Nasdaq 100's 2.28% surge signal strong upward momentum, particularly in technology. For the mechanical plan, monitor the S&P 500's ability to hold above the 7450 level, as a dip below could suggest short-term weakness. On the Nasdaq, sustained strength above 30000 is crucial for confirming continued leadership. Focus on breakouts from consolidating bases or buying pullbacks on leading stocks with RS 98-99 as a tactical approach. Any significant increase in VIX from 16.88 or a sharp drop in breadth could signal a shift, warranting defensive adjustments.",
+    "technical_signal": "No reversal pattern confirmed yet. The market is showing strong upward momentum, especially in technology-related sectors.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "ARM exhibits superior relative strength (RS=98) and an explosive 1-month gain of +94.7%, making it a top-tier semiconductor leader in the current environment."
+        "reason": "ARM, a semiconductor leader, commands an A+ grade with RS 98 and a staggering 94.7% 1-month return, making it a prime candidate for continued risk-on leadership in a tech-driven market."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "VSH shows strong relative strength (RS=98) with a 1-month return of +63.3%, indicating robust momentum in the high-performing semiconductor sector."
+        "reason": "VSH merits an A grade, showcasing an RS of 98 and exceptional 63.3% 1-month and 244.9% 3-month returns, positioning it as a high-momentum play within the robust semiconductor theme."
       },
       {
-        "ticker": "WULF",
-        "company": "TeraWulf Inc.",
+        "ticker": "HUT",
+        "company": "Hut 8 Corp.",
         "grade": "C",
-        "reason": "While showing strong recent performance, WULF's relative strength (RS=97) and 3-month return (+82.1%) are comparatively lower than other candidates, suggesting it might be less resilient in a broad market pullback."
+        "reason": "HUT receives a C grade despite its high RS 98, as its 1-month return of +23.6% is the lowest among all listed leaders, suggesting relative underperformance in a highly selective growth market."
       }
     ]
   }
