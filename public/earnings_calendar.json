@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T21:48:29.322759+00:00",
+  "generated_at": "2026-06-18T12:16:29.570476+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 156.01,
-      "avg_volume": 6068581,
+      "avg_volume": 6097023,
       "adr_pct": 4.4,
-      "dollar_volume": 946759322.0
+      "dollar_volume": 951196558.0
     },
     {
       "date": "2026-06-18",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 61.82,
-      "avg_volume": 6051970,
+      "avg_volume": 6182464,
       "adr_pct": 2.4,
-      "dollar_volume": 374132785.0
+      "dollar_volume": 382199924.0
     },
     {
       "date": "2026-06-23",
@@ -49,9 +49,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 29.91,
-      "avg_volume": 28068595,
+      "avg_volume": 28128104,
       "adr_pct": 4.1,
-      "dollar_volume": 839531676.0
+      "dollar_volume": 841311591.0
     },
     {
       "date": "2026-06-23",
@@ -66,9 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 325.93,
-      "avg_volume": 2171557,
+      "avg_volume": 2162454,
       "adr_pct": 2.9,
-      "dollar_volume": 707775573.0
+      "dollar_volume": 704808632.0
     },
     {
       "date": "2026-06-23",
@@ -83,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 52.42,
-      "avg_volume": 1211410,
+      "avg_volume": 1222873,
       "adr_pct": 3.2,
-      "dollar_volume": 63502112.0
+      "dollar_volume": 64103003.0
     },
     {
       "date": "2026-06-23",
@@ -100,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 71.67,
-      "avg_volume": 502632,
+      "avg_volume": 505248,
       "adr_pct": 2.3,
-      "dollar_volume": 36023635.0
+      "dollar_volume": 36211124.0
     },
     {
       "date": "2026-06-23",
@@ -117,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 81.53,
-      "avg_volume": 3379839,
+      "avg_volume": 3348293,
       "adr_pct": 3.1,
-      "dollar_volume": 275558274.0
+      "dollar_volume": 272986328.0
     },
     {
       "date": "2026-06-24",
@@ -134,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.77,
-      "avg_volume": 657492,
+      "avg_volume": 666489,
       "adr_pct": 3.4,
-      "dollar_volume": 42585757.0
+      "dollar_volume": 43168493.0
     },
     {
       "date": "2026-06-24",
@@ -151,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 61.88,
-      "avg_volume": 2213329,
+      "avg_volume": 2206629,
       "adr_pct": 3.3,
-      "dollar_volume": 136960799.0
+      "dollar_volume": 136546203.0
     },
     {
       "date": "2026-06-24",
@@ -168,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 1043.19,
-      "avg_volume": 51140010,
+      "avg_volume": 51179618,
       "adr_pct": 7.1,
-      "dollar_volume": 53348747032.0
+      "dollar_volume": 53390065701.0
     },
     {
       "date": "2026-06-24",
@@ -185,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 8.1,
-      "avg_volume": 3389326,
-      "adr_pct": 6.0,
-      "dollar_volume": 27453541.0
+      "avg_volume": 3399028,
+      "adr_pct": 6.1,
+      "dollar_volume": 27532127.0
     },
     {
       "date": "2026-06-24",
@@ -202,26 +202,162 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 97.58,
-      "avg_volume": 3588356,
+      "avg_volume": 3600635,
       "adr_pct": 2.9,
-      "dollar_volume": 350151778.0
+      "dollar_volume": 351349963.0
     },
     {
       "date": "2026-06-24",
       "ticker": "TCOM",
       "company": "Trip.com Group Limited",
       "time_of_day": "AMC",
-      "mkt_cap": 29422975537.0,
+      "mkt_cap": 29426124736.0,
       "eps_estimate": 6.15,
       "eps_act": null,
       "eps_surp_pct": null,
       "rev_est": 15846498960.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 46.72,
-      "avg_volume": 2702396,
+      "price": 46.73,
+      "avg_volume": 2723515,
       "adr_pct": 2.1,
-      "dollar_volume": 126255941.0
+      "dollar_volume": 127269856.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "AYI",
+      "company": "Acuity Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 9266134362.0,
+      "eps_estimate": 5.16,
+      "eps_act": 4.14,
+      "eps_surp_pct": 2.51,
+      "rev_est": 1176369430.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 305.66,
+      "avg_volume": 393128,
+      "adr_pct": 3.4,
+      "dollar_volume": 120163504.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "BB",
+      "company": "BlackBerry Limited",
+      "time_of_day": "AMC",
+      "mkt_cap": 5174922179.0,
+      "eps_estimate": 0.03,
+      "eps_act": 0.06,
+      "eps_surp_pct": 29.31,
+      "rev_est": 137654400.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 8.83,
+      "avg_volume": 27135676,
+      "adr_pct": 8.4,
+      "dollar_volume": 239608019.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "CMC",
+      "company": "Commercial Metals Company",
+      "time_of_day": "BMO",
+      "mkt_cap": 8119174392.0,
+      "eps_estimate": 1.75,
+      "eps_act": 1.16,
+      "eps_surp_pct": -11.87,
+      "rev_est": 2413806160.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 73.22,
+      "avg_volume": 1083843,
+      "adr_pct": 3.5,
+      "dollar_volume": 79358984.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "DRI",
+      "company": "Darden Restaurants, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 24204682394.0,
+      "eps_estimate": 3.64,
+      "eps_act": 2.95,
+      "eps_surp_pct": -0.8,
+      "rev_est": 3727079340.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 211.33,
+      "avg_volume": 1248481,
+      "adr_pct": 2.6,
+      "dollar_volume": 263841490.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "LNN",
+      "company": "Lindsay Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 1213787171.0,
+      "eps_estimate": 1.21,
+      "eps_act": 1.15,
+      "eps_surp_pct": -32.43,
+      "rev_est": 157803500.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 116.1,
+      "avg_volume": 192225,
+      "adr_pct": 2.7,
+      "dollar_volume": 22317322.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "MKC",
+      "company": "McCormick & Company, Incorporated",
+      "time_of_day": "BMO",
+      "mkt_cap": 12498520587.0,
+      "eps_estimate": 0.7,
+      "eps_act": 0.66,
+      "eps_surp_pct": 9.93,
+      "rev_est": 1913157190.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 46.49,
+      "avg_volume": 4369296,
+      "adr_pct": 3.0,
+      "dollar_volume": 203128571.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "SMPL",
+      "company": "The Simply Good Foods Company",
+      "time_of_day": "BMO",
+      "mkt_cap": 1123863640.0,
+      "eps_estimate": 0.36,
+      "eps_act": 0.45,
+      "eps_surp_pct": 11.77,
+      "rev_est": 332515330.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 12.14,
+      "avg_volume": 2805853,
+      "adr_pct": 3.6,
+      "dollar_volume": 34063055.0
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "SNX",
+      "company": "TD SYNNEX Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 22882575549.0,
+      "eps_estimate": 4.12,
+      "eps_act": 4.73,
+      "eps_surp_pct": 41.62,
+      "rev_est": 16803538620.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 283.81,
+      "avg_volume": 833425,
+      "adr_pct": 3.7,
+      "dollar_volume": 236534349.0
     }
   ]
 }
