@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 17, 2026 (18:55 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 18, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,34 +16,34 @@
     },
     {
       "label": "VIX",
-      "price": 18.44,
-      "change": 2.03,
+      "price": 17.13,
+      "change": -1.31,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.46,
-      "change": -0.02,
+      "price": 4.44,
+      "change": -0.05,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Falling"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69404.5,
-      "change_pct": 0.13
+      "price": 71053.49,
+      "change_pct": 1.65
     },
     "dax": {
       "label": "DAX",
-      "price": 24910.41,
-      "change_pct": 0.07
+      "price": 24976.9,
+      "change_pct": 0.17
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10508.61,
-      "change_pct": 0.14
+      "price": 10413.45,
+      "change_pct": -0.91
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Risk-Off, Sectoral Strength",
+  "mood": "Global Mixed, US Weakness",
   "analysis": {
-    "action_line": "VIX 18.44 Normal + S5FI 54.6% breadth + mixed global tape (Nikkei +0.13%) → selectively trade RS leaders near support.",
-    "analysis_para1": "Despite a softer session for US equities, global markets offered a mixed but generally stable picture, with the Nikkei 225, DAX, and FTSE 100 all posting modest gains. The US 10-year yield held stable at 4.46%, suggesting no immediate credit distress, though the high-yield spread regime remains unknown. US market breadth, as measured by S5FI at 54.6% and MMTH at 64.6%, indicates underlying health with more than half of stocks above their key moving averages, yet today's declines show some rotational weakness.",
-    "analysis_para2": "With the S&P 500 pulling back to 7420.10 and the Nasdaq 100 to 29670.95, vigilance is key. The mechanical plan involves monitoring these major indices for stabilization around their prior day's closing levels or key moving averages in the coming sessions. Focus remains on identifying relative strength leaders that can hold their gains or consolidate constructively, especially within the leading Hardware and Semiconductor sectors. Any retest of breakout points or prior resistance turning support on these strong names presents a viable entry point, provided broader market stability can be re-established.",
-    "technical_signal": "No reversal pattern confirmed yet. The day's decline in major indices, while moderate, does not present a clear bullish reversal signal.",
+    "action_line": "VIX 17.13 Normal + S5FI 54.6% breadth + mixed global tape (Nikkei up, FTSE down) → trade RS leaders cautiously near support.",
+    "analysis_para1": "Global markets present a mixed picture this morning, with the Nikkei 225 up 1.65% and the DAX showing a modest 0.17% gain, contrasting sharply with the FTSE 100's 0.91% decline. In the US, the 10-Year Treasury yield is falling to 4.44%, potentially signaling underlying economic concerns or a flight to safety, though high-yield credit specifics are unavailable. Market breadth indicators suggest a slightly above-neutral stance, with 54.6% of S&P 500 stocks above their 50-day moving average (S5FI) and 64.6% above their 200-day (MMTH), indicating resilience despite current market pressure.",
+    "analysis_para2": "With US indices down over 1% pre-market, the mechanical plan involves closely monitoring the S&P 500 near the 7400 level and the Nasdaq 100 around 29500 for potential intraday support tests. A failure to hold these levels could indicate further downside, while a strong reversal with increasing volume would be a bullish signal. Keep an eye on the VIX; a move above 18-20 could signal escalating fear and lead to a more defensive posture. For individual positions, focus on relative strength leaders maintaining their upward momentum, but ensure entries are near established support or after consolidation, avoiding impulsive buys into opening volatility.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are down sharply pre-market, suggesting continued weakness from yesterday or early distribution.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "Arm Holdings is a high-conviction long, demonstrating exceptional relative strength (RS=98) and a staggering 1-month gain of +94.7%, indicating strong demand in the AI-driven semiconductor landscape."
+        "reason": "ARM exhibits superior relative strength (RS=98) and an explosive 1-month gain of +94.7%, making it a top-tier semiconductor leader in the current environment."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology is a strong buy, showcasing robust relative strength (RS=98) and a 1-month return of +63.3%, reflecting its leadership in the thriving semiconductor components sector."
+        "reason": "VSH shows strong relative strength (RS=98) with a 1-month return of +63.3%, indicating robust momentum in the high-performing semiconductor sector."
       },
       {
         "ticker": "WULF",
         "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "TeraWulf is a C-grade avoid due to its comparatively lower relative strength (RS=97) and weaker 3-month performance (+82.1%) within a robust peer group, suggesting less conviction in the current market."
+        "reason": "While showing strong recent performance, WULF's relative strength (RS=97) and 3-month return (+82.1%) are comparatively lower than other candidates, suggesting it might be less resilient in a broad market pullback."
       }
     ]
   }
