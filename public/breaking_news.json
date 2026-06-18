@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 18, 2026 (14:10 EST)",
+  "last_checked": "June 18, 2026 (14:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. Navy ends blockade of Iran's ports and coastal areas, CENTCOM says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-18T14:15:27.208578-04:00",
+      "pub_time": "2026-06-18T14:15:05-04:00"
+    },
     {
       "headline": "[CNBC] Gas prices fall below $4 per gallon as oil supply fears ease after Iran deal",
       "source": "CNBC",
@@ -1371,6 +1379,10 @@
     {
       "k": "spacex stock sinks 7 continuing to cool after threeday rally",
       "ts": "2026-06-18T17:45:29.871418+00:00"
+    },
+    {
+      "k": "us navy ends blockade of irans ports and coastal areas centcom says",
+      "ts": "2026-06-18T18:15:27.560509+00:00"
     }
   ]
 }
