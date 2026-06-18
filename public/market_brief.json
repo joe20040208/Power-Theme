@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 18, 2026 (18:30 EDT)",
+  "generated_at": "June 18, 2026 (19:14 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10399.7,
-      "change_pct": -1.04
+      "price": 10508.6,
+      "change_pct": 0.14
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led rally / Strong US momentum",
+  "mood": "Tech-led Rally / Risk-On",
   "analysis": {
-    "action_line": "VIX 16.40 Normal + S5FI 55.9% breadth + strong Nasdaq (+2.48%) suggests continued selective buying of RS leaders near support.",
-    "analysis_para1": "Global markets presented a mixed picture, with the Nikkei 225 gaining +0.72% and the DAX +0.10%, while the FTSE 100 closed down -1.04%. Despite this international divergence, US markets demonstrated significant strength, especially in tech. The falling 10Y Yield to 4.45% generally supports growth-oriented sectors, though the 'Unknown regime' for BAML HY Spread necessitates a cautious approach to broader credit. US breadth indicators, S5FI at 55.9% and MMTH at 63.9%, show healthy but not overheated participation, suggesting underlying market strength beyond a few mega-caps.",
-    "analysis_para2": "The mechanical plan dictates continued focus on sectors exhibiting dominant relative strength, primarily Semiconductors, Hardware, and Neocloud, which are driving today's impressive Nasdaq performance. With the S&P 500 closing at 7500.58 and the Nasdaq 100 at 30406.19, these elevated levels require careful management of risk. Traders should look for pullbacks to established support zones on leading stocks within these themes, using intraday volatility (ADR values of 6-11% on top candidates) for entry opportunities. Maintain vigilance for any shift in the VIX from its current 'Normal' 16.40 reading, as well as a potential decline in breadth indicators.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's strong equity performance, especially in tech, indicates continued upward momentum for now.",
+    "action_line": "VIX 16.40 Normal + S5FI 55.9% breadth + positive global tape → prioritize high RS leaders in growth themes.",
+    "analysis_para1": "Global markets showed modest gains, with the Nikkei up +0.72% and European indices DAX and FTSE 100 gaining +0.10% and +0.14% respectively, indicating a cautiously optimistic global sentiment. Domestically, the falling 10Y yield provides a supportive backdrop, although the BAML HY Spread regime remains unknown. US market breadth, while positive with S5FI at 55.9% and MMTH at 63.9%, suggests a somewhat concentrated rally, particularly evident in the strong Nasdaq performance.",
+    "analysis_para2": "The mechanical plan centers on identifying and acting on strength within leading themes. Given today's robust tech and semiconductor performance, focus on pullbacks to key support levels or confirming breakouts in names exhibiting superior relative strength. Maintain strict risk management and watch for any deterioration in market breadth, especially if the S5FI drops below 50% or if the VIX shows signs of firming above 18, which could signal a shift towards consolidation or profit-taking.",
+    "technical_signal": "No reversal pattern confirmed yet. The market saw broad gains, particularly in tech, maintaining an upward trajectory driven by strong momentum.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "ARM, with an RS of 98 and a staggering +96.9% 1-month return, is a leading semiconductor play benefiting from the current tech-led market regime."
+        "reason": "This stock showcases exceptional momentum with RS=98 and a +96.9% 1-month return in the robust Semiconductors theme, making it a prime candidate for continued outperformance in a growth-driven market."
       },
       {
-        "ticker": "MRVL",
-        "company": "Marvell Technology, Inc.",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "MRVL exhibits robust strength with an RS of 98 and a +76.2% 1-month return, making it a high-conviction semiconductor name in this momentum-driven environment."
+        "reason": "With outstanding +75.2% 1-month returns and strong RS=98 in the high-performing Semiconductors sector, VSH represents a high-conviction long in the current risk-on environment."
       },
       {
         "ticker": "INTC",
         "company": "Intel Corporation",
         "grade": "C",
-        "reason": "Despite an RS of 98, INTC's +20.9% 1-month return significantly lags its semiconductor peers, suggesting relative underperformance in a booming sector."
+        "reason": "Despite its strong RS=98, INTC's significantly lower +20.9% 1-month performance compared to its semiconductor peers suggests relative underperformance within a leading group, making it a less attractive option for momentum-focused conviction longs."
       }
     ]
   }
