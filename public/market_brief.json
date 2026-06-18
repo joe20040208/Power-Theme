@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 18, 2026 (12:36 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 18, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7493.97,
-      "change": 73.87,
-      "change_pct": 1.0
+      "price": 7500.58,
+      "change": 80.48,
+      "change_pct": 1.08
     },
     {
       "label": "Nasdaq 100",
-      "price": 30346.75,
-      "change": 675.8,
-      "change_pct": 2.28
+      "price": 30406.19,
+      "change": 735.24,
+      "change_pct": 2.48
     },
     {
       "label": "VIX",
-      "price": 16.88,
-      "change": -1.56,
+      "price": 16.4,
+      "change": -2.04,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 25026.8,
-      "change_pct": 0.37
+      "price": 24934.67,
+      "change_pct": 0.1
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 55.4,
-    "mmth": 64.1,
+    "s5fi": 55.9,
+    "mmth": 63.9,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-led Rally / US Outperformance",
+  "mood": "Tech-led rally / Strong US momentum",
   "analysis": {
-    "action_line": "VIX 16.88 normal + S5FI 55.4% breadth + mixed global tape with FTSE 100 weakness → focus on US RS leaders near support.",
-    "analysis_para1": "The global equity landscape presents a mixed picture today, with Nikkei 225 up 0.72% and DAX 0.37% higher, contrasting sharply with the FTSE 100's notable 1.04% decline. This divergence suggests localized strength rather than a synchronized global advance. In the US, market breadth metrics are showing modest improvement, with S5FI at 55.4% and MMTH at 64.1%, indicating a decent but not overly broad participation in the current rally. The absence of a BAML HY Spread reading leaves the US credit regime uncertain, yet US equities, particularly the Nasdaq, are showing strong leadership.",
-    "analysis_para2": "The S&P 500's robust 1.00% gain and the Nasdaq 100's 2.28% surge signal strong upward momentum, particularly in technology. For the mechanical plan, monitor the S&P 500's ability to hold above the 7450 level, as a dip below could suggest short-term weakness. On the Nasdaq, sustained strength above 30000 is crucial for confirming continued leadership. Focus on breakouts from consolidating bases or buying pullbacks on leading stocks with RS 98-99 as a tactical approach. Any significant increase in VIX from 16.88 or a sharp drop in breadth could signal a shift, warranting defensive adjustments.",
-    "technical_signal": "No reversal pattern confirmed yet. The market is showing strong upward momentum, especially in technology-related sectors.",
+    "action_line": "VIX 16.40 Normal + S5FI 55.9% breadth + strong Nasdaq (+2.48%) suggests continued selective buying of RS leaders near support.",
+    "analysis_para1": "Global markets presented a mixed picture, with the Nikkei 225 gaining +0.72% and the DAX +0.10%, while the FTSE 100 closed down -1.04%. Despite this international divergence, US markets demonstrated significant strength, especially in tech. The falling 10Y Yield to 4.45% generally supports growth-oriented sectors, though the 'Unknown regime' for BAML HY Spread necessitates a cautious approach to broader credit. US breadth indicators, S5FI at 55.9% and MMTH at 63.9%, show healthy but not overheated participation, suggesting underlying market strength beyond a few mega-caps.",
+    "analysis_para2": "The mechanical plan dictates continued focus on sectors exhibiting dominant relative strength, primarily Semiconductors, Hardware, and Neocloud, which are driving today's impressive Nasdaq performance. With the S&P 500 closing at 7500.58 and the Nasdaq 100 at 30406.19, these elevated levels require careful management of risk. Traders should look for pullbacks to established support zones on leading stocks within these themes, using intraday volatility (ADR values of 6-11% on top candidates) for entry opportunities. Maintain vigilance for any shift in the VIX from its current 'Normal' 16.40 reading, as well as a potential decline in breadth indicators.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's strong equity performance, especially in tech, indicates continued upward momentum for now.",
     "ticker_intel": [
       {
         "ticker": "ARM",
         "company": "Arm Holdings plc",
         "grade": "A+",
-        "reason": "ARM, a semiconductor leader, commands an A+ grade with RS 98 and a staggering 94.7% 1-month return, making it a prime candidate for continued risk-on leadership in a tech-driven market."
+        "reason": "ARM, with an RS of 98 and a staggering +96.9% 1-month return, is a leading semiconductor play benefiting from the current tech-led market regime."
       },
       {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
         "grade": "A",
-        "reason": "VSH merits an A grade, showcasing an RS of 98 and exceptional 63.3% 1-month and 244.9% 3-month returns, positioning it as a high-momentum play within the robust semiconductor theme."
+        "reason": "MRVL exhibits robust strength with an RS of 98 and a +76.2% 1-month return, making it a high-conviction semiconductor name in this momentum-driven environment."
       },
       {
-        "ticker": "HUT",
-        "company": "Hut 8 Corp.",
+        "ticker": "INTC",
+        "company": "Intel Corporation",
         "grade": "C",
-        "reason": "HUT receives a C grade despite its high RS 98, as its 1-month return of +23.6% is the lowest among all listed leaders, suggesting relative underperformance in a highly selective growth market."
+        "reason": "Despite an RS of 98, INTC's +20.9% 1-month return significantly lags its semiconductor peers, suggesting relative underperformance in a booming sector."
       }
     ]
   }
