@@ -5,97 +5,97 @@
   "count": 7,
   "stocks": [
     {
+      "ticker": "HQ",
+      "company": "Horizon Quantum Holdings Ltd.",
+      "industry": "Packaged Software",
+      "price": 32.0,
+      "change_pct": 35.54,
+      "adr_pct": 9.9,
+      "dollar_volume": "$66.2M",
+      "market_cap_b": 1.019,
+      "rs_ibd": 93,
+      "atr_ext_val": 16.37
+    },
+    {
       "ticker": "GBTG",
       "company": "Global Business Travel Group, Inc.",
       "industry": "Other Consumer Services",
       "price": 9.36,
       "change_pct": 0.0,
       "adr_pct": 1.0,
-      "dollar_volume": "$28.8M",
+      "dollar_volume": "$27.4M",
       "market_cap_b": 4.881,
       "rs_ibd": 85,
-      "atr_ext_val": 15.38
+      "atr_ext_val": 15.04
+    },
+    {
+      "ticker": "BFLY",
+      "company": "Butterfly Network, Inc.",
+      "industry": "Medical Specialties",
+      "price": 8.9,
+      "change_pct": 55.87,
+      "adr_pct": 6.6,
+      "dollar_volume": "$100.5M",
+      "market_cap_b": 2.325,
+      "rs_ibd": 95,
+      "atr_ext_val": 12.49
     },
     {
       "ticker": "QURE",
       "company": "uniQure N.V.",
       "industry": "Biotechnology",
-      "price": 48.16,
-      "change_pct": 78.44,
-      "adr_pct": 7.0,
-      "dollar_volume": "$150.5M",
-      "market_cap_b": 3.011,
+      "price": 46.29,
+      "change_pct": -3.88,
+      "adr_pct": 7.4,
+      "dollar_volume": "$152.4M",
+      "market_cap_b": 2.894,
       "rs_ibd": 97,
-      "atr_ext_val": 14.94
-    },
-    {
-      "ticker": "OGN",
-      "company": "Organon & Co.",
-      "industry": "Pharmaceuticals: Major",
-      "price": 13.42,
-      "change_pct": 0.0,
-      "adr_pct": 0.8,
-      "dollar_volume": "$31.2M",
-      "market_cap_b": 3.524,
-      "rs_ibd": 84,
-      "atr_ext_val": 12.55
+      "atr_ext_val": 12.34
     },
     {
       "ticker": "RAMP",
       "company": "LiveRamp Holdings, Inc.",
       "industry": "Packaged Software",
-      "price": 37.61,
-      "change_pct": 0.0,
-      "adr_pct": 1.3,
-      "dollar_volume": "$53.3M",
-      "market_cap_b": 2.26,
+      "price": 37.74,
+      "change_pct": 0.35,
+      "adr_pct": 1.2,
+      "dollar_volume": "$51.8M",
+      "market_cap_b": 2.268,
       "rs_ibd": 58,
-      "atr_ext_val": 11.6
+      "atr_ext_val": 11.97
     },
     {
-      "ticker": "CORT",
-      "company": "Corcept Therapeutics Incorporated",
+      "ticker": "OGN",
+      "company": "Organon & Co.",
       "industry": "Pharmaceuticals: Major",
-      "price": 81.75,
-      "change_pct": -2.34,
-      "adr_pct": 3.9,
-      "dollar_volume": "$77.9M",
-      "market_cap_b": 8.776,
-      "rs_ibd": 92,
-      "atr_ext_val": 10.26
+      "price": 13.43,
+      "change_pct": 0.07,
+      "adr_pct": 0.8,
+      "dollar_volume": "$36.2M",
+      "market_cap_b": 3.527,
+      "rs_ibd": 83,
+      "atr_ext_val": 11.52
     },
     {
-      "ticker": "MAAS",
-      "company": "Maase Inc.",
-      "industry": "Investment Managers",
-      "price": 17.94,
-      "change_pct": 12.97,
-      "adr_pct": 7.3,
-      "dollar_volume": "$1.3M",
-      "market_cap_b": 7.933,
-      "rs_ibd": 97,
-      "atr_ext_val": 10.26
-    },
-    {
-      "ticker": "CPRX",
-      "company": "Catalyst Pharmaceuticals, Inc.",
-      "industry": "Pharmaceuticals: Major",
-      "price": 31.4,
-      "change_pct": 0.16,
-      "adr_pct": 0.6,
-      "dollar_volume": "$49.6M",
-      "market_cap_b": 3.844,
-      "rs_ibd": 66,
-      "atr_ext_val": 10.18
+      "ticker": "SEZL",
+      "company": "Sezzle Inc.",
+      "industry": "Packaged Software",
+      "price": 163.28,
+      "change_pct": 11.28,
+      "adr_pct": 5.8,
+      "dollar_volume": "$119.4M",
+      "market_cap_b": 5.491,
+      "rs_ibd": 86,
+      "atr_ext_val": 10.67
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -1.21,
-    "spx_1m": 0.9,
-    "spx_3m": 12.32,
-    "spx_34d": 2.93,
-    "spx_qtd": 12.85,
-    "spx_mtd": -2.37
+    "spx_1d": 1.08,
+    "spx_1m": 0.91,
+    "spx_3m": 15.28,
+    "spx_34d": 3.74,
+    "spx_qtd": 14.07,
+    "spx_mtd": -1.31
   },
-  "fetched_at_utc": "2026-06-17T21:48:45+00:00"
+  "fetched_at_utc": "2026-06-18T21:54:21+00:00"
 }
