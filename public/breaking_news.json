@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 18, 2026 (14:25 EST)",
+  "last_checked": "June 18, 2026 (14:28 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S. Navy ends blockade of Iran's ports and coastal areas",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-18T14:28:17.480195-04:00",
+      "pub_time": "2026-06-18T14:27:55-04:00"
+    },
     {
       "headline": "U.S. Navy ends blockade of Iran's ports and coastal areas, CENTCOM says",
       "source": "CNBC",
@@ -1379,6 +1387,10 @@
     {
       "k": "us navy ends blockade of irans ports and coastal areas centcom says",
       "ts": "2026-06-18T18:15:27.560509+00:00"
+    },
+    {
+      "k": "us navy ends blockade of irans ports and coastal areas",
+      "ts": "2026-06-18T18:28:18.504353+00:00"
     }
   ]
 }
