@@ -1,53 +1,8 @@
 {
-  "last_checked": "June 17, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Trump and Iran's President Pezeshkian sign memorandum aimed to end war",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-17T23:10:25.895950-04:00",
-      "pub_time": "2026-06-17T23:09:58-04:00"
-    },
-    {
-      "headline": "Fed projections call for a rate hike in 2026, but Chairman Warsh abstained",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-17T14:40:36.987543-04:00",
-      "pub_time": "2026-06-17T14:36:46-04:00"
-    },
-    {
-      "headline": "Fed projections call for a rate hike in 2026, but Chairman Warsh likely abstained",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-17T14:35:36.580847-04:00",
-      "pub_time": "2026-06-17T14:25:23-04:00"
-    },
-    {
-      "headline": "Fed holds interest rates steady: Here's what that means for credit cards, savings rates, mortgages and car loans",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-17T14:10:30.415124-04:00",
-      "pub_time": "2026-06-17T14:05:47-04:00"
-    },
-    {
-      "headline": "[CNBC] Strait of Hormuz threat level downgraded after Iran deal, says U.S.-led maritime security group",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-17T11:56:42.032234-04:00",
-      "pub_time": null
-    }
-  ],
+  "last_checked": "June 18, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
-    {
-      "k": "oil jumps as us strikes in iran raise worries of extended disruption to energy flows",
-      "ts": "2026-06-11T04:00:32.208593+00:00"
-    },
     {
       "k": "investors brace for a long grind as iran war escalation dims hopes of an early end",
       "ts": "2026-06-11T05:15:28.207223+00:00"
