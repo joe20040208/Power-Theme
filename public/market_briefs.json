@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-19 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Global Divergence, US Retreat",
+    "spy_price": 739.06,
+    "spy_change_pct": -1.25,
+    "vix": 17.09,
+    "hy_oas": 2.63,
+    "yield_curve": 0.27,
+    "credit_status": "Complacent",
+    "s5fi": 55.9,
+    "mmth": 63.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "GOOGL is anticipated to open higher following a critical report indicating accelerating cloud market share gains and positive sentiment from its recent AI product showcase."
+        },
+        {
+          "ticker": "PFE",
+          "company": "Pfizer Inc.",
+          "reason": "PFE is drawing bullish attention after announcing promising Phase 3 trial results for a novel oncology drug, suggesting significant revenue potential."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "NVDA is experiencing renewed buying pressure driven by continued speculative interest in the AI sector and strong technical momentum, without new fundamental catalysts today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-18 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continued speculative interest drives price action following recent AI-related gains, with no fresh fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-07 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Risk-On Momentum",
-    "spy_price": 733.83,
-    "spy_change_pct": 1.39,
-    "vix": 17.45,
-    "hy_oas": 2.77,
-    "yield_curve": 0.49,
-    "credit_status": "Complacent",
-    "s5fi": 62.1,
-    "mmth": 61.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Announces breakthrough AI partnership with major automotive manufacturer, signaling significant revenue expansion opportunities."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com, Inc.",
-          "reason": "Reports significant Q1 earnings beat with strong cloud growth guidance, reaffirming AWS's market dominance and profitability."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to benefit from ongoing AI infrastructure buildout and strong speculative flow, sustaining elevated valuation narratives."
         }
       ]
     }
