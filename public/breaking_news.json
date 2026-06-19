@@ -1,12 +1,17 @@
 {
-  "last_checked": "June 19, 2026 (08:55 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "June 19, 2026 (09:00 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "oil prices fall on proposed usiran peace deal to reopen strait of hormuz",
-      "ts": "2026-06-12T12:55:33.192111+00:00"
-    },
+      "headline": "NetJets' first fatal crash kills influential Texas VC founder",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-19T09:00:39.153425-04:00",
+      "pub_time": "2026-06-19T08:46:55-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "jim cramers top 10 things to watch in the stock market friday",
       "ts": "2026-06-12T13:35:24.313986+00:00"
@@ -1394,6 +1399,10 @@
     {
       "k": "brent oil dips below 80 as postponed usiran talks temper optimism over ceasefire progress",
       "ts": "2026-06-19T12:50:28.644387+00:00"
+    },
+    {
+      "k": "netjets first fatal crash kills influential texas vc founder",
+      "ts": "2026-06-19T13:00:39.941521+00:00"
     }
   ]
 }
