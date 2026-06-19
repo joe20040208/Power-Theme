@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 19, 2026 (11:50 EST)",
+  "last_checked": "June 19, 2026 (11:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-19T11:55:23.276623-04:00",
+      "pub_time": "2026-06-19T11:48:04-04:00"
+    },
     {
       "headline": "[CNBC] Oil prices briefly turn negative after Israel, Hezbollah agree to ceasefire",
       "source": "CNBC",
@@ -1411,6 +1419,10 @@
     {
       "k": "the riskiest spacex stock trade of all had a big first week",
       "ts": "2026-06-19T15:45:30.046503+00:00"
+    },
+    {
+      "k": "oil tanker traffic in strait of hormuz jumps after us and iran implement deal to open sea lane",
+      "ts": "2026-06-19T15:55:23.596464+00:00"
     }
   ]
 }
