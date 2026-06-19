@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 18, 2026 (22:05 EST)",
+  "last_checked": "June 18, 2026 (22:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Why Japan's $70 billion-plus intervention and a rate hike didn't prop up the yen more",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-18T22:10:30.502726-04:00",
+      "pub_time": "2026-06-18T22:04:53-04:00"
+    },
     {
       "headline": "[CNBC] Waymo recalls about 3,900 robotaxis after some drove into 'freeway construction zones'",
       "source": "CNBC",
@@ -1383,6 +1391,10 @@
     {
       "k": "usiran deal in photos ships in the strait of hormuz daily life in tehran",
       "ts": "2026-06-19T01:35:24.849211+00:00"
+    },
+    {
+      "k": "why japans 70 billionplus intervention and a rate hike didnt prop up the yen more",
+      "ts": "2026-06-19T02:10:31.053505+00:00"
     }
   ]
 }
