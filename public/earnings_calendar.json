@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T12:18:04.187810+00:00",
+  "generated_at": "2026-06-19T21:52:52.672245+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -7,7 +7,7 @@
       "ticker": "CCL",
       "company": "Carnival Corporation Ltd.",
       "time_of_day": "BMO",
-      "mkt_cap": 42759258742.0,
+      "mkt_cap": 42759259904.0,
       "eps_estimate": 0.34,
       "eps_act": 0.2,
       "eps_surp_pct": 7.3,
@@ -15,16 +15,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 30.87,
-      "avg_volume": 28209033,
-      "adr_pct": 4.2,
-      "dollar_volume": 870812849.0
+      "avg_volume": 28209437,
+      "adr_pct": 4.0,
+      "dollar_volume": 870825320.0
     },
     {
       "date": "2026-06-23",
       "ticker": "FDX",
       "company": "FedEx Corporation",
       "time_of_day": "AMC",
-      "mkt_cap": 77833523807.0,
+      "mkt_cap": 77833526720.0,
       "eps_estimate": 5.95,
       "eps_act": 5.25,
       "eps_surp_pct": 25.69,
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 326.2,
-      "avg_volume": 2157003,
+      "avg_volume": 2178298,
       "adr_pct": 3.0,
-      "dollar_volume": 703614379.0
+      "dollar_volume": 710560808.0
     },
     {
       "date": "2026-06-23",
@@ -93,7 +93,7 @@
       "company": "Sunbelt Rentals Holdings, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 35568581046.0,
-      "eps_estimate": 0.78,
+      "eps_estimate": 0.76,
       "eps_act": null,
       "eps_surp_pct": null,
       "rev_est": 2637239720.0,
@@ -143,24 +143,24 @@
       "ticker": "MU",
       "company": "Micron Technology, Inc.",
       "time_of_day": "AMC",
-      "mkt_cap": 1278839136493.0,
-      "eps_estimate": 19.72,
+      "mkt_cap": 1278839125480.0,
+      "eps_estimate": 20.05,
       "eps_act": 12.2,
       "eps_surp_pct": 27.28,
-      "rev_est": 34521901430.0,
+      "rev_est": 35018404560.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 1133.99,
-      "avg_volume": 51228286,
-      "adr_pct": 7.4,
-      "dollar_volume": 58092364041.0
+      "avg_volume": 51277512,
+      "adr_pct": 7.2,
+      "dollar_volume": 58148185833.0
     },
     {
       "date": "2026-06-24",
       "ticker": "NG",
       "company": "NovaGold Resources Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 3422488789.0,
+      "mkt_cap": 3422488873.0,
       "eps_estimate": -0.06,
       "eps_act": -0.04,
       "eps_surp_pct": 24.95,
@@ -168,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 7.8,
-      "avg_volume": 3394340,
-      "adr_pct": 6.1,
-      "dollar_volume": 26475852.0
+      "avg_volume": 3396801,
+      "adr_pct": 6.3,
+      "dollar_volume": 26495048.0
     },
     {
       "date": "2026-06-24",
@@ -194,7 +194,7 @@
       "ticker": "TCOM",
       "company": "Trip.com Group Limited",
       "time_of_day": "AMC",
-      "mkt_cap": 28399705512.0,
+      "mkt_cap": 28399704551.0,
       "eps_estimate": 6.15,
       "eps_act": null,
       "eps_surp_pct": null,
@@ -202,9 +202,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 45.1,
-      "avg_volume": 2788441,
+      "avg_volume": 2788648,
       "adr_pct": 2.0,
-      "dollar_volume": 125758689.0
+      "dollar_volume": 125768025.0
     },
     {
       "date": "2026-06-25",
@@ -228,17 +228,17 @@
       "ticker": "BB",
       "company": "BlackBerry Limited",
       "time_of_day": "AMC",
-      "mkt_cap": 4911194591.0,
+      "mkt_cap": 4911194658.0,
       "eps_estimate": 0.03,
       "eps_act": 0.06,
       "eps_surp_pct": 29.31,
-      "rev_est": 137654400.0,
+      "rev_est": 137912500.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 8.38,
-      "avg_volume": 27447806,
-      "adr_pct": 8.5,
-      "dollar_volume": 230012614.0
+      "avg_volume": 27537021,
+      "adr_pct": 8.6,
+      "dollar_volume": 230760236.0
     },
     {
       "date": "2026-06-25",
@@ -276,27 +276,10 @@
     },
     {
       "date": "2026-06-25",
-      "ticker": "LNN",
-      "company": "Lindsay Corporation",
-      "time_of_day": "BMO",
-      "mkt_cap": 1245151197.0,
-      "eps_estimate": 1.21,
-      "eps_act": 1.15,
-      "eps_surp_pct": -32.43,
-      "rev_est": 157803500.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 119.1,
-      "avg_volume": 191688,
-      "adr_pct": 2.7,
-      "dollar_volume": 22830041.0
-    },
-    {
-      "date": "2026-06-25",
       "ticker": "MKC",
       "company": "McCormick & Company, Incorporated",
       "time_of_day": "BMO",
-      "mkt_cap": 12538846615.0,
+      "mkt_cap": 12538846451.0,
       "eps_estimate": 0.7,
       "eps_act": 0.66,
       "eps_surp_pct": 9.93,
@@ -304,26 +287,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 46.64,
-      "avg_volume": 4392659,
+      "avg_volume": 4570525,
       "adr_pct": 2.9,
-      "dollar_volume": 204873616.0
-    },
-    {
-      "date": "2026-06-25",
-      "ticker": "SMPL",
-      "company": "The Simply Good Foods Company",
-      "time_of_day": "BMO",
-      "mkt_cap": 1169225483.0,
-      "eps_estimate": 0.36,
-      "eps_act": 0.45,
-      "eps_surp_pct": 11.77,
-      "rev_est": 332515330.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 12.63,
-      "avg_volume": 2831518,
-      "adr_pct": 3.6,
-      "dollar_volume": 35762072.0
+      "dollar_volume": 213169286.0
     },
     {
       "date": "2026-06-25",

@@ -4,24 +4,24 @@
     {
       "date": "2026-06-18",
       "date_display": "6/18/2026",
-      "up_4_pct": 573,
-      "down_4_pct": 230,
-      "ratio_5d": 1.36,
+      "up_4_pct": 576,
+      "down_4_pct": 236,
+      "ratio_5d": 1.35,
       "ratio_10d": 1.06,
       "up_25_q": 1596,
-      "down_25_q": 1035,
+      "down_25_q": 1036,
       "up_25_m": 225,
       "down_25_m": 89,
       "up_50_m": 46,
       "down_50_m": 21,
       "up_13_34d": 1800,
-      "down_13_34d": 1711,
+      "down_13_34d": 1712,
       "atr_10x_ext": 7,
       "above_50dma_pct": 55.0,
-      "worden_universe": 6473,
-      "t2108": 44.21,
-      "sp_index": 7498.02,
-      "universe_1b": 2623
+      "worden_universe": 6476,
+      "t2108": 44.44,
+      "sp_index": 7500.58,
+      "universe_1b": 2624
     },
     {
       "date": "2026-06-17",
@@ -2755,6 +2755,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-18T21:54:02+00:00",
-  "gemini_analysis": "TODAY \u2014 Today saw a healthy buying thrust with 573 stocks up 4%+, while 230 stocks were down 4%+, indicating some distribution pressure. The up/down ratio of 2.49 shows buying strength overshadowed selling.\nWEEK \u2014 Market breadth shows improving signs this week, with the 5-day ratio (`r5d`) rising from 0.86 to 1.36 and `up25M` increasing from 204 to 225. Medium-term momentum (`up13_34d`) also advanced from 1717 to 1800, indicating underlying strength.\nMONTH \u2014 `up50M` is at 46, just below the \"hot market\" threshold of 50, suggesting the market isn't overheated. With 55.0% of stocks above their 50 DMA and T2108 at 44.21%, the market is in a healthy, neutral zone for swing traders.\nREGIME \u2014 The market is in a **Re-acceleration** regime after a recent consolidation, with today's thrust suggesting renewed bullishness. Stockbee would next watch for the 5-day ratio to sustain above 2.0 and `up13_34d` to expand beyond 1800, confirming a broadening stage-2 environment."
+  "fetched_at_utc": "2026-06-19T21:52:53+00:00",
+  "gemini_analysis": "TODAY \u2014 Up4 count is 576, indicating a healthy buying thrust, while Dn4 is at 236, crossing the distribution pressure threshold. The Up4/Dn4 ratio for the day is 2.44, suggesting more buying than selling pressure.\nWEEK \u2014 The 5-day ratio (r5d) has faded from 1.68 to 1.35 over the last week, dropping below the 1.5 bullish threshold. While Up25M remains healthy at 225, overall market breadth is moderating rather than expanding.\nMONTH \u2014 Up50M has cooled significantly from frothy levels above 100 earlier in the month to 46 today, while %above50dma (55.0%) and T2108 (44.44%) remain in healthy mid-ranges. This suggests the market is no longer extended, offering a better environment for swing traders but lacking aggressive momentum.\nREGIME \u2014 CONSOLIDATING \u2014 The market has pulled back from frothy levels and is now in a healthier, but consolidating, phase as momentum metrics cool. Stockbee would watch for a re-acceleration in Up4 counts above 600 or a rebound in the 5D/10D ratios to signal renewed strength."
 }
