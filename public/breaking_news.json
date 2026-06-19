@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 19, 2026 (11:20 EST)",
+  "last_checked": "June 19, 2026 (11:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Oil prices briefly turn negative after Israel, Hezbollah agree to ceasefire",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-19T11:25:24.639216-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Oil prices turn negative after U.S. official says Israel, Hezbollah agree to ceasefire",
       "source": "CNBC",
@@ -1395,6 +1403,10 @@
     {
       "k": "homeowners tapped 47 billion in equity in the first quarter what to consider before you borrow",
       "ts": "2026-06-19T14:10:29.011794+00:00"
+    },
+    {
+      "k": "oil prices briefly turn negative after israel hezbollah agree to ceasefire",
+      "ts": "2026-06-19T15:25:25.023812+00:00"
     }
   ]
 }
