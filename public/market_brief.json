@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 22, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 22, 2026 (13:41 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7500.58,
-      "change": 80.48,
-      "change_pct": 1.08
+      "price": 7472.86,
+      "change": -27.72,
+      "change_pct": -0.37
     },
     {
       "label": "Nasdaq 100",
-      "price": 30406.19,
-      "change": 735.24,
-      "change_pct": 2.48
+      "price": 30275.57,
+      "change": -130.62,
+      "change_pct": -0.43
     },
     {
       "label": "VIX",
-      "price": 17.05,
-      "change": 0.65,
+      "price": 17.25,
+      "change": 0.85,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.49,
-      "change": 0.04,
+      "price": 4.51,
+      "change": 0.06,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 72353.96,
-      "change_pct": 1.55
+      "price": 71250.06,
+      "change_pct": 0.28
     },
     "dax": {
       "label": "DAX",
-      "price": 25023.93,
-      "change_pct": 0.15
+      "price": 25139.69,
+      "change_pct": 0.62
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10413.92,
-      "change_pct": 0.49
+      "price": 10437.85,
+      "change_pct": 0.72
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 55.9,
-    "mmth": 63.9,
+    "s5fi": 56.1,
+    "mmth": 64.5,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Strong Momentum / Growth Optimism",
+  "mood": "Modest US pullback amid strong sector leadership",
   "analysis": {
-    "action_line": "VIX 17.05 Normal + S5FI 55.9% breadth + Nikkei +1.55% → trade RS leaders aggressively into strength and on dips.",
-    "analysis_para1": "Global markets are showing a constructive tone this morning, with the Nikkei 225 surging by +1.55% while European indices like the DAX and FTSE 100 post modest gains of +0.15% and +0.49% respectively. This positive sentiment extends to US breadth, where the S5FI sits at 55.9% and the MMTH at 63.9%, signaling broad-based participation and healthy underlying market structure. The 10-year yield's continued rise to 4.49% suggests underlying growth optimism, though the BAML HY spread data is unavailable for credit market confirmation.",
-    "analysis_para2": "The mechanical plan today is to observe how the market digests the strong pre-market rally, with the S&P 500 up +1.08% to 7500.58 and the Nasdaq 100 leading significantly with a +2.48% gain. Look for leading sectors, particularly Semiconductors and Hardware, to sustain their momentum or provide actionable pullbacks. A healthy market would see the VIX remain below 20, confirming the current normal regime at 17.05. Traders should monitor the S&P 500's ability to hold above 7500 and the Nasdaq 100's continuation past 30400 as key signals for sustained strength. Engage with strong relative strength stocks on constructive consolidations or short-term dips to intra-day support levels.",
-    "technical_signal": "No reversal pattern confirmed yet. The strong pre-market rally suggests continuation, not reversal, is the dominant theme.",
+    "action_line": "VIX 17.25 Normal + S5FI 56.1% breadth + positive European tape → focus on high RS leaders near support.",
+    "analysis_para1": "Global markets are showing strength today, with the DAX up +0.62% and FTSE 100 gaining +0.72%, suggesting resilience abroad. In the US, indices are experiencing a minor intraday pullback, yet underlying breadth remains solid with S5FI at 56.1% and MMTH at 64.5%. The rising 10Y Yield at 4.51% bears watching, though the VIX is normal at 17.25, indicating no immediate panic. The unknown regime of the BAML HY Spread adds a layer of uncertainty to credit conditions.",
+    "analysis_para2": "The S&P 500 currently trades at 7472.86, showing a slight dip, with the Nasdaq 100 at 30275.57. The mechanical plan involves monitoring for a hold above immediate support levels on the major indices, possibly yesterday's close or a key moving average. If these levels fail to hold, a retreat to the next major support zone around the 7400 level for the S&P 500 would be anticipated. Conversely, a bounce confirms the current market's tendency to reward relative strength leaders within the Semiconductors and Hardware themes, which are showing exceptional momentum. Maintain focus on these high RS names, entering near short-term support or on confirmed strength.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are experiencing a minor intraday pullback, not a clear trend reversal; global markets remain positive.",
     "ticker_intel": [
-      {
-        "ticker": "ARM",
-        "company": "Arm Holdings plc",
-        "grade": "A+",
-        "reason": "Arm Holdings (ARM) exhibits exceptional strength with an RS of 96 and a staggering +96.9% 1-month return, making it a standout leader in the red-hot Semiconductor theme."
-      },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
+        "grade": "A+",
+        "reason": "Boasting the highest 1M (+75.2%) and 3M (+266.1%) returns with an RS of 98, this semiconductor leader demonstrates exceptional momentum despite a minor market pullback."
+      },
+      {
+        "ticker": "ARM",
+        "company": "Arm Holdings plc",
         "grade": "A",
-        "reason": "Vishay Intertechnology (VSH) is a high-conviction play with an RS of 98 and a remarkable +266.1% 3-month return, riding the powerful Semiconductor sector momentum."
+        "reason": "With an RS of 96 and the highest 1M return (+96.9%), this semiconductor leader exhibits explosive growth, making it a prime candidate in the current market regime."
       },
       {
         "ticker": "INTC",
         "company": "Intel Corporation",
         "grade": "C",
-        "reason": "Intel (INTC), despite a strong 3-month run, exhibits comparatively weaker short-term momentum with an RS of 96 and a +20.9% 1-month return, lagging its semiconductor peers' more aggressive gains."
+        "reason": "Despite its RS of 96, its relatively weaker 1-month return of +20.9% compared to its sector peers suggests underperformance or potential distribution within the leading Semiconductors theme."
       }
     ]
   }
