@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-22 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "US Cautious, Global Mixed",
+    "spy_price": 744.39,
+    "spy_change_pct": -0.31,
+    "vix": 17.28,
+    "hy_oas": 2.66,
+    "yield_curve": 0.27,
+    "credit_status": "Complacent",
+    "s5fi": 55.1,
+    "mmth": 63.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "WDC",
+          "company": "Western Digital Corporation",
+          "reason": "Strong demand for AI-related storage solutions and anticipated supply shortages fueled today's price action."
+        },
+        {
+          "ticker": "INTC",
+          "company": "Intel Corporation",
+          "reason": "Announcement of a significant new contract with Apple is expected to bolster Intel's foundry business and market position."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "Positioning adjustments and sector rotation continue to drive NVDA's price action amidst a lack of fresh fundamental news today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-22 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
           "reason": "Continues to see volatile trading on ongoing speculation about robotaxi development and minor analyst rating adjustments, lacking fresh fundamental news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-08 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Tech-Driven Risk Appetite",
-    "spy_price": 737.62,
-    "spy_change_pct": 0.83,
-    "vix": 17.19,
-    "hy_oas": 2.79,
-    "yield_curve": 0.49,
-    "credit_status": "Complacent",
-    "s5fi": 57.0,
-    "mmth": 61.3,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "QCOM",
-          "company": "Qualcomm Inc.",
-          "reason": "Fueled by a significant analyst upgrade, Qualcomm demonstrated robust strength as investors gained renewed conviction in its outlook and valuation."
-        },
-        {
-          "ticker": "FLNC",
-          "company": "Fluence Energy Inc.",
-          "reason": "Fluence Energy rallied strongly after reporting an earnings beat and raising its forward outlook, signaling robust growth prospects in the energy storage sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp",
-          "reason": "NVIDIA saw continued interest, benefiting from broader tech sector momentum and ongoing AI narrative, without new specific fundamental news today."
         }
       ]
     }
