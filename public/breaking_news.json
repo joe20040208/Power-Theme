@@ -1,12 +1,17 @@
 {
-  "last_checked": "June 22, 2026 (17:25 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "June 22, 2026 (18:00 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "the iran deal came just in time as strategic petroleum reserve hits lowest level since 1983",
-      "ts": "2026-06-15T21:53:40.581870+00:00"
-    },
+      "headline": "Tesla faces federal probe after Model 3 slams into Texas home, killing 76-year-old",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-22T18:00:54.424940-04:00",
+      "pub_time": "2026-06-22T17:48:34-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "cftc chair selig defends decision to approve ‘perps’ in us",
       "ts": "2026-06-15T22:45:33.500518+00:00"
@@ -1266,6 +1271,14 @@
     {
       "k": "alphabet has its worst day in over a year on ai concerns after highprofile exits",
       "ts": "2026-06-22T21:05:24.590878+00:00"
+    },
+    {
+      "k": "well see — trump hedges on guarantee iran wont use oil profits to rebuild military",
+      "ts": "2026-06-22T22:00:55.114613+00:00"
+    },
+    {
+      "k": "tesla faces federal probe after model 3 slams into texas home killing 76yearold",
+      "ts": "2026-06-22T22:00:55.114613+00:00"
     }
   ]
 }
