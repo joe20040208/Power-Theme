@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 21, 2026 (22:15 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 21, 2026 (22:20 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-21T22:20:31.151350-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "softbank surges more than 12 as iranus peace deal sends asia stocks soaring",
@@ -1222,6 +1231,10 @@
     {
       "k": "brent crude slips as qatar pakistan announce 60day roadmap for usiran deal",
       "ts": "2026-06-22T01:50:30.508015+00:00"
+    },
+    {
+      "k": "us iran agree on roadmap for final deal and plan to end military operations in lebanon",
+      "ts": "2026-06-22T02:20:32.876676+00:00"
     }
   ]
 }
