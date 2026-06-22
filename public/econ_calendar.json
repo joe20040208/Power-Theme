@@ -1,107 +1,7 @@
 {
-  "generated_at": "2026-06-19T21:52:53.350965+00:00",
+  "generated_at": "2026-06-22T21:58:25.337467+00:00",
   "data_source": "tradingview",
   "events": [
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "Michigan Current Conditions Final",
-      "impact": "Low",
-      "actual": "45.8",
-      "forecast": "47.9",
-      "previous": "52.5",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "Michigan Consumer Sentiment Final",
-      "impact": "Low",
-      "actual": "44.8",
-      "forecast": "48.2",
-      "previous": "49.8",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "Michigan Consumer Expectations Final",
-      "impact": "Low",
-      "actual": "44.1",
-      "forecast": "48.4",
-      "previous": "48.1",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "Michigan Inflation Expectations Final",
-      "impact": "Low",
-      "actual": "4.8",
-      "forecast": "4.5",
-      "previous": "4.7",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "Michigan 5 Year Inflation Expectations Final",
-      "impact": "Low",
-      "actual": "3.9",
-      "forecast": "3.4",
-      "previous": "3.5",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "10:00",
-      "event": "CB Leading Index MoM",
-      "impact": "Low",
-      "actual": "0.1",
-      "forecast": "-0.2",
-      "previous": "-0.6",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "11:00",
-      "event": "Fed Waller Speech",
-      "impact": "Low",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "13:00",
-      "event": "Baker Hughes Oil Rig Count",
-      "impact": "Low",
-      "actual": "425",
-      "forecast": "416",
-      "previous": "415",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-22",
-      "time_et": "13:00",
-      "event": "Baker Hughes Total Rigs Count",
-      "impact": "Low",
-      "actual": "558",
-      "forecast": null,
-      "previous": "551",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-05-24",
-      "time_et": "20:00",
-      "event": "Memorial Day",
-      "impact": "Low",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "currency": "USD"
-    },
     {
       "date": "2026-05-26",
       "time_et": "08:30",
@@ -3227,7 +3127,7 @@
       "time_et": "11:30",
       "event": "6-Month Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.84",
       "forecast": null,
       "previous": "3.68",
       "currency": "USD"
@@ -3237,7 +3137,7 @@
       "time_et": "11:30",
       "event": "3-Month Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.695",
       "forecast": null,
       "previous": "3.64",
       "currency": "USD"
@@ -3268,7 +3168,7 @@
       "event": "S&P Global Manufacturing PMI Flash",
       "impact": "Low",
       "actual": null,
-      "forecast": "54.7",
+      "forecast": "54.8",
       "previous": "55.1",
       "currency": "USD"
     },
@@ -3418,7 +3318,7 @@
       "event": "Current Account",
       "impact": "Low",
       "actual": null,
-      "forecast": "-225",
+      "forecast": "-217.5",
       "previous": "-190.7",
       "currency": "USD"
     },
@@ -3608,7 +3508,7 @@
       "event": "Continuing Jobless Claims",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "1800",
       "previous": "1810",
       "currency": "USD"
     },
@@ -3648,7 +3548,7 @@
       "event": "Durable Goods Orders Ex Transp MoM",
       "impact": "Low",
       "actual": null,
-      "forecast": "0.5",
+      "forecast": "0.7",
       "previous": "1.1",
       "currency": "USD"
     },
@@ -3658,7 +3558,7 @@
       "event": "PCE Price Index MoM",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.5",
       "previous": "0.4",
       "currency": "USD"
     },
@@ -3698,7 +3598,7 @@
       "event": "PCE Price Index YoY",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "4",
       "previous": "3.8",
       "currency": "USD"
     },
@@ -3708,7 +3608,7 @@
       "event": "Durable Goods Orders MoM",
       "impact": "Low",
       "actual": null,
-      "forecast": "-4.7",
+      "forecast": "-4.3",
       "previous": "7.9",
       "currency": "USD"
     },
@@ -3728,7 +3628,7 @@
       "event": "Core PCE Price Index YoY",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.4",
       "previous": "3.3",
       "currency": "USD"
     },
@@ -3738,7 +3638,7 @@
       "event": "Non Defense Goods Orders Ex Air",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.6",
       "previous": "-1.1",
       "currency": "USD"
     },
@@ -3948,7 +3848,7 @@
       "event": "Goods Trade Balance Adv",
       "impact": "Low",
       "actual": null,
-      "forecast": "-85",
+      "forecast": "-85.2",
       "previous": "-83",
       "currency": "USD"
     },
@@ -3968,7 +3868,7 @@
       "event": "Michigan Current Conditions Final",
       "impact": "Low",
       "actual": null,
-      "forecast": "48.4",
+      "forecast": "48.9",
       "previous": "45.8",
       "currency": "USD"
     },
@@ -3978,7 +3878,7 @@
       "event": "Michigan Consumer Sentiment Final",
       "impact": "Low",
       "actual": null,
-      "forecast": "48.9",
+      "forecast": "50.3",
       "previous": "44.8",
       "currency": "USD"
     },
@@ -3988,7 +3888,7 @@
       "event": "Michigan Consumer Expectations Final",
       "impact": "Low",
       "actual": null,
-      "forecast": "49.3",
+      "forecast": "50.5",
       "previous": "44.1",
       "currency": "USD"
     },
@@ -4010,6 +3910,26 @@
       "actual": null,
       "forecast": "3.4",
       "previous": "3.9",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-06-26",
+      "time_et": "10:30",
+      "event": "Fed Williams Speech",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-06-26",
+      "time_et": "11:30",
+      "event": "Fed Kashkari Speech",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
       "currency": "USD"
     },
     {
@@ -4059,7 +3979,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.84",
       "currency": "USD"
     },
     {
@@ -4069,7 +3989,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.695",
       "currency": "USD"
     },
     {
@@ -4726,6 +4646,106 @@
       "date": "2026-07-03",
       "time_et": "13:00",
       "event": "Baker Hughes Total Rigs Count",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "09:20",
+      "event": "NY Fed Bill Purchases 4 to 12 months",
+      "impact": "Low",
+      "actual": null,
+      "forecast": "3.319",
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "09:45",
+      "event": "S&P Global Services PMI Final",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "50.7",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "09:45",
+      "event": "S&P Global Composite PMI Final",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "51.5",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "10:00",
+      "event": "ISM Services Employment",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "47.9",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "10:00",
+      "event": "ISM Services New Orders",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "57.3",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "10:00",
+      "event": "ISM Services Business Activity",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "57.7",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "10:00",
+      "event": "ISM Services PMI",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "54.5",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "10:00",
+      "event": "ISM Services Prices",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "71.3",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "11:30",
+      "event": "3-Month Bill Auction",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-06",
+      "time_et": "11:30",
+      "event": "6-Month Bill Auction",
       "impact": "Low",
       "actual": null,
       "forecast": null,

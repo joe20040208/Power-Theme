@@ -2,100 +2,88 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 7,
+  "count": 6,
   "stocks": [
     {
       "ticker": "HQ",
       "company": "Horizon Quantum Holdings Ltd.",
       "industry": "Packaged Software",
-      "price": 32.0,
-      "change_pct": 35.54,
-      "adr_pct": 9.9,
-      "dollar_volume": "$66.2M",
-      "market_cap_b": 1.019,
-      "rs_ibd": 93,
-      "atr_ext_val": 16.37
+      "price": 38.39,
+      "change_pct": 19.97,
+      "adr_pct": 10.0,
+      "dollar_volume": "$87.2M",
+      "market_cap_b": 1.222,
+      "rs_ibd": 96,
+      "atr_ext_val": 19.82
     },
     {
       "ticker": "GBTG",
       "company": "Global Business Travel Group, Inc.",
       "industry": "Other Consumer Services",
-      "price": 9.36,
-      "change_pct": 0.0,
-      "adr_pct": 1.0,
-      "dollar_volume": "$27.4M",
-      "market_cap_b": 4.881,
-      "rs_ibd": 85,
-      "atr_ext_val": 15.04
-    },
-    {
-      "ticker": "BFLY",
-      "company": "Butterfly Network, Inc.",
-      "industry": "Medical Specialties",
-      "price": 8.9,
-      "change_pct": 55.87,
-      "adr_pct": 6.6,
-      "dollar_volume": "$100.9M",
-      "market_cap_b": 2.325,
-      "rs_ibd": 95,
-      "atr_ext_val": 12.49
-    },
-    {
-      "ticker": "QURE",
-      "company": "uniQure N.V.",
-      "industry": "Biotechnology",
-      "price": 46.29,
-      "change_pct": -3.88,
-      "adr_pct": 7.4,
-      "dollar_volume": "$152.5M",
-      "market_cap_b": 2.894,
-      "rs_ibd": 97,
-      "atr_ext_val": 12.34
+      "price": 9.39,
+      "change_pct": 0.32,
+      "adr_pct": 0.9,
+      "dollar_volume": "$30.3M",
+      "market_cap_b": 4.896,
+      "rs_ibd": 84,
+      "atr_ext_val": 14.96
     },
     {
       "ticker": "RAMP",
       "company": "LiveRamp Holdings, Inc.",
       "industry": "Packaged Software",
-      "price": 37.74,
-      "change_pct": 0.35,
+      "price": 37.61,
+      "change_pct": -0.34,
       "adr_pct": 1.2,
-      "dollar_volume": "$51.8M",
-      "market_cap_b": 2.268,
-      "rs_ibd": 58,
-      "atr_ext_val": 11.97
+      "dollar_volume": "$51.9M",
+      "market_cap_b": 2.26,
+      "rs_ibd": 61,
+      "atr_ext_val": 11.56
+    },
+    {
+      "ticker": "UMC",
+      "company": "United Microelectronics Corporation (NEW)",
+      "industry": "Semiconductors",
+      "price": 27.5,
+      "change_pct": 14.2,
+      "adr_pct": 5.6,
+      "dollar_volume": "$541.7M",
+      "market_cap_b": 57.684,
+      "rs_ibd": 95,
+      "atr_ext_val": 11.3
+    },
+    {
+      "ticker": "QURE",
+      "company": "uniQure N.V.",
+      "industry": "Biotechnology",
+      "price": 44.39,
+      "change_pct": -4.1,
+      "adr_pct": 7.9,
+      "dollar_volume": "$152.2M",
+      "market_cap_b": 2.776,
+      "rs_ibd": 96,
+      "atr_ext_val": 10.12
     },
     {
       "ticker": "OGN",
       "company": "Organon & Co.",
       "industry": "Pharmaceuticals: Major",
-      "price": 13.43,
-      "change_pct": 0.07,
-      "adr_pct": 0.8,
+      "price": 13.4,
+      "change_pct": -0.22,
+      "adr_pct": 0.7,
       "dollar_volume": "$36.2M",
-      "market_cap_b": 3.527,
-      "rs_ibd": 83,
-      "atr_ext_val": 11.52
-    },
-    {
-      "ticker": "SEZL",
-      "company": "Sezzle Inc.",
-      "industry": "Packaged Software",
-      "price": 163.28,
-      "change_pct": 11.28,
-      "adr_pct": 5.8,
-      "dollar_volume": "$119.5M",
-      "market_cap_b": 5.491,
-      "rs_ibd": 86,
-      "atr_ext_val": 10.67
+      "market_cap_b": 3.519,
+      "rs_ibd": 85,
+      "atr_ext_val": 10.1
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": null,
-    "spx_1m": null,
-    "spx_3m": null,
-    "spx_34d": null,
-    "spx_qtd": null,
-    "spx_mtd": null
+    "spx_1d": -0.37,
+    "spx_1m": 0.36,
+    "spx_3m": 13.55,
+    "spx_34d": 3.78,
+    "spx_qtd": 13.65,
+    "spx_mtd": -1.67
   },
-  "fetched_at_utc": "2026-06-19T21:53:07+00:00"
+  "fetched_at_utc": "2026-06-22T21:58:42+00:00"
 }
