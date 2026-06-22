@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 22, 2026 (18:30 EDT)",
+  "generated_at": "June 22, 2026 (18:58 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Sector Strength / Cautious Dip",
+  "mood": "Selective Strength / Rising Rates",
   "analysis": {
-    "action_line": "VIX 17.28 Normal + S5FI 55.1% breadth + mixed global tape (Nikkei +0.28%) → selectively trade RS leaders near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining 0.28% and the FTSE 100 rising 0.72%, while the DAX saw a modest decline of 0.16%. In the US, the S&P 500 dipped 0.37% and the Nasdaq 100 fell 0.19%, suggesting a cautious tone despite the robust performance overseas. The 10-Year Yield continues its upward trend at 4.51%, adding a layer of concern for fixed income, though equity breadth remains resilient with 55.1% of stocks above their 50-day moving average (S5FI) and 63.6% above their 200-day (MMTH). This indicates underlying strength within specific market segments, even as major indices experienced a minor pullback.",
-    "analysis_para2": "Given the slight market pullback today, the mechanical plan is to monitor key support levels for the S&P 500 (7472.79) and Nasdaq 100 (30347.08). The VIX remaining at a normal 17.28 suggests this dip is not indicative of widespread panic, but rather potential profit-taking or rotation. Focus on identified relative strength leaders, particularly in the Semiconductor and Hardware themes, seeking entries on minor pullbacks toward their rising moving averages. Aggressive buying into strength is warranted only if indices show stabilization and a swift bounce from intraday lows, otherwise, maintain a disciplined approach to buying high-quality dips.",
-    "technical_signal": "No reversal pattern confirmed yet. The slight index pullback appears more as a pause within an ongoing trend, rather than a definitive reversal signal.",
+    "action_line": "VIX 17.28 Normal + S5FI 55.1% breadth + mixed global tape (DAX down, FTSE up) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining 0.28% and the FTSE 100 up 0.72%, contrasting with a slight decline of 0.16% for the DAX. Meanwhile, the US 10-Year yield continued its upward trend, now standing at 4.51%, signaling persistent inflationary pressures or rate hike expectations. Despite a moderately healthy S5FI at 55.1% (stocks above 50DMA) and MMTH at 63.6% (stocks above 200DMA), US indices registered modest losses, with the S&P 500 down 0.37%. This environment suggests a selective market, where broad participation is decent but not expanding vigorously amidst rising rates.",
+    "analysis_para2": "Given the mixed global sentiment and rising yields, the mechanical plan calls for disciplined risk management and a focus on relative strength leaders within confirmed thematic plays. The S&P 500's close below its open suggests intraday selling pressure, making careful entry points crucial. We favor buying leading stocks from the Hardware, Semiconductors, and Neocloud themes on constructive pullbacks to key moving averages or established support zones, rather than chasing strength. Watch for potential divergences between price action and momentum indicators in these leaders as early warning signs, maintaining tight stop-losses. Avoid broad market exposure until indices show clearer signs of consolidation or renewed upward momentum.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices saw moderate declines, with breadth showing decent but not overwhelming participation, suggesting continued selective trend following rather than a broad inflection point.",
     "ticker_intel": [
-      {
-        "ticker": "SNDK",
-        "company": "Sandisk Corporation",
-        "grade": "A+",
-        "reason": "SNDK leads with an RS of 99 and a phenomenal 1-month gain of +63.3%, making it a top conviction long in the strong Hardware theme for this market regime."
-      },
       {
         "ticker": "MU",
         "company": "Micron Technology, Inc.",
-        "grade": "A",
-        "reason": "MU showcases an RS of 98 and a robust 1-month return of +65.5%, solidifying its position as a leading candidate within the dominant Semiconductors theme."
+        "grade": "A+",
+        "reason": "Micron Technology shows exceptional strength with an RS of 98 and a staggering +65.5% 1-month return, making it a top leader in the robust Semiconductors theme."
       },
       {
-        "ticker": "WULF",
-        "company": "TeraWulf Inc.",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
+        "grade": "A",
+        "reason": "Vishay Intertechnology boasts an RS of 98 and a monumental +286.0% 3-month return, confirming its leadership within the high-performing Semiconductors sector."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
         "grade": "C",
-        "reason": "Despite being in the 'Neocloud' theme, WULF's RS of 97 and 1-month return of +30.9% are comparatively weaker than its peers on the list, suggesting it may be avoided in favor of stronger leaders."
+        "reason": "Intel Corporation, despite its high RS of 98, shows relative weakness with only an +18.5% 1-month return compared to its surging Semiconductor peers, making it a weaker choice for momentum trading."
       }
     ]
   }
