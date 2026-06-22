@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 22, 2026 (13:41 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 22, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7472.86,
-      "change": -27.72,
+      "price": 7472.79,
+      "change": -27.79,
       "change_pct": -0.37
     },
     {
       "label": "Nasdaq 100",
-      "price": 30275.57,
-      "change": -130.62,
-      "change_pct": -0.43
+      "price": 30347.08,
+      "change": -59.11,
+      "change_pct": -0.19
     },
     {
       "label": "VIX",
-      "price": 17.25,
-      "change": 0.85,
+      "price": 17.28,
+      "change": 0.88,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 25139.69,
-      "change_pct": 0.62
+      "price": 24985.82,
+      "change_pct": -0.16
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 56.1,
-    "mmth": 64.5,
+    "s5fi": 55.1,
+    "mmth": 63.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Modest US pullback amid strong sector leadership",
+  "mood": "Sector Strength / Cautious Dip",
   "analysis": {
-    "action_line": "VIX 17.25 Normal + S5FI 56.1% breadth + positive European tape → focus on high RS leaders near support.",
-    "analysis_para1": "Global markets are showing strength today, with the DAX up +0.62% and FTSE 100 gaining +0.72%, suggesting resilience abroad. In the US, indices are experiencing a minor intraday pullback, yet underlying breadth remains solid with S5FI at 56.1% and MMTH at 64.5%. The rising 10Y Yield at 4.51% bears watching, though the VIX is normal at 17.25, indicating no immediate panic. The unknown regime of the BAML HY Spread adds a layer of uncertainty to credit conditions.",
-    "analysis_para2": "The S&P 500 currently trades at 7472.86, showing a slight dip, with the Nasdaq 100 at 30275.57. The mechanical plan involves monitoring for a hold above immediate support levels on the major indices, possibly yesterday's close or a key moving average. If these levels fail to hold, a retreat to the next major support zone around the 7400 level for the S&P 500 would be anticipated. Conversely, a bounce confirms the current market's tendency to reward relative strength leaders within the Semiconductors and Hardware themes, which are showing exceptional momentum. Maintain focus on these high RS names, entering near short-term support or on confirmed strength.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are experiencing a minor intraday pullback, not a clear trend reversal; global markets remain positive.",
+    "action_line": "VIX 17.28 Normal + S5FI 55.1% breadth + mixed global tape (Nikkei +0.28%) → selectively trade RS leaders near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining 0.28% and the FTSE 100 rising 0.72%, while the DAX saw a modest decline of 0.16%. In the US, the S&P 500 dipped 0.37% and the Nasdaq 100 fell 0.19%, suggesting a cautious tone despite the robust performance overseas. The 10-Year Yield continues its upward trend at 4.51%, adding a layer of concern for fixed income, though equity breadth remains resilient with 55.1% of stocks above their 50-day moving average (S5FI) and 63.6% above their 200-day (MMTH). This indicates underlying strength within specific market segments, even as major indices experienced a minor pullback.",
+    "analysis_para2": "Given the slight market pullback today, the mechanical plan is to monitor key support levels for the S&P 500 (7472.79) and Nasdaq 100 (30347.08). The VIX remaining at a normal 17.28 suggests this dip is not indicative of widespread panic, but rather potential profit-taking or rotation. Focus on identified relative strength leaders, particularly in the Semiconductor and Hardware themes, seeking entries on minor pullbacks toward their rising moving averages. Aggressive buying into strength is warranted only if indices show stabilization and a swift bounce from intraday lows, otherwise, maintain a disciplined approach to buying high-quality dips.",
+    "technical_signal": "No reversal pattern confirmed yet. The slight index pullback appears more as a pause within an ongoing trend, rather than a definitive reversal signal.",
     "ticker_intel": [
       {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
+        "ticker": "SNDK",
+        "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "Boasting the highest 1M (+75.2%) and 3M (+266.1%) returns with an RS of 98, this semiconductor leader demonstrates exceptional momentum despite a minor market pullback."
+        "reason": "SNDK leads with an RS of 99 and a phenomenal 1-month gain of +63.3%, making it a top conviction long in the strong Hardware theme for this market regime."
       },
       {
-        "ticker": "ARM",
-        "company": "Arm Holdings plc",
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
         "grade": "A",
-        "reason": "With an RS of 96 and the highest 1M return (+96.9%), this semiconductor leader exhibits explosive growth, making it a prime candidate in the current market regime."
+        "reason": "MU showcases an RS of 98 and a robust 1-month return of +65.5%, solidifying its position as a leading candidate within the dominant Semiconductors theme."
       },
       {
-        "ticker": "INTC",
-        "company": "Intel Corporation",
+        "ticker": "WULF",
+        "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "Despite its RS of 96, its relatively weaker 1-month return of +20.9% compared to its sector peers suggests underperformance or potential distribution within the leading Semiconductors theme."
+        "reason": "Despite being in the 'Neocloud' theme, WULF's RS of 97 and 1-month return of +30.9% are comparatively weaker than its peers on the list, suggesting it may be avoided in favor of stronger leaders."
       }
     ]
   }
