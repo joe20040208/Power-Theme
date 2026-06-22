@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T21:52:52.672245+00:00",
+  "generated_at": "2026-06-22T12:15:11.724010+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -49,16 +49,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 146.0,
-      "avg_volume": 1137883,
-      "adr_pct": 4.9,
-      "dollar_volume": 166130918.0
+      "avg_volume": 1138082,
+      "adr_pct": 4.8,
+      "dollar_volume": 166159972.0
     },
     {
       "date": "2026-06-23",
       "ticker": "KBH",
       "company": "KB Home",
       "time_of_day": "AMC",
-      "mkt_cap": 3392920000.0,
+      "mkt_cap": 3392920048.0,
       "eps_estimate": 0.46,
       "eps_act": 0.56,
       "eps_surp_pct": 0.29,
@@ -66,16 +66,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 54.2,
-      "avg_volume": 1222156,
-      "adr_pct": 3.3,
-      "dollar_volume": 66240855.0
+      "avg_volume": 1232904,
+      "adr_pct": 3.4,
+      "dollar_volume": 66823397.0
     },
     {
       "date": "2026-06-23",
       "ticker": "KFY",
       "company": "Korn Ferry",
       "time_of_day": "BMO",
-      "mkt_cap": 3707851237.0,
+      "mkt_cap": 3707851190.0,
       "eps_estimate": 1.38,
       "eps_act": 1.28,
       "eps_surp_pct": 2.53,
@@ -83,16 +83,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 71.46,
-      "avg_volume": 503796,
+      "avg_volume": 517568,
       "adr_pct": 2.4,
-      "dollar_volume": 36001262.0
+      "dollar_volume": 36985409.0
     },
     {
       "date": "2026-06-23",
       "ticker": "SUNB",
       "company": "Sunbelt Rentals Holdings, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 35568581046.0,
+      "mkt_cap": 35568580037.0,
       "eps_estimate": 0.76,
       "eps_act": null,
       "eps_surp_pct": null,
@@ -100,16 +100,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 86.06,
-      "avg_volume": 3261732,
-      "adr_pct": 3.2,
-      "dollar_volume": 280704656.0
+      "avg_volume": 3704140,
+      "adr_pct": 3.4,
+      "dollar_volume": 318778288.0
     },
     {
       "date": "2026-06-24",
       "ticker": "FUL",
       "company": "H.B. Fuller Company",
       "time_of_day": "AMC",
-      "mkt_cap": 3534045889.0,
+      "mkt_cap": 3534045922.0,
       "eps_estimate": 1.38,
       "eps_act": 0.57,
       "eps_surp_pct": 1.66,
@@ -117,26 +117,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 64.86,
-      "avg_volume": 664417,
-      "adr_pct": 3.4,
-      "dollar_volume": 43094087.0
+      "avg_volume": 672053,
+      "adr_pct": 3.3,
+      "dollar_volume": 43589358.0
     },
     {
       "date": "2026-06-24",
       "ticker": "JEF",
       "company": "Jefferies Financial Group Inc.",
       "time_of_day": "AMC",
-      "mkt_cap": 12695246265.0,
-      "eps_estimate": 1.14,
+      "mkt_cap": 12695245953.0,
+      "eps_estimate": 1.24,
       "eps_act": 0.7,
       "eps_surp_pct": -27.51,
       "rev_est": 2299269410.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 62.1,
-      "avg_volume": 2190140,
-      "adr_pct": 3.3,
-      "dollar_volume": 136007694.0
+      "avg_volume": 2212973,
+      "adr_pct": 3.2,
+      "dollar_volume": 137425623.0
     },
     {
       "date": "2026-06-24",
@@ -177,7 +177,7 @@
       "ticker": "PAYX",
       "company": "Paychex, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 35198496149.0,
+      "mkt_cap": 35198495384.0,
       "eps_estimate": 1.31,
       "eps_act": 1.71,
       "eps_surp_pct": 0.26,
@@ -185,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 98.24,
-      "avg_volume": 3629553,
+      "avg_volume": 3650468,
       "adr_pct": 2.9,
-      "dollar_volume": 356567287.0
+      "dollar_volume": 358621976.0
     },
     {
       "date": "2026-06-24",
@@ -211,7 +211,7 @@
       "ticker": "AYI",
       "company": "Acuity Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 9628703660.0,
+      "mkt_cap": 9628703512.0,
       "eps_estimate": 5.19,
       "eps_act": 4.14,
       "eps_surp_pct": 2.51,
@@ -219,9 +219,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 317.62,
-      "avg_volume": 397416,
+      "avg_volume": 397442,
       "adr_pct": 3.4,
-      "dollar_volume": 126227270.0
+      "dollar_volume": 126235528.0
     },
     {
       "date": "2026-06-25",
@@ -245,7 +245,7 @@
       "ticker": "CMC",
       "company": "Commercial Metals Company",
       "time_of_day": "BMO",
-      "mkt_cap": 8023811106.0,
+      "mkt_cap": 8023811174.0,
       "eps_estimate": 1.75,
       "eps_act": 1.16,
       "eps_surp_pct": -11.87,
@@ -253,16 +253,16 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 72.36,
-      "avg_volume": 1081382,
-      "adr_pct": 3.5,
-      "dollar_volume": 78248802.0
+      "avg_volume": 1106073,
+      "adr_pct": 3.4,
+      "dollar_volume": 80035442.0
     },
     {
       "date": "2026-06-25",
       "ticker": "DRI",
       "company": "Darden Restaurants, Inc.",
       "time_of_day": "BMO",
-      "mkt_cap": 24447496390.0,
+      "mkt_cap": 24447496041.0,
       "eps_estimate": 3.64,
       "eps_act": 2.95,
       "eps_surp_pct": -0.8,
@@ -270,9 +270,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 213.45,
-      "avg_volume": 1230795,
+      "avg_volume": 1244229,
       "adr_pct": 2.6,
-      "dollar_volume": 262713193.0
+      "dollar_volume": 265580680.0
     },
     {
       "date": "2026-06-25",
@@ -296,7 +296,7 @@
       "ticker": "SNX",
       "company": "TD SYNNEX Corporation",
       "time_of_day": "BMO",
-      "mkt_cap": 22943045538.0,
+      "mkt_cap": 22943045342.0,
       "eps_estimate": 4.12,
       "eps_act": 4.73,
       "eps_surp_pct": 41.62,
@@ -307,6 +307,40 @@
       "avg_volume": 850117,
       "adr_pct": 3.6,
       "dollar_volume": 241909294.0
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 8583126123.0,
+      "eps_estimate": 1.47,
+      "eps_act": 0.64,
+      "eps_surp_pct": -9.26,
+      "rev_est": 559099670.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 169.61,
+      "avg_volume": 1202595,
+      "adr_pct": 6.0,
+      "dollar_volume": 203972138.0
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "CNXC",
+      "company": "Concentrix Corporation",
+      "time_of_day": "AMC",
+      "mkt_cap": 1530001031.0,
+      "eps_estimate": 2.63,
+      "eps_act": 2.61,
+      "eps_surp_pct": -3.26,
+      "rev_est": 2473429030.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 25.08,
+      "avg_volume": 1759510,
+      "adr_pct": 6.0,
+      "dollar_volume": 44128511.0
     }
   ]
 }
