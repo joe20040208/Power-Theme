@@ -2,6 +2,28 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-06-23",
+      "date_display": "6/23/2026",
+      "up_4_pct": 191,
+      "down_4_pct": 275,
+      "ratio_5d": 1.11,
+      "ratio_10d": 1.37,
+      "up_25_q": 1552,
+      "down_25_q": 1118,
+      "up_25_m": 161,
+      "down_25_m": 119,
+      "up_50_m": 26,
+      "down_50_m": 24,
+      "up_13_34d": 1708,
+      "down_13_34d": 1763,
+      "atr_10x_ext": 5,
+      "above_50dma_pct": 55.5,
+      "worden_universe": 6486,
+      "t2108": 45.26,
+      "sp_index": 7364.37,
+      "universe_1b": 2627
+    },
+    {
       "date": "2026-06-22",
       "date_display": "6/22/2026",
       "up_4_pct": 158,
@@ -2777,6 +2799,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-23T21:55:52+00:00",
-  "gemini_analysis": "TODAY \u2014 Today's Up 4%+ count was 158 and Down 4%+ was 168, neither reaching their respective notable thresholds of 400 for buying thrust or 200 for distribution. This indicates a day with low conviction and no significant broad market movement.\nWEEK \u2014 The 5-day ratio has steadily declined from 1.65 to 1.33 over the last week, moving out of the bullish \u22651.5 range. Similarly, the Up 25% Monthly count has decreased from 243 to 183, signaling a fading of broad participation.\nMONTH \u2014 The Up 50% Monthly count has significantly cooled from a frothy 118 in late May to 41 today, reducing extension concerns. Both % Above 50 DMA at 55.5% and T2108 at 44.1% reside in healthy mid-ranges, suggesting a balanced market without immediate overbought or oversold conditions for swing traders.\nREGIME \u2014 Consolidation. Stockbee would be watching for the 5-day ratio to climb back above 1.5 or 2.0 to confirm renewed bullish momentum. He would also look for an acceleration in the Up 13% 34-Day count, which is currently fluctuating around 1744, to signal stage-2 breakouts are firing again."
+  "fetched_at_utc": "2026-06-23T22:18:05+00:00",
+  "gemini_analysis": "TODAY \u2014 Up4 count of 191 indicates buying thrust is well below the healthy threshold of 400. Dn4 count of 275 shows distribution pressure above 200, though not yet heavy selling.\nWEEK \u2014 The 5-day ratio has declined from 1.68 to 1.11 over the past week, now below the bullish threshold of 1.5. Both Up25M (161) and Up13% 34-day (1708) counts are fading, suggesting breadth is deteriorating.\nMONTH \u2014 Up50M has cooled significantly from a \"frothy\" peak of 118 in late May to 26, indicating less froth. % above 50 DMA (55.5%) and T2108 (45.26%) are in a healthy/neutral range, implying a balanced but not strongly trending market for swing traders.\nREGIME \u2014 Fading Bull \u2014 Stockbee would watch for a strong buying thrust (Up 4%+ \u2265400) or 5D/10D ratios returning above 1.5 as the next leading signal. Continued rising Down 13% 34-day counts (1763) or increasing Down 25% Quarterly (1118) would signal further momentum breakdown."
 }
