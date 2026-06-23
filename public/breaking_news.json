@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 23, 2026 (09:00 EST)",
+  "last_checked": "June 23, 2026 (09:05 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "brent oil dips below 80 per barrel for first time since march",
-      "ts": "2026-06-16T13:00:50.451865+00:00"
-    },
     {
       "k": "spacex gains 3 in premarket trading after 20 spike on monday",
       "ts": "2026-06-16T13:10:38.451518+00:00"
@@ -1283,6 +1279,10 @@
     {
       "k": "spacex stock seesaws following 400 billion selloff",
       "ts": "2026-06-23T12:30:33.156961+00:00"
+    },
+    {
+      "k": "meta announces new smart glasses starting at 299 as zuckerberg keeps pushing wearables",
+      "ts": "2026-06-23T13:05:26.561939+00:00"
     }
   ]
 }
