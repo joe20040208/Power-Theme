@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 23, 2026 (18:30 EDT)",
+  "generated_at": "June 23, 2026 (18:42 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Weakness / Tech-Led Sell-Off",
+  "mood": "Risk-Off / Tech Sell-off",
   "analysis": {
-    "action_line": "VIX 19.49 Normal + S5FI 58.3% breadth + Nikkei +1.55% → trade RS leaders selectively near support, exercising caution.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 up +1.55% and the DAX gaining +0.62%, while the FTSE 100 saw a slight dip of -0.09%. However, US indices experienced significant pressure, coinciding with a rising 10Y Yield at 4.49%. This tightening financial backdrop, though the BAML HY Spread regime remains unknown, weighed heavily on growth sectors. Despite the broad market decline, underlying US breadth remained resilient, with S5FI at 58.3% and MMTH at 65.5%, indicating that a material portion of stocks are still above key moving averages.",
-    "analysis_para2": "The mechanical plan for navigating current conditions requires vigilance, particularly after today's notable downturn in US indices. Key support levels for the S&P 500 and Nasdaq 100 must be observed closely for signs of stabilization or further breakdown. With the VIX at a normal 19.49, there's no immediate panic signal, but the significant index drops necessitate a defensive posture. Investors should focus on high Relative Strength leaders that demonstrate resilience and confirm accumulation near established support zones. A failure to hold these levels could trigger further downside, warranting careful risk management.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's session saw significant distribution in US indices, particularly in technology, without any clear bullish reversal signals by market close.",
+    "action_line": "VIX 19.49 Normal + S5FI 58.3% breadth + mixed global tape (Nikkei strong) → selective long setups, prioritize high RS names.",
+    "analysis_para1": "While Asian and European markets showed a mixed performance today with the Nikkei 225 gaining 1.55% and the DAX up 0.62%, the US session saw significant weakness, particularly in technology stocks. Rising 10Y yields at 4.49% continue to pressure growth sectors, despite the BAML HY Spread signaling an unknown credit regime. US market breadth, though declining from previous highs, still shows 58.3% of stocks above their 50-day moving average and 65.5% above their 200-day, indicating underlying resilience outside of the immediate tech rout.",
+    "analysis_para2": "Given the sharp declines, particularly in the Nasdaq 100 (-3.29%) which closed at 29347.27, the immediate focus is on whether key support levels will hold or if distribution accelerates. For the S&P 500, watching the 7300-7350 range will be crucial for a potential bounce or consolidation after its -1.44% drop to 7365.46. A close below these levels could signal further downside pressure, while a strong intraday reversal or retest of prior support could offer low-risk entries. Monitor relative strength leaders closely for potential pivots as the broader market finds its footing.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in major US indices, particularly Nasdaq, ended near session lows without a clear intraday buying capitulation signal.",
     "ticker_intel": [
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A+",
-        "reason": "Exhibiting exceptional momentum with RS 98 and a remarkable +69.2% 1-month gain, positioning it as a top Hardware leader even amidst broader market weakness."
+        "reason": "Demonstrating exceptional leadership within the robust Hardware theme, DELL's 1-month return of +69.2% and RS of 98 positions it as a top contender, thriving even amidst broader market weakness."
       },
       {
-        "ticker": "SNDK",
-        "company": "Sandisk Corporation",
+        "ticker": "VSH",
+        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Boasting the highest RS of 99 and a robust +27.3% 1-month return, it demonstrates powerful accumulation in the Hardware theme, suitable for selective long plays."
+        "reason": "A standout in the Semiconductors theme, VSH boasts a robust +39.8% 1-month return and RS of 98, indicating strong persistent momentum in a leading sector."
       },
       {
         "ticker": "WULF",
         "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "While showing strong absolute returns (RS 97, 1M +25.6%), its 3-month performance (+77.8%) is comparatively weaker among its peers, and its presence in the volatile Neocloud sector makes it a higher risk in a declining market."
+        "reason": "While WULF shows a +25.6% 1-month return, its 3-month performance of +77.8% is relatively weaker among high-RS peers, making it vulnerable in a risk-off environment."
       }
     ]
   }
