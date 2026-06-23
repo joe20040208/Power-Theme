@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 23, 2026 (09:35 EST)",
+  "last_checked": "June 23, 2026 (09:40 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,14 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "spacex passes amazon by market cap in third day of trading as stock pops 8",
-      "ts": "2026-06-16T13:40:40.413926+00:00"
-    },
-    {
-      "k": "treasury yields are little changed ahead of kevin warshs first fed meeting",
-      "ts": "2026-06-16T13:40:40.413926+00:00"
-    },
     {
       "k": "jim cramers top 10 things to watch in the stock market tuesday",
       "ts": "2026-06-16T13:50:41.608379+00:00"
@@ -1275,6 +1267,10 @@
     {
       "k": "spacex stock continues to slide following 400 billion selloff",
       "ts": "2026-06-23T13:25:30.009715+00:00"
+    },
+    {
+      "k": "spacex stock falls below 150 debut price sending market cap under 2 trillion",
+      "ts": "2026-06-23T13:40:44.120840+00:00"
     }
   ]
 }
