@@ -1,32 +1,32 @@
 {
-  "generated_at": "June 23, 2026 (11:51 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 23, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7380.67,
-      "change": -92.12,
-      "change_pct": -1.23
+      "price": 7365.46,
+      "change": -107.33,
+      "change_pct": -1.44
     },
     {
       "label": "Nasdaq 100",
-      "price": 29439.53,
-      "change": -907.55,
-      "change_pct": -2.99
+      "price": 29347.27,
+      "change": -999.81,
+      "change_pct": -3.29
     },
     {
       "label": "VIX",
-      "price": 19.55,
-      "change": 2.27,
+      "price": 19.49,
+      "change": 2.21,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.48,
-      "change": 0.03,
+      "price": 4.49,
+      "change": 0.04,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Rising"
     }
   ],
   "global_indices": {
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24893.58,
-      "change_pct": -0.98
+      "price": 25139.69,
+      "change_pct": 0.62
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 58.0,
-    "mmth": 65.0,
+    "s5fi": 58.3,
+    "mmth": 65.5,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-Led Selloff / Moderate Risk-Off",
+  "mood": "US Weakness / Tech-Led Sell-Off",
   "analysis": {
-    "action_line": "VIX 19.55 Normal + S5FI 58.0% breadth + mixed global tape → focus on RS leaders, manage risk on pullbacks.",
-    "analysis_para1": "Global markets presented a mixed picture today, with Asian strength reflected in the Nikkei 225's +1.55% gain, contrasting sharply with European weakness as the DAX fell -0.98% and the FTSE 100 edged down -0.09%. In the US, the market is experiencing a notable risk-off session, especially in technology. Despite the 10-year yield remaining stable at 4.48%, the absence of BAML HY Spread data leaves the credit regime ambiguous. US breadth metrics, with S5FI at 58.0% and MMTH at 65.0%, suggest underlying support, yet today's sharp declines in the S&P 500 (-1.23%) and Nasdaq 100 (-2.99%) are testing this resilience.",
-    "analysis_para2": "The mechanical plan for today involves closely monitoring key support levels, particularly for the Nasdaq 100 which is down nearly 3%. A close below yesterday's low for the Nasdaq could signal further distribution, while a rebound above its 21-day EMA would be a constructive short-term signal. For relative strength plays, observe how the identified Hardware and Semiconductors themes perform amidst broader market weakness; a lack of significant retracement in these leaders would confirm their underlying strength. Should the S&P 500 fail to hold the 7350 level, it could indicate broadening selling pressure. Conversely, any intraday bounce on increasing volume could present tactical opportunities in strong themes.",
-    "technical_signal": "No reversal pattern confirmed yet. The market is experiencing a broad sell-off, with the Nasdaq 100 showing significant weakness below key intraday levels.",
+    "action_line": "VIX 19.49 Normal + S5FI 58.3% breadth + Nikkei +1.55% → trade RS leaders selectively near support, exercising caution.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 up +1.55% and the DAX gaining +0.62%, while the FTSE 100 saw a slight dip of -0.09%. However, US indices experienced significant pressure, coinciding with a rising 10Y Yield at 4.49%. This tightening financial backdrop, though the BAML HY Spread regime remains unknown, weighed heavily on growth sectors. Despite the broad market decline, underlying US breadth remained resilient, with S5FI at 58.3% and MMTH at 65.5%, indicating that a material portion of stocks are still above key moving averages.",
+    "analysis_para2": "The mechanical plan for navigating current conditions requires vigilance, particularly after today's notable downturn in US indices. Key support levels for the S&P 500 and Nasdaq 100 must be observed closely for signs of stabilization or further breakdown. With the VIX at a normal 19.49, there's no immediate panic signal, but the significant index drops necessitate a defensive posture. Investors should focus on high Relative Strength leaders that demonstrate resilience and confirm accumulation near established support zones. A failure to hold these levels could trigger further downside, warranting careful risk management.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's session saw significant distribution in US indices, particularly in technology, without any clear bullish reversal signals by market close.",
     "ticker_intel": [
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "grade": "A+",
+        "reason": "Exhibiting exceptional momentum with RS 98 and a remarkable +69.2% 1-month gain, positioning it as a top Hardware leader even amidst broader market weakness."
+      },
       {
         "ticker": "SNDK",
         "company": "Sandisk Corporation",
-        "grade": "A+",
-        "reason": "SNDK shows elite relative strength at 99 and a powerful 1-month gain of +63.3%, making it a top leader in the resilient Hardware theme amidst a risk-off environment."
-      },
-      {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "VSH demonstrates robust relative strength at 98 with a strong 1-month return of +60.0%, indicating leading performance within the strong Semiconductors theme."
+        "reason": "Boasting the highest RS of 99 and a robust +27.3% 1-month return, it demonstrates powerful accumulation in the Hardware theme, suitable for selective long plays."
       },
       {
-        "ticker": "INTC",
-        "company": "Intel Corporation",
+        "ticker": "WULF",
+        "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "INTC, despite a strong 3-month gain, shows a comparatively weaker 1-month return of +18.5% within the Semiconductors theme, suggesting underperformance relative to its peers on a risk-off day."
+        "reason": "While showing strong absolute returns (RS 97, 1M +25.6%), its 3-month performance (+77.8%) is comparatively weaker among its peers, and its presence in the volatile Neocloud sector makes it a higher risk in a declining market."
       }
     ]
   }
