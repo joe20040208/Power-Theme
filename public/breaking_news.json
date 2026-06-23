@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 23, 2026 (13:00 EST)",
+  "last_checked": "June 23, 2026 (13:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Strait of Hormuz evacuation plan to begin for ships stranded in Persian Gulf, maritime organization says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-23T13:05:33.726223-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing",
       "source": "CNBC",
@@ -1239,6 +1247,10 @@
     {
       "k": "spacex stock climbs 5 rebounding from threeday losing streak",
       "ts": "2026-06-23T16:25:40.882999+00:00"
+    },
+    {
+      "k": "strait of hormuz evacuation plan to begin for ships stranded in persian gulf maritime organization",
+      "ts": "2026-06-23T17:05:34.373359+00:00"
     }
   ]
 }
