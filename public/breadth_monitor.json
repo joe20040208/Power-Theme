@@ -4,24 +4,24 @@
     {
       "date": "2026-06-22",
       "date_display": "6/22/2026",
-      "up_4_pct": 151,
-      "down_4_pct": 159,
+      "up_4_pct": 158,
+      "down_4_pct": 168,
       "ratio_5d": 1.33,
       "ratio_10d": 1.47,
       "up_25_q": 1556,
-      "down_25_q": 1083,
+      "down_25_q": 1084,
       "up_25_m": 183,
       "down_25_m": 100,
       "up_50_m": 41,
       "down_50_m": 25,
       "up_13_34d": 1744,
-      "down_13_34d": 1750,
-      "atr_10x_ext": 6,
-      "above_50dma_pct": 53.8,
+      "down_13_34d": 1751,
+      "atr_10x_ext": 5,
+      "above_50dma_pct": 55.5,
       "worden_universe": 6476,
-      "t2108": 43.59,
-      "sp_index": 7473.0,
-      "universe_1b": 2618
+      "t2108": 44.1,
+      "sp_index": 7472.79,
+      "universe_1b": 2627
     },
     {
       "date": "2026-06-18",
@@ -2777,6 +2777,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-22T21:58:25+00:00",
-  "gemini_analysis": "TODAY \u2014 Today saw 151 stocks up 4%+ and 159 stocks down 4%+, resulting in a mild negative breadth ratio of 0.95. Neither count indicates a healthy buying thrust nor significant distribution pressure, suggesting a relatively neutral day.\nWEEK \u2014 The 5-day ratio has declined from a bullish 1.65 to 1.33, dropping below the 1.5 bullish threshold. Both the Up 25% Monthly (down from 243 to 183) and Up 13% 34-Day counts (down from 1831 to 1744) are fading, indicating breadth is deteriorating.\nMONTH \u2014 The Up 50% Monthly count at 41 is not at frothy levels, while % above 50 DMA at 53.8% remains in a healthy bull zone. The T2108 at 43.59 is neutral, suggesting a consolidation phase with no immediate overbought or oversold signals for swing traders.\nREGIME \u2014 Consolidation \u2014 The market has cooled from its extended state, with breadth indicators softening after a period of frothy conditions. Stockbee would watch for an acceleration in Up 13% 34-Day or a strong Up 4%+ day (\u2265400) to signal renewed momentum."
+  "fetched_at_utc": "2026-06-23T21:55:52+00:00",
+  "gemini_analysis": "TODAY \u2014 Today's Up 4%+ count was 158 and Down 4%+ was 168, neither reaching their respective notable thresholds of 400 for buying thrust or 200 for distribution. This indicates a day with low conviction and no significant broad market movement.\nWEEK \u2014 The 5-day ratio has steadily declined from 1.65 to 1.33 over the last week, moving out of the bullish \u22651.5 range. Similarly, the Up 25% Monthly count has decreased from 243 to 183, signaling a fading of broad participation.\nMONTH \u2014 The Up 50% Monthly count has significantly cooled from a frothy 118 in late May to 41 today, reducing extension concerns. Both % Above 50 DMA at 55.5% and T2108 at 44.1% reside in healthy mid-ranges, suggesting a balanced market without immediate overbought or oversold conditions for swing traders.\nREGIME \u2014 Consolidation. Stockbee would be watching for the 5-day ratio to climb back above 1.5 or 2.0 to confirm renewed bullish momentum. He would also look for an acceleration in the Up 13% 34-Day count, which is currently fluctuating around 1744, to signal stage-2 breakouts are firing again."
 }
