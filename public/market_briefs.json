@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-23 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Elevated Volatility / Risk-Off",
+    "spy_price": 733.58,
+    "spy_change_pct": -1.45,
+    "vix": 19.49,
+    "hy_oas": 2.65,
+    "yield_curve": 0.34,
+    "credit_status": "Complacent",
+    "s5fi": 58.3,
+    "mmth": 65.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "IBM",
+          "company": "International Business Machines",
+          "reason": "Strategic AI partnership and new government policy support for quantum computing position IBM favorably for future growth."
+        },
+        {
+          "ticker": "ZETA",
+          "company": "Zeta Inc.",
+          "reason": "A new strategic partnership with Palantir opens significant opportunities for market expansion and innovation."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "The stock traded primarily on broad market risk-off sentiment and technical weakness, lacking fresh fundamental catalysts to counter the downtrend."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-23 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp",
           "reason": "NVIDIA is a C-grade candidate as it continues to see strong investor interest driven by ongoing AI narrative momentum and technical breakouts, rather than any fresh company-specific news today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-11 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Anxious Gains / Volatility Alert",
-    "spy_price": 739.3,
-    "spy_change_pct": 0.23,
-    "vix": 18.38,
-    "hy_oas": 2.81,
-    "yield_curve": 0.47,
-    "credit_status": "Complacent",
-    "s5fi": 56.0,
-    "mmth": 61.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "Reported a new strategic partnership, signaling expansion into key growth areas and potential market share gains."
-        },
-        {
-          "ticker": "MRNA",
-          "company": "Moderna, Inc.",
-          "reason": "News of potential Hantavirus vaccine breakthrough opens significant new market opportunity and pipeline diversification."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continued momentum driven by ongoing AI infrastructure demand and positive sector sentiment, lacking a fresh idiosyncratic catalyst today."
         }
       ]
     }
