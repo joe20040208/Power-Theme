@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-23 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Global Risk-Off Deepens",
+    "spy_price": 744.39,
+    "spy_change_pct": -0.31,
+    "vix": 19.66,
+    "hy_oas": 2.66,
+    "yield_curve": 0.27,
+    "credit_status": "Complacent",
+    "s5fi": 55.1,
+    "mmth": 63.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft announces strategic partnership with a major AI infrastructure provider, signaling accelerated cloud expansion and AI integration."
+        },
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Alphabet's Waymo granted expanded robotaxi operating permit in a new major metropolitan area, pointing to significant revenue growth in autonomous driving."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "Nvidia Corp.",
+          "reason": "Nvidia sees continued analyst upgrades post-earnings, driven by ongoing AI server demand, maintaining strong technical momentum."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-22 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continued momentum driven by ongoing AI infrastructure demand and positive sector sentiment, lacking a fresh idiosyncratic catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-11 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Volatility-fueled Ascent",
-    "spy_price": 737.62,
-    "spy_change_pct": 0.83,
-    "vix": 18.14,
-    "hy_oas": 2.79,
-    "yield_curve": 0.48,
-    "credit_status": "Complacent",
-    "s5fi": 57.0,
-    "mmth": 61.3,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Announces a groundbreaking new AI data center platform, setting new industry benchmarks for performance and efficiency, poised to drive significant Q3 revenue acceleration."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com, Inc.",
-          "reason": "AWS secures a multi-billion dollar strategic partnership with a global enterprise client, solidifying its market leadership in cloud infrastructure services."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "Continues to see volatile trading on ongoing speculation about robotaxi development and minor analyst rating adjustments, lacking fresh fundamental news."
         }
       ]
     }
