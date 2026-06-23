@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 22, 2026 (18:58 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 23, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 17.28,
-      "change": 0.88,
+      "price": 20.15,
+      "change": 2.87,
       "change_pct": null,
-      "zone_label": "Normal"
+      "zone_label": "Elevated"
     },
     {
       "label": "10Y Yield",
-      "price": 4.51,
-      "change": 0.06,
+      "price": 4.49,
+      "change": 0.04,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 71250.06,
-      "change_pct": 0.28
+      "price": 69788.38,
+      "change_pct": -3.55
     },
     "dax": {
       "label": "DAX",
-      "price": 24985.82,
-      "change_pct": -0.16
+      "price": 24875.08,
+      "change_pct": -1.05
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10437.85,
-      "change_pct": 0.72
+      "price": 10392.68,
+      "change_pct": -0.43
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Selective Strength / Rising Rates",
+  "mood": "Global Weakness, US Indices Defensive",
   "analysis": {
-    "action_line": "VIX 17.28 Normal + S5FI 55.1% breadth + mixed global tape (DAX down, FTSE up) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining 0.28% and the FTSE 100 up 0.72%, contrasting with a slight decline of 0.16% for the DAX. Meanwhile, the US 10-Year yield continued its upward trend, now standing at 4.51%, signaling persistent inflationary pressures or rate hike expectations. Despite a moderately healthy S5FI at 55.1% (stocks above 50DMA) and MMTH at 63.6% (stocks above 200DMA), US indices registered modest losses, with the S&P 500 down 0.37%. This environment suggests a selective market, where broad participation is decent but not expanding vigorously amidst rising rates.",
-    "analysis_para2": "Given the mixed global sentiment and rising yields, the mechanical plan calls for disciplined risk management and a focus on relative strength leaders within confirmed thematic plays. The S&P 500's close below its open suggests intraday selling pressure, making careful entry points crucial. We favor buying leading stocks from the Hardware, Semiconductors, and Neocloud themes on constructive pullbacks to key moving averages or established support zones, rather than chasing strength. Watch for potential divergences between price action and momentum indicators in these leaders as early warning signs, maintaining tight stop-losses. Avoid broad market exposure until indices show clearer signs of consolidation or renewed upward momentum.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices saw moderate declines, with breadth showing decent but not overwhelming participation, suggesting continued selective trend following rather than a broad inflection point.",
+    "action_line": "VIX 20.15 elevated, S5FI 55.1% breadth, and Nikkei -3.55% signal caution; highly selective on RS leaders at support.",
+    "analysis_para1": "Global markets are showing significant weakness this morning, with the Nikkei 225 plunging -3.55%, the DAX down -1.05%, and the FTSE 100 off by -0.43%. This broad-based selling overseas is impacting US futures, which are trading lower on both the S&P 500 (-0.37%) and Nasdaq 100 (-0.19%). The 10Y Treasury yield is rising to 4.49%, adding pressure, while US breadth metrics reflect underlying health but declining participation with S5FI at 55.1% and MMTH at 63.6%. The elevated VIX at 20.15 confirms increased market anxiety.",
+    "analysis_para2": "Given the widespread global weakness and elevated VIX, a defensive and highly selective approach is warranted for today's open. Monitor the S&P 500 carefully; initial support could be tested near 7450, with a break below 7400 indicating a more significant market pullback. Traders should prioritize capital preservation, remaining cash heavy and selectively targeting only the highest relative strength names. Focus on those consolidating near key support levels or their 50-day moving averages, as initiating new positions into strength on a globally weak day carries higher risk. Avoid chasing rallies without clear consolidation or a confirmed market turnaround.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are trading lower pre-market amidst global weakness, and the VIX remains elevated above 20.",
     "ticker_intel": [
       {
-        "ticker": "MU",
-        "company": "Micron Technology, Inc.",
+        "ticker": "SNDK",
+        "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "Micron Technology shows exceptional strength with an RS of 98 and a staggering +65.5% 1-month return, making it a top leader in the robust Semiconductors theme."
+        "reason": "SNDK boasts an exceptional RS of 99 and a 1-month return of +63.3%, demonstrating clear sector leadership in Hardware within this challenging market."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "Vishay Intertechnology boasts an RS of 98 and a monumental +286.0% 3-month return, confirming its leadership within the high-performing Semiconductors sector."
+        "reason": "VSH, with an RS of 98 and a phenomenal 3-month return of +286.0%, exhibits strong, sustained momentum within the robust Semiconductor theme."
       },
       {
-        "ticker": "INTC",
-        "company": "Intel Corporation",
+        "ticker": "WULF",
+        "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "Intel Corporation, despite its high RS of 98, shows relative weakness with only an +18.5% 1-month return compared to its surging Semiconductor peers, making it a weaker choice for momentum trading."
+        "reason": "WULF, despite an RS of 97, has the lowest 3-month return of +87.5% among the strong list, indicating relative underperformance compared to its Neocloud peers."
       }
     ]
   }
