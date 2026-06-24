@@ -1,395 +1,887 @@
 {
-  "scan_time": "2026-06-23 08:07 ET",
+  "scan_time": "2026-06-24 08:07 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "ZETA",
-      "price": 18.47,
-      "gap_pct": 9.26,
-      "pm_volume": 709387,
-      "avg_vol_10d": 8319343,
-      "avg_dollar_vol": 153658265,
-      "mkt_cap": 4603787930,
-      "rvol": 0.99,
-      "adr_pct": 6.62,
-      "category": "New Contract/Partnership",
-      "theme": "Palantir Partnership",
-      "reasoning": "Zeta Global's stock surged following the announcement of a strategic partnership with Palantir, projected to generate $100 million in annual revenue.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "A",
-      "finviz_theme": "AI Data & Analytics",
-      "analysis_detail": "Catalyst: Zeta Global announced a partnership with Palantir, integrating marketing data with Palantir's Foundry platform. This collaboration is projected to drive $100 million in annual revenue. | Impact: Adds a significant new revenue stream (potentially ~15-17% of prior year revenue), strategically aligns Zeta with a leading AI/data platform, and validates its data capabilities in the enterprise market.",
-      "analysis_details": "• **Impact**\nThe partnership with Palantir is projected to drive an additional **$100 million** in annual revenue for Zeta Global. This represents a **material increase** to Zeta's top line, likely around **15-17%** based on recent annual revenue figures. This revenue projection provides a clear, quantifiable financial benefit from the collaboration.\n\n• **Strategic Value**\nThis partnership integrates Zeta Global's extensive marketing data with Palantir's powerful Foundry platform, enhancing data-driven marketing capabilities for clients. The collaboration with a Tier-1 data analytics and AI player like Palantir significantly **validates** Zeta's technology and data assets, potentially attracting new enterprise clients and **deepening existing relationships**. It also positions Zeta more strongly within the growing **AI Enterprise Software** ecosystem.",
+      "ticker": "ABSI",
+      "price": 7.41,
+      "gap_pct": 21.94,
+      "pm_volume": 1898977,
+      "avg_vol_10d": 5805361,
+      "avg_dollar_vol": 43017725,
+      "mkt_cap": 1155256469,
+      "rvol": 1.12,
+      "adr_pct": 11.15,
+      "category": "Thematic Narratives",
+      "theme": "AI Drug Platform Validation & Funding",
+      "reasoning": "Absci announced positive Phase 1 trial data for its hair loss therapy and successfully raised $100 million with backing from Eli Lilly, validating its AI drug program.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Biotech - Immunology",
+      "analysis_detail": "Catalyst: Absci reported **positive Phase 1 trial data** for ABS-201, a hair loss therapy, demonstrating a **65-day half-life**. Concurrently, the company **raised $100 million** in an underwritten offering, with **Eli Lilly joining as an investor**, providing strong validation for its **AI drug program**. | Impact: This event significantly **de-risks** Absci's pipeline and AI-driven drug discovery platform, provides substantial **capital for advancement**, and signals strong institutional confidence, potentially accelerating drug development across multiple indications.",
+      "analysis_details": "• **The Narrative**\nAbsci has delivered a **dual catalyst** event, significantly bolstering its market position. The positive Phase 1 trial data for ABS-201, specifically highlighting a **65-day half-life**, is a strong clinical signal for its potential efficacy in androgenetic alopecia. This early-stage success is amplified by a **$100 million capital raise**, crucially backed by pharma giant **Eli Lilly**. This not only provides essential funding but also serves as a potent **third-party validation** of Absci's innovative **AI-powered drug discovery platform**.\n\n• **Explosiveness**\nThe combination of early clinical validation for a drug targeting a large market (hair loss) and a substantial capital injection from a strategic investor creates significant forward momentum. The news suggests a high degree of confidence in Absci's technology and pipeline. This funding will likely **accelerate** ABS-201's progression into later-stage trials and potentially expand its application to other conditions like endometriosis, as noted in headlines. The implied endorsement from Eli Lilly positions Absci as a key player in the evolving landscape of AI-driven drug development, potentially attracting further investor interest and partnerships.",
       "peer_tickers": [
-        "CRM",
-        "HUBS",
-        "SNOW"
+        "RXRX",
+        "EXAI",
+        "ARWR"
       ],
       "headlines": [
         {
-          "title": "Why is Zeta Global stock surging today? - Investing.com",
+          "title": "Absci post early-stage trial data for hair loss therapy (ABSI) - Seeking Alpha",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN2QtVzY3NlpiOW1vNmlEVjlqQk5ZYkF6S2VSVHRvLWRaM211a01xbG1QeXFfVXhlRjAzRGxvZEJUbEJiTUhTWGVmeHRWWFIzREhjeVM3c0x4YU1vY1FnVmFsR0lTazZlMTZXaVNfaFV2SG5tWnpWWEF4UHBQTGFHemtxeDBKSzZfTWdhalEtbXVlT2JSd05ZV18xb25DZVBwSGc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczRlX3prd1EwTmYyR0JtY0g3TXhDUHpFUUp2VFlOT1NxMGt3SW5zdXdKb0FHbkVyZkFsNlZ4VHB3ektQc1ZjTFBsUFFnZzNqelFHRWZ2T2JfdkhRWS1YUm5yQnJxdzl0bXhyUWNEandmdmtSV1lfU3ZOUEVDeF9GRGJyZXhNOEQ5eXBHXy1HNzF1OHc?oc=5"
         },
         {
-          "title": "Zeta Stock Jumps After Palantir Partnership — Deal Could Drive $100 Million in Annual Revenue - Benzinga",
+          "title": "Absci stock surges 24% on positive Phase 1 hair loss drug data - Investing.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSWVBajk3ZWRmWEVCNVRPWmoxUTJkRXBkbTF4WnFoTHQ2eWhwRFBZd2hrU2E1WnhCR3NqdXpveUtjZzJFNjVHbUxWTW5VMHRkajY1UnhESUFtbGhkTmp0UGVSWDNjMUpHVHVOd2R0STJMTnNacVo0MUFPLXYteFlSd1Z4VlNvcmJGMEtkV09wTm90RXVQR0VFYjZUZWx2TFN1NE1WUlZwb2h4VWRVOWFSZTVVNm1IQWI0Zm94UnB2OEhQQzNVbFZtcFZfUEdwNWNJMkVqZVFITThrdVNtTGNlbW9kcmxJZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRGRodFJGTW1HQ1dzWnFWQ3ZlRldlQUhIUXZObmNHcDJQeGFyTUVIdWtNaDIxVWFvVnluU0VwR1VBMWlnY3UtWFBRVklRUzdMOXZSbVB6cWZvNVZMYm5BSnZ2UXNwMElWbzV3cmhkcnlJQVBZallLby0yR0pCZWlyc1pRM3doN3FzYlZiYUZ1VVg1SVk0U3FIMERIWkkxTENBREc1S0ZXUzFOMzNoXzZVWnBRRkpabjY3RnJnemhnek0?oc=5"
         },
         {
-          "title": "Zeta Global sets April 30 earnings release, 4:30 p.m. ET call - Stock Titan",
+          "title": "Absci Raises $100 Million in Underwritten Offering to Advance ABS-201 Across Androgenetic Alopecia and Endometriosis - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2lGWkc3amVRUFJudkJFMDZpQ1pVUjVzUHY5U2h0eWFWYU1zeEM5MEtha2I1Ny1vTEFfTVdjR1FtOGZkdGYzbHh2SlVJSUhQc1dzX0JrM2k1RllvcF9jRmFWQ1JIRlJuaW8zYTZ0UnI4b2syckVOenhDMGpucndkYnJhQ1FuaFZJNFVaM01Valc1QWpFMS10MDdvM0hiOGNIaHRUZzFuNkdtRmJJc013Z1kwRmVGRWtt?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWnpvSHBiaXpWM2pyVnAtNW1EY1IyQnMySXdMeGktWnNRTHRpZ2tQZ21PQXVNeFhIQWNTUUdDczJpSzlBLU1jQ1IyY1MzUG9pMTFObVZydEVNVlJJaDByeHZzb2RpMWlOc1dkSk81Y1dya2ltTmVkbjhnQ0hLVE4wX2puS0hlS00xTU9FY3laN3IxeVMtVWQ1UVJ4U2lJVmQ4OHJ0UFRjc0NZVDdYb3hBWEtvZTFlVGVRSkRvZlBucXd2aUJ5X0ZlY0psbVpoTFJNRmRSU2ZUbVcxdjU2NmFmYlZ2VnhTUQ?oc=5"
         },
         {
-          "title": "Zeta Global stock rises on Palantir partnership announcement - Investing.com",
+          "title": "Absci raises $100M as Lilly joins investors backing AI drug program - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZVlnV1paUHVYeE9IMFN5d2diVkNRdkVRb0FOblNldUZKNGlITjE1YVh2MWkxNllUc2VNNjRNVlFxZGZRc21WcHpWYTh1VGdIU1FZbnIyUm9RS3E0RE1NM3dSS1BfME9vVnMzbmVGd3htekQ2akdZVVNPU0hORktSLWkxN3VCQmlVTzYzc0hwUkVHLS1IZ251V2hYaU4tYW9GRGg3ZTNUTmQ2RXVVX2taUkwzMlFuc1BUMUc1TXdSSQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmhkb2tPNFpfS0x1QU1wUnl1eWNhMUhBcHpQV2lSVDNvb0RqZkVCTjBzZ3k5Wnc0MG45ZG0zTmFwbHBFS2ZtblFUblBvMkxiSmE3SWQ3Wjdha1YtWXhGMGY1V1h5amdnNGZiRzd3TlJLRHJ0bHJ2SWxfa3hKUlBYRGkwU1lZWkhBTXI3b0FkZkg4bDRIelRzMmNCRC1lV1BMRGdld0pPVXlSMHNUYlBCRjBIYnRiMFpLNEJwVw?oc=5"
         },
         {
-          "title": "Palantir and Zeta Global tie marketing data to Foundry - Stock Titan",
+          "title": "Absci’s ABS-201 shows 65-day half-life in alopecia trial - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR2MtcHpqenIzUFpiMEg1MjNicXRfNUl0Q3U0cFc1N1J3SFF1NnhVWUozVjdjdUZpUTlvN0g2OE1PRHRXX21hY3A1MDFJMDBQNEFYYnVWdmlvM1V1LW1kVzd3S2pWbk50VklUN2hBVVJicnRuNmZrYVdIM250R2x5azc2a2kxcEp2UWxmeGNLdC1RcG5wa1hOdW5EeGhJX3lJTnBFc0xkb0o0V1hoSWRuTjlpeUR1VEZSeW0yOG5n?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbkNRRWtkN3Y5Y3BWZGh5NGZjZzA2eFJlSHMwR09JLUhiLS1ZcEtzLTZ0U1JURG9YQ0dzcWFTa1E5M3VOc1V6V2l1N3BMY3R4YkMwOUpvcHgyVGttY3NrRkxhUUJYTkdvTHBYWlJ4TmVSQjBjOUVGSF84MG1LQVRtbFJUYTJST3JSSm5SZjJjVDNvd25aQUVqX05paVRYVjRuTzkwNFVPVUpyZDlVR3dIc0IwZ2R1MGI0azN3Rg?oc=5"
         }
       ],
-      "float_shares": "221.39M",
-      "short_float": "13.81%",
-      "daily_pct": -2.28,
-      "industry": "AI Data & Analytics",
-      "technical_status": "Pass",
+      "float_shares": "133.28M",
+      "short_float": "24.07%",
+      "daily_pct": -11.79,
+      "industry": "Biotech - Immunology",
+      "technical_status": "Fail (Avg $Vol $43M < $100M)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 70,
+        "confidence_score": 85,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "projected to generate $100 million in annual revenue",
-        "discrepancy_note": "Source A (Finviz) does not mention the claim. Source B (Google News) headline [2] from Benzinga mentions 'Deal Could Drive $100 Million in Annual Revenue', but this specific revenue projection is not confirmed by other headlines within Source B or by Source A. As only one source mentions the claim with the specific number, it is marked as Discrepancy per instructions."
+        "primary_claim": "Absci successfully raised $100 million",
+        "discrepancy_note": "Source A (Finviz) contains no news items and thus does not mention the $100 million raise. Source B (Google News) explicitly mentions Absci raising $100M in multiple articles ([1] Stock Titan, [2] Quiver Quantitative)."
       },
-      "gates_passed": 5,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": true
       },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "INFQ",
-      "price": 14.21,
-      "gap_pct": 7.32,
-      "pm_volume": 1659318,
-      "avg_vol_10d": 15106912,
-      "avg_dollar_vol": 214669220,
-      "mkt_cap": 3100577732,
-      "rvol": 1.32,
-      "adr_pct": 10.87,
-      "category": "Government Policy",
-      "theme": "Government Quantum Initiative & Company Strategic Alignment",
-      "reasoning": "President Trump's Executive Orders on quantum computing and Infleqtion's aligned 'Quantum Space Initiative' fueled investor interest.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "ticker": "WEN",
+      "price": 6.25,
+      "gap_pct": 19.42,
+      "pm_volume": 12922693,
+      "avg_vol_10d": 8034566,
+      "avg_dollar_vol": 50216038,
+      "mkt_cap": 1191456404,
+      "rvol": 1.04,
+      "adr_pct": 4.77,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price surge is attributed to retail trader interest and short squeeze speculation.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 57,
-      "grade": "B",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: President Trump signed **two new Executive Orders** to fast-track quantum computing, with Infleqtion's CEO attending the White House ceremony. Concurrently, INFQ **launched America's Quantum Space Initiative**. | Impact: This policy action and strategic company alignment create a highly supportive environment for the quantum sector and specifically for INFQ, leading to **double-digit after-hours gains**.",
-      "analysis_details": "• **The Policy**\nPresident Trump signed **two new Executive Orders** to **fast-track quantum computing**, providing a significant boost to the nascent quantum technology space. This move signals a strong governmental commitment to advancing quantum capabilities, creating a highly supportive environment for companies operating in this sector. Infleqtion's CEO actively participated in the **White House signing ceremony**, highlighting the company's central role.\n\n• **Direct Impact**\nInfleqtion immediately capitalized on the government's renewed focus by **launching America's Quantum Space Initiative**, aimed at accelerating quantum-enabled space infrastructure. This strategic alignment positions INFQ to potentially benefit from future government contracts, grants, and increased private sector investment in quantum technologies, particularly those with defense and space applications. The news led to **double-digit after-hours gains**, indicating strong market reaction.",
+      "grade": "C",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Retail-driven short squeeze | Impact: Speculative. A **significant +20% pop** driven by retail interest and short squeeze speculation. High risk of **volatility** and potential for a **gap and trap** without fundamental backing.",
+      "analysis_details": "• **What Happened**\nWendy's stock (**WEN**) **surged** over **20%** today, driven by a narrative of retail trader interest and potential for a **short squeeze**. Despite the significant price action, there was no specific fundamental news such as earnings, analyst upgrades, or new contracts announced in the last 24 hours to justify the move. Headlines explicitly mentioned \"meme stock\" potential and retail trader excitement.\n\n• **Key Consideration**\nThe lack of a clear fundamental catalyst makes this price movement highly **speculative** and prone to **extreme volatility**. While a short squeeze can lead to rapid gains, the absence of underlying operational improvements or strategic developments increases the risk of a sharp **reversal** or a **gap and trap** scenario for short-term traders. Investors should exercise extreme caution.",
       "peer_tickers": [
-        "QBTS",
-        "RGTI",
-        "IONQ"
+        "MCD",
+        "CMG",
+        "DPZ"
       ],
       "headlines": [
         {
-          "title": "Is Infleqtion (INFQ) Stock a Buy after Its Quantum Space Push? - TipRanks",
+          "title": "Wendy’s Pops 22%. It Could Be the Next Meme Stock. - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVDFuLTVEUGR4dmdmTUVmNXQ0ajB1emVzSm5ybHVrQkhJS3BDNFQ4TlZhdjMydjNnRkhma3FRVFFvTTdBZWs5MEZqQlRBZW9tY2FsTENMNExsTzNlMmswN3E1YmNwMVFpQXVjRi15U3hWRGgxVWxxc0M1dFU0c2Z5YzJ1TkVObm5Ddkk1QmN0T1F1clk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TelpSeDVEMmMyNzlVbU1CNHUxanpEX2tjcE5NMTZKTk9ROWJ2Vl9oU2JEd3p6ZEVFRHpVQlBQV3l2cUwxOWRaamdCcDFfdmp4N0RoaldRYmduTHpoWHlhME51VEUzYk5jckxTdFdhLXFmNDZ0SzUxSk55SQ?oc=5"
         },
         {
-          "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus - Yahoo Finance",
+          "title": "Why Is Wendy's Stock Gaining Wednesday? - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSFlZZEMzVzZad1BIZjVWeEk2b2E4ejJwbWV3VjQ4YTBlVTRjdjBvX3lMV2k2ZktUaVBlYXhiQkE4Vkd2Ynl6ZV9RVlZrdWhIeWs3RUhGS0V1OFloQ0YzN0s3YTlqSEk2cGVSc2d2T3hWaFhteFhKUzliako0NEM2RmJib0FVSlpsUFBkUS04enJoWnc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdnBqNGY3bS1YTFFoTmxFSVNmbHRlblBBNzJkd0RGOGVSRXk2bXphc0pNWjJXbmdLa1RNZVR5bU9PUXkxTUR3UGFYNjRDNXBrb0ZpMnJDLWowSXFNaHNSeHIxcEhoV0xQR1otdS1raWdrTWY1N2xRYnZyWFBiMmJmRE9Da2Vta3JYU1R0U1dYY2NTNW5jZ2F2cHZQaU50bW8?oc=5"
         },
         {
-          "title": "INFQ, VTAK, ORIS: Why These Stocks Posted Double-Digit Gains After-Hours Today - TradingView",
+          "title": "Wendy’s Stock Is Soaring 20% Overnight — Retail Traders Are Begging for A Short Squeeze - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSnZMbnpzV1BvYXJCZHdWTXE3Q3BaNTgwM0RmWUg5X0J1Yzl3b185NXBuc3E3d0duSlBJTDZjR3BTOWI0U3p1ZWJnTWVmWlo4eHpPSVQyaTkzMTRlSUZ1UHd5UUFxWmFDZjNMYWtHMVowNERUcU1fMVluMV92Q3NFc2JTYURpdDAzYS1ocFJrYXYyWU1wS1BsaHZSR3RQcFlfSTdFUFlaOXZCMjFyNkFFRklaa2lHQnE5ejdSSmozb0RTZjN2Y0tiNVI5Q2swd2JVRnc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWEw5VDJFYlpRQlZuSURXd3U3dUNsNGxDZEpfbUpMTE41cC1PQldST1VmTkZhcjRtV3l5R1cxSkZWaUdGTHpYcTR4VnozSktkS3Y5bUN6YmpoY3YzenlTVjgwTG9zd0FHemxyRmZXTzQtVjBYVHdhZ3ctTHJtZkQ5V0d2eG1qcHpMcjI3anh2TGxPcUVMRU1obUxZMnE0QQ?oc=5"
         },
         {
-          "title": "Infleqtion CEO joins White House quantum signing ceremony - Stock Titan",
+          "title": "S&P 500, Nasdaq, Dow Drop As Broader Tech And AI Selloff Continues — SPCX, BLZE, WMT, WEN, MU In Focus - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzVzSVdfR3c2UjFMeHpjUENheXUzLTgyTmVQQlhKSHhlWUpSWHJNNkhlcFBHdU9IWXlnTUNIdnNaSG5ndGZrQ25WOVlEWmYyYnZRSjYxbVNVUllHQ0JJMFE4cGtpdFlXeHYwdnV3TVVsQ1ZNQS13SlBidGthbm9oN1piV2VGUFhwVUMwalZQNGpnVXhjNGYybWwyb2JMNnhYY080?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcEVBX1FjWFJmM2QyRHdtOTlXaTZXbF95ZEE3b2ZpVXJQMS1ZNWVHRlAzSTdaX2k2NXluM18xbEF6R1VuVWdkRFRqNmZtX3ZySjNuZnZ5NnlYUmNqeWlEa1p4TkZxenlPM01memVyUWZuNnBadFBfd2daNkV3WWhHZ3JPV01hMjJOZlhCWEFoZTJSWFI1VHE1N3BZSDNqQVktaHIwMUUxb0FkaWVtOXQwUTdneDBSc0RjVGFISjg1eVFMYzY5a3ljNFFkWE4?oc=5"
         },
         {
-          "title": "Infleqtion Welcomes Executive Order on Quantum Technology",
-          "source": "Finviz",
-          "url": "https://www.businesswire.com/news/home/20260622508966/en"
+          "title": "Wendy's (WEN): Buy, Sell, or Hold Post Q1 Earnings? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLWJGV3NBUnl6bmo0SW13QVEwbUU3a3l6YlZ6ZDFoT3VvNzVaSjJ6TmdSWmtHLUItcl82eEh2N0FNX3Fsb2ZkZ0IwUUZnQlJsN2pDU0FaT3NRLWVRZkNPaTJGTWtjY25rdzd6SWhDd0MzM2RQdnBoTWtyMm5pSlY3WWxpTlp2YnRYeDdEY253QkhPczQ?oc=5"
         }
       ],
-      "float_shares": "187.28M",
-      "short_float": "2.14%",
-      "daily_pct": 5.03,
-      "industry": "Space",
-      "technical_status": "Pass",
+      "float_shares": "169.44M",
+      "short_float": "29.67%",
+      "daily_pct": 1.38,
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $50M < $100M)",
       "verification": {
-        "status": "Verified",
+        "status": "Discrepancy",
         "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "President Trump's Executive Orders on quantum computing were issued, Infleqtion launched its 'Quantum Space Initiative', and these events were aligned and fueled investor interest.",
-        "discrepancy_note": ""
+        "primary_claim": "WEN's percentage price surge",
+        "discrepancy_note": "Source B, [1] 'Wendy’s Stock Is Soaring 20% Overnight' reports a 20% surge, while Source B, [2] 'Wendy’s Pops 22%' reports a 22% surge. Source A (Finviz News) had no relevant information."
       },
-      "gates_passed": 5,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": true
       },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "IBM",
-      "price": 252.22,
-      "gap_pct": 4.97,
-      "pm_volume": 239873,
-      "avg_vol_10d": 7847025,
-      "avg_dollar_vol": 1979176646,
-      "mkt_cap": 237057859888,
-      "rvol": 1.12,
-      "adr_pct": 4.44,
+      "ticker": "FCEL",
+      "price": 21.82,
+      "gap_pct": 12.28,
+      "pm_volume": 914472,
+      "avg_vol_10d": 11211590,
+      "avg_dollar_vol": 244636894,
+      "mkt_cap": 1475210239,
+      "rvol": 0.64,
+      "adr_pct": 15.13,
       "category": "New Contract/Partnership",
-      "theme": "Strategic AI Partnership & Quantum Policy Boost",
-      "reasoning": "IBM announced a strategic AI partnership with OpenAI and received a boost from new government policy supporting quantum computing.",
+      "theme": "New Contracts",
+      "reasoning": "FuelCell Energy announced a significant 380 MW agreement with Fit Energy for clean power to data centers, accompanied by warrant issuance.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
+      "conviction": 75,
       "grade": "A+",
-      "finviz_theme": "AI Security",
-      "analysis_detail": "Catalyst: IBM announced a **strategic partnership** with OpenAI to integrate frontier AI into enterprise cyber defense solutions. Concurrently, President Trump signed **two orders** boosting the quantum computing space, directly mentioning IBM among key beneficiaries. | Impact: The OpenAI partnership is expected to **significantly enhance** IBM's cybersecurity offerings and market penetration, potentially driving **multi-billion dollar revenue streams** in AI security over time. The government's quantum computing push **de-risks** IBM's long-term R&D investments and signals **future public sector opportunities**.",
-      "analysis_details": "• **Impact**\nIBM's **new partnership** with OpenAI is a significant development, aiming to integrate **frontier AI** into enterprise cyber defense. This collaboration is set to enhance IBM's security offerings, potentially attracting a **broader client base** looking for advanced AI-driven protection. Coupled with President Trump signing **two orders** to boost the quantum computing space, explicitly mentioning IBM, this dual news flow reinforces IBM's strategic position in **next-generation technologies**.\n\n• **Strategic Value**\nThe OpenAI partnership provides IBM with a **Tier-1 AI collaborator** to innovate in the critical cyber defense market, a move that could be **structurally transformative** for its enterprise software segment. The government's backing for quantum computing **validates** IBM's substantial long-term investments in the field, promising **future growth avenues** and market leadership in a nascent but high-potential sector. This positions IBM strongly in both immediate and future technological frontiers.",
+      "finviz_theme": "AI Energy",
+      "analysis_detail": "Catalyst: FuelCell Energy **secured** a **strategic agreement** with Fit Energy for up to **380 MW** of clean power specifically for **data centers**, a high-growth sector. The deal also includes warrants for **12 million shares** at **$26.44**, signifying a deep partnership. | Impact: This **substantially de-risks** FCEL's long-term revenue growth trajectory and positions it as a key player in the rapidly expanding **AI data center power market**, potentially adding **billions** in future revenue.",
+      "analysis_details": "• **Impact**\nFuelCell Energy has **secured** a **transformative 380 MW agreement** with Fit Energy to provide clean power solutions for data centers. This massive contract positions FCEL as a critical provider in the burgeoning **AI data center market**, demonstrating a clear demand for their fuel cell technology beyond traditional applications. The sheer scale of **380 MW** represents a **significant expansion** of their order book and revenue potential.\n\n• **Strategic Value**\nThe partnership with Fit Energy, including the grant of warrants for **12 million shares at $26.44**, underscores a deep strategic alignment and commitment from both parties. This not only provides a potential capital infusion but also ties Fit Energy's success to FCEL's, indicating a long-term collaborative effort. This agreement provides **strong validation** for FCEL's proprietary fuel cell technology in a high-growth, high-value segment.",
       "peer_tickers": [
-        "MSFT",
-        "PANW"
+        "PLUG",
+        "BE"
       ],
       "headlines": [
         {
-          "title": "Why Is IBM Stock Soaring Tuesday? - Benzinga",
+          "title": "FuelCell Energy Stock Jumps After Securing 380 MW Agreement With Fit Energy For Data Centers - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQnlmdy1qTExpd3REQTFrSzNuaG9wOUt3T0NLVzlJMzhENnp4azJvZFQ2ekVpNXNBTEVGQm1hVHVNQXVYOE1XZUZJVTZfc01ndXpPNC0yMFl0OGZ0eGZzRU9XX1hiWjBad1hUVDYtZndzOTVUZFFhVlpMUGIzUWtNa3poM3hmeTg5cWhyM0poSTRNbUdIaW96LQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOekh6djduQVhxZlpkaW0zX205Wk02UWxVaHgtWDg5dzgwRWNtM0w0eTVJMUxla3Y2RkhPRi1JOE1sS21hczZISExSZUZsOE9XbmJQY3pMcjU1ZEtDZ3oyWkRyaTFzdGM2VzZZdGphdnlXX09mT2FLc0tPMENWNUw1VkoyY19Ka0ZORldPS0NBNlpuTHFBRkdZa0g2WlNsbm9OT3RDeGlsRUZmWnp1SklhOUhsWi1TUlhfX3o1NmswbVpYTW11aGNvR2Y3SXcxbTBpMkdHNFdvR05UQmxFRTZTSUowUE9tQWtq?oc=5"
         },
         {
-          "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus - Yahoo Finance",
+          "title": "FuelCell Energy Grants Fit Warrants for 12M Shares at $26.44, Adds Resale Registration - TradingView",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXJhV3VuenhDREphNWI1Zy1JLTgwa1lkR3FEWUlnNDdMRG9VNzFBOGNXMjBOeDljLVlvMVBfT0pDbEpoc2VOcGV5cUNVcE41YWxiM2x6TDB2bzNqM1BlaVZlLXhGdlFpVFpTTmZfb1NjZWpEb2xBbjlnQXVPR1NJRWgtMFhVekNHaU5lU2JQUkVEbU85WU91bUNZVnNDTEk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR1hCNmJYelY4djZuUVRIMzdhY0tJZ2I5bllMSVdmRGIyRllqY3E1LXRLUXNwNWxCQUs1TFZhSThWRG1sT2tYQmlTTHBHbGlCTTNaaHY1TUkxRS0wNW9jUVBDaVlzaE1uLUlBTWVqYm14Rmx4V1hwMVZyLWExX2E0YkR0MmFtYkhFcTJ1WExkUmJSLWNOejJ4a2NyeDJqOGxJbnY0bVVHQ1lKTVFRUzc2X0s5YkNvSW4xUXd6LXR3aF9TamVCSEg2cDJCb2VxVWpyWUg1eTRDbFRqYVlwek9Z?oc=5"
         },
         {
-          "title": "IBM and OpenAI partner to bring frontier AI to enterprise cyber defense",
-          "source": "Finviz",
-          "url": "https://www.digitimes.com/news/a20260623VL203/openai-ibm-ai-infrastructure-cybersecurity-micron.html"
+          "title": "FuelCell Energy (NASDAQ: FCEL) inks 380 MW AI power pact with warrants - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ1gzQTJvTnU3dkVFOW9aaldHX1hmOUllZjJBUzkzYWFwSk5HbTk1dk1UeTZnYjlEWWhuTmlNblAyVDVtOTJJdXR1UlhqOG1mdTZFeGtkVEc5QWxXekJKaU1VZU1faVlLbjdUeGFoOXdwWDNfQzFXM19WTFRxenBKXzBvWndjSGVYcDlZSVVYSWpkTVZKc21ZSk9YMzBBZEJZbTJ2M2FSdU5PVXNt?oc=5"
         },
         {
-          "title": "What Dell Stock's AI Order Book Revealed Before The Surge",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/de54b965-1cf5-3206-8cdb-eef05c18901e/what-dell-stock%27s-ai-order.html"
+          "title": "FuelCell Energy and Fit Energy Announce Strategic Agreement for up to 380 MW of Clean Power for Data Centers - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON2VWdlBmUTRGUzdhSUtXcFVhdmFtTDVjYzRNdEh2Q1BXS0tKcUVkeEc5QjFRVFFuV1ZQR0VDRVB5dms2NmNFZk4zc3dCMDhISE5aR0RxRmJ1SG42TV9weWRuMlk1eGFiUmFuOVFZR0xEXzFTV2c1OWlKM1ljd1A4Z2phY3VodkU4akc3Q0ZEd2pPYkJWUU9XUFNQaE5tQWtDMTNyQVo3X1h4bGtlcUlTazB1NGZJU3FwNEJMQ1o5OA?oc=5"
         },
         {
-          "title": "A Tale Of Two Accentures",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/4fcb8df1-118a-313e-b71e-c47e4d99fd8d/a-tale-of-two-accentures.html"
+          "title": "$FCEL stock is down 13% today. Here's what we see in our data. - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWnlrMmRjT1ZXTFFBaEF1cElPZk9CYlBlQzBpbUdYS2ZRVThYX3pQdnZNRVkzR3ZUNVRtV0Fjd2dnTEhhRW12MW9HaGdULTljbndIUFVPUkk0bHZZa2tuVTR2N083dGlRLW9Yblc5aGJzTUhnVHZ6VkxiZUVmYzR5Y3JPMGxsRHd2X3RWdVQ3THIxSjlaczEyZTVoaHFGem45ZTBZ?oc=5"
         }
       ],
-      "float_shares": "938.60M",
-      "short_float": "3.26%",
-      "daily_pct": 1.25,
-      "industry": "AI Security",
+      "float_shares": "67.39M",
+      "short_float": "8.01%",
+      "daily_pct": -10.54,
+      "industry": "AI Energy",
       "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Trump signed two orders boosting quantum computing.",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "QBTS",
-      "price": 24.47,
-      "gap_pct": 4.17,
-      "pm_volume": 971855,
-      "avg_vol_10d": 30343220,
-      "avg_dollar_vol": 742498593,
-      "mkt_cap": 9064793043,
-      "rvol": 0.96,
-      "adr_pct": 10.08,
-      "category": "Government Policy",
-      "theme": "Government Policy - Quantum Computing Support",
-      "reasoning": "Shares are reacting positively to news of President Trump signing two executive orders boosting the quantum computing space, impacting QBTS and other sector players.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 56,
-      "grade": "A",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: On June 22, President Trump signed two executive orders aimed at boosting the U.S. quantum computing sector, creating tailwinds for companies like D-Wave. The news suggests a strategic government focus on advancing quantum technology. | Impact: This policy action **de-risks** the quantum computing space by signaling government support and potential future funding or initiatives, which could accelerate D-Wave's technology adoption and market expansion.",
-      "analysis_details": "• **The Policy**\nOn **June 22, 2026**, President Trump signed **two executive orders** designed to bolster the U.S. quantum computing industry. This policy move signifies a strategic federal commitment to advancing quantum technologies, creating a more favorable operating and funding environment for companies in this emerging sector. The initiative aims to secure the nation's leadership in this critical technological frontier.\n\n• **Direct Impact**\nFor D-Wave Quantum, this government backing **de-risks** the long-term investment thesis by providing a strong framework for growth and potential **increased R&D funding** or **new contracts**. While specific financial impacts are not yet quantified, the policy shift provides significant tailwinds, enhancing the sector's credibility and potentially accelerating the adoption of quantum solutions across various industries. This macro support reinforces D-Wave's **unique positioning** in the quantum computing landscape.",
-      "peer_tickers": [
-        "IONQ",
-        "RGTI",
-        "QUBT"
-      ],
-      "headlines": [
-        {
-          "title": "D-Wave Quantum’s “Unique Positioning” Keeps Top Analyst Bullish on QBTS Stock - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmUwMVg0aTdtNGRvNmxnMU02TWFFUWdkam1WRHN3VFl2S3Zyd09IM24wTTBxMDB3Rk0yU2JhNEM0Ti1xR3lCU2dkN1JRTkhZM0tFNlAyLU04dVBjajlGT3VIbzdERGU0eWhvSGRoVi1yeG83Z2d1aXNIcnFFZXRFLWdQdlY3bUdCS3lES1dOeFBGaGItNWtaOFdBOFo4ZFo3THg2RTFOcw?oc=5"
-        },
-        {
-          "title": "QBTS, RGTI, IONQ On Fire: What’s Happening With These Quantum Stocks? - Trefis",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOVFMSlBINXVmcFNGdWlqT3pSYVJ0Q1RBUjFpLU5YTjJSVlRGR2hNa1Y1VXZOQUlaNE9uVmRwLU4tWGttN0ktQmxUcUVzcUhwQUZzRXJTUlhmSU9FcjJTS0hYendCaW9JUjRQSFhHSVZIUkJIUGphZHRIeUNwMl9yN18tTVVoU19naUt6UWppemhUckp5ZGI0TGV5ejZFX0N1TmhtZmVoZmR5WkJEaEdiR3E0S25icHZrMHloVDlEUU1LZE0?oc=5"
-        },
-        {
-          "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSFlZZEMzVzZad1BIZjVWeEk2b2E4ejJwbWV3VjQ4YTBlVTRjdjBvX3lMV2k2ZktUaVBlYXhiQkE4Vkd2Ynl6ZV9RVlZrdWhIeWs3RUhGS0V1OFloQ0YzN0s3YTlqSEk2cGVSc2d2T3hWaFhteFhKUzliako0NEM2RmJib0FVSlpsUFBkUS04enJoWnc?oc=5"
-        },
-        {
-          "title": "D-Wave Quantum Stock Investors Just Got Massive News",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/d-wave-quantum-stock-investors-125634541.html"
-        },
-        {
-          "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNllSY1VfWGxKRDE2ZFBCaFY4dWtCa3MxaGhvbGg3djVqSkxwMUZ2T3N1UTVlUWVqczZnS1RVX3hOcURZWDNzT3ZVM2V1VFdrMGN2NElHMjNnZk1KTmwwMnphdXNoNnNhMC0tZGNROXpHLW40RGR3RG41R1lqdDFVRUZhOTZJektSSGc2aGs3bDgzYkNUUldDZGkzTExjRjd2T0FkcVp2d1dkNWVnbW9YMWNPUzNKX25NMnliYndNaFQwVkstcFBIV1hRNXRUWmdqYjYtME9OYW96Vk0yWm5PdXYwdkFoQ09rRTk1RDZQMU1iTmtJdnlXRXhQQ0tmS041bldKbQ?oc=5"
-        }
-      ],
-      "float_shares": "357.01M",
-      "short_float": "15.31%",
-      "daily_pct": -0.89,
-      "industry": "AI Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "President Trump signing two executive orders",
-        "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SAP",
-      "price": 149.51,
-      "gap_pct": 3.3,
-      "pm_volume": 62045,
-      "avg_vol_10d": 2710366,
-      "avg_dollar_vol": 405226821,
-      "mkt_cap": 176413171732,
-      "rvol": 1.07,
-      "adr_pct": 2.78,
-      "category": "Others",
-      "theme": "Regulatory & Security Concerns",
-      "reasoning": "SAP's stock declined significantly due to escalating antitrust probes and critical security vulnerabilities, impacting investor confidence.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 57,
-      "grade": "C",
-      "finviz_theme": "Cloud SaaS",
-      "analysis_detail": "Catalyst: SAP is facing significant headwinds, including multiple antitrust investigations and critical security vulnerabilities in its core platforms. | Impact: These issues have eroded investor confidence, leading to a substantial stock decline to a 52-week low and testing investor patience amidst an earnings blackout.",
-      "analysis_details": "• **What Happened**\nSAP shares **plunged** to a **52-week low** following revelations of escalating **antitrust probes** and critical **security flaws** within its enterprise software offerings. This adverse news has created a \"perfect storm\" for the company, significantly impacting investor sentiment. While there was a modest bounce, it's occurring amidst a crisis and an earnings blackout.\n\n• **Key Consideration**\nThe combination of regulatory scrutiny and security vulnerabilities poses a **dual threat** to SAP's operational stability and reputation. This situation severely challenges the company's growth narrative and could lead to **prolonged pressure** on its share price, making it an **avoid** from a momentum perspective until clarity emerges on these significant issues.",
-      "peer_tickers": [
-        "MSFT",
-        "ORCL",
-        "CRM"
-      ],
-      "headlines": [
-        {
-          "title": "SAP Shares Stage Modest Bounce as Security Crisis and Earnings Blackout Test Investor Patience - AD HOC NEWS",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUlVLXZFMGs4bWpLMnRNYVpObEg4NHROeEhRRTF2blotSHNhTWJXZ21XZ2RXeDFLSjNRLUJGWkRlOGU0ZWRPMjctU0ttZWo0dGw1V294U3VFekpsS3RDQXhJVHJuR1pjNXpkaUZQRmE5QjhSaUlWZUFNU1prYmxENzB5NW9HT0sxb3J6LVprQmhXQzFIY1l3SU5Cb2NnNk9kbVF5SlJWQXpBVEFodU8wUDNQNlpCdEVwdkwxSFhQTndmZ3B3T25hVW5R?oc=5"
-        },
-        {
-          "title": "SAP’s Perfect Storm: Antitrust Probes and Critical Security Flaws Send Shares to 52-Week Low - AD HOC NEWS",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWZZamdITm40YzdLYXRVN3NEdzdjVlNyd2VvVFRhRW83VUFBMlNtT2t2aS1KSDViR0NkSDNQdFdkeVQzcEhFUzZVVUt4NWl5WEYwLW9VVDVlQWJmQ3NSQkhQcXZ3TDZHSXlGakhYeDgwQlRXRUtsYkxTU09hcmZPa3RSLVFmY1FtQUJCSXFGYlc3MlRfRDBZeWtUVU9wZHBzbW02OWxoVmJLa2lNSGg3YkUwVGJVSHZwZUJvc3d5RzNkN0NpZnFV?oc=5"
-        },
-        {
-          "title": "SAP SE (SAP) Shares Fall 3.7% -- What GF Score of 77 Tells Inves - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObFBTOGlQQ20zcE9WY0RSZ3kxbWpRX01KV2Y5VTFTR3JsQ0ZlYVNsdndNN2lzRmRiQzJqMzdNRHhTWFhndHA1cXdIdXRUcG4tWFdsakR5alk0Zm1fZHFQdFlPT0Q1ci04X09KU1BnYjlvSHdJS2JXenE5enNwYTFNXzZFMFMxd3UwUFhlZXJwWm1SaGU3aERIX2RTVm5YaVh1TWc?oc=5"
-        },
-        {
-          "title": "INFRONEER Holdings (TSE:5076) Stock Looks Cheap On P E After Accenture SAP Deal - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVnVwSC1INTdMbEEzUlFwZF9LX1gzRHp2UTRaUHNoMlJxM2JDVWJTVTJ5MlpTV01SLXlhcFZpaFdXOE5ZQzN4RGJUeDNLX1YteEgwZ2RLRWI2YS01TXAtWHFIUlhsVjBPYXlrQ2Jhd2hwSDFHYUVtYXZ3bjhONEtwV0JyMXBqeVJvNnduRWdLQlBFSHZEZC1weHQxMUF6R2JmeTJNMWhfMTNDNjE0UzhNNmFrd3pQT3FaX0UzbmlKNDNPSHIySWZ6VlVRQTlmOVJHUFRjaEVtNmJJNEVSS2dJ0gHkAUFVX3lxTFBxWGJtRVE2WFdCYUxxTFk5NmZIam90Rllqam1pTGtNWVpYNU1mTm5YZGRzLUwySF9kenVkZUJPSjNCQWFFc0NmTUFmOEFPSDhZV1p6eTU0ZmVJMm1NbmRsaXhEOXJpV2NZVFFmbUJfXzdMaEFuVkxxUGZIbkN4WUtpOUxWSVNCZUdmVGttV3JtX1hMMUtkdkQzUmJWcVVTQnVnYjh0Y0tXNDRyZExYSFZLMVZvSy1YaEZ0VGhJcGxUMGJJWXBSVm54b3QzS2hrdWJ1UVF1Mm4yU0M4SDFSNi1TamRodw?oc=5"
-        },
-        {
-          "title": "SAP SE Stock (SAP) Moved Down by 3.02% on Jun 22: Key Drivers Unveiled - TradingKey",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTGo1NlpucFZhLUd6cjlvZDVUQ0pscEpmem80N3FySFZzOW9iNFV4LVIzZVJEQVBoU2FfUWxWQXBnQkgwZjRQVDRMb1NvZDNWcUxuOVdjN04tWnFDaTM5TFBGZnR4NVpMbHp2bkRCMV95TjBiZHVDTlZJM1JwN0RlNWpiR2ZmLVVjY2c?oc=5"
-        }
-      ],
-      "float_shares": "1.17B",
-      "short_float": "0.96%",
-      "daily_pct": -3.68,
-      "industry": "Cloud SaaS",
-      "technical_status": "Fail (ADR 2.8% < 4%)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 100,
+        "confidence_score": 80,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "SAP's stock declined by a specific percentage.",
-        "discrepancy_note": "Source B[1] states SAP shares fell 3.7%, while Source B[3] states SAP stock moved down by 3.02%."
+        "primary_claim": "380 MW agreement",
+        "discrepancy_note": "Source A (Finviz) contains no information about a 380 MW agreement. Source B (Google News) contains multiple articles ([1], [3], [5]) confirming a 380 MW agreement with Fit Energy."
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
         "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "KEEL",
+      "price": 6.6,
+      "gap_pct": 6.21,
+      "pm_volume": 691033,
+      "avg_vol_10d": 67935522,
+      "avg_dollar_vol": 448374445,
+      "mkt_cap": 3985268790,
+      "rvol": 0.9,
+      "adr_pct": 10.38,
+      "category": "Thematic Narratives",
+      "theme": "AI Infrastructure / Hyperscaler Buzz",
+      "reasoning": "KEEL stock is driven by sustained thematic momentum around AI infrastructure and hyperscaler growth, supported by analyst sentiment regarding its valuation and prior government contract wins.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 56,
+      "grade": "B",
+      "finviz_theme": "Cloud Data Centers",
+      "analysis_detail": "Catalyst: No single fresh catalyst. The company is experiencing increased attention and analyst validation for its role in AI infrastructure, driven by prior government contract wins and 'hyperscaler buzz.' | Impact: Sustains upward momentum as the market re-evaluates valuation based on long-term growth prospects in critical infrastructure supporting AI expansion.",
+      "analysis_details": "• **The Narrative**\nKeel Infrastructure (KEEL) is seeing continued upward momentum, hitting **52-week highs** as analysts assess its valuation amid growing optimism for its role in **AI infrastructure**. The current sentiment is buoyed by **prior government contract wins** and what is described as \"hyperscaler buzz,\" positioning KEEL as a key player in supporting the foundational build-out for AI.\n\n• **Explosiveness**\nThe stock's significant appreciation, up **over 8x in a year**, indicates strong investor conviction in the underlying narrative. While no new specific contract was announced in the last 24 hours, the re-emphasis by analysts that KEEL is \"not too expensive yet\" provides a fresh impetus, suggesting potential for further upside as the **AI infrastructure build-out accelerates**. This sustained interest amidst thematic tailwinds makes it an exploitable setup.",
+      "peer_tickers": [
+        "VRT",
+        "DLR"
+      ],
+      "headlines": [
+        {
+          "title": "Keel Infrastructure (KEEL) Stock Forecast and Price Target 2026 - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SUVFxTTBuV2tuQVBGMHhoVlpEeXBIWDZkdEh4Y29Ob1VpeDE3LVU0X0M2d0g1a1dQM21YRkVmbS1UM1kxMU1oaDJpZ2d4OU1SZnVKRGVwZEtqekJVZUlrcDZwT3p5Zw?oc=5"
+        },
+        {
+          "title": "This Stock That's Up Over 8X In A Year Is Not Too Expensive Yet, According To One Analyst - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNFJsQ05NaGJIWHpCOHhWcTl6TVhPcXUyOW9hN2JDckNMcUpJNHVGZ3FmUUFQc3VsWXo0UTMyNzRHYVJmTGNhcm9qMm1VMWxsMGFaelRKT3NhNW9JUUNleTRDQnh4Mlc0UjdHakVxY0dJVzFibGpUOHV2MGxJb08tYnp2RWJqbS1fZkU2YU1rR29IZw?oc=5"
+        },
+        {
+          "title": "Is Keel Infrastructure (KEEL) Undervalued As Government Contract Wins Lift AI Hopes? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPV1Fyd1VrRzZVUmVWa3RWVzFTYVFCeFRxbTl3NXdTTGZxZkplMlNMeFY2Y05ZQ0U0OHRveXhxeFlGQk1xSjJqVjV1ZFc0SmY4ajNKNVhMTG5pZ1FJYkRxN1BaTUkwX0JvZzRaVzhQZ3d3YVZPUlM0ZmRwX0M2NXVJeFFIaEdDU1A1a1NYX3lHVGdIWlNVeHFPbC1xNHBFNVliSmtYUTJlR3oyUWlLa200WVBuTktUWG1wSS1XRkgyOWtneXJqU2Q0ZUJiVUZkSThfOE5DdtIB2gFBVV95cUxNUUFwcThrR3lVZ1JrcUs2b28wTXhNa2VvRmwwcXpUZ0czd3I5RFcxN1M2dEYzQWxfQWc1S2FwZnR1TnJuMlNyQXZ5NEpuTFhSZnByN3Jubk1YLVVNeGZaMG1UTDVWMWMxdVFNTEdfaF9Hc3YtczFGTDc1MUktTEo5VHZCcXlvanNEa2EwQ1puNS1EQjRmVnR0dHVzZnZqYjdFOTFGLWVVMHFnTXp3eUpxazF2blFSR2xLeDVLbzltOEZyOXlFQV9ZNVdmc0NjVnBRRFVyZGpoc0NPQQ?oc=5"
+        },
+        {
+          "title": "Why Did INTC, KEEL, APGE Stocks Hit 52-Week Highs Today? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMXRLOEI2RmwzcjZJY2xHYk9sdG5feVJxajVzaTRTZHZ6UWZxTjl6VjB4bG9LemJhSDR3UGRtbGNXWTJSRi1HNTlQQV90akVRUU5qc2tISzlBZjNQcmlCMlJ0cTFyRXgzbTB5VzRYN3ZyV2tkR2xyU0haTXh1TjJwa3pzamZ5QjBtNm9oUS1PdlZCREQ4d2NqbEdkQXgxdE1EazhBZkRUdEFOdEUxUkJRSnBDam85bU1h?oc=5"
+        },
+        {
+          "title": "Bitfarms Glow-Up – KEEL Stock Tops $6, Nears 4-Year High On Hyperscaler Buzz - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNjVCQ3hXamNjcEVnVE1vWGlFaUl2el9zV3EzT3RhY1F6cmpqNUFGYmRRSUxNbmFid3dBLUptS0djLVVIQ05vQnhKX3l6MkFNZk8ydldJYXJ1RG5QbVQ2eWk5dTNwQl9udy1MT2tMdDVETXYyZk1MZGItZVNYaURKWXVPS1BsSWQ2OHB5TGd3dDVubWpRd2EweDNNWHRtd2VLQXAxTXJRR3BVWnVuVnNLREM0WUd0T0V4T2VDVWtQTkthU1V5MnlXTlFndVpfMzRyWno3Nw?oc=5"
+        }
+      ],
+      "float_shares": "601.03M",
+      "short_float": "12.19%",
+      "daily_pct": -0.9,
+      "industry": "Cloud Data Centers",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "prior government contract wins",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": false
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "MU",
+      "price": 1051.77,
+      "gap_pct": 4.4,
+      "pm_volume": 830849,
+      "avg_vol_10d": 54421979,
+      "avg_dollar_vol": 57239404853,
+      "mkt_cap": 1186116820450,
+      "rvol": 0.99,
+      "adr_pct": 6.98,
+      "category": "Upgrade",
+      "theme": "New Buy Recommendation",
+      "reasoning": "Micron received a new Buy recommendation from The Globe and Mail, signaling renewed analyst confidence following a recent tech sell-off.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 31,
+      "grade": "A",
+      "finviz_theme": "Semiconductors - Memory",
+      "analysis_detail": "A new 'Buy' recommendation for Micron was issued by The Globe and Mail on June 24, 2026. This positive analyst sentiment comes amidst a broader tech stock rebound and ahead of Micron's anticipated earnings report. The upgrade provides a fresh bullish signal, potentially driving renewed investor interest and acting as a tailwind for the stock's recovery after its recent significant drop.",
+      "analysis_details": "• **The Firm & Rating**\nThe Globe and Mail issued a **new Buy recommendation** for Micron Technology (MU) today, June 24, 2026. This analyst action is a notable positive development, especially coming after a recent period where the stock experienced its **worst drop in over a year** during a broader chip stock sell-off.\n\n• **The Thesis**\nThis upgrade suggests a **bullish outlook** on Micron's business fundamentals, despite recent market cooling. The report implies that while the stock might have been 'cooling off,' its underlying 'business is running hot,' indicating strong operational performance or future prospects that outweigh recent market anxieties. The recommendation provides a fresh narrative that could support Micron's participation in the ongoing tech rebound ahead of its upcoming earnings report.",
+      "peer_tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "headlines": [
+        {
+          "title": "S&P 500 futures rise ahead of Micron earnings; tech stocks rebound after sell-off: Live updates - CNBC",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtYnZuUFdLRFE1bkQwQk5wZVlkdjNrN2pfbEhoUUxZMHd6c0tUNkxyTW9CRFhsbklTTzAxZUhMVEpYTjNhSG04TlJGU2VkWHFmOFExdnphUmJZYjhIVXp1NlN2NklneHg5RDRDbG1rLW5TWGlnM3I40gF8QVVfeXFMT0pScGYwaUVieUgxOHpSUHNYb0xBNmQzclF1ZXVUcjlLR2VRNnJ0WlExblJBajd4N3JabEY5SmR1THlkYnlhN0I0UFBpalE1ME13SkJ2NXNlQmdjc2dkalVyU3c2Q2thTmxEeGlXZHRDV2hsako4aFpTQnhqWg?oc=5"
+        },
+        {
+          "title": "Stock market today: S&P 500, Nasdaq eye rebound from tech rout with Micron in focus - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSUlTS3FxMWw0MWpkbW9ZMHlFTERzN1VqTmRTY1Q3dmY3UElsZzFybEtJdmhBalJ0ZkVKUm9uOVQ2TXRGdzAyWUNnR09lRmwxNXphZWp5V2I0TVpMaFlmMHh2NjdoVGJLZy1maEZ4ckZESnZzaWVvZW9HVmRQV04tQ2pHdVRRWnNjOTBPT2JpNnFzb3dfUWt1d0tXelI2Z0NiUFowYy1nMGE5VGZYMncxbmY5TDBWMlhtWDcxd1ZKVTBUWFpoMGZ4dy1sVnBENHM?oc=5"
+        },
+        {
+          "title": "Micron (MU): New Buy Recommendation for This Technology Giant - The Globe and Mail",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmQ4LU1xcF81em9uVmFyM3pSeXRhY1JQaXJucG1GeUdZRl9tdW1qT0JycHNQbVhiSHdDUVlHUDF0RjFhTGc1cW9neDJ0NDd0RE0wZkJ2UGdRaElMQV9kZWdISTNwUXNneFlXZ0xfeHU0a1dMZ3Y0U3BjcWVwZGZlXzJnWUFIN3VrQVNSVHdqNDVXdFBRZ3RLTTAwcFNnNFpwTkdtME9lNGlQWUswTGdoZ1UxYlp0MTZkUkx5WEU5U0xHS2YtdWpmTE9RRFlqZ2dqNGlva2djSlNxVEE?oc=5"
+        },
+        {
+          "title": "Micron Stock Is Cooling Off, But Its Business Is Running Hot - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjEwNlpUNFdjemR1WFNUdXd5NWFHZ2hMcEJ4WU1QcVFwUXN2S0hTVlFTOF9EcmJUN1ZMTUNPZzY0LWsxa3NfNVNna3BTSWZRY0ZGUkxHdkJ1NnM3V0l2LVZqb2N5aDg2cmdHbHo4RUNBdjZfV1ZKMjZWVjhHNHNpUHJJR3JTTTBxdDBVMnZCWUVNRzdFRmpYRjZBd3ZxV3FHRlB5Mm9NOU9KeFRfNks2SFVEZjZQVWh4Wmc?oc=5"
+        },
+        {
+          "title": "Micron’s Red-Hot Run Hits a Wall as Stock Suffers Worst Drop in More Than a Year - Barron's",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcUFwNC0yVjZCZ3dmcEJWN0NVRGlmSkFySHhwQjh4TEpWXzN2RmZVWFlwWk1vNm1tSjVQWk5WaE1IaUUtNmtiQkVtaVJKWF9TdXhOWDhBbVM5NE1nc2NyaVlxTEVSVGU2eGhQNmlhbGpEdWRjVVJaN1Y4Z1pvRFF2UUFTckdvZEdC?oc=5"
+        }
+      ],
+      "float_shares": "1.12B",
+      "short_float": "3.35%",
+      "daily_pct": -13.18,
+      "industry": "Semiconductors - Memory",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Micron received a new Buy recommendation from The Globe and Mail",
+        "discrepancy_note": "Source B, [2] 'Micron (MU): New Buy Recommendation for This Technology Giant - The Globe and Mail', confirms the specific claim. Source A contains no mention of a 'Buy recommendation' or 'The Globe and Mail' related to MU."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "QNT",
+      "price": 77.46,
+      "gap_pct": 3.86,
+      "pm_volume": 53749,
+      "avg_vol_10d": 3846660,
+      "avg_dollar_vol": 297962284,
+      "mkt_cap": 40429586173,
+      "rvol": 1.54,
+      "adr_pct": 13.07,
+      "category": "Government Policy",
+      "theme": "Government Policy Tailwinds",
+      "reasoning": "Quantinuum stock surged following new government orders supporting quantum computing and news of its collaboration with HPE.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 58,
+      "grade": "A",
+      "finviz_theme": "AI Compute",
+      "analysis_detail": "Catalyst: Trump's recent **quantum computing orders** have provided a significant macro tailwind for the entire quantum sector, explicitly benefiting companies like Quantinuum. Additionally, news of Quantinuum **joining HPE's Quantum Push** offers a concrete company-specific positive development, likely indicating collaboration on quantum solutions. | Impact: This dual catalyst, combining government support and a strategic partnership, provides strong validation and potential funding avenues for Quantinuum, significantly **de-risking** future growth and **amplifying** its market presence.",
+      "analysis_details": "• **The Policy**\nPresident Trump's recent executive orders signal a strong government commitment to advancing quantum computing capabilities. This policy initiative is designed to **accelerate research and development**, secure national interests in the quantum space, and likely direct **significant federal funding** towards key players in the industry, creating a robust tailwind.\n\n• **Direct Impact**\nQuantinuum is a direct beneficiary of this intensified focus, as evidenced by its stock surge and participation in the **HPE Quantum Push**. This partnership likely positions QNT at the forefront of efforts to commercialize quantum solutions, potentially leading to **new contracts, expanded R&D opportunities**, and a **strengthened competitive advantage** within the burgeoning quantum computing market. The combination of policy support and strategic collaboration significantly **enhances QNT's growth trajectory** and market visibility.",
+      "peer_tickers": [
+        "IONQ",
+        "RGTI",
+        "QBTS"
+      ],
+      "headlines": [
+        {
+          "title": "Why Did BOLD, BLZE, QNT Stocks Surge To 52-Week Highs Today - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUjlVdm13ZWdpQ3puR0l2dnpDX1BmM3liOUdLUVdGUTFaN0Z6Y0czcDAxRmJQYmxlNHQwelFMUjY4X3pVQ3RqNFlqS1NRM0ZvTVNKandRNHdRbmstR21BdlM5c3RYd1ZfRzdyNUFSeW1xUE9rRlJ5RE4yMm44d1dicV93VDUzRVpnQ0Fhb1QyWQ?oc=5"
+        },
+        {
+          "title": "Quantinuum Stock Is Rallying: What's Happening Today? - Quantinuum (NASDAQ:QNT) - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3ZQUFBTX3JOUTljREVGN0xjN1V5OFFaUHRHbUNhaWszSkRVYjRMT3hkNHgwTGRYTWRlVEFlN2JFN0c3X1lncXpZeG93YndtVUhFRTN1WE5TS01GdDBSYWt3NzhTaFBBZEFLNmN5RmhMLWMzb3IxaGJaSktsNUotc0tmZWc3cmhGeG5ZWFQ4RG1uV1d5NFFSNUtlbUxuNUs2Z2Fzb0hEalZPNlF1OUhvVw?oc=5"
+        },
+        {
+          "title": "Why Quantinuum Stock Is Surging After Trump’s Quantum Orders - TechStock²",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcGdJZi1OQ2lSX0VlMHdQemJ4Snh2UTRsUjlNT3RHSUZ1VUU4bEllMXNTSHNKQ0tWWWJFTHdocVRWMXZ4aFBVcFh1dmFLTXhvTzB2MzluZ3RpNWo1R1psbEw2WVE2QnpEbVJRVUxSZEhmTHVXdW96dUw5Wjg4cHE5RnVxa1l1bVE?oc=5"
+        },
+        {
+          "title": "QNT Stock Jumps As Quantinuum Joins HPE Quantum Push - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tQmtGWnYtLXA1MHN2WXZMQVU0TjZsbGxYUG4yWUdobHoxMzJzb292czk0Vm54VVdBY3ZTOXRrQWxOV0lEMUp0MjNNOUFZdDNsa2hQTE0yNzNwSlhhRWJ0YU9hekZvNERCTmh4UjRJdWt3T1pTTG5mWQ?oc=5"
+        }
+      ],
+      "float_shares": "-",
+      "short_float": "-",
+      "daily_pct": 13.46,
+      "industry": "AI Compute",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "New government orders supporting quantum computing were a catalyst for Quantinuum's stock surge.",
+        "discrepancy_note": "Source A (Finviz News) provides no information to confirm or deny the existence of new government orders. Source B (Google News), specifically the TechStock² article, confirms 'Trump’s Quantum Orders' as a reason for Quantinuum stock surging."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "UMC",
+      "price": 26.2,
+      "gap_pct": 3.47,
+      "pm_volume": 349799,
+      "avg_vol_10d": 20619153,
+      "avg_dollar_vol": 540221809,
+      "mkt_cap": 67317685244,
+      "rvol": 1.1,
+      "adr_pct": 5.09,
+      "category": "Earnings",
+      "theme": "Beat & Strong Financial Performance",
+      "reasoning": "United Microelectronics reported a significant **surge in profits** and made a **dividend adjustment**, indicating strong financial performance.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 77,
+      "grade": "A",
+      "finviz_theme": "Semiconductors - Foundries",
+      "analysis_detail": "Catalyst: United Microelectronics announced a **surge in profits**, booked a **significant gain** from the Novatek disposal, and **adjusted its dividend** accordingly. | Impact: This indicates strong underlying financial health and robust operational performance, leading to a **positive re-rating** potential for the stock.",
+      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nUnited Microelectronics announced a **significant surge in profits**, suggesting a financial performance that likely **exceeded market consensus**. This was further enhanced by booking a **substantial gain** from the strategic disposal of its Novatek shares, which directly contributed to the robust profit figures reported.\n\n• **The Growth (Momentum)**\nThe impressive growth in profits points to strong operational momentum, potentially driven by solid demand for its foundry services and improved cost efficiencies. This financial strength has enabled the company to **adjust its dividend**, signaling management's **confidence** in its sustained profitability and commitment to delivering shareholder value.\n\n• **The Guide**\nWhile explicit forward guidance was not provided, the reported **surge in profits** and the **dividend adjustment** serve as strong indicators of a **positive outlook** for UMC's near-term financial trajectory. The strategic divestment also suggests a sharpened focus on core foundry operations, potentially streamlining future growth.",
+      "peer_tickers": [
+        "TSM",
+        "GFS"
+      ],
+      "headlines": [
+        {
+          "title": "United Microelectronics Adjusts Dividend and Books Gain on Novatek Disposal as Profits Surge - The Globe and Mail",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNTC1YNmlfSXZCTkdkdXNOTmhTeTdtM29hWUl5X0gwQnpsSnlzOFVFUzRURW5UcW1ibDdOUkFHTk5QcHFKcVZyVWRZZjRnQlBDUFo0TFU3X21sckZjYkZSRG84VnQxT0hiQmExdS14eTM5NlEydzN3WDctcjhlazlLT1JQNS1sdXEwS2ljc0FIaTZRbVBKR1NUQzlFUUFwNkNRY2ZNcXkzOVEyQnRidGxLd1h2RWQ3OUtVdkxIUW56X3hVWXRNN2lNRWJNRlNjcGZHV01kMWdXUkx4UE96Y1lhekJraTJXLWFsUFhrc0dReHAtV0dsTDRuNUMwN3dJMnNPWEE4?oc=5"
+        },
+        {
+          "title": "A Look at United Microelectronics Corp (UMC) After 4.7% Decline -- GF Value $8.71 vs Price $26.20 - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNejJFelJtdUxIckdFRHY4NzNuTUN1T19tOFFzanhtbWZtYXdRbUp3R0dVTmFkQTZBQXZLX0NFTGdFaTBYeU9aTGV6c25lMEl0V2gzd3NDdi1NTlpuMEVrY2tENlJsbmwzU2pXV2Rka00yZmJZcWRya3NPanJLMVFOcjVKaG5hZWVTUGJkamV5bEQzNDhhQ1B4UnRkV1ZqUjNpOTBiQTBPckVDbFNVWUpuNW15clhMMnR4SjhZa2RZcHRLZWs?oc=5"
+        },
+        {
+          "title": "Intel lifts foundry ambitions with UMC talks, shares show strong NASDAQ-100 move - Ad-hoc-news.de",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzhyZ0xpUlJqM3ZZaV9kX0M1MEV4dW9KdmFsSG5JT3ZyMTEzeGpNaXNadnE1XzFXUXh4aVA3YXBhRnBfLWl4cFY4ekJxbTJqUlo3allqMGdDOGpKblhlckkweXVVZVJoZzNvSmtKRmk2cE5PeVhKb3NLdWp5aGpDSXVlTWdSYnNVWG9Pc2VWbnhWSlhvNHh0aVpXdE1yZldtN3R3VzA4OUpVTlBqZGtESWx6RnNxYzZWdnBnWXprMA?oc=5"
+        }
+      ],
+      "float_shares": "2.51B",
+      "short_float": "1.04%",
+      "daily_pct": -4.73,
+      "industry": "Semiconductors - Foundries",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "UMC reported a significant surge in profits",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "BB",
+      "price": 8.82,
+      "gap_pct": 3.4,
+      "pm_volume": 333834,
+      "avg_vol_10d": 29469190,
+      "avg_dollar_vol": 259918256,
+      "mkt_cap": 5169062082,
+      "rvol": 0.75,
+      "adr_pct": 8.44,
+      "category": "Upgrade",
+      "theme": "Analyst Reiteration / PT Hike",
+      "reasoning": "Stifel issued a pre-earnings note on BlackBerry, highlighting **36% upside** and suggesting the market is 'misdefining' the company.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 31,
+      "grade": "B",
+      "finviz_theme": "AI Edge & IoT",
+      "analysis_detail": "Catalyst: Stifel published pre-earnings commentary on BB, suggesting the market is 'misdefining' the stock and projecting **36% upside**. This is an analyst reiteration of a bullish stance. | Impact: Provides a positive narrative and potential momentum ahead of upcoming Q1 earnings, potentially attracting new institutional interest and triggering a short-term rally.",
+      "analysis_details": "• **The Firm & Rating**\nStifel has issued a pre-earnings note on BlackBerry, reinforcing a bullish stance and projecting a significant **36% upside** for the stock. This commentary, ahead of the company's Q1 earnings, suggests a positive re-evaluation of BlackBerry's prospects by the firm.\n\n• **The Thesis**\nStifel's core thesis is that the market is 'misdefining' BlackBerry, implying that its current valuation does not fully reflect its underlying value or future growth potential, likely tied to its QNX embedded software, IVY platform, or cybersecurity solutions. The upcoming Q1 earnings will be crucial for the company to validate this bullish perspective and potentially trigger a re-rating.",
+      "peer_tickers": [
+        "CRWD",
+        "ZS"
+      ],
+      "headlines": [
+        {
+          "title": "Ahead Of BlackBerry's Q1 Earnings, Stifel Says Market Is Still 'Misdefining' BB -- Here's Why It Sees 36% More Upside - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdS1MRGJTQ1B2aXJXV0NTU1ZZSWNYVy1fTlA2VzNmVVJwd1NjN1JmYy1vZ1lVUWg0WWx5MkgtLXcyV2tzdi1KX1dZcjlaaWlRSllPRUMxM0VQeVZIZmxQdGJJRlY2YV83WTcwSGFPMHJBckkwVk1td1lKTDRMNjREN19FcXpUbGl5Z3c2UnF6cmYtemdDYmpkWWltcWtwZzZ0R2MzSGZwSWJDT3NWLVFYUXRyN3ZHVkVwNEE?oc=5"
+        }
+      ],
+      "float_shares": "584.11M",
+      "short_float": "5.56%",
+      "daily_pct": 0.34,
+      "industry": "AI Edge & IoT",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 60,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "36% upside",
+        "discrepancy_note": "Source A (Finviz News) contains no information to confirm the claim. Source B (Google News) confirms '36% More Upside', but since only one source provides detail, it cannot be 'Verified'."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "FLNC",
+      "price": 21.21,
+      "gap_pct": 3.39,
+      "pm_volume": 62689,
+      "avg_vol_10d": 12283223,
+      "avg_dollar_vol": 260527160,
+      "mkt_cap": 3909229198,
+      "rvol": 1.08,
+      "adr_pct": 13.15,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical selling or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Clean Energy - Grid",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. A **significant decline** of **over 11%** on no specific company news suggests **technical selling** or **stop-running**. High risk of further weakness without fundamental backing.",
+      "analysis_details": "• **What Happened**\nFLNC shares **declined** by **over 11%** today, according to multiple news reports. This **sharp sell-off** occurred without any specific company-related fundamental news being released in the last 24 hours. News headlines primarily **reported** on the price action rather than explaining a catalyst for the move.\n\n• **Key Consideration**\nThe **lack of a clear fundamental catalyst** for such a **significant intraday drop** indicates the move is likely driven by **technical factors** such as **stop-loss cascades**, **algorithmic selling**, or **institutional rebalancing**. Given the **high ADR% of 13.2%**, such moves can be **exaggerated** and present **high risk** for momentum traders without underlying fundamental support.",
+      "peer_tickers": [
+        "FSLR",
+        "ENPH",
+        "ARRY"
+      ],
+      "headlines": [
+        {
+          "title": "What Fluence Energy Stock Does In A Panic - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ1JiTll3RExEVnd3UUhscjZiaEFGT0Rna3NmRXNpdlFCWVRvejhielZoQ05PbDZienFud3hkQVFxVHVJai02RTBQdHhJUTRORmZjSEFtWTQ1VUJReU1nVGd1WXZhOFVZLWplSm9hdWs0SWNRZUZpMG9WX1pIVjQ2cUh0V0E4NzlnckxKc1NDUkM4T0pnMzRGN0p0MzNxNlNXcThpNw?oc=5"
+        },
+        {
+          "title": "Is Fluence Energy (FLNC) a Hidden AI Play With Breakout Potential? - Insider Monkey",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS2dLR2lWSExUV0IxZHpGSmRKY1F3TTRSQ1FNNnBfbjdTMFRSaU12MzIwcDdpNEw2VUVBb1pSUW10MlhNUnd6dGJGZDZ3Y0hlMTR0NjZfRURCelFIX2FlZmtDWkxLVXJjOEVHcUMzX2hmWXpqLVRCN05FT0l6a0kxbUkzUWE2c01Halh3dEdkb3FjZjBaTDVxRFhsbDNLZDJ5MDdJeDR4eW1rdUhBVDZJbkVpMNIBswFBVV95cUxPS2dLR2lWSExUV0IxZHpGSmRKY1F3TTRSQ1FNNnBfbjdTMFRSaU12MzIwcDdpNEw2VUVBb1pSUW10MlhNUnd6dGJGZDZ3Y0hlMTR0NjZfRURCelFIX2FlZmtDWkxLVXJjOEVHcUMzX2hmWXpqLVRCN05FT0l6a0kxbUkzUWE2c01Halh3dEdkb3FjZjBaTDVxRFhsbDNLZDJ5MDdJeDR4eW1rdUhBVDZJbkVpMA?oc=5"
+        },
+        {
+          "title": "Fluence Energy (NASDAQ:FLNC) Shares Down 11.3% - Time to Sell? - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYjdKT2wtX0Itb3dBY0hEdkhxa0NwNE9TcWhHcG5HQTNOVUg0c1BXVFhScDdHYjRDLWx2NzExMTBtaWlaeU51aVlGYzYxaE1OMm9RaG8tM2V0UUNDVnFIZS11Zmwzc3pwNkFRazdUZjRzY0JvQkg2U2dzQ1NBQUVRT3lQSWlfSHBxUEd6UkctXzRqSmtuZFdFb3Y0aW0xZFZCYVBMZVg5QWlHMEVk?oc=5"
+        },
+        {
+          "title": "$FLNC stock is down 12% today. Here's what we see in our data. - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR3Jad0JSZ1FWYkU4UFRzREtRR3FWNC1UVldIX2NrbmpYNUxKVEdCOUtpZ0dyZDduZEZRUGY5V3FsN0k2am4wX3g5dkRWeDVteXVZUFFpSlVFQ0lNckxVVmduemVGYVdic3ZqS25yM3FWQjc3d0ppV2Z2VVRMSnJBOHBkYjJXTGFZZWVjTWwtQk11WVNldFl3NDZ2VUwxQkhuNlZ3?oc=5"
+        }
+      ],
+      "float_shares": "100.25M",
+      "short_float": "23.96%",
+      "daily_pct": -15.8,
+      "industry": "Clean Energy - Grid",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "FLNC stock is down X% today",
+        "discrepancy_note": "Source A (Finviz) has no information regarding a percentage change for FLNC. Source B (Google News) headlines provide conflicting figures: '[2] $FLNC stock is down 12% today' and '[3] Fluence Energy (NASDAQ:FLNC) Shares Down 11.3%'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "PURR",
+      "price": 8.14,
+      "gap_pct": 3.33,
+      "pm_volume": 109016,
+      "avg_vol_10d": 16746430,
+      "avg_dollar_vol": 136315940,
+      "mkt_cap": 1599942058,
+      "rvol": 0.93,
+      "adr_pct": 9.31,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found to drive positive momentum; stock slipped on dilution risks and shifting speculative capital.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Fintech - Blockchain/Crypto",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. No positive fundamental news to justify upward momentum. Headlines indicate the stock **slipped** due to concerns over **dilution risks** and **shifting speculative capital**, suggesting technical weakness and potential outflows rather than new inflows.",
+      "analysis_details": "• **What Happened**\nThe stock **PURR slipped** yesterday, despite headlines noting strong liquidity. This decline was attributed to growing concerns over **dilution risks** and a noticeable **shift in speculative capital** away from the ticker. The report on institutional ownership provided informational context but did not trigger the price action.\n\n• **Key Consideration**\nWithout a clear fundamental catalyst, the **negative price action** highlights sensitivity to technical factors and market sentiment. The mention of **dilution risk** is a significant overhang, potentially capping upside and increasing volatility. Investors should be wary of chasing without concrete positive developments.",
+      "peer_tickers": [
+        "COIN",
+        "MSTR",
+        "MARA"
+      ],
+      "headlines": [
+        {
+          "title": "Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiMDdvX19fNURtaHhVbGwxTHpxNjNpU2VoZ0pLVUg3T1lYeF9BWDFEVThnZHZ6SnNnMTFDUUI0QUNoM1BHZnBmWWpGaWNpN3ZkYTVaQ0xJRWU1cnNmN1hfZVhELWhmcFVJWmRmNVNxR0pNU1hZaVJURVpB?oc=5"
+        },
+        {
+          "title": "PURR Stock Slips As Liquidity Stays Strong And Traders Watch Dilution Risks - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWjQtajlORGstQXY0SlFuTTlIemRwOHF2RXdxeHRNOG1EWU5YSkJwYVFjU2xrVlJnam01NUtNTTliVTg0RkxsSWg3dGFkbG9Lc0xUcnJJQzRtT19wMF9lWWxoWjhveDlDTXNJQmFLMkM5WUFWZ096MW11SXAxSkUzR1FmOWR4Zw?oc=5"
+        },
+        {
+          "title": "PURR Stock Slips As Liquidity Stays Strong And Speculative Capital Shifts - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOFgzWmxodVBwSHNsTm1uZlI4VjNrUWx5cFJmNkMtZXhuYTlzTmZrc1lybm9zRkU2aHVucEV6bFNfMmM1SDhPWmRVamJnRGMzcTdCdzFsZ2k0Ti1Od0tIbE1DWTdSV3p4VHJ3dXdxRTVCZzUta0xveHU0bmtMZWNfSERxNU5IUGtScVE?oc=5"
+        }
+      ],
+      "float_shares": "122.43M",
+      "short_float": "6.51%",
+      "daily_pct": -11.52,
+      "industry": "Fintech - Blockchain/Crypto",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "stock slipped on dilution risks and shifting speculative capital",
+        "discrepancy_note": "Source A (Finviz News) provides no information regarding PURR or the claimed reasons for the stock's movement. Source B (Google News) confirms 'dilution risks' in one article ([2]) and 'shifting speculative capital' in another article ([3]), but the claim is not confirmed by both primary sources."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
       },
       "meets_all_gates": false,
       "tier": "Fail",
       "tier_label": "Excluded"
+    },
+    {
+      "ticker": "BE",
+      "price": 321.98,
+      "gap_pct": 3.04,
+      "pm_volume": 70942,
+      "avg_vol_10d": 11945841,
+      "avg_dollar_vol": 3846321885,
+      "mkt_cap": 91585243019,
+      "rvol": 1.01,
+      "adr_pct": 8.02,
+      "category": "New Contract/Partnership",
+      "theme": "Oracle Partnership for AI Campus Power",
+      "reasoning": "Bloom Energy secured a significant partnership with Oracle to power its massive new AI campus with fuel cell technology.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 77,
+      "grade": "A+",
+      "finviz_theme": "AI Energy",
+      "analysis_detail": "Catalyst: Oracle, a **Tier-1 technology leader**, is embracing Bloom Energy's fuel cell technology to power its **massive new AI campus**. This represents a **strategic new contract** for Bloom, integrating its **clean energy solutions** into the high-growth **AI infrastructure sector**. | Impact: This partnership is a significant **validation** of Bloom's technology for large-scale, critical AI compute infrastructure, potentially adding **substantial future revenue** and de-risking its long-term growth trajectory in the data center market.",
+      "analysis_details": "• **Impact**\nBloom Energy has secured a **landmark partnership** with Oracle, a **leading enterprise technology firm**, to provide fuel cell power for its **massive new AI campus**. This deal highlights the growing demand for **reliable and sustainable energy solutions** in the rapidly expanding artificial intelligence sector, a critical new market for Bloom. This collaboration validates Bloom's technology for **large-scale, mission-critical infrastructure**, positioning it as a key player in the **AI energy transition**.\n\n• **Strategic Value**\nThis partnership offers **significant strategic value** beyond immediate revenue. Aligning with a company of Oracle's stature lends **credibility and market visibility** to Bloom's fuel cell offerings, potentially paving the way for **additional contracts** with other tech giants building out AI infrastructure. The integration into an \"AI campus\" specifically targets a segment with **exponential power demand growth**, suggesting a **long-term, high-value revenue stream** and a **strong competitive moat** in distributed generation for data centers.",
+      "peer_tickers": [
+        "PLUG",
+        "FCEL"
+      ],
+      "headlines": [
+        {
+          "title": "Super El Nino and AI power demand boost fuel cells",
+          "source": "Finviz",
+          "url": "https://www.digitimes.com/news/a20260623PD222/demand-fuel-2026-data-center-data.html"
+        },
+        {
+          "title": "Why Bloom Energy Stock Tumbled Today - The Globe and Mail",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU0EtY0tSay1tREthU1lpdGxRQy1lcEYxZWNSMDdDX3Bsc0FQT0NfMUd1akEta2tQVkx1cTk0cC0yNzNUVEU2ZGVPVmprNi1VWFBoQ0I3Rllial9rbEZnZ0dNYU5aQnFZRF9lbkZNeTVNazhqU2dEVGVHSVNlcHo4d25IVy0wc0hSMUxuZlBZRWkzMDhkWW12MzBMbzBxQlUzNFpzNUVYY3gtOFJZVjg5cW5oZkZMRDNPUWVB?oc=5"
+        },
+        {
+          "title": "BE Stock Jumps Overnight: Oracle’s Massive AI Campus Embraces Bloom’s Fuel Cell Power - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcm9BV09yMW1MaHZXaWVGSUF0VkY2SkczVWR0OU9iYndoV0h5dTZkWk1CYzRIOUdLZmtEY25zU0otRzZRbkM0dGFTMzZ5OWlWNGVvak5UeDJpdTItV3JUNGNlT2hOTVpxSHVhMVViR2UxS2c5SUlOX1hZM0U5V2Nwd3F3VnhCUUt2SVFaVVFLd1dXbFZ4b0F4ZlptRUJKY1FIbnFwZGFMSU5EeE9IM0ZhT1o1VERrQWdlRDdOZ0RTb05rVzhXSENSNU1McEFUZ2R2MjQyWGJrdGNTOVlCOU5r?oc=5"
+        },
+        {
+          "title": "Bloom Energy (NYSE:BE) Shares Gap Down - Here's What Happened - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdE1UVXVJVkNxY0ZSbWZxWExDNDJKYnFRM3owWjRRenpfLXZSNWlGRGRncndacFU4RXJqN3I1ZUdSa1ROdUFEcVFCLUVocTlzMEd3U0VZV01VaEJ5dlR5MzZRSGtCcVJjZ2VVMl83M1JDLXdtdGhTaXJ4MURTOGNidDJxRDF5R3NWZDJWdzBaWG5NSHRzbmhQYWxsWkVGbU9kWkNPWFpJd0JIbGdINEE?oc=5"
+        },
+        {
+          "title": "7-Day Rally Sends Bloom Energy Stock Up 48% - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTmFIZDdZVU5KUDlBem9BV1RJT0dybnhXSVNWWl9xczVFMWtiYmFFcnFTZzlJeHpKZVZreDVEb0VpRElCYzJBOVB4WS1mOG1CVU5BclowdTJ6dkk2NkMxaFBkOUJleDVSaXNkc1FLUGpGY21wcG9ESHMxY085LUJIbDY1Y0JrOHFuS0lNMTdfbXpERklCSHhqNE04R2RBZkh2WHJLNl9NUllvaENOd2M3Sw?oc=5"
+        }
+      ],
+      "float_shares": "266.31M",
+      "short_float": "10.72%",
+      "daily_pct": -6.9,
+      "industry": "AI Energy",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Bloom Energy secured a significant partnership with Oracle to power its massive new AI campus with fuel cell technology.",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "HIVE",
+      "price": 4.63,
+      "gap_pct": 3.02,
+      "pm_volume": 372822,
+      "avg_vol_10d": 31635069,
+      "avg_dollar_vol": 146470369,
+      "mkt_cap": 1238204670,
+      "rvol": 1.12,
+      "adr_pct": 10.6,
+      "category": "Thematic Narratives",
+      "theme": "AI Compute Technology Breakthrough",
+      "reasoning": "HIVE announced its Paraguay GPUs matched NVIDIA H100 performance in AI research, significantly boosting its AI compute capabilities and market perception.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "A",
+      "finviz_theme": "AI Compute",
+      "analysis_detail": "Catalyst: HIVE Digital Technologies reported that its GPUs in Paraguay demonstrated performance comparable to NVIDIA's H100s for AI research, according to CCN.com. This news immediately prompted a positive reaction in the stock price. | Impact: This potentially **redefines** HIVE's position in the high-growth AI compute market, suggesting it can offer premium AI processing capabilities using its existing or potentially more cost-effective infrastructure, enhancing its value proposition for AI clients and **de-risking** future AI infrastructure investments.",
+      "analysis_details": "• **The Narrative**\nHIVE Digital Technologies is carving out a **stronger narrative** in the competitive AI compute space. The claim that its Paraguay GPUs can **match** NVIDIA's top-tier H100 performance in AI research is a **game-changer**, positioning HIVE as a more capable and potentially more cost-efficient provider of high-demand AI processing power. This directly addresses the critical need for advanced compute resources in the booming AI industry.\n\n• **Explosiveness**\nThis technological advancement has **significant explosive potential** for HIVE. Achieving H100-equivalent performance implies HIVE can now compete for higher-value AI workloads, which could **substantially increase** its revenue per GPU and attract a broader range of AI research and development clients. The market's positive reaction underscores the importance of this **strategic capability**.",
+      "peer_tickers": [
+        "SMCI",
+        "NVDA",
+        "DELL"
+      ],
+      "headlines": [
+        {
+          "title": "HIVE’s Paraguay GPUs Match H100 Performance in AI Research, Boosting Share Price - CCN.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ0VPbFhGckE1OUE0SmVJRnFQZUVHN1p5VUVvd0U0aDZBVlk0TURGcWhpLWRmZGVIZ2tvdkZYLV95Q3BjclJPR3A3STlzT3IwTExJaTEyX3gzZGI0VXpuSGhmMDJPcHNhWmViNkRsT2YzaWEzR251X0RMdF82ajlmaTVHWEhud0E2bHJ5ZzhGRUotUXNUS1E?oc=5"
+        },
+        {
+          "title": "Dave Perrill Sells 175,000 Shares of HIVE Digital Technologies (NASDAQ:HIVE) Stock - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3JYTU9kY1lrSXF5c2JKd2lhSnNoYndmeU1MR0NKUkRIU0NyS1IyTmhxUGZhYVExM19KemFWTndsb0VTaklheVBaX2EtOU1fY1J4X09PWXcyV2V3VThJZG5MLVN2X0xRdk0xOVUxWnlySjFIUTJYY3FQNmdsdVg4dXQ2Mm5lRlJ1dFVobF9fV3JKcjdJWjM5dDA3VDBmVFRCbGxqNkUxZkEwSnBJa1c0UldpZEZjdUcwX2V5TndubUI0MWdyWm1zRHJtQUM?oc=5"
+        },
+        {
+          "title": "Hive digital director Dave Perrill sells $820,750 of Hive shares By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1pMS3lUaXpYaTJsd08yVFdlQWNINnROTVY3NEl1T1ZIS2Z5UHpFSGk4aTU1TXVfbFB2RV9zTnpSZDdiRlJqdzFuZXJNeGhUYWtYQnNKTlFzQV9pbUNuQUIybWJpVG1oRzhVbS15Q2NGUXBNbVBncll1MGRpX3hWU2dtS1VOZ0JDc2pMQkgta3VmS0lRU01acXJtOTNGdzBJdm5DTzhtRkJhLVZ4MFphTEhfYXg1MERFNEVpeDZVUEc?oc=5"
+        },
+        {
+          "title": "Hive Digital Technologies Director Sold Shares Worth Over $820K - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPenNFaVU0T0pGRWNTNWpxWjF2cjg0X184V3JHaUlGNksxeTktcm1iSDhGb1JWZUN4RDMxX0tGbElDSGhkUkpfbjJ1ODB3dGU0am55RDhBYmdZaTNLYnEwaEkyM1NmQ2s2YUd5UElQMHZvNGFjZkEwUFVUV2cwZFlQWG9EblRrOGdBM1M5akRVUlF3OXJYUmN1VHdwenVjZzJ1NjRRQ2RKNkFjTHNRZUhuRGE5X0E2Mkp3V0cwZ2tBNFlWUQ?oc=5"
+        },
+        {
+          "title": "HIVE Stock Holds Gains As Traders Eye Key Levels - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcEtTeEZWazBza3pMMUExc1JLdXExemN1eWh5YUhIcnlWZGowalktM0RXNXlUenU0NTl2aGNPM2lzdDA4elpwbl9FRTVXRy1lWXpyWmN3VEVEOVZhQkR2WlNndTFISDF4R0RRNnhCbHcwc1l5dzdYSkV2LUlEQ1RMN1JGY1NRNUJEUlRuRkpn?oc=5"
+        }
+      ],
+      "float_shares": "264.43M",
+      "short_float": "14.65%",
+      "daily_pct": -5.51,
+      "industry": "AI Compute",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 75,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "HIVE announced its Paraguay GPUs matched NVIDIA H100 performance in AI research",
+        "discrepancy_note": "Source A (Finviz) contains no information to confirm or deny the claim. Source B (specifically CCN.com in item [4]) directly states 'HIVE’s Paraguay GPUs Match H100 Performance in AI Research', but this is not corroborated by a second source."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
     }
   ],
   "ibkr_scanner": []
