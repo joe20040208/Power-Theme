@@ -2,76 +2,88 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 5,
+  "count": 6,
   "stocks": [
     {
       "ticker": "GBTG",
       "company": "Global Business Travel Group, Inc.",
       "industry": "Other Consumer Services",
       "price": 9.38,
-      "change_pct": -0.11,
-      "adr_pct": 0.9,
-      "dollar_volume": "$32.7M",
+      "change_pct": 0.0,
+      "adr_pct": 0.8,
+      "dollar_volume": "$31.5M",
       "market_cap_b": 4.891,
-      "rs_ibd": 85,
-      "atr_ext_val": 14.11
+      "rs_ibd": 84,
+      "atr_ext_val": 13.75
     },
     {
       "ticker": "QURE",
       "company": "uniQure N.V.",
       "industry": "Biotechnology",
-      "price": 49.04,
-      "change_pct": 10.48,
-      "adr_pct": 7.4,
-      "dollar_volume": "$181.3M",
-      "market_cap_b": 3.066,
+      "price": 48.85,
+      "change_pct": -0.39,
+      "adr_pct": 7.3,
+      "dollar_volume": "$198.0M",
+      "market_cap_b": 3.055,
       "rs_ibd": 97,
-      "atr_ext_val": 12.64
+      "atr_ext_val": 12.01
     },
     {
-      "ticker": "HQ",
-      "company": "Horizon Quantum Holdings Ltd.",
-      "industry": "Packaged Software",
-      "price": 33.39,
-      "change_pct": -13.02,
-      "adr_pct": 12.9,
-      "dollar_volume": "$79.6M",
-      "market_cap_b": 1.063,
-      "rs_ibd": 94,
-      "atr_ext_val": 11.72
-    },
-    {
-      "ticker": "RAMP",
-      "company": "LiveRamp Holdings, Inc.",
-      "industry": "Packaged Software",
-      "price": 37.6,
-      "change_pct": -0.03,
-      "adr_pct": 1.1,
-      "dollar_volume": "$47.9M",
-      "market_cap_b": 2.259,
-      "rs_ibd": 62,
-      "atr_ext_val": 11.48
+      "ticker": "DFTX",
+      "company": "Definium Therapeutics, Inc.",
+      "industry": "Pharmaceuticals: Major",
+      "price": 42.13,
+      "change_pct": 16.45,
+      "adr_pct": 6.8,
+      "dollar_volume": "$217.7M",
+      "market_cap_b": 4.595,
+      "rs_ibd": 96,
+      "atr_ext_val": 11.52
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 132.88,
-      "change_pct": 0.25,
-      "adr_pct": 5.2,
-      "dollar_volume": "$1.08B",
-      "market_cap_b": 10.018,
+      "price": 132.69,
+      "change_pct": -0.14,
+      "adr_pct": 4.9,
+      "dollar_volume": "$1.17B",
+      "market_cap_b": 9.976,
       "rs_ibd": 93,
-      "atr_ext_val": 10.22
+      "atr_ext_val": 10.57
+    },
+    {
+      "ticker": "RAMP",
+      "company": "LiveRamp Holdings, Inc.",
+      "industry": "Packaged Software",
+      "price": 37.45,
+      "change_pct": -0.4,
+      "adr_pct": 1.1,
+      "dollar_volume": "$57.6M",
+      "market_cap_b": 2.25,
+      "rs_ibd": 63,
+      "atr_ext_val": 10.42
+    },
+    {
+      "ticker": "UMC",
+      "company": "United Microelectronics Corporation (NEW)",
+      "industry": "Semiconductors",
+      "price": 28.02,
+      "change_pct": 6.95,
+      "adr_pct": 5.7,
+      "dollar_volume": "$578.7M",
+      "market_cap_b": 67.318,
+      "rs_ibd": 96,
+      "atr_ext_val": 10.38
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -1.44,
-    "spx_1m": -1.45,
-    "spx_3m": 12.34,
-    "spx_34d": 1.46,
-    "spx_qtd": 12.02,
-    "spx_mtd": -3.09
+    "spx_1d": -0.1,
+    "spx_1m": -2.14,
+    "spx_3m": 11.63,
+    "spx_34d": -0.09,
+    "spx_qtd": 11.91,
+    "spx_mtd": -3.18
   },
-  "fetched_at_utc": "2026-06-23T22:18:22+00:00"
+  "fetched_at_utc": "2026-06-24T21:53:45+00:00"
 }

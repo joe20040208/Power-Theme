@@ -1,6 +1,52 @@
 {
-  "generated_at": "2026-06-23T22:16:56.957729+00:00",
+  "generated_at": "2026-06-24T21:51:40.355346+00:00",
   "data_source": "fallback",
-  "power_themes": [],
+  "power_themes": [
+    {
+      "name": "Semiconductors",
+      "theme_rs": 96.0,
+      "perf_1d": -0.71,
+      "leaders": [
+        {
+          "ticker": "MU",
+          "price": 1048.51,
+          "rs_52w": 98,
+          "adr_pct": 8.28,
+          "vol_surge": 1.24,
+          "mkt_cap": 1182440440827,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        },
+        {
+          "ticker": "CRDO",
+          "price": 268.99,
+          "rs_52w": 94,
+          "adr_pct": 9.48,
+          "vol_surge": 0.84,
+          "mkt_cap": 50160687961,
+          "gates_passed": 5,
+          "gates_detail": {
+            "rs_52w > 85": true,
+            "price > 12": true,
+            "avg_dollar_vol_30d > 100M": true,
+            "mkt_cap > 2B": true,
+            "adr_pct >= 4.0": true
+          },
+          "primary_theme": "Semiconductors",
+          "secondary_themes": [],
+          "setup_label": "Flag"
+        }
+      ]
+    }
+  ],
   "account_equity": null
 }
