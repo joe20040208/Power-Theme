@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 24, 2026 (18:35 EST)",
+  "last_checked": "June 24, 2026 (18:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-24T18:40:33.029409-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Micron stock jumps 12% as soaring prices from memory crunch lead to quadrupling of revenue",
       "source": "CNBC",
@@ -1367,6 +1375,10 @@
     {
       "k": "trump meets defense ceos as iran operations strain us missile stockpiles",
       "ts": "2026-06-24T21:56:05.223288+00:00"
+    },
+    {
+      "k": "micron stock jumps 15 as soaring prices from memory crunch lead to quadrupling of revenue",
+      "ts": "2026-06-24T22:40:33.890323+00:00"
     }
   ]
 }
