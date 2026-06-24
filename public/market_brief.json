@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 24, 2026 (18:30 EDT)",
+  "generated_at": "June 24, 2026 (18:43 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed Sentiment, Tech Under Pressure",
+  "mood": "Mixed Tape / Asia Weakness / Tech Resilience",
   "analysis": {
-    "action_line": "VIX 18.63 Normal + S5FI 60.5% breadth + Nikkei down 3.55% → trade RS leaders selectively near support levels.",
-    "analysis_para1": "Significant weakness in Asian markets, notably the Nikkei's sharp 3.55% decline, was echoed by European losses in the DAX, although the FTSE managed a positive close. In the US, the falling 10-year yield to 4.40% could reflect either nascent growth concerns or a flight to quality. Despite these external pressures, US equity breadth, as indicated by S5FI at 60.5% and MMTH at 65.8%, remains resilient, suggesting underlying strength is still present in many sectors. This divergence highlights a bifurcated market where global weakness clashes with domestic technical resilience.",
-    "analysis_para2": "Given the mixed global signals and internal resilience, the mechanical plan involves identifying and positioning in established areas of outperformance. The S&P 500 holding above 7300 would be a bullish sign, while the Nasdaq 100 needs to defend 29000 to maintain its upward momentum. A continued fall in the 10Y yield could support growth stocks if interpreted as disinflationary, but watch for signs of broader market breadth breakdown if S5FI drops below 60%. Traders should selectively add to RS leaders on constructive pullbacks towards their 10-day or 21-day EMAs.",
-    "technical_signal": "No reversal pattern confirmed yet. Major indices saw minor pullbacks today, but breadth metrics (S5FI 60.5%) remain above critical levels, preventing a bearish reversal signal.",
+    "action_line": "VIX 18.63 Normal + S5FI 60.5% breadth + Nikkei -3.55% weakness → seek selective entries in leading tech themes.",
+    "analysis_para1": "The global tape presented a mixed picture today, with the Nikkei 225 suffering a sharp -3.55% decline and the DAX falling -0.98%, signaling significant weakness across Asian and European markets. In contrast, the FTSE 100 showed relative strength, closing up +0.31%. Domestically, the BAML HY Spread remains an unknown, obscuring the credit regime, yet US market breadth persists as healthy with 60.5% of stocks above their 50-day MA (S5FI) and 65.8% above their 200-day MA (MMTH). This suggests a bifurcated market where US underlying health holds despite international headwinds and slight S&P 500 (-0.10%) and Nasdaq 100 (-0.43%) declines.",
+    "analysis_para2": "Given the VIX remains normal at 18.63 and US breadth is moderate, the mechanical plan is to maintain exposure to high Relative Strength themes, particularly in Semiconductors and Hardware. Key support levels to monitor for the S&P 500 are 7300, with a decisive break below potentially signaling increased distribution. Traders should watch for consolidation in leading names, specifically on pullbacks to the 10-day or 21-day EMAs, as new entries or additions should be made only on confirmed strength or bounces from these moving averages. The falling 10Y Yield at 4.40% could continue to favor growth sectors, reinforcing the focus on high-momentum tech. Avoid chasing extended moves, instead prioritizing entries in names demonstrating excellent institutional sponsorship on low volume pullbacks.",
+    "technical_signal": "No reversal pattern confirmed yet. While US indices saw minor declines, VIX remains normal and breadth signals underlying health, preventing a broad capitulation.",
     "ticker_intel": [
       {
         "ticker": "UMC",
         "company": "United Microelectronics Corporation",
         "grade": "A+",
-        "reason": "UMC (NEW) demonstrates extreme relative strength (RS=98) with explosive momentum, posting +53.7% in one month and +209.5% over three months, making it a top growth play in the current tech-focused market."
+        "reason": "As a semiconductor leader, UMC boasts exceptional RS 98 and a staggering +53.7% 1M return, making it a top conviction long in the thriving tech sector amidst mixed global signals."
       },
       {
         "ticker": "SNDK",
         "company": "Sandisk Corporation",
         "grade": "A",
-        "reason": "Sandisk maintains industry-leading relative strength (RS=99) alongside robust 1-month (+29.5%) and 3-month (+172.5%) gains, indicating powerful demand within the Hardware theme, suitable for selective longs."
+        "reason": "With an industry-leading RS 99 and robust +29.5% 1M performance, Sandisk stands out as a strong hardware conviction long, benefiting from resilient tech leadership despite global market weakness."
       },
       {
-        "ticker": "VSH",
-        "company": "Vishay Intertechnology, Inc.",
+        "ticker": "SIMO",
+        "company": "Silicon Motion Technology Corporation",
         "grade": "C",
-        "reason": "Despite strong 3-month performance (+204.4%), VSH's comparatively lower 1-month gain (+17.6%) and high ADR (10.1%) suggest it may be experiencing greater volatility or slowing relative momentum compared to its semiconductor peers, warranting caution."
+        "reason": "Despite a strong RS 98, Silicon Motion's relatively modest +16.5% 1M return compared to peers makes it a less compelling option for new entries, as the market currently favors even more aggressive leaders within semiconductors."
       }
     ]
   }
