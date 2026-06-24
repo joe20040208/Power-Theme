@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-24 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Broad Weakness, Unwinding Risk",
+    "spy_price": 733.24,
+    "spy_change_pct": -0.05,
+    "vix": 18.63,
+    "hy_oas": 2.71,
+    "yield_curve": 0.34,
+    "credit_status": "Complacent",
+    "s5fi": 60.5,
+    "mmth": 65.8,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "reason": "Micron received a new analyst buy recommendation today, signaling strong conviction in its memory and storage solutions amidst increasing demand."
+        },
+        {
+          "ticker": "BE",
+          "company": "Bloom Energy Corporation",
+          "reason": "Bloom Energy announced a strategic partnership with Oracle to power AI campuses, positioning it strongly within the growing AI infrastructure market."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Microsoft showed minimal price movement today, with momentum largely driven by broader market sentiment and no fresh fundamental catalysts."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-24 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "NVIDIA continues to see strong speculative interest driven by persistent AI theme momentum, despite no fresh news, as investors search for continued upside in high-growth tech."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-12 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Sector Rotation / Cautious Tech",
-    "spy_price": 738.18,
-    "spy_change_pct": -0.15,
-    "vix": 17.99,
-    "hy_oas": 2.79,
-    "yield_curve": 0.47,
-    "credit_status": "Complacent",
-    "s5fi": 56.3,
-    "mmth": 61.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "QUBT",
-          "company": "QuantumBits Technologies",
-          "reason": "QuantumBits Technologies (QUBT) showcased robust financial health with a significant revenue beat and optimistic forward guidance, signaling strong operational momentum."
-        },
-        {
-          "ticker": "VG",
-          "company": "VeloGen Systems",
-          "reason": "VeloGen Systems (VG) impressed with a strong earnings beat, an upward revision to guidance, and significant new contract wins that solidify its growth trajectory."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft Corp. (MSFT) saw consolidating price action today, largely influenced by broader tech sector weakness and lacking any fresh company-specific fundamental catalysts."
         }
       ]
     }
