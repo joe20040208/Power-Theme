@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 24, 2026 (16:20 EST)",
+  "last_checked": "June 24, 2026 (16:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Micron stock jumps 10% as soaring prices from memory crunch lead to quadrupling of revenue",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-24T16:25:30.042129-04:00",
+      "pub_time": "2026-06-24T16:23:08-04:00"
+    },
     {
       "headline": "[CNBC] Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
       "source": "CNBC",
@@ -1303,6 +1311,10 @@
     {
       "k": "micron stock jumps 9 as soaring prices from memory crunch lead to quadrupling of revenue",
       "ts": "2026-06-24T20:10:27.296377+00:00"
+    },
+    {
+      "k": "micron stock jumps 10 as soaring prices from memory crunch lead to quadrupling of revenue",
+      "ts": "2026-06-24T20:25:30.472886+00:00"
     }
   ]
 }
