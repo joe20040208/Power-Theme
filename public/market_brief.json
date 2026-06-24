@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 23, 2026 (18:42 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 24, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,41 +16,41 @@
     },
     {
       "label": "VIX",
-      "price": 19.49,
-      "change": 2.21,
+      "price": 18.93,
+      "change": -0.56,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.49,
-      "change": 0.04,
+      "price": 4.45,
+      "change": -0.01,
       "change_pct": null,
-      "trend_label": "Rising"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 72353.96,
-      "change_pct": 1.55
+      "price": 69174.97,
+      "change_pct": -0.88
     },
     "dax": {
       "label": "DAX",
-      "price": 25139.69,
-      "change_pct": 0.62
+      "price": 24664.31,
+      "change_pct": -0.92
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10428.85,
-      "change_pct": -0.09
+      "price": 10444.4,
+      "change_pct": 0.15
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 58.3,
+    "s5fi": 58.5,
     "mmth": 65.5,
     "breadth_flush": false,
     "generational": false,
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-Off / Tech Sell-off",
+  "mood": "Risk-Off / Growth Selling Intensifies",
   "analysis": {
-    "action_line": "VIX 19.49 Normal + S5FI 58.3% breadth + mixed global tape (Nikkei strong) → selective long setups, prioritize high RS names.",
-    "analysis_para1": "While Asian and European markets showed a mixed performance today with the Nikkei 225 gaining 1.55% and the DAX up 0.62%, the US session saw significant weakness, particularly in technology stocks. Rising 10Y yields at 4.49% continue to pressure growth sectors, despite the BAML HY Spread signaling an unknown credit regime. US market breadth, though declining from previous highs, still shows 58.3% of stocks above their 50-day moving average and 65.5% above their 200-day, indicating underlying resilience outside of the immediate tech rout.",
-    "analysis_para2": "Given the sharp declines, particularly in the Nasdaq 100 (-3.29%) which closed at 29347.27, the immediate focus is on whether key support levels will hold or if distribution accelerates. For the S&P 500, watching the 7300-7350 range will be crucial for a potential bounce or consolidation after its -1.44% drop to 7365.46. A close below these levels could signal further downside pressure, while a strong intraday reversal or retest of prior support could offer low-risk entries. Monitor relative strength leaders closely for potential pivots as the broader market finds its footing.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's sharp sell-off in major US indices, particularly Nasdaq, ended near session lows without a clear intraday buying capitulation signal.",
+    "action_line": "With VIX at 18.93 (Normal), S5FI at 58.5% and Nikkei -0.88% weakness, exercise caution and prioritize defensive trades.",
+    "analysis_para1": "The global tape presents a mixed-to-weak picture this morning, with the Nikkei 225 and DAX both down around -0.9%, while the FTSE 100 shows slight resilience with a +0.15% gain. The absence of BAML HY Spread data prevents a clear assessment of credit market conditions, leaving a potential blind spot for broader risk appetite. US market breadth, as indicated by S5FI at 58.5% and MMTH at 65.5%, suggests that while a majority of stocks remain above key moving averages, today's significant S&P 500 (-1.44%) and Nasdaq 100 (-3.29%) declines likely reflect concentrated selling in specific sectors. This divergence highlights underlying fragility despite seemingly healthy intermediate-term breadth metrics.",
+    "analysis_para2": "Given the sharp pre-market sell-off, traders should watch for potential support retests on both major indices; for the S&P 500, a break below 7300 could signal further downside. Confirmation of a sustainable rebound requires volume expansion on any bounce, otherwise, it is likely a dead cat bounce or short covering. Aggressive long positions should be avoided until clear demand emerges, particularly as the Nasdaq 100 shows significant weakness. Protect capital by tightening stop-losses on existing positions and considering defensive sectors or an increased cash allocation.",
+    "technical_signal": "No reversal pattern confirmed yet. Significant downside pressure suggests current selling momentum remains dominant.",
     "ticker_intel": [
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A+",
-        "reason": "Demonstrating exceptional leadership within the robust Hardware theme, DELL's 1-month return of +69.2% and RS of 98 positions it as a top contender, thriving even amidst broader market weakness."
+        "reason": "With RS 98 and a staggering 1-month return of +69.2%, DELL demonstrates exceptional relative strength in the Hardware theme, indicating strong institutional demand even amidst broader market declines."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
         "grade": "A",
-        "reason": "A standout in the Semiconductors theme, VSH boasts a robust +39.8% 1-month return and RS of 98, indicating strong persistent momentum in a leading sector."
+        "reason": "VSH's RS 98 and robust 1-month return of +39.8% in Semiconductors signify its powerful leadership and continued momentum in a critical growth sector during periods of market stress."
       },
       {
         "ticker": "WULF",
         "company": "TeraWulf Inc.",
         "grade": "C",
-        "reason": "While WULF shows a +25.6% 1-month return, its 3-month performance of +77.8% is relatively weaker among high-RS peers, making it vulnerable in a risk-off environment."
+        "reason": "Despite an RS of 97 and a +25.6% 1-month gain, WULF's comparatively lower 3-month return of +77.8% signals lesser conviction than peers, making it a higher risk Neocloud play in a risk-off environment."
       }
     ]
   }
