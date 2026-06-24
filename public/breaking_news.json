@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 24, 2026 (16:40 EST)",
+  "last_checked": "June 24, 2026 (16:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-24T16:45:31.381242-04:00",
+      "pub_time": "2026-06-24T16:44:53-04:00"
+    },
     {
       "headline": "Micron stock jumps 10% as soaring prices from memory crunch lead to quadrupling of revenue",
       "source": "CNBC",
@@ -1327,6 +1335,10 @@
     {
       "k": "qualcomm stock pops 9 after chipmaker almost doubles projection for 2029 nonhandset revenue",
       "ts": "2026-06-24T20:40:29.985209+00:00"
+    },
+    {
+      "k": "qualcomm stock pops 15 after chipmaker almost doubles projection for 2029 nonhandset revenue",
+      "ts": "2026-06-24T20:45:31.766675+00:00"
     }
   ]
 }
