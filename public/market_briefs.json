@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-24 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Global Risk-Off / De-risking",
+    "spy_price": 733.58,
+    "spy_change_pct": -1.45,
+    "vix": 18.82,
+    "hy_oas": 2.65,
+    "yield_curve": 0.34,
+    "credit_status": "Complacent",
+    "s5fi": 58.5,
+    "mmth": 65.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Microsoft is gaining attention after unveiling a new suite of generative AI tools for cloud-based enterprise solutions, signaling aggressive market expansion."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVIDIA shares are active following reports of a significant new order from a major hyperscale data center operator for its next-generation AI GPUs."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "INTC",
+          "company": "Intel Corporation",
+          "reason": "Intel continues to be a C-Grade candidate as it faces ongoing challenges in regaining market share against rivals, with no fresh catalyst today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-23 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corp.",
           "reason": "Microsoft Corp. (MSFT) saw consolidating price action today, largely influenced by broader tech sector weakness and lacking any fresh company-specific fundamental catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-12 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Divergent Flows, Caution Amidst Oil Spike",
-    "spy_price": 739.3,
-    "spy_change_pct": 0.23,
-    "vix": 18.77,
-    "hy_oas": 2.81,
-    "yield_curve": 0.47,
-    "credit_status": "Complacent",
-    "s5fi": 56.1,
-    "mmth": 62.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly & Co",
-          "reason": "Eli Lilly & Co is an A-grade candidate following an announcement of positive Phase 3 trial results for its new obesity drug, exceeding efficacy expectations and positioning it for significant market share."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp",
-          "reason": "Microsoft earns an A-grade on news of a strategic partnership with a major AI computing firm, poised to accelerate its cloud AI offerings and expand enterprise adoption significantly."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp",
-          "reason": "NVIDIA is a C-grade candidate as it continues to see strong investor interest driven by ongoing AI narrative momentum and technical breakouts, rather than any fresh company-specific news today."
         }
       ]
     }
