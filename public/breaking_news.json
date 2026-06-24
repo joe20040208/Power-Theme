@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 23, 2026 (20:00 EST)",
+  "last_checked": "June 23, 2026 (20:05 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -9,21 +9,9 @@
       "direction": "bearish",
       "timestamp": "2026-06-23T13:05:33.726223-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "Sens. Warren, Kelly press Trump administration on effects of tariffs on manufacturing",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-23T08:05:24.486137-04:00",
-      "pub_time": "2026-06-23T08:00:01-04:00"
     }
   ],
   "seen_keys": [
-    {
-      "k": "japan exports in may grow at fastest pace in more than three years beating estimates",
-      "ts": "2026-06-17T00:00:37.739749+00:00"
-    },
     {
       "k": "indias solution to entrance exam fraud a temporary ban on telegram",
       "ts": "2026-06-17T00:20:26.296964+00:00"
