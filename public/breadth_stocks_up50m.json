@@ -124,7 +124,7 @@
       "market_cap_b": 9.976,
       "price": 132.69,
       "change_pct": -0.14,
-      "dollar_volume": "$1.17B",
+      "dollar_volume": "$1.18B",
       "adr_pct": 4.9,
       "perf_1m": 60.97,
       "perf_3m": 72.01,
@@ -172,7 +172,7 @@
       "market_cap_b": 1.7,
       "price": 6.82,
       "change_pct": -6.19,
-      "dollar_volume": "$206.3M",
+      "dollar_volume": "$206.4M",
       "adr_pct": 14.4,
       "perf_1m": 57.51,
       "perf_3m": 443.43,
@@ -204,7 +204,7 @@
       "market_cap_b": 67.318,
       "price": 28.02,
       "change_pct": 6.95,
-      "dollar_volume": "$578.7M",
+      "dollar_volume": "$578.9M",
       "adr_pct": 5.7,
       "perf_1m": 54.98,
       "perf_3m": 206.9,
@@ -270,6 +270,6 @@
     "spx_qtd": 11.91,
     "spx_mtd": -3.18
   },
-  "fetched_at_utc": "2026-06-24T21:53:57+00:00",
+  "fetched_at_utc": "2026-06-24T22:24:13+00:00",
   "source": "tv_fallback"
 }
