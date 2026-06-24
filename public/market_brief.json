@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 24, 2026 (11:34 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 24, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7418.81,
-      "change": 53.35,
-      "change_pct": 0.72
+      "price": 7358.22,
+      "change": -7.24,
+      "change_pct": -0.1
     },
     {
       "label": "Nasdaq 100",
-      "price": 29457.9,
-      "change": 110.63,
-      "change_pct": 0.38
+      "price": 29220.06,
+      "change": -127.21,
+      "change_pct": -0.43
     },
     {
       "label": "VIX",
-      "price": 18.21,
-      "change": -1.28,
+      "price": 18.63,
+      "change": -0.86,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.41,
-      "change": -0.04,
+      "price": 4.4,
+      "change": -0.05,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -37,21 +37,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24678.54,
-      "change_pct": -0.86
+      "price": 24893.58,
+      "change_pct": -0.98
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10442.26,
-      "change_pct": 0.13
+      "price": 10461.63,
+      "change_pct": 0.31
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 63.4,
-    "mmth": 66.3,
+    "s5fi": 60.5,
+    "mmth": 65.8,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Resilience Amid Global Weakness",
+  "mood": "Mixed Sentiment, Tech Under Pressure",
   "analysis": {
-    "action_line": "VIX 18.21 Normal + S5FI 63.4% breadth + mixed global tape with Nikkei weakness → focus on US relative strength leaders near support.",
-    "analysis_para1": "Global markets present a mixed picture today, with significant weakness in the Nikkei 225 at -3.55% and the DAX down -0.86%, contrasting with a slight gain in the FTSE 100 (+0.13%). Domestically, while the BAML HY Spread regime is unknown, the falling 10Y Yield to 4.41% provides some support for growth narratives. US market breadth remains robust, with 63.4% of stocks above their 50-day moving average (S5FI) and 66.3% above their 200-day (MMTH), indicating underlying resilience and participation despite global divergence.",
-    "analysis_para2": "The S&P 500 is currently testing new highs, emphasizing the importance of holding the 7400 level as immediate support. For the Nasdaq 100, maintaining above the 29400 mark is crucial to confirm continued momentum in growth sectors. With VIX at a normal 18.21 and healthy breadth metrics, the strategy remains to identify and participate in strong relative strength leaders. Look for consolidations in these names on decreasing volume, followed by volume-supported breakouts, using the 21-day EMA as a dynamic support for entries and risk management.",
-    "technical_signal": "No reversal pattern confirmed yet. The indices are showing strength with positive daily gains and healthy internal breadth, suggesting continued momentum for leading stocks.",
+    "action_line": "VIX 18.63 Normal + S5FI 60.5% breadth + Nikkei down 3.55% → trade RS leaders selectively near support levels.",
+    "analysis_para1": "Significant weakness in Asian markets, notably the Nikkei's sharp 3.55% decline, was echoed by European losses in the DAX, although the FTSE managed a positive close. In the US, the falling 10-year yield to 4.40% could reflect either nascent growth concerns or a flight to quality. Despite these external pressures, US equity breadth, as indicated by S5FI at 60.5% and MMTH at 65.8%, remains resilient, suggesting underlying strength is still present in many sectors. This divergence highlights a bifurcated market where global weakness clashes with domestic technical resilience.",
+    "analysis_para2": "Given the mixed global signals and internal resilience, the mechanical plan involves identifying and positioning in established areas of outperformance. The S&P 500 holding above 7300 would be a bullish sign, while the Nasdaq 100 needs to defend 29000 to maintain its upward momentum. A continued fall in the 10Y yield could support growth stocks if interpreted as disinflationary, but watch for signs of broader market breadth breakdown if S5FI drops below 60%. Traders should selectively add to RS leaders on constructive pullbacks towards their 10-day or 21-day EMAs.",
+    "technical_signal": "No reversal pattern confirmed yet. Major indices saw minor pullbacks today, but breadth metrics (S5FI 60.5%) remain above critical levels, preventing a bearish reversal signal.",
     "ticker_intel": [
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "UMC",
+        "company": "United Microelectronics Corporation",
         "grade": "A+",
-        "reason": "Exceptional relative strength (RS=98) with a phenomenal 1-month return of +69.2% and robust 3-month gain of +159.9% in the leading Hardware theme."
+        "reason": "UMC (NEW) demonstrates extreme relative strength (RS=98) with explosive momentum, posting +53.7% in one month and +209.5% over three months, making it a top growth play in the current tech-focused market."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk Corporation",
+        "grade": "A",
+        "reason": "Sandisk maintains industry-leading relative strength (RS=99) alongside robust 1-month (+29.5%) and 3-month (+172.5%) gains, indicating powerful demand within the Hardware theme, suitable for selective longs."
       },
       {
         "ticker": "VSH",
         "company": "Vishay Intertechnology, Inc.",
-        "grade": "A",
-        "reason": "Demonstrates impressive relative strength (RS=98) fueled by a 1-month return of +39.8% and an outstanding 3-month surge of +237.7% within the strong Semiconductors theme."
-      },
-      {
-        "ticker": "INTC",
-        "company": "Intel Corporation",
         "grade": "C",
-        "reason": "While having strong long-term gains (3M=+200.6%), its current 1-month performance (+11.6%) lags significantly behind other high-RS peers in the Semiconductors theme."
+        "reason": "Despite strong 3-month performance (+204.4%), VSH's comparatively lower 1-month gain (+17.6%) and high ADR (10.1%) suggest it may be experiencing greater volatility or slowing relative momentum compared to its semiconductor peers, warranting caution."
       }
     ]
   }
