@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 25, 2026 (10:05 EST)",
+  "last_checked": "June 25, 2026 (10:10 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -1383,6 +1383,14 @@
     {
       "k": "apple sinks nearly 5 after price hikes on macbook and ipad due to memory crunch",
       "ts": "2026-06-25T14:05:41.432650+00:00"
+    },
+    {
+      "k": "apple stock drops 5 on macbook and ipad price hikes due to memory crunch",
+      "ts": "2026-06-25T14:10:36.361198+00:00"
+    },
+    {
+      "k": "micron stock jumps 9 after blockbuster earnings",
+      "ts": "2026-06-25T14:10:36.361198+00:00"
     }
   ]
 }
