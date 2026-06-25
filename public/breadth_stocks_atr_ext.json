@@ -2,88 +2,76 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 6,
+  "count": 5,
   "stocks": [
     {
       "ticker": "GBTG",
       "company": "Global Business Travel Group, Inc.",
       "industry": "Other Consumer Services",
-      "price": 9.38,
-      "change_pct": 0.0,
+      "price": 9.39,
+      "change_pct": 0.11,
       "adr_pct": 0.8,
-      "dollar_volume": "$31.5M",
-      "market_cap_b": 4.891,
-      "rs_ibd": 84,
-      "atr_ext_val": 13.75
-    },
-    {
-      "ticker": "QURE",
-      "company": "uniQure N.V.",
-      "industry": "Biotechnology",
-      "price": 48.85,
-      "change_pct": -0.39,
-      "adr_pct": 7.3,
-      "dollar_volume": "$198.0M",
-      "market_cap_b": 3.055,
-      "rs_ibd": 97,
-      "atr_ext_val": 12.01
+      "dollar_volume": "$30.4M",
+      "market_cap_b": 4.896,
+      "rs_ibd": 83,
+      "atr_ext_val": 13.1
     },
     {
       "ticker": "DFTX",
       "company": "Definium Therapeutics, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 42.13,
-      "change_pct": 16.45,
+      "price": 44.79,
+      "change_pct": 6.31,
       "adr_pct": 6.8,
-      "dollar_volume": "$217.7M",
-      "market_cap_b": 4.595,
+      "dollar_volume": "$257.2M",
+      "market_cap_b": 4.885,
       "rs_ibd": 96,
-      "atr_ext_val": 11.52
+      "atr_ext_val": 12.58
+    },
+    {
+      "ticker": "QURE",
+      "company": "uniQure N.V.",
+      "industry": "Biotechnology",
+      "price": 49.1,
+      "change_pct": 0.51,
+      "adr_pct": 7.1,
+      "dollar_volume": "$207.8M",
+      "market_cap_b": 3.07,
+      "rs_ibd": 97,
+      "atr_ext_val": 11.93
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 132.69,
-      "change_pct": -0.14,
-      "adr_pct": 4.9,
-      "dollar_volume": "$1.18B",
-      "market_cap_b": 9.976,
-      "rs_ibd": 93,
-      "atr_ext_val": 10.57
+      "price": 132.68,
+      "change_pct": -0.01,
+      "adr_pct": 4.5,
+      "dollar_volume": "$1.23B",
+      "market_cap_b": 9.975,
+      "rs_ibd": 92,
+      "atr_ext_val": 11.01
     },
     {
       "ticker": "RAMP",
       "company": "LiveRamp Holdings, Inc.",
       "industry": "Packaged Software",
-      "price": 37.45,
-      "change_pct": -0.4,
+      "price": 37.43,
+      "change_pct": -0.05,
       "adr_pct": 1.1,
-      "dollar_volume": "$57.6M",
-      "market_cap_b": 2.25,
-      "rs_ibd": 63,
-      "atr_ext_val": 10.42
-    },
-    {
-      "ticker": "UMC",
-      "company": "United Microelectronics Corporation (NEW)",
-      "industry": "Semiconductors",
-      "price": 28.02,
-      "change_pct": 6.95,
-      "adr_pct": 5.7,
-      "dollar_volume": "$578.9M",
-      "market_cap_b": 67.318,
-      "rs_ibd": 96,
-      "atr_ext_val": 10.38
+      "dollar_volume": "$55.2M",
+      "market_cap_b": 2.249,
+      "rs_ibd": 59,
+      "atr_ext_val": 10.13
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -0.1,
-    "spx_1m": -2.14,
-    "spx_3m": 11.63,
-    "spx_34d": -0.09,
-    "spx_qtd": 11.91,
-    "spx_mtd": -3.18
+    "spx_1d": -0.01,
+    "spx_1m": -2.17,
+    "spx_3m": 13.59,
+    "spx_34d": 0.28,
+    "spx_qtd": 11.9,
+    "spx_mtd": -3.19
   },
-  "fetched_at_utc": "2026-06-24T22:24:01+00:00"
+  "fetched_at_utc": "2026-06-25T21:50:47+00:00"
 }
