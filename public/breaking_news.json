@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 25, 2026 (15:20 EST)",
+  "last_checked": "June 25, 2026 (15:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Iran behind attack on cargo vessel near Oman in Strait of Hormuz, U.S. official tells MS NOW",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-25T15:25:22.965004-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Micron stock jumps 18% in premarket trading after blockbuster earnings",
       "source": "CNBC",
@@ -1383,6 +1391,10 @@
     {
       "k": "chicago fed president goolsbee says inflation is too high calls warsh a serious guy",
       "ts": "2026-06-25T19:10:35.808342+00:00"
+    },
+    {
+      "k": "iran behind attack on cargo vessel near oman in strait of hormuz us official tells ms now",
+      "ts": "2026-06-25T19:25:23.731345+00:00"
     }
   ]
 }
