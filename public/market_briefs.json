@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-25 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Cautious Growth Momentum",
+    "spy_price": 734.3,
+    "spy_change_pct": 0.14,
+    "vix": 18.89,
+    "hy_oas": 2.76,
+    "yield_curve": 0.31,
+    "credit_status": "Complacent",
+    "s5fi": 61.3,
+    "mmth": 65.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "MU",
+          "company": "Micron Technology",
+          "reason": "Strong Q2 earnings beat and raised guidance signal robust demand in the semiconductor sector."
+        },
+        {
+          "ticker": "GLW",
+          "company": "Corning Inc.",
+          "reason": "Announced a significant deal with Amazon for data center infrastructure, signaling strong growth in optical communications."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Continues to see steady flow and minor technical follow-through from prior AI-driven narratives, lacking fresh major news today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-25 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA (NVDA) continues its multi-day rally on strong technicals and sustained investor demand for AI infrastructure, with no new fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-13 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On / Broad Market Strength",
-    "spy_price": 742.31,
-    "spy_change_pct": 0.56,
-    "vix": 17.87,
-    "hy_oas": 2.82,
-    "yield_curve": 0.48,
-    "credit_status": "Complacent",
-    "s5fi": 53.6,
-    "mmth": 60.3,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "EOSE",
-          "company": "Eos Energy Enterprises, Inc.",
-          "reason": "EOSE is gaining significant traction today following news of a strategic partnership and a substantial capital infusion, positioning it for accelerated growth."
-        },
-        {
-          "ticker": "PENG",
-          "company": "PENG Innovations Inc.",
-          "reason": "PENG is exhibiting strong momentum after announcing a major AI business transformation initiative and raising its outlook, attracting significant investor interest."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "MSFT continues to attract broad market attention driven by a recycled narrative around cloud expansion and AI integration, largely moving with broader tech sector flows."
         }
       ]
     }
