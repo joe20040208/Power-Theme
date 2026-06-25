@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 25, 2026 (11:41 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 25, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7370.02,
-      "change": 11.8,
-      "change_pct": 0.16
+      "price": 7357.49,
+      "change": -0.73,
+      "change_pct": -0.01
     },
     {
       "label": "Nasdaq 100",
-      "price": 29350.28,
-      "change": 130.21,
-      "change_pct": 0.45
+      "price": 29440.32,
+      "change": 220.26,
+      "change_pct": 0.75
     },
     {
       "label": "VIX",
-      "price": 19.11,
-      "change": 0.48,
+      "price": 18.89,
+      "change": 0.26,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
       "price": 4.39,
-      "change": -0.07,
+      "change": -0.06,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -37,21 +37,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 25004.25,
-      "change_pct": 1.07
+      "price": 24740.36,
+      "change_pct": -0.62
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10536.15,
-      "change_pct": 0.71
+      "price": 10529.89,
+      "change_pct": 0.65
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 63.9,
-    "mmth": 66.3,
+    "s5fi": 61.3,
+    "mmth": 65.2,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Selective Strength / Tech Leadership",
+  "mood": "Selective Growth, Mixed Global Tone",
   "analysis": {
-    "action_line": "VIX 19.11 Normal + S5FI 63.9% breadth + mixed global tape (Nikkei -0.88%) → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets present a mixed picture today, with the Nikkei 225 down -0.88% while European indices like the DAX (+1.07%) and FTSE 100 (+0.71%) show strength. In the US, the 10Y Yield is falling at 4.39%, suggesting some cautiousness or flight to safety despite climbing equity markets. With the BAML HY Spread regime unknown, credit health remains opaque, but US market breadth remains constructive. Specifically, 63.9% of stocks are above their 50-day moving average (S5FI), indicating decent internal participation.",
-    "analysis_para2": "The current market environment, characterized by a normal VIX at 19.11 and rising indices, warrants a focus on high relative strength leaders. The S&P 500 is trading at 7370.02 and the Nasdaq 100 at 29350.28, both near recent highs. Our mechanical plan involves identifying pullbacks in these leading thematic groups (Hardware, Semiconductors, Neocloud) to key support levels. Alternatively, look for powerful breakouts from constructive bases, confirming continued institutional sponsorship. Maintain risk management with tight stops and adhere to position sizing rules.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are trading higher intraday.",
+    "action_line": "VIX 18.89 Normal + S5FI 61.3% breadth + mixed global tape → focus on RS leaders, especially in tech.",
+    "analysis_para1": "Global markets presented a mixed picture today, with Asian and European indices largely in the red as Nikkei (-0.88%) and DAX (-0.62%) pulled back, though the FTSE 100 (+0.65%) showed resilience. The falling 10Y Yield at 4.39% indicates some underlying risk-aversion or anticipation of easing, though the BAML HY Spread's unknown status leaves the credit regime ambiguous. Domestically, US breadth remains reasonable with S5FI at 61.3% and MMTH at 65.2%, suggesting a market of stocks rather than a stock market, with leadership concentrated.",
+    "analysis_para2": "Given the divergent market performance, the mechanical plan involves continued focus on the strength exhibited by the Nasdaq and its underlying themes. Monitor the Nasdaq 100 for sustained trading above the 29400 level, while the S&P 500 holding 7350 could signal broader market stability. Aggressive positions should target Relative Strength leaders from the Hardware and Semiconductor sectors, buying pullbacks to short-term moving averages or established support zones. Maintain tight stops and be prepared to reduce exposure if the VIX climbs significantly or if overall market breadth deteriorates below 50%.",
+    "technical_signal": "No reversal pattern confirmed yet. The market exhibits selective strength with underlying breadth remaining reasonable, not signaling imminent broad market correction.",
     "ticker_intel": [
       {
-        "ticker": "UMC",
-        "company": "United Microelectronics Corporation (NEW)",
+        "ticker": "SNDK",
+        "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "Exhibiting explosive growth with RS 98 and a staggering +53.7% 1-month return, aligning with strong semiconductor demand."
+        "reason": "This Hardware leader (RS 99) exemplifies sector-wide strength, showing exceptional momentum with a +46.9% 1-month return in a robust market."
       },
       {
-        "ticker": "DELL",
-        "company": "Dell Technologies Inc.",
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
         "grade": "A",
-        "reason": "A leading hardware player with RS 98 and a robust +47.0% 1-month surge, indicating strong institutional sponsorship in a key growth theme."
+        "reason": "Micron (RS 98) is a standout Semiconductor player, demonstrating robust gains with a +35.5% 1-month return in a leading thematic sector."
       },
       {
         "ticker": "SIMO",
         "company": "Silicon Motion Technology Corporation",
         "grade": "C",
-        "reason": "Despite high RS 98, its +16.5% 1-month return is among the lowest in this cohort, suggesting relative underperformance within the hot semiconductor theme."
+        "reason": "Despite a high RS of 98 and strong 3-month gain, SIMO's +12.0% 1-month performance lags peers, indicating relative underperformance within the hot Semiconductor theme."
       }
     ]
   }
