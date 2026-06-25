@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-25 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Global Optimism, US Futures Stable",
+    "spy_price": 733.24,
+    "spy_change_pct": -0.05,
+    "vix": 18.07,
+    "hy_oas": 2.71,
+    "yield_curve": 0.3,
+    "credit_status": "Complacent",
+    "s5fi": 60.4,
+    "mmth": 65.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "reason": "Receives accelerated FDA approval for a novel Alzheimer's treatment, significantly expanding its market potential and competitive advantage."
+        },
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Announces a major breakthrough in quantum computing, positioning itself as a key innovator in the rapidly evolving AI landscape."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA",
+          "reason": "Continues to see strong investor interest driven by persistent AI server demand and positive flow-based trading momentum, consolidating recent gains."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-24 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corporation",
           "reason": "MSFT continues to attract broad market attention driven by a recycled narrative around cloud expansion and AI integration, largely moving with broader tech sector flows."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-13 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Mixed Signals / Cautious Pullback",
-    "spy_price": 738.18,
-    "spy_change_pct": -0.15,
-    "vix": 17.87,
-    "hy_oas": 2.79,
-    "yield_curve": 0.46,
-    "credit_status": "Complacent",
-    "s5fi": 56.3,
-    "mmth": 61.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Apple announced a groundbreaking AI partnership with OpenAI, aiming to integrate advanced generative AI across its device ecosystem, sparking significant investor optimism."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "JPMorgan Chase reported stronger-than-expected Q2 earnings, driven by robust investment banking performance and increased net interest income guidance for the full year."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "NVIDIA continues to see strong speculative interest driven by persistent AI theme momentum, despite no fresh news, as investors search for continued upside in high-growth tech."
         }
       ]
     }
