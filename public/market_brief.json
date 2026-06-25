@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 24, 2026 (18:43 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 25, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 18.63,
-      "change": -0.86,
+      "price": 17.89,
+      "change": -0.74,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.4,
-      "change": -0.05,
+      "price": 4.38,
+      "change": -0.07,
       "change_pct": null,
       "trend_label": "Falling"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69788.38,
-      "change_pct": -3.55
+      "price": 72366.34,
+      "change_pct": 4.61
     },
     "dax": {
       "label": "DAX",
-      "price": 24893.58,
-      "change_pct": -0.98
+      "price": 24974.33,
+      "change_pct": 0.95
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10461.63,
-      "change_pct": 0.31
+      "price": 10546.18,
+      "change_pct": 0.81
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 60.5,
-    "mmth": 65.8,
+    "s5fi": 60.4,
+    "mmth": 65.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed Tape / Asia Weakness / Tech Resilience",
+  "mood": "Global Strength, US Tech Leaders",
   "analysis": {
-    "action_line": "VIX 18.63 Normal + S5FI 60.5% breadth + Nikkei -3.55% weakness → seek selective entries in leading tech themes.",
-    "analysis_para1": "The global tape presented a mixed picture today, with the Nikkei 225 suffering a sharp -3.55% decline and the DAX falling -0.98%, signaling significant weakness across Asian and European markets. In contrast, the FTSE 100 showed relative strength, closing up +0.31%. Domestically, the BAML HY Spread remains an unknown, obscuring the credit regime, yet US market breadth persists as healthy with 60.5% of stocks above their 50-day MA (S5FI) and 65.8% above their 200-day MA (MMTH). This suggests a bifurcated market where US underlying health holds despite international headwinds and slight S&P 500 (-0.10%) and Nasdaq 100 (-0.43%) declines.",
-    "analysis_para2": "Given the VIX remains normal at 18.63 and US breadth is moderate, the mechanical plan is to maintain exposure to high Relative Strength themes, particularly in Semiconductors and Hardware. Key support levels to monitor for the S&P 500 are 7300, with a decisive break below potentially signaling increased distribution. Traders should watch for consolidation in leading names, specifically on pullbacks to the 10-day or 21-day EMAs, as new entries or additions should be made only on confirmed strength or bounces from these moving averages. The falling 10Y Yield at 4.40% could continue to favor growth sectors, reinforcing the focus on high-momentum tech. Avoid chasing extended moves, instead prioritizing entries in names demonstrating excellent institutional sponsorship on low volume pullbacks.",
-    "technical_signal": "No reversal pattern confirmed yet. While US indices saw minor declines, VIX remains normal and breadth signals underlying health, preventing a broad capitulation.",
+    "action_line": "VIX 17.89 Normal + S5FI 60.4% breadth + Nikkei +4.61% → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets are showing robust gains this morning, with the Nikkei 225 surging +4.61%, the DAX up +0.95%, and the FTSE 100 gaining +0.81%, indicating broadly positive sentiment abroad. In the US, the 10-year yield is falling to 4.38%, which could signal either a flight to safety or a more dovish outlook supporting growth names. While the BAML HY Spread is unavailable, market breadth remains healthy with 60.4% of stocks above their 50-day moving average (S5FI) and 65.6% above their 200-day (MMTH). This combination points to continued interest in growth-oriented sectors, despite slight US index weakness.",
+    "analysis_para2": "The S&P 500 is currently at 7358.22, down slightly pre-market; a key level to watch for potential support is around the 7350-7360 range. The Nasdaq 100, down 0.43%, should be monitored for whether it holds above 29200, as a break could indicate broader tech sector selling. Given the strong performance of Hardware and Semiconductor themes in the scanner, look for pullbacks in leading stocks to their 10-day or 21-day EMAs for tactical entry points. Focus on candidates demonstrating strong relative strength on minor dips, aiming for breakouts or reversals from established support zones.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are slightly lower pre-market despite strong global gains.",
     "ticker_intel": [
       {
         "ticker": "UMC",
         "company": "United Microelectronics Corporation",
         "grade": "A+",
-        "reason": "As a semiconductor leader, UMC boasts exceptional RS 98 and a staggering +53.7% 1M return, making it a top conviction long in the thriving tech sector amidst mixed global signals."
+        "reason": "With an RS of 98 and a staggering 1M gain of +53.7%, UMC demonstrates superior relative strength and momentum, aligning with the dominant semiconductor theme."
       },
       {
-        "ticker": "SNDK",
-        "company": "Sandisk Corporation",
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "With an industry-leading RS 99 and robust +29.5% 1M performance, Sandisk stands out as a strong hardware conviction long, benefiting from resilient tech leadership despite global market weakness."
+        "reason": "DELL, with an RS of 98 and a 1M return of +47.0%, remains a top-tier hardware leader poised for continued strength amid strong sector tailwinds."
       },
       {
         "ticker": "SIMO",
         "company": "Silicon Motion Technology Corporation",
         "grade": "C",
-        "reason": "Despite a strong RS 98, Silicon Motion's relatively modest +16.5% 1M return compared to peers makes it a less compelling option for new entries, as the market currently favors even more aggressive leaders within semiconductors."
+        "reason": "Despite high RS, its 1M return of +16.5% is on the lower end compared to peers, suggesting relatively decelerating momentum that might underperform in a selective market."
       }
     ]
   }
