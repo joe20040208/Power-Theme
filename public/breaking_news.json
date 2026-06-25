@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 25, 2026 (08:45 EST)",
+  "last_checked": "June 25, 2026 (08:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Micron stock jumps 18% in premarket trading after blockbuster earnings",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-25T08:50:28.891807-04:00",
+      "pub_time": "2026-06-25T08:46:39-04:00"
+    },
     {
       "headline": "[CNBC] Micron stock jumps over 16% in premarket trading after blockbuster earnings",
       "source": "CNBC",
@@ -1375,6 +1383,10 @@
     {
       "k": "us giving topped 600 billion for the first time last year megadonors and bequests are to thank",
       "ts": "2026-06-25T12:45:32.557198+00:00"
+    },
+    {
+      "k": "micron stock jumps 18 in premarket trading after blockbuster earnings",
+      "ts": "2026-06-25T12:50:31.295274+00:00"
     }
   ]
 }
