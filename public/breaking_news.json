@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 25, 2026 (05:25 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 25, 2026 (05:30 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Micron stock jumps over 16% in premarket trading after blockbuster earnings",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-25T05:30:36.161575-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "hegseth warns nato allies that some nations will fail us defense review",
@@ -1338,6 +1347,14 @@
     {
       "k": "gold holds below 4000 silver below 60 — has the shimmer worn off the precious metal rally",
       "ts": "2026-06-25T08:50:29.500499+00:00"
+    },
+    {
+      "k": "micron stock jumps over 16 in premarket trading after blockbuster earnings",
+      "ts": "2026-06-25T09:30:36.859025+00:00"
+    },
+    {
+      "k": "amazon adds new funding lifting india ai and cloud investment to 48 billion",
+      "ts": "2026-06-25T09:30:36.859025+00:00"
     }
   ]
 }
