@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 25, 2026 (18:30 EDT)",
+  "generated_at": "June 25, 2026 (18:53 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Selective Growth, Mixed Global Tone",
+  "mood": "Tech-led strength, mixed global tape.",
   "analysis": {
-    "action_line": "VIX 18.89 Normal + S5FI 61.3% breadth + mixed global tape → focus on RS leaders, especially in tech.",
-    "analysis_para1": "Global markets presented a mixed picture today, with Asian and European indices largely in the red as Nikkei (-0.88%) and DAX (-0.62%) pulled back, though the FTSE 100 (+0.65%) showed resilience. The falling 10Y Yield at 4.39% indicates some underlying risk-aversion or anticipation of easing, though the BAML HY Spread's unknown status leaves the credit regime ambiguous. Domestically, US breadth remains reasonable with S5FI at 61.3% and MMTH at 65.2%, suggesting a market of stocks rather than a stock market, with leadership concentrated.",
-    "analysis_para2": "Given the divergent market performance, the mechanical plan involves continued focus on the strength exhibited by the Nasdaq and its underlying themes. Monitor the Nasdaq 100 for sustained trading above the 29400 level, while the S&P 500 holding 7350 could signal broader market stability. Aggressive positions should target Relative Strength leaders from the Hardware and Semiconductor sectors, buying pullbacks to short-term moving averages or established support zones. Maintain tight stops and be prepared to reduce exposure if the VIX climbs significantly or if overall market breadth deteriorates below 50%.",
-    "technical_signal": "No reversal pattern confirmed yet. The market exhibits selective strength with underlying breadth remaining reasonable, not signaling imminent broad market correction.",
+    "action_line": "VIX 18.89 Normal + S5FI 61.3% breadth + mixed global tape (Nikkei -0.88%, FTSE +0.65%) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets presented a mixed picture today, with Asian indices like the Nikkei 225 retreating by -0.88% and the DAX in Europe also down -0.62%, while the FTSE 100 managed a +0.65% gain. This international softness contrasts with a domestically resilient US market. US credit conditions show a notable falling 10-year yield at 4.39%, suggesting potentially easing financial conditions despite the unknown BAML HY Spread regime. Equity market breadth remains healthy, with 61.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 65.2% above their 200-day moving average (MMTH), indicating broad-based participation.",
+    "analysis_para2": "The mechanical plan suggests monitoring key index levels; a hold above 7350 on the S&P 500 would confirm near-term stability, while the Nasdaq 100's strong performance above 29400 indicates tech leadership. Given the normal VIX at 18.89 and healthy breadth, a risk-on approach to proven relative strength leaders is warranted. Traders should prioritize entries near short-term support levels for the highly-rated Hardware and Semiconductor stocks identified by the thematic scanner. Continued falling 10Y yields at 4.39% provide a tailwind for growth-oriented sectors, making follow-through crucial. Watch for confirmation of breadth through S5FI remaining above 60% for sustained buying interest.",
+    "technical_signal": "No reversal pattern confirmed yet. The market continues to show a divergence with strong tech performance offsetting flatness in the broader S&P 500.",
     "ticker_intel": [
       {
         "ticker": "SNDK",
         "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "This Hardware leader (RS 99) exemplifies sector-wide strength, showing exceptional momentum with a +46.9% 1-month return in a robust market."
+        "reason": "SNDK is an undeniable leader in Hardware with RS 99 and a blistering 1M return of +46.9%, confirming strong institutional demand in the current tech-led market."
       },
       {
         "ticker": "MU",
         "company": "Micron Technology, Inc.",
         "grade": "A",
-        "reason": "Micron (RS 98) is a standout Semiconductor player, demonstrating robust gains with a +35.5% 1-month return in a leading thematic sector."
+        "reason": "MU exhibits strong leadership in Semiconductors with RS 98 and a +35.5% 1M gain, aligning perfectly with the ongoing sector rotation and falling 10Y yields."
       },
       {
         "ticker": "SIMO",
         "company": "Silicon Motion Technology Corporation",
         "grade": "C",
-        "reason": "Despite a high RS of 98 and strong 3-month gain, SIMO's +12.0% 1-month performance lags peers, indicating relative underperformance within the hot Semiconductor theme."
+        "reason": "Despite high RS 98, SIMO's relatively modest +12.0% 1M return, the lowest among top contenders, suggests comparative underperformance in the red-hot Semiconductor theme, warranting caution."
       }
     ]
   }
