@@ -1,29 +1,29 @@
 {
-  "generated_at": "June 25, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 25, 2026 (11:41 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7358.22,
-      "change": -7.24,
-      "change_pct": -0.1
+      "price": 7370.02,
+      "change": 11.8,
+      "change_pct": 0.16
     },
     {
       "label": "Nasdaq 100",
-      "price": 29220.06,
-      "change": -127.21,
-      "change_pct": -0.43
+      "price": 29350.28,
+      "change": 130.21,
+      "change_pct": 0.45
     },
     {
       "label": "VIX",
-      "price": 17.89,
-      "change": -0.74,
+      "price": 19.11,
+      "change": 0.48,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.38,
+      "price": 4.39,
       "change": -0.07,
       "change_pct": null,
       "trend_label": "Falling"
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 72366.34,
-      "change_pct": 4.61
+      "price": 69174.97,
+      "change_pct": -0.88
     },
     "dax": {
       "label": "DAX",
-      "price": 24974.33,
-      "change_pct": 0.95
+      "price": 25004.25,
+      "change_pct": 1.07
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10546.18,
-      "change_pct": 0.81
+      "price": 10536.15,
+      "change_pct": 0.71
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 60.4,
-    "mmth": 65.6,
+    "s5fi": 63.9,
+    "mmth": 66.3,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Global Strength, US Tech Leaders",
+  "mood": "Selective Strength / Tech Leadership",
   "analysis": {
-    "action_line": "VIX 17.89 Normal + S5FI 60.4% breadth + Nikkei +4.61% → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets are showing robust gains this morning, with the Nikkei 225 surging +4.61%, the DAX up +0.95%, and the FTSE 100 gaining +0.81%, indicating broadly positive sentiment abroad. In the US, the 10-year yield is falling to 4.38%, which could signal either a flight to safety or a more dovish outlook supporting growth names. While the BAML HY Spread is unavailable, market breadth remains healthy with 60.4% of stocks above their 50-day moving average (S5FI) and 65.6% above their 200-day (MMTH). This combination points to continued interest in growth-oriented sectors, despite slight US index weakness.",
-    "analysis_para2": "The S&P 500 is currently at 7358.22, down slightly pre-market; a key level to watch for potential support is around the 7350-7360 range. The Nasdaq 100, down 0.43%, should be monitored for whether it holds above 29200, as a break could indicate broader tech sector selling. Given the strong performance of Hardware and Semiconductor themes in the scanner, look for pullbacks in leading stocks to their 10-day or 21-day EMAs for tactical entry points. Focus on candidates demonstrating strong relative strength on minor dips, aiming for breakouts or reversals from established support zones.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are slightly lower pre-market despite strong global gains.",
+    "action_line": "VIX 19.11 Normal + S5FI 63.9% breadth + mixed global tape (Nikkei -0.88%) → trade RS leaders selectively near support.",
+    "analysis_para1": "Global markets present a mixed picture today, with the Nikkei 225 down -0.88% while European indices like the DAX (+1.07%) and FTSE 100 (+0.71%) show strength. In the US, the 10Y Yield is falling at 4.39%, suggesting some cautiousness or flight to safety despite climbing equity markets. With the BAML HY Spread regime unknown, credit health remains opaque, but US market breadth remains constructive. Specifically, 63.9% of stocks are above their 50-day moving average (S5FI), indicating decent internal participation.",
+    "analysis_para2": "The current market environment, characterized by a normal VIX at 19.11 and rising indices, warrants a focus on high relative strength leaders. The S&P 500 is trading at 7370.02 and the Nasdaq 100 at 29350.28, both near recent highs. Our mechanical plan involves identifying pullbacks in these leading thematic groups (Hardware, Semiconductors, Neocloud) to key support levels. Alternatively, look for powerful breakouts from constructive bases, confirming continued institutional sponsorship. Maintain risk management with tight stops and adhere to position sizing rules.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are trading higher intraday.",
     "ticker_intel": [
       {
         "ticker": "UMC",
-        "company": "United Microelectronics Corporation",
+        "company": "United Microelectronics Corporation (NEW)",
         "grade": "A+",
-        "reason": "With an RS of 98 and a staggering 1M gain of +53.7%, UMC demonstrates superior relative strength and momentum, aligning with the dominant semiconductor theme."
+        "reason": "Exhibiting explosive growth with RS 98 and a staggering +53.7% 1-month return, aligning with strong semiconductor demand."
       },
       {
         "ticker": "DELL",
         "company": "Dell Technologies Inc.",
         "grade": "A",
-        "reason": "DELL, with an RS of 98 and a 1M return of +47.0%, remains a top-tier hardware leader poised for continued strength amid strong sector tailwinds."
+        "reason": "A leading hardware player with RS 98 and a robust +47.0% 1-month surge, indicating strong institutional sponsorship in a key growth theme."
       },
       {
         "ticker": "SIMO",
         "company": "Silicon Motion Technology Corporation",
         "grade": "C",
-        "reason": "Despite high RS, its 1M return of +16.5% is on the lower end compared to peers, suggesting relatively decelerating momentum that might underperform in a selective market."
+        "reason": "Despite high RS 98, its +16.5% 1-month return is among the lowest in this cohort, suggesting relative underperformance within the hot semiconductor theme."
       }
     ]
   }
