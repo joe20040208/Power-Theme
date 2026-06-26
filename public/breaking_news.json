@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (02:15 EST)",
+  "last_checked": "June 26, 2026 (02:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] U.S.-Iran peace deal grants access to Tehran's nuclear sites, UN watchdog says",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-26T02:20:31.577334-04:00",
+      "pub_time": null
+    },
     {
       "headline": "UN watchdog says it has access to Iran's nuclear sites after interim peace deal",
       "source": "CNBC",
@@ -20,10 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "oil rebounds as postponed usiran talks temper optimism over ceasefire progress",
-      "ts": "2026-06-19T06:20:29.443578+00:00"
-    },
     {
       "k": "uk political uncertainty grows as andy burnham clears path to challenge pm starmer",
       "ts": "2026-06-19T06:45:25.013962+00:00"
@@ -1379,6 +1383,10 @@
     {
       "k": "un watchdog says it has access to irans nuclear sites after interim peace deal",
       "ts": "2026-06-26T06:15:28.727068+00:00"
+    },
+    {
+      "k": "usiran peace deal grants access to tehrans nuclear sites un watchdog says",
+      "ts": "2026-06-26T06:20:32.144548+00:00"
     }
   ]
 }
