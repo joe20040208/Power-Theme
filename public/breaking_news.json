@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (12:40 EST)",
+  "last_checked": "June 26, 2026 (12:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump threatens 100% tariff on countries putting 'Digital Services Tax on American Companies'",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-26T12:45:31.054701-04:00",
+      "pub_time": "2026-06-26T12:38:08-04:00"
+    },
     {
       "headline": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
       "source": "CNBC",
@@ -1463,6 +1471,10 @@
     {
       "k": "leon black refuses to answer questions on ndas at jeffrey epstein hearing rep comer says",
       "ts": "2026-06-26T16:30:28.073665+00:00"
+    },
+    {
+      "k": "trump threatens 100 tariff on countries putting digital services tax on american companies",
+      "ts": "2026-06-26T16:45:31.827711+00:00"
     }
   ]
 }
