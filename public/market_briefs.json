@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-26 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Divergent Growth / Volatility Rising",
+    "spy_price": 734.3,
+    "spy_change_pct": 0.14,
+    "vix": 20.09,
+    "hy_oas": 2.76,
+    "yield_curve": 0.31,
+    "credit_status": "Complacent",
+    "s5fi": 61.3,
+    "mmth": 65.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "reason": "Apple announces significant AI advancements for upcoming iOS 18 update, sparking upgrade cycle optimism and strong pre-market buying interest."
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon.com Inc.",
+          "reason": "Amazon Web Services (AWS) secures a multi-billion dollar strategic cloud contract with a major enterprise client, boosting Q2 outlook and driving fresh institutional accumulation."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "NVIDIA (NVDA) sees continued institutional accumulation as analysts reiterate strong AI chip demand forecasts ahead of quarter-end, reflecting sustained flow into the sector."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-25 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "AAPL",
           "company": "Apple Inc.",
           "reason": "Recent iPhone sales data continues to show mixed signals, leading to ongoing range-bound trading based on technical levels rather than fresh catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-14 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Tech-Led Optimism, Credit Complacent",
-    "spy_price": 742.31,
-    "spy_change_pct": 0.56,
-    "vix": 17.82,
-    "hy_oas": 2.82,
-    "yield_curve": 0.48,
-    "credit_status": "Complacent",
-    "s5fi": 53.4,
-    "mmth": 60.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet (GOOGL) announced a new AI-powered infrastructure project that promises significant revenue streams, boosting analyst sentiment and price targets."
-        },
-        {
-          "ticker": "CRM",
-          "company": "Salesforce, Inc.",
-          "reason": "Salesforce (CRM) unveiled an unexpectedly strong Q1 earnings pre-announcement driven by AI-integration success, leading to upgrades across the street."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA (NVDA) continues its multi-day rally on strong technicals and sustained investor demand for AI infrastructure, with no new fundamental catalyst today."
         }
       ]
     }
