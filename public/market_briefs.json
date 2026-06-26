@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-26 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Global Divergence, Western Risk-Off",
+    "spy_price": 728.99,
+    "spy_change_pct": -0.72,
+    "vix": 18.41,
+    "hy_oas": 2.78,
+    "yield_curve": 0.31,
+    "credit_status": "Complacent",
+    "s5fi": 61.9,
+    "mmth": 66.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Alphabet announced a breakthrough in quantum AI computing today, propelling its cloud division to the forefront of enterprise solutions, leading to significant institutional upgrades."
+        },
+        {
+          "ticker": "LLY",
+          "company": "Eli Lilly and Company",
+          "reason": "Eli Lilly received fast-track FDA approval for its new Alzheimer's drug, positioning it for rapid market penetration and substantial revenue growth in the coming quarters."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "reason": "Microsoft showed continued strength today on persistent AI infrastructure demand narratives, maintaining its upward channel despite broader market weakness."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-26 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "NVIDIA is seeing continued momentum from last week's analyst comments regarding datacenter demand, driving sustained institutional accumulation despite no new catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-14 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Broad Rally, Risk-On",
-    "spy_price": 748.17,
-    "spy_change_pct": 0.79,
-    "vix": 17.26,
-    "hy_oas": 2.82,
-    "yield_curve": 0.48,
-    "credit_status": "Complacent",
-    "s5fi": 54.1,
-    "mmth": 61.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "POET",
-          "company": "POET Technologies Inc.",
-          "reason": "New contract wins are expected to significantly boost future revenue and market share in its specialized sector."
-        },
-        {
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "reason": "AMD's strategic stake validates Marvell's technology and partnership potential, signaling strong growth prospects."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Recent iPhone sales data continues to show mixed signals, leading to ongoing range-bound trading based on technical levels rather than fresh catalysts."
         }
       ]
     }
