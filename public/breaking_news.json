@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (14:25 EST)",
+  "last_checked": "June 26, 2026 (14:30 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-26T14:30:32.929685-04:00",
+      "pub_time": "2026-06-26T14:25:36-04:00"
+    },
     {
       "headline": "Trump threatens 100% tariff on countries putting 'Digital Services Tax on American Companies'",
       "source": "CNBC",
@@ -1463,6 +1471,10 @@
     {
       "k": "metas flurry of ai initiatives this month hasnt helped lift the stock what will",
       "ts": "2026-06-26T18:25:22.354668+00:00"
+    },
+    {
+      "k": "trump threatens 100 tariffs on countries putting digital services tax on american companies",
+      "ts": "2026-06-26T18:30:33.516799+00:00"
     }
   ]
 }
