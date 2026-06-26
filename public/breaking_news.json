@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 26, 2026 (01:55 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 26, 2026 (02:00 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "UN nuclear watchdog says it has access to Iran's nuclear sites after interim peace deal",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-26T02:00:31.711361-04:00",
+      "pub_time": "2026-06-26T01:52:04-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "usiran accord hits early snag after swiss talks fail to proceed as planned",
@@ -1354,6 +1363,10 @@
     {
       "k": "oil slides 2 as markets look past fresh iran tensions and focus on supply outlook",
       "ts": "2026-06-26T05:05:21.693423+00:00"
+    },
+    {
+      "k": "un nuclear watchdog says it has access to irans nuclear sites after interim peace deal",
+      "ts": "2026-06-26T06:00:32.582450+00:00"
     }
   ]
 }
