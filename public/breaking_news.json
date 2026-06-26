@@ -1,5 +1,5 @@
 {
-  "last_checked": "June 26, 2026 (14:15 EST)",
+  "last_checked": "June 26, 2026 (14:20 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -25,22 +25,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-26T06:55:29.521392-04:00",
       "pub_time": null
-    },
-    {
-      "headline": "[CNBC] U.S.-Iran peace deal grants access to Tehran's nuclear sites, UN watchdog says",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-26T02:20:31.577334-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "UN watchdog says it has access to Iran's nuclear sites after interim peace deal",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-26T02:15:27.633808-04:00",
-      "pub_time": "2026-06-26T02:13:14-04:00"
     }
   ],
   "seen_keys": [
