@@ -1,296 +1,63 @@
 {
-  "scan_time": "2026-06-25 08:07 ET",
+  "scan_time": "2026-06-26 08:07 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "TECH",
-      "price": 58.88,
-      "gap_pct": 19.92,
-      "pm_volume": 640760,
-      "avg_vol_10d": 2740112,
-      "avg_dollar_vol": 161337795,
-      "mkt_cap": 9217985516,
-      "rvol": 2.19,
-      "adr_pct": 3.92,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "Moving in sympathy with Micron following its strong earnings report and optimistic AI outlook, driving broader tech sector confidence.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 60,
-      "grade": "C",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: Sector Tailwinds | Impact: Secondary. No company-specific news for TECH; its move correlates to broader AI-driven tech trends fueled by Micron's strong earnings and outlook.",
-      "analysis_details": "• **What Happened**\nThe broad tech sector, including TECH, is experiencing a rally following Micron's strong **earnings beat** and **optimistic outlook**, particularly regarding AI demand. Micron's results have reportedly **assuaged fears** of an AI bubble, leading to a renewed surge in investor confidence across related technology stocks. This movement is **not driven by any specific news** related to TECH itself.\n\n• **Key Consideration**\nAs a sympathy play, TECH's move **lacks specific fundamental catalysts**. While benefiting from strong sector tailwinds and renewed AI optimism, the sustainability of this rally for TECH hinges on broader market sentiment and could be susceptible to profit-taking without company-specific news to underpin the move. The **2.2x RVOL** suggests significant institutional or retail participation today, aligning with the broader market reaction.",
-      "peer_tickers": [
-        "NVDA",
-        "AMD",
-        "SMCI"
-      ],
-      "headlines": [
-        {
-          "title": "Micron drives global rally tech stock rally as traders abandon their fear of an AI bubble - Fortune",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tWXlsTU5Kb3FwRXFVQmVDQTMtSUp1ZmY0Yk5oQWJRakFCekVPRWVSeDRWVkdYbWpuWS1QLWlsbEdPU2lTM09OSGhfeUR2UHdQSTdTMmZLN1pxMElNYjI2NloyMFhEU2hlTjB4V1plLXo1WlE?oc=5"
-        },
-        {
-          "title": "US Tech Stocks Set to Rally as Micron Outlook Fuels AI Optimism - Bloomberg.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQzIycU1CY3Z0cUJwRzJLLTdnSF9DeHVZZi15aEFYM2pqcEFLWlNFa0prLWlfZ012Z1FtTzYzWTRSRnBGS3lBZ3o5a0gzdHFEOTktM3F1ZzBRNmQ3VTBtTDJUVXdzX04xNmFxVWg2TWt6LVAwejN6aG1UZ0NteTZ3eFh1d1h3NkhOSXBjVnJjbENLMWRTNUs4SUxoQ3YyR3ZVY1JrZ2ZXUjJITlcwUmxzSnY0dWg?oc=5"
-        },
-        {
-          "title": "Tech stocks live: Micron stock jumps over 12% on earnings beat after tumbling earlier this week - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVTQyeF9qV1VmRHREd2llck5IcXlOU2czVXRDdGtiQXl2MkxfR1B0alZjVko5a2MwXzBZakZvMG9FWXRXcVdIUFpuZk84YmE3d1hXT0hQeVdBbWt6OHJMQmR6Wm5NdGRhT2xZMURIZzJDakszNVliVERMNGphbVBfbi1kMXNZeXA2aWRHRDFzUVVXZzdvWE9sbm5WSmVlUi04UEE2TDF3Z1pucVBLNzBYX0pCNWl5VkxGTG5VOEZ3STF6MmowUVctczRDeGN1SG9GX3pOVlV1dHBxX0xjaWxYa1hLYW8?oc=5"
-        },
-        {
-          "title": "Investors may be hitting pause on the AI run-up - Axios",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hdTcwNnRfNlBIbDg5eHRXejdHMlItczB1OEpmWmdld2dsSHpTdXlZM2xvZ3V1Um5YVU1QcmZfUlJPb2FicWhXRW93dDZlM01wamFUQzBFSjJ4QWZjQTVYV2l0YXZVQ1k?oc=5"
-        },
-        {
-          "title": "The tech stocks now leading this bull market are far more volatile than the old guard - MarketWatch",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMTBkUTlsbkZzVVVqYTNoRnZLRXZjLUlWODdPdnBTNDZhSENOdTVYVmRscGVFblhEeFFBWXBVWHVhM3FoR29ZM2o1Q3BheHdCWDkzTm8xR193UlpzZlJSS0lhMVpvS1hDb3g5U2xFTElZaWRMU21yeTVjQk82OEFCZE5CRnpHWjF3WUhGUi03cTFjNVVIZkM5QW5jXzcwNkJwdGlKbU1HdWtsTU9ETVdzY0tldVZqb1ZSY3lFVDFrTGZhaGV6VHp3?oc=5"
-        }
-      ],
-      "float_shares": "155.87M",
-      "short_float": "8.88%",
-      "daily_pct": 4.65,
-      "industry": "AI Compute",
-      "technical_status": "Fail (ADR 3.9% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Micron's strong earnings report and optimistic AI outlook",
-        "discrepancy_note": "Source A (Finviz) contains no information to confirm or deny the claim regarding Micron's earnings report or AI outlook. Therefore, the claim cannot be confirmed by 'BOTH sources' as required."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "MU",
-      "price": 1048.51,
-      "gap_pct": 17.81,
-      "pm_volume": 1367742,
-      "avg_vol_10d": 53971254,
-      "avg_dollar_vol": 56589399532,
-      "mkt_cap": 1182440396568,
-      "rvol": 1.0,
-      "adr_pct": 6.88,
-      "category": "Earnings",
-      "theme": "Beat & Raise",
-      "reasoning": "Micron Technology reported stellar Q3 earnings, significantly beating analyst expectations and providing a bullish outlook, leading to a substantial stock rally.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "A",
-      "finviz_theme": "Semiconductors - Memory",
-      "analysis_detail": "Catalyst: Micron's Q3 earnings significantly **beat** expectations and included a highly **bullish** outlook, reigniting optimism in the broader semiconductor and AI sectors. | Impact: The positive surprise and forward guidance indicate strong demand, especially from the AI segment, de-risking future revenue streams and projecting accelerated growth for the company.",
-      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nMicron Technology delivered **stellar Q3 earnings**, with reports indicating a significant **beat** on both top and bottom lines. This performance has been described as potentially its **best post-earnings performance ever**, highlighting the magnitude of the surprise and the market's overwhelmingly positive reaction, causing Nasdaq futures to **rally**.\n\n• **The Growth (Momentum)**\nThe company's **bullish outlooks** and strong earnings report have **revived the AI trade**, suggesting robust demand for its memory solutions, particularly in the high-growth AI compute market. This momentum is extending beyond Micron, with other chip stocks rallying in sympathy, indicating broad sector tailwinds following the positive update.\n\n• **The Guide**\nWhile specific guidance numbers aren't detailed in the headlines, the consistent mention of \"bullish outlooks\" strongly implies a **raised future guidance**. This forward-looking optimism is a key driver for the stock's surge and investor confidence in its continued growth trajectory, projecting strong demand into future quarters.",
-      "peer_tickers": [
-        "NVDA",
-        "AMD",
-        "WDC"
-      ],
-      "headlines": [
-        {
-          "title": "Nasdaq futures rally as Micron surges after earnings; Wall Street awaits key inflation reading: Live updates - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBybXVXek5NVzgzZUpoRWliLXJTN2FqTElKVWczTV9qa25BZlVVZE5pcFRCbzBKVjFfU0pKc2pkOE43S0R4UFJScFB3MVYwSHN4Y1dKbkRpTWRKc1ZXVFFza1hPbzlCSEZqWG4xRXdYVnlIVzBDRDhZ0gF8QVVfeXFMTzE1RmZFSno3UWtmTF9LU0ZsajUtSUFfWjRVSmVFa3J4VEZpc0VCNDhOUk5hQVhYT2tVNzU2dVFzdVhiQ1dkQlJ3OTJsSjlGRnFSd2x1clNQYzBVZWFwa1Z0X1VLWVJTTzFnSXlRQS1zcnFXNE9vYjZfM2ZrWA?oc=5"
-        },
-        {
-          "title": "Wendy’s Stock Is Changing Hands More Than Micron Today - Barron's",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pbDdXRkh0WklmcUM3NVhHSkxRNDN1cDNJa2M0UXh2ZVhIaHpDUVF4ZUx6bW85QUZrNGt4bURUNHF6RlZvSl9wNkJ0YTZTVlJBcWNkMGZzb2pScl81NDVaeUJEbmVvTFFGQzQyQUNOMjFCUXJMbnhtREkwbUVRZw?oc=5"
-        },
-        {
-          "title": "Chip stocks rebound after bullish outlooks from Micron, Qualcomm",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/video/chip-stocks-rebound-bullish-outlooks-033710436.html"
-        },
-        {
-          "title": "Top After-Hours Gainers Today Beyond Micron: QCOM, AMAT, LRCX Surge",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/569100b2-ad54-3905-a8c0-2aaa2996999b/top-after-hours-gainers-today.html"
-        },
-        {
-          "title": "Micron's stock could record its best post-earnings performance ever",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/micron-s-stock-could-record-its-best-post-earnings-performance-ever-PGorKoOIc3YNj82pqoHB?mod=mw_FV"
-        }
-      ],
-      "float_shares": "1.12B",
-      "short_float": "3.35%",
-      "daily_pct": -0.31,
-      "industry": "Semiconductors - Memory",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "The percentage increase of Micron Technology's stock post-earnings.",
-        "discrepancy_note": "Source A (Finviz) mentions a stock rally for Micron but does not provide a specific percentage gain. Source B (Google News) provides conflicting percentages: 'Micron stock jumps 15%' (CNBC) and 'Micron Technology Rises 10.55% Post-Market' (Moomoo)."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "SNDK",
-      "price": 1914.46,
-      "gap_pct": 15.84,
-      "pm_volume": 183279,
-      "avg_vol_10d": 10945541,
-      "avg_dollar_vol": 20954800423,
-      "mkt_cap": 283511930418,
-      "rvol": 0.75,
-      "adr_pct": 7.77,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "Moving in sympathy with Micron (MU) following its stellar Q3 earnings report and positive forecasts.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "ticker": "AVEX",
+      "price": 15.43,
+      "gap_pct": 6.16,
+      "pm_volume": 68434,
+      "avg_vol_10d": 2167337,
+      "avg_dollar_vol": 33442010,
+      "mkt_cap": 1759663450,
+      "rvol": 0.87,
+      "adr_pct": 11.2,
+      "category": "Institutional Buying",
+      "theme": "Russell 2000 Index Inclusion",
+      "reasoning": "AEVEX will be added to the Russell 2000 Index effective June 29, triggering forced institutional buying.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
       "conviction": 56,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Memory",
-      "analysis_detail": "Catalyst: Micron (MU) reported stellar Q3 earnings and strong forecasts, igniting a broad rally across chip and memory stocks. | Impact: SNDK, as a memory peer, is moving **higher** in sympathy, benefiting from positive sentiment regarding industry demand and pricing.",
-      "analysis_details": "• **What Happened**\nMemory and broader chip stocks, including Sandisk (**SNDK**), surged following **Micron Technology's (MU)** stellar Q3 earnings report. Micron reported a **record quarter** and provided **optimistic forecasts**, sparking a **$400 billion AI chip stock rally**. This positive sentiment signals strengthening demand and potentially improving pricing trends across the semiconductor and memory sectors, benefiting peers like **SNDK**.\n\n• **Key Consideration**\nWhile **SNDK** is experiencing a significant **sympathy move**, the rally is not driven by company-specific fundamental news. Its **RVOL of 0.8x** suggests current trading volume is below its 20-day average despite the price action, which could imply less conviction purely for **SNDK** or that the move is more driven by sector-wide ETF flows. The **7.8% ADR** indicates high recent volatility and potential for continued large daily swings. Investors should monitor for any direct **SNDK** specific news to confirm sustainable upward momentum.",
+      "grade": "C",
+      "finviz_theme": "Cloud SaaS",
+      "analysis_detail": "Catalyst: AEVEX (AVEX) is set to join the Russell 2000 Index as part of its annual reconstitution, with the change becoming effective on **June 29, 2026**. This announcement was made across multiple financial news outlets on **June 25, 2026**. | Impact: This inclusion will lead to significant inflows from passive index funds that track the Russell 2000, substantially **increasing AVEX's institutional ownership and liquidity**.",
+      "analysis_details": "• **The Buyer**\nThe primary buyers will be passive index funds and ETFs that track the Russell 2000 index, as they are mandated to hold constituents. This guarantees a significant influx of capital into AVEX shares, proportional to its market cap within the index, creating sustained demand leading up to and after the effective date. These forced buying flows provide a strong technical tailwind.\n\n• **Conviction Signal**\nInclusion in the Russell 2000 **enhances AVEX's visibility** to a broader institutional investor base, including active small-cap managers who screen for index members. It also typically **improves liquidity** and **reduces stock volatility** over time due to the increased institutional ownership, de-risking the stock for a wider array of investors, making it a more attractive long-term holding.",
       "peer_tickers": [
-        "MU",
-        "WDC",
-        "STX"
+        "MNDY",
+        "SMAR",
+        "GTLB"
       ],
       "headlines": [
         {
-          "title": "Is Sandisk (SNDK) a Good Stock to Buy for the Long Term? - Yahoo Finance",
+          "title": "Enterprise value to revenue forward of AEVEX Corp. – NYSE:AVEX - TradingView",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFVpc3hhNzhkcTNyZzd3YWZ1UXBaQS0yQ1JMZ3VoNVBacGVmR1BQQnl3anM0Zm9UemRGeE9xbVQxSVZZQWRsNTJkZ0ZfU1ZCbXl6NUY4Q2tKb1dxY0VtR0F3SGc4YUdEYU1hbE5TZWk2ZTB0NWExSlZXVGFqcTlPX19fUFRCZDhEQlJLQUJRbEduQTJUTFd3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2N4UElMY1g0VDJpeVRsRDN6bmtuXy15bHR2UFpMYVdQaS1iWnZJTXdKZWkyRDdzbGw4Si1yQ3lkSTVfOTgzYktFRGpTb3JfSWw1VzNNQ203SmNiWmNkN3ZVOHFVV0FUS1BhWFdBT0JHRUZEVGo3UzVIZGFFS0N6ekJ1aUVGYWd5Y2NrWTFHTlRBYzFqczJnbUpTbzk4WFZWNExyVHhwb2dJdw?oc=5"
         },
         {
-          "title": "WDC, STX, SNDK, INTC, AMD: Chip Stocks Rally After Micron's Stellar Q3 Earnings - Yahoo Finance",
+          "title": "AEVEX (AVEX) Insider Trading Activity 2026 - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVGpuVmk0QUxGTlhJTEhCbEs3cHViZlJTcElsNW9wNDRlLTB3MmVIR3dXcjBKU0VSTUt6TDhOdWFJc0FpQ2dDdEE2VlhxMk9DU2x6N0tyZGhSTWIzUHc5MFdMTlM1S3ExdFN5VFN6dFgzQ3NBeENWY01YU1RsdWtVLXRnSDJxU3puRWpHUEtlZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xaER4Q1NsZzk1RVBwYnp5RlZZbHRnUkRsQjR0MFJYSmJJUVE2TzhNdTZKZW5DOTZqb3ZHeTk1SkVkSFJUYzNBTFVoMUxWdzE5M0VrRXhMNjVSQWprbmNXYjRraHMzV0pnYnlF?oc=5"
         },
         {
-          "title": "Micron and Qualcomm forecasts ignite $400 billion AI chip stock rally",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-qualcomm-forecasts-ignite-400-230933990.html"
+          "title": "AEVEX (AVEX) to Join Russell 2000 Index in 2026 - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORWs0emg3cU9Xd29BTHF3WXFqZldMMjdsWk1kbEdHQTVnUHhLd0ZxRVFLVzRDTlVsQzlBYkQ0S21GLXUtNFpMbnplcjBsOGVmWDBTR3ROYW5iYm5fR2t2cGlQMVlrd2FJRXZfQ0xGX1V1M0l6blJiREJWdFF3Z25xbmoydzVmSldrMVJIRg?oc=5"
         },
         {
-          "title": "Chip stocks surge premarket on Microns record quarter",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-surge-hours-micron-215200610.html"
+          "title": "AEVEX to join Russell 2000 Index effective June 29 - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3lfZUE3NWdseGtDcUE0NlMybVFKREw1N0hiY0Y2ZXFPQ25lOGhYbEUxT0hnODVENmNCYXVBSkRtZldXWHhYdTdzc2R5SG16akxrM0ZpRHFPUXJtZy12X2lBc0dkVmgwVnFub1pnOFJySll0ZzEzbDJsLXN2ZmRXWUJVQzRtdmJLQWgtSlRpYzlJRGdicl91Smp1U1RpbE1pcmYyRmZpQ0F3VHc?oc=5"
         },
         {
-          "title": "Sandisk and other memory stocks jump after Micron's earnings report",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/sandisk-and-other-memory-stocks-jump-after-micron-s-earnings-report-EIvoQmFxYUZVjFZ7cEeW?mod=mw_FV"
+          "title": "AEVEX gains Russell 2000 spot as visibility broadens with index inclusion - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0xUR1BxZlRkYWdhLVVCbFF2NjBmSGRYR01mY3Zsdnd2bVMxZ19wazNsQjFKbFF1NU1mbllFVzhaVVNqd3VxbWxJcjhKUVVXLXpCS3hMVkxDaTdZOGZqUDEzaVpLMVVUZ3ZRWno0ZGtnWVU0aXNNVWVwV3BKXzcwc1RGbTZiRDQ4enhSZnJCVndNN3U2akhzS3ZWRjFVb3RXV1ZJVHpaY0hRX0JL?oc=5"
         }
       ],
-      "float_shares": "146.00M",
-      "short_float": "6.31%",
-      "daily_pct": -2.5,
-      "industry": "Semiconductors - Memory",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 40,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "SNDK moved positively in sympathy with Micron (MU) following MU's stellar Q3 earnings report and positive forecasts.",
-        "discrepancy_note": "Finviz (A[1], A[3], A[4]) and Google News (B[4]) confirm SNDK rallied/jumped/surged due to Micron's stellar Q3 earnings. However, Google News also contains a headline (B[5]) stating, 'SanDisk Stock Is Down,' which directly contradicts the claim of a positive movement in sympathy."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "WDC",
-      "price": 643.83,
-      "gap_pct": 12.69,
-      "pm_volume": 139806,
-      "avg_vol_10d": 11229735,
-      "avg_dollar_vol": 7230040285,
-      "mkt_cap": 221916700943,
-      "rvol": 1.22,
-      "adr_pct": 6.63,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "WDC stock surged in sympathy with other memory and chip stocks following Micron Technology's stellar Q3 earnings report and optimistic forecast.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 57,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Memory",
-      "analysis_detail": "Catalyst: Sector Tailwinds | Impact: Secondary. No company-specific news for WDC; its strong upward move is correlated to the broader Semiconductors - Memory trend after Micron's strong Q3 earnings and optimistic forecast for the AI chip market, suggesting improving demand and pricing.",
-      "analysis_details": "• **What Happened**\nWestern Digital (WDC) experienced a significant upward move, rallying alongside other memory and chip stocks. This surge was primarily triggered by **Micron Technology's (MU) stellar Q3 earnings report**, which **beat** expectations and provided an **optimistic forecast**, igniting a **$400 billion** rally in the AI chip sector.\n\n• **Key Consideration**\nWhile there was no direct company-specific news for WDC, the strong performance of Micron signals **positive industry tailwinds** for the memory sector, including **improving demand** and potentially **better pricing** for NAND and DRAM. WDC's participation in the rally, on **1.2x RVOL**, indicates strong market sentiment and capital flow into the memory space, despite a prior day decline of **3.63%**.",
-      "peer_tickers": [
-        "STX",
-        "AMAT"
-      ],
-      "headlines": [
-        {
-          "title": "WDC, STX, SNDK, INTC, AMD: Chip Stocks Rally After Micron's Stellar Q3 Earnings - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVGpuVmk0QUxGTlhJTEhCbEs3cHViZlJTcElsNW9wNDRlLTB3MmVIR3dXcjBKU0VSTUt6TDhOdWFJc0FpQ2dDdEE2VlhxMk9DU2x6N0tyZGhSTWIzUHc5MFdMTlM1S3ExdFN5VFN6dFgzQ3NBeENWY01YU1RsdWtVLXRnSDJxU3puRWpHUEtlZw?oc=5"
-        },
-        {
-          "title": "Micron and Qualcomm forecasts ignite $400 billion AI chip stock rally",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-qualcomm-forecasts-ignite-400-230933990.html"
-        },
-        {
-          "title": "Chip stocks surge premarket on Microns record quarter",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-surge-hours-micron-215200610.html"
-        },
-        {
-          "title": "Sandisk and other memory stocks jump after Micron's earnings report",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/sandisk-and-other-memory-stocks-jump-after-micron-s-earnings-report-EIvoQmFxYUZVjFZ7cEeW?mod=mw_FV"
-        },
-        {
-          "title": "Dow Jones Futures: Micron Jumps On Earnings, Lifts Memory, Chip Stocks; Fed Inflation Data Due",
-          "source": "Finviz",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-micron-earnings-sandisk-memory-chip-stocks-fed-inflation-data?mod=IBD_FV"
-        }
-      ],
-      "float_shares": "341.04M",
-      "short_float": "9.35%",
-      "daily_pct": -4.01,
-      "industry": "Semiconductors - Memory",
-      "technical_status": "Pass",
+      "float_shares": "20.78M",
+      "short_float": "4.50%",
+      "daily_pct": 0.59,
+      "industry": "Cloud SaaS",
+      "technical_status": "Fail (Avg $Vol $33M < $100M)",
       "verification": {
         "status": "Discrepancy",
         "confidence_score": 90,
@@ -298,66 +65,85 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "WDC stock surged",
-        "discrepancy_note": "While Source A and Source B[1] suggest WDC stock rallied/surged, Source B[4] explicitly states 'Western Digital Corp Stock (WDC) Moved Down by 3.63% on Jun 24,' which directly contradicts the claim that WDC stock surged."
+        "primary_claim": "AEVEX will be added to the Russell 2000 Index effective June 29.",
+        "discrepancy_note": "Source A (Finviz) confirms AEVEX's addition to the Russell 2000 but does not specify an effective date. Source B (Google News) contains one headline ('Investing.com') confirming 'effective June 29', but another headline ('GuruFocus') states 'to Join Russell 2000 Index in 2026', creating a conflict regarding the timing of the inclusion."
       },
-      "gates_passed": 5,
+      "gates_passed": 3,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": true
       },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "VELO",
-      "price": 18.05,
-      "gap_pct": 11.97,
-      "pm_volume": 61984,
-      "avg_vol_10d": 6840839,
-      "avg_dollar_vol": 123477144,
-      "mkt_cap": 537908072,
-      "rvol": 0.47,
-      "adr_pct": 16.59,
-      "category": "Thematic Narratives",
-      "theme": "Sector Tailwinds",
-      "reasoning": "VELO is likely moving in sympathy with positive developments in the e-bike sector, driven by Lime's announcement of a new e-bike share program.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 55,
+      "ticker": "FCEL",
+      "price": 19.65,
+      "gap_pct": 4.17,
+      "pm_volume": 332411,
+      "avg_vol_10d": 11776555,
+      "avg_dollar_vol": 231409306,
+      "mkt_cap": 1328500506,
+      "rvol": 1.04,
+      "adr_pct": 15.88,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; the recent price action indicates technical profit-taking and narrative reassessment.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
       "grade": "C",
-      "finviz_theme": "Electric Vehicles",
-      "analysis_detail": "Catalyst: Victoria Buzz reported that Lime is launching a new e-bike share program in Victoria, indicating continued expansion of shared electric mobility services. | Impact: This news provides a sector-wide thematic tailwind for e-bike manufacturers and related companies, suggesting growing market adoption, though it doesn't directly impact VELO's financials.",
-      "analysis_details": "• **The Narrative**\nVictoria Buzz reported that Lime is introducing a new e-bike share program in Victoria this summer. This development reinforces the broader narrative of **expanding adoption** and **market penetration** for electric two-wheelers and shared urban mobility solutions. While specific to Lime and a localized market, it highlights **positive industry momentum** for companies operating within the e-bike ecosystem, like VELO.\n\n• **Explosiveness**\nThe impact of this news on VELO is considered **modest** and **indirect**. While the expansion of e-bike programs contributes to a **favorable thematic backdrop**, this particular announcement is localized and and does not represent a **transformative catalyst** for VELO's specific business operations or financial outlook. It primarily serves as a **reinforcement** of existing growth trends in the sector.",
+      "finviz_theme": "Clean Energy - Hydrogen",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. The recent **10% drop** in FCEL, described as **profit-taking reversal**, occurred without new company-specific fundamental news. This suggests short-term momentum is reversing due to technical factors and a re-evaluation of the existing 'AI data center demand' narrative, posing a high risk of further price erosion without fresh catalysts.",
+      "analysis_details": "• **What Happened**\nFuelCell Energy experienced a **10% decline** today, attributed by market commentators to **profit-taking reversal** after a recent strong rally. This movement appears largely **technical** in nature, with no specific new fundamental news from the company to explain the sharp downtick. Headlines suggest a **whipsaw** action as \"AI Hype Collides With Losses\" for the company.\n\n• **Key Consideration**\nThe stock's volatility is being driven by the ongoing narrative around **AI data center demand** potentially benefiting hydrogen fuel cell providers, juxtaposed with the company's underlying **losses**. Without a new, concrete contract or strategic partnership directly linking FCEL to AI infrastructure, the current price action remains highly **speculative** and vulnerable to technical reversals, despite an average trading volume (RVOL 1.0x).",
       "peer_tickers": [
-        "NIU",
-        "ZEV",
-        "FUV"
+        "PLUG",
+        "BLDP"
       ],
       "headlines": [
         {
-          "title": "New Lime e-bike share program coming to Victoria this summer - Victoria Buzz",
+          "title": "FuelCell Energy Drops 10%, Bloom Energy Falls 7% in a Profit-Taking Reversal as Plug Power Edges Up - 24/7 Wall St.",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONzhjanNOTXgwYkhORzhBNWVJbWFjajlvWldVSHdMWUM1VnItY2w1UXVQUzhneHlfX3F5V1c4Vl9mWDYyYUFlQjNtR1Q5c1NOVkNIS05fZGZqN3BYdE5WNUpPRlEwakVBdFFvRnNoVDBMZ1h5NGRaaUgtazRqVjNiVHI0ZXh5eW40V3V4TWw3dzk1ZXVPWXowUFdB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaEJ3T1dOV3Y4VnJSOVlDYnpnZ0l0aXBVZXJ3cWV0eEtheGhTWFF6MWlzdzZxUG80aWxXMW0wOU5ramlpOWs4M2lJc0ZoYXZIUXZJbjFLUjdubFdsNUg2M1dIZWdXV3VVZWc1RmgwR2xPdnJUY3RWeWFoZ1RrRGJ1cUNUdkhRWkUzbHhMNUw2d01jeDhJNTNId0tSM1I4UVNsQU03RGNabUF4QzM3bWdsYWVLRlpJV0UzX3c4VHhyTEw3VnoyQkMzUXlBMl80cTBQbUFacDhzQQ?oc=5"
+        },
+        {
+          "title": "FCEL Stock Whipsaws As AI Hype Collides With Losses - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB4OThOck5zRUZESENSZ2Y0cS0wUWhKRzM5U3RucTI4ZFp3aXB5T3hMUDJ4MUpyajNpYXYza0E5RnM1REgxQWRhN2lieVZaLWRjTTZLMDJPeVZHVHJ4VEstLW1wYmR5aUltREttVF9UQ1ZZbVpHX1Q0bXNrdGU?oc=5"
+        },
+        {
+          "title": "Is FCEL Stock Worth Buying After a Strong Rally? - Zacks Investment Research",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVWxBYkpMcTZ1LXNTdmw3MUxidEpiaHZwc3U4WmNUcXZjbTF5LVNacXlfb3M1clhOa0g1emVpLWpwMnN2WnI1LTFwd2xNYXlBOXVzNTVuY1dJY0V4aHBUVlZyV2VkZjk2TTlrRURxaXRuZEVRSjMxaG1EWkx3NWpZOExIbTc0dmhNVm9mSjRWSFVXUQ?oc=5"
+        },
+        {
+          "title": "FCEL Stock Rides AI Data Center Demand, But Risks Remain - Yahoo Finance Singapore",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92VS1fNE95bkVlcDFYRG5WaGJIRUNpa01tME9WN1NzNEVyZmgtTjZSTlJndGhpdmYwNnVCa3VZRm94Z1h2cHhCOUdsbnp0UXo3ZTZUcTVTbnRWVWZRZFJ5RGQ2YkVvOE9RZ3VjZ1Jka1BsS0tNN09kOVRrU2Jadw?oc=5"
+        },
+        {
+          "title": "Is FCEL Stock Worth Buying After a Strong Rally? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV3F0aXpOOF91anI3Q2ttRnJnQkR3bkZXNl9TcU0wS25pVlpXNF9GT0pNRHRqYW8zMjc4amxxY1ZpVHpGa1VuNERtY3BCUEpuTW9FWUg5bk1yckUzRjh4NWF5d3A0YUJmbW94VHhOTXBUd3lDTEo1cm1JMkxreDhBdFVwemZlcVNOYlJmb3dGOFlKY1NzLXN4endZbw?oc=5"
         }
       ],
-      "float_shares": "13.70M",
-      "short_float": "20.42%",
-      "daily_pct": -12.63,
-      "industry": "Electric Vehicles",
+      "float_shares": "67.39M",
+      "short_float": "10.17%",
+      "daily_pct": -8.86,
+      "industry": "Clean Energy - Hydrogen",
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 70,
+        "confidence_score": 100,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Lime's announcement of a new e-bike share program coming to Victoria this summer.",
-        "discrepancy_note": "Source B confirms 'New Lime e-bike share program coming to Victoria this summer', but Source A contains no mention of this claim."
+        "primary_claim": "No immediate fundamental catalyst found; the recent price action indicates technical profit-taking and narrative reassessment.",
+        "discrepancy_note": "Source A (Finviz News) contains no information, preventing confirmation by both sources. Source B (Google News) provides supporting evidence for 'profit-taking' (e.g., [5] 'Profit-Taking Reversal') and 'narrative reassessment' / 'no immediate fundamental catalyst' (e.g., [3] 'AI Hype Collides With Losses', [4] 'Risks Remain'). However, due to the complete absence of information in Source A, the claim cannot be 'Verified' by both sources."
       },
       "gates_passed": 4,
       "gates_detail": {
@@ -372,288 +158,61 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "QCOM",
-      "price": 197.41,
-      "gap_pct": 10.29,
-      "pm_volume": 284215,
-      "avg_vol_10d": 21165997,
-      "avg_dollar_vol": 4178379468,
-      "mkt_cap": 208070143860,
-      "rvol": 1.37,
-      "adr_pct": 7.01,
+      "ticker": "SYNA",
+      "price": 125.62,
+      "gap_pct": 3.87,
+      "pm_volume": 71550,
+      "avg_vol_10d": 728266,
+      "avg_dollar_vol": 91484775,
+      "mkt_cap": 4853665954,
+      "rvol": 1.28,
+      "adr_pct": 6.52,
       "category": "New Contract/Partnership",
-      "theme": "New Product Line & Strategic Partnerships",
-      "reasoning": "Qualcomm announced a new line of AI data center chips and systems, securing partnerships with Meta and Hugging Face, and significantly raising its 2029 non-handset revenue projections.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 78,
-      "grade": "A+",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: Qualcomm launched its Dragonfly AI data center chips and systems, announcing strategic partnerships with Meta and Hugging Face, alongside a revised bullish outlook for non-handset revenue by 2029. | Impact: This move positions Qualcomm as a significant competitor in the high-growth AI data center market, directly challenging Nvidia, and has led to a projected **doubling** of non-handset revenue by **2029**, indicating substantial long-term growth potential.",
-      "analysis_details": "• **Impact**\nQualcomm has **officially entered** the AI data center chip market with its new Dragonfly lineup and systems, securing **key partnerships** with industry giants **Meta** and **Hugging Face**. This strategic expansion is projected to lead to a near **doubling** of non-handset revenue by **2029**, exciting Wall Street and causing a **15% stock pop** post-announcement.\n\n• **Strategic Value**\nThe move signifies Qualcomm's aggressive pivot to diversify beyond mobile, directly targeting the lucrative AI data center segment dominated by **Nvidia**. Partnerships with **Meta** (for custom AI inference chips) and **Hugging Face** (for system integration) provide immediate market access and validation, establishing a credible competitive threat and unlocking a substantial new growth vector for the company.",
-      "peer_tickers": [
-        "NVDA",
-        "AMD",
-        "MRVL"
-      ],
-      "headlines": [
-        {
-          "title": "Chip stocks rebound after bullish outlooks from Micron, Qualcomm",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/video/chip-stocks-rebound-bullish-outlooks-033710436.html"
-        },
-        {
-          "title": "Top After-Hours Gainers Today Beyond Micron: QCOM, AMAT, LRCX Surge",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/569100b2-ad54-3905-a8c0-2aaa2996999b/top-after-hours-gainers-today.html"
-        },
-        {
-          "title": "Nasdaq, S&P 500, Dow Futures Rise As Micron, Qualcomm Calm AI Jitters: Why WEN, SPCX, NVDA Stocks Are Also In Focus",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/e344365d-0307-3738-a9ee-484e3b215b98/nasdaq%2C-s%26p-500%2C-dow-futures.html"
-        },
-        {
-          "title": "Qualcomm integrates Dragonfly data center systems into expanded Hugging Face AI partnership",
-          "source": "Finviz",
-          "url": "https://www.digitimes.com/news/a20260625PR200/qualcomm-ai-partnership-data-center-infrastructure-cost.html"
-        },
-        {
-          "title": "Qualcomm pushes into data center chips with Dragonfly lineup and Meta deal, taking aim at Nvidia",
-          "source": "Finviz",
-          "url": "https://www.digitimes.com/news/a20260625VL201/qualcomm-data-center-nvidia-meta-chips.html"
-        }
-      ],
-      "float_shares": "1.05B",
-      "short_float": "4.28%",
-      "daily_pct": -3.29,
-      "industry": "AI Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Qualcomm almost doubles its 2029 non-handset revenue projection.",
-        "discrepancy_note": "Source B[3] (CNBC via Google News) states Qualcomm 'almost doubles projection for 2029 non-handset revenue,' providing a specific quantification of the raise. However, Source A (Finviz) does not mention this specific claim, the 2029 non-handset revenue projection, or any numerical increase associated with it."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "STX",
-      "price": 993.25,
-      "gap_pct": 9.79,
-      "pm_volume": 66291,
-      "avg_vol_10d": 5034763,
-      "avg_dollar_vol": 5000778350,
-      "mkt_cap": 222715442974,
-      "rvol": 0.93,
-      "adr_pct": 6.3,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "Seagate (STX) shares rallied in sympathy with Micron Technology (MU) following its stellar Q3 earnings report and strong forecasts, which boosted the broader AI chip and memory sector.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Memory",
-      "analysis_detail": "Catalyst: Micron Technology reported stellar Q3 earnings, **beating** expectations and providing **strong guidance** with specific tailwinds from the AI chip market. | Impact: This positive outlook for memory and storage demand has fueled a broad sector rally, driving STX shares higher in sympathy due to shared industry fundamentals and sentiment.",
-      "analysis_details": "• **What Happened**\nSeagate (STX) shares experienced a significant uptick following Micron Technology's **stellar Q3 earnings report**. Micron not only **beat** analyst expectations but also issued **optimistic guidance**, particularly emphasizing robust demand from the burgeoning AI chip sector. This ignited a **$400 billion** AI chip stock rally, pulling memory and storage peers like STX higher.\n\n• **Key Consideration**\nWhile the move is a strong **sector sympathy play**, it lacks **company-specific fundamental news** for STX itself in this immediate timeframe, apart from a Trefis article noting \"unfilled orders\" as a positive signal. Investors should monitor STX's own upcoming reports for confirmation of direct benefits from the sector tailwinds, as the current rally is primarily driven by broader market sentiment regarding memory demand.",
-      "peer_tickers": [
-        "WDC",
-        "MU"
-      ],
-      "headlines": [
-        {
-          "title": "WDC, STX, SNDK, INTC, AMD: Chip Stocks Rally After Micron's Stellar Q3 Earnings",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/d58c5d17-cdfe-3d1e-b56a-0d27fac09d33/wdc%2C-stx%2C-sndk%2C-intc%2C-amd%3A.html"
-        },
-        {
-          "title": "Micron and Qualcomm forecasts ignite $400 billion AI chip stock rally",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-qualcomm-forecasts-ignite-400-230933990.html"
-        },
-        {
-          "title": "Sandisk and other memory stocks jump after Micron's earnings report",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/sandisk-and-other-memory-stocks-jump-after-micron-s-earnings-report-EIvoQmFxYUZVjFZ7cEeW?mod=mw_FV"
-        },
-        {
-          "title": "Why SanDisk Stock's Flat Production Is Its Most Bullish Signal",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/d2f60edb-c509-378c-bb36-3dee067f289b/why-sandisk-stock%27s-flat.html"
-        },
-        {
-          "title": "Seagate Stock's Unfilled Orders Were The Real Tell",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/3b1dfd6c-447d-3d2e-9069-7416ca890b86/seagate-stock%27s-unfilled.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Semiconductors - Memory",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 85,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Micron Technology (MU) had a stellar Q3 earnings report and strong forecasts, which boosted the broader AI chip and memory sector, leading to a rally in Seagate (STX) shares.",
-        "discrepancy_note": "Source A (Finviz) explicitly states that 'Chip Stocks Rally After Micron's Stellar Q3 Earnings' and mentions 'Micron and Qualcomm forecasts ignite $400 billion AI chip stock rally,' directly confirming the catalyst. Source B (Google News), however, does not mention Micron's Q3 earnings report or forecasts at all as a reason for STX's movement or the broader sector's rally in its provided headlines. Instead, it suggests other reasons for STX's movement (e.g., 'Unfilled Orders Were The Real Tell') or reports negative movement on a specific date."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "BB",
-      "price": 8.62,
-      "gap_pct": 9.07,
-      "pm_volume": 1835030,
-      "avg_vol_10d": 28169539,
-      "avg_dollar_vol": 242821426,
-      "mkt_cap": 5051849900,
-      "rvol": 1.32,
-      "adr_pct": 8.55,
-      "category": "Earnings",
-      "theme": "Earnings Beat",
-      "reasoning": "BlackBerry Limited reported Q1 adjusted EPS of $0.04, beating FactSet estimates of $0.03.",
+      "theme": "Acquisition",
+      "reasoning": "Synaptics (SYNA) is being acquired by Onsemi in a **$7 billion all-stock deal**, causing SYNA's stock to **soar 12%** after hours.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 77,
-      "grade": "A",
-      "finviz_theme": "AI Edge & IoT",
-      "analysis_detail": "Catalyst: BlackBerry Limited announced Q1 adjusted EPS of **$0.04**, surpassing analyst expectations of **$0.03** by **33%**. This strong **beat** indicates better-than-anticipated profitability. | Impact: The positive earnings surprise has likely fueled a significant overnight jump in the stock, as retail sentiment already predicted strong results from the QNX segment.",
-      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nBlackBerry Limited reported **Q1 adjusted EPS of $0.04**, significantly **beating** FactSet estimates of **$0.03**. This represents a **33% positive surprise**, signaling better-than-expected operational performance for the quarter. The market reacted positively overnight, with retail sentiment on Stocktwits anticipating strong earnings driven by the BlackBerry QNX segment.\n\n• **The Growth (Momentum)**\nWhile specific revenue figures or segment breakdowns are not yet available, the mention of BlackBerry QNX as a key driver by retail analysts suggests continued momentum in BB's embedded systems and automotive software segment. QNX is a critical component for IoT and advanced driver-assistance systems (ADAS), aligning with current secular growth trends in **AI Edge & IoT** and potentially providing future growth catalysts.\n\n• **The Guide**\nNo explicit guidance updates were provided in the initial earnings flash. Investors will be keen to hear management's outlook on future quarters, especially concerning potential revenue growth in the QNX and cybersecurity divisions. The positive EPS beat provides a strong foundation, but the forward trajectory remains to be fully articulated to sustain momentum.",
-      "peer_tickers": [
-        "CRWD",
-        "PANW"
-      ],
-      "headlines": [
-        {
-          "title": "Earnings Flash (BB) BlackBerry Limited Posts Q1 Adjusted EPS $0.04 per Share, vs. FactSet Est of $0.03 - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbTMzV3owbDNmTU13SnFYTDhMMFpyQWh4NnhBUkZtNGQ1ZVdDb0I2NUNfQlVJQ2RyR1Fyb3JBWG8xS21GaU9QSDFFczl4Y21pZWNQQXZLcmFGLU5zVXZGdkYxMWJOYl9HWGxFY3FEME5leG5SYjJTamdtTkd4d1ctZVlqUExJeEFwQUExS1pGUUx2bDBsMWtJVXN4akE0X1dISkpwOWRBWUdCc01nM0I5cmxSV2llRVFKdFlsYV9lQlowYTZmX01NVW4tSXlFdlpRSjJVNUd4Q1VXRW0yUmhr?oc=5"
-        },
-        {
-          "title": "BB Stock Jumps Overnight: Retail Predicts 'EPIC' Earnings Powered By BlackBerry QNX - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWWowY1dqSXdWblM2MEV2cFVWWXFKcmlfcklJWm5XZHl6dkRzT0NMYTEzb0tPOEJfSkJGODE3cWUxMFBtbWM4bmx1QW9YQ29DV1FGcXJ4bzRHOTM1UGdYWnpUdm11eUZTSEhRb0cyZGQ3TG55WVlvRW1DRHg2UUdWNDJoNWFOOUVDZy1iQW9oMTVQNk4tZF9Cc1NNei1YRWpOWjJyUlZuaHA4d3FhaTBrZmVjOWVRX0JydWV6ck5MNFJMQVJ3R3RqamU0aWdQajNZaGFuX0ktbUc4Nmxabnc?oc=5"
-        },
-        {
-          "title": "‘It’s Not What You Think,’ Says Stifel About Blackberry Stock - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZVlMQVdiSmx1SUlRbFVrVmVnZjdfQWdiVDllQXo5T1ZlajE3ZVN2VU8zbkxORjFnZnlRbjNBeGlOVFpBMDNQWkdvM1QzOWJCWDlVX2VZY2lTRW1HSnNFUkRma0ItYkFEalVBa0VyQ0NJRDM3STdCN1RzMDZCc1FDaEVCMXFBbWNKQ182akFMR2hsdzlsaEJ2WHRWRQ?oc=5"
-        },
-        {
-          "title": "BlackBerry (NYSE:BB) Coverage Initiated by Analysts at Stifel Nicolaus - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdlM3SGo5WjA2dkpFLXMwQmt0MWhsbHduQVB5NnNTVkx1R256WTR4Q1FUYmdsNDFFekNhdVQzSTJSYnRMcHpTTHJqc3UyQS1zUHplenZRSDRvdjhBVWRidkZ3bGhKa0E3bDl0N0gwSEtIOXlrWVBHRTZ0WU05MnR1T1U4c0lYNEVQOHRzdVhOSDFCYmFIcldHUlNyUTJNRjBzckZ4VHVHdFNJWE4tUXYtRGdJeHlqYkZ0elN4T3dR?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "AI Edge & IoT",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "BlackBerry Limited reported Q1 adjusted EPS of $0.04",
-        "discrepancy_note": "Source A (Finviz News) contains no information to confirm the claim. Source B (Google News) contains an article from marketscreener.com ([4]) that confirms 'Q1 Adjusted EPS $0.04 per Share'. Since only one of the two primary sources provides confirmation, it is marked as Discrepancy."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "WEN",
-      "price": 7.86,
-      "gap_pct": 7.51,
-      "pm_volume": 6682464,
-      "avg_vol_10d": 28490480,
-      "avg_dollar_vol": 223935173,
-      "mkt_cap": 1497177829,
-      "rvol": 25.74,
-      "adr_pct": 5.32,
-      "category": "Others",
-      "theme": "Meme Stock Rally",
-      "reasoning": "WEN's stock is soaring on extremely high volume due to retail speculative buying, reminiscent of a 'meme stock' event, rather than any fundamental company news.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 99,
       "grade": "C",
-      "finviz_theme": "Consumer - Restaurants",
-      "analysis_detail": "Catalyst: Retail speculative buying fueled by social media sentiment, targeting a potential short squeeze. | Impact: Extreme short-term price volatility and **26-30%** surge, with significantly inflated trading volume (RVOL **25.7x**), but lacks fundamental backing and carries high risk of rapid reversal.",
-      "analysis_details": "• **What Happened**\nWendy's (WEN) stock has experienced an unprecedented surge, climbing **26%** to **30%** over the last 24 hours on extremely high volume (RVOL **25.7x**). News headlines indicate this is a retail-driven speculative rally, drawing comparisons to past 'meme stock' events like GameStop, with mentions of Reddit communities initiating the buying spree.\n\n• **Key Consideration**\nThis move appears entirely detached from any fundamental company news or operational developments. The lack of a specific fundamental catalyst and reliance on social media sentiment implies a significant **'pump and dump'** risk. While short-term trading opportunities may arise from the extreme volatility, investors should exercise **extreme caution** due to the high probability of a rapid price correction once retail interest wanes.",
+      "finviz_theme": "AI Edge & IoT",
+      "analysis_detail": "Catalyst: Onsemi announced its intention to acquire Synaptics in a **$7 billion all-stock transaction**, aiming to expand its presence in the growing \"Physical AI\" and intelligent edge markets. | Impact: The deal represents a **significant premium** for SYNA shareholders, with the stock **soaring 12%** following the news, and creates a combined entity with enhanced capabilities in intelligent sensing and edge processing.",
+      "analysis_details": "• **Impact**\nOnsemi has agreed to acquire Synaptics in an **all-stock transaction valued at approximately $7 billion**. This acquisition is a **transformative event** for Synaptics, effectively valuing the company at a significant premium and leading to its integration into Onsemi's broader portfolio. The news caused SYNA stock to **soar 12%** in after-hours trading, reflecting positive investor sentiment regarding the takeout price.\n\n• **Strategic Value**\nThe acquisition is strategically designed to bolster Onsemi's position in the high-growth **\"Physical AI\"** and **intelligent edge** markets, leveraging Synaptics' expertise in human interface solutions, IoT, and edge AI processing. This combination is expected to create a more comprehensive offering in intelligent sensing, analog, and power solutions, expanding Onsemi's TAM and accelerating its growth in industrial and automotive end markets.",
       "peer_tickers": [
-        "CMG",
-        "MCD",
-        "QSR"
+        "QCOM",
+        "MCHP",
+        "NXPI"
       ],
       "headlines": [
         {
-          "title": "Wendy’s Stock Is Changing Hands More Than Micron Today - Barron's",
+          "title": "Synaptics (SYNA) Faces A Fresh Test As Edge AI Hopes Meet Valuation Questions - simplywall.st",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pbDdXRkh0WklmcUM3NVhHSkxRNDN1cDNJa2M0UXh2ZVhIaHpDUVF4ZUx6bW85QUZrNGt4bURUNHF6RlZvSl9wNkJ0YTZTVlJBcWNkMGZzb2pScl81NDVaeUJEbmVvTFFGQzQyQUNOMjFCUXJMbnhtREkwbUVRZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQUlqOXJSbHNzdkhOLUhSUnNSR1U4RFdVTjZfaGFnOGItN1ZFOEhlWURvOWplMnRiMm9Lc2JBaXJnbENOaEdKMUI1ZFVYOHkxVFRiME9nX3F2ZnFuOS1hVGxsYUZ1LUhaaWJKcjN1RHFlWU5ETlNUSnZnOFJ6Um5VcnRTdGotZml4bEVFNXhxQWlzSnpGYnpGZnNGdzljelFxaGZkY3Y3SThTLUpORUtiSkp1R1FEVTV5Z2FackVEX01wVkxHOUhSS0N3dzJXQXPSAdQBQVVfeXFMTzdKY0JOaTlnMnM2Vk9zY2JRbTNxa2RMTExIWnE5aWpVM2xDeUlCNXBIRUl2TEl1RTBqQ0s5NU1SVDFMS0gtLU01bEpDbWZidmZSanNLNzBCRS1NYmpmUE84X0NQbjBoVnlheUphSExBclZwbnQzaGZjRGJFUFlFUlBJdy12endKSkJiaXBFMEVBQXd3UXlfMktveDdJZ0VrX2RjbEdCT0gzbFVjN0NEVFJXWmk1cnNTVThVQ1cxVUZ5RWhmcTJpX2lvckE0YlFQVzY4Qkw?oc=5"
         },
         {
-          "title": "Biggest stock movers Thursday: AI chip stocks, WEN, SPRY, and more (MU:NASDAQ) - Seeking Alpha",
+          "title": "SYNA Stock Alert: Halper Sadeh LLC is Investigating Whether Synap - The National Law Review",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ01LWWpxLTZOZEM4WUo5VEhGeVVoa1dWMXAzXzJ4aW9yRUo2T3VUd2ZsM0dmcXVVeHdVSEg3U1YzeldERGJ1UWUxVXBobGlpVVRBbzE4VUdFT2dXS0V2ZW5wWi1BZV9jZWNHVVVmU2ZxQ0d6Y0pSZmNTR1g0eFR4ZEgyaS1pd1l3bVNMVVowOVhXUWhNTUFIaXhTQXY0amZic1E?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYjdjaEdMN1gxLVl4RlRWcUtzQUNSYnNWM2J4QUlzXzVGQktXWWRMX3BLMXlqMDNoejlmTzVyM1h2R3pibGpIWUFLNmppN1JJeXVsMThtaWRMWHA2eWlMVU1EVXJFRzg2Nm84eGt1UGVodk1YV1NjUU0zbnVBWXlGN2o4WUxFVEhfUWJwUElka0c5VjZnMHE1N2hiTjFCSjN1bVhrTmptTC0?oc=5"
         },
         {
-          "title": "WEN: Wendy Stock Pops 26% as Reddit’s Finest Rush In. Another Pump and Dump? - TradingView",
+          "title": "Onsemi to buy Synaptics in $7 billion all-stock deal - Reuters",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOHpTbHk4d241Z1RqYU1hdkd4dkQyblhWeHp3M3NrX0dHb2dsSWU5SHVHQ2ZCU1RfS0x3VFFJZnV5cmNrZzV4YVdWdHlRTC1WdDY1eDRDU0ItazRUN0lLcUF4ZklvT1VZSWlWNks1bFdOVG9Qc2p1ZmV5dHUyWWlxdWRORl9WcjRGVTRLc3VzT3UwN3BFakh1U2FRUnVVdHNBX0F5Y1FWejhKQXVCNVRsV2YxTVVQS2MtUFQ4S1Q1dTAwRjU4d2Q3NV8wZkRYb1E?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWkzdlBPMnhpUmJFSjFIMjlCTVR3ZklSTHpsekR4bEhPNFo4MUh3VkdURm95NDdmRmNOSG5nMGFnT0ZhSDV2dFBzbUdvN1NiYUt0NUwzdGZBZ1FrRkgydTEzZFRNY0Jfc0hQM2ZGX09HWEtzV2hkNkpzc3FXRnh6anZRVVRhNUNCckZjS3NyaWU2S1BEeUtqd0V3RlZzQTlZQVpZ?oc=5"
         },
         {
-          "title": "Why Is Wendy's (WEN) Stock Soaring Today - Yahoo Finance",
+          "title": "ON Stock Falls 9% After-Hours While SYNA Soars 12% On $7B Synaptics Takeover - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR296RzlyZXV2Y0p0LU9zOVBGYllmRUVhcm5EcC1SRW9ReVU1U0hUVTFvUFBFbEs2UGQ3b1VBbGhNTGFCN1N1MkU4X1NjMFQ4ZVk1akI2Wng4Q0QzQ2wxVkpnQnF0RXZNRWVla0hHcnBjUUZYVm4tM3B4V3Z4YlNYa0JWSjZlbDl2M3c4cXZ3cmpiLUNwLVY4dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQnV1X3I0RWhFRDR3RVlNMEdoR18tZFBmdUF2dzRrb05YQjZ2cXZUQjJwaVFCZDJGU1psTGV3dFE1aW9JeGJ6cWFlSWlzdGQzcVpybXJJNVBvMDRoXy1JTWVyQ2pqVEltN1U4VUlLbGZxRzE5ZnN5YUEyUmJqcFRwdTVQY1VkdTMtdU42WnNWMmx3RVd0WWNDNm01T3JFZVVDUlVyOVgwWVB6Ukxpc29laFdFUTlBaWswYTQyRGZ6MTlBZjJsQmJTT1QxWDVHUQ?oc=5"
         },
         {
-          "title": "WEN-BUY 🚨 NEXT MEME STOCK - Moomoo",
+          "title": "onsemi pays $7B in stock to expand into Physical AI - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT3NtT3E5MnZUanNLeC02bXQyaEFXMWZ2c3B0RmVYQVhsVHRnWW9ubXJFNFZsZkFvUmhhLVNMeEhjQ1hwZi1Eb0RaRDVtZ3JLLVpyUWEwX1JOdzdBdjhFQ1FBSWY5SWxMdVlZNURXZXBIa25lVDROdU9qaGhBVWpCd3dWMA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOW5CdF9HNGtOc2dwZDRjRTFXel95MFpCTm9ZWGpGenc5cmo5Mk5aYjVYeFhnT3M1dE54RUhVbi03TDdab1hhTHJVWnFlS1RHNFVPSkdDR0swdXVPbjl1dVUzRHR2b0t5M2ZvMXpOSzh2czUwaDJiUDc0Y2NnUFhZSWJlUzF4VDBxUVJFYWo5ZE5zY1BTbzZMNVF2ekUyNS1kbmF4aV9vamJqNERwV3AwVHBpNA?oc=5"
         }
       ],
-      "float_shares": "169.44M",
-      "short_float": "29.67%",
-      "daily_pct": 25.66,
-      "industry": "Consumer - Restaurants",
-      "technical_status": "Pass",
+      "float_shares": "37.61M",
+      "short_float": "11.35%",
+      "daily_pct": -3.45,
+      "industry": "AI Edge & IoT",
+      "technical_status": "Fail (Avg $Vol $91M < $100M)",
       "verification": {
         "status": "Verified",
         "confidence_score": 95,
@@ -661,409 +220,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "WEN's stock is soaring due to retail speculative buying, reminiscent of a 'meme stock' event.",
+        "primary_claim": "$7 billion all-stock deal",
         "discrepancy_note": null
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "FRMI",
-      "price": 7.99,
-      "gap_pct": 7.49,
-      "pm_volume": 136497,
-      "avg_vol_10d": 27262696,
-      "avg_dollar_vol": 217828941,
-      "mkt_cap": 5094218350,
-      "rvol": 0.55,
-      "adr_pct": 9.81,
-      "category": "New Contract/Partnership",
-      "theme": "Imminent Tenant Announcement & Shareholder Activism",
-      "reasoning": "Major shareholder Neugebauer is soliciting a special meeting for the company's future and is highly confident a key tenant for Project Matador will be announced soon, signaling potential significant revenue generation.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 75,
-      "grade": "A",
-      "finviz_theme": "AI Compute",
-      "analysis_detail": "Catalyst: Major shareholder Neugebauer has solicited a special meeting for Fermi shareholders to vote on the company's future, while simultaneously expressing high confidence that a significant tenant for its Project Matador AI campus will be announced soon. This comes as Fermi executives testified on their water conservation plan for the AI data center, emphasizing its efficiency. | Impact: This news is a potential **game-changer** for FRMI, a company currently with **zero revenue** and a **$486M loss**. A confirmed tenant would provide its first significant revenue stream, validating the Project Matador AI compute campus and potentially attracting further investment or partnerships. The shareholder activism also suggests potential strategic shifts.",
-      "analysis_details": "• **Impact**\nThe news about an imminent tenant announcement from a highly confident major shareholder is a **critical de-risking event** for Project Matador. For a company with **zero revenue** and a **$486M loss**, securing a major tenant represents the first tangible path to monetization and validating its core AI compute campus strategy. This could attract significant capital and partnership interest.\n\n• **Strategic Value**\nThe proposed tenant, coupled with Fermi's commitment to water stewardship for its AI campus, positions the company as an attractive partner in the rapidly growing, but resource-intensive, **AI compute infrastructure** market. Neugebauer's solicitation for a special shareholder meeting on the company's \"future\" adds further strategic weight, suggesting potential major corporate actions (e.g., M&A, significant financing, or a strategic pivot) are on the table, likely tied to capitalizing on Project Matador's potential.",
-      "peer_tickers": [
-        "SMCI",
-        "VRT",
-        "DELL"
-      ],
-      "headlines": [
-        {
-          "title": "Why Is FRMI Stock Surging Premarket Today? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZEV4cWgxbU04TThyNmlEa1MtS0IxYXRvdlQwNW5NN1RpQjJWeWt5TE9pUlBqRW5CYV9QME9EaVlUX25Rakt0bGE3aW1Fc1Z2TzNGWHRqQkx1SmtHWjhxWUh2WXF0alo2di05X3k5YXZ3Z0NYU3pMMkxHcktDTHoyM2ppWm5OSFFQcEZTN3JuMWJVSFIwLTQtMllMYXNsUGxwU2FNX1ZUczM?oc=5"
-        },
-        {
-          "title": "Neugebauer Says Solicits Special Meeting Of Fermi Shareholders To Vote On Company's Future - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZTV4bXhUQUFZSjM0VFdVZGd0UkZfSnA4Y2o4M2J3aDliX3Z4ZDZSUU1ITk9DejI5aUNsYkhVR016bndxVU1PTk9pcVMzbkNLWjZxMHg2NWxFTzNDY1ZjMjBzNUIwbDBrMW9rdnlPVXVJelFMLUhjNk41MXc2bHZHcmZhZEhyRW55aXBIT2dkUUNDUmYtbVJmbFdkVGFFbzZ6T0ttZDNFSmVKQkhlZkN6UF9rdFFWZXI1SGExUXJfdW11bDJLS3NoOGFaMTR3NmdPQ0NveGVTLVpzOExWSHB1Vm1vU0EyRTBqTllUbXBwYW0yZw?oc=5"
-        },
-        {
-          "title": "Neugebauer Highly Confident Tenant Will Be Announced Soon",
-          "source": "Finviz",
-          "url": "/news/363865/neugebauer-highly-confident-tenant-will-be-announced-soon"
-        },
-        {
-          "title": "Fermi America Tells Texas Lawmakers Project Matador Will Push the Frontier of AI Compute While Setting a New Standard for Water Stewardship",
-          "source": "Finviz",
-          "url": "/news/363683/fermi-america-tells-texas-lawmakers-project-matador-will-push-the-frontier-of-ai-compute-while-setting-a-new-standard-for-water-stewardship"
-        },
-        {
-          "title": "Fermi Has Zero Revenue And A $486M Loss – So Why Is Retail Still Bullish On FRMI Stock? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMEplc095c24yRXl2OUtZOE45V0Q1MWIzNm5semIzUTN1Q0JLcWo1eFQtdHljNHI4NU5zbGxnZ1FUSFhoNXEtY3RwVkVCM1loekluZnVRUVVtZGdxRm9sOC1zY1E5aHlfTzEzVDFKVDdHQ2dTeHN6d1pPZ0FKRFVzQUd3M3o3Sm1aUTZqSFhXZkx0OEoxOHlMVHpxZHYzLTJtZ0FSV1R4bklmbHdubWl6Sy0xNWhSdWNwb2szaUozRkhsdlh2OEhERUhWejd6UzQ0MW5yRy1NRXozOW9FeTRBOXJYSldiN2sxQlE?oc=5"
-        }
-      ],
-      "float_shares": "266.47M",
-      "short_float": "11.31%",
-      "daily_pct": -8.06,
-      "industry": "AI Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Neugebauer is soliciting a special meeting for the company's future",
-        "discrepancy_note": "Source B (Google News [4]) confirms that Neugebauer is soliciting a special meeting of shareholders. Source A (Finviz) does not contain any mention of Neugebauer soliciting a special meeting."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "GLW",
-      "price": 205.83,
-      "gap_pct": 6.74,
-      "pm_volume": 165545,
-      "avg_vol_10d": 14211236,
-      "avg_dollar_vol": 2925098706,
-      "mkt_cap": 177145083528,
-      "rvol": 1.72,
-      "adr_pct": 6.68,
-      "category": "New Contract/Partnership",
-      "theme": "Amazon Data Center Deal",
-      "reasoning": "Corning's stock surged on news of an Amazon data center deal, capitalizing on the growing demand for fiber in the AI sector.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 79,
-      "grade": "A",
-      "finviz_theme": "AI Networking",
-      "analysis_detail": "Catalyst: Corning Inc. secured a significant deal related to Amazon's data centers, positioning the company to benefit from the accelerating demand for high-bandwidth fiber optics crucial for AI infrastructure. | Impact: This partnership **de-risks** Corning's optical communications segment and provides a **structural growth driver** by aligning GLW with a major hyperscaler in the booming AI and data center market.",
-      "analysis_details": "• **Impact**\nThis reported **Amazon data center deal** provides a significant fundamental tailwind for Corning's Optical Communications segment. Securing a contract with a hyperscaler like Amazon signals **strong demand** for GLW's fiber optic solutions in building out critical **AI infrastructure**, potentially leading to substantial **revenue growth** and market share gains in a rapidly expanding sector.\n\n• **Strategic Value**\nThe deal underscores Corning's strategic importance in the global AI buildout, directly linking its core competencies to the most pressing needs of the technology giants. This positions GLW as a **key enabler** for the AI revolution, enhancing its competitive moat and long-term earnings visibility by tapping into a multi-year growth cycle driven by data center expansion and higher bandwidth requirements for AI workloads.",
-      "peer_tickers": [
-        "CIEN",
-        "LITE",
-        "SMCI"
-      ],
-      "headlines": [
-        {
-          "title": "Why Did UAL, GLW, ABSI Stocks Surge To 52-Week Highs Today?",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/20492dab-d18b-3df3-a7e8-417c200ba459/why-did-ual%2C-glw%2C-absi-stocks.html"
-        },
-        {
-          "title": "Corning Announces Quarterly Dividend",
-          "source": "Finviz",
-          "url": "https://www.businesswire.com/news/home/20260622832686/en/"
-        },
-        {
-          "title": "Corning sets 28-cent quarterly dividend, payable Sept. 29 - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ3gxR0h5TWc2N1lDNTFJeFI5dVNPeW1FU2VFT3l2dFRLRXpGR25fX0dzS1RJUnRhdDg5MF95aHdjMWFLcGFnUk92N1FsdDlCc25KQTBRQ3R4OTlMcUl5T0JnT0lMZU1ONUZUUTUzU1dvM3BLdE9pM0Y4WlJrUEpWcHlDdi1PWTha?oc=5"
-        },
-        {
-          "title": "Why is Corning stock surging today? - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeU5HV0VTYW0yNm9jYUtKQ0VReGl6MS1oUVVLakhYaXQtZ3ZlOUloc0xpRUVlNGQtZnJkUV9XUjMxcHkwbkFlTlNmY0cwNG5iM25HNWJReGtJcEYzNG5GWGV3a1R5VlhnUTdTdVhwTEhqNGZwVDk4RV95dU1XaVNqSTQ3eVE1Sm5ZcTEtbGVRTnFRWHNqV3F2R2Noekw?oc=5"
-        },
-        {
-          "title": "SPY is up 0.6% today, on GLW stock price movement - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX3FnRWUtRUJMNnJzVkNRM1BXN1BsM2FsbDJWMjRuR19FN2dmcjZSZlA2UXpianAwcmpKNWJfNDYwOXVyS1VWS3FpR0hkZzllVGRHNkJKZjdpaFFWLVR6YkIxSl9zRDhDdWp3TEpma2k0NkdMZ2tUU1BpYlNQeUlTakdtYnVvNmpRM3M2YXBRRQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "AI Networking",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Corning's stock surged due to an Amazon data center deal.",
-        "discrepancy_note": "Google News (StocksToTrade) explicitly states 'GLW Stock Jumps As Amazon Data Center Deal Fuels AI Fiber Boom'. Finviz mentions GLW surged to a 52-week high but does not provide a specific reason or mention an Amazon data center deal."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "NVTS",
-      "price": 18.32,
-      "gap_pct": 6.39,
-      "pm_volume": 182585,
-      "avg_vol_10d": 26563452,
-      "avg_dollar_vol": 486642441,
-      "mkt_cap": 4281625116,
-      "rvol": 1.27,
-      "adr_pct": 11.39,
-      "category": "Others",
-      "theme": "Capital Raise (ATM Offering)",
-      "reasoning": "Stock reacted to news of a **$500M At-The-Market (ATM) offering** for capital generation.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 57,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Analog",
-      "analysis_detail": "Catalyst: Navitas Semiconductor announced a **$500 million At-The-Market (ATM) offering** to raise capital. | Impact: This move allows NVTS to **strengthen its balance sheet** and **fund future growth initiatives**, though it introduces potential **shareholder dilution**.",
-      "analysis_details": "• **What Happened**\nNavitas Semiconductor (NVTS) announced an At-The-Market (ATM) offering to raise up to **$500 million** in equity capital. This strategic move allows the company to **issue new shares** into the open market over time, providing a flexible means to secure funding. The market's initial reaction was mixed, with some reports indicating a **slide** due to dilution concerns, while others noted a **jump** as investors welcomed the capital infusion for future growth.\n\n• **Key Consideration**\nWhile an ATM offering can lead to **shareholder dilution**, the significant capital raised of **$500M** positions NVTS to accelerate its growth strategies, invest in R&D, and potentially pursue M&A opportunities in the burgeoning GaN power semiconductor market. The long-term impact will depend on how effectively management deploys this capital to drive **revenue and profitability**, outweighing the short-term dilutive effects. The **1.3x RVOL** suggests higher-than-average interest in the stock as this news broke.",
-      "peer_tickers": [
-        "ADI",
-        "MPWR"
-      ],
-      "headlines": [
-        {
-          "title": "NVTS Stock Slides As $500M ATM Offering Takes Shape - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb2VDWjVHdUhNQUdtUloyYzlXamg3SGFVWnZyMUpyNWlrdktPVW5PNmRvYmtZaElsem9LaTFRcTAxWmNsTGxhS3JJZ29aWXZrOTl6SDh4RldNSVh1UjZUQzFCY0pqSEVDQU1XLXdMbHZuTFFhWV9tUmc1QTkwdlZSXzdXZkQ2ZndxRlZEVDdJTQ?oc=5"
-        },
-        {
-          "title": "Navitas Semiconductor NVTS Jumps After $500M ATM Offering - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVFFaHVJc0F0QmdsRDhENEN2bkpPbFpFQXkycEVkNk8xemJNbHJKRXZkV0xSUkxteTZ3Zm1SLUs2VG9xMDRDVXMzdHBvblBFMHFxRlhWTEItaHVmUjVEcllKTUwtN1Z6RXVBVWZsNWxrSF9SVGhXRFZtR1Z0d0tmVU1STXV6elkwbURlNUo5eVZFVVU?oc=5"
-        }
-      ],
-      "float_shares": "202.42M",
-      "short_float": "17.84%",
-      "daily_pct": -14.39,
-      "industry": "Semiconductors - Analog",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 70,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "$500M At-The-Market (ATM) offering",
-        "discrepancy_note": "Source A (Finviz News) provides no information regarding the claim. Source B (Google News) confirms the '$500M ATM Offering' across multiple headlines, but without confirmation from both required source types, it cannot be 'Verified'."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "WOLF",
-      "price": 45.87,
-      "gap_pct": 5.95,
-      "pm_volume": 62034,
-      "avg_vol_10d": 6821343,
-      "avg_dollar_vol": 312895003,
-      "mkt_cap": 2383960315,
-      "rvol": 0.65,
-      "adr_pct": 15.69,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": "29.88M",
-      "short_float": "88.25%",
-      "daily_pct": -6.22,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found",
-        "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "INTC",
-      "price": 131.65,
-      "gap_pct": 4.99,
-      "pm_volume": 962209,
-      "avg_vol_10d": 144406029,
-      "avg_dollar_vol": 19011053718,
-      "mkt_cap": 661672869324,
-      "rvol": 0.71,
-      "adr_pct": 7.06,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "Moving in sympathy with Micron following its stellar Q3 earnings report, but failing to sustain momentum.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Semiconductors - Compute",
-      "analysis_detail": "Catalyst: Sector Tailwinds | Impact: Secondary. No company-specific news; INTC's move initially correlated to broader Semiconductors - Compute trend, but current pre-market action indicates a reversal and lack of follow-through.",
-      "analysis_details": "• **What Happened**\nIntel (INTC) initially saw positive movement yesterday, June 24th, following **Micron's stellar Q3 earnings report**. This event triggered a broader rally across the chip sector, including INTC, as investors speculated on a positive read-through for other semiconductor companies.\n\n• **Key Consideration**\nDespite the initial sector tailwinds, Intel is **leading losses pre-market** today, June 25th, among CPU concept stocks. This, coupled with a **low relative volume (RVOL) of 0.7x**, indicates that the sympathy rally from Micron's earnings is not being sustained by INTC, suggesting a lack of conviction and potential for further weakness.",
-      "peer_tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "headlines": [
-        {
-          "title": "Trending Industry Today: Intel Leads Losses Pre-Market In CPU Concept Stocks - Moomoo",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2t0dk5ZNjZFdmdvY2dtcm5aZkNyZmV4MFBLUlB6WDlrOGIyTHlkY3JPcHhobnN5Tm5EdjZ0QW1BWFY5YjhCU18zQW5Gb0JCLThlTk54eUhLdnhEV00wZHVhUmwwY2Y2VGlYa0dFMUUtb3pPajRZbXhBWDN1amN1QWVOU2tpcnVQTHI4eWI3RzhKZXBpb3A3RF94MDZORjVIYWVxQw?oc=5"
-        },
-        {
-          "title": "WDC, STX, SNDK, INTC, AMD: Chip Stocks Rally After Micron's Stellar Q3 Earnings",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/d58c5d17-cdfe-3d1e-b56a-0d27fac09d33/wdc%2C-stx%2C-sndk%2C-intc%2C-amd%3A.html"
-        },
-        {
-          "title": "Micron earnings give a shot in the arm to the broader chip sector",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/micron-earnings-give-a-shot-in-the-arm-to-the-broader-chip-sector-Oh3ZOP3OHENeFa2lxLgQ?mod=mw_FV"
-        },
-        {
-          "title": "Chip stocks surge premarket on Microns record quarter",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-surge-hours-micron-215200610.html"
-        },
-        {
-          "title": "AI Chip Stocks Stage Rebound: Nvidia, AMD Lead Recovery Ahead of Micron Earnings Shock",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/articles/ai-chip-stocks-stage-rebound-193427431.html"
-        }
-      ],
-      "float_shares": "4.24B",
-      "short_float": "3.18%",
-      "daily_pct": -0.48,
-      "industry": "Semiconductors - Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Micron's stellar Q3 earnings report",
-        "discrepancy_note": "Source A (Finviz) confirms 'Micron's Stellar Q3 Earnings' in multiple headlines ([1], [2], [3], [4]), characterizing it positively. Source B (Google News) makes no mention of Micron or its earnings report."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SKM",
-      "price": 32.96,
-      "gap_pct": 4.85,
-      "pm_volume": 100010,
-      "avg_vol_10d": 2959467,
-      "avg_dollar_vol": 97544032,
-      "mkt_cap": 12389256519,
-      "rvol": 0.75,
-      "adr_pct": 4.65,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "SK Telecom's shares **slipped** in sympathy with a broader cooling trend in the AI sector.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "AI Applications",
-      "analysis_detail": "Catalyst: Broader market sentiment shift related to AI. The **cooling** of the general AI rally led to a **slip** in SKM's stock price, suggesting its market perception is tied to the broader AI theme. | Impact: Secondary. This move is correlated to broader **AI industry** trends rather than specific company fundamentals, indicating potential short-term volatility.",
-      "analysis_details": "• **What Happened**\nSK Telecom's shares **slipped** today, attributed by market commentary to a broader **cooling** in the 'Hot AI Rally.' This suggests that despite being a telecommunications company, SKM is perceived by investors to have significant exposure or correlation to the overall AI sector's performance. The **0.8x RVOL** suggests slightly lower than average volume on the down move.\n\n• **Key Consideration**\nThis **negative movement** is primarily a **sympathy play** rather than a reflection of company-specific news or operational challenges. Investors should consider whether SKM's underlying fundamentals or its specific AI initiatives justify its correlation with the broader AI sector's sentiment. Without direct company news, this could represent a **buying opportunity** for long-term investors if the AI correlation is overblown, or a **warning signal** if SKM's AI exposure is indeed material.",
-      "peer_tickers": [
-        "SFTBY",
-        "TMUS",
-        "CHTR"
-      ],
-      "headlines": [
-        {
-          "title": "Sk Telecom Slips as Hot AI Rally Cools - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXFPX0g1V1IyZkJUR0ttelVzWTBCdHE5XzNjcGhZQzdsWlBMcF9GX3pzZGNUaGtnR29KQldPOVBQWnJ3Y1drdUh4MlhZZW9DMFRHeFhFYzl6YndZS2pQY2d0Y043VjFXRkpHNWkzWmozMUU3WVVqNzJZNjdROUpmcTYzOA?oc=5"
-        }
-      ],
-      "float_shares": "380.14M",
-      "short_float": "1.12%",
-      "daily_pct": -1.46,
-      "industry": "AI Applications",
-      "technical_status": "Fail (Avg $Vol $98M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "SK Telecom's shares slipped by an unspecified percentage or dollar amount.",
-        "discrepancy_note": "The primary catalyst claim states 'SK Telecom's shares slipped' but provides no specific numerical data (e.g., percentage or dollar amount). Neither Source A (no news) nor Source B (headline 'Sk Telecom Slips') provides this specific numerical detail. Therefore, the claim cannot be confirmed with matching numerical specifics as required."
       },
       "gates_passed": 4,
       "gates_detail": {
@@ -1076,733 +234,6 @@
       "meets_all_gates": false,
       "tier": "Fail",
       "tier_label": "Excluded"
-    },
-    {
-      "ticker": "NBIS",
-      "price": 259.66,
-      "gap_pct": 4.56,
-      "pm_volume": 81553,
-      "avg_vol_10d": 18794932,
-      "avg_dollar_vol": 4880292043,
-      "mkt_cap": 65343553413,
-      "rvol": 0.83,
-      "adr_pct": 10.16,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts (Nvidia & Meta)",
-      "reasoning": "NBIS announced significant new deals with Tier-1 partners Nvidia and Meta, driving substantial premarket interest.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "A+",
-      "finviz_theme": "AI Cloud",
-      "analysis_detail": "Catalyst: Nebius AI announced significant new deals with **Nvidia** and **Meta**, critical Tier-1 partners in the AI compute space. These partnerships are expected to **launch** the stock towards a **$150 price target**. | Impact: These deals represent a **structural change** for Nebius, potentially securing long-term revenue streams and validating its AI Cloud technology, adding substantial credibility and market reach.",
-      "analysis_details": "• **Impact**\nThe reported new deals with **Nvidia** and **Meta** represent a **transformative catalyst** for Nebius AI. These are Tier-1 partners in the burgeoning AI compute sector, and securing such agreements can significantly **validate** Nebius's technology and **accelerate** its market penetration. The potential for **substantial revenue growth** is high, given the scale and influence of these partners.\n\n• **Strategic Value**\nCollaborating with **Nvidia** provides access to leading GPU technology and an ecosystem of AI developers, while **Meta** offers massive compute demand for its AI initiatives. This dual partnership places Nebius AI at the **forefront** of the AI cloud infrastructure market, differentiating it from smaller competitors. It also positions NBIS for potential inclusion in **larger enterprise AI deployments** and strengthens its competitive moat.",
-      "peer_tickers": [
-        "APLD",
-        "IREN",
-        "SMCI"
-      ],
-      "headlines": [
-        {
-          "title": "NBIS, CRWV, APLD, IREN: Why Are Neocloud Stocks Jumping Premarket? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTZfV0NqTlh0WER6MlJWODVNNkdVSF9qazlXRnNza3ItM0hXVkJyN3Vvc2VRWnB1RTBRYkFENV9fa3VINElfV3VrWmlwNzJ3WXZYZjhoTDYwdlJYeFkyZUxWQ2pkMWxlSXVPZ0hJb1ZHRXRFc0NNOFY4aHp4MEV2b0hjOEZ4MGkycDFuOXpGdl9Rdw?oc=5"
-        },
-        {
-          "title": "NBIS Stock Alert: Nvidia & Meta Deals Launch Nebius To $150? Zach Bolduc (I07piR1349) - Fathom Journal",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96YlNlRXpKOU1tZ1JfRUwwczNWdktPbHI5TTVMaFI5cFdHNTk1X2tzSHY5SHlzS011b3lWTWpiUDU0aDd6VDZ2ZWQyMkhWdEhKdFY5UzR2aVRRMzE2aFcxaVBkekY?oc=5"
-        },
-        {
-          "title": "Nebius AI Cloud 3.6 adds AI control, tighter security and faster storage - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMVZvMUxVR0p3SF9EQ2tIa05YcHRiYWNzQV9UcC1mOFp4QURzaVNYUTFHM3RpSWs0bGdrcFlMd1BENV9VVkNnekliOXlaNmRFUWZYNlE5WlU2TmZjekRVeThONEw0MGV4QVJnMUpiV0JQdl8yNFpOdDZ5a3JZb1B1UTBBMk5hX2tySXpGVnAwbWl6NHVrNDNNeWtkaEs0amdhbDlsNDdwOEw3OUMzdVFNTHRYV1paS0tFVFY3Yk1sWQ?oc=5"
-        },
-        {
-          "title": "IREN Stock Falls as Analyst Compares Revenue Power to CoreWeave and Nebius - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRUxvdmFMcGk0andZOVRLTnB4WEpCYlh4UW1oTGc0cXpUa1ktczc2d1Y2NGtzOW5ZS1pNcExwX0dEcGxCNEtuQy0wRlZxS0JERXBRN0F6ZzZHMkpnRjUwY3dRZ0Y2Wno2R2pIMHYzU3JNUmpkblFCZmk1OHM2TmtkUVdtdHV5SUZmNi16Q0lHaVFkelZsSzR0OFRXaXQ3YmUtdEZPQ1VJdw?oc=5"
-        },
-        {
-          "title": "Nebius selects Komodor for Kubernetes troubleshooting - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3NFRV9peHl3X1NLVFZzUXB5MWp2bkZMcWhoNk9GYUFGQWdOYXJRZW1wa0htejFnWURweU56T2VCeUI4b0JCVVBnU1dyRkV0WjZocGJwdXp1bkxmSzlMZWZBN2dhSE15UGN1eFA2bm5pRVFJdWZRelU3R2xTbVhDaXFVODd2eFJfZlVFNmNTYkJ4Vk9HVV9mWmVGdTBSMDJLWFZodGJVYkpFTnBEajNz?oc=5"
-        }
-      ],
-      "float_shares": "201.91M",
-      "short_float": "21.94%",
-      "daily_pct": -5.66,
-      "industry": "AI Cloud",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "NBIS announced significant new deals with Tier-1 partners Nvidia and Meta.",
-        "discrepancy_note": "Source A (Finviz) only mentions 'Nebius Introduces AI Cloud 3.6' and does not mention any deals with Nvidia or Meta. Source B (Google News) has multiple articles about Nebius/NBIS, but only one (Fathom Journal [4]) mentions 'Nvidia & Meta Deals' in relation to Nebius, and it does so in a speculative headline ('Launch Nebius To $150?'), not as a confirmed announcement or a factual report of deals already made by NBIS."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "AXTI",
-      "price": 70.14,
-      "gap_pct": 4.51,
-      "pm_volume": 124461,
-      "avg_vol_10d": 11027461,
-      "avg_dollar_vol": 773466115,
-      "mkt_cap": 4588782314,
-      "rvol": 1.43,
-      "adr_pct": 14.71,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 58,
-      "grade": "C",
-      "finviz_theme": "Semiconductors - Analog",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo specific fundamental news catalyst was reported for AXTI in the last 24 hours. A director reported restricted and annual equity awards, which is a standard compensation filing and not a high-conviction insider buy. A speculative article from TradingView discussed the potential for a record Indium Phosphide quarter, but this is analyst commentary, not a company announcement.\n\n• **Key Consideration**\nThe relative volume of **1.4x** suggests increased trading interest despite the lack of direct news. With an average daily volume of **$773M**, any significant price movement on no news could indicate a technical breakout, stop-running, or a low float squeeze. Without a clear fundamental driver, such moves carry a **high risk** of reversal or a 'gap and trap' scenario for momentum traders.",
-      "peer_tickers": [
-        "MRVL",
-        "LSCC",
-        "WOLF"
-      ],
-      "headlines": [
-        {
-          "title": "Director Tracy Liu reports restricted and annual equity awards in AXT INC (NASDAQ: AXTI) - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa0lsWFJ1TEJ3ckJnYlJzVmFzd0d6aGFBUVhXeHdjcmx1R0E1WUplZTFoQTcwNnRtc3ZxUXVmMjh5bGxqd3JVZThNYk9UWENWQXNlbW1acmRPdEpWZmR5VngwbGk2RlFsNjZFMXpqdTdHcWtyZFlucXpJNkhxWTQ2OGNNV0N3TlladGZOeWI4N2cydlk5MDNzakNhM2xFVkI1R0dpZ1VxNHE4azgzdVphNW5Ba0dfcklWZWc?oc=5"
-        },
-        {
-          "title": "Can AXTI Deliver Its Biggest Indium Phosphide Quarter Ever? - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2pieVVMQkd2TTd1Ti1xdXVhUEdsQ3dQaUFBcEtST3RvU29DMm0zUVpwa2d5ZVVLSXZ2NHEyek1oaDdkb052THQ5SHNYZnBlSUptcmx3TDQtT3huRmo4M256VDh1bzlFSmw3bTdyNWdrUVlGR2xPVFQ3OUJMSVdYSk5BOXlWUzlNMl8tRTZGM3ZzWUlGM3BRWnJzb3A2OVFYallBa2JXN3kxaDRDV0pSWHZndkY?oc=5"
-        }
-      ],
-      "float_shares": "62.70M",
-      "short_float": "11.64%",
-      "daily_pct": -9.97,
-      "industry": "Semiconductors - Analog",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "UWMC",
-      "price": 2.0,
-      "gap_pct": 4.5,
-      "pm_volume": 104396,
-      "avg_vol_10d": 29969544,
-      "avg_dollar_vol": 59939088,
-      "mkt_cap": 3202176225,
-      "rvol": 0.88,
-      "adr_pct": 6.46,
-      "category": "Upgrade",
-      "theme": "Analyst Re-rating (with PT adjustment)",
-      "reasoning": "Keefe Bruyette & Woods upgraded UWM Holdings to Outperform but simultaneously adjusted the price target down.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 31,
-      "grade": "C",
-      "finviz_theme": "Fintech - Lending",
-      "analysis_detail": "Catalyst: Keefe Bruyette & Woods **upgraded** UWM Holdings to Outperform from Market Perform. However, the analyst simultaneously **adjusted** the price target **down** to **$3.75** from **$4.50**. | Impact: The upgrade suggests improved relative performance expectations, but the **lower price target** could temper investor enthusiasm, implying a revised, potentially **lower fair value** despite the positive rating change.",
-      "analysis_details": "• **The Firm & Rating**\nKeefe Bruyette & Woods initiated an **upgrade** on UWM Holdings, moving the stock from **Market Perform** to **Outperform**. This indicates a more positive outlook on UWMC's potential to **outperform** its peers within the mortgage sector, suggesting a belief in its operational strength or market positioning.\n\n• **The Thesis**\nDespite the rating upgrade, the firm **adjusted** its price target **down** from **$4.50** to **$3.75**. This conflicting signal suggests that while KBW sees **improved relative performance**, their fundamental valuation of the company's intrinsic worth has **decreased**, potentially due to industry headwinds, higher cost of capital, or revised financial models. The lower PT might **limit upside potential** despite the better rating, introducing caution.",
-      "peer_tickers": [
-        "PFSI",
-        "COOP"
-      ],
-      "headlines": [
-        {
-          "title": "Keefe Bruyette & Woods Upgrades UWM Holdings to Outperform From Market Perform, Adjusts PT to $3.75 From $4.50 - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUG9BUEtRRlR5bFBUc2dfUnNMUmh0TUtaOTA5dmgwZGJvWkVub0lPTmNlWkozUWNSV1kxU2tIZFVqVGM1SWE4UVFWckJxdU1XZEp3aW9uOEdqRzBiLXNBVlNrLWpGbmhSdjA2NTZrQ1Itb2U1akNIVFAtcUhDdVVnR05Kb1pienRmbGsyX2YtOHF3YkdrZm9yb1M0ek9WZkVpU3FLODJqYUdDWWtxT2tka2I5QmRVNGZLb3JLMUU3LXVNMnZLQ0ROOWFLWm5FQ2I2QWlSUmJTVkJUX0RlREgyRVpB?oc=5"
-        }
-      ],
-      "float_shares": "332.13M",
-      "short_float": "13.21%",
-      "daily_pct": -0.49,
-      "industry": "Fintech - Lending",
-      "technical_status": "Fail (Avg $Vol $60M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Keefe Bruyette & Woods adjusted UWM Holdings' price target to $3.75 from $4.50.",
-        "discrepancy_note": "Source B (Google News) explicitly states the price target adjustment to $3.75 from $4.50. Source A (Finviz News) contains no information regarding this claim, meaning only one source confirms the specific numbers."
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "TE",
-      "price": 8.53,
-      "gap_pct": 4.45,
-      "pm_volume": 203288,
-      "avg_vol_10d": 39362552,
-      "avg_dollar_vol": 335762569,
-      "mkt_cap": 2382184646,
-      "rvol": 0.64,
-      "adr_pct": 13.0,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 55,
-      "grade": "C",
-      "finviz_theme": "AI Edge & IoT",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nDespite some headlines discussing its positioning relative to AI themes or short-term opportunities, no specific fundamental news such as earnings, analyst upgrades, or significant contract announcements for TE Connectivity have been reported in the last 24 hours. The stock's performance, if any significant momentum occurred, is therefore attributed to technical factors or broader market flow rather than a direct, company-specific catalyst.\n\n• **Key Consideration**\nThe absence of a clear fundamental driver suggests that any recent price movement in TE is likely technically driven, potentially by **short-term trading dynamics** or **institutional rebalancing**. Investors should exercise caution, as moves lacking a strong narrative foundation carry a **higher risk of reversal** without sustained conviction.",
-      "peer_tickers": [
-        "FLEX",
-        "APH"
-      ],
-      "headlines": [
-        {
-          "title": "TE Connectivity PLC stock outperforms competitors despite losses on the day - MarketWatch",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaGg1alZVbG4zcDI2RUdWT2Z6MjczZzFWLVVXdjBFN0ZmS2Y1UEpWcGpHRlcweC1yS2VUSGJCNklQYlhOVi1haGNfdVdmbDBrT1Q0Ym5iYko5ckg4NF91SG5la0xaQ2xtM25DcFRGNnoyaUgzd2NKaEVBeV96VTBhZ19telljNHFNVHFxS2I2bjd1eVVkMVRqUHF0LUFHVTZfVmdtTUhOQVFuQW9kck93YmM3OGt3UVo3ZWlpNUV1cllPaERwSTVGNENSSlVIaUxXdFZSVDZCem9SQWdmdFFYYmJCdTd6VDlU?oc=5"
-        },
-        {
-          "title": "T1 Energy: Short-Term Opportunity - But Long-Term Uncertainty? (NYSE:TE) - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSy00Tjk5UmtYdzZWX09ZY1ZBNVhST3RxSDJpS0RLQkFzVTNmd3pVR0x2UFBhYmZqNGkzN2toRkhsTWctZExVUEJwTWl0VFJLYzRqRmhGSUtaUGpKbWlFeFo0Y1Rka0hFUWZDTy1RWDM5REFkN0hPOU51Rk5fNE5xTDd0M1BnU3pPV0t5UTJqMENnMUVfX3dWRUNWNHJ0QXZC?oc=5"
-        },
-        {
-          "title": "Flex’s AI Story Is Soaring. Is TE Connectivity The Wiser Bet? - Trefis",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTZTUGM3WlZHZjl0TWp2VUJWVFFuTnd2cllraTRMcG9BZ0o2M3AyZm1VTllYWE9Ld05FQzU3Zkx6dTlCeVczWk5DWnR3amZnVElOWHcyNjdrcUNkcndSWnk2SklEMmtXWms3RGZrR0dpMk9GUDlmZEZaQWZMRS1TdHRKZTBEODYzM0l0UkV4QVhkT3ByZUt0Z2E2OTdQU2Fkek5sdUdiMUlFa1NNX1JWdS1ZY2NRNG5hcUJz?oc=5"
-        },
-        {
-          "title": "Warning: Supermicro Stock Faces a Critical Trust Test - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHlBb2dVaGVfdHNyWEJlbGhYcTB3dnJmR3A5cmZwYktoakphMWlvV0wxRTFzVUZiaUpGNXFyOFFXQ2t0RWY2OWRGaUFabkF0blpkVU9vbkNPQkQ5bHZvSGtxU19xcWE5SW9NQThQS0VscWM2VkVFSmhfbGlDazR4Nkp6TVFjMElBWG9EWURzQkU1WHNBTlZvQw?oc=5"
-        }
-      ],
-      "float_shares": "227.80M",
-      "short_float": "18.30%",
-      "daily_pct": -7.68,
-      "industry": "AI Edge & IoT",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found for TE.",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "CRWV",
-      "price": 100.88,
-      "gap_pct": 4.23,
-      "pm_volume": 198067,
-      "avg_vol_10d": 31124209,
-      "avg_dollar_vol": 3139810204,
-      "mkt_cap": 55037135520,
-      "rvol": 0.78,
-      "adr_pct": 7.79,
-      "category": "New Contract/Partnership",
-      "theme": "AI Cloud Capacity Expansion",
-      "reasoning": "CoreWeave announced a new partnership with Conapto to expand its European AI cloud capacity with two new data centers in Sweden.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
-      "grade": "A",
-      "finviz_theme": "AI Cloud",
-      "analysis_detail": "Catalyst: CoreWeave announced a new partnership with Conapto to establish two new AI cloud data centers in Stockholm, Sweden, deepening its Nvidia-powered cloud push in Europe. | Impact: This strategic expansion significantly increases CoreWeave's AI compute capacity and strengthens its competitive position in the rapidly growing European AI cloud market.",
-      "analysis_details": "• **Impact**\nCoreWeave announced a significant **expansion** of its European AI cloud infrastructure, establishing **two new data centers** in Stockholm through a partnership with Conapto. This strategic move directly increases its **AI compute capacity**, which is critical for meeting growing demand from AI developers and enterprises. The deal underscores CoreWeave's commitment to scaling its **Nvidia-powered cloud solutions** internationally.\n\n• **Strategic Value**\nThis partnership strengthens CoreWeave's position in the highly competitive **AI cloud market**, particularly in Europe. By expanding its global footprint and leveraging renewable energy for the new sites, CoreWeave enhances its appeal to a broader client base. It also signals robust execution on its growth strategy, capitalizing on the increasing demand for specialized, high-performance AI infrastructure.",
-      "peer_tickers": [
-        "SMCI",
-        "APLD",
-        "NVDA"
-      ],
-      "headlines": [
-        {
-          "title": "19,811 Shares in CoreWeave Inc. $CRWV Purchased by Greenup Street Wealth Management LLC - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdk5kZXNpWjV0S3drRTVFNHlRdzAwVURsTk83bEpTZDl4NnNIanhoQ3pEZlpwMHN5dnBKNlc1SXFPb1ZYQ3Q5OFlBb3R2anRiRXdWMjRrcnBMRWpfUWxmMlhLYUMteDdlTDhwd2JGZ1dEWGMzOWpiUzRjSFJwQlh1WW85SjBQZzFlQnJQUDk4STRfQ3V2ak9CTlYyd1ZKSTJqOVM4Z3dQS3VUTk1BTUt6bENKb1pYakh0Z0pGOWxDTGxmdU8yVHVockRybXhDenQxcUhmR1V0dzNxV25WVFE?oc=5"
-        },
-        {
-          "title": "NBIS, CRWV, APLD, IREN: Why Are Neocloud Stocks Jumping Premarket? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTZfV0NqTlh0WER6MlJWODVNNkdVSF9qazlXRnNza3ItM0hXVkJyN3Vvc2VRWnB1RTBRYkFENV9fa3VINElfV3VrWmlwNzJ3WXZYZjhoTDYwdlJYeFkyZUxWQ2pkMWxlSXVPZ0hJb1ZHRXRFc0NNOFY4aHp4MEV2b0hjOEZ4MGkycDFuOXpGdl9Rdw?oc=5"
-        },
-        {
-          "title": "CoreWeave expands European AI cloud with Stockholm data centers - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNREtTZ1RfX09jMDdSaEJrVnVUc0RFdkRkMnYyVjNXd0tWbWpNUnRyUmh1NHN1LXl3WEd5Y3MwYjVneS1vMFlJNWIwRWQ3NmFuWDZWeV9MOENKUWI2NU5FajlVTHdXSmUyRlE2RGNGaDdUeDNOVW5YRjdZMEdTVDJtVkhWa0h6QWhESWdsNnRnREpkUzJ6dWdVY3dSLUhXV2ozWXppQ1J1Rjd0c2RET3RrMURIa19lX0xYREE?oc=5"
-        },
-        {
-          "title": "CoreWeave inks deal with Conapto for two sites in Sweden",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/2be78191-8f32-33cd-aace-4b6f56e63dbd/coreweave-inks-deal-with.html"
-        },
-        {
-          "title": "CoreWeave Deepens Nvidia-Powered Cloud Push",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-deepens-nvidia-powered-cloud-174453981.html"
-        }
-      ],
-      "float_shares": "338.25M",
-      "short_float": "16.14%",
-      "daily_pct": -4.58,
-      "industry": "AI Cloud",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 80,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "two new data centers in Sweden",
-        "discrepancy_note": "Source A [1] states 'two sites in Sweden', while Source B [3] mentions 'Stockholm data centers' (plural) but does not specify the number 'two'."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "ABSI",
-      "price": 10.07,
-      "gap_pct": 4.22,
-      "pm_volume": 92003,
-      "avg_vol_10d": 9173093,
-      "avg_dollar_vol": 92373047,
-      "mkt_cap": 1570743447,
-      "rvol": 6.5,
-      "adr_pct": 12.0,
-      "category": "New Contract/Partnership",
-      "theme": "Strategic Capital Raise & Positive Clinical Data",
-      "reasoning": "Absci secured **$100 million** in equity funding from strategic investors, including **Lilly**, alongside reporting **positive early clinical results** for its hair loss therapy.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 93,
-      "grade": "C",
-      "finviz_theme": "Biotech - Gene Therapy",
-      "analysis_detail": "Catalyst: Absci announced a **$100 million** underwritten public offering with strategic investors, including **Lilly**, to fund its AI-designed hair loss and endometriosis programs, concurrently reporting **positive early clinical results** for its hair loss therapy. | Impact: This capital raise significantly **extends** Absci's operational runway, **validates** its AI-driven drug discovery platform with strategic investor backing, and **de-risks** its pipeline by demonstrating positive clinical efficacy.",
-      "analysis_details": "• **Strategic Value**\nAbsci successfully priced a **$100 million** underwritten public offering, attracting prominent strategic and financial investors, notably including **Eli Lilly**. This capital infusion provides substantial funding for the company's **AI-designed hair loss and endometriosis programs**, accelerating their development timelines and expanding their reach. The involvement of a major pharma player like Lilly serves as a powerful validation signal for Absci's technology and pipeline.\n\n• **Impact on Pipeline & Funding**\nThe capital raise, coupled with the reported **positive early clinical results** for its hair loss therapy, significantly **de-risks** Absci's development pipeline. Positive clinical data is crucial for biotech validation, and this funding ensures the company has the necessary resources to advance its promising therapeutic candidates. This dual catalyst provides a strong financial and scientific foundation for future growth and potential partnerships.",
-      "peer_tickers": [
-        "RXRX",
-        "CRSP",
-        "BNTX"
-      ],
-      "headlines": [
-        {
-          "title": "Why Did UAL, GLW, ABSI Stocks Surge To 52-Week Highs Today?",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/20492dab-d18b-3df3-a7e8-417c200ba459/why-did-ual%2C-glw%2C-absi-stocks.html"
-        },
-        {
-          "title": "Absci, FuelCell Energy surge premarket; Cerebras, FedEx tumble",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/absci-fuelcell-energy-surge-premarket-120746639.html"
-        },
-        {
-          "title": "Absci Announces Pricing of $100 Million Underwritten Offering with Leading Strategic and Financial Investors",
-          "source": "Finviz",
-          "url": "/news/363588/absci-announces-pricing-of-100-million-underwritten-offering-with-leading-strategic-and-financial-investors"
-        },
-        {
-          "title": "Absci Announces $100 Million Public Equity Offering - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHJ6ZmRXVzdDa2pvM2lndTRlNzMyQlNXaW83SlFzcl9CRXBIYVJXWElWQjUyQXVtQU83TEwyM1NrUkxZcmtsQkx3LThkVDhOei1rdF9BbHRHWlROd0FNbFp1Ymstc0NlMGRZa1pUelVlOFdVTFlLd1dvNjNPX2EwT2luX3BMN1VMMEV1ZXZTQ29HRlRDcWNET1dxOHlWcUUwdjlfYQ?oc=5"
-        },
-        {
-          "title": "ABSI Stock Eyes Best Day Ever After Positive Hair Loss Drug Data, $100M Lilly-Backed Raise - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYlJwM2lyQ3c4RVFSYUhrS2RtUnRzdDAwZlZnSXlVT2xHLVVFamtBOG15U2MxNXNLQURkV1Y4MTBNLUk1Qkt2bXpIOUliMnlQTFFvYjFwUVNhNlNfVE1rWDdjbnVTSTRJek5tUGlLYjdKMmZvQ1BSczh1eXMzNTY4OU1nWHBwNUZVbGVZV3Zn?oc=5"
-        }
-      ],
-      "float_shares": "133.28M",
-      "short_float": "24.07%",
-      "daily_pct": 35.96,
-      "industry": "Biotech - Gene Therapy",
-      "technical_status": "Fail (Avg $Vol $92M < $100M)",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Absci secured $100 million in equity funding.",
-        "discrepancy_note": null
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "AMD",
-      "price": 519.74,
-      "gap_pct": 3.86,
-      "pm_volume": 98205,
-      "avg_vol_10d": 30537180,
-      "avg_dollar_vol": 15871393933,
-      "mkt_cap": 847488332611,
-      "rvol": 0.75,
-      "adr_pct": 5.72,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "AMD is gaining in sympathy with other chip stocks following Micron Technology's stellar Q3 earnings report.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Compute",
-      "analysis_detail": "Catalyst: Micron Technology (MU) reported **stellar** Q3 earnings, **beating** expectations and driving a significant **sector-wide rally** in chip stocks. | Impact: AMD is benefiting from **positive sentiment** across the semiconductor industry, particularly in AI chip names, suggesting potential for **continued momentum** as broader sector tailwinds build.",
-      "analysis_details": "• **What Happened**\nAdvanced Micro Devices (AMD) stock is experiencing a **gain** today, identified as part of a broader **rally** in chip stocks. This positive movement follows **Micron Technology's (MU) stellar Q3 earnings report**, which significantly **beat** expectations and provided a strong **positive outlook** for the semiconductor industry. AMD, alongside other AI chip leaders like Nvidia, is mentioned as leading this **recovery**.\n\n• **Key Consideration**\nWhile the immediate catalyst for AMD's move is primarily **sector-driven**, investors are interpreting Micron's strong performance as a **positive indicator** for the entire AI and semiconductor supply chain. This move is purely **sympathetic**, without any specific AMD-centric news such as new contracts, product launches, or earnings. The **sustainability** of this momentum for AMD will depend on its own upcoming performance and further industry developments, rather than relying solely on peer results.",
-      "peer_tickers": [
-        "NVDA",
-        "AVGO"
-      ],
-      "headlines": [
-        {
-          "title": "AMD vs. Intel: Which Stock Is the Better Buy Right Now? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSzJEd0k1MDhnUDM3Mjh5cXhoZGxyNGRjejE4TEJUUkFtUW1Ydk03cW1WOVl1VVd0RHhoU2QzSVlub2JYMVRtcW5IclNyaUNtN3ZJTkgyd0dZa0F4STIxS2NvUkREZWZOQjN6Y1Zjd1JqNWg2anFiSHJSbjJRd3BGVWFNQ2M4OURuZnhfUXg2V1pDdXEz?oc=5"
-        },
-        {
-          "title": "Why is Advanced Micro Devices stock gaining today? - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUko4MmFkMnUzMWlMMFZmME56N08tMGtIa0JlTVRXR2Fra1RZQm0yOGwwU2I4dmEzSFJQNEZGV2JRbWZuNUVJWlNaYlVxd01Gbk9MbjlQZWlGVjJ6QzNGaERqRjdxaWtNNUFzSlBEcFRuQjJOMHk4SjlnZjlEb2FWck1JV1FqMUR5c1ZuU0M2cGc0cl81V184b2xpclpheUMtNXoyZ3ctbjhEdTJxVWtycw?oc=5"
-        },
-        {
-          "title": "WDC, STX, SNDK, INTC, AMD: Chip Stocks Rally After Micron's Stellar Q3 Earnings",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/d58c5d17-cdfe-3d1e-b56a-0d27fac09d33/wdc%2C-stx%2C-sndk%2C-intc%2C-amd%3A.html"
-        },
-        {
-          "title": "Qualcomm jumps as it looks beyond smartphones to cash in on the AI boom",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/article/qualcomm-jumps-as-it-looks-beyond-smartphones-to-cash-in-on-the-ai-boom-225301932.html"
-        },
-        {
-          "title": "Chip stocks surge after-hours on Microns record quarter",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-surge-hours-micron-215200610.html"
-        }
-      ],
-      "float_shares": "1.62B",
-      "short_float": "2.72%",
-      "daily_pct": -0.02,
-      "industry": "Semiconductors - Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "AMD is gaining in sympathy with other chip stocks following Micron Technology's stellar Q3 earnings report.",
-        "discrepancy_note": "Source A provides conflicting information regarding the timing of AMD's rally relative to Micron's earnings. Finviz headlines [1] and [3] indicate chip stocks rallied 'After Micron's Stellar Q3 Earnings' and 'on Microns record quarter,' respectively. However, Finviz headline [5] states 'Nvidia, AMD Lead Recovery Ahead of Micron Earnings Shock,' directly contradicting the 'following' aspect of the claim for AMD. Source B (Google News) does not mention Micron Technology's earnings report or its impact on AMD's stock gain in any of the provided headlines."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "MRVL",
-      "price": 276.7,
-      "gap_pct": 3.83,
-      "pm_volume": 278276,
-      "avg_vol_10d": 70068542,
-      "avg_dollar_vol": 19387965571,
-      "mkt_cap": 242057167301,
-      "rvol": 0.55,
-      "adr_pct": 9.9,
-      "category": "Others",
-      "theme": "Sector Sympathy",
-      "reasoning": "MRVL shares gained significantly overnight in sympathy with strong earnings and forecasts from Micron and Qualcomm, which ignited a broader rally in the AI chip sector.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 55,
-      "grade": "B",
-      "finviz_theme": "Semiconductors - Compute",
-      "analysis_detail": "Catalyst: Sector Tailwinds | Impact: Secondary. MRVL's overnight jump is primarily driven by the positive sentiment spilling over from strong forecasts by sector peers **Micron (MU)** and **Qualcomm (QCOM)**, rather than any company-specific fundamental news. This correlation to the broader AI chip trend provides upward momentum, despite a reported CFO share sale.",
-      "analysis_details": "• **What Happened**\nMarvell Technology (MRVL) experienced a significant overnight jump, as reported by Yahoo Finance, directly attributing the boost to positive news from **Micron (MU)** and **Qualcomm (QCOM)**. These sector peers issued strong forecasts and earnings, igniting a **$400 billion AI chip stock rally** across the broader semiconductor industry. This sympathetic move occurred despite a headline noting a CFO’s share sale, indicating the strength of the sector-wide tailwinds.\n\n• **Key Consideration**\nWhile the broad AI chip rally provides significant short-term momentum, the lack of specific company-driven catalysts for MRVL means its move is largely **secondary**. Momentum traders should monitor the durability of the sector's enthusiasm and potential shifts in leader sentiment. The previous day's headlines mentioning \"Marvell's AI Rally Runs Into a Price Check\" and \"Shares Are Trading Lower Today\" (yesterday) suggest MRVL itself might have been consolidating before this sector-wide surge, making it susceptible to profit-taking if the broader rally cools.",
-      "peer_tickers": [
-        "NVDA",
-        "AVGO",
-        "AMD"
-      ],
-      "headlines": [
-        {
-          "title": "MRVL Stock Jumps Overnight: MU, QCOM Boost Outweigh CFO’s Share Sale - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLTZkMVdGRWlva3MzeU1OWU5qWXBwZlFoRHJqZURwSzZRUjY0OWRFRG5pZDk5YjE0ZGVmRlozY185OFd0TFJYX04wVmhpZ2U2aWllVURjakR5NHl3dmt3MFBTdFJVVVJ1UWlUbnNFN1N6Mjl5bVU1NXh0N184X3hzRUVtN2NmR250aklNVzYxMmNsdk1ZWGl6TEtn?oc=5"
-        },
-        {
-          "title": "Which AI Accelerator Stock Has Dominated in 2026: Broadcom or Marvell? - 24/7 Wall St.",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTnBVNkFtLXNMXzY4VlNSYWV3VEZRZ21XUU1uZlRfYWFhZ3Bsck1vSE5sVktJUUNnSF9Ja3FPR0hIMlAzTEdmbUI0VzBYZVYtT25BMUZkMEM1SkM1dUdHdnNEUzRweWlrLXAxQ29neWVuQWE0bUhOcGF3WThNamFEX09QSVFKa1Y5ckpvdjd2MlIzTFNQVWRnRWE5UElPYTBSX0c2WDF2bk5xc1dxRWtOZEJ3?oc=5"
-        },
-        {
-          "title": "Why Marvell Technology (MRVL) Shares Are Trading Lower Today - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcVNqcDMzS2dMUE1QQU8wUGNlRDZKSG9BdVFJMWw2S0hnMnJTSUdaQkpFa0tpNVVTWWVsSkItaTJRTFhGMjZQV3BGZTVRMWZSaHY5dVppUVpVYkdaeXpidnN1bWJWbjNpWVdtaUppLVZFelB1RW85RzJ4VDdmMGRiYTFCaXE3UFpkLWxGdHZFOFR0SEU1YnphdjBpQ1NqY3E4MW05WkZCTTBnN1k1NVRhSGV2RUY3ZzE5Y3kw?oc=5"
-        },
-        {
-          "title": "Micron and Qualcomm forecasts ignite $400 billion AI chip stock rally",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/micron-qualcomm-forecasts-ignite-400-230933990.html"
-        },
-        {
-          "title": "Micron earnings give a shot in the arm to the broader chip sector",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/micron-earnings-give-a-shot-in-the-arm-to-the-broader-chip-sector-Oh3ZOP3OHENeFa2lxLgQ?mod=mw_FV"
-        }
-      ],
-      "float_shares": "868.06M",
-      "short_float": "4.06%",
-      "daily_pct": -0.84,
-      "industry": "Semiconductors - Compute",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "MRVL shares gained significantly overnight in sympathy with strong earnings and forecasts from Micron and Qualcomm, which ignited a broader rally in the AI chip sector.",
-        "discrepancy_note": "Google News provides conflicting information regarding MRVL's share movement. Google News [1] states 'MRVL Stock Jumps Overnight: MU, QCOM Boost', supporting the claim. However, Google News [2] states 'Why Marvell Technology (MRVL) Shares Are Trading Lower Today', directly contradicting the notion of an overnight gain or implying it was not sustained. Finviz headlines support a broader AI chip rally due to MU/QCOM but do not explicitly confirm MRVL's specific 'significant overnight gain'."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "KEEL",
-      "price": 6.12,
-      "gap_pct": 3.76,
-      "pm_volume": 392111,
-      "avg_vol_10d": 65123347,
-      "avg_dollar_vol": 398554884,
-      "mkt_cap": 3695431044,
-      "rvol": 1.11,
-      "adr_pct": 10.92,
-      "category": "Upgrade",
-      "theme": "Analyst Initiation",
-      "reasoning": "KEEL gained following an analyst initiation from Citizens highlighting its AI power pipeline business, but subsequent profit-taking caused a pullback.",
-      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 32,
-      "grade": "B",
-      "finviz_theme": "Infrastructure",
-      "analysis_detail": "Catalyst: Citizens initiated coverage on Keel Infrastructure, citing its exposure to the growing **AI power pipeline** segment, driving early gains. | Impact: The initiation provides a **new layer of validation** for KEEL's strategic direction, potentially attracting new institutional interest and expanding its investor base, though initial positive momentum was not sustained.",
-      "analysis_details": "• **The Firm & Rating**\nCitizens, a notable financial institution, initiated coverage on Keel Infrastructure, which typically involves assigning a rating (e.g., Buy, Outperform) and a price target. Such an initiation signals increasing Wall Street interest and recognition for KEEL's business model, providing a stamp of approval from an external research firm.\n\n• **The Thesis**\nThe core of Citizens' thesis appears to be KEEL's exposure to the **AI power pipeline**, suggesting the company plays a crucial role in providing energy or infrastructure solutions vital for the expanding AI sector. This highlights a potential **long-term growth vector** for KEEL, linking it to a high-growth thematic narrative, despite the stock's subsequent pullback indicating some profit-taking or skepticism.",
-      "peer_tickers": [
-        "NEE",
-        "ETR",
-        "EQIX"
-      ],
-      "headlines": [
-        {
-          "title": "KEEL Stock Pulls Back As Traders Watch Support - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeWFGMWVLUnl1SFRhd29yemVIcld6d2RKcXY3LUFrYlZVZUV6dkhQc3dtdkJZV0YyX2kwVUxkUFg3UzJ4V3YtQ2Q0V2Y1dlFIakZZUFIzUXhLaUJ2b2x4dlZhYllRMDUtSEFzaGh3eG0xdTNKM3hyWVFLOGI3U3llQXc0YlFlN0VXZ2c?oc=5"
-        },
-        {
-          "title": "Nasdaq, S&P 500, Dow Futures Slip As Chip Stocks Pull Back: LULU, NFLX, KEEL, MRLN Stocks In Focus - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORkd4V1pSeWVORXBMNlhsMXpwcjF3N2lfNk9rQmJ1djZ3akpFM1hLYTV0YWg4dThpd0NzRzZxS3Nha1I5blpCcnVoNDVXWFJLM0tSbTgwbE9OSHB4emR2U3phTWg4S1pISGhLZ05RUjFLWEotMnVvdE42MEpVaHFhSFdPOC00a2l3c2g5ZGN6QWhONFB6ZEM2SlVOYzVDNGNILWp2NTR2cGdRbUhtQ1F2Y1ctZnhHNldldlE?oc=5"
-        },
-        {
-          "title": "KEEL Stock Slides As Traders Weigh Losses And Leverage - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdTQwUm1kSE5rR0RZT0s4ZzBQMTBRRldSMG1KWFVacVdFbzNNdmEtSjNlT0JDMi1tZ2xwSUU0QmxvQ1FrS0ptRDQxa1o5emctV2hTOUdESVlkSzNnT0J3c1A4dXdra0pkcGRWZDJ4dzVZZ1lGUHZpN2dya0ZCUU5lR0pPOA?oc=5"
-        },
-        {
-          "title": "KEEL Stock Slips As Momentum Cools After Sharp Run - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMlVobUFydi1VdXo0NTBZRnA1Y292ZUVMLUJCby1Ha2FxWC13dU0tTEFyY1JacjA5ZW1xdzJ1azhqa2RxT0c3U0VTWTdueU1Qb1JNSUNvWEZCTXhKQzlKemJsYmhubXZXbVd5OHpFRTY4NWtnOWV2Nks5OGZvcUN1WTBrVUNkZmM?oc=5"
-        },
-        {
-          "title": "Keel Infrastructure gains before the bell as Citizens initiates on AI power pipeline - TechStock²",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMF93U1RMbWNYNWJqOERZV2wyWWJoZUVlc0RScEFMX0tGS0FNVHpvNkpLR3lOYjVDSnZJUkwzRVZhaWVXbmNMUGVtdDhuZGRXMWFxdlFucS1mNm5ZQ2tETTB0WTd5NU1UUTluZWdXNUJYVUhHeWdZRTc1LUl5eEdocGFOOUFZd2t1X01nQXd4NkFzT0R1R1UzcEJaUHdoSHRvWXRBUnZvaDc?oc=5"
-        }
-      ],
-      "float_shares": "601.03M",
-      "short_float": "12.19%",
-      "daily_pct": -7.27,
-      "industry": "Infrastructure",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "an analyst initiation from Citizens highlighting its AI power pipeline business",
-        "discrepancy_note": "Finviz News has no mention of the claim. Only one article from Google News ([5]) confirms an initiation by Citizens on AI power pipeline."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "FLNC",
-      "price": 19.75,
-      "gap_pct": 3.75,
-      "pm_volume": 82248,
-      "avg_vol_10d": 11129399,
-      "avg_dollar_vol": 219805630,
-      "mkt_cap": 3640135784,
-      "rvol": 0.63,
-      "adr_pct": 13.32,
-      "category": "Insider Buying",
-      "theme": "Insider Sale",
-      "reasoning": "SVP & CCSO of Fluence Energy (FLNC) sold 31,974 shares valued at $754,702.",
-      "hypothesis": "Medium Conviction (RS Hold) — Insider conviction signal; look for base breakout.",
-      "conviction": 55,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Grid",
-      "analysis_detail": "Catalyst: SVP & CCSO, Zahurancik, **sold** 31,974 shares of FLNC for approximately **$754,702**. Impact: This insider **sale** represents a negative sentiment signal from a senior executive, potentially indicating a lack of near-term conviction or personal liquidity needs, which can weigh on investor perception and momentum.",
-      "analysis_details": "• **The Buyer**\nSVP & CCSO Zahurancik **sold** a substantial block of shares, totaling **31,974** shares, across multiple transactions reported on June 25, 2026. The total value of these sales amounted to approximately **$754,702**, representing a notable liquidation of holdings.\n\n• **Conviction Signal**\nAn executive **sale** can be interpreted as a **lack of conviction** in the company's near-term prospects or simply for personal financial planning. While Zahurancik's remaining holdings are **71,171 shares**, indicating continued investment, the **significant liquidation** by a key executive often leads to investor caution and can add **downward pressure** on the stock, signaling a potential pause in positive momentum.",
-      "peer_tickers": [
-        "STEM",
-        "ENPH",
-        "ARRY"
-      ],
-      "headlines": [
-        {
-          "title": "Insider Sale: SVP & CCSO of $FLNC Sells 16,000 Shares - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWTI4TUxnZHRKdzFqbHBfa3Q2Wmp4WVdGdzViWVNDN2pRTnl0ZG9UWG9nckpORU14bFlFU3Byc1NDMlpKQW54Q3RJQWJZMTNoUElORDFINTYtSzU3b3p2bC1GbERqTmpfZEdzdEE5SWY1NXZucnlmZjhPQWE0ekdxVjR1eDJ0RDdtVXFFRlR2N0tHS2FFb21rcmNn?oc=5"
-        },
-        {
-          "title": "Fluence Energy (FLNC) SVP Zahurancik sells 31,974 shares, holds 71,171 - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2N2WFJvUTJxY0RFV3lZcE92c0MzajJiUldta3UtclBuV1d6ZV9NM3c0X3RfYmFuQ3J5LTU3R2doVXZCckZlVFFZY0p6bHNpUlVseVV0Y2kyZk5QOE1wSHE0emJhZHl3YUoxUGhwX3d2OEdpVno0LU91S2VFYUxpS09JX2Z2aFJYcjVDNjBVVno1VWh0UXFlWGM5TUJzZUpQV2QtZjBqZU1LR0JWMkdaNjVR?oc=5"
-        },
-        {
-          "title": "Fluence Energy SVP Zahurancik sells $754,702 in company stock - Investing.com South Africa",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUF9ncGNLMVpaWGxlZGxZTldLblo3aHJhVkhCMmlzcl96WFNDVW0xX2VkaXphNWtQRlVwamMtU25ZWElaTUlmY1NISzhfTlVqODRjQmllUFUyYjY0YWFrNDRmdDMtQnNudzcwMFJSZEJYNFRmN0NBa0pjZFFlY2FacldIVklWcmk2MW5qSmxJcTBBbVMzNVcycm1VbnI2SzBXck5Da0FrZkdwajZtaGI4S0czQVFRMWJWeXVRMg?oc=5"
-        }
-      ],
-      "float_shares": "100.23M",
-      "short_float": "23.97%",
-      "daily_pct": -6.88,
-      "industry": "Clean Energy - Grid",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "$754,702",
-        "discrepancy_note": "Source A (Finviz News) contains no information. Source B (Google News) article [3] confirms the dollar amount of $754,702, but articles [1] and [2] do not mention this specific value. Furthermore, Google News article [1] states a different share count (16,000 shares) than the primary catalyst claim's 31,974 shares, creating an internal discrepancy within Source B regarding the overall transaction details."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
     }
   ],
   "ibkr_scanner": []
