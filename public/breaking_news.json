@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (06:50 EST)",
+  "last_checked": "June 26, 2026 (06:55 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal – but fragile confidence threatens recovery",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-26T06:55:29.521392-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] U.S.-Iran peace deal grants access to Tehran's nuclear sites, UN watchdog says",
       "source": "CNBC",
@@ -1375,6 +1383,10 @@
     {
       "k": "micron falls 5 in premarket paring earlier gains amid tech rout",
       "ts": "2026-06-26T10:20:27.434188+00:00"
+    },
+    {
+      "k": "shipping rebounds in strait of hormuz one week after usiran deal – but fragile confidence threate",
+      "ts": "2026-06-26T10:55:30.149750+00:00"
     }
   ]
 }
