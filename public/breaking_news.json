@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 25, 2026 (22:15 EST)",
+  "last_checked": "June 25, 2026 (22:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] UN agency pauses Hormuz ship evacuation plan after first vessel attack under peace deal",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-25T22:20:25.220111-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Iran behind attack on cargo vessel near Oman in Strait of Hormuz, U.S. official tells MS NOW",
       "source": "CNBC",
@@ -1367,6 +1375,10 @@
     {
       "k": "softbank sinks 12 as asia tech rout tracks declines in the us",
       "ts": "2026-06-26T01:30:28.461803+00:00"
+    },
+    {
+      "k": "un agency pauses hormuz ship evacuation plan after first vessel attack under peace deal",
+      "ts": "2026-06-26T02:20:25.732364+00:00"
     }
   ]
 }
