@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (11:45 EST)",
+  "last_checked": "June 26, 2026 (11:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-26T11:50:29.992658-04:00",
+      "pub_time": "2026-06-26T11:50:06-04:00"
+    },
     {
       "headline": "[CNBC] Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal – but fragile confidence threatens recovery",
       "source": "CNBC",
@@ -1443,6 +1451,10 @@
     {
       "k": "micron sinks continuing a whipsaw week of trading",
       "ts": "2026-06-26T15:43:15.795447+00:00"
+    },
+    {
+      "k": "minneapolis fed president neel kashkari says he expects a rate hike this year",
+      "ts": "2026-06-26T15:50:31.025828+00:00"
     }
   ]
 }
