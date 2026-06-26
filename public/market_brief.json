@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 26, 2026 (11:24 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 26, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7364.92,
-      "change": 7.43,
-      "change_pct": 0.1
+      "price": 7354.02,
+      "change": -3.47,
+      "change_pct": -0.05
     },
     {
       "label": "Nasdaq 100",
-      "price": 29249.21,
-      "change": -191.12,
-      "change_pct": -0.65
+      "price": 29118.24,
+      "change": -322.08,
+      "change_pct": -1.09
     },
     {
       "label": "VIX",
-      "price": 19.2,
-      "change": 0.31,
+      "price": 18.41,
+      "change": -0.48,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -36,21 +36,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24628.09,
-      "change_pct": -1.47
+      "price": 24994.83,
+      "change_pct": 1.03
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10494.8,
-      "change_pct": -0.33
+      "price": 10508.02,
+      "change_pct": -0.21
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 61.0,
-    "mmth": 66.3,
+    "s5fi": 61.9,
+    "mmth": 66.0,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -59,30 +59,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed US, Tech Underperforms, Global Divergence",
+  "mood": "Mixed US, Strong Global Tech",
   "analysis": {
-    "action_line": "VIX 19.20 Normal + S5FI 61.0% breadth + divergent global tape → trade RS leaders selectively near support.",
-    "analysis_para1": "Global markets are showing significant divergence this morning, with the Nikkei 225 surging an impressive +4.61% while European indices like the DAX (-1.47%) and FTSE 100 (-0.33%) retreat. This regional disparity suggests underlying sector or country-specific drivers rather than a uniform global sentiment. In the US, credit signals remain ambiguous as the 10Y Yield is stable and the BAML HY Spread is in an Unknown regime, offering no clear directional input. Despite the mixed picture from major indices, underlying market health appears robust with 61.0% of S&P 500 stocks above their 50-day moving average (S5FI) and 66.3% above their 200-day moving average (MMTH). This suggests internal rotation rather than broad market distress.",
-    "analysis_para2": "The 'Mechanical Plan' requires vigilance amidst current market dynamics. With the S&P 500 trading marginally higher and the Nasdaq 100 pulling back, traders should prioritize relative strength leaders from the Hardware and Semiconductor themes identified. Watch for pullbacks to short-term support levels for entry, particularly as the Nasdaq shows weakness. Continued strong breadth metrics (S5FI 61.0%, MMTH 66.3%) suggest that dips in leading sectors could be buying opportunities, provided they don't break key structural support. Conversely, a failure of the S&P 500 to hold recent lows or a further deterioration in Nasdaq could signal broader distribution.",
-    "technical_signal": "No reversal pattern confirmed yet. The S&P 500 is only slightly positive, while the Nasdaq 100 shows minor weakness, indicating a mixed market rather than a clear directional shift.",
+    "action_line": "VIX 18.41 Normal + S5FI 61.9% breadth + Nikkei +4.61% points to selective buying of relative strength leaders.",
+    "analysis_para1": "Global markets exhibited a bifurcated session, with the Nikkei 225 surging +4.61% and the DAX gaining +1.03%, while the FTSE 100 lagged slightly. The crucial BAML HY Spread remains an unknown, preventing a clear read on credit conditions. Domestically, US indices saw mixed performance, with the Nasdaq 100 notably down -1.09%. Despite this, market breadth remains constructive, with 61.9% of stocks above their 50-day moving average (S5FI) and 66.0% above their 200-day (MMTH), suggesting underlying health.",
+    "analysis_para2": "Given the mixed US session, the mechanical plan involves closely monitoring the Nasdaq 100 for signs of stabilization above key support levels following today's -1.09% decline. The prominent strength in Semiconductors, as highlighted by our scanner, dictates a continued focus on leaders within this sector. Entries should be considered on pullbacks to short-term moving averages or established breakout points, with strict stop-loss orders in place. Maintaining exposure to high relative strength names remains paramount, while avoiding speculative positions in lagging sectors.",
+    "technical_signal": "No reversal pattern confirmed yet. The market exhibits mixed signals with strong global performance contrasting with a slight pullback in US tech.",
     "ticker_intel": [
       {
         "ticker": "SNDK",
         "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "SNDK demonstrates exceptional strength with an RS of 99 and a phenomenal 1-month gain of +46.9%, making it a top leader in the Hardware theme for this selective market."
+        "reason": "With an RS of 98 and a staggering +31.5% 1-month return, SNDK leads the hardware theme and demonstrates exceptional momentum for continued upside."
       },
       {
         "ticker": "MU",
         "company": "Micron Technology, Inc.",
         "grade": "A",
-        "reason": "MU stands out with an RS of 98 and a robust 1-month return of +35.5%, solidifying its position as a high-conviction leader within the high-performing Semiconductors sector."
+        "reason": "Micron, a leading semiconductor play with RS 98 and +22.0% 1-month gain, shows robust long-term strength suitable for continued thematic leadership."
       },
       {
-        "ticker": "SIMO",
-        "company": "Silicon Motion Technology Corporation",
+        "ticker": "KLIC",
+        "company": "Kulicke and Soffa Industries, Inc.",
         "grade": "C",
-        "reason": "Despite its high RS of 98, SIMO's 1-month return of +12.0% is the weakest among its peers, suggesting relative underperformance in a market favoring strong momentum."
+        "reason": "Despite an RS of 97 and +18.6% 1-month gain, KLIC's comparatively weaker +93.4% 3-month return suggests it may lag the strongest sector leaders."
       }
     ]
   }
