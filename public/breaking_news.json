@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 26, 2026 (16:45 EST)",
+  "last_checked": "June 26, 2026 (16:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] U.S. strikes Iran after Trump accuses Tehran of ceasefire violation in Strait of Hormuz",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-26T16:50:29.228267-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'",
       "source": "CNBC",
@@ -1491,6 +1499,10 @@
     {
       "k": "oracle stock has worst week since 2001 dotcom bust as ai financing concerns escalate",
       "ts": "2026-06-26T20:30:35.933718+00:00"
+    },
+    {
+      "k": "us strikes iran after trump accuses tehran of ceasefire violation in strait of hormuz",
+      "ts": "2026-06-26T20:50:29.828446+00:00"
     }
   ]
 }
