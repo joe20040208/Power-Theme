@@ -1,32 +1,7 @@
 {
-  "last_checked": "June 26, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "[CNBC] U.S. strikes Iran after Trump accuses Tehran of ceasefire violation in Strait of Hormuz",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bearish",
-      "timestamp": "2026-06-26T16:50:29.228267-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "Trump threatens 100% tariffs on countries putting 'Digital Services Tax on American Companies'",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-26T14:30:32.929685-04:00",
-      "pub_time": "2026-06-26T14:25:36-04:00"
-    },
-    {
-      "headline": "Trump threatens 100% tariff on countries putting 'Digital Services Tax on American Companies'",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-06-26T12:45:31.054701-04:00",
-      "pub_time": "2026-06-26T12:38:08-04:00"
-    }
-  ],
+  "last_checked": "June 27, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "massive bonuses for south koreas chip workers puts central bank on inflation alert",
