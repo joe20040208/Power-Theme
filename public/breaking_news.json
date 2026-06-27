@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 27, 2026 (12:20 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 27, 2026 (12:25 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Tanker struck in Strait of Hormuz as U.S.-Iran tensions escalate",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-27T12:25:25.534064-04:00",
+      "pub_time": "2026-06-27T12:20:08-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "iran reportedly closes strait of hormuz again casting shadow over nuclear talks",
@@ -1518,6 +1527,10 @@
     {
       "k": "why investors may want to prioritize bond markets outside the us",
       "ts": "2026-06-27T15:00:34.001259+00:00"
+    },
+    {
+      "k": "tanker struck in strait of hormuz as usiran tensions escalate",
+      "ts": "2026-06-27T16:25:25.942989+00:00"
     }
   ]
 }
