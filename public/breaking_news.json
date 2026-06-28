@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 28, 2026 (15:20 EST)",
+  "last_checked": "June 28, 2026 (15:25 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Iran talks on hold after fighting breaks out and Trump once again threatens annihilation",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-28T15:25:26.169155-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Iran peace talks on hold after fighting breaks out and Trump once again threatens annihilation",
       "source": "CNBC",
@@ -1515,6 +1523,10 @@
     {
       "k": "iran peace talks on hold after fighting breaks out and trump once again threatens annihilation",
       "ts": "2026-06-28T18:45:24.327692+00:00"
+    },
+    {
+      "k": "iran talks on hold after fighting breaks out and trump once again threatens annihilation",
+      "ts": "2026-06-28T19:25:27.022585+00:00"
     }
   ]
 }
