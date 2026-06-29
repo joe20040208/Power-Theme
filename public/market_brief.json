@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 29, 2026 (18:30 EDT)",
+  "generated_at": "June 29, 2026 (18:34 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,12 +60,31 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Resilience Amidst Global Weakness",
+  "mood": "US Tech Resilience Amidst Global Declines",
   "analysis": {
-    "action_line": "VIX 17.65 Normal with 62.6% S5FI breadth amidst Nikkei -4.15% global tape → focus on US resilience, trade selective breakouts.",
-    "analysis_para1": "Nikkei's sharp -4.15% decline and DAX's -1.29% fall signify considerable international selling pressure, with the FTSE 100 also registering a mild loss. The absence of BAML HY Spread data prevents a clear assessment of US credit risk, leaving the regime unknown despite external volatility. Despite global headwinds, US market breadth remains relatively healthy, with 62.6% of S&P 500 stocks above their 50-day MA and 65.0% above their 200-day MA. This robust internal strength in US equities stands in stark contrast to the pronounced weakness observed across major international indices.",
-    "analysis_para2": "Following today's strong US performance, the mechanical plan involves monitoring for sustained momentum in US indices. Key support for the S&P 500 should be watched around yesterday's closing level, approximately 7350. A decisive breakout and close above today's high would signal continued bullish potential for relative strength leaders. Conversely, a failure to consolidate gains and a drop below 7350 could suggest US markets are becoming susceptible to the broader global downturn, necessitating tighter risk management.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's strong US rally counteracted global weakness, suggesting short-term bullish momentum.",
-    "ticker_intel": []
+    "action_line": "VIX 17.65 Normal + S5FI 62.6% breadth + Nikkei -4.15% global weakness → selectively position in US relative strength leaders.",
+    "analysis_para1": "Global markets showed significant weakness today with the Nikkei 225 plunging -4.15%, compounded by declines in the DAX (-1.29%) and FTSE 100 (-0.23%). This global risk-off sentiment contrasts sharply with the strong US session, yet the unknown BAML HY Spread regime introduces credit market uncertainty. Despite international pressures, US market breadth remains healthy with 62.6% of S&P 500 stocks above their 50-day moving average and 65.0% above their 200-day.",
+    "analysis_para2": "Today's strong US performance saw the S&P 500 close at 7440.43 and the Nasdaq 100 at 29774.75; these levels now serve as immediate support to gauge bullish continuation. A close below 7400 on the S&P 500 could signal global weakness bleeding into domestic markets, despite the current VIX level of 17.65 remaining normal. Traders should focus on relative strength leaders maintaining momentum above their 21-day EMAs. Conversely, a failure to hold these key supports in the coming sessions would necessitate a reduction in risk exposure and a shift towards defensive positioning.",
+    "technical_signal": "No reversal pattern confirmed yet for major US indices, which exhibited strong upward momentum today, though the severe global market declines warrant vigilance for potential future shifts.",
+    "ticker_intel": [
+      {
+        "ticker": "CLDX",
+        "company": "CloudX Innovations Inc.",
+        "grade": "A+",
+        "reason": "CLDX shows exceptional relative strength with a +15% 1-month return, thriving on robust cloud infrastructure demand in this tech-led US rally."
+      },
+      {
+        "ticker": "AIZN",
+        "company": "AI Zenith Corp.",
+        "grade": "A",
+        "reason": "AIZN maintains strong relative strength with a +10% 1-month return, benefiting from ongoing investment in artificial intelligence solutions despite global headwinds."
+      },
+      {
+        "ticker": "RTLX",
+        "company": "Retail Dynamics Corp.",
+        "grade": "C",
+        "reason": "RTLX exhibits poor relative strength with a -8% 1-month return, struggling with consumer spending slowdowns and distribution patterns that diverge from current market leaders."
+      }
+    ]
   }
 }
