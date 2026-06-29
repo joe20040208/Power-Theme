@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-29 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "US Risk-On, Tech Leading",
+    "spy_price": 741.0,
+    "spy_change_pct": 1.65,
+    "vix": 17.65,
+    "hy_oas": 2.83,
+    "yield_curve": 0.28,
+    "credit_status": "Complacent",
+    "s5fi": 62.6,
+    "mmth": 65.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "IRDM",
+          "company": "Iridium Communications Inc.",
+          "reason": "Received an acquisition offer, signaling significant value unlock and potential for a merger arbitrage play."
+        },
+        {
+          "ticker": "ONDS",
+          "company": "Ondas Holdings Inc.",
+          "reason": "Benefited from an index inclusion and subsequent short squeeze, driving outsized momentum and positioning shifts."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "Continues to attract speculative interest based on the persistent AI narrative, but lacks fresh fundamental news beyond general sector trends."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-29 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "AMC",
           "company": "AMC Entertainment Holdings, Inc.",
           "reason": "AMC is likely to remain driven by retail sentiment and short-squeeze narratives, with no fresh fundamental catalyst but continued speculative interest."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-15 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Global Risk Aversion",
-    "spy_price": 739.17,
-    "spy_change_pct": -1.2,
-    "vix": 18.43,
-    "hy_oas": 2.76,
-    "yield_curve": 0.47,
-    "credit_status": "Complacent",
-    "s5fi": 49.7,
-    "mmth": 58.8,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "FIG",
-          "company": "Financial Insights Group",
-          "reason": "Financial Insights Group announced an earnings beat and strong growth figures, showcasing resilience in a challenging market and signaling robust internal execution."
-        },
-        {
-          "ticker": "RDW",
-          "company": "Redwood Dynamics",
-          "reason": "Redwood Dynamics delivered a beat-and-raise quarter, boosting guidance and demonstrating strong operational momentum that defied broader market weakness."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "NVIDIA Corp. is experiencing selling pressure today, likely due to broad market de-risking and profit-taking after recent gains, with no new specific company catalyst."
         }
       ]
     }
