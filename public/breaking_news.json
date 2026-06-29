@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 28, 2026 (22:00 EST)",
+  "last_checked": "June 28, 2026 (22:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-28T22:05:27.996745-04:00",
+      "pub_time": "2026-06-28T22:03:22-04:00"
+    },
     {
       "headline": "[CNBC] Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
       "source": "CNBC",
@@ -1543,6 +1551,10 @@
     {
       "k": "samsung sk hynix shares fall as investors brace for reported 13 trillion spending plans",
       "ts": "2026-06-29T01:45:30.946184+00:00"
+    },
+    {
+      "k": "us iran pause hostilities as hormuz shipping resumes after weekend clashes",
+      "ts": "2026-06-29T02:05:29.069338+00:00"
     }
   ]
 }
