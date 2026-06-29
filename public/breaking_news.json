@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 28, 2026 (20:05 EST)",
+  "last_checked": "June 28, 2026 (20:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-28T20:10:34.227614-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] Iran talks on hold after fighting breaks out and Trump once again threatens annihilation",
       "source": "CNBC",
@@ -20,10 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "oil rises after trump threatens fresh strikes on iran overshadowing peace talks",
-      "ts": "2026-06-22T00:10:30.361086+00:00"
-    },
     {
       "k": "brent crude slips as qatar pakistan announce 60day roadmap for usiran deal",
       "ts": "2026-06-22T01:50:30.508015+00:00"
@@ -1531,6 +1535,10 @@
     {
       "k": "everything tied to the data center is suddenly suspect can big tech fix it",
       "ts": "2026-06-28T22:25:25.594433+00:00"
+    },
+    {
+      "k": "oil rises as renewed usiran strikes reignite middle east supply fears",
+      "ts": "2026-06-29T00:10:34.932036+00:00"
     }
   ]
 }
