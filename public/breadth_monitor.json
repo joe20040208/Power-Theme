@@ -5,23 +5,23 @@
       "date": "2026-06-26",
       "date_display": "6/26/2026",
       "up_4_pct": 880,
-      "down_4_pct": 258,
+      "down_4_pct": 260,
       "ratio_5d": 1.29,
       "ratio_10d": 1.32,
       "up_25_q": 1669,
-      "down_25_q": 1130,
+      "down_25_q": 1131,
       "up_25_m": 176,
       "down_25_m": 202,
       "up_50_m": 24,
       "down_50_m": 37,
       "up_13_34d": 2027,
-      "down_13_34d": 1637,
-      "atr_10x_ext": 11,
-      "above_50dma_pct": 60.8,
+      "down_13_34d": 1638,
+      "atr_10x_ext": 8,
+      "above_50dma_pct": 61.2,
       "worden_universe": 6485,
-      "t2108": 51.77,
-      "sp_index": 7335.7,
-      "universe_1b": 2648
+      "t2108": 52.09,
+      "sp_index": 7354.02,
+      "universe_1b": 2667
     },
     {
       "date": "2026-06-25",
@@ -2865,6 +2865,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-26T21:49:38+00:00",
-  "gemini_analysis": "TODAY \u2014 On 2026-06-26, Up 4%+ was 880 and Down 4%+ was 258, resulting in a strong ratio of 3.41:1. The Up 4%+ count of 880 indicates an extreme thrust, signaling very bullish activity today.\n\nWEEK \u2014 Over the last five days, the 5-day ratio fluctuated but ended at 1.29, while Up 13% 34-Day momentum indicators improved from 1744 to 2027. Overall, market breadth is showing signs of improving strength, with a notable acceleration in medium-term momentum.\n\nMONTH \u2014 The Up 50% Monthly count is low at 24, suggesting the market is not currently frothy or extended. With 60.8% of stocks above their 50-day DMA and T2108 at 51.77%, the market is in a healthy bull zone, indicating a constructive environment for swing traders without immediate overbought concerns.\n\nREGIME \u2014 **Rebounding** \u2014 The market is showing signs of recovery from a mid-month consolidation phase, highlighted by today's extreme buying thrust. Stockbee would now watch for sustained follow-through from this thrust, confirming higher 5D/10D ratios above 2.0, and expanding Up 25% Quarterly counts to signal a broad return to a strong bull trend."
+  "fetched_at_utc": "2026-06-29T21:47:44+00:00",
+  "gemini_analysis": "TODAY \u2014 Today saw an extreme buying thrust with 880 stocks up 4%+, significantly exceeding the 600 threshold. While there was also notable distribution pressure from 260 stocks down 4%+, the bullish thrust was much stronger.\nWEEK \u2014 Over the last five days, the 5-day ratio (`r5d`) has remained in bullish territory (1.09-1.33) but below the strong bull threshold of 1.5. Medium-term momentum showed significant improvement, with `Up 13% 34-Day` accelerating from 1744 to 2027, indicating stage-2 breakouts are firing.\nMONTH \u2014 The `Up 50% Monthly` count is a modest 24, well below the \"hot market\" threshold, suggesting no immediate frothy conditions. With 61.2% of stocks `above 50 DMA` and `T2108` at 52.09, the market is in a healthy, balanced state suitable for momentum-based swing trading.\nREGIME \u2014 Healthy Bull Trend \u2014 Stockbee would watch for the 5D/10D ratios to push convincingly above 1.5 or 2.0 again, signalling broad market strength. He would also monitor for `up25% Quarterly` to continue its expansion, confirming a growing universe of momentum stocks."
 }
