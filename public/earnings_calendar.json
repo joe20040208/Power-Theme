@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T21:49:37.221196+00:00",
+  "generated_at": "2026-06-29T12:14:38.410107+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 137.95,
-      "avg_volume": 1190385,
+      "avg_volume": 1267461,
       "adr_pct": 5.5,
-      "dollar_volume": 164213611.0
+      "dollar_volume": 174846245.0
     },
     {
       "date": "2026-06-29",
@@ -25,16 +25,16 @@
       "company": "Concentrix Corporation",
       "time_of_day": "AMC",
       "mkt_cap": 1525120650.0,
-      "eps_estimate": 2.63,
+      "eps_estimate": 2.64,
       "eps_act": 2.61,
       "eps_surp_pct": -3.26,
       "rev_est": 2473429030.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 25.0,
-      "avg_volume": 1618601,
+      "avg_volume": 1695377,
       "adr_pct": 6.6,
-      "dollar_volume": 40465025.0
+      "dollar_volume": 42384425.0
     },
     {
       "date": "2026-06-30",
@@ -45,13 +45,13 @@
       "eps_estimate": 0.13,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 10851742890.0,
+      "rev_est": 10853512160.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 40.75,
-      "avg_volume": 24275771,
+      "avg_volume": 24584225,
       "adr_pct": 3.2,
-      "dollar_volume": 989237668.0
+      "dollar_volume": 1001807169.0
     },
     {
       "date": "2026-06-30",
@@ -66,26 +66,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 33.15,
-      "avg_volume": 873074,
+      "avg_volume": 903263,
       "adr_pct": 5.3,
-      "dollar_volume": 28942403.0
+      "dollar_volume": 29943168.0
     },
     {
       "date": "2026-06-30",
       "ticker": "STZ",
       "company": "Constellation Brands, Inc.",
       "time_of_day": "AMC",
-      "mkt_cap": 25089399943.0,
-      "eps_estimate": 3.24,
+      "mkt_cap": 25192636248.0,
+      "eps_estimate": 3.21,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 2399529970.0,
+      "rev_est": 2391715680.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 146.3,
-      "avg_volume": 2129433,
+      "avg_volume": 2156211,
       "adr_pct": 2.7,
-      "dollar_volume": 311536048.0
+      "dollar_volume": 315453669.0
     },
     {
       "date": "2026-07-01",
@@ -100,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 231.74,
-      "avg_volume": 958322,
-      "adr_pct": 4.8,
-      "dollar_volume": 222081540.0
+      "avg_volume": 971322,
+      "adr_pct": 5.0,
+      "dollar_volume": 225094160.0
     },
     {
       "date": "2026-07-01",
@@ -117,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 50.37,
-      "avg_volume": 463233,
+      "avg_volume": 474317,
       "adr_pct": 2.7,
-      "dollar_volume": 23333046.0
+      "dollar_volume": 23891347.0
     },
     {
       "date": "2026-07-01",
@@ -134,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 36.01,
-      "avg_volume": 9466909,
+      "avg_volume": 9489765,
       "adr_pct": 2.4,
-      "dollar_volume": 340903393.0
+      "dollar_volume": 341726438.0
     },
     {
       "date": "2026-07-01",
@@ -151,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 118.18,
-      "avg_volume": 685547,
+      "avg_volume": 692417,
       "adr_pct": 2.4,
-      "dollar_volume": 81017944.0
+      "dollar_volume": 81829841.0
     },
     {
       "date": "2026-07-01",
@@ -168,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 266.07,
-      "avg_volume": 233239,
+      "avg_volume": 232485,
       "adr_pct": 2.2,
-      "dollar_volume": 62057901.0
+      "dollar_volume": 61857284.0
     },
     {
       "date": "2026-07-02",
@@ -185,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 124.85,
-      "avg_volume": 189333,
+      "avg_volume": 195479,
       "adr_pct": 2.7,
-      "dollar_volume": 23638225.0
+      "dollar_volume": 24405553.0
     }
   ]
 }

@@ -1,72 +1,285 @@
 {
-  "scan_time": "2026-06-26 08:07 ET",
+  "scan_time": "2026-06-29 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "AVEX",
-      "price": 15.43,
-      "gap_pct": 6.16,
-      "pm_volume": 68434,
-      "avg_vol_10d": 2167337,
-      "avg_dollar_vol": 33442010,
-      "mkt_cap": 1759663450,
-      "rvol": 0.87,
-      "adr_pct": 11.2,
-      "category": "Institutional Buying",
-      "theme": "Russell 2000 Index Inclusion",
-      "reasoning": "AEVEX will be added to the Russell 2000 Index effective June 29, triggering forced institutional buying.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
+      "ticker": "CMCSA",
+      "price": 23.17,
+      "gap_pct": 21.74,
+      "pm_volume": 5204199,
+      "avg_vol_10d": 39097593,
+      "avg_dollar_vol": 905891230,
+      "mkt_cap": 82768535885,
+      "rvol": 0.91,
+      "adr_pct": 2.66,
+      "category": "Others",
+      "theme": "Corporate Restructuring / Spin-off",
+      "reasoning": "Comcast announced a plan to spin off its NBCUniversal and Sky divisions, leading to a significant rally.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Cloud SaaS",
-      "analysis_detail": "Catalyst: AEVEX (AVEX) is set to join the Russell 2000 Index as part of its annual reconstitution, with the change becoming effective on **June 29, 2026**. This announcement was made across multiple financial news outlets on **June 25, 2026**. | Impact: This inclusion will lead to significant inflows from passive index funds that track the Russell 2000, substantially **increasing AVEX's institutional ownership and liquidity**.",
-      "analysis_details": "• **The Buyer**\nThe primary buyers will be passive index funds and ETFs that track the Russell 2000 index, as they are mandated to hold constituents. This guarantees a significant influx of capital into AVEX shares, proportional to its market cap within the index, creating sustained demand leading up to and after the effective date. These forced buying flows provide a strong technical tailwind.\n\n• **Conviction Signal**\nInclusion in the Russell 2000 **enhances AVEX's visibility** to a broader institutional investor base, including active small-cap managers who screen for index members. It also typically **improves liquidity** and **reduces stock volatility** over time due to the increased institutional ownership, de-risking the stock for a wider array of investors, making it a more attractive long-term holding.",
+      "grade": "B",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Comcast announced a **major corporate restructuring**, planning to **spin off its NBCUniversal and Sky divisions** into separate public entities. | Impact: This strategic move is expected to **unlock significant shareholder value** by streamlining operations, allowing both the broadband/connectivity business and the content/media business to pursue independent growth strategies, leading to a **23% stock surge**.",
+      "analysis_details": "• **What Happened**\nComcast announced a **surprise breakup plan**, revealing intentions to **spin off its NBCUniversal and Sky divisions** into separate public companies. This strategic move aims to unbundle the vast media and content assets from its core connectivity and broadband business. Following the news, CMCSA stock **soared by 23%** in early trading, with analysts suggesting the move could **unlock significant shareholder value** by creating more focused entities.\n\n• **Key Consideration**\nThe market is reacting **extremely positively** to the prospect of a de-conglomeration, which could simplify Comcast's structure and allow each business unit to be valued more appropriately by investors. This split creates two distinct investment profiles: a **stable, cash-generative broadband provider** and a **growth-oriented media and entertainment giant**. The success of the spin-off will hinge on execution, debt allocation, and the independent growth trajectories of the new entities.",
       "peer_tickers": [
-        "MNDY",
-        "SMAR",
-        "GTLB"
+        "CHTR",
+        "WBD",
+        "DIS"
       ],
       "headlines": [
         {
-          "title": "Enterprise value to revenue forward of AEVEX Corp. – NYSE:AVEX - TradingView",
+          "title": "Comcast Stock Is Rising Like It’s 2008 on Plan to Spin Off NBCUniversal and Sky - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2N4UElMY1g0VDJpeVRsRDN6bmtuXy15bHR2UFpMYVdQaS1iWnZJTXdKZWkyRDdzbGw4Si1yQ3lkSTVfOTgzYktFRGpTb3JfSWw1VzNNQ203SmNiWmNkN3ZVOHFVV0FUS1BhWFdBT0JHRUZEVGo3UzVIZGFFS0N6ekJ1aUVGYWd5Y2NrWTFHTlRBYzFqczJnbUpTbzk4WFZWNExyVHhwb2dJdw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWDRCWDc3R19yWFpBSkZjMkx3dlpNdmxSTWxWdXJBM3VSNzFyQV9CWHRpZV9KWWp1ZnByQVlwSzB2MnE0V3ZLb2FFRjZGd2VpUnhaWTA5NmNhaU9MM0VxV1RmNklmS0hhSTc1Ymhqb3FpcGc2bDJ0VUVTMFBLZ0MyS3c5czVCQ0pwQ3U1aUdqMU4?oc=5"
         },
         {
-          "title": "AEVEX (AVEX) Insider Trading Activity 2026 - MarketBeat",
+          "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues - Investor's Business Daily",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xaER4Q1NsZzk1RVBwYnp5RlZZbHRnUkRsQjR0MFJYSmJJUVE2TzhNdTZKZW5DOTZqb3ZHeTk1SkVkSFJUYzNBTFVoMUxWdzE5M0VrRXhMNjVSQWprbmNXYjRraHMzV0pnYnlF?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZnIxVmQzZFRSZE5IeW9rN1lwU3ZRdUh3MWtHS2lIOVRacWhuZ0xKTU80NzRuZldzVW00RlBtZm1EM1kyMXBUcFNkTlk4T3c1cWJhb0FodXhhNE8tb0lZZEx2QTY0aHJCS0hlQlkwc21jekRSN09pdzNyLXdmdHRsU09rQjBNTDl4ME54dUttekVXX2hyMGh6SXJHaVY1UzZ4cVVnVDk3bUpYV2hpMGtJdzBxLWVmX2NE?oc=5"
         },
         {
-          "title": "AEVEX (AVEX) to Join Russell 2000 Index in 2026 - GuruFocus",
+          "title": "Comcast Stock Sinks as Surprise Breakup Plan Shocks Wall Street - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORWs0emg3cU9Xd29BTHF3WXFqZldMMjdsWk1kbEdHQTVnUHhLd0ZxRVFLVzRDTlVsQzlBYkQ0S21GLXUtNFpMbnplcjBsOGVmWDBTR3ROYW5iYm5fR2t2cGlQMVlrd2FJRXZfQ0xGX1V1M0l6blJiREJWdFF3Z25xbmoydzVmSldrMVJIRg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnk0QTNndEJuMFBzQ2txVktuQmoyM3pwbUtlQXUwX21kMkl2d3dmRW5UMThfbGJpaW93c09aeFRmUVlOWHk4Y2lVbjA5bERqbkdSMHNqbEFOR0pPWktIWEF1TFh5T2YzemFLWmJuSi1YdU9ZV3g4ekl3SFdZT3dJcUF6elBaSUR6Vm93V0Yydk1TUnl5SHRSdE11cEh2QksyTktrWg?oc=5"
         },
         {
-          "title": "AEVEX to join Russell 2000 Index effective June 29 - Investing.com",
+          "title": "Comcast soars 23% after announcing it will spin off media and tech wings into separate public companies - CNBC",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3lfZUE3NWdseGtDcUE0NlMybVFKREw1N0hiY0Y2ZXFPQ25lOGhYbEUxT0hnODVENmNCYXVBSkRtZldXWHhYdTdzc2R5SG16akxrM0ZpRHFPUXJtZy12X2lBc0dkVmgwVnFub1pnOFJySll0ZzEzbDJsLXN2ZmRXWUJVQzRtdmJLQWgtSlRpYzlJRGdicl91Smp1U1RpbE1pcmYyRmZpQ0F3VHc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTBKcEpHRi1MQUx0bUYtOU5wVXFBdlYzZzVWMldTS2Jvd1F4ZEhNM3haajZEVHl0NUhFX1hRMmdLQ0gzR1lpZEd4a0UzcElBemoyR2dkVHJuX1gxVTcteWxCS1BZaEIyOGRmOTlpNzdWeGFlME5WWUdiMnRoYjZVSE9hb1E4YVNLa1I5TGFWM29zaG1YVlh1NHM1WktwelM3VWFhMXA2VkJVdDZwLXFJVnlsVFZWdkVONmVxaGVkeU_SAcYBQVVfeXFMTU1xeGctWWFidzlOdnAxRmJmcnB1NEV5dklrdGtZVkprU2JzQ25SRl9VRHpNenIyQjJJRHcxbnBPT0NpLXBJSGJZYTY5ZXg4TTN1VlFoVG5nUXdXZTVuLWJOb0c1di1RT0xfMnpRa0JyZWI3Z2pOSXdZdjJXNTFsVUtIbHNfUHhOem1HaUNMZWtpNUNqcUptQ053a1NjdEpTMTY1c3lDRW1OYU5BVW1RQkNqZkZSZ3pqRlJIek9haGtSMEwtTTR3?oc=5"
         },
         {
-          "title": "AEVEX gains Russell 2000 spot as visibility broadens with index inclusion - Stock Titan",
+          "title": "Biggest stock movers Monday: CMCSA, GME, BTI, and more - Seeking Alpha",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0xUR1BxZlRkYWdhLVVCbFF2NjBmSGRYR01mY3Zsdnd2bVMxZ19wazNsQjFKbFF1NU1mbllFVzhaVVNqd3VxbWxJcjhKUVVXLXpCS3hMVkxDaTdZOGZqUDEzaVpLMVVUZ3ZRWno0ZGtnWVU0aXNNVWVwV3BKXzcwc1RGbTZiRDQ4enhSZnJCVndNN3U2akhzS3ZWRjFVb3RXV1ZJVHpaY0hRX0JL?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelJpUW0tTHdmNXg3cUJIZlF3YWl4TkcyQ2N4V3hjQlIyUndwbEZublZOcmUwRmpqVk9PT0RuRVBtOWxtVHdob1ZjMnI4aXozbGtjOVg3MFcyRld3Q0VaRUZzTDdNNzZfdzNLLXI4Z1lZVHcxWndQaUtaYWFucHhPNHFGbUNBTmswZEE?oc=5"
         }
       ],
-      "float_shares": "20.78M",
-      "short_float": "4.50%",
-      "daily_pct": 0.59,
-      "industry": "Cloud SaaS",
-      "technical_status": "Fail (Avg $Vol $33M < $100M)",
+      "float_shares": "3.53B",
+      "short_float": "2.52%",
+      "daily_pct": 2.12,
+      "industry": "Others",
+      "technical_status": "Fail (ADR 2.7% < 4%)",
       "verification": {
         "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Comcast stock rallied significantly (specifically, 23%) after announcing a plan to spin off its NBCUniversal and Sky divisions.",
+        "discrepancy_note": "Source B [1] (CNBC) states 'Comcast soars 23%', directly supporting the 'significant rally' claim with a specific percentage. However, Source B [5] (TipRanks) directly contradicts this, stating 'Comcast Stock Sinks'. Source A provided no information."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "IRDM",
+      "price": 43.52,
+      "gap_pct": 20.36,
+      "pm_volume": 95684,
+      "avg_vol_10d": 3019845,
+      "avg_dollar_vol": 131423654,
+      "mkt_cap": 4601271513,
+      "rvol": 0.82,
+      "adr_pct": 7.8,
+      "category": "New Contract/Partnership",
+      "theme": "Acquisition Offer",
+      "reasoning": "Iridium (IRDM) is being acquired by Rocket Lab (RKLB) in an $8 billion cash-and-stock deal, signaling a major corporate action.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 76,
+      "grade": "A+",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Rocket Lab (RKLB) has announced its intention to acquire Iridium (IRDM) in an **$8 billion** cash and stock transaction. This deal values IRDM at **$27 per share cash** plus a VWAP-linked stock component from RKLB. | Impact: This acquisition represents a **definitive exit** for IRDM shareholders at a significant premium, transforming IRDM from an independent entity to a subsidiary of Rocket Lab, with the potential for its technology and services to be integrated into a broader space solutions portfolio.",
+      "analysis_details": "• **Impact**\nRocket Lab announced the acquisition of Iridium (IRDM) in an **$8 billion** deal, valuing IRDM at **$27 cash per share** plus a stock component based on Rocket Lab's VWAP. This represents a substantial premium for IRDM shareholders, likely leading to a significant **surge** in IRDM's stock price today as the market prices in the acquisition offer. The deal structure provides both immediate cash value and participation in the future upside of the combined entity.\n\n• **Strategic Value**\nThe acquisition creates a vertically integrated space company, combining Rocket Lab's launch and satellite manufacturing capabilities with Iridium's established global satellite constellation and data services. This move will allow Rocket Lab to **expand its service offerings** beyond launch, tapping into Iridium's secure satellite communications and IoT market. For Iridium, it offers financial stability and access to Rocket Lab's innovation in space technology, potentially **accelerating** service expansion and market penetration.",
+      "peer_tickers": [
+        "ASTS",
+        "MAXR",
+        "VSAT"
+      ],
+      "headlines": [
+        {
+          "title": "Rocket Lab Shares Are Surging Over 7% On Monday: What's Going On? - Rocket Lab (NASDAQ:RKLB), Iridium Com - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTdFeEVwT0FkLU9hdnRnWW1yMjR5UTIzeXNZOVJHWWdJNUlvWlp2MnJPUzNobW5VM0NzWUZLaHdlMml6Nk55MHhFNXdfQjRDUVJuZ2RyOWFrTlVYb2xyMjRIU0pKOG4xR3VQLUV0OHdTdXJKdjBiVHFuVlRZcjZLUnBTWkEzQWxsY0FydlZiZG9TQ0E2b0JjalFrV1Z0ay1rR1R6bEo1dw?oc=5"
+        },
+        {
+          "title": "RKLB Wants To Own More Than Rockets – Why It’s Spending $8B On Iridium - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQVRmb0ZuYl9MZEl3T0ZPVTdFbHBkU0pvS2dTbkdubzZQX0xTNVQ4MXpFN2FZQU9lbHFjdjgySERLeGZhWTliOGsza1RXM3h1d2lCTWhDQ0x3RUV2SlZ5T0VUbVlaenhWbXZjbnE2a3RXR2d6Y2dlOFVmVHdyb2VhY2ItT2NDZjBLbGtuV1NMVXhFa1VqSFpmaV90bV9FeDZfVVExbzgtSU11NzZCSlB0OTRlTTZjOGItNlNlZHpLOWZaUGtkNDE0?oc=5"
+        },
+        {
+          "title": "Rocket Lab to acquire Iridium in $8B cash-and-stock deal - MSN",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdWE5YU5leU9NdFBoZ0tZRkRHU3JLVHJWaUxmMHFsVkI1UFpGOHpEclFmOUFTWFFXRER1MVVoX3MzN2tneTlVTmRhdGNzbXQ2NUpzdW1iVFh0Z3Vhazg2YWhiNk1vT3BSamV4MG1wZ2FuMFZISXcxalRrS2M1YmZIUjNOZ3dRMmpOcFViSTgxcm9WWG1zMlFsOVNScHBnY1ZadWhINjdDWDZpMkl6VUpBa19ocFozSUtZaWlGak0yTXR1NzlYV1dkU0drY2FnMlVE?oc=5"
+        },
+        {
+          "title": "Rocket Lab to Acquire Iridium (IRDM) for $27 Cash Plus VWAP-Linked Stock - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMWhTM2NsUlZ5TWpRRXh1V2cyam9mYkhIV20wR2haNmYyUERNdzRlWGhEcnhwNm5Kd2p1WFM3elMyX3hKUHJBVzFkYkd3b2VfWVJBbzJ6NThBMDVULXRSNnFxTkF3MmhTZy1obHc3X21aM0NrZHptRjA5OHVfS2N2ZlNTWWVRN25lQjROS3VHbV9HODRwYUdsbEZ3TXBpSmVDNWxpcXI5aEFyaEIxTDloaURrdE1JQ3hUbmZyaFBDSmFQZ0lPTGc?oc=5"
+        },
+        {
+          "title": "Rocket Lab (Nasdaq: RKLB) to buy Iridium (IRDM) in $8B cash-stock deal - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRGRjQmtBWE5ZZURsbDF0NHVDODQ0TlpPX2h1VDlfcExoamxuN2tIQ3JVRGlkc2l6RS03UlBKcXlsOHhMeDhMaGN0T2tseGJnWVVibmFMSXN6bGZ4YnhVY2dqUDRMRERmWEFfbUNreFpmLVpCaWdOeWxZWFRIZ1pvLWg1b3NKTGdLZHdSOGpTMUplRVZmYVpGQnJkdDlNNktURlg1RFJCSTA5bWxHV3ZlWXJvS1ZrQQ?oc=5"
+        }
+      ],
+      "float_shares": "91.53M",
+      "short_float": "10.37%",
+      "daily_pct": 4.02,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 85,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "$8 billion deal value",
+        "discrepancy_note": "Source A (Finviz News) provides no information to confirm or deny the claim. Source B (Google News) consistently reports an $8 billion acquisition deal value across multiple articles, but without confirmation from Source A, the 'both sources confirm' criterion is not met."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "CHTR",
+      "price": 133.64,
+      "gap_pct": 20.15,
+      "pm_volume": 588027,
+      "avg_vol_10d": 4353947,
+      "avg_dollar_vol": 581861477,
+      "mkt_cap": 18508582214,
+      "rvol": 0.69,
+      "adr_pct": 4.57,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Infrastructure",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nCHTR showed **premarket gains** today, with a Yahoo Finance headline questioning a potential \"SpaceX connection.\" Additionally, the Louisiana State Employees Retirement System reported a minor purchase of **12,700 shares**, though this is an **insignificant** amount for a company of Charter's market capitalization.\n\n• **Key Consideration**\nThere is **no confirmed fundamental catalyst** driving today's premarket move. The purported \"SpaceX connection\" remains purely **speculative**, lacking any concrete partnership or contract announcement. With **low RVOL (0.7x)**, this price action is likely **technical or flow-driven** and carries a **high risk of a gap and trap** without underlying fundamental support.",
+      "peer_tickers": [
+        "CMCSA",
+        "VZ"
+      ],
+      "headlines": [
+        {
+          "title": "Louisiana State Employees Retirement System Buys Shares of 12,700 Charter Communications, Inc. $CHTR - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdnJJMDhJcnRzSjdScS1Hbkp1VEEwZFVIQ0FGanp0VGdhVEV5X1BMU21qbVVBTjh5aDdFUy0wMXUyaGtWbUxPVFVDTXV5cFp6cVJyUVNDek9HZmpuSllnWVVUMmJMUkpnSEE5NXJEOWxEbXJiRTFBSndvTjhUSUN1VFRza00tRkRWSzhUWTlBaEs4c2J3ZjFsVG5BSkdyZF93SHF1TmQ3ZnhOT29aTG12QU5BeUpVZENVb2pLdHVRaHZobnNEN2lNZXZVaXhGel92SnRBVnhBVnFYZ0ZJTGxmdEpGR09YUzI2MG94Tkxn?oc=5"
+        },
+        {
+          "title": "CHTR Stock Gains Premarket: What's The SpaceX Connection? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc3ZNV0JOS1VfWkN3NFBHQ1FEMEJTSGtzRlhKZFVYd3VxYldlbXBRSEs2bWNjXzV3Q09nVVV5VENoZHMwbFlYYzJpQk1xQm9tZ3l1SWlOYUQyWDdkdGdrS2FHaHdlT1dydDJPVFBvR0ZoOGNxTWR5Q0VTa1ZORnBxQkFrazdIMkgxNE53V2pGczZpLVRTZTc5Tm5JUlA5QQ?oc=5"
+        }
+      ],
+      "float_shares": "86.16M",
+      "short_float": "25.89%",
+      "daily_pct": 3.08,
+      "industry": "Infrastructure",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
         "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "AEVEX will be added to the Russell 2000 Index effective June 29.",
-        "discrepancy_note": "Source A (Finviz) confirms AEVEX's addition to the Russell 2000 but does not specify an effective date. Source B (Google News) contains one headline ('Investing.com') confirming 'effective June 29', but another headline ('GuruFocus') states 'to Join Russell 2000 Index in 2026', creating a conflict regarding the timing of the inclusion."
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "VRDN",
+      "price": 17.9,
+      "gap_pct": 13.69,
+      "pm_volume": 66491,
+      "avg_vol_10d": 2342691,
+      "avg_dollar_vol": 41934169,
+      "mkt_cap": 1976655447,
+      "rvol": 1.07,
+      "adr_pct": 4.66,
+      "category": "FDA",
+      "theme": "FDA Approval",
+      "reasoning": "VRDN's stock price surged following the FDA approval of its drug, Lumvoa, for all stages of thyroid eye disease.",
+      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
+      "conviction": 22,
+      "grade": "C",
+      "finviz_theme": "Biotech - Immunology",
+      "analysis_detail": "Catalyst: Viridian Therapeutics received FDA approval for Lumvoa, making it the first all-stage treatment for Thyroid Eye Disease. | Impact: This transforms Viridian into a commercial-stage company, de-risks its pipeline, and opens up a significant market opportunity.",
+      "analysis_details": "• **The Drug**\nViridian Therapeutics' Lumvoa has received **FDA approval** as the **first all-stage treatment** for Thyroid Eye Disease (TED). This marks a significant milestone, providing a novel therapeutic option for patients across the entire spectrum of this autoimmune condition. The drug's approval is based on strong clinical data demonstrating its efficacy in improving key symptoms of TED.\n\n• **The Significance**\nThis approval transforms Viridian into a **commercial-stage company**, unlocking a substantial market opportunity for Lumvoa. As the **first and only** approved treatment for all stages of TED, Lumvoa holds a significant competitive advantage and is poised to capture a considerable share of this underserved market. The approval fundamentally de-risks Viridian's pipeline and provides a clear path to revenue generation.\n\n• **Risk Profile**\nWhile the market opportunity is significant, commercial execution will be key. Potential risks include the challenges of launching a new drug, market adoption rates, reimbursement hurdles, and future competitive entries. The initial uptake and sales trajectory of Lumvoa will be critical in assessing the long-term impact of this approval.",
+      "peer_tickers": [
+        "ARVN",
+        "ALPN",
+        "RVMD"
+      ],
+      "headlines": [
+        {
+          "title": "Viridian Therapeutics (VRDN) Soars 12% Following FDA Approval of Lumvoa - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdlYtR2ZTNXBJUlhEdGZXTC1fRjg2NUxlR1Q2UXVUbWpmeDM3Ymp4TGtNdkdBRlNieEU4Q0xpLUNLNldqVGVfaGtrNm45SExLdjk1ZXp3aVQzTVdBWW5ZTnk5RzFPQlhrbEI1T1JNV2JFU0RnX1FmVnNwdXhtb1d5RnMtS1ZYQlVKNEdTTmNWRGVySFNIX1c5X0hlcHUtMEJ4YWdkdExzdS1oUFk?oc=5"
+        },
+        {
+          "title": "Analysts Are Bullish on These Healthcare Stocks: Viridian Therapeutics (VRDN), Genfleet Therapeutics (Shanghai), Inc. Class H (HK:2595) - The Globe and Mail",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNVVFJVndDV0RiaVRncC1aWHJlRVVTazBRN01SOEZWb1U5TmFDTTFfQ3dOWkJlbktlQU83OTJaU1U1UlU4UGlncU4xZ094UmhnajV3M3pseW1qQ0h1dUs2V1BSU3lyYzlCUXZwOTROcl9lakpOSWZ0Vk85SGw1TURDaEJ3SjNwM09vYmJjQ2pVSjFUODlqQUdSZkhjUnczN0REb3hOcldlWTJpZWhZbFNzdDRjRXpnOFRoUFhfSDhqWlU0S01WdVpsTlowRm9KakYyVFQ5YVRGTXh4ZmRGSjYxek5JSEVqUnV4TVNtM29ERzFOZnJLR1dpN1VTWm41c0ZFSXR5c3EwUHhwX3FfbEpUcURqUnkyYjFHdWV1b0MwUThwa0VzcjZmR2tWRVZUUQ?oc=5"
+        },
+        {
+          "title": "Why Viridian Therapeutics (VRDN) Is Up 7.6% After FDA Clears First All‑Stage Thyroid Eye Drug - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVlkzbHFncGxPcjF1alN0RUxiUWs4SW1qUGw1YTI2RW9tMGR0UE1SZjVQLVAxVDFBUlJyd2lVZEJuYmZCbFZLRHQ2YmFuanBWWnliOXJoUFRNWE5ZMkdSRW9wc0wyOUtaUlRwbW5CbXJRRzNCbWdVS0pwdjlzZXhkLXI1d1VneGRiT2VkTGR1V2MtQ3hxZ3dJR0VscUVxWUZRNUpHeTREZnlpQy1jc1ZQVXB0dlBFMGJ1MHZfbnpXWTBqTEk0aTlvN19zVFdjcFdoOXhkOUxfSi1PVklFNkRfZU1VNUF3TDJ2RW530gHwAUFVX3lxTE9zcVA4WUF4aUU5NmVQak1OM2tUZGltZVlORXp1YUd0LVRfelFoenhiX3hnMVlIbER4QzdXYXRlQkpSMlhhZmpoS29uYnpldGpFcndIaXQyN040SDlweFh2Q0FudXN3eVZXclhsdV9iZUNKMnJtaFBZR1NjMFh4dVpIQXR2VV80emMzb3A0TTVVMktNVUxUVW5CWEoxejFwY0JyOEljZmNTdnNlQURZZHpWYXBxTjA4cEs4MjBuT25tTjRiN0Y4bHBBUWl5T0FOaF9yOUowSkhUb3hDbWZteGFfQU9sX0NURWxBWXdSYTNOUA?oc=5"
+        },
+        {
+          "title": "Price to earnings forward of Viridian Therapeutics, Inc. – NASDAQ:VRDN - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOTZwYmlHaUpfVXdNZm1RbWtKVGpaZi1DRGZXQS14RVJQZXkyVHpTTFVCRUI0eEtjQjZaN054N05hUnpWQXJDRGxXSTljLVJKQURqZUZEeHQ2X3E4Q2lPNU5FbURPNTdfbVV3aVNNWF9yMFNwanhINnNUNk43VlJlLVBHMTJDcTlkY0Z2ODB0S0VsaVpScDhaUFZmVUx0NkVGRHc?oc=5"
+        }
+      ],
+      "float_shares": "102.50M",
+      "short_float": "14.65%",
+      "daily_pct": 2.93,
+      "industry": "Biotech - Immunology",
+      "technical_status": "Fail (Avg $Vol $42M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 85,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "FDA approval of its drug, Lumvoa, for all stages of thyroid eye disease.",
+        "discrepancy_note": "Source A (Finviz News) contains no information to confirm the claim. Source B (Google News) provides multiple headlines ([1] and [2]) that collectively confirm the FDA approval of 'Lumvoa' for 'all-stage thyroid eye drug', but since Source A provides no corroboration, the claim cannot be 'Verified' by both sources."
       },
       "gates_passed": 3,
       "gates_detail": {
@@ -81,69 +294,1155 @@
       "tier_label": "Excluded"
     },
     {
+      "ticker": "RKLB",
+      "price": 84.54,
+      "gap_pct": 11.52,
+      "pm_volume": 1456720,
+      "avg_vol_10d": 35740524,
+      "avg_dollar_vol": 3021503899,
+      "mkt_cap": 48937458360,
+      "rvol": 0.89,
+      "adr_pct": 8.76,
+      "category": "Thematic Narratives",
+      "theme": "Strategic Investment in Satellite Network",
+      "reasoning": "Rocket Lab announced an **$8 billion strategic investment** to own and operate its own satellite network, fundamentally shifting its business model.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 56,
+      "grade": "A+",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Rocket Lab's **$8 billion strategic bet** to establish and operate its own satellite network marks a substantial shift from primarily launch services and components to becoming an integrated space services provider. | Impact: This move significantly expands RKLB's total addressable market, potentially creating a **recurring revenue stream** and enhancing its competitive position in the rapidly growing space economy, de-risking its reliance solely on launch contracts.",
+      "analysis_details": "• **The Narrative**\nRocket Lab announced a **monumental $8 billion investment** to develop and own its dedicated satellite network. This strategic pivot transforms the company's core identity from solely a launch service and satellite component provider to an **integrated space services operator**. This move signals an intent to capture a larger share of the burgeoning space economy by owning the end-to-end satellite lifecycle, from manufacturing and launch to ongoing operations and data services.\n\n• **Explosiveness**\nThe **$8 billion investment** represents a significant capital commitment, underscoring management's high conviction in this new business vector. This expansion into satellite network ownership has the potential to unlock substantial new recurring revenue streams, shifting RKLB's financial profile towards a more predictable service-based model. Such a strategic bold bet can generate considerable long-term shareholder value and reposition RKLB as a dominant force in the rapidly expanding commercial space sector, attracting institutional interest.",
+      "peer_tickers": [
+        "IRDM",
+        "PL",
+        "ASTS"
+      ],
+      "headlines": [
+        {
+          "title": "Rocket Lab Shares Are Surging Over 7% On Monday: What's Going On? - Rocket Lab (NASDAQ:RKLB), Iridium Com - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTdFeEVwT0FkLU9hdnRnWW1yMjR5UTIzeXNZOVJHWWdJNUlvWlp2MnJPUzNobW5VM0NzWUZLaHdlMml6Nk55MHhFNXdfQjRDUVJuZ2RyOWFrTlVYb2xyMjRIU0pKOG4xR3VQLUV0OHdTdXJKdjBiVHFuVlRZcjZLUnBTWkEzQWxsY0FydlZiZG9TQ0E2b0JjalFrV1Z0ay1rR1R6bEo1dw?oc=5"
+        },
+        {
+          "title": "Rocket Lab bets $8B on owning its own satellite network - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNFE2RV9sOW9MNFpSVWhGQ1U2VE1lRE1lU1hjU0hMNHVyTy0yXzNOOW5tMWxaX0pZVHRmZllYQXE5ZTdGamJwcTZVaENwcTJaU1RDQzFXSU5OOFBodFgxdUVldU91Ml9QazlWR1RHOHoyT1dhNlAwdlRQcjBIcDdyeVZFcjhrMWxFeHljOW41QnR4VU5kbzNYUE03U3NPUWpNT2NNal96QVRxQVVIMU04a0N4c00tWnJLUXc?oc=5"
+        },
+        {
+          "title": "RKLB Stock Tracks Worst Month Ever — But Rocket Lab’s 13th Electron Launch This Year Gives Retail Bulls Fresh Fuel - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjF2dGJvSlVkLU9uUHhES015ay1rNVFNYzNNdzdneUtYb0JRNzM4OUczUWxTY2NSRExyaDh4Y3l2RWJ0THJpcjMzZVIzTnNuejEzX2wweVRiWnBDalk0YmdkdWRnLUNtbU5IdnNhZEZoYV81eGlrOWFBNXFqX1psTEZmSXBqVEZaOE9wWmlNNTZlaVh6aWhQUjk1R3paSlRNTmk2M2JDZDE4cm5SeTZaRHNkU1NuX1M0cC1vLVBtUFo?oc=5"
+        },
+        {
+          "title": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: AAPL, MU, MSFT, INFQ, RKLB - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYWR2VlpCT3BLbThOVGNJcHRlZ1VzRXlScXNVRU9VY1lSaXlRVWVuSUFQVmpEREhRWkhDcTd3LTJGN1dwS0pFVjA3NDJqdFB5VkFaSHRKclZZN1p4LUU3NGFvb2VhOFNtSjlUTG5rN1B3b2lPN0d5UjB4b0tId1c1Si00VG10eHF0M0pLeExKM0pwZW0wR1hhbUVBY3RBRmpHMEY3M1F6Q21xWHpVYzlydlJIN2xNT2JxaXplUGlRMUY4MTZ3VDlJVGx0Wm9aUElmUWJ1Y01lamw4ZzFaRlIyUUk0V2VVdEIzcnc?oc=5"
+        },
+        {
+          "title": "RKLB Stock Tracks Worst Month Ever  But Rocket Labs 13th Electron Launch This Year Gives Retail Bulls Fresh Fuel",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/08209991-190a-3518-9bf3-acbc5a3ec0a9/rklb-stock-tracks-worst-month.html"
+        }
+      ],
+      "float_shares": "566.36M",
+      "short_float": "6.03%",
+      "daily_pct": 4.77,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "$8 billion strategic investment",
+        "discrepancy_note": "Source B[4] (Google News from Stock Titan) mentions 'Rocket Lab bets $8B on owning its own satellite network,' which aligns with the claim. However, Source A (Finviz) does not contain any mention of an $8 billion investment or a shift to owning a satellite network across its provided headlines."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
       "ticker": "FCEL",
-      "price": 19.65,
-      "gap_pct": 4.17,
-      "pm_volume": 332411,
-      "avg_vol_10d": 11776555,
-      "avg_dollar_vol": 231409306,
-      "mkt_cap": 1328500506,
-      "rvol": 1.04,
-      "adr_pct": 15.88,
+      "price": 24.0,
+      "gap_pct": 10.63,
+      "pm_volume": 429887,
+      "avg_vol_10d": 13727804,
+      "avg_dollar_vol": 329467296,
+      "mkt_cap": 1622596069,
+      "rvol": 1.8,
+      "adr_pct": 16.47,
+      "category": "New Contract/Partnership",
+      "theme": "New Contracts",
+      "reasoning": "FCEL secured a **$49M** EXIM backing for its South Korea fuel cell projects, providing a clear revenue catalyst.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 79,
+      "grade": "B",
+      "finviz_theme": "Clean Energy - Hydrogen",
+      "analysis_detail": "Catalyst: FuelCell Energy **secured $49M** in EXIM funding for its South Korea fuel cell projects, which signals growing international demand and financial support for its technology. | Impact: This contract adds significant revenue backlog and **de-risks** future project financing, representing a **substantial** boost to the company's financials, potentially equivalent to **more than two quarters** of its recent quarterly revenue.",
+      "analysis_details": "• **Impact**\nFuelCell Energy has **secured $49M** in financing from EXIM for its South Korea fuel cell initiatives. This financial backing is a **critical** development, as it directly translates into secured revenue for the company's projects in a key international market. For a company of FCEL's scale, this contract size is **material**, potentially representing **over two quarters** of its recent revenue, providing a significant and **tangible** boost to its revenue outlook and operational stability.\n\n• **Strategic Value**\nThe EXIM backing not only provides immediate financial benefits but also carries **significant strategic value**. It validates FCEL's technology and business model in the **South Korean market**, a region increasingly focused on clean energy solutions. This partnership strengthens FCEL's international presence and could serve as a **precedent** for future export opportunities, further diversifying its revenue streams and reducing reliance on domestic markets.",
+      "peer_tickers": [
+        "PLUG",
+        "BE"
+      ],
+      "headlines": [
+        {
+          "title": "FuelCell Energy wins $49M EXIM backing for South Korea fuel cells - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS3FjeV9SUDlMQXotMDUzZlBOd0Ztc001NmxVME9jV1ROQ1RDOUxUZmx6bDFGVGdLb2VWUXJiX1Y5TmlCTW8yeEtHVWtuNElMOWdsNkxkUFlFSXB4SmlVS2Fsbk9DbENGLTltZUFmT0I5TmZSdzRiXzFZSk1vdjBDdW8zX2hudDJsSzBWUVBrektKdXhhY3VJb2pXclBfS2Fma0R4c1lnSGtNMFRvb0duQ3l2Skplb3dfalRNRzJPLUY?oc=5"
+        },
+        {
+          "title": "Why is FuelCell Energy stock rallying today? By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeGFkX09fZHoyWS04Njg0SWhvdlJzUklVVWNIX3U1VFdnUkFsbVR5ZWpmVzJqakxiaXNfR1lCYldNbmxMTUVMcldwQUs3MERhc2w5ZTNGY2dIUE44ckVOTDZjSTMyQWxLSzBNTzhLOS1yekY0eWtkN1l0eWNLaHg3aTdJVTNBMnVzVjdXdkhVNzdvYnIxaW1sZHBNTVlYMklhYXRoYjlZRQ?oc=5"
+        },
+        {
+          "title": "FuelCell Energy, Inc.(NasdaqGM: FCEL) added to Russell 3000E Index - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU1EteUJfYWJmOEN2dWRVV3Z3am9oYXVSOXBfbTJ5bDJ4Y2tzS0YzNW5UUk9Cd3h0cm1yQmZvSVlVQUdkUTdVakdPeENOc0RkNy0tNWpDZW5GOTFBcWg3RE56NGNRVGlHdnllZEt6c2ROeS1idVlLYW9PbTlRMERUb052Q2Zib3AtOVNGTGczMGVTOENpRjBFSTNuNHpfQjZqbjFlZElBalN1NXNmaDRySklmOWdUZw?oc=5"
+        },
+        {
+          "title": "Enterprise value to revenue forward of FuelCell Energy, Inc. – NASDAQ:FCEL - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY2J1OUduSGtjaERfclEtR0ZDQnhKWnN2YWhSUnlRWThmT3BtVk5VOTd1TzhSMU1rc1R0eHdtMDVnWGtaZGdtNUJ0ZGxSMGNFa1JKTWMwMTI5MHgtVDkxRGFsUEFtaEdON0RtLVpHY09BSFl4WnNZMTZ6WExuUUYwX1B2ajF0R3RWNDFGV0puUExlRVdCa0FjbTVEam9mSVZ5OEJmM2hZUjF5QmZm?oc=5"
+        }
+      ],
+      "float_shares": "67.39M",
+      "short_float": "10.17%",
+      "daily_pct": 22.14,
+      "industry": "Clean Energy - Hydrogen",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 75,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "$49M EXIM backing",
+        "discrepancy_note": "Source B (Google News, Stock Titan) explicitly confirms a '$49M EXIM backing' for FCEL's South Korea fuel cells. However, Source A (Finviz News) provides no information about this claim."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "SATL",
+      "price": 4.62,
+      "gap_pct": 9.52,
+      "pm_volume": 130111,
+      "avg_vol_10d": 9708539,
+      "avg_dollar_vol": 44853450,
+      "mkt_cap": 684887703,
+      "rvol": 0.7,
+      "adr_pct": 11.15,
+      "category": "Others",
+      "theme": "Institutional Flow",
+      "reasoning": "Satellogic Inc. (SATL) was dropped from multiple Russell indices, indicating forced selling by passive funds.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Satellogic Inc. (SATL) has been officially dropped from the Russell Small Cap Comp Value, Russell 3000 Value, and Russell 2500 Value Benchmarks. This widespread exclusion signals a material change in institutional flow dynamics. | Impact: This development will likely lead to **significant selling pressure** from institutional index funds, negatively impacting SATL's stock price and liquidity in the near term due to required liquidation.",
+      "analysis_details": "• **What Happened**\nSatellogic Inc. (SATL) has been officially **removed** from the Russell Small Cap Comp Value, Russell 3000 Value, and Russell 2500 Value Benchmarks, as reported today. This widespread exclusion across multiple key Russell indices signals a **material change** in the institutional flow dynamics for the stock. The news broke throughout the early morning, confirming the rebalancing impact, which is typically a negative catalyst for affected companies.\n\n• **Key Consideration**\nThe primary impact of being dropped from these indices is the **forced selling** by passive funds that track the Russell benchmarks. These funds will be required to liquidate their positions in SATL, creating a **supply overhang** on the market. While the Average Daily Volume (20d) is **$45M**, an RVOL of **0.7x** suggests current trading volume is below average, indicating that this forced selling pressure could be amplified due to lower liquidity. This event is a **negative technical catalyst** for momentum players, making the stock less attractive for long positions.",
+      "peer_tickers": [
+        "PL",
+        "RKLB"
+      ],
+      "headlines": [
+        {
+          "title": "Satellogic Inc.(NasdaqCM: SATL) dropped from Russell Small Cap Comp Value Benchmark - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbXZRSGt1dmViaEUyeDVGUV9GaXRiemo1OVZ5TXFjMUd6NTlKZ1A3N2NWbEZoT1dIb2pPUWUydzExLTZYc2NKdzByQTV2Q1IwYm52Tmc5Zmdwemw0akFUdDNYLThQa1A4akJleFVaVXowOUNkbVh5RzFwSFc4NzVDY2xqaTRIa21UUkVMOGVBWURQODVWNW4tNVpRQ3l6OU1uOWhwSnZJOHhEVi1CM1JUamlJQWV6M0pnRkowRWU3XzVFVXJCV2JPT05fYnZYZw?oc=5"
+        },
+        {
+          "title": "Satellogic Inc.(NasdaqCM: SATL) dropped from Russell 3000 Value Benchmark - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd2FGTEtzenRzQmhGU1RvckpETTlqaFhzQmFjRUVqeHhzRFZtRDk0cnhxU2txdkIteW5VZjJLWGhSZEVVT0EtaGpKUHN4V2N0UHZ0R1pqWExPbWp6LVRDaEN0NFhOT1M0LVBQbURnT0RqQVduUzBXMkZUMm9UdjVLb0lIRktSRUI2U2tYeVJHVEFYdV9Jd0RfcnNOdU02ZWtZaW5CUEJmVkZoSjJLZHU4X2JGRG1oc3g4NzRKcnRzYW0?oc=5"
+        },
+        {
+          "title": "Satellogic Inc.(NasdaqCM: SATL) dropped from Russell 2500 Value Benchmark - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb182U1c3MkNwNkdaQUt4a1hXcXZ6THBOcDA4UXhPVnoxVzNWQ0tHb3NNbDFVTmFyaWZ1Ry0wUThneTJNLTdQZjJSYS1FN0J6dlZIajRnOFRTWVk0dGJvejRsQ2lUUmYwVC1VOUJzT3NNd3lTRGNZS0VQa3Z5UEk3Zk9jbHNOamVWX29pV2VWVVJjSXQzSkVXTFVMZGlhcWxzZkFpWVpmZXE5MGlKWlZKUHcyQmIyS3hTSTFYSGtObGc?oc=5"
+        },
+        {
+          "title": "PSKY Stock Rises Premarket Today: Saudi Arabia's PIF May Put $10B Into WBD Deal - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV3p4U1drQkFHSWJoTjRTeWV5T09TcXFTV01pajFJYnVuSFc0OFFnTXRUbHBKeWY4ODFDOFdRRUVmdzNrMHhiRE80emxMbkdBQmZsSWY4SWJDTmh0bUJvM0tBVzJzZzZLWlVQVThPV1FDQ1NGWml5ZVZoU2pabGpEbWk2WmMxSGhHQXV5MWJONFl5aVlmb1FHNlRnR0RheWg4cS1uLUVLTF9DNXVqXzNOTzlZS3FtVGd6?oc=5"
+        }
+      ],
+      "float_shares": "107.58M",
+      "short_float": "16.34%",
+      "daily_pct": 0.87,
+      "industry": "Space",
+      "technical_status": "Fail (Avg $Vol $45M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 70,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Satellogic Inc. (SATL) was dropped from multiple Russell indices",
+        "discrepancy_note": "Source A (Finviz News) provides no information. Source B (Google News) confirms the claim, specifying that SATL was dropped from the Russell Small Cap Comp Value Benchmark, Russell 3000 Value Benchmark, and Russell 2500 Value Benchmark."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "CCXI",
+      "price": 13.86,
+      "gap_pct": 9.31,
+      "pm_volume": 463389,
+      "avg_vol_10d": 2366561,
+      "avg_dollar_vol": 32800535,
+      "mkt_cap": 772002001,
+      "rvol": 4.32,
+      "adr_pct": 2.17,
       "category": "Others",
       "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; the recent price action indicates technical profit-taking and narrative reassessment.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "41.90M",
+      "short_float": "0.01%",
+      "daily_pct": 11.41,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $33M < $100M, ADR 2.2% < 4%)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "ASTS",
+      "price": 71.45,
+      "gap_pct": 8.31,
+      "pm_volume": 576809,
+      "avg_vol_10d": 27718820,
+      "avg_dollar_vol": 1980509689,
+      "mkt_cap": 27731498442,
+      "rvol": 0.74,
+      "adr_pct": 9.98,
+      "category": "Thematic Narratives",
+      "theme": "Satellite Constellation Build-Out",
+      "reasoning": "The company confirmed the successful deployment and operationalization of BlueBird satellites 8-10, marking significant progress in building its global constellation.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 56,
+      "grade": "A",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: AST SpaceMobile announced the successful operationalization of BlueBird satellites 8-10, progressing its global satellite constellation build-out. | Impact: This milestone significantly **de-risks** the company's execution strategy and bolsters its long-term revenue potential by enabling expanded service coverage.",
+      "analysis_details": "• **The Narrative**\nAST SpaceMobile has announced the **successful activation** of BlueBird satellites 8-10, marking a **critical advancement** in its mission to build a comprehensive satellite constellation. This operational milestone **validates** the company's deployment strategy and brings it closer to its goal of **37 satellites**, reinforcing the narrative of global mobile broadband from space.\n\n• **Explosiveness**\nThe news suggests a **significant de-risking** event, as the successful deployment and activation demonstrate tangible progress beyond mere projections. This kind of operational execution is crucial for a hardware-heavy, long-term space play, potentially **accelerating investor confidence** and future capital raises. The overnight stock jump indicates an **immediate positive market reaction**.",
+      "peer_tickers": [
+        "RKLB",
+        "LUNR",
+        "PL"
+      ],
+      "headlines": [
+        {
+          "title": "What's Going On With AST SpaceMobile Stock Monday? - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWNZVy1saUhROGJRdUdEdW1BM04tTlN3Q2pNU2JuSGhuY3YyYUpjOEFmZFpDTEwtUFRXVWxKQWVYU1JVSWJNZFdJNDFpQkZZdHZOU0ZIX2RUSjd3UUFEd2dydWN2MGRjdURXbmc5SVdvejg3eW9PSHQyakkzOWxMQnRqY3hlSGg4RWY5MUNSbFY2dFQ5Mm5VdE45ZEZZdXJsMWtSeVNBNmFXM2lRbDdFMA?oc=5"
+        },
+        {
+          "title": "AST SpaceMobile Stock Stands Out In 3 Telecom Picks For Global Connectivity - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTkxxNGljaWdsTjBGRnlOV1R5Z2E2clFseUQ2b3hseGVCNllXb2RnYlAyZzNaWnNET0RfOXVOWkRGQ3VmX1dlYWpKVUlrQkljeDNVcnlQN1I2RUdKZmNHTDJzMGJoVEFOWW5ENmNaTzBHVGpkVzJaNS1fbm9oT3F5eEVfUXFvTTVYOW9uVW1hQmFDQjd4MlpGWElWZ2NxRFlMTjV2MjBYZHI3dkN4TWp5bTlmLWE3LXJoNlZYSWp6QzRvY21tNng3MFRwNWpNQdIB0wFBVV95cUxPWC1yZzBRaTdqUFNiNmVtTnlYTHFJdk16UE90Z3pDX092cVlJejdWNmtPdVNwX0F2UTZkalpOUXpEbTNWWmVkSlY2SERoY0EyeUF1Y2J4anQ2RmpUal9jeU84ay1nR3lnblZZY0I0RnR0NXJMenRrRXJRY295VWlOalVOa2NyRUZKMWJPdVNLc3lLR3dTdGt1MHFkdVpyTFdvb0ROZmVYaDR0WjRkNGpDTUZUM0dkeDNDZkpkbnRfVlNCT2VkMUJRUXhjTldoOHFYcXdF?oc=5"
+        },
+        {
+          "title": "AST SpaceMobile, Inc. $ASTS Shares Bought by SG Americas Securities LLC - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNmQxTFBZOEtNandLa1RzMmhoYnpCSFUwMTg5aWNmUVFOX1Y5UzhUVnZiWV92b1QwaW90Z1I4S2Zvb0VKMnc5VS0zSVV6dzMteEJzbm1ab0s5S1VoQUVueVZacmNVc2hhTVQ2ejBnX213M1E5Tk9lMEhmdkdVdmZ2RTdCeXY3U3FxM0xPeFhpWDkwMUtPTVFSMjhfUGhZS1c4Qy1fRnZEdHlXdXB1bU9ycFVMY0NEbHNwM09VUmVqcDc4REdqYm9iZQ?oc=5"
+        },
+        {
+          "title": "ASTS Stock Jumps Overnight: BlueBirds 8-10 Go Live As AST SpaceMobile’s Satellite Army Builds Toward No. 37 - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGRnYTgzajVjVTl4MWZmRGJHMkFEdWs1ckJwWXNNUjRfa3ZZSlFDN0paV2hGSS15OHNmeURqY1dWNXB2TjRIb1QtZnJBM2VWOTYxSDRZV211MEpmNmFYbUJRV19WZXVOcDBYUVh3RE5uVXEydTZ4MFpROHZnVnd1bThFNGMzSFltcFR3UjBnZl83SUxwekE1enNTTE9tbWl3QVZB?oc=5"
+        },
+        {
+          "title": "AST SpaceMobile Stock (ASTS) Opinions on Satellite Deployment Progress - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNEU5bDAxaWVaUEJpbEk4NUtOZDRKei0yRDE2VF9xR2M1YmRnZmdheHRBS0dYNGtXQjUxOUpmcVFsVlZQTUE1dkZCQlNKOXNqNm1uemU5MFBGYkRZbm9fbUFEWHdrYUJJbXJyNk5FQlNPYl9oT202OW5DQUZoU2hhVjhPTlJQZEQyOVg3UHZ6RXdoaUtfc0N2cmNmT2wteWJyRTdUNnl3Vm1neWc?oc=5"
+        }
+      ],
+      "float_shares": "259.43M",
+      "short_float": "24.09%",
+      "daily_pct": 8.88,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "successful deployment and operationalization of BlueBird satellites 8-10",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "SLS",
+      "price": 12.39,
+      "gap_pct": 8.07,
+      "pm_volume": 408043,
+      "avg_vol_10d": 8972038,
+      "avg_dollar_vol": 111163551,
+      "mkt_cap": 2304943699,
+      "rvol": 2.46,
+      "adr_pct": 9.07,
+      "category": "Thematic Narratives",
+      "theme": "Acquisition Rumors",
+      "reasoning": "Speculative acquisition rumors surfaced from executive filings, but the stock is reportedly sinking today, suggesting market skepticism or profit-taking.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 61,
+      "grade": "C",
+      "finviz_theme": "Biotech - Oncology",
+      "analysis_detail": "Catalyst: Sellas Life Sciences (SLS) has been subject to acquisition rumors stemming from **executive filings** reported on 2026-06-28, following a period where the stock had **surged to 52-week highs**. | Impact: Despite the speculative nature of the rumors, the stock is currently **sinking today**, indicating either a lack of confirmation, market skepticism, or a 'buy the rumor, sell the news' dynamic leading to profit-taking. The immediate impact on price is **negative**.",
+      "analysis_details": "• **The Narrative**\nSellas Life Sciences (SLS) has been the subject of **acquisition rumors**, reportedly identified through executive filings yesterday. This speculative narrative follows a period of strong performance for the stock, which had **surged to 52-week highs last week** and was positioned for a green month in the broader immuno-oncology sector.\n\n• **Explosiveness**\nDespite the potentially explosive nature of M&A news, a recent headline indicates the stock is currently **sinking today**. This suggests the market is either displaying **skepticism** regarding the validity or imminent progression of these rumors, or significant **profit-taking** is occurring after an earlier run-up fueled by the initial speculation.",
+      "peer_tickers": [
+        "IBRX",
+        "ABCL"
+      ],
+      "headlines": [
+        {
+          "title": "Why SELLAS Life Sciences Stock Is Suddenly Sinking - TipRanks",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWlfcHpoLWhGWEdpX0JhaTJzUlF4UDVJZzd1dzVHdDI4c2pkY050QmxHUlJfanIzN2owMnhKeDZZZ01oSmdtbW1UVkNkR2k3X2RtWDFpZV9HU2pzT1RHS3NFUEVUOUUzbkRqR2VYc3VCRGJ0RFdEaXdQRDV4TXVTb3JyXzZlb0lNQ2lLUzVOalBpdUU?oc=5"
+        },
+        {
+          "title": "SLS, IBRX Eye Green Month As Biotech ETF Gains Steam: Analyst Sees ‘Continued Opportunities’ In Immuno-Oncology - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRlk2MS1nWnBiWGZrU0xJZGp6YnZZNXdDTk9nZzBlZDlKR1M5NFlZSFhDdUFMTlNvWGlXcy1aei13bVQ1bmZaQVBMVzIxRTY1eFhXcjBWalpCZU5JeUJqYU0xSFVXeFczcXZKWlBIMGp3SjZUMzItbWZDNHB1Nzl3VUdHaHZUVTk2ekFudkJMU3ExTHdMOGtnLVRsUk5oN1d6c182aWxhek4xeVdsd25yV1FxbDFlRFlUejM3aVJzaWgyUQ?oc=5"
+        },
+        {
+          "title": "Why Did SLS, MRNA, ABCL Stocks Surge To 52-Week Highs Last Week? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVjFKUW1mbmViNXJhLW4wMzBsTkxHN3QzNGptTTRFSGtUdGdIOWhpSkZyUDBZVm9YZFdkVHZ2NklzN3NLOXRqbWpicG1SU1FHYW5iRnVYMmNOR2w0Yml5aE5tUktvSzJQTlZ1REVEZlAxc2VoNDhhZWRPQnFLSkFkV083N2JfeU1xUlhrN1pvOA?oc=5"
+        },
+        {
+          "title": "S&P 500, Dow, Nasdaq Futures Climb As US, Iran Reportedly Agree To Pause Further Escalation: SLS, WEN, MSTR, WDC Stocks In Focus - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOEVLd21xRWc1eGU3WG9rNEExZlhYTC1LMzFzNWEtUFA5NERNeGNZaDVmcURsYlRmbzd5emRLVDVQWGk0QUJIUERSVW14bHg2Nkhnc19tNjNzamptZ2o3Y2luQ3ptejBjQnBJOTlUTkJYVWROOUJmWjE2dHM2aUdYOW1udF9Eamg2bWV4SEkzcmwwa0dMVVU4aEc5WE9HUGZvbXhqNjFyTURCSVNWSkZmeElfUUNzVEhLRENpb0c4d0JOcHJadUZ0S2U1eU9veDNOcV9oNDk1UlBnNkkzOU1JWnhZZTg?oc=5"
+        },
+        {
+          "title": "Sellas Life Sciences Stock (SLS) Opinions on Acquisition Rumors from Executive Filings - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZWozdDhyellLWWVFTW8zaFE2Mzh1SW41S0JuODktQ29RYnFLS1FXWEY1SnF6T3lVYzVNNk1weWx3Z2QzZ3FoalhhMnVmTnoyaTdFdnhSVUJBWUJxaTQ3M1B4QVB4UVZseG5nQjNubUwweXo3ZG5PTU1EallyQk1uUnVRemxrQXZXdEZEMk1wNFV2UlhEbnRnaWhSdTBDMVAxTnlVQ0s5MmEyNkNQQm56S2ZQY2p1TGE0UFM0MkJHYnM?oc=5"
+        }
+      ],
+      "float_shares": "183.79M",
+      "short_float": "34.47%",
+      "daily_pct": 17.66,
+      "industry": "Biotech - Oncology",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 70,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "the stock is reportedly sinking today",
+        "discrepancy_note": "Source B [3] explicitly states 'Why SELLAS Life Sciences Stock Is Suddenly Sinking', confirming the claim. Source A [1] and other parts of Source B [1, 4] mention the stock surging 'last week' or 'eye green month', but do not confirm or provide details about the stock 'sinking today'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "LWLG",
+      "price": 7.89,
+      "gap_pct": 7.63,
+      "pm_volume": 141691,
+      "avg_vol_10d": 6233730,
+      "avg_dollar_vol": 49184130,
+      "mkt_cap": 1215688184,
+      "rvol": 1.25,
+      "adr_pct": 10.05,
+      "category": "Institutional Buying",
+      "theme": "Index Inclusion",
+      "reasoning": "LWLG was added to the Russell 2000 Growth Index, triggering passive fund buying and increasing institutional visibility.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
       "conviction": 57,
       "grade": "C",
+      "finviz_theme": "AI Networking",
+      "analysis_detail": "Catalyst: Lightwave Logic was **added** to the Russell 2000 Growth Benchmark, a key index for small-cap growth stocks. | Impact: This inclusion will lead to **forced buying** by index funds and significantly **increase** institutional visibility and liquidity for the stock.",
+      "analysis_details": "• **The Buyer**\nLightwave Logic, Inc. (LWLG) has been **added** to the Russell 2000 Growth Benchmark. This move dictates that various passive index funds tracking the Russell 2000 Growth will now be **mandated buyers** of LWLG stock, ensuring a sustained inflow of capital. This provides a fundamental bid for shares and can significantly **improve** trading liquidity.\n\n• **Conviction Signal**\nInclusion in such a prominent index acts as a powerful **validation signal** for institutional investors. It enhances the company's visibility among a broader investment community, potentially attracting **active funds** and sell-side analyst coverage, further reinforcing a **positive momentum** trend for the stock.",
+      "peer_tickers": [
+        "POET",
+        "COHR",
+        "INFN"
+      ],
+      "headlines": [
+        {
+          "title": "Lightwave Logic, Inc.(NasdaqCM: LWLG) added to Russell 2000 Growth Benchmark - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjRmbU83dTVsVUU1dnF4RmdGMlNSRmVmYWtMODJoak9rTUZSVzZPWnhDeW9YdFNLOTBZcGVMUklhOE12ejhHRFR4Y2tjaXJuVERKVHoyOUJfZ1p2ZkFZTUw4Q08zdkprbmY4eHhfVUgyVENvM3hTb0t1allmcXdsU191NTZoQUNrbkZiaFZ3X3lMUVJlWE50QmdZMnRudnNUekhkWFR6bkpiYXZHQk5yMTJEZElVZHlDdGNEREYtRU9NTkk?oc=5"
+        },
+        {
+          "title": "Price to book forward of Lightwave Logic, Inc. – NASDAQ:LWLG - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObzRoVmF1RGVTNWgxaWo4YWZ6amxWX2tPTTZITXBlcDYyQW82MXRadUl6OXE1NGYxWlFjY0FlTmI3N0p4RG44WElDYzdHMDhMY2NqRXR0VmNDTVlTajBRVlhFZVNqU2dxcjBuMWVQY0Y0SGdONTl4V2gwZFI4LVhwcG5zOXhpeHk0MDMyMUdiSUtsVFU0cVA5a0lKLXE?oc=5"
+        },
+        {
+          "title": "POET Stock Is Lighting Up — But These 3 AI Optics Plays Are Already Wired Ahead - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZWc2U0JCSExMMUw4S3FkZmNadk1pT1R3OUt4ZG5fMllROWtWdDE1MnUwaEdmX0F2aDBDTlNNdmhvd3ltMS11MjBGZlBXbkc5VHpmSHZ4eXBQUDRQUFc4OEZEYWpRZmdTNmZ0TVBvN2RMNmNNR2UtNVZITmp2cmVtS3F6MXUyejIzRnNvODBxNmpzRzlLNGw2VFB0emdIRDdYQ0V2MlVrZnlIRDVQbENaVFFPN0hKU2kxZFhGSXBn?oc=5"
+        }
+      ],
+      "float_shares": "152.26M",
+      "short_float": "8.96%",
+      "daily_pct": -3.31,
+      "industry": "AI Networking",
+      "technical_status": "Fail (Avg $Vol $49M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "LWLG was added to the Russell 2000 Growth Index",
+        "discrepancy_note": "Source A (Finviz) has no mention of LWLG being added to the Russell 2000 Growth Index. Source B (Google News, specifically marketscreener.com) confirms 'Lightwave Logic, Inc.(NasdaqCM: LWLG) added to Russell 2000 Growth Benchmark'."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "RDW",
+      "price": 10.93,
+      "gap_pct": 7.41,
+      "pm_volume": 933761,
+      "avg_vol_10d": 37834416,
+      "avg_dollar_vol": 413530167,
+      "mkt_cap": 2610361125,
+      "rvol": 0.56,
+      "adr_pct": 11.37,
+      "category": "Thematic Narratives",
+      "theme": "Space & Defense Tailwinds",
+      "reasoning": "simplywall.st articles highlighted RDW's exposure to government-backed space defense spending and long-term contracts, reinforced by positive governance reforms.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 55,
+      "grade": "B",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: simplywall.st published multiple articles highlighting Redwire's strategic position as a beneficiary of government spending in space defense and its exposure to long-term contracts, while also noting positive governance reforms. | Impact: This collective coverage reinforces a strong thematic narrative for RDW, emphasizing its growth potential in the space sector and an improved risk profile, which could attract further investor interest.",
+      "analysis_details": "• **The Narrative**\nMultiple articles from simplywall.st have converged to paint a **compelling thematic picture** for Redwire. RDW is prominently featured as a key player benefiting from **government-backed spending** in the burgeoning space defense sector and holds **exposure to long-term contracts**. This narrative is further bolstered by a separate analysis discussing the **positive impact of governance reforms** in reshaping RDW's risk profile, suggesting a maturing operational framework.\n\n• **Explosiveness**\nWhile the news consists of analytical pieces rather than breaking announcements of new contracts or major policy shifts, the collective reinforcement of RDW's strategic positioning and internal de-risking efforts provides a **strong fundamental foundation** for momentum. The timing of this positive thematic spotlight, amidst broader market skepticism towards 'cash-burning' stocks (as noted by StockStory), suggests RDW is gaining **differentiated attention** that could lead to an exploitable upside as investors re-evaluate its long-term potential in a critical sector.",
+      "peer_tickers": [
+        "RKLB",
+        "MAXR"
+      ],
+      "headlines": [
+        {
+          "title": "3 Cash-Burning Stocks We’re Skeptical Of - StockStory",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3pFdDU3UHNXNHFIN0VUMWRzTnBUTEpiOXc1OTZTY3g0c1RrY0hBUkVzNVVhcWVvNThGemtRcVYyTlNSb3lxOHdyRHpIWF9ZdnBfSFZKRXFJeUMyaHA3X2ROZXlVTmhBcW94cERCUEZvR2tPalpyLTM0QWgyMTZrdWFKdEpGaXMxNUoteXkxZUV5NTlKT0NPblJkUDJEZkU?oc=5"
+        },
+        {
+          "title": "3 Cash-Burning Stocks We’re Skeptical Of - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcjJjU3RMQ2poc1MybjdaOXFpTkJoTUNPd2xzY09vU01va29OUERVY0tiTTB6ek1tMzdtMzRrSUpZZ3JuVTNPbHhQZVM0RGtpUDN5RVZsb1I2Xzczd1JmX25kd29FWVNjWVFoRWtGVWZOTGUycEh4a1dheUpsazNRSFV4Uk91cmdCenlvNGR6dnJ3YnN1LTN0RUlCNGs?oc=5"
+        },
+        {
+          "title": "Rocket Lab Stock And 2 Space Defense Picks Backed By Government Spending - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb0hKUFViMG1UcktZdUc4dXdLeUcyN0ZfajVxeHV5NWNfb3o5VDFSZ3N1YWU0Z2h6SnFXbFJHb1lUSHNvWnNWZmxidXhvcU5YTXIxWnEzS2lMR1BENEJqeVotVV9CYXJKXzN2REEtdDJRX2ZKem1NeFNpOEtpMVVrQVl1MUFPZlBxbWVYYkhBQ0trd21heHd6YW5aUWw0VEo1TXRPbHJDa0QxM3FERDBwZUVJRktNYUY2WEl0SGRlcGUyT0toM0440gHMAUFVX3lxTE85WlFfYXIwSFJMLV8ycDZ6S0MzVU1EZGh2aXJCMGZDTU0wTjlfejVkc3MweFloS3BnYV9zVXkxR1B5VDVrcm94ZktpNXRrM0tEZXptTGZSdGZ1UDhTTklFRmJUUE83MVNHRUs4MGwzQjB4WFh0ZFBmaE00d0V6d2JWRVJoR3EtNDZNeWVBUlhuTFlIUzdqdkJNMVpDRURxOF9jb2V0RWJJUG8wdHVwVmY1aGNUWjVLaktiTTNyRkNWMjhsR0dzczRlWlQ2dA?oc=5"
+        },
+        {
+          "title": "3 Aerospace And Defense Stocks With Long Term Contract Exposure - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXI2REtMSkV4aEk0QXhDTWNJejV1dGdyeFZUREJOZnhiZEMxWV83cXE4S2liV1phMnN3Umdmd2E0dTJkM1BhZkhvb25HRHVHZFUzMGV3RG5uRzloYkVXcnNtcWZOTDJIREtoVXVfVlFMcHdzc081SlFNNkRscU5zSzMyMXhKQzl4T2M0aWZRcnFkbHR5SVQ3M2lzcFdGY1pWdHlJRDl1S3lFV0ktU3A1YV9SR0FSNzIyZGJRYmJXM0c3azNmUUg00gHMAUFVX3lxTE1JVURtT05rSUk5NXNOOVQ2eXhYdklXRk1Bdkl1YlgwUGlaaXEwNGR0OTFYejM2Nll2ekZmVFh3MkU1eXRVN2NwbVpBNlY0eTd5M0o4Zlk1MEVqVlhsWF8yZlpMaFFKMjRPaHBfV0pOaEltdFdrb3ZnMWNfWE9MLWtQc1dsSlRuX0RuVXo2ckxlb0d1OEpwanBoT3VURVZ1dF9oTkxOOEM5SzZSa1hYN3hmSVAyZEZCaU53U3RJemRMVEVHckdRWmtXaHd5LQ?oc=5"
+        },
+        {
+          "title": "Do Redwire’s (RDW) Governance Reforms Quietly Reshape the Risk Profile Behind Its Space Ambitions? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYkVwUENkdDRZaWVqQkdfZXBlRGFJN2YydFpBbENuRXFoQ041bE1fWHNfRGdsS3lHaGMtQ1pGUTgxMkxEdDNKYlpiLVFxV2FfWUhTcWpjdDJGMEhsQUhSdUlmZVdwS05zOTFPRXZfdUZjZ3Y3dHV4LXBJUGtEUjRqUXhTcV85U0tVdmVOMzdmbGVpRjNtdGhYNl9qS2ZVU2NVVWtYTnRvZDEwcEpCNC01UW05S0ZXcDJRZTItbWl3bTc4WEp5WWfSAcsBQVVfeXFMTkdubWt6R29qdng3bW5CeXppalFyTk91a1FfTzBBdTY4UmhBRVNhWm5MTk5HV0Rza0FlYlZrZEFaZFRQUl9MWDliX2FsUF9xNHl0XzFURUdDeTZBTjM3STF3Z3kyZ1k4UG9TdHhDdkdfRTJzWWJ6b0g5NFdlX1pnRnBoOVdoZW9DRDZJMm8tS0JvSkhSdlMweXBMblMyVlRlbWZ2Z2R2OFhoQ3M4QTgwS29NN1Njem8wajY5NDZuREdwSlk3ZENScGVUVE0?oc=5"
+        }
+      ],
+      "float_shares": "223.50M",
+      "short_float": "16.90%",
+      "daily_pct": 1.2,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No specific factual claim (dollar amount, percentage, date, approval decision) is present in the catalyst summary. The summary outlines thematic narratives rather than specific, verifiable data points.",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "RZLV",
+      "price": 2.41,
+      "gap_pct": 7.05,
+      "pm_volume": 311210,
+      "avg_vol_10d": 16741766,
+      "avg_dollar_vol": 40347656,
+      "mkt_cap": 961174565,
+      "rvol": 0.83,
+      "adr_pct": 7.15,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "240.99M",
+      "short_float": "21.54%",
+      "daily_pct": -4.37,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $40M < $100M)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "ABCL",
+      "price": 7.38,
+      "gap_pct": 7.02,
+      "pm_volume": 251146,
+      "avg_vol_10d": 7476943,
+      "avg_dollar_vol": 55179839,
+      "mkt_cap": 2253670462,
+      "rvol": 2.28,
+      "adr_pct": 9.53,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 60,
+      "grade": "C",
+      "finviz_theme": "Biotech - Immunology",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nThe Stocktwits headline notes that ABCL, along with SLS and MRNA, surged to **52-week highs** last week. There is **no specific news** from the last 24 hours that explains this movement or a continuation of it. Given the **2.3x RVOL** and **9.5% ADR%**, significant **price volatility** and **trading activity** are evident without an explicit fundamental trigger.\n\n• **Key Consideration**\nWithout a fundamental catalyst, the recent surge is likely driven by **technical factors** such as a **short squeeze**, **stop-running**, or **institutional accumulation**. The **high ADR%** suggests price action is **aggressive**. Investors should be wary of a potential **'Gap and Trap'** scenario, as the lack of news increases the **risk** of a quick reversal.",
+      "peer_tickers": [
+        "MRNA",
+        "BNTX",
+        "VRTX"
+      ],
+      "headlines": [
+        {
+          "title": "Why Did SLS, MRNA, ABCL Stocks Surge To 52-Week Highs Last Week? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzBsYUtCOHFFSmx1NnFIcVBPX0R2aUFVSlpRME83djlfdjdwSTB3WGJRX1RBQ3ZNUjRHbEUwYjhva2lQR3NBYk9Pem56aXM1bnNONWdrVE9QYjJESEdEMW9zcG1ZSWd5cU5zdEkyR0hvQU1DdVhWWkk5aXh1MnlPNVZsQ3dIRHdvMmdJa1VIcjF1M2pjekdibERoRFVLcXV2RUl4UUZIc2Y0V2R1a0s1RWxqcXJlMXctUGVfZ0I4Smt1dzg?oc=5"
+        }
+      ],
+      "float_shares": "235.02M",
+      "short_float": "19.11%",
+      "daily_pct": 10.81,
+      "industry": "Biotech - Immunology",
+      "technical_status": "Fail (Avg $Vol $55M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found for ABCL's surge",
+        "discrepancy_note": null
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "RCAT",
+      "price": 9.28,
+      "gap_pct": 6.57,
+      "pm_volume": 140981,
+      "avg_vol_10d": 11661167,
+      "avg_dollar_vol": 108215630,
+      "mkt_cap": 1412344138,
+      "rvol": 0.74,
+      "adr_pct": 10.03,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No specific fundamental catalyst, such as a new contract, policy, or earnings, was reported in the last 24 hours; the headline reflects past negative performance and future retail speculation.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Drones",
+      "analysis_detail": "Catalyst: Unknown. While the headline reports RCAT is experiencing its worst month in five years and highlights retail's speculative hopes for future government drone investment, no concrete policy announcement or contract award occurred. | Impact: Speculative. Any significant price movement in the last 24 hours would likely be attributed to technical factors, ongoing selling pressure, or short-term trading dynamics rather than a fresh fundamental driver, indicating high risk.",
+      "analysis_details": "• **What Happened**\nThe stock, RCAT, is reportedly heading for its **worst monthly performance in five years**, signaling a significant **downtrend** in investor sentiment and price. Although retail investors are noted to be **pinning hopes** on potential future **government drone investment**, no specific policy action, new contract, or concrete development has been announced in the last 24 hours to support this optimism or explain a positive price movement.\n\n• **Key Consideration**\nGiven the absence of a clear, actionable **fundamental catalyst** in the last 24 hours, the reported poor performance and any recent price movements are likely attributed to **technical factors**, broader market sentiment, or **institutional outflows** exacerbating an existing negative trend. The mention of retail investor hopes for government investment is a **speculative narrative**, not a confirmed event, making the stock highly **vulnerable** to further volatility without concrete news.",
+      "peer_tickers": [
+        "AVAV",
+        "KTOS"
+      ],
+      "headlines": [
+        {
+          "title": "RCAT Heads For Worst Month In Five Years: Retail Pins Hope On Government Drone Investment - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYmFVZk8tLTRxWXlZN05BejB1Yk9FUFpoaXliaHF2SWwwV05SZm9vUmdjRFJtbjh4Mi1YSlU3QkxkV3UtMURqYlo2MUVrb1pXNTN5NklSZ2lJRW5BSnZWRGRVZGNiMnBybFlOUnFfMF9Sa0pxU0pQTVNsQ25xTmJseUVKYUR3Q2JxdGFUWXFoYlFERXQxZEhr?oc=5"
+        }
+      ],
+      "float_shares": "134.19M",
+      "short_float": "21.75%",
+      "daily_pct": 4.15,
+      "industry": "Drones",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Worst Month In Five Years",
+        "discrepancy_note": "The primary catalyst claim states the headline reflects past negative performance. The most specific factual claim regarding past performance is 'Worst Month In Five Years' from Source B. Source A (Finviz) reports no news for RCAT and therefore does not mention this claim. As only one source confirms the claim, it is marked as a discrepancy."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "FLY",
+      "price": 25.54,
+      "gap_pct": 6.5,
+      "pm_volume": 66836,
+      "avg_vol_10d": 8591996,
+      "avg_dollar_vol": 219439578,
+      "mkt_cap": 4194567522,
+      "rvol": 0.64,
+      "adr_pct": 10.58,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 55,
+      "grade": "C",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nThe stock FLY is exhibiting **significant price movement** today without any apparent company-specific fundamental news. This suggests the move is driven primarily by **technical factors** or **order flow**. Given the **RVOL of 0.6x**, the volume today is below average, which can exacerbate price swings on lower liquidity, potentially indicating a **supply/demand imbalance**.\n\n• **Key Consideration**\nWithout a clear fundamental catalyst, the sustainability of this upward move is **highly questionable**. Investors should be wary of a potential **\"Gap and Trap\"** scenario, where initial gains quickly reverse. The **high ADR% of 10.6%** indicates inherent volatility, making it a high-risk trade unless a new, substantial fundamental reason emerges.",
+      "peer_tickers": [
+        "RKLB",
+        "SPCE",
+        "IRDM"
+      ],
+      "headlines": [
+        {
+          "title": "SpaceX Stock Is Failing to Fly and It’s Becoming a Problem - Barron's",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaUhVZGl6UDlFTjVjYTRCWFlWZDhpTnFnTkJaT1AzOVdjNV8yM2Rrak5WWG90NzR4MkFlY2xRQUNlVDZwc2V6T2RfSTI2Zi1ndFA1bW9VY1ZMbHdOcHR5LUxyajdIRVhqRHVfOTVlbnJRcEZ6cmJ5bWN6X3lYai1lclpFdWNQUQ?oc=5"
+        }
+      ],
+      "float_shares": "94.64M",
+      "short_float": "12.51%",
+      "daily_pct": 3.78,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+        "discrepancy_note": "The primary claim states 'No immediate fundamental catalyst found; likely technical breakout or institutional flow'. Source B (Barron's) directly contradicts this by reporting 'SpaceX Stock Is Failing to Fly and It’s Becoming a Problem', indicating the presence of fundamental issues and an absence of a positive technical breakout or institutional flow."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "LUNR",
+      "price": 19.79,
+      "gap_pct": 6.16,
+      "pm_volume": 136704,
+      "avg_vol_10d": 14388571,
+      "avg_dollar_vol": 284749820,
+      "mkt_cap": 4294844924,
+      "rvol": 0.74,
+      "adr_pct": 10.48,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": "128.24M",
+      "short_float": "29.51%",
+      "daily_pct": 5.83,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "PL",
+      "price": 27.07,
+      "gap_pct": 5.84,
+      "pm_volume": 121234,
+      "avg_vol_10d": 18332704,
+      "avg_dollar_vol": 496266297,
+      "mkt_cap": 9647816051,
+      "rvol": 0.93,
+      "adr_pct": 10.52,
+      "category": "Institutional Buying",
+      "theme": "Index Rebalance / Institutional Flow",
+      "reasoning": "Planet Labs was added to the Russell 1000 Growth benchmark and simultaneously dropped from the Russell 2000 Index, signaling a shift in institutional fund flows.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
+      "conviction": 56,
+      "grade": "B",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Planet Labs PBC (PL) has been included in the Russell 1000 Growth benchmark and removed from the Russell 2000 Index as part of the annual rebalancing. This reclassification significantly alters the passive institutional investor base. | Impact: Inclusion in the R1K Growth is expected to drive mandated buying from large-cap growth index funds, potentially offsetting selling from small-cap funds and increasing trading liquidity and institutional visibility.",
+      "analysis_details": "• **The Buyer**\nPlanet Labs PBC (PL) has been added to the Russell 1000 Growth Index and simultaneously removed from the Russell 2000 Index during the annual reconstitution. This rebalancing will trigger **mandated buying** from passive funds that track the Russell 1000 Growth, while small-cap focused funds tracking the Russell 2000 will be forced to **sell** their positions.\n\n• **Conviction Signal**\nThe net effect is generally **positive** for companies moving up to larger indices, as the capital flowing from large-cap funds often outweighs the selling pressure from small-cap funds. This enhances PL's visibility among a broader institutional investor base and could lead to **increased liquidity** and a more stable shareholder base over time.",
+      "peer_tickers": [
+        "RKLB",
+        "ASTS",
+        "BKSY"
+      ],
+      "headlines": [
+        {
+          "title": "Planet Labs PBC(NYSE: PL) added to Russell 1000 Growth Benchmark - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUllZV0dCSHc1UktDSF91ZExHNlRRVEJOX2g5YjRsR29sdDBKeW9oNUdyS3JhdUxyemVPbzRzUjVuWFMxUjhpUzdxTV9BMWtEdmpQOGI3UUhTUjU3YXF0UFg4dmJqX0dUVmlpeFI0OTFncXRTZnptVHFnc3dILXM1bmd3WWdEOTVxT0Q1LTh1a3BaTzlrc3RXU0NwVzBZeWZteTVlSGVvSzRWUDIyVy10czROWFM1dw?oc=5"
+        },
+        {
+          "title": "Planet Labs PBC(NYSE: PL) dropped from Russell 2000 Index - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHI5MGlxaUQtdTVqSGZuSGo4Nm1TRnlrbFJhS21Tci1KdFp6YjUtbTlrUWFlOXF0ckFuNWFpNEtERFNYNklZNng0WXVsY1BlYU50b0k0SzVmVFlBTkpFV2FKOFlRR1JWT3pUMkNaVzZUYTFZZXgwaWI0OU14eFdRUDNWVkRjbU9VRFhZUnduMUNiN3BILVhXUmNwWFhJQnhZRlFQS0o5TEhBdUxu?oc=5"
+        }
+      ],
+      "float_shares": "274.43M",
+      "short_float": "15.09%",
+      "daily_pct": 2.11,
+      "industry": "Space",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Planet Labs was added to the Russell 1000 Growth benchmark and simultaneously dropped from the Russell 2000 Index",
+        "discrepancy_note": "Source A (Finviz News) provides no information. Source B (Google News) confirms both parts of the claim."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "BE",
+      "price": 252.02,
+      "gap_pct": 5.69,
+      "pm_volume": 154089,
+      "avg_vol_10d": 16022136,
+      "avg_dollar_vol": 4037898715,
+      "mkt_cap": 71685547393,
+      "rvol": 2.85,
+      "adr_pct": 9.4,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 62,
+      "grade": "C",
       "finviz_theme": "Clean Energy - Hydrogen",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. The recent **10% drop** in FCEL, described as **profit-taking reversal**, occurred without new company-specific fundamental news. This suggests short-term momentum is reversing due to technical factors and a re-evaluation of the existing 'AI data center demand' narrative, posing a high risk of further price erosion without fresh catalysts.",
-      "analysis_details": "• **What Happened**\nFuelCell Energy experienced a **10% decline** today, attributed by market commentators to **profit-taking reversal** after a recent strong rally. This movement appears largely **technical** in nature, with no specific new fundamental news from the company to explain the sharp downtick. Headlines suggest a **whipsaw** action as \"AI Hype Collides With Losses\" for the company.\n\n• **Key Consideration**\nThe stock's volatility is being driven by the ongoing narrative around **AI data center demand** potentially benefiting hydrogen fuel cell providers, juxtaposed with the company's underlying **losses**. Without a new, concrete contract or strategic partnership directly linking FCEL to AI infrastructure, the current price action remains highly **speculative** and vulnerable to technical reversals, despite an average trading volume (RVOL 1.0x).",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nBloom Energy (BE) is experiencing a significant **rebound** today, as noted by multiple financial news outlets, following a **selloff** last week. This price action appears to be driven by **technical factors** and **market flow**, as there is no specific fundamental news or company announcement in the last 24 hours that would explain the move.\n\n• **Key Consideration**\nGiven the lack of a clear catalyst, the current upward momentum is **speculative** and carries an inherent **high risk**. The **2.9x relative volume** indicates strong interest, but without fundamental backing, this could be a short-term **technical squeeze** or stop-running, potentially leading to a **gap and trap** scenario.",
       "peer_tickers": [
         "PLUG",
         "BLDP"
       ],
       "headlines": [
         {
-          "title": "FuelCell Energy Drops 10%, Bloom Energy Falls 7% in a Profit-Taking Reversal as Plug Power Edges Up - 24/7 Wall St.",
+          "title": "How Long Could Bloom Energy Stock Stay Underwater? - Trefis",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaEJ3T1dOV3Y4VnJSOVlDYnpnZ0l0aXBVZXJ3cWV0eEtheGhTWFF6MWlzdzZxUG80aWxXMW0wOU5ramlpOWs4M2lJc0ZoYXZIUXZJbjFLUjdubFdsNUg2M1dIZWdXV3VVZWc1RmgwR2xPdnJUY3RWeWFoZ1RrRGJ1cUNUdkhRWkUzbHhMNUw2d01jeDhJNTNId0tSM1I4UVNsQU03RGNabUF4QzM3bWdsYWVLRlpJV0UzX3c4VHhyTEw3VnoyQkMzUXlBMl80cTBQbUFacDhzQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYzdSZWstZzMzaUVyX2FoTjR6c2FYYXlZZXlWVlkzM1dRSWV2b2ZvbVZzXzZLNWd2cG1jTXhWMTNleXByOXhmb3E1bXpPaHNKVm5tajFaSm9ON2pZUHFJS0t5ZVYzTzZMXzN1SWRZX1RWRmhRRlY5c0FyQkJ5Zk96M1F6TDBnYlFYRXFGUXN1UVZVMmdzWkF5UEl6bTIydlZIN1VlQkVTWFFfUHpu?oc=5"
         },
         {
-          "title": "FCEL Stock Whipsaws As AI Hype Collides With Losses - StocksToTrade",
+          "title": "Why Is BE Stock Rebounding After Last Week’s Selloff? - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB4OThOck5zRUZESENSZ2Y0cS0wUWhKRzM5U3RucTI4ZFp3aXB5T3hMUDJ4MUpyajNpYXYza0E5RnM1REgxQWRhN2lieVZaLWRjTTZLMDJPeVZHVHJ4VEstLW1wYmR5aUltREttVF9UQ1ZZbVpHX1Q0bXNrdGU?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNME5vZVVzS3Y0elJBQlktUUZuc0llRWw2SXJoNGlsSkZkc1B5Rmltdno4dTJaR0d1Q0pnSWRWcV9IOEpuNTQ1UndHb04wSGhaQ3ZNM1dsT2tSSUFjR2drOGZNSi1iV0VfVWhyYjRlS1JBd1AwRk9mcExfZlNwbUVMajdDdTB4ZUxvYVMwRTNDcVR3emFkSmx3RWtHN3l5NDlINEc5am15eEtpV0h4UjBWcjFwaVI?oc=5"
         },
         {
-          "title": "Is FCEL Stock Worth Buying After a Strong Rally? - Zacks Investment Research",
+          "title": "Why Is BE Stock Rebounding After Last Week’s Selloff? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVWxBYkpMcTZ1LXNTdmw3MUxidEpiaHZwc3U4WmNUcXZjbTF5LVNacXlfb3M1clhOa0g1emVpLWpwMnN2WnI1LTFwd2xNYXlBOXVzNTVuY1dJY0V4aHBUVlZyV2VkZjk2TTlrRURxaXRuZEVRSjMxaG1EWkx3NWpZOExIbTc0dmhNVm9mSjRWSFVXUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnB3TkkySXUwSDVnZ0JXbnJNc1Q3NkJFOUVvYm9yV0ItM0thczIxTXZnT1dtTWVrODFZM0VUQldwcUo0OEhPLU83ZzBCaHkxMFBmRGl1ZXdhQmUyN2FhRTBIX2lYTy1IMURWYnFvYjluQ3RNSGIxT0FYNHJFb0VoMjJOODU0QkFlZGdjaEdieXVpMEkwVF9BaTlrQQ?oc=5"
         },
         {
-          "title": "FCEL Stock Rides AI Data Center Demand, But Risks Remain - Yahoo Finance Singapore",
+          "title": "Bloom Energy: The AI Power Play You Don't Want To Leave Early - Seeking Alpha",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92VS1fNE95bkVlcDFYRG5WaGJIRUNpa01tME9WN1NzNEVyZmgtTjZSTlJndGhpdmYwNnVCa3VZRm94Z1h2cHhCOUdsbnp0UXo3ZTZUcTVTbnRWVWZRZFJ5RGQ2YkVvOE9RZ3VjZ1Jka1BsS0tNN09kOVRrU2Jadw?oc=5"
-        },
-        {
-          "title": "Is FCEL Stock Worth Buying After a Strong Rally? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV3F0aXpOOF91anI3Q2ttRnJnQkR3bkZXNl9TcU0wS25pVlpXNF9GT0pNRHRqYW8zMjc4amxxY1ZpVHpGa1VuNERtY3BCUEpuTW9FWUg5bk1yckUzRjh4NWF5d3A0YUJmbW94VHhOTXBUd3lDTEo1cm1JMkxreDhBdFVwemZlcVNOYlJmb3dGOFlKY1NzLXN4endZbw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWhvZU41TUFvelJTbDFlSEpVaTNVM0lSM1VGbWgzVlFnMkhwY3FyRmJNVnpOYVJRNVhicjNVbENyMmJoWVlwZ09YWUZnSmd2V2N5d2F3VFVnUjFrQ0YwSXgzVW5VQ0JCU0RlbHVydzIwMm1XTzZpT3MyNmFSZXQyNGxNVGhfTEU4RUM3dFVVcHh1dFExaHJuZzc2eVV0ZXJwWHc?oc=5"
         }
       ],
-      "float_shares": "67.39M",
-      "short_float": "10.17%",
-      "daily_pct": -8.86,
+      "float_shares": "266.50M",
+      "short_float": "11.17%",
+      "daily_pct": -18.49,
       "industry": "Clean Energy - Hydrogen",
       "technical_status": "Pass",
       "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 100,
+        "status": "Verified",
+        "confidence_score": 85,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "No immediate fundamental catalyst found; the recent price action indicates technical profit-taking and narrative reassessment.",
-        "discrepancy_note": "Source A (Finviz News) contains no information, preventing confirmation by both sources. Source B (Google News) provides supporting evidence for 'profit-taking' (e.g., [5] 'Profit-Taking Reversal') and 'narrative reassessment' / 'no immediate fundamental catalyst' (e.g., [3] 'AI Hype Collides With Losses', [4] 'Risks Remain'). However, due to the complete absence of information in Source A, the claim cannot be 'Verified' by both sources."
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "OUST",
+      "price": 42.02,
+      "gap_pct": 5.64,
+      "pm_volume": 98978,
+      "avg_vol_10d": 4935078,
+      "avg_dollar_vol": 207371978,
+      "mkt_cap": 2675537419,
+      "rvol": 0.71,
+      "adr_pct": 12.32,
+      "category": "New Contract/Partnership",
+      "theme": "Counter-Drone Partnership",
+      "reasoning": "Ouster announced a strategic partnership with ARGUS for counter-drone applications, leading the stock to a new 52-week high.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 76,
+      "grade": "A",
+      "finviz_theme": "Drones",
+      "analysis_detail": "Catalyst: Ouster's stock saw a **significant surge**, hitting a **52-week high** following reports of a new partnership with ARGUS for counter-drone applications. This strategic collaboration leverages Ouster's Lidar technology for an emerging and high-growth defense and security market. | Impact: This partnership represents a **key expansion** into the counter-drone sector, diversifying Ouster's revenue streams and potentially expanding its Total Addressable Market (TAM). The positive market reaction suggests investors view this as a **de-risking** event and a **catalyst for future growth**.",
+      "analysis_details": "• **Impact**\nOuster's shares **surged** to a **52-week high** on news of a strategic partnership with ARGUS in the counter-drone sector. This collaboration signifies a **key diversification** into defense and security applications, leveraging Ouster's advanced Lidar technology for an emerging market. The lack of specific financial terms suggests a **potential for further upside** as details emerge.\n\n• **Strategic Value**\nThis partnership positions Ouster to capitalize on the rapidly growing need for drone detection and neutralization systems, a market driven by increasing security concerns. It highlights the **versatility and robustness** of Ouster's Rev8 Lidar and provides a **new growth vector** beyond traditional autonomous vehicle and industrial applications. The tie-up with ARGUS, a specialist in counter-drone tech, is a **strong endorsement** of Ouster's capabilities.",
+      "peer_tickers": [
+        "LAZR",
+        "AEVA",
+        "KTOS"
+      ],
+      "headlines": [
+        {
+          "title": "OUST Stock Hits 52-Week High Today — What Is The Counter-Drone Partnership With ARGUS About? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMFNtX2pSUVZWWE1ieFdWVU9KamhwUXpDcHljNEdVc3FpMUV3Zlc0SEhjLUM2a1ROZ3F5bzZlUjlmYmhXb1gzTUhPMEIwLXc2MDJkYVpGaE1ta2NXazQ5TUpUb1pjYVVDMWJwQzJMSjJfTHZVME5GTmp5dlBWMHhjeTF6STZPbmw0b2JXWmdOZ0psajlPUkV1TFZJWmY2YVpmU0NzX3pmYkk0MlRrWmZybnpqSEN2cXBMOEM1N0hteGJnN3ZFaVdyRFBYNE8ydw?oc=5"
+        },
+        {
+          "title": "Ouster Stock (OUST) Opinions on Rev8 Lidar Partnerships and CNBC Coverage - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWnNtbk1DWHh1ekQ1YmVDLXhDbDlwS1RQdDNEbTQyU3kydHJRM1FSNFV3Ui1ZY3RMeUNsckRWaTJfUElMZDVqdXltRENaVHVCMU9JUUN4SzFYcFhNdVFLYUs3eXpQMVdmREgweEtySUFRSVN5VWYwNDNBQXBscXlrLTVTb2tBRDRHRFdIeVcxTi1DR1JqUDgzVnBhSWNFejF3R0ZGUDAxMEVaQml4S0Fv?oc=5"
+        },
+        {
+          "title": "Enterprise value to EBITDA forward of Ouster, Inc. – NASDAQ:OUST - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeVZCRUVCeGhwOWZUanlMS1NIUF9GdnJGMjVkYnoxNkFFNWc4VHlVSjNyU0F0b0lWemlnaDQyNjBGXzNfeW11VEhrZEltSkNRYWl4b3p5LXJGR2daUkxna0RmbmFxVUprd2loeUk3YmhzM0M0YkVVVHJSanRHdnNpZjFFMUlUSUI1a0pQYVZBTUFLOWdrTzZpY2s0OUZ6c2VKOGRjcUc5VllnT2E3LWc?oc=5"
+        }
+      ],
+      "float_shares": "59.64M",
+      "short_float": "8.70%",
+      "daily_pct": 0.48,
+      "industry": "Drones",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 75,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "OUST stock hit a new 52-week high.",
+        "discrepancy_note": "Source A (Finviz News) contains no information. Source B (Google News, specifically link [1]) confirms 'OUST Stock Hits 52-Week High Today'. Since Finviz does not corroborate, the claim cannot be 'Verified' by both sources."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "RBLX",
+      "price": 47.56,
+      "gap_pct": 5.55,
+      "pm_volume": 70726,
+      "avg_vol_10d": 13199970,
+      "avg_dollar_vol": 627790573,
+      "mkt_cap": 34051951674,
+      "rvol": 0.5,
+      "adr_pct": 6.06,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 55,
+      "grade": "C",
+      "finviz_theme": "Consumer - Gaming",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo specific fundamental news catalyst for **RBLX** was reported in the last **24 hours**. The sole headline from Stocktwits highlights concerns about **Roblox's growth engine stalling**, which is a **negative sentiment** rather than a positive catalyst for upward momentum. Any significant price movement is therefore likely attributable to **technical factors** or **order flow dynamics** rather than new information.\n\n• **Key Consideration**\nGiven the absence of a fundamental driver, the current price action is highly **speculative** and prone to volatility. Without a clear news catalyst, there's an increased risk of a **\"gap and trap\"** scenario, where early gains quickly reverse. Investors should exercise **extreme caution** as the move lacks a durable narrative for sustained momentum.",
+      "peer_tickers": [
+        "EA",
+        "TTWO",
+        "U"
+      ],
+      "headlines": [
+        {
+          "title": "Roblox’s Growth Engine Is Stalling – And Its Fix Might Be Making It Worse - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWjJDdGt3djdqZFNZZjhyZm5oUXZFNHAtMDNGNVlnTlhBV3pJdFFpbGh2NjBLM3NDVXZTVHFEMV9UMWE1SFpnSGV3dURqZTZHSlk1N2lMcGZTLWs5SEJBTjg2UVQ2Z0xCNXlVeVdPOFg0VFFaZWd6ckIydEY4MGVuUWtDbzdlT3JKcmxuZHBKdm9WTEV5emdoU1RwWnoyOHlvVlhpUG5ZczFmWktQaElEajk3dkVCcjl5?oc=5"
+        }
+      ],
+      "float_shares": "622.16M",
+      "short_float": "4.87%",
+      "daily_pct": 2.52,
+      "industry": "Consumer - Gaming",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": "Source A (Finviz) reports no news, which is consistent with the claim. However, Source B (Google News) reports 'Roblox’s Growth Engine Is Stalling', which constitutes a fundamental catalyst, contradicting the claim that 'No immediate fundamental catalyst found'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "AMPX",
+      "price": 12.91,
+      "gap_pct": 4.57,
+      "pm_volume": 61727,
+      "avg_vol_10d": 8003022,
+      "avg_dollar_vol": 103319014,
+      "mkt_cap": 1828406701,
+      "rvol": 0.89,
+      "adr_pct": 9.55,
+      "category": "Others",
+      "theme": "Index Rebalancing / Institutional Flow",
+      "reasoning": "Amprius Technologies (AMPX) was dropped from the Russell Microcap Index, leading to passive selling pressure.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "EV Batteries",
+      "analysis_detail": "Catalyst: Amprius Technologies was **removed** from the Russell Microcap Index, effective **2026-06-29**. Impact: This event typically triggers **forced selling** from passive index funds, creating **downward pressure** on the stock due to institutional flow rather than a change in fundamental business operations.",
+      "analysis_details": "• **What Happened**\nAmprius Technologies (AMPX) has been officially **removed** from the Russell Microcap Index, effective today, June 29, 2026. This rebalancing event often leads to **passive selling** pressure as index funds that track the Russell Microcap Index are required to divest their holdings of AMPX.\n\n• **Key Consideration**\nWhile the removal from the index does not directly impact AMPX's operational performance or strategic initiatives, it significantly affects institutional ownership and trading liquidity. Investors should monitor for potential **short-term volatility** and **increased selling volume** due to this forced liquidation by index-tracking funds. The Simply Wall St article mentioning a Matternet partnership is an analytical piece, not a fresh catalyst, and doesn't offset the negative flow from the index removal.",
+      "peer_tickers": [
+        "QS",
+        "SLDP",
+        "JOBY"
+      ],
+      "headlines": [
+        {
+          "title": "Amprius Technologies, Inc.(NYSE: AMPX) dropped from Russell Microcap Index - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQXRlWFp2czd2Y2psR3JLbjd3M0ppaGFpaUU5Z1NaUHZVX2hjdm93TDdNVE0xMTdfR3lFY0w0ZkdIdHlIVlpfZGxsd2NfMlJ1SzRmZ0YyZ0NpeVFRQzcwMGlYcVd3RXZYc2Nvb2RDcXVGOUo1aUt5eV9talNfRlM0dlF6c2lhYmYwMHN2WF9vTkRMYkM5bGM5NGNkSDh5ZmJmcDFaUDIzRDVzNmZKLXl5LUFUWmpsUkJnLW9LMmhNaFY?oc=5"
+        },
+        {
+          "title": "Is Amprius Technologies (AMPX) Matternet Partnership Quietly Reframing Its Core Drone Battery Investment Story? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTldYS2VfWFROZG51aFp2eU0zS3VBNDVoMkVTa3NhTGtlQ0ZrcF90OUNKVGhNT21nMlM4YkpOdVVMSG5PcmZCUV9Eb3ZfMm9rX1VDZEczS2I4VDlwcTdYTG1kMHpqNVhnVjFQOVE0dHQzdmxQUmV3cS12YlhpOVVIYWM2c3R0NjROVHF1RGxSb0tBbkcwWE1EaEpOT255cTRxOHlVT2VURkZYT2tJVEt6N19qQXJ5MnNvUjF5aXNhMDZOaERfXzh6MWNPNjA4MW1HclBYUW5VRm5mQdIB3wFBVV95cUxQRDlMdnlBdXlkTWxUSkZBVG9qQ1ZKdmc3UzM4bUlhRGp5ZDZQODEtLVc0a3l3MTdrRXVnUWpKTmVEd0JDQ1Q5SnlSdlhRYzd4UVFmcHVTaHVsUE16YjZuY0pmVmx0c1FTWmZRa1Fwam9kY0I5ZjA3SWk2Z1A5bWJtVDNjUEI3V2NITzZUSjJNWmhJRXNjeHA2RkNxSTNtRnBBYnJZb3pXNGJfMlZUZ1hSUjZiN0RodFV0TWNWNUMtYUh5X1NYeUQ5d2JfYkRuQk5HMFlqWGFRNmVUS2J4RHBZ?oc=5"
+        }
+      ],
+      "float_shares": "131.61M",
+      "short_float": "17.34%",
+      "daily_pct": 2.79,
+      "industry": "EV Batteries",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Amprius Technologies (AMPX) was dropped from the Russell Microcap Index.",
+        "discrepancy_note": "Only Source B (Google News, referencing marketscreener.com) mentions AMPX being dropped from the Russell Microcap Index. Source A (Finviz News) has no mention of this event."
       },
       "gates_passed": 4,
       "gates_detail": {
@@ -158,82 +1457,216 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "SYNA",
-      "price": 125.62,
-      "gap_pct": 3.87,
-      "pm_volume": 71550,
-      "avg_vol_10d": 728266,
-      "avg_dollar_vol": 91484775,
-      "mkt_cap": 4853665954,
-      "rvol": 1.28,
-      "adr_pct": 6.52,
-      "category": "New Contract/Partnership",
-      "theme": "Acquisition",
-      "reasoning": "Synaptics (SYNA) is being acquired by Onsemi in a **$7 billion all-stock deal**, causing SYNA's stock to **soar 12%** after hours.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "C",
-      "finviz_theme": "AI Edge & IoT",
-      "analysis_detail": "Catalyst: Onsemi announced its intention to acquire Synaptics in a **$7 billion all-stock transaction**, aiming to expand its presence in the growing \"Physical AI\" and intelligent edge markets. | Impact: The deal represents a **significant premium** for SYNA shareholders, with the stock **soaring 12%** following the news, and creates a combined entity with enhanced capabilities in intelligent sensing and edge processing.",
-      "analysis_details": "• **Impact**\nOnsemi has agreed to acquire Synaptics in an **all-stock transaction valued at approximately $7 billion**. This acquisition is a **transformative event** for Synaptics, effectively valuing the company at a significant premium and leading to its integration into Onsemi's broader portfolio. The news caused SYNA stock to **soar 12%** in after-hours trading, reflecting positive investor sentiment regarding the takeout price.\n\n• **Strategic Value**\nThe acquisition is strategically designed to bolster Onsemi's position in the high-growth **\"Physical AI\"** and **intelligent edge** markets, leveraging Synaptics' expertise in human interface solutions, IoT, and edge AI processing. This combination is expected to create a more comprehensive offering in intelligent sensing, analog, and power solutions, expanding Onsemi's TAM and accelerating its growth in industrial and automotive end markets.",
+      "ticker": "ONDS",
+      "price": 7.83,
+      "gap_pct": 4.34,
+      "pm_volume": 950517,
+      "avg_vol_10d": 62796204,
+      "avg_dollar_vol": 491694277,
+      "mkt_cap": 4073860929,
+      "rvol": 1.13,
+      "adr_pct": 8.42,
+      "category": "Institutional Buying",
+      "theme": "Index Inclusion & Short Squeeze",
+      "reasoning": "Ondas Inc. was added to the Russell 3000E Growth Benchmark, triggering passive institutional buying and contributing to a short squeeze.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
+      "conviction": 57,
+      "grade": "A",
+      "finviz_theme": "Drones",
+      "analysis_detail": "Catalyst: Ondas Inc. (ONDS) has been officially **added** to the Russell 3000E Growth Benchmark, effective today, 2026-06-29. This inclusion mandates passive index funds to purchase ONDS shares to align with their respective benchmarks. The news also explicitly mentions a 'short-interest test.' | Impact: The Russell inclusion is a **significant** event for a small-cap company, enhancing market visibility, liquidity, and broadening its institutional investor base. The confluence with high short interest suggests a powerful **short squeeze** dynamic.",
+      "analysis_details": "• **The Buyer**\nOndas Inc. (ONDS) is now a component of the Russell 3000E Growth Benchmark, a move that compels a vast array of passive index funds and ETFs to **acquire** shares to reflect the index rebalance. This institutional flow provides a **strong demand floor** for the stock, drastically improving its liquidity and market structure.\n\n• **Conviction Signal**\nThis index inclusion is a **structural change** for ONDS, elevating its profile and potentially attracting broader institutional interest beyond passive funds. Combined with recent news of a **$457M backlog** and **expanded US military access** after the Mistral deal, the market is signaling **high conviction**. The 'short-interest test' mentioned highlights the potential for a continued **short squeeze**, amplifying upside momentum.",
       "peer_tickers": [
-        "QCOM",
-        "MCHP",
-        "NXPI"
+        "AVAV",
+        "KTOS"
       ],
       "headlines": [
         {
-          "title": "Synaptics (SYNA) Faces A Fresh Test As Edge AI Hopes Meet Valuation Questions - simplywall.st",
+          "title": "Ondas Inc. ONDS stock rises as Russell 3000 add meets short-interest test - TechStock²",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQUlqOXJSbHNzdkhOLUhSUnNSR1U4RFdVTjZfaGFnOGItN1ZFOEhlWURvOWplMnRiMm9Lc2JBaXJnbENOaEdKMUI1ZFVYOHkxVFRiME9nX3F2ZnFuOS1hVGxsYUZ1LUhaaWJKcjN1RHFlWU5ETlNUSnZnOFJ6Um5VcnRTdGotZml4bEVFNXhxQWlzSnpGYnpGZnNGdzljelFxaGZkY3Y3SThTLUpORUtiSkp1R1FEVTV5Z2FackVEX01wVkxHOUhSS0N3dzJXQXPSAdQBQVVfeXFMTzdKY0JOaTlnMnM2Vk9zY2JRbTNxa2RMTExIWnE5aWpVM2xDeUlCNXBIRUl2TEl1RTBqQ0s5NU1SVDFMS0gtLU01bEpDbWZidmZSanNLNzBCRS1NYmpmUE84X0NQbjBoVnlheUphSExBclZwbnQzaGZjRGJFUFlFUlBJdy12endKSkJiaXBFMEVBQXd3UXlfMktveDdJZ0VrX2RjbEdCT0gzbFVjN0NEVFJXWmk1cnNTVThVQ1cxVUZ5RWhmcTJpX2lvckE0YlFQVzY4Qkw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcGhzdnF3cmo5NUliXzU4Z3ZPTXAwRlNCUUVXYjRPZGpDUXBGOEZjT2c3STZvYmNDZ1o0MFRMQ1lNUWdGdEJpaThfWGgyaVJxRm5oOVZNX1doTjVUX3o4ZlVuVFpwcjVkVUVETGxnUnlVRy1kMGdoWFQ5bVk2QkJTTDVYdU9rQ2ZoTnNodUlTaHZWQU14NzVObw?oc=5"
         },
         {
-          "title": "SYNA Stock Alert: Halper Sadeh LLC is Investigating Whether Synap - The National Law Review",
+          "title": "Ondas Inc.(NasdaqCM: ONDS) added to Russell 3000E Growth Benchmark - marketscreener.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYjdjaEdMN1gxLVl4RlRWcUtzQUNSYnNWM2J4QUlzXzVGQktXWWRMX3BLMXlqMDNoejlmTzVyM1h2R3pibGpIWUFLNmppN1JJeXVsMThtaWRMWHA2eWlMVU1EVXJFRzg2Nm84eGt1UGVodk1YV1NjUU0zbnVBWXlGN2o4WUxFVEhfUWJwUElka0c5VjZnMHE1N2hiTjFCSjN1bVhrTmptTC0?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa1ZJWExyeU8tY0dpMEZIWFFGQnhWeU02TFo5NXdSUEhINjFaQ3dtRi1LaTE4ODROeWZJQ3A1dk53ZDhrTVN4WEotY1oxQ1JEb3A0eXZ5TGxKRDBzWXBuY1Zaei1FQ3Z4RjNRSy1KTm1UVDJYekNpNlQxd2o2YThqZTd3R2RJRzcxcEU0OWZENGlWRGdQRmZTenpCbk9HN1R0cWxXZFkzeExxbFE1Y3QtOWQzaWh4ZkU?oc=5"
         },
         {
-          "title": "Onsemi to buy Synaptics in $7 billion all-stock deal - Reuters",
+          "title": "ONDS Stock Set For Best Month This Year: Builds $457M Backlog, Expands US Military Access After Mistral Deal - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWkzdlBPMnhpUmJFSjFIMjlCTVR3ZklSTHpsekR4bEhPNFo4MUh3VkdURm95NDdmRmNOSG5nMGFnT0ZhSDV2dFBzbUdvN1NiYUt0NUwzdGZBZ1FrRkgydTEzZFRNY0Jfc0hQM2ZGX09HWEtzV2hkNkpzc3FXRnh6anZRVVRhNUNCckZjS3NyaWU2S1BEeUtqd0V3RlZzQTlZQVpZ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPV2FBNUl0eWdHSnJ4bU5RVFhBVWVFNS1OQzVvdGNBT0pCLUJ3SjRTWXMzWG10T3RIQ3BTdElyMnplNlNrMmpMd3pYblN4UlFlSGFkR1VSVThTRVRDTXRvYmNwaTRQZVZZMl9yLURPSUU2VXMxQzJQSUZBRHM1MFJ1YlNTRlZTVzA5NVBlN2N1bkdsR21xNWFTMkNDR25nOGxBcVVCNXJsQ0NRQTNrWk1mRDRqWnh2ZXdaeWJmWEdZZnpwemxtUkhqS2NVd25MaG03bmVobk1TdUNYdWpaVEVDUlF5c2huM3VXczJVZjctLVh3RkVWNk5PZXhQZm45VTg?oc=5"
         },
         {
-          "title": "ON Stock Falls 9% After-Hours While SYNA Soars 12% On $7B Synaptics Takeover - Stocktwits",
+          "title": "Ondas (NASDAQ:ONDS) drops 15% in volatile week after resale filing - TechStock²",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQnV1X3I0RWhFRDR3RVlNMEdoR18tZFBmdUF2dzRrb05YQjZ2cXZUQjJwaVFCZDJGU1psTGV3dFE1aW9JeGJ6cWFlSWlzdGQzcVpybXJJNVBvMDRoXy1JTWVyQ2pqVEltN1U4VUlLbGZxRzE5ZnN5YUEyUmJqcFRwdTVQY1VkdTMtdU42WnNWMmx3RVd0WWNDNm01T3JFZVVDUlVyOVgwWVB6Ukxpc29laFdFUTlBaWswYTQyRGZ6MTlBZjJsQmJTT1QxWDVHUQ?oc=5"
-        },
-        {
-          "title": "onsemi pays $7B in stock to expand into Physical AI - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOW5CdF9HNGtOc2dwZDRjRTFXel95MFpCTm9ZWGpGenc5cmo5Mk5aYjVYeFhnT3M1dE54RUhVbi03TDdab1hhTHJVWnFlS1RHNFVPSkdDR0swdXVPbjl1dVUzRHR2b0t5M2ZvMXpOSzh2czUwaDJiUDc0Y2NnUFhZSWJlUzF4VDBxUVJFYWo5ZE5zY1BTbzZMNVF2ekUyNS1kbmF4aV9vamJqNERwV3AwVHBpNA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbDhjT2ZuSmtkTWtZVmFFczdWUzk3VWJ5aWNTY2lnMTM5MFQ4MEw3NWJwc2prM1hGcnk5Q3lvcVJVZ0lvdzhqVUd4RzAzNVJoejlLNENTZzlOWlZQR1pkQm15d05RRW1OdmJGWndMWTAyaVJ5czZaTGlYQXNRMGRZcDlDX3JYY3FBQTg4?oc=5"
         }
       ],
-      "float_shares": "37.61M",
-      "short_float": "11.35%",
-      "daily_pct": -3.45,
-      "industry": "AI Edge & IoT",
-      "technical_status": "Fail (Avg $Vol $91M < $100M)",
+      "float_shares": "509.53M",
+      "short_float": "32.88%",
+      "daily_pct": 2.02,
+      "industry": "Drones",
+      "technical_status": "Pass",
       "verification": {
-        "status": "Verified",
+        "status": "Discrepancy",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Ondas Inc. was added to the Russell 3000E Growth Benchmark",
+        "discrepancy_note": "Source A (Finviz News) contains no articles, thus providing no confirmation for the claim. Source B (Google News) article [3] explicitly confirms 'Ondas Inc.(NasdaqCM: ONDS) added to Russell 3000E Growth Benchmark', and article [2] also references a 'Russell 3000 add'."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "STRC",
+      "price": 74.57,
+      "gap_pct": 4.25,
+      "pm_volume": 71886,
+      "avg_vol_10d": 5043356,
+      "avg_dollar_vol": 376083057,
+      "mkt_cap": 28845342515,
+      "rvol": 1.28,
+      "adr_pct": 3.88,
+      "category": "Others",
+      "theme": "Dividend Increase & Share Buyback",
+      "reasoning": "Company announced a **12% payout** and a **$1 billion share buyback program**, significantly returning capital to shareholders.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "B",
+      "finviz_theme": "Fintech - Blockchain/Crypto",
+      "analysis_detail": "Catalyst: Strategy Inc has authorized a **12% payout** and **$1 billion in share buybacks** for STRC. This represents a significant return of capital to shareholders. | Impact: The substantial buyback program and high dividend payout are expected to **aggressively reduce float**, enhance shareholder value, and provide a **strong floor** for the stock price.",
+      "analysis_details": "• **What Happened**\nStrategy Inc (MSTR), a known player in the Bitcoin space, has announced substantial corporate actions directly impacting STRC. The company authorized a **12% payout** related to STRC and approved a **$1 billion share buyback program** for STRC. This news follows previous reports on MSTR's BTC reserve plan and its own $2 billion buybacks.\n\n• **Key Consideration**\nThe **$1 billion buyback program** is particularly impactful, especially when compared to STRC's average daily volume of **$376 million**. Such a large buyback could significantly **reduce the float**, driving demand and providing strong price support. The **12% payout** further enhances shareholder value and indicates strong underlying cash flow or a strategic capital allocation decision, signaling **high conviction** from management and should attract significant institutional interest.",
+      "peer_tickers": [
+        "COIN",
+        "MARA"
+      ],
+      "headlines": [
+        {
+          "title": "Strategy lifts STRC payout to 12% and authorizes $1B in buybacks - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeDBhSnJFVzRNQVBwa2V1LXpXcjBCYUJrelV5angtMnZUcFhacFQyZlpiVlhTdnByVkRLOVlCUlhMTTdaX0Fic19UWVp1LXZ0MVg3NDdVV0k0Ql9hUklRUnU0WnBGOVlHUHJPT1FvZW5paFpXMmlyaFN2T1RBTGRfU2lDeEViTzNTOGw4RzBhZ091bXJXaEVWcFZvZXVrM3VCdEJYVHBMVTFRYUNuV3FsdDVjSkw5OHdSQ2c?oc=5"
+        },
+        {
+          "title": "Strive (NASDAQ: ASST) details cash, bitcoin and STRC stock levels - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYXpBQm9NMVhoS1QwbTh4SUJ4dFJQSy1DdlYzai11c2lJSk9lWnd6bWhrQ3NXeWxjSjZBWm5nTE5tR010X2QyVkcxT19QYlJ3UU43S3gwZ0cxdEFNTmxLbHJNR3JNbjZQT3VHX3NmTmNsVzJ0Q1FiVlc1WXRxTmJPU1lzamU4c2ZiNWsxVnJnWlRhNkNRU1RVby1kczRqQktY?oc=5"
+        },
+        {
+          "title": "Strategy Inc (MSTR) unveils BTC reserve plan, $2B in buybacks and 12% STRC dividend - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQnlET3FOVFo5d29QdzZpcF96OGRHbFFyRkZmSUlZRXkwc0I0X09tZmFwNlJkUGR6VS1JYVFrQUdNOUdad3NySFN4dmdmWm9OOFo0eXRqM2FiUUM5SUJPSHlpYzdOUEllSVozaVBGVUFoUXJBcW1UWVd1TDZxdDNuLXplSEVEaDRLNVVSNXVoZUU5aHlPempBSVo2MDhpbThzRDZ3?oc=5"
+        },
+        {
+          "title": "Why Did MSTR, BABA, NKE Stocks Tumble To 52-Week Lows Last Week?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/620811ed-d9c3-3a96-821b-563e6fdc22bd/why-did-mstr%2C-baba%2C-nke.html"
+        },
+        {
+          "title": "S&P 500, Dow, Nasdaq Futures Climb As US, Iran Reportedly Agree To Pause Further Escalation: SLS, WEN, MSTR, WDC Stocks In Focus",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/40995718-9f3a-3b04-81b1-2f019e31e49e/s%26p-500%2C-dow%2C-nasdaq-futures.html"
+        }
+      ],
+      "float_shares": "-",
+      "short_float": "-",
+      "daily_pct": -1.48,
+      "industry": "Fintech - Blockchain/Crypto",
+      "technical_status": "Fail (ADR 3.9% < 4%)",
+      "verification": {
+        "status": "Discrepancy",
         "confidence_score": 95,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "$7 billion all-stock deal",
-        "discrepancy_note": null
+        "primary_claim": "12% payout",
+        "discrepancy_note": "Source B (Google News articles [4] and [5]) confirms a '12% payout' or '12% STRC dividend' for STRC. However, Source A (Finviz News) does not contain any mention of STRC, nor a 12% payout or dividend for any company."
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "WOLF",
+      "price": 45.97,
+      "gap_pct": 4.02,
+      "pm_volume": 51415,
+      "avg_vol_10d": 6712709,
+      "avg_dollar_vol": 308583233,
+      "mkt_cap": 2389157644,
+      "rvol": 0.61,
+      "adr_pct": 14.65,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 55,
+      "grade": "C",
+      "finviz_theme": "Semiconductors - Analog",
+      "analysis_detail": "Catalyst: No specific fundamental news or company announcement concerning Wolfspeed (WOLF) was released in the last 24 hours. | Impact: Any significant price movement is likely driven by short-term technical factors or institutional flow, making it highly speculative without underlying fundamental support.",
+      "analysis_details": "• **What Happened**\nNo **specific fundamental catalyst** was identified for Wolfspeed (WOLF) in the last 24 hours. News headlines consisted of a spam-like entry and an opinion piece discussing general AI data center opportunities, not a company-specific announcement or contract win. This suggests the stock's movement is likely due to technical factors or trading flows.\n\n• **Key Consideration**\nWithout a **clear fundamental driver**, any significant price action is highly **speculative** and carries an increased risk of a \"gap and trap\" scenario. Investors should be cautious, as a move based solely on technicals or institutional flow without new company news can be **unsustainable**. It's crucial to await concrete news to validate any upward momentum.",
+      "peer_tickers": [
+        "ON",
+        "STM",
+        "MCHP"
+      ],
+      "headlines": [
+        {
+          "title": "MOROCCO Vs HAITI - PES GAMEPLAY SIMULATION Wolf Stock (C5DHl3G7v1) - Fathom Journal",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hOWluZ0hnS3djOXBEUmk1Y0RmWkFpRXB3T0Fhb0p3NWF3SEx6RzREYnBMN3pMemJQVmZ0ZWxQUWZUWW94THFGX1pkM0tpZHVpc3VnREJ3VVpHWEFIMGl4cVJJb0I?oc=5"
+        },
+        {
+          "title": "Wolfspeed Stock (WOLF) Opinions on AI Data Center Opportunities - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWWViOWFleWFjMFNDUno0elVCXzV6MVQtUHBJZ2QtS01zMFE3bFhvN1RjdDc3Y0pPcWdxOEVqVTh2d2d1YlJ3QnB1cWs3aXdQdmdUOENYU3ZpbENXNHVpNmVfaEQ1bFVHRWp5RDQtZVlJZmktNUZobW9LUTN4MzlfU1FfS053eWlSNU1kd1dpRFVzaUh0SmFsRnpiN0hZVGIyc1E?oc=5"
+        }
+      ],
+      "float_shares": "33.68M",
+      "short_float": "77.17%",
+      "daily_pct": -3.81,
+      "industry": "Semiconductors - Analog",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+        "discrepancy_note": "Source A (Finviz) indicates no news. However, Source B (Google News) includes an article about 'Wolfspeed Stock (WOLF) Opinions on AI Data Center Opportunities,' which constitutes a fundamental discussion point, contradicting the claim that no immediate fundamental catalyst was found."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
         "gate_mkt_cap": true,
         "gate_adr": true
       },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
     }
   ],
   "ibkr_scanner": []
