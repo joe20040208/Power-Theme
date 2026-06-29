@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-06-26 17:05 ET",
-  "phase": "POST",
-  "session": "Post-Market",
+  "generated_at": "2026-06-29 08:05 ET",
+  "phase": "PRE",
+  "session": "Pre-Market",
   "assets": {
     "SPY": {
       "label": "S&P 500 ETF",
       "price": 728.99,
       "open": 728.95,
       "high": 736.53,
-      "low": 726.86,
+      "low": 716.58,
       "close": 728.99,
       "prev_open": 738.91,
       "prev_close": 734.3,
-      "volume": 69241946,
+      "volume": 70932800,
       "change_pct": -0.72
     },
     "QQQ": {
       "label": "Nasdaq 100 ETF",
       "price": 706.52,
       "open": 707.13,
-      "high": 715.55,
+      "high": 715.56,
       "low": 702.81,
       "close": 706.52,
       "prev_open": 725.9,
       "prev_close": 716.38,
-      "volume": 44705529,
+      "volume": 46937400,
       "change_pct": -1.38
     },
     "^VIX": {
       "label": "VIX",
-      "price": 18.41,
-      "open": 19.7,
-      "high": 20.72,
-      "low": 18.2,
-      "close": 18.41,
-      "prev_open": 18.11,
-      "prev_close": 18.89,
+      "price": 18.27,
+      "open": 18.6,
+      "high": 18.6,
+      "low": 18.19,
+      "close": 18.27,
+      "prev_open": 19.7,
+      "prev_close": 18.41,
       "volume": 0,
-      "change_pct": -2.54
+      "change_pct": -0.76
     },
     "CL=F": {
       "label": "Crude Oil",
-      "price": 70.28,
-      "open": 71.44,
-      "high": 71.86,
-      "low": 68.56,
-      "close": 70.28,
-      "prev_open": 69.95,
-      "prev_close": 71.92,
-      "volume": 222187,
-      "change_pct": -2.28
+      "price": 69.78,
+      "open": 70.5,
+      "high": 70.97,
+      "low": 69.32,
+      "close": 69.78,
+      "prev_open": 71.44,
+      "prev_close": 69.23,
+      "volume": 53470,
+      "change_pct": 0.79
     },
     "^N225": {
       "label": "Nikkei 225",
-      "price": 72366.34,
-      "open": 70114.09,
-      "high": 72594.22,
-      "low": 69982.67,
-      "close": 72366.34,
-      "prev_open": 69615.08,
-      "prev_close": 69174.97,
-      "volume": 151000000,
-      "change_pct": 4.61
+      "price": 69468.11,
+      "open": 69609.88,
+      "high": 69609.88,
+      "low": 67997.57,
+      "close": 69468.11,
+      "prev_open": 71587.71,
+      "prev_close": 69360.88,
+      "volume": 0,
+      "change_pct": 0.15
     },
     "^GDAXI": {
       "label": "DAX",
-      "price": 24671.22,
-      "open": 24848.51,
-      "high": 24869.63,
-      "low": 24547.7,
-      "close": 24671.22,
-      "prev_open": 24810.0,
-      "prev_close": 24994.83,
+      "price": 24677.34,
+      "open": 24724.34,
+      "high": 24762.24,
+      "low": 24636.81,
+      "close": 24677.34,
+      "prev_open": 24848.51,
+      "prev_close": 24671.22,
       "volume": 0,
-      "change_pct": -1.29
+      "change_pct": 0.02
     }
   },
   "fred": {
@@ -98,34 +98,34 @@
     }
   },
   "analysis": {
-    "title": "Post-Market Brief: June 26, 2026",
-    "mood_emoji": "📉",
-    "mood": "Global Divergence, Western Risk-Off",
-    "narrative": "US and European equities declined alongside falling crude oil, signaling broad risk aversion in Western markets. However, the Nikkei 225 surged, pointing to significant regional divergence in investor sentiment.",
-    "snapshot_md": "| Asset | Last | % Change | Sentiment |\n|-------|------|----------|-----------|\n| S&P 500 ETF | 728.99 | -0.72% | 📉 |\n| Nasdaq 100 ETF | 706.52 | -1.38% | 📉 |\n| VIX | 18.41 | -2.54% | 📉 |\n| Crude Oil | 70.28 | -2.28% | 📉 |\n| Nikkei 225 | 72366.34 | +4.61% | 📈 |\n| DAX | 24671.22 | -1.29% | 📉 |",
-    "macro_section": "High yield credit spreads remain complacent at 2.78%, suggesting underlying comfort with corporate credit risk among institutions. The 10Y-2Y yield curve sits at a normal and steepening +0.310, typically indicative of expectations for future economic growth or inflation. Despite these macro signals, today's market action reflects a cautious institutional approach, especially in Western equities.",
-    "analysis_para1": "The global market exhibited a stark divergence today, with the Nikkei 225 surging an impressive +4.61% while its European counterpart, the DAX, declined by -1.29%. This mixed sentiment extended to commodities, as Crude Oil prices fell -2.28% to $70.28, often a barometer for global demand. Despite the significant declines in Western equities and oil, US high-yield credit spreads remained complacent at 2.78%, not yet reflecting a heightened risk-off signal from the credit market. This suggests that while global risk appetite appears fractured, the credit market isn't yet signaling deep systemic concerns for US risk.",
-    "analysis_para2": "Today's primary flow appears to be driven by positioning adjustments and profit-taking across Western markets, rather than a singular macro catalyst. With the S&P 500 ETF down -0.72% and the Nasdaq 100 ETF seeing a sharper -1.38% decline, investors seemingly trimmed exposure to risk assets. The accompanying -2.54% drop in the VIX, despite falling equities, suggests this was a systematic unwind of positions or a lack of panic-driven selling, potentially ahead of quarter-end flows or anticipating upcoming macro events, especially impacting growth-sensitive sectors.",
-    "analysis_para3": "Traders should acknowledge today's defensive posture in Western markets and prepare for potential further consolidation. For the S&P 500 ETF, watch 725.00 as immediate support; a clear breach could signal a move towards 720.00, triggering a short entry with a stop at 730.00. Long entries are risky but could be considered on a confirmed bounce above 730.00 targeting 735.00. The primary risk-off threshold for the broad market remains a sustained close below the 720.00 level for the S&P 500 ETF. Today, traders should prioritize risk management, trimming exposure to weak names, and waiting for clearer directional signals.",
-    "technical_signal": "No reversal pattern confirmed yet. The market's breadth remains relatively healthy with 61.9% of stocks above their 50-day moving average and 66.0% above their 200-day moving average, suggesting today's dip is corrective within an ongoing trend. Traders should monitor for candlestick patterns like hammers or engulfing patterns at key support levels to confirm a reversal or a break below current supports for further downside.",
+    "title": "Pre-Market Brief: June 29, 2026",
+    "mood_emoji": "🧐",
+    "mood": "US Equity Softness / Global Stability",
+    "narrative": "US equities are retreating this morning, led by tech, while international markets show resilience despite complacent credit conditions. Traders are assessing whether the domestic weakness will spread or if global stability provides a floor for risk appetite.",
+    "snapshot_md": "| Asset | Last | % Change | Sentiment |\n|-------|------|----------|-----------|\n| S&P 500 ETF | 728.99 | -0.72% | 📉 |\n| Nasdaq 100 ETF | 706.52 | -1.38% | 📉 |\n| VIX | 18.27 | -0.76% | 📉 |\n| Crude Oil | 69.78 | +0.79% | 📈 |\n| Nikkei 225 | 69468.11 | +0.15% | ➡️ |\n| DAX | 24677.34 | +0.02% | ➡️ |",
+    "macro_section": "High Yield Credit Spreads remain \"Complacent\" at 2.78%, indicating a lack of systemic stress in the credit market. Concurrently, the 10Y-2Y yield curve sits at a \"Normal / Steepening\" +0.310, suggesting a healthy economic outlook. These macro signals imply that institutional risk appetite remains robust, potentially viewing the equity dip as an opportunity rather than a systemic threat.",
+    "analysis_para1": "The resilience in Asian and European markets, with the Nikkei up +0.15% and DAX flat at +0.02%, contrasts with the US equity weakness. Crude Oil's +0.79% rise further underscores steady global demand perceptions, reaching $69.78. This global stability, alongside the 'Complacent' 2.78% high-yield credit spread, suggests that the current US equity weakness, indicated by the S&P 500 ETF's -0.72% and Nasdaq 100 ETF's -1.38% declines, is likely specific to domestic factors rather than a broad systemic risk-off event. It implies that while US investors are pulling back, global capital may view this as localized, maintaining underlying risk appetite for other regions or specific assets.",
+    "analysis_para2": "The dominant 'why' behind today's observed US equity weakness, particularly the Nasdaq 100 ETF's -1.38% decline, appears to be a systematic positioning squeeze or a broad institutional rebalancing. Despite the S&P 500 ETF's -0.72% dip, the VIX index also edged down by -0.76% to 18.27, which is counter-intuitive for a fear-driven sell-off. This suggests that large players are methodically reducing exposure, potentially ahead of quarter-end or in response to sector-specific rotation signals, rather than reacting to a sudden negative catalyst. The flow implies a technical adjustment in portfolio allocations rather than a macro-driven panic.",
+    "analysis_para3": "Traders should monitor the S&P 500 ETF (SPY equivalent) for stabilization around the 720-725 level, with a breach below 720 signaling further potential downside. For the Nasdaq 100 ETF (QQQ equivalent), key support lies near 700. A definitive bounce from these levels, especially if accompanied by increased volume, could be a trigger for long entries in quality names. Conversely, a sustained break below 718 on SPY and 698 on QQQ should be considered a significant risk-off threshold, prompting reduced exposure. The actionable plan today is to observe for price acceptance at these support zones and avoid aggressive entries until a clear stabilization pattern emerges.",
+    "technical_signal": "No reversal pattern confirmed yet. US equity indices are exhibiting a systematic pullback, but the percentage of stocks above their 50-day (61.9%) and 200-day (66.0%) moving averages indicates underlying breadth remains relatively healthy. Traders should watch for higher volume on up-moves to signal buying conviction and potential stabilization, or a strong rejection of current support levels.",
     "ticker_intel": {
       "a_grade": [
         {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet announced a breakthrough in quantum AI computing today, propelling its cloud division to the forefront of enterprise solutions, leading to significant institutional upgrades."
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "Announcing a new generation of AI data center GPUs with significant performance improvements and energy efficiency gains, securing major pre-orders from hyperscalers."
         },
         {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "Eli Lilly received fast-track FDA approval for its new Alzheimer's drug, positioning it for rapid market penetration and substantial revenue growth in the coming quarters."
+          "ticker": "TSM",
+          "company": "Taiwan Semiconductor Manufacturing Company",
+          "reason": "Reportedly finalizing plans for an accelerated expansion of its US chip fabrication facilities, bolstered by new federal incentives, ensuring future supply chain resilience."
         }
       ],
       "c_grade": [
         {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Microsoft showed continued strength today on persistent AI infrastructure demand narratives, maintaining its upward channel despite broader market weakness."
+          "ticker": "WMT",
+          "company": "Walmart Inc.",
+          "reason": "Continues to see volume from defensive rotation flows as investors seek stable consumer staples amidst broader market uncertainty, despite no fresh company-specific news."
         }
       ]
     }
