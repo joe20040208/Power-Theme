@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 26, 2026 (18:40 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 29, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,33 +16,34 @@
     },
     {
       "label": "VIX",
-      "price": 18.41,
-      "change": -0.48,
+      "price": 18.31,
+      "change": -0.1,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": null,
-      "change": null,
-      "change_pct": null
+      "price": 4.38,
+      "change": 0.01,
+      "change_pct": null,
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 72366.34,
-      "change_pct": 4.61
+      "price": 69468.11,
+      "change_pct": 0.15
     },
     "dax": {
       "label": "DAX",
-      "price": 24994.83,
-      "change_pct": 1.03
+      "price": 24691.58,
+      "change_pct": 0.08
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10508.02,
-      "change_pct": -0.21
+      "price": 10499.07,
+      "change_pct": -0.08
     }
   },
   "macro_breadth": {
@@ -59,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Tech Weakness, Global Strength",
+  "mood": "Mixed US, Tech Leadership Prevails",
   "analysis": {
-    "action_line": "VIX 18.41 Normal + S5FI 61.9% breadth + Nikkei strong / Nasdaq weak → selectively add RS leaders on dips.",
-    "analysis_para1": "Global markets displayed a stark divergence today; the Nikkei 225 surged +4.61% and the DAX gained +1.03%, pointing to robust international sentiment. In contrast, the US Nasdaq 100 fell -1.09%, indicating targeted weakness in growth and technology sectors, while the S&P 500 remained largely flat at -0.05%. Despite the Nasdaq's decline, market breadth remains healthy with S5FI at 61.9% and MMTH at 66.0%. Credit markets appear stable with a 'Normal' VIX at 18.41 and a 'Stable' 10-year yield, suggesting broader market resilience despite the sector-specific pressure.",
-    "analysis_para2": "The mechanical plan for today is to navigate the divergence between US tech and global strength. The Nasdaq 100's weakness demands caution; watch for potential support near its recent lows. Conversely, the S&P 500's stability around 7354.02 suggests underlying strength that could attract rotation. Given the healthy breadth (S5FI 61.9%), our focus remains on conviction leaders, especially within the Semiconductors and Hardware themes, that demonstrate superior relative strength. Entry points should target shallow pullbacks towards short-term moving averages or retests of established breakout levels, prioritizing those with higher ADRs for liquidity and volatility.",
-    "technical_signal": "No reversal pattern confirmed yet. The market shows a mixed picture with Nasdaq weakness juxtaposed with global strength and healthy breadth, lacking clear signs of a bullish or bearish reversal on the major indices.",
+    "action_line": "VIX 18.31 Normal + S5FI 61.9% breadth + mixed global tape → focus on leading semiconductor names near support.",
+    "analysis_para1": "Overnight, global markets delivered a mixed signal, with the Nikkei up +0.15% and DAX up +0.08%, while the FTSE 100 eased by -0.08%. This reflects a somewhat resilient but non-committal international tone ahead of the US open. Domestically, the stable 10-year yield at 4.38% indicates no immediate credit market distress, even as the Nasdaq 100 shows weakness. US breadth indicators, S5FI at 61.9% and MMTH at 66.0%, remain healthy, suggesting underlying strength despite the broader market's slight hesitation.",
+    "analysis_para2": "The primary mechanical plan for today involves monitoring key support levels for the S&P 500 at 7350 and the Nasdaq 100 at 29000. A swift recovery in the Nasdaq from its current -1.09% dip, especially if driven by a rebound in leading semiconductor names, would be a bullish signal for intraday trading. Conversely, continued weakness below these key levels on increasing volume would signal caution and potential for further downside. Look for strong Relative Strength names to hold their recent bases or find support at their 10-day or 20-day moving averages as entry points.",
+    "technical_signal": "No reversal pattern confirmed yet. The market currently displays a mixed bias with Nasdaq weakness against a strong leadership contingent.",
     "ticker_intel": [
       {
         "ticker": "SNDK",
         "company": "Sandisk Corporation",
         "grade": "A+",
-        "reason": "With an RS of 98 and a phenomenal 3-month gain of +246.6% combined with +31.5% in the last month, SNDK is a standout leader in the Hardware theme, demonstrating exceptional momentum."
+        "reason": "SNDK earns an A+ for its exceptional RS=98, robust 1M=+31.5%, and leading 3M=+246.6%, demonstrating extreme relative strength in a market favoring tech leaders."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "grade": "A",
+        "reason": "MU is a top-tier semiconductor play with RS=98, a solid 1M=+22.0%, and a commanding 3M=+218.6%, positioning it as a core leader in the current strong tech environment."
       },
       {
         "ticker": "AMAT",
         "company": "Applied Materials, Inc.",
-        "grade": "A",
-        "reason": "Boasting an RS of 97 and a leading 1-month gain of +39.8%, AMAT exhibits superior momentum within the resilient Semiconductors theme, making it a compelling candidate despite Nasdaq's broader weakness."
-      },
-      {
-        "ticker": "WDC",
-        "company": "Western Digital Corporation",
         "grade": "C",
-        "reason": "While WDC has a strong RS of 98, its 1-month gain of +10.5% is comparatively lower than other top-tier leaders, indicating relatively weaker momentum amidst a market favoring more explosive moves."
+        "reason": "Despite its strong RS=97 and leading 1M=+39.8%, AMAT's rapid ascent suggests it may be overextended and prone to profit-taking during periods of broader Nasdaq weakness."
       }
     ]
   }
