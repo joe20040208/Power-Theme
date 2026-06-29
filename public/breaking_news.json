@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 29, 2026 (18:55 EST)",
+  "last_checked": "June 29, 2026 (19:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] AeroVironment soars 19% on earnings beat, backlog grows to $1.2 billion",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-29T19:00:41.940841-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
       "source": "CNBC",
@@ -1475,6 +1483,10 @@
     {
       "k": "waymo and uber end robotaxi pilot in phoenix",
       "ts": "2026-06-29T22:55:22.758526+00:00"
+    },
+    {
+      "k": "aerovironment soars 19 on earnings beat backlog grows to 12 billion",
+      "ts": "2026-06-29T23:00:46.138046+00:00"
     }
   ]
 }
