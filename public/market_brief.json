@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 29, 2026 (12:39 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 29, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7411.56,
-      "change": 57.54,
-      "change_pct": 0.78
+      "price": 7440.43,
+      "change": 86.41,
+      "change_pct": 1.18
     },
     {
       "label": "Nasdaq 100",
-      "price": 29588.94,
-      "change": 470.7,
-      "change_pct": 1.62
+      "price": 29774.75,
+      "change": 656.51,
+      "change_pct": 2.25
     },
     {
       "label": "VIX",
-      "price": 17.79,
-      "change": -0.62,
+      "price": 17.65,
+      "change": -0.76,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.38,
-      "change": 0.01,
+      "price": 4.37,
+      "change": 0.0,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -37,8 +37,8 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24626.89,
-      "change_pct": -0.18
+      "price": 24671.22,
+      "change_pct": -1.29
     },
     "ftse": {
       "label": "FTSE 100",
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 62.2,
-    "mmth": 64.6,
+    "s5fi": 62.6,
+    "mmth": 65.0,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,31 +60,12 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-Led Rally Amid Global Weakness",
+  "mood": "US Resilience Amidst Global Weakness",
   "analysis": {
-    "action_line": "VIX 17.79 Normal + S5FI 62.2% breadth + Nikkei -4.15% global weakness → selectively target leading themes near support.",
-    "analysis_para1": "The global tape presents a mixed picture today, with the Nikkei 225 sharply lower by -4.15%, while European markets (DAX, FTSE 100) saw only modest declines. US credit conditions remain uncertain with the BAML HY Spread data unavailable, indicating an unknown regime. Despite the global divergence, US market breadth appears healthy, with 62.2% of stocks above their 50-day moving average (S5FI) and 64.6% above their 200-day moving average (MMTH), indicating underlying strength in the domestic market.",
-    "analysis_para2": "With major US indices posting robust gains, the mechanical plan focuses on maintaining exposure to leading sectors. Key support for the S&P 500 should be watched closely at prior consolidation levels, while the Nasdaq 100's resilience is paramount. Traders should continue to prioritize high RS names from strong themes like Semiconductors, entering on pullbacks to key moving averages or consolidation breakouts. A definitive break below the 50-day moving average for the S&P 500, especially if accompanied by increasing VIX, would signal a need for caution and reduced exposure.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are posting strong gains today, and market breadth remains above key thresholds, indicating continued upward momentum.",
-    "ticker_intel": [
-      {
-        "ticker": "MU",
-        "company": "Micron Technology, Inc.",
-        "grade": "A+",
-        "reason": "A premier semiconductor leader, MU boasts an RS of 98 and a 1-month return of +22.0%, fitting the strong sector theme and momentum market."
-      },
-      {
-        "ticker": "AMAT",
-        "company": "Applied Materials, Inc.",
-        "grade": "A",
-        "reason": "AMAT is another strong semiconductor player with RS 97 and impressive 1-month gains of +39.8%, reflecting broad sector strength and high capital flow."
-      },
-      {
-        "ticker": "WDC",
-        "company": "Western Digital Corporation",
-        "grade": "C",
-        "reason": "Despite a high RS of 98, WDC's +10.5% 1-month return is comparatively modest among these high-momentum leaders, suggesting it's not capturing the most aggressive capital flows in this strong market."
-      }
-    ]
+    "action_line": "VIX 17.65 Normal with 62.6% S5FI breadth amidst Nikkei -4.15% global tape → focus on US resilience, trade selective breakouts.",
+    "analysis_para1": "Nikkei's sharp -4.15% decline and DAX's -1.29% fall signify considerable international selling pressure, with the FTSE 100 also registering a mild loss. The absence of BAML HY Spread data prevents a clear assessment of US credit risk, leaving the regime unknown despite external volatility. Despite global headwinds, US market breadth remains relatively healthy, with 62.6% of S&P 500 stocks above their 50-day MA and 65.0% above their 200-day MA. This robust internal strength in US equities stands in stark contrast to the pronounced weakness observed across major international indices.",
+    "analysis_para2": "Following today's strong US performance, the mechanical plan involves monitoring for sustained momentum in US indices. Key support for the S&P 500 should be watched around yesterday's closing level, approximately 7350. A decisive breakout and close above today's high would signal continued bullish potential for relative strength leaders. Conversely, a failure to consolidate gains and a drop below 7350 could suggest US markets are becoming susceptible to the broader global downturn, necessitating tighter risk management.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's strong US rally counteracted global weakness, suggesting short-term bullish momentum.",
+    "ticker_intel": []
   }
 }
