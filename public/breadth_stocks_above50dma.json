@@ -11,7 +11,7 @@
       "price": 15.45,
       "change_pct": 24.7,
       "adr_pct": 6.8,
-      "dollar_volume": "$182.8M",
+      "dollar_volume": "$182.9M",
       "market_cap_b": 2.874,
       "rs_ibd": 98,
       "above50dma_pct": 113.5
@@ -107,7 +107,7 @@
       "price": 12.48,
       "change_pct": 9.47,
       "adr_pct": 7.0,
-      "dollar_volume": "$473.3M",
+      "dollar_volume": "$473.5M",
       "market_cap_b": 7.315,
       "rs_ibd": 97,
       "above50dma_pct": 64.8
@@ -155,7 +155,7 @@
       "price": 118.88,
       "change_pct": 13.76,
       "adr_pct": 7.9,
-      "dollar_volume": "$248.9M",
+      "dollar_volume": "$249.2M",
       "market_cap_b": 8.216,
       "rs_ibd": 97,
       "above50dma_pct": 58.4
@@ -246,12 +246,12 @@
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": null,
-    "spx_1m": null,
-    "spx_3m": null,
-    "spx_34d": null,
-    "spx_qtd": null,
-    "spx_mtd": null
+    "spx_1d": 1.18,
+    "spx_1m": -1.84,
+    "spx_3m": 17.29,
+    "spx_34d": 0.37,
+    "spx_qtd": 13.16,
+    "spx_mtd": -2.1
   },
-  "fetched_at_utc": "2026-06-29T21:48:03+00:00"
+  "fetched_at_utc": "2026-06-29T22:11:34+00:00"
 }

@@ -11,7 +11,7 @@
       "price": 15.45,
       "change_pct": 24.7,
       "adr_pct": 6.8,
-      "dollar_volume": "$182.8M",
+      "dollar_volume": "$182.9M",
       "market_cap_b": 2.874,
       "rs_ibd": 98,
       "atr_ext_val": 16.62
@@ -102,12 +102,12 @@
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": null,
-    "spx_1m": null,
-    "spx_3m": null,
-    "spx_34d": null,
-    "spx_qtd": null,
-    "spx_mtd": null
+    "spx_1d": 1.18,
+    "spx_1m": -1.84,
+    "spx_3m": 17.29,
+    "spx_34d": 0.37,
+    "spx_qtd": 13.16,
+    "spx_mtd": -2.1
   },
-  "fetched_at_utc": "2026-06-29T21:48:03+00:00"
+  "fetched_at_utc": "2026-06-29T22:11:34+00:00"
 }
