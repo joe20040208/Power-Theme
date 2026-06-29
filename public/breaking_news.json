@@ -1,7 +1,16 @@
 {
-  "last_checked": "June 29, 2026 (07:00 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "June 29, 2026 (07:05 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Oil prices rise as U.S. and Iran reach deal to halt attacks; U.S. crude back above $70",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-29T07:05:25.270759-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "alan greenspan former chairman of the fed dies at age 100",
@@ -1526,6 +1535,10 @@
     {
       "k": "putin’s fuel shortage admission signals growing strain on russia’s energy infrastructure",
       "ts": "2026-06-29T11:00:36.552900+00:00"
+    },
+    {
+      "k": "oil prices rise as us and iran reach deal to halt attacks us crude back above 70",
+      "ts": "2026-06-29T11:05:25.677031+00:00"
     }
   ]
 }
