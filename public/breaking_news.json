@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 28, 2026 (23:10 EST)",
+  "last_checked": "June 28, 2026 (23:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-06-28T23:15:26.725661-04:00",
+      "pub_time": "2026-06-28T22:42:39-04:00"
+    },
     {
       "headline": "U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes",
       "source": "CNBC",
@@ -1551,6 +1559,10 @@
     {
       "k": "us iran pause hostilities as hormuz shipping resumes after weekend clashes",
       "ts": "2026-06-29T02:05:29.069338+00:00"
+    },
+    {
+      "k": "china widens japan export curbs targeting drone makers nuclear firms and defense institutes",
+      "ts": "2026-06-29T03:15:27.121158+00:00"
     }
   ]
 }
