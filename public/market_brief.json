@@ -1,23 +1,23 @@
 {
-  "generated_at": "June 29, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 29, 2026 (12:39 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7354.02,
-      "change": -3.47,
-      "change_pct": -0.05
+      "price": 7411.56,
+      "change": 57.54,
+      "change_pct": 0.78
     },
     {
       "label": "Nasdaq 100",
-      "price": 29118.24,
-      "change": -322.08,
-      "change_pct": -1.09
+      "price": 29588.94,
+      "change": 470.7,
+      "change_pct": 1.62
     },
     {
       "label": "VIX",
-      "price": 18.31,
-      "change": -0.1,
+      "price": 17.79,
+      "change": -0.62,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69468.11,
-      "change_pct": 0.15
+      "price": 69360.88,
+      "change_pct": -4.15
     },
     "dax": {
       "label": "DAX",
-      "price": 24691.58,
-      "change_pct": 0.08
+      "price": 24626.89,
+      "change_pct": -0.18
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10499.07,
-      "change_pct": -0.08
+      "price": 10484.22,
+      "change_pct": -0.23
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 61.9,
-    "mmth": 66.0,
+    "s5fi": 62.2,
+    "mmth": 64.6,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed US, Tech Leadership Prevails",
+  "mood": "Tech-Led Rally Amid Global Weakness",
   "analysis": {
-    "action_line": "VIX 18.31 Normal + S5FI 61.9% breadth + mixed global tape → focus on leading semiconductor names near support.",
-    "analysis_para1": "Overnight, global markets delivered a mixed signal, with the Nikkei up +0.15% and DAX up +0.08%, while the FTSE 100 eased by -0.08%. This reflects a somewhat resilient but non-committal international tone ahead of the US open. Domestically, the stable 10-year yield at 4.38% indicates no immediate credit market distress, even as the Nasdaq 100 shows weakness. US breadth indicators, S5FI at 61.9% and MMTH at 66.0%, remain healthy, suggesting underlying strength despite the broader market's slight hesitation.",
-    "analysis_para2": "The primary mechanical plan for today involves monitoring key support levels for the S&P 500 at 7350 and the Nasdaq 100 at 29000. A swift recovery in the Nasdaq from its current -1.09% dip, especially if driven by a rebound in leading semiconductor names, would be a bullish signal for intraday trading. Conversely, continued weakness below these key levels on increasing volume would signal caution and potential for further downside. Look for strong Relative Strength names to hold their recent bases or find support at their 10-day or 20-day moving averages as entry points.",
-    "technical_signal": "No reversal pattern confirmed yet. The market currently displays a mixed bias with Nasdaq weakness against a strong leadership contingent.",
+    "action_line": "VIX 17.79 Normal + S5FI 62.2% breadth + Nikkei -4.15% global weakness → selectively target leading themes near support.",
+    "analysis_para1": "The global tape presents a mixed picture today, with the Nikkei 225 sharply lower by -4.15%, while European markets (DAX, FTSE 100) saw only modest declines. US credit conditions remain uncertain with the BAML HY Spread data unavailable, indicating an unknown regime. Despite the global divergence, US market breadth appears healthy, with 62.2% of stocks above their 50-day moving average (S5FI) and 64.6% above their 200-day moving average (MMTH), indicating underlying strength in the domestic market.",
+    "analysis_para2": "With major US indices posting robust gains, the mechanical plan focuses on maintaining exposure to leading sectors. Key support for the S&P 500 should be watched closely at prior consolidation levels, while the Nasdaq 100's resilience is paramount. Traders should continue to prioritize high RS names from strong themes like Semiconductors, entering on pullbacks to key moving averages or consolidation breakouts. A definitive break below the 50-day moving average for the S&P 500, especially if accompanied by increasing VIX, would signal a need for caution and reduced exposure.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are posting strong gains today, and market breadth remains above key thresholds, indicating continued upward momentum.",
     "ticker_intel": [
-      {
-        "ticker": "SNDK",
-        "company": "Sandisk Corporation",
-        "grade": "A+",
-        "reason": "SNDK earns an A+ for its exceptional RS=98, robust 1M=+31.5%, and leading 3M=+246.6%, demonstrating extreme relative strength in a market favoring tech leaders."
-      },
       {
         "ticker": "MU",
         "company": "Micron Technology, Inc.",
-        "grade": "A",
-        "reason": "MU is a top-tier semiconductor play with RS=98, a solid 1M=+22.0%, and a commanding 3M=+218.6%, positioning it as a core leader in the current strong tech environment."
+        "grade": "A+",
+        "reason": "A premier semiconductor leader, MU boasts an RS of 98 and a 1-month return of +22.0%, fitting the strong sector theme and momentum market."
       },
       {
         "ticker": "AMAT",
         "company": "Applied Materials, Inc.",
+        "grade": "A",
+        "reason": "AMAT is another strong semiconductor player with RS 97 and impressive 1-month gains of +39.8%, reflecting broad sector strength and high capital flow."
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital Corporation",
         "grade": "C",
-        "reason": "Despite its strong RS=97 and leading 1M=+39.8%, AMAT's rapid ascent suggests it may be overextended and prone to profit-taking during periods of broader Nasdaq weakness."
+        "reason": "Despite a high RS of 98, WDC's +10.5% 1-month return is comparatively modest among these high-momentum leaders, suggesting it's not capturing the most aggressive capital flows in this strong market."
       }
     ]
   }
