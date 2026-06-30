@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (12:50 EST)",
+  "last_checked": "June 30, 2026 (12:56 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump administration's AI crackdown opens door for China to close gap",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-30T12:56:17.573934-04:00",
+      "pub_time": "2026-06-30T12:52:13-04:00"
+    },
     {
       "headline": "[CNBC] AeroVironment skyrockets 15% as dronemaker capitalizes on defense spending surge",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-30T09:45:30.032658-04:00",
       "pub_time": "2026-06-30T09:41:26-04:00"
-    },
-    {
-      "headline": "[CNBC] AeroVironment soars 28% on earnings beat, backlog grows to $1.2 billion",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-30T09:10:40.478543-04:00",
-      "pub_time": null
     }
   ],
   "seen_keys": [
@@ -1531,6 +1531,14 @@
     {
       "k": "blue origin pivots to redesigned launchpad after explosion in push to fly by end of 2026",
       "ts": "2026-06-30T16:40:12.341732+00:00"
+    },
+    {
+      "k": "fda lets philip morris market zyn nicotine pouches as less harmful than cigarettes",
+      "ts": "2026-06-30T16:56:18.189588+00:00"
+    },
+    {
+      "k": "trump administrations ai crackdown opens door for china to close gap",
+      "ts": "2026-06-30T16:56:18.189588+00:00"
     }
   ]
 }
