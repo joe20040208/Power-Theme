@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (09:40 EST)",
+  "last_checked": "June 30, 2026 (09:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T09:45:30.032658-04:00",
+      "pub_time": "2026-06-30T09:41:26-04:00"
+    },
     {
       "headline": "[CNBC] AeroVironment soars 28% on earnings beat, backlog grows to $1.2 billion",
       "source": "CNBC",
@@ -44,10 +52,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "spacex stock falls below 150 debut price sending market cap under 2 trillion",
-      "ts": "2026-06-23T13:40:44.120840+00:00"
-    },
     {
       "k": "gold and silver tumble as ratehike fears hit precious metals",
       "ts": "2026-06-23T13:59:12.684379+00:00"
@@ -1507,6 +1511,10 @@
     {
       "k": "aerovironment skyrockets 19 as dronemaker capitalizes on defense spending surge",
       "ts": "2026-06-30T13:40:38.595133+00:00"
+    },
+    {
+      "k": "aerovironment skyrockets 21 as dronemaker capitalizes on defense spending surge",
+      "ts": "2026-06-30T13:45:30.613464+00:00"
     }
   ]
 }
