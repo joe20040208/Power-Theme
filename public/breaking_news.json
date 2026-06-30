@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (13:11 EST)",
+  "last_checked": "June 30, 2026 (13:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-30T13:15:28.807063-04:00",
+      "pub_time": "2026-06-30T13:14:00-04:00"
+    },
     {
       "headline": "Trump administration's AI crackdown opens door for China to close gap",
       "source": "CNBC",
@@ -41,21 +49,9 @@
       "direction": "bullish",
       "timestamp": "2026-06-30T10:28:55.790581-04:00",
       "pub_time": "2026-06-30T10:27:53-04:00"
-    },
-    {
-      "headline": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-30T09:45:30.032658-04:00",
-      "pub_time": "2026-06-30T09:41:26-04:00"
     }
   ],
   "seen_keys": [
-    {
-      "k": "spacex stock climbs 6 rebounding from threeday losing streak",
-      "ts": "2026-06-23T17:12:36.233366+00:00"
-    },
     {
       "k": "atlanta fed pick emerges as key opportunity for warsh to reshape the central bank",
       "ts": "2026-06-23T17:22:44.722891+00:00"
@@ -1539,6 +1535,10 @@
     {
       "k": "major egg producers settle price inflation probe for 33 million",
       "ts": "2026-06-30T17:06:20.292612+00:00"
+    },
+    {
+      "k": "cleveland fed president hammack says ai could fuel inflation rate hikes may be necessary",
+      "ts": "2026-06-30T17:15:29.873674+00:00"
     }
   ]
 }
