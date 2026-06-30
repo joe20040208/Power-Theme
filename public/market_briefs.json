@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-06-30 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Risk-On Rally / Growth Bias",
+    "spy_price": 746.77,
+    "spy_change_pct": 0.78,
+    "vix": 16.45,
+    "hy_oas": 2.8,
+    "yield_curve": 0.28,
+    "credit_status": "Complacent",
+    "s5fi": 60.3,
+    "mmth": 64.1,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "ABVX",
+          "company": "AbbVie Inc.",
+          "reason": "Positive clinical trial data for a key pipeline asset drove significant investor interest."
+        },
+        {
+          "ticker": "RKLB",
+          "company": "Rocket Lab USA, Inc.",
+          "reason": "A major contract win significantly strengthens their position in the defense and space sector."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Continued bullish sentiment largely driven by recycled AI narrative and broad market strength, rather than fresh catalyst today."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-30 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
           "reason": "TSLA remains a C-grade candidate today, driven primarily by ongoing speculative trading volume and continued chatter surrounding competitive pressures in the EV market, without a fresh fundamental catalyst."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-18 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Drifting Sideways / Mixed Cues",
-    "spy_price": 738.65,
-    "spy_change_pct": -0.07,
-    "vix": 17.82,
-    "hy_oas": 2.8,
-    "yield_curve": 0.54,
-    "credit_status": "Complacent",
-    "s5fi": 53.9,
-    "mmth": 59.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "RDW",
-          "company": "Redwire Corporation",
-          "reason": "Secured a substantial new government contract for advanced space infrastructure, significantly boosting future revenue projections and market position."
-        },
-        {
-          "ticker": "POET",
-          "company": "POET Technologies Inc.",
-          "reason": "Announced a new strategic supply agreement for its integrated optoelectronics platform, opening up significant market expansion opportunities."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Continues to see speculative interest based on ongoing AI sector strength and anticipation of future product announcements, lacking fresh fundamental catalysts today."
         }
       ]
     }
