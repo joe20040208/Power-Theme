@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (10:56 EST)",
+  "last_checked": "June 30, 2026 (11:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "French biotech stock soars 40% after new data on experimental medicine",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T11:05:51.530882-04:00",
+      "pub_time": "2026-06-30T10:58:09-04:00"
+    },
     {
       "headline": "White House AI crackdown opens door for China to close gap",
       "source": "CNBC",
@@ -41,14 +49,6 @@
       "direction": "bullish",
       "timestamp": "2026-06-30T05:30:39.474967-04:00",
       "pub_time": "2026-06-30T05:28:34-04:00"
-    },
-    {
-      "headline": "[CNBC] French biotech stock soars 30% after new data on experimental medicine",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-30T04:45:24.624585-04:00",
-      "pub_time": null
     }
   ],
   "seen_keys": [
@@ -1503,6 +1503,10 @@
     {
       "k": "supreme court upholds birthright citizenship blocks trump order",
       "ts": "2026-06-30T14:45:31.163496+00:00"
+    },
+    {
+      "k": "french biotech stock soars 40 after new data on experimental medicine",
+      "ts": "2026-06-30T15:05:52.145761+00:00"
     }
   ]
 }
