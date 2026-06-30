@@ -1,5 +1,5 @@
 {
-  "generated_at": "June 30, 2026 (18:30 EDT)",
+  "generated_at": "June 30, 2026 (18:45 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-On / Tech-Led Momentum",
+  "mood": "Risk-On / Tech Leadership",
   "analysis": {
-    "action_line": "VIX 16.45 Normal, S5FI 60.3% breadth, and mixed global tape suggest selective long opportunities in strong RS names.",
-    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining +0.15% and FTSE 100 +0.12%, while the DAX saw a slight decline of -0.18%. In the US, the rising 10-year yield to 4.42% suggests persistent inflation concerns or tighter credit conditions. Despite this, US market breadth remains robust, with 60.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 64.1% above their 200-day (MMTH). This indicates broad participation beneath the surface, mitigating some global anxieties.",
-    "analysis_para2": "The mechanical plan remains centered on confirming sustained upside momentum while managing risk effectively. Watch for S&P 500 to hold above the 7450 level, with initial support around 7400 as a key psychological and technical floor. For the Nasdaq 100, the 30000 mark is critical support following today's surge, indicating strong buying interest. A VIX sustained below 18 and S5FI remaining above 55% would confirm a constructive environment for taking selective long positions. Traders should prioritize relative strength leaders breaking out or retesting prior resistance as new support, always employing defined stop-loss orders.",
-    "technical_signal": "No reversal pattern confirmed yet. The market's positive close and robust breadth metrics indicate continued bullish sentiment, particularly in growth sectors.",
+    "action_line": "VIX 16.45 Normal with S5FI 60.3% breadth and mixed global tape (Nikkei +0.15%) → favor selective long setups in relative strength leaders.",
+    "analysis_para1": "Global equity markets presented a mixed picture today with the Nikkei 225 up +0.15% and FTSE 100 gaining +0.12%, while the DAX declined -0.18%. Despite this regional divergence, US equities demonstrated significant strength, especially in tech. Underlying market health indicators in the US remain robust, with S5FI (stocks > 50DMA) at 60.3% and MMTH (stocks > 200DMA) at 64.1%, signaling broad participation above key moving averages. The rising 10-year yield at 4.42% continues to be a macro factor to monitor, although its impact on US credit regime remains undefined with the BAML HY spread unknown.",
+    "analysis_para2": "The immediate focus for the S&P 500 is the 7500 level, which could act as minor resistance following today's close at 7499.36; a decisive break above this confirms further upside. Support for the broad market is established near 7450. The Nasdaq 100's strong performance, closing at 30276.35, suggests continued tech leadership, with 30000 serving as a critical short-term support zone. Traders should watch for relative strength leaders breaking out or consolidating above prior resistance, using the 50-day moving average as a key dynamic support indicator. Strict risk management and adherence to stop levels are paramount, particularly given the rising 10-year yield.",
+    "technical_signal": "No reversal pattern confirmed yet. The market's upward momentum today, particularly in the Nasdaq 100, combined with healthy breadth metrics (S5FI 60.3%, MMTH 64.1%), suggests continuation rather than a reversal.",
     "ticker_intel": [
       {
         "ticker": "NVDA",
-        "company": "NVIDIA Corp.",
+        "company": "NVIDIA Corporation",
         "grade": "A+",
-        "reason": "Strong relative strength and an estimated +18% 1-month return position it as a leader in the current tech-led risk-on rally."
+        "reason": "NVDA exhibits exceptional relative strength and strong 1-month performance, making it a prime beneficiary in this tech-led, risk-on market regime."
       },
       {
         "ticker": "MSFT",
-        "company": "Microsoft Corp.",
+        "company": "Microsoft Corporation",
         "grade": "A",
-        "reason": "Exhibiting solid relative strength and an estimated +9% 1-month return, its consistent growth and AI focus align with the prevailing market strength."
+        "reason": "MSFT demonstrates robust relative strength and consistent 1-month gains, fitting well into a market favoring quality growth and AI innovation."
       },
       {
-        "ticker": "XOM",
-        "company": "Exxon Mobil Corp.",
+        "ticker": "MMM",
+        "company": "3M Company",
         "grade": "C",
-        "reason": "Showing weakening relative strength and an estimated -4% 1-month return, it struggles to gain traction in a growth-focused environment and presents distribution risk."
+        "reason": "MMM shows weak relative strength and underperformed over the last month, signaling distribution and making it an unattractive play in a growth-oriented market."
       }
     ]
   }
