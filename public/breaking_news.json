@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (04:40 EST)",
+  "last_checked": "June 30, 2026 (04:45 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] French biotech stock soars 30% after new data on experimental medicine",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T04:45:24.624585-04:00",
+      "pub_time": null
+    },
     {
       "headline": "[CNBC] French biotech stock soars 31% after new data on experimental medicine",
       "source": "CNBC",
@@ -1463,6 +1471,10 @@
     {
       "k": "buffett delays annual donation to gates foundation pending review of jeffrey epstein ties wsj",
       "ts": "2026-06-30T08:10:33.012899+00:00"
+    },
+    {
+      "k": "french biotech stock soars 30 after new data on experimental medicine",
+      "ts": "2026-06-30T08:45:25.116050+00:00"
     }
   ]
 }
