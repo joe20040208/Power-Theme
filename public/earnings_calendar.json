@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T22:11:17.685289+00:00",
+  "generated_at": "2026-06-30T12:14:55.198332+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 41.48,
-      "avg_volume": 24584225,
+      "avg_volume": 24818526,
       "adr_pct": 3.1,
-      "dollar_volume": 1019753653.0
+      "dollar_volume": 1029472458.0
     },
     {
       "date": "2026-06-30",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 33.84,
-      "avg_volume": 903263,
+      "avg_volume": 902639,
       "adr_pct": 5.4,
-      "dollar_volume": 30566420.0
+      "dollar_volume": 30545304.0
     },
     {
       "date": "2026-06-30",
@@ -42,16 +42,16 @@
       "company": "Constellation Brands, Inc.",
       "time_of_day": "AMC",
       "mkt_cap": 23950687730.0,
-      "eps_estimate": 3.21,
+      "eps_estimate": 3.2,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 2391715680.0,
+      "rev_est": 2389115680.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 139.66,
-      "avg_volume": 2156211,
+      "avg_volume": 2168984,
       "adr_pct": 2.9,
-      "dollar_volume": 301136428.0
+      "dollar_volume": 302920305.0
     },
     {
       "date": "2026-07-01",
@@ -66,9 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 233.62,
-      "avg_volume": 971322,
+      "avg_volume": 975271,
       "adr_pct": 4.9,
-      "dollar_volume": 226920246.0
+      "dollar_volume": 227842811.0
     },
     {
       "date": "2026-07-01",
@@ -83,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 48.87,
-      "avg_volume": 474317,
+      "avg_volume": 478209,
       "adr_pct": 2.8,
-      "dollar_volume": 23179872.0
+      "dollar_volume": 23370074.0
     },
     {
       "date": "2026-07-01",
@@ -100,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 36.38,
-      "avg_volume": 9489765,
+      "avg_volume": 9541580,
       "adr_pct": 2.3,
-      "dollar_volume": 345237651.0
+      "dollar_volume": 347122680.0
     },
     {
       "date": "2026-07-01",
@@ -117,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 116.67,
-      "avg_volume": 692417,
+      "avg_volume": 695993,
       "adr_pct": 2.3,
-      "dollar_volume": 80784291.0
+      "dollar_volume": 81201503.0
     },
     {
       "date": "2026-07-01",
@@ -134,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 263.94,
-      "avg_volume": 232485,
+      "avg_volume": 233203,
       "adr_pct": 2.2,
-      "dollar_volume": 61362091.0
+      "dollar_volume": 61551600.0
     },
     {
       "date": "2026-07-02",
@@ -151,9 +151,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 124.23,
-      "avg_volume": 195479,
+      "avg_volume": 196658,
       "adr_pct": 2.6,
-      "dollar_volume": 24284356.0
+      "dollar_volume": 24430823.0
+    },
+    {
+      "date": "2026-07-07",
+      "ticker": "PENG",
+      "company": "Penguin Solutions, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 3570937195.0,
+      "eps_estimate": 0.56,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 421360670.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 67.94,
+      "avg_volume": 2883511,
+      "adr_pct": 10.7,
+      "dollar_volume": 195905737.0
     }
   ]
 }
