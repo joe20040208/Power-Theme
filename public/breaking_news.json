@@ -1,16 +1,7 @@
 {
-  "last_checked": "June 29, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "[CNBC] AeroVironment soars 19% on earnings beat, backlog grows to $1.2 billion",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-29T19:00:41.940841-04:00",
-      "pub_time": null
-    }
-  ],
+  "last_checked": "June 30, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "global ma deal value on track to reach 4 trillion this year pwc",
