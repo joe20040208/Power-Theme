@@ -1,12 +1,17 @@
 {
-  "last_checked": "June 30, 2026 (04:00 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "June 30, 2026 (04:05 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "apollo curbs withdrawals after exit requests hit 17 reigniting fears over private credit liquidity",
-      "ts": "2026-06-23T08:00:41.206014+00:00"
-    },
+      "headline": "[CNBC] French biotech stock soars 31% after new data on experimental medicine",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T04:05:28.274549-04:00",
+      "pub_time": null
+    }
+  ],
+  "seen_keys": [
     {
       "k": "spacex drops more than 2 following 400 billion selloff",
       "ts": "2026-06-23T08:30:37.753834+00:00"
@@ -1458,6 +1463,14 @@
     {
       "k": "rafael nadal talks tennis prize money his hotels and what sports taught him about business",
       "ts": "2026-06-30T05:50:32.526055+00:00"
+    },
+    {
+      "k": "inflation likely to stay ‘significantly above target’ top european central banker warns",
+      "ts": "2026-06-30T08:05:28.717860+00:00"
+    },
+    {
+      "k": "french biotech stock soars 31 after new data on experimental medicine",
+      "ts": "2026-06-30T08:05:28.717860+00:00"
     }
   ]
 }
