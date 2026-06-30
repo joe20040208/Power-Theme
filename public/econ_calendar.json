@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:47:22.641798+00:00",
+  "generated_at": "2026-06-30T22:21:17.625960+00:00",
   "data_source": "tradingview",
   "events": [
     {
@@ -3197,7 +3197,7 @@
       "time_et": "16:30",
       "event": "API Crude Oil Stock Change",
       "impact": "Low",
-      "actual": "6.072",
+      "actual": "-6.072",
       "forecast": "-4.1",
       "previous": "-0.765",
       "currency": "USD"
