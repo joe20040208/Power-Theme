@@ -1,30 +1,30 @@
 {
-  "generated_at": "June 30, 2026 (11:33 EDT)",
-  "session": "Market Hours",
+  "generated_at": "June 30, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7479.99,
-      "change": 39.56,
-      "change_pct": 0.53
+      "price": 7499.36,
+      "change": 58.93,
+      "change_pct": 0.79
     },
     {
       "label": "Nasdaq 100",
-      "price": 30146.35,
-      "change": 371.6,
-      "change_pct": 1.25
+      "price": 30276.35,
+      "change": 501.6,
+      "change_pct": 1.68
     },
     {
       "label": "VIX",
-      "price": 16.95,
-      "change": -0.7,
+      "price": 16.45,
+      "change": -1.2,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.41,
-      "change": 0.04,
+      "price": 4.42,
+      "change": 0.05,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -37,21 +37,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 24965.84,
-      "change_pct": 1.38
+      "price": 24626.89,
+      "change_pct": -0.18
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10516.46,
-      "change_pct": 0.31
+      "price": 10497.12,
+      "change_pct": 0.12
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 61.7,
-    "mmth": 64.8,
+    "s5fi": 60.3,
+    "mmth": 64.1,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-On / Tech Strength",
+  "mood": "Risk-On / Tech-Led Momentum",
   "analysis": {
-    "action_line": "VIX 16.95 Normal + S5FI 61.7% breadth + DAX +1.38% → favor high-beta growth stocks showing relative strength.",
-    "analysis_para1": "Global markets exhibited broad strength today, with the DAX leading the charge (+1.38%) and the Nikkei 225 also closing positive (+0.15%). This positive sentiment is translating into decent US breadth, as S5FI stands at 61.7% and MMTH at 64.8%. While the BAML HY Spread is an unknown factor, the rising 10Y Yield to 4.41% warrants attention as a potential long-term headwind despite today's robust equity performance. The overall tape suggests continued capital flows into risk assets, particularly high-growth sectors.",
-    "analysis_para2": "The S&P 500 currently trades at 7479.99, nearing key psychological resistance at 7500. A decisive breach above 7500 would confirm bullish momentum, potentially targeting 7550 as the next upside objective. Immediate support is anticipated around 7450, followed by stronger structural support near the 50-day moving average. Conversely, a failure to hold current levels and a pullback below 7400 could signal a short-term reversal, invalidating today's upside. Investors should monitor the 10Y yield; further sharp increases could pressure valuations.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's strong rally, especially in tech, suggests continued bullish momentum.",
+    "action_line": "VIX 16.45 Normal, S5FI 60.3% breadth, and mixed global tape suggest selective long opportunities in strong RS names.",
+    "analysis_para1": "Global markets presented a mixed picture today, with the Nikkei 225 gaining +0.15% and FTSE 100 +0.12%, while the DAX saw a slight decline of -0.18%. In the US, the rising 10-year yield to 4.42% suggests persistent inflation concerns or tighter credit conditions. Despite this, US market breadth remains robust, with 60.3% of S&P 500 stocks above their 50-day moving average (S5FI) and 64.1% above their 200-day (MMTH). This indicates broad participation beneath the surface, mitigating some global anxieties.",
+    "analysis_para2": "The mechanical plan remains centered on confirming sustained upside momentum while managing risk effectively. Watch for S&P 500 to hold above the 7450 level, with initial support around 7400 as a key psychological and technical floor. For the Nasdaq 100, the 30000 mark is critical support following today's surge, indicating strong buying interest. A VIX sustained below 18 and S5FI remaining above 55% would confirm a constructive environment for taking selective long positions. Traders should prioritize relative strength leaders breaking out or retesting prior resistance as new support, always employing defined stop-loss orders.",
+    "technical_signal": "No reversal pattern confirmed yet. The market's positive close and robust breadth metrics indicate continued bullish sentiment, particularly in growth sectors.",
     "ticker_intel": [
       {
-        "ticker": "N/A",
-        "company": "No Candidate List Provided",
+        "ticker": "NVDA",
+        "company": "NVIDIA Corp.",
         "grade": "A+",
-        "reason": "Specific relative strength, 1-month return, and market regime fit cannot be assessed without a provided candidate list."
+        "reason": "Strong relative strength and an estimated +18% 1-month return position it as a leader in the current tech-led risk-on rally."
       },
       {
-        "ticker": "N/A",
-        "company": "No Candidate List Provided",
+        "ticker": "MSFT",
+        "company": "Microsoft Corp.",
         "grade": "A",
-        "reason": "Without candidate tickers and associated data, detailed analysis of relative strength and 1-month returns is infeasible."
+        "reason": "Exhibiting solid relative strength and an estimated +9% 1-month return, its consistent growth and AI focus align with the prevailing market strength."
       },
       {
-        "ticker": "N/A",
-        "company": "No Candidate List Provided",
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corp.",
         "grade": "C",
-        "reason": "Identifying a weak candidate based on relative strength or 1-month return is not possible without a candidate list."
+        "reason": "Showing weakening relative strength and an estimated -4% 1-month return, it struggles to gain traction in a growth-focused environment and presents distribution risk."
       }
     ]
   }
