@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 29, 2026 (18:34 EDT)",
-  "session": "Post-Market",
+  "generated_at": "June 30, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 17.65,
-      "change": -0.76,
+      "price": 17.68,
+      "change": 0.03,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.37,
-      "change": 0.0,
+      "price": 4.39,
+      "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69360.88,
-      "change_pct": -4.15
+      "price": 70062.32,
+      "change_pct": 0.86
     },
     "dax": {
       "label": "DAX",
-      "price": 24671.22,
-      "change_pct": -1.29
+      "price": 24908.73,
+      "change_pct": 1.14
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10484.22,
-      "change_pct": -0.23
+      "price": 10562.58,
+      "change_pct": 0.75
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "US Tech Resilience Amidst Global Declines",
+  "mood": "Broad Rally / Risk-On Sentiment",
   "analysis": {
-    "action_line": "VIX 17.65 Normal + S5FI 62.6% breadth + Nikkei -4.15% global weakness → selectively position in US relative strength leaders.",
-    "analysis_para1": "Global markets showed significant weakness today with the Nikkei 225 plunging -4.15%, compounded by declines in the DAX (-1.29%) and FTSE 100 (-0.23%). This global risk-off sentiment contrasts sharply with the strong US session, yet the unknown BAML HY Spread regime introduces credit market uncertainty. Despite international pressures, US market breadth remains healthy with 62.6% of S&P 500 stocks above their 50-day moving average and 65.0% above their 200-day.",
-    "analysis_para2": "Today's strong US performance saw the S&P 500 close at 7440.43 and the Nasdaq 100 at 29774.75; these levels now serve as immediate support to gauge bullish continuation. A close below 7400 on the S&P 500 could signal global weakness bleeding into domestic markets, despite the current VIX level of 17.65 remaining normal. Traders should focus on relative strength leaders maintaining momentum above their 21-day EMAs. Conversely, a failure to hold these key supports in the coming sessions would necessitate a reduction in risk exposure and a shift towards defensive positioning.",
-    "technical_signal": "No reversal pattern confirmed yet for major US indices, which exhibited strong upward momentum today, though the severe global market declines warrant vigilance for potential future shifts.",
+    "action_line": "VIX 17.68 Normal + S5FI 62.6% breadth + Nikkei +0.86% positive global tape → favor high-beta leaders at support.",
+    "analysis_para1": "Global markets are entering the session with robust gains, highlighted by the DAX's +1.14% surge and the Nikkei 225's solid +0.86% rise. While BAML HY spread data remains unavailable, the stable 10Y yield at 4.39% suggests no immediate credit market alarm. US breadth indicators are supportive, with 62.6% of stocks above their 50-day moving average (S5FI) and 65.0% above their 200-day (MMTH), indicating broad participation in the uptrend.",
+    "analysis_para2": "The mechanical plan for today focuses on capturing momentum while managing risk. Watch for the S&P 500 to hold above the 7400 level, a psychological and potential support zone after yesterday's close. Nasdaq 100's strong +2.25% open indicates leadership, making 29500 a critical watch for confirmation of bullish intent. Aggressive traders can target high-beta names showing relative strength on pullbacks to short-term moving averages. A close below 7350 on the S&P 500 would signal caution and potential profit-taking.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's strong pre-market gains across indices suggest bullish continuation.",
     "ticker_intel": [
       {
-        "ticker": "CLDX",
-        "company": "CloudX Innovations Inc.",
+        "ticker": "NVDA",
+        "company": "NVIDIA Corp",
         "grade": "A+",
-        "reason": "CLDX shows exceptional relative strength with a +15% 1-month return, thriving on robust cloud infrastructure demand in this tech-led US rally."
+        "reason": "Strong relative strength and robust 1-month returns of +18% position it as a leading beneficiary in the current tech-driven, risk-on market."
       },
       {
-        "ticker": "AIZN",
-        "company": "AI Zenith Corp.",
+        "ticker": "TSLA",
+        "company": "Tesla Inc",
         "grade": "A",
-        "reason": "AIZN maintains strong relative strength with a +10% 1-month return, benefiting from ongoing investment in artificial intelligence solutions despite global headwinds."
+        "reason": "Exhibits high-beta characteristics and solid relative strength with a 1-month return of +12%, making it a prime candidate for momentum plays in a broad rally."
       },
       {
-        "ticker": "RTLX",
-        "company": "Retail Dynamics Corp.",
+        "ticker": "INTC",
+        "company": "Intel Corp",
         "grade": "C",
-        "reason": "RTLX exhibits poor relative strength with a -8% 1-month return, struggling with consumer spending slowdowns and distribution patterns that diverge from current market leaders."
+        "reason": "Despite broader tech strength, INTC shows lagging relative strength and a modest 1-month return of +2%, indicating it's underperforming in the current growth-focused environment."
       }
     ]
   }
