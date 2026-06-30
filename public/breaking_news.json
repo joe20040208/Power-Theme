@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (05:25 EST)",
+  "last_checked": "June 30, 2026 (05:30 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "French biotech stock soars 34% after new data on experimental medicine",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T05:30:39.474967-04:00",
+      "pub_time": "2026-06-30T05:28:34-04:00"
+    },
     {
       "headline": "[CNBC] French biotech stock soars 30% after new data on experimental medicine",
       "source": "CNBC",
@@ -1479,6 +1487,14 @@
     {
       "k": "medicare will start covering obesity drugs for the first time heres what patients should know",
       "ts": "2026-06-30T09:10:34.645207+00:00"
+    },
+    {
+      "k": "french biotech stock soars 34 after new data on experimental medicine",
+      "ts": "2026-06-30T09:30:39.903911+00:00"
+    },
+    {
+      "k": "indonesia jails former education minister for 10 years in google chromebook graft case",
+      "ts": "2026-06-30T09:30:39.903911+00:00"
     }
   ]
 }
