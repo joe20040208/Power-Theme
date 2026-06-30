@@ -2,10 +2,32 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-06-30",
+      "date_display": "6/30/2026",
+      "up_4_pct": 318,
+      "down_4_pct": 153,
+      "ratio_5d": 1.68,
+      "ratio_10d": 1.39,
+      "up_25_q": 1725,
+      "down_25_q": 1082,
+      "up_25_m": 234,
+      "down_25_m": 185,
+      "up_50_m": 45,
+      "down_50_m": 37,
+      "up_13_34d": 2124,
+      "down_13_34d": 1520,
+      "atr_10x_ext": 11,
+      "above_50dma_pct": 59.2,
+      "worden_universe": 6490,
+      "t2108": 50.9,
+      "sp_index": 7496.4,
+      "universe_1b": 2714
+    },
+    {
       "date": "2026-06-29",
       "date_display": "6/29/2026",
-      "up_4_pct": 228,
-      "down_4_pct": 79,
+      "up_4_pct": 230,
+      "down_4_pct": 83,
       "ratio_5d": 1.43,
       "ratio_10d": 1.38,
       "up_25_q": 1729,
@@ -19,8 +41,8 @@
       "atr_10x_ext": 8,
       "above_50dma_pct": 61.2,
       "worden_universe": 6490,
-      "t2108": 51.32,
-      "sp_index": 7439.18,
+      "t2108": 51.65,
+      "sp_index": 7440.43,
       "universe_1b": 2667
     },
     {
@@ -2887,6 +2909,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-06-29T22:11:18+00:00",
-  "gemini_analysis": "TODAY \u2014 Today's up4 count of 228 did not signal healthy buying thrust, while the dn4 count of 79 showed no distribution pressure. The up4/dn4 ratio of 2.88 indicates more advancers than decliners, but without meeting volume thresholds, it's a neutral breadth day.\nWEEK \u2014 The 5-day ratio has steadily improved from 1.11 to 1.43 over the last week, approaching the bullish threshold of 1.5. Both Up 25% Monthly and Up 13% 34-Day counts also show a clear improving trend, indicating steadily firming breadth.\nMONTH \u2014 The Up 50% Monthly count of 35 is not in frothy territory, suggesting the market is not yet excessively extended. With 61.2% of stocks above their 50-day moving average and T2108 at 51.32, the market is in a healthy mid-range zone for swing traders, favoring a continuation of the current trend.\nREGIME \u2014 Recovery \u2014 The market recently pulled back from an extended state (ATR Ext dropped from ~50 to 8) and is now showing improving breadth indicators. Stockbee would watch for the 5-day and 10-day ratios to decisively cross above 1.5/2.0, along with sustained Up 4% counts of 400 or more, to confirm renewed bullish momentum."
+  "fetched_at_utc": "2026-06-30T21:47:23+00:00",
+  "gemini_analysis": "TODAY \u2014 Today saw 318 stocks up 4%+ and 153 stocks down 4%+, with neither count reaching the notable thresholds for thrust or pressure. The resulting up4/dn4 ratio of 2.08 indicates moderate advancing breadth.\nWEEK \u2014 The 5-day ratio has improved to a bullish 1.68, while the `up25m` count has consistently risen from 151 to 234 over the past five days. This suggests strengthening broad participation and an improving short-term trend.\nMONTH \u2014 The `up50m` count at 45 is below the \"hot market\" threshold, indicating the market is not yet frothy or extended. With %above50dma at 59.2% and T2108 at 50.9%, the market remains in a healthy bull range, offering a good environment for swing trading.\nREGIME \u2014 Recovering Bull \u2014 The market is transitioning from a period of mild consolidation back into a strengthening trend, as breadth indicators improve after an earlier minor pullback. Stockbee would look for `up4` counts to consistently exceed 400-600 with rising `up25Q` and `up13` counts as signals for re-acceleration of momentum."
 }

@@ -3,49 +3,16 @@
   "filter": "dn50m",
   "label": "Down 50%+ Monthly",
   "min_cap_b": 1.0,
-  "count": 2,
-  "stocks": [
-    {
-      "ticker": "RDW",
-      "company": "Redwire Corporation",
-      "industry": "Aerospace & Defense",
-      "market_cap_b": 2.792,
-      "price": 11.69,
-      "change_pct": 6.95,
-      "dollar_volume": "$401.4M",
-      "adr_pct": 15.3,
-      "perf_1m": -51.07,
-      "perf_3m": 48.82,
-      "perf_34d": null,
-      "perf_qtd": 48.82,
-      "perf_mtd": -51.07,
-      "rs_ibd": 25
-    },
-    {
-      "ticker": "LUNR",
-      "company": "Intuitive Machines, Inc.",
-      "industry": "Aerospace & Defense",
-      "market_cap_b": 4.551,
-      "price": 20.97,
-      "change_pct": 5.96,
-      "dollar_volume": "$277.2M",
-      "adr_pct": 14.5,
-      "perf_1m": -50.83,
-      "perf_3m": 23.21,
-      "perf_34d": null,
-      "perf_qtd": 23.21,
-      "perf_mtd": -50.83,
-      "rs_ibd": 80
-    }
-  ],
+  "count": 0,
+  "stocks": [],
   "spx_benchmarks": {
-    "spx_1d": 1.18,
-    "spx_1m": -1.84,
-    "spx_3m": 17.29,
-    "spx_34d": 0.37,
-    "spx_qtd": 13.16,
-    "spx_mtd": -2.1
+    "spx_1d": 0.79,
+    "spx_1m": -1.32,
+    "spx_3m": 14.87,
+    "spx_34d": 1.33,
+    "spx_qtd": 14.05,
+    "spx_mtd": -1.32
   },
-  "fetched_at_utc": "2026-06-29T22:11:46+00:00",
+  "fetched_at_utc": "2026-06-30T21:47:50+00:00",
   "source": "tv_fallback"
 }
