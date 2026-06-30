@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (09:05 EST)",
+  "last_checked": "June 30, 2026 (09:10 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] AeroVironment soars 28% on earnings beat, backlog grows to $1.2 billion",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T09:10:40.478543-04:00",
+      "pub_time": null
+    },
     {
       "headline": "White House AI crackdown opens door for Chinese model makers to close gap",
       "source": "CNBC",
@@ -1483,6 +1491,10 @@
     {
       "k": "jim cramers top 10 things to watch in the stock market tuesday",
       "ts": "2026-06-30T13:05:27.977333+00:00"
+    },
+    {
+      "k": "aerovironment soars 28 on earnings beat backlog grows to 12 billion",
+      "ts": "2026-06-30T13:10:40.922003+00:00"
     }
   ]
 }
