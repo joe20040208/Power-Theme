@@ -1,57 +1,57 @@
 {
-  "generated_at": "June 30, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "June 30, 2026 (11:33 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7440.43,
-      "change": 86.41,
-      "change_pct": 1.18
+      "price": 7479.99,
+      "change": 39.56,
+      "change_pct": 0.53
     },
     {
       "label": "Nasdaq 100",
-      "price": 29774.75,
-      "change": 656.51,
-      "change_pct": 2.25
+      "price": 30146.35,
+      "change": 371.6,
+      "change_pct": 1.25
     },
     {
       "label": "VIX",
-      "price": 17.68,
-      "change": 0.03,
+      "price": 16.95,
+      "change": -0.7,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.39,
-      "change": 0.02,
+      "price": 4.41,
+      "change": 0.04,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Rising"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 70062.32,
-      "change_pct": 0.86
+      "price": 69468.11,
+      "change_pct": 0.15
     },
     "dax": {
       "label": "DAX",
-      "price": 24908.73,
-      "change_pct": 1.14
+      "price": 24965.84,
+      "change_pct": 1.38
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10562.58,
-      "change_pct": 0.75
+      "price": 10516.46,
+      "change_pct": 0.31
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 62.6,
-    "mmth": 65.0,
+    "s5fi": 61.7,
+    "mmth": 64.8,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Broad Rally / Risk-On Sentiment",
+  "mood": "Risk-On / Tech Strength",
   "analysis": {
-    "action_line": "VIX 17.68 Normal + S5FI 62.6% breadth + Nikkei +0.86% positive global tape → favor high-beta leaders at support.",
-    "analysis_para1": "Global markets are entering the session with robust gains, highlighted by the DAX's +1.14% surge and the Nikkei 225's solid +0.86% rise. While BAML HY spread data remains unavailable, the stable 10Y yield at 4.39% suggests no immediate credit market alarm. US breadth indicators are supportive, with 62.6% of stocks above their 50-day moving average (S5FI) and 65.0% above their 200-day (MMTH), indicating broad participation in the uptrend.",
-    "analysis_para2": "The mechanical plan for today focuses on capturing momentum while managing risk. Watch for the S&P 500 to hold above the 7400 level, a psychological and potential support zone after yesterday's close. Nasdaq 100's strong +2.25% open indicates leadership, making 29500 a critical watch for confirmation of bullish intent. Aggressive traders can target high-beta names showing relative strength on pullbacks to short-term moving averages. A close below 7350 on the S&P 500 would signal caution and potential profit-taking.",
-    "technical_signal": "No reversal pattern confirmed yet. Today's strong pre-market gains across indices suggest bullish continuation.",
+    "action_line": "VIX 16.95 Normal + S5FI 61.7% breadth + DAX +1.38% → favor high-beta growth stocks showing relative strength.",
+    "analysis_para1": "Global markets exhibited broad strength today, with the DAX leading the charge (+1.38%) and the Nikkei 225 also closing positive (+0.15%). This positive sentiment is translating into decent US breadth, as S5FI stands at 61.7% and MMTH at 64.8%. While the BAML HY Spread is an unknown factor, the rising 10Y Yield to 4.41% warrants attention as a potential long-term headwind despite today's robust equity performance. The overall tape suggests continued capital flows into risk assets, particularly high-growth sectors.",
+    "analysis_para2": "The S&P 500 currently trades at 7479.99, nearing key psychological resistance at 7500. A decisive breach above 7500 would confirm bullish momentum, potentially targeting 7550 as the next upside objective. Immediate support is anticipated around 7450, followed by stronger structural support near the 50-day moving average. Conversely, a failure to hold current levels and a pullback below 7400 could signal a short-term reversal, invalidating today's upside. Investors should monitor the 10Y yield; further sharp increases could pressure valuations.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's strong rally, especially in tech, suggests continued bullish momentum.",
     "ticker_intel": [
       {
-        "ticker": "NVDA",
-        "company": "NVIDIA Corp",
+        "ticker": "N/A",
+        "company": "No Candidate List Provided",
         "grade": "A+",
-        "reason": "Strong relative strength and robust 1-month returns of +18% position it as a leading beneficiary in the current tech-driven, risk-on market."
+        "reason": "Specific relative strength, 1-month return, and market regime fit cannot be assessed without a provided candidate list."
       },
       {
-        "ticker": "TSLA",
-        "company": "Tesla Inc",
+        "ticker": "N/A",
+        "company": "No Candidate List Provided",
         "grade": "A",
-        "reason": "Exhibits high-beta characteristics and solid relative strength with a 1-month return of +12%, making it a prime candidate for momentum plays in a broad rally."
+        "reason": "Without candidate tickers and associated data, detailed analysis of relative strength and 1-month returns is infeasible."
       },
       {
-        "ticker": "INTC",
-        "company": "Intel Corp",
+        "ticker": "N/A",
+        "company": "No Candidate List Provided",
         "grade": "C",
-        "reason": "Despite broader tech strength, INTC shows lagging relative strength and a modest 1-month return of +2%, indicating it's underperforming in the current growth-focused environment."
+        "reason": "Identifying a weak candidate based on relative strength or 1-month return is not possible without a candidate list."
       }
     ]
   }
