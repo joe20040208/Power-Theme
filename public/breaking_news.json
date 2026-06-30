@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (10:20 EST)",
+  "last_checked": "June 30, 2026 (10:28 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "White House AI crackdown opens door for China to close gap",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-06-30T10:28:55.790581-04:00",
+      "pub_time": "2026-06-30T10:27:53-04:00"
+    },
     {
       "headline": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
       "source": "CNBC",
@@ -40,14 +48,6 @@
       "grade": 9,
       "direction": "bullish",
       "timestamp": "2026-06-30T04:45:24.624585-04:00",
-      "pub_time": null
-    },
-    {
-      "headline": "[CNBC] French biotech stock soars 31% after new data on experimental medicine",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-30T04:05:28.274549-04:00",
       "pub_time": null
     }
   ],
@@ -1503,6 +1503,10 @@
     {
       "k": "aerovironment skyrockets 21 as dronemaker capitalizes on defense spending surge",
       "ts": "2026-06-30T13:45:30.613464+00:00"
+    },
+    {
+      "k": "white house ai crackdown opens door for china to close gap",
+      "ts": "2026-06-30T14:28:56.445320+00:00"
     }
   ]
 }
