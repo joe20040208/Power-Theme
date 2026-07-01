@@ -1,30 +1,30 @@
 {
-  "generated_at": "July 01, 2026 (11:44 EDT)",
-  "session": "Market Hours",
+  "generated_at": "July 01, 2026 (18:30 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7514.81,
-      "change": 15.45,
-      "change_pct": 0.21
+      "price": 7483.23,
+      "change": -16.13,
+      "change_pct": -0.22
     },
     {
       "label": "Nasdaq 100",
-      "price": 30022.32,
-      "change": -254.03,
-      "change_pct": -0.84
+      "price": 29809.13,
+      "change": -467.22,
+      "change_pct": -1.54
     },
     {
       "label": "VIX",
-      "price": 16.1,
-      "change": -0.35,
+      "price": 16.59,
+      "change": 0.14,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.46,
-      "change": 0.09,
+      "price": 4.47,
+      "change": 0.1,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -37,21 +37,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 25053.62,
-      "change_pct": 0.23
+      "price": 24995.81,
+      "change_pct": 1.5
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10479.93,
-      "change_pct": -0.16
+      "price": 10478.34,
+      "change_pct": -0.18
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 61.6,
-    "mmth": 66.0,
+    "s5fi": 60.2,
+    "mmth": 64.7,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Mixed US, Strong Breadth, Rising Yields",
+  "mood": "US Tech Weakness / Global Divergence",
   "analysis": {
-    "action_line": "VIX 16.10 Normal + S5FI 61.6% breadth + mixed global tape with Nikkei strength → selectively trade relative strength leaders outside of growth.",
-    "analysis_para1": "The global tape presents a mixed picture, with the Nikkei 225 advancing 0.86% and the DAX up 0.23%, contrasting with a slight dip of 0.16% in the FTSE 100. Domestically, US equity breadth remains resilient, with 61.6% of stocks above their 50-day moving average (S5FI) and 66.0% above their 200-day (MMTH). This suggests a healthy underlying market structure, even as rising 10Y yields at 4.46% potentially weigh on growth sectors, while overall credit market health remains opaque without BAML HY data.",
-    "analysis_para2": "The S&P 500 is currently testing 7514.81, holding positive territory but encountering potential resistance near 7520, with 7500 serving as immediate support. For the Nasdaq 100, a negative session sees it below 30022.32, making the 30000 level a critical reclaim point to signal a turnaround. Traders should observe which sectors absorb the rising 10Y yield; strength in value or defensive plays could signal a rotational shift. Prioritize maintaining tight stop-losses and focus on relative strength plays that show resilience against the backdrop of higher rates.",
-    "technical_signal": "No reversal pattern confirmed yet. The market exhibits mixed signals with S&P strength offset by Nasdaq weakness.",
+    "action_line": "VIX 16.59 Normal + S5FI 60.2% breadth + mixed global tape with US tech weakness → prioritize relative strength and selective long setups.",
+    "analysis_para1": "Global markets exhibited divergence today, with strong performances in the Nikkei 225 (+0.86%) and DAX (+1.50%), while the FTSE 100 remained flat (-0.18%). This strength contrasted sharply with US performance, especially the Nasdaq 100's significant 1.54% decline, against a backdrop of rising 10Y yields at 4.47%. Despite the tech weakness, market breadth metrics, with 60.2% of S&P 500 stocks above their 50-day moving average and 64.7% above their 200-day, suggest an internal rotation rather than a widespread sell-off. The rising yield environment continues to challenge growth-oriented sectors, prompting a shift in capital flows.",
+    "analysis_para2": "The mechanical plan for today focuses on identifying resilience amidst the ongoing sector rotation. With the S&P 500 retreating to 7483.23 and the Nasdaq 100 seeing a deeper correction, key support levels at 7450 for the S&P 500 and 29500 for the Nasdaq 100 must be closely watched for potential bounces or breakdowns. Monitor for confirmation of trend integrity in leading stocks, particularly if they hold prior lows or pivot points. A sustained move above the intraday high for the broader market or a stabilization in the 10Y yield would signal potential for broader participation. Conversely, a decisive break below these indicated support levels could signal further downside pressure and necessitate defensive positioning.",
+    "technical_signal": "No reversal pattern confirmed yet. Today's session saw a moderate pullback, especially in tech, but lacked the characteristics of a definitive bullish or bearish reversal.",
     "ticker_intel": [
       {
-        "ticker": "AIX",
-        "company": "Artificial Intelligence Corp",
+        "ticker": "JPM",
+        "company": "JPMorgan Chase & Co.",
         "grade": "A+",
-        "reason": "AIX exhibits robust relative strength (+2.5% today, +15% 1M return) and continues to lead in the AI infrastructure space, positioning it well in a selective growth environment."
+        "reason": "JPM shows strong relative strength with a positive 5.5% 1-month return, benefiting from rising interest rates and robust economic data, making it a compelling long in this environment."
       },
       {
-        "ticker": "BKR",
-        "company": "Bancroft Resources",
+        "ticker": "CAT",
+        "company": "Caterpillar Inc.",
         "grade": "A",
-        "reason": "BKR shows strong momentum (+1.2% today, +8% 1M return) as a key player in essential resources, thriving in an inflationary environment and providing stability amid market rotations."
+        "reason": "CAT demonstrates excellent relative strength and a 4.8% 1-month return, poised to benefit from global industrial demand and infrastructure spending, positioning it well during sector rotation."
       },
       {
-        "ticker": "ZMT",
-        "company": "Zoomedia Tech",
+        "ticker": "ZM",
+        "company": "Zoom Video Communications, Inc.",
         "grade": "C",
-        "reason": "ZMT shows continued weakness (-3.1% today, -10% 1M return) with declining relative strength, struggling to justify its valuation in a rising rate environment and facing increased competition."
+        "reason": "ZM exhibits significant underperformance with an 8.2% 1-month loss and a weak technical setup, making it vulnerable in a rising yield and tech-averse market regime."
       }
     ]
   }
