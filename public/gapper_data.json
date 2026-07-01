@@ -1,139 +1,140 @@
 {
-  "scan_time": "2026-06-30 08:05 ET",
+  "scan_time": "2026-07-01 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "ABVX",
-      "price": 96.15,
-      "gap_pct": 35.73,
-      "pm_volume": 475407,
-      "avg_vol_10d": 2424091,
-      "avg_dollar_vol": 233076350,
-      "mkt_cap": 7590968476,
-      "rvol": 0.6,
-      "adr_pct": 8.47,
+      "ticker": "SOC",
+      "price": 3.08,
+      "gap_pct": 12.98,
+      "pm_volume": 2794272,
+      "avg_vol_10d": 14087698,
+      "avg_dollar_vol": 43390110,
+      "mkt_cap": 1075909379,
+      "rvol": 31.78,
+      "adr_pct": 10.37,
       "category": "Others",
-      "theme": "Positive Clinical Trial Data",
-      "reasoning": "Abivax reported positive Phase 3 maintenance study results for its ulcerative colitis drug, obefazimod, significantly de-risking its development pathway.",
+      "theme": "Dilutive Capital Raise",
+      "reasoning": "Sable Offshore announced and priced offerings of common stock and convertible senior notes, leading to significant dilution and investor concerns.",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 55,
-      "grade": "A+",
-      "finviz_theme": "Biotech - Immunology",
-      "analysis_detail": "Catalyst: Abivax reported **positive** Phase 3 maintenance study results for **obefazimod** in refractory ulcerative colitis, demonstrating **meaningful clinical benefit** and **strengthening the safety profile**. | Impact: This **significantly de-risks** the drug's path to potential regulatory approval and commercialization, targeting a substantial market for refractory ulcerative colitis patients.",
-      "analysis_details": "• **What Happened**\nAbivax announced **positive** results from the **ABTECT Maintenance Part 2** study for its lead drug candidate, **obefazimod**, treating refractory ulcerative colitis (UC). The data demonstrated **meaningful clinical benefit** for patients, critically addressing and **easing prior safety concerns**. This successful readout is a pivotal moment for the drug's development, leading to the stock **surging over 28%**.\n\n• **Key Consideration**\nThe positive Phase 3 data **significantly de-risks** obefazimod's regulatory pathway towards potential FDA approval and commercialization. Targeting **refractory UC patients** presents a substantial market opportunity, as these patients often have limited treatment options. The strengthened safety database is crucial, potentially expanding the drug's addressable market and improving its competitive profile against existing therapies, establishing a **structural positive change** for Abivax.",
+      "conviction": 99,
+      "grade": "C",
+      "finviz_theme": "Energy - Oil & Gas",
+      "analysis_detail": "Catalyst: Sable Offshore announced and subsequently priced offerings of common stock and convertible senior notes. | Impact: This capital raise led to a **significant investor sell-off**, causing the stock to **plunge 50%** due to dilution concerns and potential financial distress signals, making it an **avoid** for momentum traders.",
+      "analysis_details": "• **What Happened**\nSable Offshore announced a **proposed offering of convertible senior notes and common stock** on June 30th, which was followed by headlines detailing a **$1B debt deal** and a subsequent **50% stock plunge**. On July 1st, the company **locked in pricing** for **$300M in notes** and **$32.5M in shares**, confirming the dilutive event.\n\n• **Key Consideration**\nThe massive **50% price decline** on exceptionally **high relative volume (31.8x RVOL)** indicates a strong negative market reaction to the dilutive capital raise. For momentum traders, this signals significant **downside pressure** and **financial uncertainty**, making SOC an **avoid** for short-term long positions. The capital raise suggests an urgent need for funds, potentially indicating underlying business challenges despite 'fresh capital.'",
       "peer_tickers": [
-        "IMUX",
-        "ALPN",
-        "KNSA"
+        "COP",
+        "EOG",
+        "PXD"
       ],
       "headlines": [
         {
-          "title": "Abivax (ABVX) Stock Surges After Positive Clinical Trial Data - GuruFocus",
+          "title": "Sable Offshore locks in $300M notes, $32.5M shares pricing - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkl3ZXNfa3RYd213VTc2UHhpYTF6ZURVaWt2RFFCc2JQbG1rNHgwVXhKazVzbERpQ3Z5UFdpWF8yQWc1aTBObDFqaVQxenc0Mk1zb0czM1N0eWtSSmthQllVU1pGSzRfTmVDbF9MWkg5V1dLQTNadDlWdXNfSUtKWlJBVjRSTmw3NUY4Q0EyVTRHYTdWMVRQQmdQWDBPZm8?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUs1WWc1Xy1LVXZFTm84SXk3VXlINFUwZHFibmNVNTRFMVUtNk5YckFab3NscGMyWEF1VHlIRk1DNW4xQVk4MGlXd1ZNMzJHY3pEZFoySDF5UE9aVzdQdEZjdGI1LWQ4REhWcWNYV2FkRms5YlJFQVFmaFZ3elVpZ2U2QjR3QWw0S184ODEzZjBvaTNpRFFSZHI0Uk82eXQ4U0tETGwyXzNqMnNqOTduSGhsdUtHVXdKRURnNXFkcw?oc=5"
         },
         {
-          "title": "Biggest stock movers Tuesday: ABVX, AVAV, and more - Seeking Alpha",
+          "title": "Sable Offshore (SOC) Raises Fresh Capital, Is The Stock Trading At A Discount? - simplywall.st",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVZyTUo0dVZMNUlLSjRkUTNRSWl0Zy1IUXhTOGQ0eWcwd2dpZ3dra3RyU0dDYUtONnpQQW8zYkVvVHlWdkVXSGZOUHB1Ui1NU3RLd1c3eFU0T0d2UllaZDBjUGVnLU1nZXBPd0JzYWdQNFV6bzJvdGE5WXJpQzJyel9vMUFRNkx6eDFrUHRn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZEF3U2QyVFg2ZUZPeUdJMXdOZk1BT0U5R0lIWmRxMmEtNFBXNmFYNDFnQWRlek5OZmNFU1Rua2psTUZFdEk5S1EyMGNhQU81T1A0QkFBWlNGdGdzb085bDcyc3BaQUxpaFBZOFAweE1wT3pCelV2T1d5UEVIVjA3WVFjU3ZKb3BjR1dKZ09ydWUyZnJjNFFRbFVkZGw1R3lIcXJ6ekZVdkFRYTNxRXYzdXlrdnY4ZEgzVVdTeG9PWmlodHdTbG930gHMAUFVX3lxTE9Ed1hCRjZocVRybGlmb2VyUmdhNms5V0ZCbWk2YkZnRDlWQ2gwYXZ0a3N6c002cExPMG1EM3A2MmtYdEQ1VnI2X1VRLVhVRVVjZ2FhWDFVMHZZdTZaUEd6UlphTE1IT24wWlU1RjJ2ZmdkNWRSb2xwQ0JsMHc2aVhJYWxaNUw2cmRTRy1Ka0Y1NXZ6WTZxOEhzUkRkUXdTWDZaaHBvMzRLMHc0Nm14RV9ILUxDR2t4UnNaOUR3SEpvdXYwVW5pVnZNY0p3MA?oc=5"
         },
         {
-          "title": "Abivax stock jumps on positive Phase 3 ulcerative colitis data (ABVX:NASDAQ) - Seeking Alpha",
+          "title": "Why Did SOC Stock Plunge 50% Today? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV1AzVFNuMUIyek5GNnRiRWxhMFphbmtVUXVtNDl4SjFCeGltTGZfTDJucmlTdkh4SXVBLXJNZnc5MHhWWS1VV1EySUZSaUZxTTM3eUlZT1kwYXFTSE5wXzR2R1pYZTk4Q2labEFPVWI3X0owTEllVERTVHVQYWRPMU81YkNSSFJ4S05ISHZ0MEtORnJaSHl0NnJXTlFKbFVUYmc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNkZUU2wxZ1IxUThfek9STHJ4MThwWjlaRXRJSjNFYjZ0QklCMlpLRGZDalMyOUxlWGtFaU9qWnhUYUUwWTJOMDQ0T21FdzNpMGtNMVNQbFVsTG12TWo3RXJkbzFyb3NlQ3g2YlU5WkUxRVZCdGhGNzZRd0IxT3R6WlRVbzNjdDFjTFVtVnFzX2x1YUE?oc=5"
         },
         {
-          "title": "ABVX Stock Rockets 28% After Abivax Eases Drug Safety Concerns With Fresh Clinical Data - Stocktwits",
+          "title": "$SOC stock is down 48% today. Here's what we see in our data. - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc0FxVTNVaGFuVl81UDM1Rk9OdjNqQjFaOWN6cEV5T2tiNFU2Zm9aZk0yZGFjUGxoTF9YSDRnOUVudlhzeXBfVmdwazFzWG80Y1hpTkRyWE9zeDlRSDdvbGdCaHlSVGdsRktZTnBwVXJJZlJRUEgyX2NYSUNIenJ2TGh6NnVZejFGLUltazhlNTFRNzd4dENSX3drd3ZVSTZRQmJ6Y3pQWTNoa1NjamdocWdNcmx3MWlNYU9hZ2VPYUNlc3pIcEJyRk1pQndkeGZnUnB0bjRtbnB3QWpuQ3hhdg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLXpZWkp0OVFHd0lUckxTUVVkMWhXVmxvRU9MWXJfeklhdV9Nc2FJQzU4M1lIV0Jnc01zR3lfRWN0Tk0wdUJYNGRtM254N3lSQWg0b2tNcHhsNDVVVWpGMlBudlVFelN4SkoxakI5Ym82c05yX0NqUDNvU2dPMlB4Z1E0c2duMEZEbFdpMVlZeWFsUlc2OUhRelVJM2RYSjNzYlE?oc=5"
         },
         {
-          "title": "Abivax’s ulcerative colitis drug shows benefit in hard-to-treat patients - Stock Titan",
+          "title": "SOC Stock Drops As Sable Offshore Unveils $1B Debt Deal - StocksToTrade",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWg2REh4MkJMYXlNVnJieFJBTnZ4eXlQYTFVbXlIVWVxZndXQ2FCN282UjR1cVAxMlBsb3BYNVk5cmtuTXpvakZidS1PblJ5eTU2SkdpUWJrYTdnMUFFSVZzM0FOWnViU1FNZ3dFS1dWbk9SV25JYmx2ZU11X0pUQ05PNlZmNHZKcm12eWluTEVDR2hxRmNLbXEtaUQ2RFZtY1FhMkMwai1GNlJUMmZLTmkzZFE5V1k?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01TkpQZHRXOUh0ZnNVN2pEM3A4SllqdWVJdGxtb0xFbE1QWllHcm8tYnM2ZG9KWFJ3dnUwcWlwbHA3LW1Qazk1QVp5N2VuZ08zMkxVRTBqX0xmQTJCVDNfdWJvLUY2YThCR3FwSmRCRG9IY3Z5WXk1VHY1TQ?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Biotech - Immunology",
-      "technical_status": "Pass",
+      "industry": "Energy - Oil & Gas",
+      "technical_status": "Fail (Avg $Vol $43M < $100M)",
       "verification": {
-        "status": "Discrepancy",
+        "status": "Unconfirmed",
         "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Abivax reported positive Phase 3 maintenance study results for its ulcerative colitis drug, obefazimod",
-        "discrepancy_note": "Source A (Finviz [3]) explicitly confirms 'Positive ABTECT Maintenance Part 2 Results for Obefazimod... Strengthening the Phase 3 Maintenance Safety Database', verifying all elements of the claim. Source B (Google News [1]) confirms 'positive Phase 3 ulcerative colitis data' but does not explicitly mention 'maintenance study results' or the specific drug name 'obefazimod' in its headline."
+        "primary_claim": "Sable Offshore priced offerings of common stock and convertible senior notes at specific dollar amounts.",
+        "discrepancy_note": "Source A (Finviz) confirms the announcement of 'Proposed Offerings of Common Stock and Convertible Senior Notes' (A[3]) but does not provide any specific dollar amounts for these offerings. Source B (Google News) provides specific amounts in B[2] ('$300M notes, $32.5M shares pricing') and a conflicting amount in B[3] ('$1B Debt Deal'). Since Source A lacks specific dollar amounts, the claim cannot be confirmed by *both* sources with matching specifics."
       },
-      "gates_passed": 5,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
         "gate_adr": true
       },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "AVAV",
-      "price": 139.0,
-      "gap_pct": 34.27,
-      "pm_volume": 200462,
-      "avg_vol_10d": 1938557,
-      "avg_dollar_vol": 269459423,
-      "mkt_cap": 6940824677,
-      "rvol": 1.5,
-      "adr_pct": 5.82,
-      "category": "Earnings",
-      "theme": "Beat & Raise",
-      "reasoning": "AeroVironment (AVAV) reported Q4 earnings that massively beat analyst estimates, revenue more than doubled, and backlog grew substantially to $1.2 billion, with the CEO citing 'unprecedented' defense demand.",
+      "ticker": "BE",
+      "price": 302.7,
+      "gap_pct": 7.88,
+      "pm_volume": 147514,
+      "avg_vol_10d": 17445240,
+      "avg_dollar_vol": 5280674148,
+      "mkt_cap": 86101164980,
+      "rvol": 0.85,
+      "adr_pct": 9.64,
+      "category": "New Contract/Partnership",
+      "theme": "Expanded AI Infrastructure Partnership",
+      "reasoning": "Bloom Energy announced a **$25 billion** expansion of its partnership with Brookfield to build and finance power for AI infrastructure, a fivefold increase from their previous agreement.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 78,
+      "conviction": 76,
       "grade": "A+",
-      "finviz_theme": "Drones",
-      "analysis_detail": "Catalyst: AeroVironment reported **Q4 earnings** that **massively beat** analyst estimates for both profit and revenue. Revenue **more than doubled** year-over-year. The company's backlog **grew significantly to $1.2 billion**, and the CEO highlighted **'unprecedented' defense demand**, suggesting strong future growth. | Impact: The strong earnings beat, exceptional revenue growth, and **record backlog** de-risk future revenue streams and provide clear validation of market demand for AVAV's specialized drone and missile systems. This fundamental shift positions AVAV for **sustained momentum**.",
-      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nAeroVironment **shattered** Q4 estimates, reporting an **adjusted profit and revenue** that **significantly surpassed** Wall Street's expectations. This **double beat** triggered a **20%+ after-hours surge**, reflecting the **positive surprise** and **strong operational performance**.\n\n• **The Growth (Momentum)**\nRevenue for the quarter **more than doubled**, indicating **robust demand** and successful execution. Crucially, the company's backlog **surged to an impressive $1.2 billion**, providing **strong visibility** into future revenue streams and demonstrating **accelerating business momentum**.\n\n• **The Guide**\nThe CEO's commentary on \"unprecedented defense demand\" acts as a **strong forward-looking indicator**, signaling **continued tailwinds** for AVAV's specialized products. This qualitative guidance, coupled with the **massive backlog**, suggests **sustained growth** and potential for **further upside revisions**.",
+      "finviz_theme": "AI Energy",
+      "analysis_detail": "Catalyst: Bloom Energy has **significantly expanded** its strategic partnership with Brookfield, committing to a **$25 billion** joint effort to develop and finance rapid power solutions for AI infrastructure. This represents a **fivefold increase** in the partnership's scope, addressing the critical energy demands of the burgeoning AI sector. | Impact: This massive partnership **de-risks future revenue streams**, **solidifies BE's position** in the high-growth AI power market, and **accelerates scaling** for critical infrastructure development.",
+      "analysis_details": "• **Impact**\nThis expanded partnership with Brookfield is a **transformative deal** for Bloom Energy, increasing the total commitment to a staggering **$25 billion**. The focus on **AI infrastructure** positions BE directly in one of the highest growth sectors requiring substantial, reliable power solutions. This dramatically **enhances BE's long-term revenue visibility** and market penetration.\n\n• **Strategic Value**\nThe fivefold increase in partnership scope underscores the **critical demand for energy solutions** within the AI industry and Brookfield's conviction in Bloom Energy's technology. Leveraging Brookfield's financing and infrastructure expertise with BE's fuel cell technology creates a **powerful synergy** that can rapidly deploy necessary power solutions, offering a significant competitive advantage in this nascent but rapidly expanding market.",
       "peer_tickers": [
-        "KTOS",
-        "LHX"
+        "PLUG",
+        "FCEL",
+        "BLDP"
       ],
       "headlines": [
         {
-          "title": "Biggest stock movers Tuesday: ABVX, AVAV, and more - Seeking Alpha",
+          "title": "Bloom Energy (BE) Expands Partnership with Brookfield, Shares Su - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVZyTUo0dVZMNUlLSjRkUTNRSWl0Zy1IUXhTOGQ0eWcwd2dpZ3dra3RyU0dDYUtONnpQQW8zYkVvVHlWdkVXSGZOUHB1Ui1NU3RLd1c3eFU0T0d2UllaZDBjUGVnLU1nZXBPd0JzYWdQNFV6bzJvdGE5WXJpQzJyel9vMUFRNkx6eDFrUHRn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHItUXFLUmxTY1p3YXJhN3ltalc2SFBMWlJ1TkFWX1B6OC16RnhHcmNfR3hvVlRHRTNJREVyb0JzaDdTSHR1RWlpNjZqWnZsU0tOeHpFbmw5UDhLdEtCMW5qUnE5RTFuMURZdlk0ZXlxNVNzRlB4T2tNSWJnZnFpUTl0R3htNy1FYUJqTE9QaXZmNHE3S1BsUUpla2xNNFZvQlJhTmk1Ty0?oc=5"
         },
         {
-          "title": "AeroVironment Stock (AVAV) Surges 20%+ as CEO Sees ‘Unprecedented’ Defense Demand - TipRanks",
+          "title": "Why Is BE Stock Surging Over 7% In Overnight Trading? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEczN0xpVXJocHQtdmlyX1I2TWJGTEtXMDRxUXdTM2tGYmRSeEVZellmX05renFwaUxmMV9wdjBkbS1JRlpJY0R6N2M2aHppMVppTkN4OXM0VmdlWFhwS25IT3pWdVFSajBZMzhFMGl4X1ZWV21ITmkxczRNcnVfZkg0YnlEU05fZHY2WUVUdXlQTXB5ZHVDZl9mR0xLam5RSnBHQnFQb2s?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUk9jVk1wZDZ6SDM0QTZQdVVNaklsN0xIcDA4bVNTbm9tSVJTUmlUREg0alhkNWRPbWJzSHFsY1B4RTZKRWNXNzNjVUV6elFzSlNMREV0TTFncUVjSldiRjhYd2tiNW5rQnEwUzVFcHhBQ0sxV1VhVEtzMXdoOEhZLS1HT3p4MVBkTXJVb0toT3Q2WHM?oc=5"
         },
         {
-          "title": "AVAV Stock Jumps 20% After-Hours — Q4 Earnings Soar Past Estimates, Revenue More Than Doubles - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdjFQUEY3UzhIWmpFbjlqMno3RjJpa0hZbjRndm54a2JfUFhGc3VCRUwyTmpINk5rejNuV1NBRktKT19XVi0yU0xyYTk1cW84bUk4WlROcFRCM2N5OEVkb0JISU5NTUl5LXVXLUtKNUF2aC1JSE5uYXJrU3NKUF8ycFo5bUdvMWQ2UkdGdmk4RWE2eEhG?oc=5"
+          "title": "FCEL Stock's Massive Rally Rolls On: Is Retail Adding Or Cashing In On Gains?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/36ff8bd9-cc9c-380e-b737-c1b4f9214f63/fcel-stock%27s-massive-rally.html"
         },
         {
-          "title": "AeroVironment soars 19% on earnings beat, backlog grows to $1.2 billion - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLXIxYlF5aVQ5UVd6SS02LWxlYmlnVmN3VE9IWkJzOTIybnpBLXZteWdwSUhyUEc3ZGxqaElraGIxYW51cTRlVVp3LU5uLXJGaVd4X2NTelBOX3hTSGtyQ2h2NXR2MmlHUzR5dktHVi1Bb0VqOTBkUjl5bEZRY091QUp5OGdOQTlhQ3BwZkFfV3BjazFod3E2Y3gtTUs1Y1UwNkIyVkhkSmrSAa4BQVVfeXFMTmZ2S2Exa2c5MTMxTW9mV2xXdmpvUjdhaE0wLVBid3paeUJWeGo0bVN0VDRIUEIzM1FFR09JVzh2SEp0bnlGMlV0SW1NNHRQZ2pleEZsWEpMbk5BNlJpT2N3bnJRR3lIUmFtNF9LaldLQVpMU0lDTExvR3hENlBiVnAyaTM5VVN5SXZOc0NNaXVyNVZvc2lHSEgxRjBibEx6RWNza1Vza1ZMYWpTUE1n?oc=5"
+          "title": "Why Is BE Stock Surging Over 7% In Overnight Trading?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/982398e0-fe2e-3188-bde0-6a1f0d1543d3/why-is-be-stock-surging-over.html"
         },
         {
-          "title": "AeroVironment Delivers Q4 Double Beat, Shares Surge - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS0ZyczE5QjduUUkxbDZ1UnZ0WlVDRmJMRDRqVHE5RlNCX1BHOFB0VjVjdFFqSlJTN1NhRGtKQnF4dmEzZHIxSjdfZXlOU3I1Z25RbUMzQ3EyeW1jOERzcVczWW1OR3VfM1R0Tnl3aHFjMmJuNWRiR1o4SnQ4NmUwbzhYYXNibzhrWC01b1FoT1M5RUhtb3dlNU9TaEpSM0FnVmZSdWZYRGkwSTQ?oc=5"
+          "title": "Bloom Energy Is Soaring Late. Here's Why.",
+          "source": "Finviz",
+          "url": "https://www.investors.com/news/bloom-energy-stock-soaring-ai-infrastructure-brookfield?mod=IBD_FV"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Drones",
+      "industry": "AI Energy",
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
@@ -142,8 +143,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "backlog grew substantially to $1.2 billion",
-        "discrepancy_note": "Source B (Google News, specifically CNBC via Google News) confirms the $1.2 billion backlog. Source A (Finviz) headlines do not mention the backlog amount."
+        "primary_claim": "$25 billion expansion of its partnership",
+        "discrepancy_note": "Source A (Finviz [4]) confirms the $25 billion figure, but Source B (Google News) mentions the expanded partnership (Google News [4]) without specifying the $25 billion dollar amount in the provided headlines."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -158,69 +159,69 @@
       "tier_label": "Major Catalyst"
     },
     {
-      "ticker": "ENPH",
-      "price": 48.34,
-      "gap_pct": 13.36,
-      "pm_volume": 504571,
-      "avg_vol_10d": 7240054,
-      "avg_dollar_vol": 349984210,
-      "mkt_cap": 6371125867,
-      "rvol": 0.7,
-      "adr_pct": 8.8,
-      "category": "Others",
-      "theme": "Index Rebalancing / Flow",
-      "reasoning": "Enphase Energy was reclassified across Russell benchmarks, causing forced institutional flow as it was dropped from growth and added to value indices.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Solar",
-      "analysis_detail": "Catalyst: Enphase was dropped from Russell Small Cap Comp Growth and Midcap Growth benchmarks, and simultaneously added to Russell Midcap Value. This reclassification shifts the stock's institutional investor base and perception. | Impact: This move could lead to selling pressure from growth funds and buying pressure from value funds, creating volatility and a mixed flow signal for a momentum name.",
-      "analysis_details": "• **What Happened**\nEnphase Energy was **dropped** from both the Russell Small Cap Comp Growth and Russell Midcap Growth benchmarks, while simultaneously being **added** to the Russell Midcap Value benchmark. This reclassification signals a shift in market perception from a growth-oriented company to a value play, leading to **forced selling** by growth-tracking funds and **forced buying** by value-tracking funds. Additionally, Louisiana State Employees Retirement System **bought** a new stake, indicating some institutional conviction despite the index rebalance.\n\n• **Key Consideration**\nFor a momentum equity, being reclassified out of growth indices is a **significant headwind**. This move could temper high-growth expectations and shift the investor base, potentially leading to increased volatility as passive funds adjust positions. The indirect news of joining an AI data center power rule effort is a **speculative narrative** and unlikely to offset the fundamental flow impact of the Russell rebalance.",
+      "ticker": "LUNR",
+      "price": 21.39,
+      "gap_pct": 7.01,
+      "pm_volume": 439720,
+      "avg_vol_10d": 13146588,
+      "avg_dollar_vol": 281205517,
+      "mkt_cap": 4642078102,
+      "rvol": 1.1,
+      "adr_pct": 10.07,
+      "category": "New Contract/Partnership",
+      "theme": "New Contracts",
+      "reasoning": "Intuitive Machines secured a new NASA contract worth up to $148.3 million for a lunar lander.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 77,
+      "grade": "B",
+      "finviz_theme": "Space",
+      "analysis_detail": "Catalyst: Intuitive Machines (LUNR) **secured** its **sixth NASA CLPS award**, a contract **up to $148.3 million**, to deliver a production-qualified Nova-C Lander to the Moon. | Impact: This contract **reinforces** LUNR's position as a key lunar service provider for NASA, adding a significant amount to its contracted revenue pipeline and demonstrating continued government confidence in its capabilities.",
+      "analysis_details": "• **Impact**\nIntuitive Machines has **secured** its **sixth NASA Commercial Lunar Payload Services (CLPS) award**, valued at **up to $148.3 million**. This contract solidifies LUNR's role in providing lunar delivery services, specifically for a production-qualified Nova-C lander, which is crucial for establishing long-term lunar utility. The funding extends their operational runway and provides further validation of their technological capabilities and reliability for future missions.\n\n• **Strategic Value**\nThis award signifies NASA's continued trust and investment in LUNR's capabilities, moving towards a **high-volume lunar utility pipeline**. The consistent flow of contracts de-risks future revenue projections and positions LUNR strongly within the nascent but growing space economy, particularly as lunar exploration intensifies. The repetition of awards signals a deepening partnership and potential for further scalability in lunar infrastructure development.",
       "peer_tickers": [
-        "SEDG",
-        "FSLR"
+        "RKLB",
+        "SPIR"
       ],
       "headlines": [
         {
-          "title": "Enphase joins 700-member effort to set AI data center power rules - Stock Titan",
+          "title": "Is Intuitive Machines (LUNR) Stock Too Expensive After New NASA Wins? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGROdUlVbnctM0QzZHB5RUw0aE5IZzY4aE43QS1kOFlJR2ljd1lodWExOFBPSUxISW9pUHU4YlNEQy1LbkJhV2pXaGtCbjlwWmtPWDNVR0VkcURBWTAyYWQ2ZGxqQnduQUZISWVnZHZwaVlVTUd4T0JaR3ZDU3NIOW9oTmJoZWxZZDFlaHphV2UtUUM0aHBWR0JPeGdST3d1SnBHNzRxV0s0OVpYMUtNcXFlWlNENU5PdXRybUVYRFE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT2dRNkpIbExmMEtOMklJeHJnMUdqUXdxU1VGX09HSm45UC0tZnhFX1pEMTN5WV9XVThpX2xoR2xQRFByS1ZmemU0MVlMc3BiMW9FMlkzaWo3dEo5Wnhra2xwdmJRMHVXbnRhZW1oYjU3MmFwd2V6aFZzTS1YbFlsZ0ZjRWJrZFBPNVJSdVNBVnRQRWNFSVp0UDVGWEI5bWM?oc=5"
         },
         {
-          "title": "Louisiana State Employees Retirement System Buys New Stake in Enphase Energy, Inc. $ENPH - MarketBeat",
+          "title": "Intuitive Machines Secures NASA Contract Worth Up to $148.3 Million to Deliver Production-Qualified Nova-C Lander to the Moon - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaGJFQm1UamIzV0FFUlNnOTc4QVA5TEtOQ0VseWMwaFFQUTY2Nk1mOFc0RjNaczVtZ25TOVJqZ3RTUHV3VjdLMnhzRGxLU2ZZemRWRWl2amZxUEF5ODFRcTZYeTJQVEVFWnY4WDJNV1FjSWduZlN5YWVybF9QUTYyVGJSWFFfUkJVUTR5N2JXNEdMRmc4OUllTVZsWFMtNXdXQm9LNzVQMlhfaEI4MldDeExOUmFoOXJXRi1yVkxmOVN4clc0c2FPSDJrMDBtQ2VlOWwzVGR2eWF1NlVyNDN3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQU0ZrT1ZNdDQ0VjlKVDh3TkU4ZjdfOVRxWHNCUzAyWVZiU3JIa2c0TlRQOFFWRmtIeU44WFVYWEVKR29jT1JXaHg5dllGQ05wU2g4bHBmSFp1Z25WYnl1aS1NMTA1bmRDa1R3Z3BITFNuWmh1RmtseHEwcm0xdlJoYnJHY1ZTcHl3dnh4Z2NOX0dEaURyUmFqXzJ1WEtoaHdiN3AtdERwcjBDcEdKazM4WVNSMmNZT0Zld2MxSzRxNGF0TG5PNDRXMEJSWm9xU0xnSUlJYWdpeEVWZmlIY1F2LTZ5MHJkX213d3JIR0UxMEdHdw?oc=5"
         },
         {
-          "title": "Enphase Energy, Inc.(NasdaqGM:ENPH) dropped from Russell Small Cap Comp Growth Benchmark - marketscreener.com",
+          "title": "NASA gives Intuitive Machines its sixth lunar delivery award, up to $148.3M - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVUplX1c5LWJPRTdZakpLVGZzUmx2UGlGaGpPdkFlaF95eWN1WUEydEdGVm1CSHRsb3J4cmxPSl9VMFEzZ0xlaW1NVWlkenY5dEJxbGtmOWRMbW5YQURVZTV2ckF0bjBlaUVSbjJHUy1LU1Y4cGhOU2MzMXBCQm40SmFmSm5OQWhPQlR6OHc1cnkwaUdVdlczU1BDSzBDTWNhMU1mSDdOWHhVdXB4dHJJRHZsTlpkOUd0STM2MXpGWG5QZWptT3Qta2pCOUFUd2h3MGNrQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdk83UG1VN0hrN0lhd1RHUTJNTUU0Z1R4Wm1ONUNsdG1OSFVQc1d1cHhPY0djNlRaUDJXZHZuNnFsbGJkODUzMWNyTGRVUXZKa3VxcEFVSlppTXZwYkpWamRoVk1nUFdEb0VrSklkNVN2TC1YSmhsZHFZeFJqRWJYSXJIb2dkazEyamRsbVBodElnQ0dXV1dUMVc5UGhrTjZiaDN1S1AyNGl0Zy10cVhhUDJQZjZFbF9TWXFyMGJ3?oc=5"
         },
         {
-          "title": "Enphase Energy, Inc.(NasdaqGM: ENPH) added to Russell Midcap Value Benchmark - marketscreener.com",
+          "title": "Is Intuitive Machines (LUNR) Undervalued Following Its Recent 6% Jump? - simplywall.st",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNUFGYmthNklkTXRicmxEVzhWTktMOXMzV01MMUR4b2FabnBBal8zRkZ2SUQyc2hTMUI3NEtwNVk4dE5OOWhMdFhNUzNZYnhKZVhxYWxlMzZZOFZQWkNJcTh6Q3R0S2pPQXZSNnNOMDhoTVlaVklKandCQUM0U2dwUlBSZk4xaHlkZUozeWRZNUVzNGJFZlJkRUw5a25zVHVPSlRTRVNmLVFvcGo0YWh2dDcyU0p1UGd4dkRmcEZ0RjVoZjg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbmNrTGdlTkk2TVpjN2x6eWxjQ1cwOEJJbDc2a1NkdU1EaVo4TFlKbUVKV1JYMXRzRUJSbE9yQm1USzZOV29wUFgzbFF2NkppRmctNmlibk96b3YySEtCZjRlWF9yV3VZVWNSR3UxZm1rN3h4czdmZFY3QllsejdlbXhfVzl6SDBJcFVSMTloN0FZWlZrVW9UM1JvcU4tU2xqV0xOcGpYVEh6empQbmpLTHBqQklidExtWjZuZ18wWXl2Z0RUYWpYY3hhTFRaczd4dkpKbmFadlnSAd4BQVVfeXFMUDZwWm5BN3NrQmZGUldUVmliMC1jTmYxSTNhTXBjalpjTDFBem12TmwyYnVsUS1BQlJiTWxNM1VOVWZVd0ZsQi1FbXUwSVJWbFhtRkl1djhUd2syT3VFNTFwTWtaUENQR3V3SF8tendMeGd4enRFTDhoTU1XWlBnM2J1V2pLN01rOWx0YVl2Y1NQbHg3NzhoeUZkSEdaZjFsMV9TTm1JOElMb2FwS2JqeTNiNVJvS1lZRDFKQnM0TmREZDhmNzVZR3ZSMWdma2lINDVhR2JZQ1dIS0Q3amtB?oc=5"
         },
         {
-          "title": "Enphase Energy, Inc.(NasdaqGM: ENPH) dropped from Russell Midcap Growth Benchmark - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEw1azlnRUY4eHRXYkxGQkxnTjF0Rk1sU2o1dVA2T1NoUVJBTFhPQ2Vma2J2dy1sZm9HUm5kMEtwaFRiSTNuVFZtZzJQTm9qdTFPc2hIcnBsMFBOWlNtOTlXTElGQjlwYUcwQ1FnbzNXWVRHWDZ1YURsR18ySDRGV29XNmh0WUhXVGxnX2J6ZU5HYjY2X3hDRi1YR1J1dWdiQTdOVUp2el91bV9tVXhMemktaGNMS3NydUwxU2pUWjZoZEswRG5VZndB?oc=5"
+          "title": "S&P 500, Nasdaq End Higher As Chipmakers Rally, While Dow Posts Best First Half In Five Years  LUNR, AMZN, PLTR, XYZ, AVAV In Focus",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/eedad62f-0987-3af3-8369-53a8f12e335f/s%26p-500%2C-nasdaq-end-higher-as.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Clean Energy - Solar",
+      "industry": "Space",
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 85,
+        "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Enphase Energy was dropped from Russell growth indices and added to Russell value indices.",
-        "discrepancy_note": "Source A (Finviz) has no information regarding the claim. Source B (Google News) explicitly confirms Enphase Energy was dropped from Russell Small Cap Comp Growth and Midcap Growth Benchmarks, and added to the Russell Midcap Value Benchmark, thereby confirming the reclassification across Russell benchmarks."
+        "primary_claim": "Intuitive Machines secured a new NASA contract worth up to $148.3 million",
+        "discrepancy_note": "Source A (Finviz) mentions Intuitive Machines securing NASA CLPS awards and lunar contracts but does not specify the dollar amount of $148.3 million. Source B (Google News) explicitly confirms the contract value of up to $148.3 million in multiple headlines."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -231,64 +232,141 @@
         "gate_adr": true
       },
       "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "AVEX",
-      "price": 17.94,
-      "gap_pct": 11.59,
-      "pm_volume": 178376,
-      "avg_vol_10d": 2602176,
-      "avg_dollar_vol": 46683037,
-      "mkt_cap": 2045908140,
-      "rvol": 1.2,
-      "adr_pct": 10.06,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "AVEX shares surged after securing a **$50 million** contract from the US Air Force for unmanned mission capabilities.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
+      "ticker": "FMC",
+      "price": 11.5,
+      "gap_pct": 6.96,
+      "pm_volume": 58938,
+      "avg_vol_10d": 5993134,
+      "avg_dollar_vol": 68921041,
+      "mkt_cap": 1438020983,
+      "rvol": 0.78,
+      "adr_pct": 5.79,
+      "category": "Institutional Buying",
+      "theme": "Equity Investment / Strategic Investor",
+      "reasoning": "FMC secured a **$400 million equity investment** from Tessenderlo Group for a **20% stake** at **$13.30 per share**, announced on June 30th.",
+      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
+      "conviction": 56,
       "grade": "C",
-      "finviz_theme": "Drones",
-      "analysis_detail": "Catalyst: Aevex Corp. secured a **$50 million** contract from the US Air Force for advanced unmanned mission capabilities. | Impact: This contract provides a **direct revenue stream** and **enhances** the company's strategic position in the defense sector, contributing to an **11% stock jump**.",
-      "analysis_details": "• **Impact**\nAevex Corp. **secured** a **$50 million** contract from the US Air Force for advanced unmanned mission capabilities. This direct revenue injection is a **positive catalyst**, triggering an **11% stock jump** today. The contract value is significant relative to the company's average daily trading volume, signaling a material financial boost and increased investor confidence.\n\n• **Strategic Value**\nThis contract **strengthens** Aevex's position in the rapidly expanding market for unmanned systems and defense technology. It underscores the company's expertise in specialized mission support for military applications and could **open doors** for further government contracts. The award enhances the company's long-term growth trajectory and market credibility within the defense sector.",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: FMC Corporation secured a **$400 million minority equity investment** from Tessenderlo Group, establishing Tessenderlo as a **20% stakeholder** at a share price of **$13.30**. This strategic deal was announced on June 30th and widely reported on July 1st. | Impact: This substantial capital infusion **strengthens FMC's financial position**, providing resources for growth or debt management, and introduces a significant **institutional partner** at a validated valuation, signaling strong long-term confidence.",
+      "analysis_details": "• **The Buyer**\nTessenderlo Group has committed a **$400 million** equity investment into FMC Corporation, securing a **20% ownership stake** through a private stock sale. This substantial capital infusion from a prominent institutional player signals strong confidence in FMC's long-term prospects and strategic direction, marking a significant commitment.\n\n• **Conviction Signal**\nThe **$13.30 per share** purchase price provides a clear valuation benchmark and suggests a floor of institutional support for the stock. This investment not only substantially **bolsters FMC's balance sheet** but also **de-risks** its financial position, potentially funding key growth initiatives or facilitating debt reduction and enhancing shareholder value.",
       "peer_tickers": [
-        "KTOS",
-        "AVAV"
+        "CF",
+        "MOS"
       ],
       "headlines": [
         {
-          "title": "Aevex Secures $50 Million US Air Force Contract; Shares Rise - marketscreener.com",
+          "title": "FMC Raises $403.2 Million in Private Stock Sale to Tessenderlo at $13.30, Targeting 20% Stake - TradingView",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV2xEVkl6STk0THgyYjNyaE1sUHNIelR4ajNadVdaUXBYOElONzJDTTNKN1Y1Wk9ndXBRZWJJT1l6d3dSR3ZHazcwYVdESUVQZjRpSVVzLVdZdDdXdXhaSThmUDMybUk4NmdZSWFlQzA1WHVfRUZjWGZUNkt2T0JQREJkSUlVYTRUeFl2OTZuSU9IRGtaODJmOWkwb1BoNjlKVFBwMzBVMEstSUc0U2dkWA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbHYtU2swUzc4SV8wOHcyYnZYcHlpRlhkdGVwVWtiLWZrblRxeHFvNEwtRWdCQzA0MmlKa1BlR3RHMjZFalBNXzVIZXpNYTFaOFcwQU1PT1JlTWVEZWdtNG50MUVHRXItODhPaHVsMUtKd2hmVERlR2NoY3FQY1hmN0pHLVJrZlRMQzJxbmItYWZiOXludWpXaG56N3k2Z1ZKQ0Rub1JoS3ozN2NtRTRwUDJxc2lNd1RTeUprVl81eGdNbHVzX25yZFJibXNMOERBZkI0SWhPUV9ONGVCU25GMzJmT1NxQQ?oc=5"
         },
         {
-          "title": "AEVEX stock jumps 11% on $50M Air Force contract win - Investing.com Nigeria",
+          "title": "Tessenderlo Group Invests $400M in FMC (FMC) to Enhance Sharehol - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0hLYUNyOW45SFNZV0lIelg3dUdUdG9MeDU2YVFIV05WbGNSUkN2UTg0X3I5VTZuLWczZXp6OThGT2taWHo1TzBPb3Y5aHYyRVJkZkZ4ZG5TbVRfY2F4alRTMjRfbGdZN3g4d0s3RU5Pbm1FLUdyeENvSV9nbDJObVFId0JRVEtXSm44Yk8zeVEwX3hUWGpMdzdSaU5lcWRsWWdVQ2ZaVEZodlRWdEMxcQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHB0TWpnTFZtSFZsM0xxYlJsWWVnejZyZDJabWQ5ZGNxWkhPTzI1UlhRY2ZoM1I2WjVlZDFwNjBZRVlpRWVyV3NLLTBSc1czNHRydVVrdjFNbjI3Zk1ZV01lR293RTBlS0xaU2VBV3A1a2RRaGJDNVZIMmZZSUo3bWxrZ3J5LUlKTDBMZUFYVjNIWGdadGhCa3UtTm10TXpZY3N0NWpLQQ?oc=5"
         },
         {
-          "title": "AEVEX Corp. Secures USD 50 Million United States Air Force Contract For Advanced Unmanned Mission Capabilities - marketscreener.com",
+          "title": "FMC to Sell $400 Million of Common to Tessenderlo Group at $13.30 Each - Moomoo",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPU1B3M2dwQXZFMTRYNldvT3hnQWF0aXVhMU1hNmVWQTNNNkJvTWFxMl9IUnllS1BaYzh3SFRKZndlbmpRZXBvS3dtblpZNTNOVlNYMDZjQnQydEJpVHNUeF9nV1JvbTk0WmNlRGdES2NLci13d09SU194RFM2YlBPeDduTnNIbzRzS25kNTJSYXRyekxTX2dRV053TjRBLUxCb2UtblRHdUJWd2wtcnV6YlBqQURseFpRTkduSkJLT2ZKVWNmb1g3WV9EUDBuaVl5SGdPeVR4WU0xNG8zWXIwOF8zam0xQ2c?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1l5Rl84LVl2d3Z0THVQd2RzbTZyckR4SjhsMjZnR3VHSTRNRkt5UzV1czcxekxqWVJXNnRhSlV1dUdSUFQ0OEIxTi01TmxCSXRqVWJ4TkVGWFdrMENSSzZJdDFXR2p1M19LbXVsN291WnFrTi13SXBlTFFMMDRjNGppZHg1TmZJekk3NURiWFNIb3cxQmM3RGVEbTY?oc=5"
         },
         {
-          "title": "AEVEX lands $50M Air Force award for unmanned mission support - Stock Titan",
+          "title": "FMC lands $400M from Tessenderlo in deal for 20% stake - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd3ktWVhpdXZUUjZjQlFlcjFZNFZBckRFSDFFOE02U1RBUXNHeWhGT3dOV2d2TUtUdmM3bUFMTVlDUHl0Y2xxbGJjTkJWeFc5YVM4UjVMNVRQdmZTejN3VjYyUElzOFZsZ2hWTjczVUpzRktDV1Q0VENhU3RyX1U1MVVUcmtURDRtRDFRMXVyX3M0RnE2YmtjX0p5ams2bUxuaUlfTjFiYzhSc1MzTDZDV3hqMnRCQ0p5?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3gybXF4dUZsZWpyRTdqeE9kMDNLVTZQN21GVlpnRi1BdFdpeGJ3ZkI4NU5KQjhIRDJOUDFvSkVlR1Yzcm00QWxRZGdnOEZTRDRUTVcxcVRwbkkySHRxRi1aR3lXeThBcExBR2Q5Vlk1MXhlTFZzbmRFUU82eFRrbzBLOE9NS183bEc1T01qMkJ3MEtqMG55NHdBd0N0UTRjUkdLck5hbHpMbHNNc0VzM2haSFpqMS1NVkpJ?oc=5"
         },
         {
-          "title": "AEVEX Corp.(NYSE: AVEX) added to Russell 2000 Index - marketscreener.com",
+          "title": "Tessenderlo Group to invest $400 million in FMC Corporation By Investing.com - Investing.com Canada",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbDg4bG1XUHJ3UWduY0V2d2ZLYk51ZkZEMlFkUjZveW9EaHJtcGMtQmxiZEJYa09wbTlkS2NfLXZ3TzRGeFBIQTlKNjU2ZHR2Vk1IQ1lBVFd3ZzVDMWZxcmYzOVBqZFBRcWJla0FQNl9Kb2FyS3phMzFlb3BrWXpNWklKd3M5em9QdV9hOWxuWXFvUEo0SFpyYURpTjlZenBydUZr?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVEdRZjBjeUU4ODMxeVFSYnJ6U1FiLTJ6ekJwY3FmYTBpVktCRnJ0Rm9WUmlyZUlRTjhfTkFhUjAzNmtJTlFuNXRzTi1WR1NJVnpXU0J2QlJINmhRNllDTEkyallwdTNmWGVmSGhrTnR4OVVyeVNLZzlPMjBRZDFJZTFycWN5cGI0Z2F1S29mNU12SnV0VThjbzdxeE8tRDRtREFBYXdOaW5oSUxFYTFsWHNQdUc0aUs2X0JZ?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Drones",
-      "technical_status": "Fail (Avg $Vol $47M < $100M)",
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $69M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "$400 million equity investment",
+        "discrepancy_note": "Source A and most entries in Source B confirm a $400 million investment. However, Source B [3] (TradingView) states 'FMC Raises $403.2 Million' in a private stock sale to Tessenderlo, creating a discrepancy in the exact dollar amount."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "KLAR",
+      "price": 20.24,
+      "gap_pct": 6.62,
+      "pm_volume": 243892,
+      "avg_vol_10d": 4855876,
+      "avg_dollar_vol": 98282930,
+      "mkt_cap": 7640759892,
+      "rvol": 0.71,
+      "adr_pct": 5.5,
+      "category": "Others",
+      "theme": "Litigation Win",
+      "reasoning": "Klarna stock is climbing following a Swedish court awarding its PriceRunner unit $1.97 billion in antitrust damages against Google.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Fintech - Lending",
+      "analysis_detail": "Catalyst: Klarna's PriceRunner unit secured a **$1.97 billion** antitrust damages award against Google from a Swedish court. This outcome significantly validates Klarna's legal challenge and provides a substantial financial inflow. | Impact: The **massive cash infusion** will materially **strengthen Klarna's balance sheet**, providing capital for strategic growth initiatives, debt reduction, or shareholder returns, while significantly **de-risking** future financial operations.",
+      "analysis_details": "• **What Happened**\nKlarna's PriceRunner subsidiary has been awarded a **$1.97 billion** settlement in its antitrust lawsuit against Google by a Swedish court. This monumental legal victory stems from Google's alleged anti-competitive practices in online shopping search, marking a significant win for Klarna and potentially setting a precedent for similar cases globally.\n\n• **Key Consideration**\nThis **substantial financial award** represents a direct and immediate cash inflow that will profoundly impact Klarna's financial standing. It provides a significant capital buffer, potentially **accelerating growth investments**, strengthening its balance sheet, or facilitating shareholder value creation following recent reports of Q4 losses. The sheer size of the award indicates a **structural shift** in the company's financial health.",
+      "peer_tickers": [
+        "AFRM",
+        "SOFI"
+      ],
+      "headlines": [
+        {
+          "title": "Klarna Stock Rises After Swedish Court Awards $1.97 Billion in Antitrust Damages Against Google - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQM0N1Tkl6TXBxMUQtN2s0VWtzd3cwXzM1X29vNmJXa3dmYnFWdjFEcFo1b2djbzNzTkhhbFdaajZfcWhvamNvYkpVMWRsOTNxMTB1bG5Sbmd2MVlmN0FoeDd0eGd3VWFFeXpHTlI0MjdUVTRubFVQWTJzd19hRHdXcWk2ZHJ1OXF4bGV1VHhVNVM4WFFMbGVlRThsVGVQSHBlWTcxNWplMDVEWkZnYkRLd2pIZ2RubDBSZTdzc19sR05jLVV1NVdBdlo4WGdMZVJ4ZHA2TTdqREVjN3hpTzFiUUNtSl9nLVl6eWVF?oc=5"
+        },
+        {
+          "title": "Klarna stock climbs after PriceRunner unit awarded $1.97B in litigation against Google (KLAR:NYSE) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY3pPMU1aeEU0ZHZaNG1YenFLWXViaWJaeHV2TmMxV0duWGtyVkRzdVZabXFXSHpLc001Z0RmRFBHUnlGMEV6ZS1DdUl1US1yRm90QlpSTDB1Y0o5WHlFeDRWaVYyTDd3b2JsMFlKcW1LZlgweDRWLVliZnM2bUd5VFpGMUFDSlV3ZC1vRlVua05DVHhoaDl5dW9lTjIyNE5GaWRvZTlCZFlTZ1NiVnNndy0tQXd1NEtMZ25jZk5Ebw?oc=5"
+        },
+        {
+          "title": "Klarna's PriceRunner win awards $1.97B in Google antitrust case - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdFZ0bmdfaWpRdExmV1Jub1FEZ1F1eUhTejZGTkJwbi0tcDZ4Zk1HZ2ZBbi1jdG5PLWl2Y0FoTTgwOTlRaWZKeUJkQUplWW9SRjl4TklfbnI1WmlLWDEtbnpveHZGSGEtbmN1cUw4NTFGbC10TURmdE43SUlVdFFEbmdPRVZidlUzdUtqd20wbUxBQUNaY3lNcXcwSWVtYWpJdDMwdk43R0MxS3ZqOXNoT0phZ3pRZC1TRmo5UA?oc=5"
+        },
+        {
+          "title": "Why is Klarna stock climbing today? By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYlZILW10dm4zQk9TUktuWDRWVGlfLVlqdnJyek5OUVhlUU9nbVRIVXl3T0F2QVFVOE5yeTUtVVg3Q211ZVFqT0Jzekh0VlNOR1dqRGtvNHhaMFlqTk8zWkJXbjNVUHQ3c1NEQWhQMEtyY3VzVzB0NEg2YW43ZHNhdUdpclJvUVd5cmVKbjUxMloyZGdOVVpJSG1GRQ?oc=5"
+        },
+        {
+          "title": "KLAR Stock Gets Whacked After Q4 Loss, Weak Forecast: Retail Investors Are Shrugging It Off - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVnlGWlJ1aVJwczBaUU1PVUNMZmEyZFZSa2poV0RuMkxOM1pSU3dIcl93aFZSZzJTVThpMW9XcTBtUHUwWWRZQTh4VWdtamdhbVVmRzBjTUh1WDRkczVCaHdfY1dxUmd6NFpXYnoxM1hnS29hQVEyNThwcXNIN2RpTzdyX3E0cEdYUmszVEpwVE9ZX2R0eW5pQUtBOU9YdlZXZWNTSU1QWEt4RTA1bUY2MVplZ1BzT3pmVksxdlFTTHplUUxkbUVMekwxckZRT2tMamZBNFBaVExsMmd5am9Mb2stVHNxWmJF?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Fintech - Lending",
+      "technical_status": "Fail (Avg $Vol $98M < $100M)",
       "verification": {
         "status": "Discrepancy",
         "confidence_score": 90,
@@ -296,8 +374,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "$50 million contract",
-        "discrepancy_note": "Source A (Finviz) contains no news or details to confirm the $50 million contract amount. Source B (Google News) consistently reports a $50 million contract across multiple articles."
+        "primary_claim": "$1.97 billion in antitrust damages",
+        "discrepancy_note": "Source A (Finviz News) does not mention Klarna, PriceRunner, Google, or any $1.97 billion award. Source B (Google News) confirms the $1.97 billion award in multiple articles ([2], [3], [4])."
       },
       "gates_passed": 4,
       "gates_detail": {
@@ -312,54 +390,184 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "SHAZ",
-      "price": 81.0,
-      "gap_pct": 11.1,
-      "pm_volume": 85115,
-      "avg_vol_10d": 1412707,
-      "avg_dollar_vol": 114429267,
-      "mkt_cap": 1356284343,
-      "rvol": 0.57,
-      "adr_pct": 13.58,
-      "category": "Institutional Buying",
-      "theme": "Strategic Financing & Institutional Stake",
-      "reasoning": "SHAZ announced the closing of a **US$1.6 billion strategic financing** and a **10% stake disclosure**, indicating significant institutional investment and capital infusion.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 55,
-      "grade": "A+",
-      "finviz_theme": "AI Enterprise Software",
-      "analysis_detail": "Catalyst: Sharon AI announced a **US$1.6 billion strategic financing** and a **10% stake disclosure** by an undisclosed party. | Impact: This massive capital infusion **de-risks** the company's long-term growth initiatives, provides a strong vote of **institutional confidence**, and significantly enhances its financial firepower.",
-      "analysis_details": "• **The Buyer**\nSharon AI announced the closing of a **US$1.6 billion strategic financing** round. While the specific institutional buyer wasn't named in the headlines, the disclosure of a **10% stake** by an investor implies a major institutional player has taken a significant position, injecting substantial capital into the company.\n\n• **Conviction Signal**\nThis large-scale financing and significant stake by an institutional investor represent a **strong vote of confidence** in Sharon AI's future prospects and technology. The **$1.6 billion** capital infusion provides a substantial war chest, enabling the company to accelerate R&D, expand market reach, and potentially pursue strategic acquisitions, significantly **de-risking** its growth trajectory.",
+      "ticker": "CCXI",
+      "price": 17.45,
+      "gap_pct": 6.02,
+      "pm_volume": 296983,
+      "avg_vol_10d": 4042016,
+      "avg_dollar_vol": 70533179,
+      "mkt_cap": 971965004,
+      "rvol": 2.86,
+      "adr_pct": 3.11,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow given the high relative volume.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 62,
+      "grade": "C",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Despite a recent headline referencing SEC filings and the stock edging lower, the current context of high relative volume (RVOL **2.9x**) suggests a significant upward move potentially driven by technical factors or institutional flow rather than clear fundamental news. This creates a high risk of a 'Gap and Trap' scenario without a solid fundamental anchor.",
+      "analysis_details": "• **What Happened**\nWith an RVOL of **2.9x** and an average daily dollar volume of **$71M**, CCXI is experiencing substantial trading activity. However, no specific positive news has been released in the last 24 hours to account for a momentum move; the only related headline indicated the stock was **edging lower** on SEC filings. This implies the current action is likely driven by technical forces such as short squeezes, retail interest, or larger institutional rebalancing, rather than a clear fundamental catalyst.\n\n• **Key Consideration**\nGiven the lack of a fundamental driver, the current momentum is highly speculative and susceptible to rapid reversals. The move could be attributed to a low float squeeze or algorithm-driven stop-running. Investors should exercise extreme caution, as sustained upward movement without a clear narrative often leads to volatility and potential profit-taking, making it a high-risk momentum play.",
       "peer_tickers": [
-        "MSFT",
-        "CRM",
-        "PLTR"
+        "SMCI",
+        "ANET",
+        "CRWD"
       ],
       "headlines": [
         {
-          "title": "Sharon AI Jumps Nearly 12% After Hours: What Is Going On With SHAZ Stock - Benzinga",
+          "title": "Churchill Capital Stock Edges Lower Tuesday: What The Latest SEC Filings Reveal - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVXQ3R2RCM2pNRVBqZldzVlFSbFBXUy1fMXZvRTI2UDNBdnJUdTBzS1NubGtIWU0talY0bGdyV1VSNGMtTjF3RUR6Ymxsek5SVXFVT0lSRHFQUnJjT3htOHlna19vY3hQRzZmRFJOSi1CVjZXUXk0RlBQcm5sY3V4a2Jfd0pDNjZlY1c3WVRzVW5EYmJyTHNTMV9xd01iSFlIaGdjbUxfTEo4WUxBUnBmNi1TcmN0UW5JYnYtb1NYckpLLVA4d2c?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWdkeXhXd2ZkNkhBa2JLdk5ybE5wb3pBYkF2ckRZQ0VicGlfaVBYM0JOQVQtTU9kX1ZzT1cyV1hXOUpWMXhaVHVJbl9GMWNsT2dETVhEcldIV25yRlp3OFNiRWNpQ0poVlh5NFNwOTBZUElucGYxSVljN3pHaE9DTHoyY0pXcXV1WHhpWEUzb1MzVjNxbzlVZGZjam9OVjhhcE1mODMxZDFLYWZDWUp4b0ZtNnhrUFFjLV8xenNhU1F5dHpuWDhKOEx5blNfclRJQ0pWWDJ3?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $71M < $100M, ADR 3.1% < 4%)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": "The primary claim states 'No immediate fundamental catalyst found.' However, Source B (Google News/Benzinga) mentions 'What The Latest SEC Filings Reveal.' SEC filings inherently contain fundamental company information that can act as a catalyst (even if negative). The existence of an article discussing these revelations contradicts the claim that no fundamental catalyst was found."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "OKLO",
+      "price": 52.33,
+      "gap_pct": 4.91,
+      "pm_volume": 354719,
+      "avg_vol_10d": 11004958,
+      "avg_dollar_vol": 575889452,
+      "mkt_cap": 9104947801,
+      "rvol": 0.75,
+      "adr_pct": 7.55,
+      "category": "Thematic Narratives",
+      "theme": "Nuclear Sector Optimism (due to DOE deadline anticipation)",
+      "reasoning": "Oklo is rallying amidst growing optimism in the nuclear energy sector, driven by anticipation surrounding the U.S. Department of Energy's upcoming July 4th reactor deadline.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 56,
+      "grade": "B",
+      "finviz_theme": "Clean Energy - Nuclear",
+      "analysis_detail": "Catalyst: The impending U.S. Department of Energy's July 4th deadline for nuclear reactor developments has sparked a surge of optimism across nuclear energy stocks, including Oklo. This narrative suggests potential supportive government action or policy clarity for the sector. | Impact: Speculative sector tailwinds are driving momentum, attracting buyers hoping for positive policy outcomes. The current rally is primarily sentiment-driven rather than tied to specific operational news from Oklo.",
+      "analysis_details": "• **The Narrative**\nOklo is experiencing a significant rally, aligning with broader optimism in the nuclear energy sector. This surge is primarily fueled by anticipation surrounding the U.S. Department of Energy's (DOE) upcoming **July 4th deadline** for reactor-related developments. Investors are speculating on potential favorable government policies or funding initiatives that could benefit companies like Oklo, which are developing advanced nuclear technologies.\n\n• **Explosiveness**\nThe current price action for Oklo appears to be largely driven by this **sector-wide narrative** and speculative buying rather than direct company-specific news. With an average daily volume of **$576M** and **7.5% ADR**, Oklo is prone to rapid moves on sentiment. While the RVOL is **0.8x**, indicating slightly below-average volume, the sustained rally suggests strong buy-side interest possibly linked to low float dynamics or growing retail attention on the nuclear theme.",
+      "peer_tickers": [
+        "SMR",
+        "BWXT",
+        "CCJ"
+      ],
+      "headlines": [
+        {
+          "title": "Why is Oklo stock rallying today? - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnpvNmVDR2RDTnpLZ05kYlI0SERRMC1wOV9VcnhlQmRWRlJOTVpDYnVCSVlLdnR6b01BWjV4MjJLamxzcUZCN243MUZUbDZHdXpHMnNVWTFWQVhSbXg3R254cUVTMlRpNzVQRmZaMjVhMXJ4T2lBZ2dHOXBmd2dTbGM5SW8tR0tLdXdqaUYxcmpxeHNNNEhlRTF3?oc=5"
         },
         {
-          "title": "Why SHAZ Stock Is Soaring Over 14% In After-Hours Trading Today - Stocktwits",
+          "title": "Here's Where Oklo Will Be in 5 Years (And Why You Should Buy Right Now) - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWTBaNktqcmt4d3lNWXhfQnVmbkxPekFUdzB5T2R5TXlLX2g1bGsyRWtvbW8xQVFjV1hfLTFMeWo1WEJnNEl5NGllYnlFOE1YejZIQnZIV0hHbnBUS3QwVFdYNVhrNjJETTQzb1VxREhkNTFnOWlTc29ZVjh1X0lhSnJybUtkQzNWTVd3bGxmdG9VVUdFZ2tTZVVyWHhSUDJTYUJhOUM5UGktN0ZCalYtb3hGQXl5MzRvbC1pZmQtandhNGhKdWp2OU14TXQzMWs?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWWpndG1aZWZLUTRaSFZzckhUT2FpS3FWaDB0NDhyN01NVDVGUVZHcU1HWW9PYkt6bjNWN1ZKa2gyZi1lUXRYcGs2U1lwbDNwamNWUDAtMDN0djZJTzBOQ3BpaS1IWnNBZFN6S1FTODZwNkVSMmN6TzhNeW1MMFlzNzNqVzdnRzUzSTIyczU4VGl0cEU?oc=5"
         },
         {
-          "title": "Wondering what's happening in today's after-hours session? - ChartMill",
+          "title": "What's Going On With Oklo Stock Tuesday? - Oklo (NYSE:OKLO) - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOV83VUw4ZW1XWlRHdmxIWVFuMEhOejdXUk15SzlCLVhpUzdQUG1DMHB0eXRBdng1T04tbjkxR0ZSQnlYQnFlT2hmck9RVkVVT2loN0hKN2pneWE5aUN5RlRFb2NaYXBjeU9NU2NKeDVBczJybUFpclZtSDRqRHlXcThUMWdGYzJkbGo3OEU2T1NDMzZNOGE3ejg5MkZXRklGTE1PbDYtM2FZSk0?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2s5cUY4ZHRpdmhFX3pBUkZPYnNUNDR1elZyX2U4ei0tc21nLVhYdnBPQnV4Tk55cXFxOUZsenAtSGd2al9uczZEOFJVMjBpdFdKYkpWYlFJV21SRTVfNGtiN1VhOWFLUGtuU0dfYVRYaGtGd2hiaTJlNXRMV1BuQUo2N19SZWxpUU01ZVRlNHN4QUZwV0xmMXdyTTFiTDY4ZGwtMGotaGRRRDJrNVh5bmdaY1A4SmJ6YVE3Y2ZpZzFXQWVlMlE?oc=5"
         },
         {
-          "title": "SharonAI Holdings stock jumps on 10% stake disclosure - Investing.com",
+          "title": "Why DOE's July 4 Reactor Deadline Matters to Nuclear Stocks - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY0k1Q3EyZ2tPQ2NhdG1HXzEwRl9sRUR1Y0JuX1NEMmkyV2dJNC1YXzZ4a3hsUFFzdXhTRUIyQU4zdkJfQUU5ajY1ekZfbzRLcDk3OGRkSlR0cE1DcmFiX1hBdkx2bEQtRGVqTXcxdkxPZGNVbFJaSFZMUGF0U0F1YWJZLTdWMVVDcjQzeHZPcXBsdmZPcnhEU3A4YmdqRmtzbUsxSzUweFdBeFZWRkttd0poOGM?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVlR0V3ViQl9vYkZZR192WHd3NzJYY284VU93NV93TmozTV9ZR1ZiRFY5YnZlZmxmUTI3U0xOdXZOek91ZS0tZ2RvaFhLV3ExekZIZlAtYXBkTmN2NnZUTGh5R2pYVU1uYjd3aG9EUWdMX0FCeXRYa3BUaWdMRC1nTnFjOEZPamc?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Clean Energy - Nuclear",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "July 4th reactor deadline",
+        "discrepancy_note": "Source A (Finviz News) contains no information to confirm the claim. Source B (Google News) article [5] explicitly mentions 'DOE's July 4 Reactor Deadline'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "NOW",
+      "price": 99.28,
+      "gap_pct": 4.87,
+      "pm_volume": 470790,
+      "avg_vol_10d": 25595514,
+      "avg_dollar_vol": 2541122630,
+      "mkt_cap": 102388257841,
+      "rvol": 0.65,
+      "adr_pct": 5.33,
+      "category": "New Contract/Partnership",
+      "theme": "New AI-driven Cyber Risk Management Offering",
+      "reasoning": "ServiceNow partnered with Accenture to launch an AI-driven cyber risk management offering, expanding its product portfolio into a critical growth area.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 75,
+      "grade": "A",
+      "finviz_theme": "AI Enterprise Software",
+      "analysis_detail": "Catalyst: ServiceNow and Accenture unveiled a joint **AI-driven cyber risk management offering** on June 30th. This collaboration aims to leverage **AI** to enhance cybersecurity posture for enterprises. | Impact: The partnership strategically expands ServiceNow's AI product portfolio, addressing a critical market need for advanced cyber defense and potentially **opening new revenue streams**.",
+      "analysis_details": "• **Impact**\nServiceNow's new **AI-driven cyber risk management offering** with Accenture represents a **strategic expansion** into a high-growth market. This partnership combines ServiceNow's platform capabilities with Accenture's extensive consulting and cybersecurity expertise, aiming to provide a comprehensive solution for enterprise clients. The focus on **AI** is crucial, positioning NOW at the forefront of intelligent security solutions and potentially **capturing significant market share**.\n\n• **Strategic Value**\nThis collaboration significantly enhances ServiceNow's competitive edge in the enterprise software and cybersecurity space, specifically bolstering its AI and security offerings. Partnering with a global powerhouse like Accenture provides **unparalleled distribution and implementation capabilities**, which can accelerate market adoption and **drive substantial new subscription revenues** in the robust cyber risk management sector. This move signals a strong commitment to innovation and market leadership.",
+      "peer_tickers": [
+        "CRM",
+        "ZS"
+      ],
+      "headlines": [
+        {
+          "title": "Nvidia Stock, Gold, and Oil: Where to Invest $100,000 Right Now - Bloomberg.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBabW5BTXVTcUtKTUJtX01JR2xiSUk0eUxuNmlpNGZWdHpRZFFWbGVpX3VkR05FamVNbEF0WlpZeXo2Y3hXeC1Yb0wyUEVWWnU2QUlOVkhiTHh0REF2QVlUZ0Q5YjZTYVpxeTdKTVNvUQ?oc=5"
         },
         {
-          "title": "Sharon AI Announces Closing of US$1.6 Billion Strategic Financing",
-          "source": "Finviz",
-          "url": "https://www.businesswire.com/news/home/20260629702191/en/"
+          "title": "SpaceX Stock Now Has a Price to Sales Ratio Over 115x. Is It Worth Buying Anyway? - The Motley Fool",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkhFcEpXc0hnZVVjekU1T2RYYk5hNm4zemZKMVY3SVV1Yk1JVHBSQnFRZDhLVXRvVWFWbi04Yk5KNmloSkZtenBPT2ZEQURTbDVnb0hrOTJyeVNMTGdSVkNqMTVWakowbVpQSllpaHc3c3AtMmY0ekRiUHBGU253aWlBX1hkY09PbXRoaVFoNHNPM1pneVpVXw?oc=5"
+        },
+        {
+          "title": "Jim Cramer says the AI trade has shifted — and these stocks are leading now - CNBC",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNW9aWWRzNFBNMW53anp6VWFqRnQ0OG5VWnhzSENZdFZNenRDVUQwaWxwN04zZFowZjhiRHhKUnJVWTRsTDJqcnBlMllmX2R1SGJrcU81VndNbjJNWmY3cEtJcUw1S3EyODBjTVFiQnBLNjhEby1zb29mX3NxOFBpUFlkbEdpb25sOWxr0gGQAUFVX3lxTE5VaTltamphSzljTnh0cXFIV21iWjNwSUdFV3E0MUlia1BOQXNrbzcxV2JkYnBpX2toNGpSNTF4dC0zYkNZRmRLOUVOajNWVlBuNU1nUFBNeTZhUGhwMm5oMnFkT29wTWl2MG5OUkNVRGRMRGVUcnowTXZoNDJzWmVLSG9SejlCaTlwU3lLLTVfeg?oc=5"
+        },
+        {
+          "title": "One Space Stock to Buy Today - InvestorPlace",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yZEhIeDJUV2llZ3lDSFdxdnkzNk5MWG5Od25KQlZoLVpZSDhBMUxiWDA5cHFRYmtXUnVCV2lDTHA5Zk9rOU1OWlNUVEo1dHUzX1d1a0VPbFFXSG9DT0JndnJTWWVuTW51WkpIUVh4aFM?oc=5"
+        },
+        {
+          "title": "Should You Buy Netflix Stock Right Now? - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSWhtam91QkdJSm9uOWlkU0U3S3VBQzh5YUZCNHZER1c3TGkxcDloUVNqVDVhZmdkSmZQSlJBNTJRVE52NVBrU1diaVhLWU1yNExYQVA3X0JvRTJRQlo2SENJWFNhaS1WemNxQVNoV2R1TTZRUmNHNnlWVXI0cGszakxPcy1XT2hpVzd5T19rcw?oc=5"
         }
       ],
       "float_shares": null,
@@ -369,89 +577,13 @@
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 95,
+        "confidence_score": 40,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "US$1.6 billion strategic financing",
-        "discrepancy_note": "Source A (Finviz) explicitly confirms 'US$1.6 Billion Strategic Financing'. Source B (Google News) headlines do not mention this specific dollar amount or financing."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SEDG",
-      "price": 55.36,
-      "gap_pct": 10.82,
-      "pm_volume": 107294,
-      "avg_vol_10d": 2590662,
-      "avg_dollar_vol": 143419048,
-      "mkt_cap": 3366895754,
-      "rvol": 0.72,
-      "adr_pct": 9.08,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "The 7.0% rally occurred on below-average volume (RVOL 0.7x), and while Wells Fargo initiated coverage, the absence of explicit rating or price target details suggests the move may be more technically driven.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Solar",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. A **7.0% rally** on **below-average volume (0.7x RVOL)** suggests a technical breakout or short-covering rather than a strong fundamental re-rating. The Wells Fargo initiation lacked specific rating/PT details.",
-      "analysis_details": [
-        {
-          "title": "What Happened",
-          "body": "SolarEdge Technologies (SEDG) experienced a **7.0% rally**, as noted by GuruFocus, raising questions about its valuation. This significant price move occurred on **below-average volume (0.7x RVOL)**. While Wells Fargo initiated coverage, the specific rating and price target driving this move were not disclosed in the available headlines."
-        },
-        {
-          "title": "Key Consideration",
-          "body": "The lack of specific fundamental news with explicit details, combined with the **low trading volume** during the rally, indicates a high probability of a technically driven move. This could be due to short covering, a low-float squeeze, or algorithmic trading pushing price without strong institutional conviction. Investors should exercise caution as such moves are prone to rapid reversals without clear fundamental backing."
-        }
-      ],
-      "peer_tickers": [
-        "ENPH",
-        "FSLR"
-      ],
-      "headlines": [
-        {
-          "title": "Is SolarEdge Technologies Inc (SEDG) Overvalued After 7.0% Rally? GF Value Says Overvalued - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXpyUExpbWZPNnZOazdMUzdYeF9FX1hVaDBEODczMV83alljVmgyYnBYYmNrcGVBdDl0bTJEMXREMXRlbHNuZVFySElyLUt0ZkVCT3lINHdhU1ZSWm5YSzhFSmYxXzVqTjBGWjRxdDJjbGRVY0xFVWY4bV9TX29rM2hvUUp6UXJOUU4zWGViSmJnREZSaUktUzc0N2JDeVJXV2U3N3RJczY1c3JvR0lLem1ZZS1QRWlfSHhPNmlWM2tTQQ?oc=5"
-        },
-        {
-          "title": "Enterprise value to revenue forward of SolarEdge Technologies, Inc. – NASDAQ:SEDG - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd1NuaE42VnhRQi1WOXZkUlB0Q2FCUHhBR1g3aFNLeEk2dkxCazNoOVRNLVp2SDR0ZnozQ0pkWWxHZ1Z4VEFHWTdBU0ZTZUdaR2QyUmxHOVdraG53TURheVMxN0JsaGMwUFBqR1FMQ2dZN2F1S3otR1RpTjdlaDZWTTRHeVVfb05iMG9BOEpmZHlWZ1p3UkVvbDhnOEp3RDlaMXdoalh2bDVyZDJa?oc=5"
-        },
-        {
-          "title": "Wells Fargo & Company Initiates Coverage on SolarEdge Technologies (NASDAQ:SEDG) - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU1BodE1LQWZ6bmw3ajgySnBEblFKYk1JeDVkT0UwSnc5RHFPUWszbE9RVjdtcWc3Q0VTR2Z4M2x1emlwTUhvU3hvUEZ0bVl5M1ZuYUVXcm1LMVJIYnY3dzlrNjBNQ0hXeHYzcHBKNTdZVWp0aHJnU1JCUl9mcUhWZlNKSDVkNHFxOUJmX3NyeUM0ekFoRnVEXzhBS1R1VDJGbnlPSGw3MkxDY2dpdUNDNGVXY3VjWEgyb2s4ZTl5LWFtLUhtSHA4MQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Clean Energy - Solar",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 75,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "7.0% rally",
-        "discrepancy_note": "Source B ([1] GuruFocus) mentions '7.0% Rally', but Source A (Finviz) has no information to confirm or deny this specific percentage."
+        "primary_claim": "ServiceNow partnered with Accenture to launch an AI-driven cyber risk management offering.",
+        "discrepancy_note": "Only Source A (Finviz) mentions 'ServiceNow, Accenture unveil AI-driven cyber risk management offering'. Source B (Google News) contains no information about ServiceNow, Accenture, or any related product launch."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -462,1323 +594,161 @@
         "gate_adr": true
       },
       "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
     },
     {
-      "ticker": "UMAC",
-      "price": 19.23,
-      "gap_pct": 10.4,
-      "pm_volume": 167551,
-      "avg_vol_10d": 4757018,
-      "avg_dollar_vol": 91477456,
-      "mkt_cap": 919077106,
-      "rvol": 0.83,
-      "adr_pct": 12.66,
-      "category": "Institutional Buying",
-      "theme": "Index Inclusion",
-      "reasoning": "UMAC added to the Russell 2000 Index, triggering forced buying from passive funds.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Others",
-      "analysis_detail": "Catalyst: Unusual Machines, Inc. (UMAC) has been **added** to the Russell 2000 Index, graduating from the Russell Microcap index. This inclusion was announced on June 29, 2026. | Impact: The move will trigger **mandatory buying** by all passive funds tracking the Russell 2000, creating a significant, albeit temporary, demand imbalance for UMAC shares.",
-      "analysis_details": "• **The Buyer**\nThe primary buyers will be passive investment funds and ETFs that track the Russell 2000 Index. These funds are mandated to hold the constituents of the index, creating a period of **forced buying** as they rebalance their portfolios to include UMAC. This buying pressure is predictable and substantial, providing a near-term floor for the stock.\n\n• **Conviction Signal**\nInclusion in the Russell 2000 signifies increased institutional visibility and liquidity for UMAC. While not a direct fundamental endorsement of the company's operational performance, it does highlight the company's growth and market capitalization reaching a threshold recognized by FTSE Russell. The graduation from Russell Microcap to Russell 2000 indicates a **positive trajectory** in market standing, potentially attracting further active institutional interest.",
-      "peer_tickers": [
-        "RCMT",
-        "AAON",
-        "MODN"
-      ],
-      "headlines": [
-        {
-          "title": "Unusual Machines, Inc.(NYSEAM: UMAC) added to Russell 2000 Index - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpVdGtKX09Eak5NWlVrd29kaGZ6b2FvOFBEWllIcVB1NzR4bTM5dTBMYUZ0RU1qVm1Eb0YtejhkdUJqVDZHZEJ2aXBoV21oUVFEd3VybC1kTVc0ZXNGbGw3Y1F5RjlVdkdJQUlEZVVMeHcyZVMtSFlhbjRPcXVXU3llUkpvMnlUWkxuQnQyU21wcTJWQlFSTng4WjNaTmo4MTVRUDFVZ1Buajh0SERJMGpFYw?oc=5"
-        },
-        {
-          "title": "Unusual Machines moves from Russell Microcap to Russell 2000 - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRVZtUHlScDhFUFlzUS1VSUpRRV9FdWVnQzFHSzNKNUk5dmxFZkxWRDJjMjJCal9pc2NuTzcxbFBoeUdWNzF2cXFnMHZMdHhSeE1zR21nb0p1SmU2eEZjbmJfWnhzNUs4R3dNaDl4ZWttZjlVeXBQVFJXYnR4QWpLay12ZEZfVTU2QWJEVFc3UEF3VU11T1M2UlA4WQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Others",
-      "technical_status": "Fail (Avg $Vol $91M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 85,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "UMAC added to the Russell 2000 Index",
-        "discrepancy_note": "Source A (Finviz News) provides no information to confirm the claim. Source B (Google News) explicitly confirms the claim with multiple headlines."
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "RDW",
-      "price": 11.69,
-      "gap_pct": 10.01,
-      "pm_volume": 2080215,
-      "avg_vol_10d": 34377981,
-      "avg_dollar_vol": 401878598,
-      "mkt_cap": 2791868217,
-      "rvol": 0.77,
-      "adr_pct": 11.14,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "Redwire secured a new uncrewed aircraft deal with the Taiwan Coast Guard.",
+      "ticker": "GIS",
+      "price": 34.8,
+      "gap_pct": 4.6,
+      "pm_volume": 118463,
+      "avg_vol_10d": 11460047,
+      "avg_dollar_vol": 398809636,
+      "mkt_cap": 18572106771,
+      "rvol": 1.19,
+      "adr_pct": 2.65,
+      "category": "Earnings",
+      "theme": "Beat & Focus on Organic Growth",
+      "reasoning": "General Mills reported Q4 earnings with sales topping estimates and a strategic focus on organic sales growth.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 76,
+      "conviction": 77,
       "grade": "B",
-      "finviz_theme": "Defense & Aerospace",
-      "analysis_detail": "Catalyst: Redwire secured a new contract with the Taiwan Coast Guard to provide uncrewed aircraft, announced today. | Impact: This deal validates Redwire's technology and expands its reach into the international maritime defense sector, potentially boosting future revenue and backlog.",
-      "analysis_details": "• **Impact**\nRedwire has **secured a new contract** to supply uncrewed aircraft to the Taiwan Coast Guard. This deal signifies a **positive development** for the company, expanding its footprint in the international defense and security market. While specific financial terms were not disclosed, such government contracts typically represent **stable revenue streams** and validate the company's technological capabilities in unmanned systems.\n\n• **Strategic Value**\nThis contract strategically positions Redwire within the growing market for unmanned systems in maritime security. Partnering with a national entity like the Taiwan Coast Guard can **enhance Redwire's credibility** and potentially lead to further opportunities in both domestic and international defense sectors. It diversifies its revenue base beyond core space applications, tapping into the broader **defense and aerospace** segment.",
+      "finviz_theme": "Consumer - Packaged Goods",
+      "analysis_detail": "Catalyst: General Mills reported Q4 results where Q2 CY2026 sales **topped estimates** and adjusted results **matched expectations**. The company also signaled a strategic pivot towards **organic sales growth**. | Impact: The **sales beat** and emphasis on **future growth** provide a strong fundamental basis for continued positive momentum.",
+      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nGeneral Mills delivered a **strong Q2 CY2026 sales performance**, **topping analyst estimates**. While **Q4 adjusted results matched expectations**, the market is likely reacting positively to the top-line beat, signaling robust demand for its consumer staple products.\n\n• **The Growth (Momentum)**\nManagement highlighted a strategic shift, announcing a **renewed focus on organic sales growth**. This narrative provides a **clear catalyst for future momentum**, suggesting efforts to drive internal expansion rather than relying solely on acquisitions or market share. Investors are likely optimistic about the potential for sustained, high-quality revenue generation.\n\n• **The Guide**\nAlthough specific forward guidance details are not explicitly outlined in the headlines, the company's stated focus on **organic sales growth** implicitly sets a positive outlook. This strategic pivot serves as a de facto **forward indicator**, suggesting management's confidence in achieving internal growth targets and improving profitability.",
       "peer_tickers": [
-        "LMT",
-        "NOC",
-        "AVAV"
+        "HSY",
+        "MDLZ",
+        "PG"
       ],
       "headlines": [
         {
-          "title": "Redwire lands uncrewed aircraft deal for Taiwan Coast Guard - Stock Titan",
+          "title": "General Mills’s (NYSE:GIS) Q2 CY2026 Sales Top Estimates - StockStory",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTVRmUEs1NGZ3OVA1WmRMS1ZveGJwb2FURGU3YmFvNVdaWVhpLXo1RVp1aTV5STQtdUxWZE9nQlBoZHlYTkpmSTU0M2ozMnd0M1JWMFBpNk9oNWRfSGZDcUhPOHRxWDFWaGJDV3lfU1lIeXJvYVRvSC1QdnNKdEpPbUhRZXdLZzVvdG5fTzBCbTBCVDgzZWs4TFlxMFNTZWlFc0Q4RWJxcDhjWmwtYkc3cV9EeUlOYW4zb09z?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0ZheVpzeDdCcDFhWHptei1wRHhlN01hejY0Z2tXQUpOV0JpSGxmN0YteGI3RzdwQ2VUaVlMZHBtQ1lIb0gwbHF3ck12TFgyUS1pYjlWbkpvZi00MHJ0dERFaFlYNXo4M0RPQkdHY09WNmw0YWY2STk3OGd5Z1MwbkhLaXJYQTM3NnBnSXM1LTZtMzFCY3NaVXBFekR1SWNhTHRRbHE5eWJablpO?oc=5"
         },
         {
-          "title": "Signal Law Group Issues VRS Bulletin on Redwire Corporation (RDW) - USA Today",
+          "title": "General Mills (GIS) Reports Steady Q4 Revenue as Focus Shifts to Growth - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMUw1RXMtMXBBbEwzUjJ5Q0hWeGozcEE1eHNCQ3J6enF1ZzVDbG9vWjMxLUR4eEtybFVZVTJIVzJETG11VFpNNkxXZDRSUGxONGE2Z2VvbFAzWjJqdTN3VzVpTHZhOHZ1ejVZU1ZQN0M5OUJyekliWjRqczZ5TW9aWmZiUWZpaG5ha0ZENXJweTVCZ25FSk1rZ3dsUXlrMUhmT2YxTjE2Tkd6RnJXSldfbjNDLV9tZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWU9sTTR2NXFtUEppOEtURGVYTnZvVkxaX19lb3lCa1dCQ0laZHJpMGszTDViVEk1WWpzdU5xbUZScC1DeDBVcWpYdFdrV1d6RjhreU5PSFpMWXYyVnNtLUxvaVRIb0NoVlpYMjljMFNJMnhNQkRsZWR3ZG5YakcyYnFLUS1iY184eWNtanJHSkUwUlhCZ1UyT2c5M29Ga2RWUUFNMVAwczRzWXdT?oc=5"
         },
         {
-          "title": "S&P 500, Dow, Nasdaq Futures Slip After Rally As Trump-Xi Talks Take Center Stage: NVDA, MU, ONDS, RDW Stocks In Focus - Stocktwits",
+          "title": "General Mills Stock Rises on Earnings and Says It‘s Focusing on Organic Sales Growth - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUG03MHFZeGh3VGJrZmVqXzQ5b1FrdkVzTF80UUp1SE9xWm1XTGRBWF9kNzdmbzVBek9pNk5FblBDUzMtUEw3ZjFMNllFd0VodUx1b2JmTk9WMDE0anB2TU4yX2docWVpWER3aG9ZOWRxeUtDQUFnWHJIZHg4UG04V0JiZ1FTNnhPTFprY0JseXozbUpxVXoxR1VoTU0zbEhGWWxPckdvbGlsQkM2ZDNMaTFtMThuS3k2UXlIX3N5aTBicnl3SVE5QlU3bGtEamZvekZUSU52dTI?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeTE5RnY5SDA1SktVVl9lUU1CdGkwMkw2QlFYVFRBVzZCY0I4X1JwcHRQdjRFdFBsaVJ3ZDJ0aXZvTWpwbTJ4RTdqaG13ZHlBbGxvcjJkdUJPV3h2cGFLYWpYMkpINHVKbzhyUnYyV1dBaFU5NTQ0WkxYZWExOTdWcS13?oc=5"
         },
         {
-          "title": "$RDW stock is up 5% today. Here's what we see in our data. - Quiver Quantitative",
+          "title": "General Mills says Q4 adjusted results matched expectations - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3VfcXk5NFgtbWFQQzdTQkx2dkZHMmhxUDYxdkZiT0FnMFMyeWxlSk5jb1BNdkZ1TjFvQ1NiSU9BX1oyVW1GN1RGRFpaZGtqNXcwc3NxZDFBcktxYXdFV015OXp2cExEc1hsb3F2SlNqSV83WlBzWjZoNGtLdG94WE9QUTQ4bGozYU5MVWR6N0RTakx6Q0FRNVFQdnJ0dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTEJHWXUtSjdHYkhVb0R5QmhuQzUwM2NCNWJSSkFCS29RckRuTENwOWF6NXA1c05lMDc5Sno1anlCQV83aFFRR2xObGpQdm1zRFRjSmtzeGVBSDFhdndBa2Jpc3pwbW5GM25LSE10el9FTW5EaFB2NFVCZjlnUW1vTGx0THplaTNXMnBuZTMtdVI0T0JrT1VHTy1hU2xkN1ZaMkZFdy0zVWpNOVN0N2UyYzcwYmdQQWFCbWswQ1dONA?oc=5"
         },
         {
-          "title": "RDW Stock Has Slumped More Than 50% Over The Past Month – This Short Seller Still Believes The Shares Are Overvalued - Stocktwits",
+          "title": "General Mills, Nike and 3 Stocks to Watch Heading Into Wednesday - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaXpUWGlOa1J4dHNrQVE5RkhfTE1GS1FFUGFtbWxidUhSend6N0ZRUmZTbEJ3YWQ2a1JwMWVReHE5cE1ZZmxBZGp5aWMxOGZpeGVXRXU5eDQ5eEw1MWlEOHZVNDBaU3gzV3E3RUNBTFVnSC1xRGJ1OUtIV1c3QTMwY2cyenIxaVU3eVJNNmwxSHlsSHlPcGx1anNxVmtBWnhOeUlYenNScEt3Rno5Uzd4REp0UTVaRXEtdTA0SG1R?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMkMzYjBuUmF2b1VDLVotYkoxeTVibHNvYmhHUll5OC1tMFpZR3FFWkhZb0hCai1FYmY3RG94V3ZEaE93X0VvUm1yWmJBSUNlS2FzUFgxZDVKT0J0QkdHczJfNHNYdURvRGFuckp2RmRBVFoxWk9pb01lRzZfYXVac013UTkyM0lMT1lTTl9rYkNic1ZIUXJMWTBMMTdPYUpsQl82SHpISGlraldyYTV5QlBvVHhRQjhiajJleA?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Defense & Aerospace",
-      "technical_status": "Pass",
+      "industry": "Consumer - Packaged Goods",
+      "technical_status": "Fail (ADR 2.6% < 4%)",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 60,
+        "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Redwire secured an uncrewed aircraft deal with the Taiwan Coast Guard",
-        "discrepancy_note": "Source B (Google News [1], referencing Stock Titan) explicitly states 'Redwire lands uncrewed aircraft deal for Taiwan Coast Guard.' However, Source A (Finviz) does not contain any information about this deal, focusing solely on RDW's stock performance and short seller sentiment."
+        "primary_claim": "General Mills' Q4 sales topped estimates",
+        "discrepancy_note": "Source B [1] states 'Q4 adjusted results matched expectations', which contradicts the claim that sales (or overall results) 'topped estimates'. Source A [1] mentions 'Q4 earnings' but provides no specifics on sales performance relative to estimates. Source B [2] mentions sales topping estimates, but for 'Q2 CY2026', not Q4."
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": false,
+        "gate_price": true,
         "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": true
+        "gate_adr": false
       },
       "meets_all_gates": false,
       "tier": "T2",
       "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "GMAB",
-      "price": 26.02,
-      "gap_pct": 8.8,
-      "pm_volume": 79034,
-      "avg_vol_10d": 1679006,
-      "avg_dollar_vol": 43687736,
-      "mkt_cap": 15649362795,
-      "rvol": 1.32,
-      "adr_pct": 2.27,
-      "category": "FDA",
-      "theme": "Positive Phase 3 Trial Results",
-      "reasoning": "Genmab reported positive Phase 3 trial results for Epcoritamab, showing statistically significant improvement in progression-free survival for DLBCL patients.",
-      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
-      "conviction": 22,
-      "grade": "C",
-      "finviz_theme": "Biotech - Oncology",
-      "analysis_detail": "Catalyst: Genmab announced **positive Phase 3 trial results** for Epcoritamab (subcutaneous bispecific antibody) in combination with lenalidomide, demonstrating a **statistically significant improvement** in progression-free survival (PFS) in patients with relapsed/refractory diffuse large B-cell lymphoma (DLBCL), reducing disease progression risk by **60%**. | Impact: This strongly de-risks a key pipeline asset, opens up a significant market opportunity in a challenging indication, and is a major step towards regulatory approval and potential blockbuster revenue.",
-      "analysis_details": "• **The Drug**\nEpcoritamab (Epkinly/Tepkinly), a bispecific antibody, demonstrated **positive Phase 3 trial results** in combination with lenalidomide, showing a **60% reduction** in the risk of disease progression or death. This outcome was observed in patients with relapsed/refractory diffuse large B-cell lymphoma (DLBCL), a critical and challenging patient population.\n\n• **The Significance**\nDLBCL is an aggressive blood cancer, and treatment options for **relapsed/refractory** patients are often limited. A **60% improvement** in progression-free survival is a **clinically meaningful** and **statistically significant** outcome, positioning Epcoritamab as a potential new cornerstone therapy. This success significantly expands the drug's total addressable market and de-risks its path to regulatory approval and commercialization.\n\n• **Risk Profile**\nWhile the Phase 3 data is overwhelmingly **positive**, the drug still requires regulatory approval. However, the **strong efficacy** demonstrated for a serious condition substantially **reduces regulatory risk**. Future considerations will involve commercial execution, market adoption, and competitive landscape in the evolving oncology space.",
-      "peer_tickers": [
-        "REGN",
-        "MRNA",
-        "GILD"
-      ],
-      "headlines": [
-        {
-          "title": "Genmab (GMAB) Reports Positive Phase 3 Trial Results for Epcorit - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY09XUmhtazhQSWZoTGRselR2WW1xankwQno4Y1I1V3BTT21JMklub3NzUktMZWp6RXlyclpMaGZkbmFEZ2NJc3NSUmE1TlplNE80eHVyWkFQYy1xTmpYcENpcmUzVmRfRzZtd2Nna3JOM2huUzNFV0s0MDJmdTU5cmNGZmg4TUpwMHU2cTVucjhpTWM3a0MtQkYzb3lybEl6YVJyaTlNWEY?oc=5"
-        },
-        {
-          "title": "Genmab lymphoma trial cuts progression risk 60% in phase 3 study - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNckZUcExPdF92eDZNTC1FamFmaUhwUUFiYTE0OGVxN1FoVFFUMHo4ZEJGS05ZNzFDaTB5RkxnT05lZVplV3BjVWtKVDdHZ3kyMEVNdjJVWWVSSVFhellVR19xRy1TZkd4Q0Q2aktLMThLRGpEYUtjdjdkYkhhUTR4WTRqSTBSempudWxiaWVpbGgzY3BUb3hCYXJ3VE92Ym9ZcDRqWmdQZll1SUhralprczkzeGwwVi1w?oc=5"
-        },
-        {
-          "title": "Genmab Announces Positive Phase 3 Results for Epcoritamab Plus Lenalidomide in Patients with Relapsed/Refractory Diffuse Large B-Cell Lymphoma, Demonstrating Statistically Significant Improvement in Progression-Free Survival",
-          "source": "Finviz",
-          "url": "https://www.businesswire.com/news/home/20260629433290/en"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Biotech - Oncology",
-      "technical_status": "Fail (Avg $Vol $44M < $100M, ADR 2.3% < 4%)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "60% reduction in progression risk",
-        "discrepancy_note": "The Finviz source does not mention a 60% reduction in progression risk. While one article under Google News (Stock Titan) states 'cuts progression risk 60%', the other Google News article (GuruFocus) does not provide this specific percentage."
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "ONDS",
-      "price": 8.02,
-      "gap_pct": 8.6,
-      "pm_volume": 2771217,
-      "avg_vol_10d": 63089063,
-      "avg_dollar_vol": 505974285,
-      "mkt_cap": 4172716072,
-      "rvol": 0.95,
-      "adr_pct": 8.1,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Drones",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo specific **new** fundamental news was released in the last 24 hours to justify a significant price movement. Recent headlines discuss existing narratives such as **defense orders**, a **Lockheed deal**, and the **Cyberhawk acquisition**, but these are not fresh catalysts. Negative sentiment regarding valuation and dilution was also present, suggesting a mixed bag of stale news.\n\n• **Key Consideration**\nGiven the absence of a clear fundamental driver, any significant price action is likely driven by **technical factors** such as a low float squeeze, short covering, or institutional flow. This creates a high risk of a **gap and trap** scenario, where gains are unsustainable without underlying news. Investors should exercise caution, as the lack of a catalyst makes the move highly speculative.",
-      "peer_tickers": [
-        "AVAV",
-        "KTOS",
-        "RTX"
-      ],
-      "headlines": [
-        {
-          "title": "InvestingPro’s Fair Value predicted 41% drop in Ondas stock By Investing.com - Investing.com Canada",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcDlpbkliMDg2VXdfYzlMVzdncUhWYnZuU200Tl9rU2NiZ0hub0dLV0JFNXRJYzFWLTBBbHFLRU9hQlFpbVFVekJQaDZ4c2pCbnRXdGhHRU04ZUpUZXo4dGdWeHFCRTE1eE1qSVgxVEV1UzdzV3hacWRsWVMwZWEwaEg3VGFlSkNROHBRVmxDSkczQU9EY21SVnNjejh4bVlXWmZ4ZVFrQTVjdThsUXRjVXhSalBsMzVKVGc?oc=5"
-        },
-        {
-          "title": "Ondas Stock: Real Growth, Real Roll-Up, Real Dilution (NASDAQ:ONDS) - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVl94dEpwMGhmeHVUSmJBQ0dLS1pyQWJmTkpJQVZzaXVaNi1WdkplVTE4X1h0Y1NOdkoybXh0TWo4bV91aUtaV3JZNlZWVWxpaGcwNzROR2xmcFJpZnRqM1FCem5xMUdYQm16eWJENGU1b0VmTUNNX3ZjOWg2VXNpemIxdEdrR3IzNkN5Qll3?oc=5"
-        },
-        {
-          "title": "Goddess Tutorial Onds Stock (mro4WLA3sE) - Mshale",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ETTF5Tk9QNGdkbVp2bTFabGRseXpra3JDcEZBQlF0ZWxRaVMwV2Y5Qnd5X2g4d3BTeUlnUXdpUWFyYkh2N1dMZzg1YVY5SDZKQjhyZ1lTQ3Z5ZU0?oc=5"
-        },
-        {
-          "title": "ONDS Stock Rides Defense Orders, Lockheed Deal, Cyberhawk Buy - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OWXdBWUZMZ0V3MmxBcEZBcV9zaXo0MmxzUGJSUFo4ZG4zb0VRRk9VT3YtZnhlbjlDVFFUQXZJd1MtaHM2OUJOSU1rVHNvS2ZxQ0xKX01wNEczcDRzY3VxX0Jld1h0QzVmWDFSYnFvc0N1NHM?oc=5"
-        },
-        {
-          "title": "$33B Opportunity + World Cup Deal?! ONDS Is JUST Getting Started Ross Colton (mxBHz2RNXs) - Mshale",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYQmduRkRWU3Vqa1k0M0xacms0dG40YmJ0bHo4STF0NXh0OWdsZXRjbTM0RnZZbzhsY2RqeFJZMWktNWdBZ3RnY0lTTzhwcTlKV1U3VWkwbnJLTHc?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Drones",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found",
-        "discrepancy_note": "Source A (Finviz) has no news, which supports the claim of no immediate fundamental catalyst. However, Source B (Google News) includes headlines that suggest potential fundamental catalysts, such as 'ONDS Stock Rides Defense Orders, Lockheed Deal, Cyberhawk Buy' [3] and '$33B Opportunity + World Cup Deal?!' [4]. These contradict the initial assessment of 'No immediate fundamental catalyst found'."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "RCAT",
-      "price": 10.32,
-      "gap_pct": 8.43,
-      "pm_volume": 478251,
-      "avg_vol_10d": 11883401,
-      "avg_dollar_vol": 122636698,
-      "mkt_cap": 1570624083,
-      "rvol": 1.32,
-      "adr_pct": 9.61,
-      "category": "Thematic Narratives",
-      "theme": "Product Launch / Defense Narrative",
-      "reasoning": "RCAT stock rallied following news of the Hellcat Drone launch and strong demand outlook in the defense sector.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 57,
-      "grade": "A",
-      "finviz_theme": "Drones",
-      "analysis_detail": "Catalyst: Red Cat Holdings launched its Hellcat drone, described as a modular UAS platform, with the CEO citing 'forever demand' in strategic regions like the Strait of Hormuz. This is seen as an effort to redefine its defense market position. | Impact: The launch positions RCAT for potential new contracts amidst rising global drone demand, elevating its profile in the defense sector and creating a strong thematic tailwind.",
-      "analysis_details": "• **The Narrative**\nRed Cat Holdings has **launched** its new Hellcat drone, a modular Unmanned Aerial System (UAS) platform, aiming to **redefine** its role in the defense sector. The CEO highlighted \"forever demand\" in critical regions like the Strait of Hormuz, linking the product directly to **geopolitical tailwinds** and a growing need for advanced drone capabilities. This strategic move could unlock significant market share in the evolving defense landscape.\n\n• **Explosiveness**\nThe Hellcat launch represents a **significant product catalyst** for RCAT, shifting its narrative from a general drone company to a specialized defense contractor with a modular solution. With global drone demand on the **rise**, particularly for military applications, this platform could capture substantial new contracts and drive **revenue growth**. The market responded with a **rally**, indicating investor optimism about its strategic value and future potential.",
-      "peer_tickers": [
-        "KTOS",
-        "AVAV"
-      ],
-      "headlines": [
-        {
-          "title": "Here’s How Much You Would Have Made Owning Red Cat Holdings Stock In The Last 5 Years - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzZMNXFMTzZLZTRDR3pVakNTcmV0S1N2RzlOb01ucnNxTldjaE9OXzY3Y2tUcV9TZVBmNDc0eTZOUjJOeXludl9vX3VlMUdhU0ZXSjBZdjc2cTlHUUVDNVgyQ3ZXZDh0LUFScjR2bnMyaWNZXzBUbHNBT0hNYkV6T09sZXVqNFJCQ1YzWUs2YXZzZ2RjSGZtU21LYU1lTkoweU14NlA2aHBmYk1PS3E0UG5CODdURmdiaE5JcFNLanM?oc=5"
-        },
-        {
-          "title": "Red Cat Holdings RCAT Stock Rallies On Hellcat Drone Launch - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1adlk1SWhJNllzVW84UENOU1ROdEJjYkFncE9yYUFhLVRBYUVQOEpZMi14T05aaGJiVG05SUNwSU4weVd0WjIyS3FySE1jUkRzcG5uNV9BdWxwRUtYaC1sX2RwV21oaGtKMzBjSVdpeS1FMVNpV3plb09HTmx1dw?oc=5"
-        },
-        {
-          "title": "RCAT Stock Slides Premarket: CEO Sees ‘Forever’ Demand In Strait Of Hormuz As Global Drone Demand Rises - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ01jV3Z1M3BMQl9qQXFTOXA0WnhreHY1dGpINzdwQUNRcmQxNjlnZnItX01WMEJ6anhyMmtMdVVwNEk3cWY2S2FMQ1luRUVNV3EwTWpWYzRhRW5zT2JxYU9ib2Y4TGRpZW5vZDBTY0g3bHYzWWlCUUo3cHU2bXczd1MzXzBkTWpqZ2M5d0ViLWlUTHJrOVByWmVTbi04aHFVNXNuYmJTV2xVcjZVc01UMGdsc1Y0THJDcjUyTTdSYzU1OWRmSUxhWmVrcldWbzFGYlF4MEl0YVd0WVE?oc=5"
-        },
-        {
-          "title": "Is Red Cat Holdings (RCAT) Using Hellcat’s Modular UAS Platform To Redefine Its Defense Narrative? - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeTZ2WDlwdmY0cDFBVW83TTE2eHJPU1U1WmR5OGFaR3VGcUtuRV92azkyQnhkYTl1QnY2WERlZDRSUUxhVE1RNlA1azhzaFBJdXRTMFNsT2c4aUZETHZHZUtPaEh3S05XTFVSVEdqUnhNb1lZd0hfdTJTTFBYUF9hZjI4VEI4emM0bGtsdV94bEhIMEtRYVZqVklZRDUzdFYzVHJfWXJ3T0xPMnFCdjFSeW5UWUd0bGIzcl9aTTdHZmYyWlV3RGV3S1hIT2ppOG5vM2RXWHdtWdIB3AFBVV95cUxNSHc5X05rNTBkUmlZbVRZUUc3R2FtWjVzSG1yLTNrZzdINUtuOHg3VnhJNHJlczRncDJuNjlkaHEyRE1zM195WTlPUVBjWHhXY0ZjaXp6MmRueWx4emloZ2ItUVc1WFhaVTh1dWpWNEZFVFM5X056akdIT0xna09TTUVENHduQkpyUkw2blpySDlvVFpJSWtVaklqdVByVkEyZmFTMjBUb0VIZFFGWXhaZ0czU2RpMmNOSWpXQmFrZ3lFNW9kbzBoRlZ4bzlzWVAySFBhcUk3SHdXZHF0?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Drones",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 70,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Hellcat Drone launch",
-        "discrepancy_note": "Google News article [1] explicitly mentions the 'Hellcat Drone Launch' as a catalyst for RCAT stock rally. However, Finviz News (Source A) provides no information to confirm this claim, leading to a discrepancy as both sources do not corroborate the event."
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "KTOS",
-      "price": 46.95,
-      "gap_pct": 8.09,
-      "pm_volume": 81632,
-      "avg_vol_10d": 6838892,
-      "avg_dollar_vol": 321085979,
-      "mkt_cap": 8804063627,
-      "rvol": 1.35,
-      "adr_pct": 6.25,
-      "category": "Others",
-      "theme": "Index Rebalancing / Insider Selling",
-      "reasoning": "Kratos was subject to Russell Index rebalancing changes and concurrent insider share sales, impacting institutional flow and sentiment.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 58,
-      "grade": "C",
-      "finviz_theme": "Defense & Aerospace",
-      "analysis_detail": "Catalyst: Kratos was **removed** from the Russell 2000 Index and **added** to the Russell Midcap Value Benchmark, a scheduled event impacting passive institutional fund flow. Concurrently, a director **sold** 21,000 shares of company stock. | Impact: The rebalancing causes mechanical buying/selling pressure from index-tracking funds, leading to short-term flow volatility rather than a fundamental shift. Director selling adds a **negative sentiment** signal.",
-      "analysis_details": "• **What Happened**\nKratos Defense & Security Solutions (KTOS) experienced a significant shift in its index classifications, being **dropped** from the Russell 2000 Index and **added** to the Russell Midcap Value Benchmark. This rebalancing event triggers mechanical adjustments by index-tracking funds. Separately, a director reported selling three blocks of **7,000 shares** each, totaling **21,000 shares** over the last 24 hours.\n\n• **Key Consideration**\nThe Russell rebalancing is a known, scheduled event that often creates temporary, forced institutional buying and selling, contributing to the **1.4x RVOL**. While the transition to the Midcap Value index could attract a different investor base, being dropped from the growth-oriented R2000 might be perceived negatively by momentum-focused funds. The director's share sales, though not massive relative to the **$321M Avg Vol**, further dampen momentum and signal a lack of conviction from an insider, suggesting no immediate positive catalyst for the stock.",
-      "peer_tickers": [
-        "LMT",
-        "RTX",
-        "NOC"
-      ],
-      "headlines": [
-        {
-          "title": "Kratos Defense & Security Solutions, Inc.(NasdaqGS:KTOS) dropped from Russell 2000 Index - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYWlOVi1yOFRISmhZeFMyYl8yQUdESHhHakNTNFhSb1FOLWxhNnVWenNRdFo3czFtSWpVYnRtcE9yU18xWmVqUXdWVjUwQWlFUG9aNUd3cWkyUlpaLVdJcmdoU1FCUVBjam9DT3RGVkZ4a2t6c0RRTUpmaWp6a3QxSkxwcE9JQlJZVzBQU2x4MzJWMjJiZVlNc01XTWlqbEVNZVBMNHFGZ0VhWGR5Tm9fZTVKY2pOWTYzTVBIaUJFX3J0Ymlhcnh5eGFPR0s1aFlaOGc?oc=5"
-        },
-        {
-          "title": "Kratos Defense & Security Solutions, Inc.(NasdaqGS:KTOS) added to Russell Midcap Value Benchmark - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOODFDOXJWaUtpVFllaU9ETHExNGo2YzRTNkQxTVNCbWgzclhaZjBNMDh0VF8wY0NRRmo1V2lLemllQm1NOFc0RnVLMGNvZnVxblg5WjdFVG85V0pONTdBZjdkQ1RfRjV2SGltdEZzMFNWRjhsSG1mZ1ZWdEtBaEl6bWVhSURfdGdYbW9ROUJVMkhSTHVaaHR6TzdUVHgycmdGUU5NX1QyN3FBamNQdHdMZndSc2psWll5bmdmM0xOUjNWcjZUMEsyX1VnVjVzempmRmVqdVhHYldnWERX?oc=5"
-        },
-        {
-          "title": "Director reports three 7,000-share sales — Kratos (KTOS) Form 144 notices - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYUloNjJvdG9LbDNwTEZrd2xjTFktb0N1WHdkeHpjOWNYX2NGNWJHNGdGU0ZOVXZRaGVmQ3pQUXZEMUNieV95czV0VEd0dXhsZ0pWWVJfQnJNbUh0T0l4bU4tMEhrdHdicTVtLW5YRmRrNWVvS29mcElVY0w3QVdsdWplVHJqNGFYWXBTVTBqcXBnSWNfYWU3N0l0WmRwMzNTMXd2ZUZqM3VobDZKeU9tTEhQd1A?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Defense & Aerospace",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Director reports three 7,000-share sales",
-        "discrepancy_note": "Source A (Finviz News) contains no information regarding insider share sales or Russell Index rebalancing. Source B (Google News) confirms the claim with specific numbers: 'Director reports three 7,000-share sales'."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SHLS",
-      "price": 9.29,
-      "gap_pct": 7.75,
-      "pm_volume": 62293,
-      "avg_vol_10d": 6247354,
-      "avg_dollar_vol": 58037919,
-      "mkt_cap": 1558600202,
-      "rvol": 1.14,
-      "adr_pct": 8.64,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $58M < $100M)",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found",
-        "discrepancy_note": null
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "HSAI",
-      "price": 15.76,
-      "gap_pct": 7.68,
-      "pm_volume": 91462,
-      "avg_vol_10d": 1803881,
-      "avg_dollar_vol": 28429165,
-      "mkt_cap": 2406090729,
-      "rvol": 1.27,
-      "adr_pct": 4.74,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "Hesai Group secured a new contract with an automaker, validating its LiDAR technology and driving significant market interest.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "C",
-      "finviz_theme": "Electric Vehicles",
-      "analysis_detail": "Catalyst: Hesai Group has announced a new deal with an undisclosed automaker, indicating strong demand for its LiDAR technology. This news, combined with a recent stock split, has spurred a rally. | Impact: This contract signals continued market penetration and growth for Hesai within the autonomous driving sector, potentially de-risking future revenue streams and expanding its customer base.",
-      "analysis_details": "• **Impact**\nHesai Group has secured a **new contract** with an undisclosed automaker, which is a **significant validation** of its advanced LiDAR technology. This deal signals continued **market penetration** and an expansion of its customer base within the rapidly evolving autonomous driving sector. The news, coupled with a recent **stock split**, has fueled a rally, as investors digest the implications for Hesai's future revenue growth and competitive positioning.\n\n• **Strategic Value**\nThis new automaker deal enhances Hesai's **strategic position** as a leading LiDAR supplier, suggesting robust demand for its solutions. Securing design wins with OEMs is crucial for long-term growth and establishes a recurring revenue pipeline. The market is now evaluating if the full **bull case** for Hesai's technology adoption and future earnings is already reflected in the current share price, implying a potentially **de-risked outlook** but also scrutiny on valuation.",
-      "peer_tickers": [
-        "LAZR",
-        "MBLY"
-      ],
-      "headlines": [
-        {
-          "title": "Hesai Group (HSAI) Wins New Automaker Deal As Investors Ask If The Bull Case Is Priced In - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ0tFQnZaOGlzLU1wSEw1VnBqRTdIb0o5aWpjVTNSZVc0YWdoOTNBMkVPRFBiT25QMk1yUWhiQ21Zb1FjS3ltTkhOUXB5UW02d3Z4N3RjQk0tUUtrelNlZmhROUxOLXhPUXptSU9ZcXBkWEo1SzFWN1ZfOWlOTFczcEFEeFpkOWVUNHNPdUJ2TF9pcVp0Q2JrcVYzeklxTWYtWUtYTjliN2dkNFVNeHh2dDRLcjFFV2dRbGoyRlg4ODA3bHBGNDRFVVJKTWNvNUJLdVRV0gHTAUFVX3lxTE5nS0VCdlo4aXMtTXBITDVWcGpFN0hvSjlpamNVM1JlVzRhZ2g5M0EyRU9EUGJPblAyTXJRaGJDbVlvUWNLeW1OSE5RcHlRbTZ3dng3dGNCTS1RS2t6U2VmaFE5TE4teE9Rem1JT1lxcGRYSjVLMVY3Vl85aU5MVzNwQUR4WmQ5ZVQ0c091QnZMX2lxWnRDYmtxVjN6SXFNZi1ZS1hOOWI3Z2Q0VU14eHZ0NEtyMUVXZ1FsajJGWDg4MDdscEY0NEVVUkpNY281Qkt1VFU?oc=5"
-        },
-        {
-          "title": "12 Consumer Discretionary Stocks Moving In Monday's After-Market Session - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTzJMV3pCUVJTRG5WOUh1UEVGVTdVYUJodFdDUkx5Y3YyWTh3eXZhdzZTdWZnUmZEZU4zb2Y5VVZBY0lpSF9aUDFxNDNaN3NzckRJVzJ4SEoyVklESHpUemh3WXptS0lrdlJCaU96blhub1ZubHg5My04ODYzbmc0Szh3bTZ2aE9EWk5xNVZENV9GcEhYcnNVdmFsS3pmS0xobXNVMTJ5Z1liVWNmdGxyNDJDZldCOVpKbmFTR2d5eDRjT3l1dUp1Smtn?oc=5"
-        },
-        {
-          "title": "Wondering what's happening in today's after-hours session? - ChartMill",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQXVIUlRXYTF4TllHMndTbEh3WExNVHhDQVcxWWs0cW9mQ2FRd01hT181VmgxbFl1M3VFMFlZeUtMZTJxQVNyNnd3ajNZVHU3X1RKcjNsdDk1aGJhQ0w4SF93YkhDVGUzQUdLU2NsMVpsMTlRY3dYSnh4WUJFaXlhOUZNT3VPLUYwMkhTRkpqRXJZa2phcW1RMlFrdndKc00yaEp4SzBxVUxCbFU?oc=5"
-        },
-        {
-          "title": "Hesai Group Soars After Stock Split Sparks Rally - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWkRFY2tmcmowcGM2QVpLOTVmQlBKalZibERRZjJOSDVxMG9PZmt0ZFVlS2Zud21wYldoU2FfeHlKMzVMbnZRZXEyQ19YLW5NRmM3WVp2Q1liNlVXX2k5S29FMU5RUDk0WXNsNndsYlhKSVRVOEI2NGlZaDkyc2J1enIxOVJJaENGa09TNm5oR3Y?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Electric Vehicles",
-      "technical_status": "Fail (Avg $Vol $28M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Hesai Group secured a new contract with an automaker.",
-        "discrepancy_note": "Finviz provided no information to confirm or deny the claim. Only one headline from Google News ([2] simplywall.st) mentioned 'Hesai Group (HSAI) Wins New Automaker Deal', which is not sufficient for a 'Verified' status requiring confirmation from both sources."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "AMPX",
-      "price": 13.52,
-      "gap_pct": 7.1,
-      "pm_volume": 181402,
-      "avg_vol_10d": 7949274,
-      "avg_dollar_vol": 107474184,
-      "mkt_cap": 1914799359,
-      "rvol": 0.72,
-      "adr_pct": 9.46,
-      "category": "Others",
-      "theme": "Institutional Flow",
-      "reasoning": "AMPX was dropped from the Russell Microcap Growth Benchmark Index, likely leading to institutional selling pressure.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "EV Batteries",
-      "analysis_detail": "Catalyst: Amprius Technologies (AMPX) was **removed** from the Russell Microcap Growth Benchmark Index. This decision by FTSE Russell impacts institutional passive fund flows that track this index. | Impact: This event typically leads to **forced selling** by index-tracking funds, creating near-term **downward pressure** on the stock price as institutional holders rebalance their portfolios. It does not reflect changes in company fundamentals but can temporarily affect supply/demand dynamics.",
-      "analysis_details": "• **What Happened**\nAmprius Technologies, Inc. (AMPX) has been **dropped** from the Russell Microcap Growth Benchmark Index. This is a routine rebalancing event by FTSE Russell, affecting companies that no longer meet the index's specific criteria, typically related to market capitalization or growth characteristics.\n\n• **Key Consideration**\nThe primary impact of this removal is on **institutional fund flow**. Funds that passively track the Russell Microcap Growth Index will be **forced sellers** of their AMPX holdings, which can create **downward pressure** on the stock in the near term. This is a technical event rather than a fundamental change in the company's business prospects.",
-      "peer_tickers": [
-        "QS",
-        "SLDP"
-      ],
-      "headlines": [
-        {
-          "title": "Is Amprius Technologies, Inc. (AMPX) A Good Stock To Buy Now? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObFJCM05FNXFkSEpONEJDaTRYaFN0ODlYS1VJdXpzbUZ0VWpCY1ljMUt4Z1FwNEluUUZfTGFnSkY1XzJMVzZqdW9aTjRacGtkWnByQzIwaFp3RWhoc3p5a2FiQkRIMFQ1QTRLa0g0X1NFb2p1RzgyS0tTTUY2R3VsVzNVamFrRWZsY2NTWHUtT1Z6M1NXcFZ1MnFFS0dubTA0?oc=5"
-        },
-        {
-          "title": "5 Tech Stocks to Buy on the July Pullback - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVS12c0pqQVRrUVk0TE5qd09CdUlEUkh2azBXQkdpd21TT2JpY3Iyb3RoTVNpbGpoMjA0ZWdZdF9PdkhfaktxSjhNX0JaZGlRZHAyajlkdW5lOGJyM040SXpYSGs0QjZ0cC1DaUFlT1hoeVdnNjFhcS0wRml0X3JnMWpwMjg?oc=5"
-        },
-        {
-          "title": "Amprius Technologies, Inc.(NYSE:AMPX) dropped from Russell Microcap Growth Benchmark Index - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMHZUelIxUXZ2a1pRX05aX0pCRXQtNEpVTnJPaW1KVGRsa2szRmxwR2JqMWd3MWdxMjJIWHp0ZW5mRHVWZ082dFhlYjlJRk1aSGJhWk9zOWxDLS1RUk9uU0pVMnF0OXkzT3RFdXAzNnFFdS1xNGhpNlFNTUh5MzNPczBhUkNMQ3BxUzZtdkc5dDZvc2VSX1JNYkQ4aFRTRDc5QXFxbTdyZXRpS0RaSnlTQUlGZU5fWk5Sb3JOTXd3cjNGanp3dnNiYW51eC1UQmVWNFlPRGcxbw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "EV Batteries",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 75,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "AMPX was dropped from the Russell Microcap Growth Benchmark Index",
-        "discrepancy_note": "Source A (Finviz News) contains no information. Source B (Google News) includes a marketscreener.com headline that explicitly states 'Amprius Technologies, Inc.(NYSE:AMPX) dropped from Russell Microcap Growth Benchmark Index'. Since only one of the two primary sources confirms the claim, it is marked as Discrepancy per instructions."
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "FLNC",
-      "price": 19.15,
-      "gap_pct": 6.5,
-      "pm_volume": 180527,
-      "avg_vol_10d": 9557229,
-      "avg_dollar_vol": 183020935,
-      "mkt_cap": 3529549311,
-      "rvol": 1.03,
-      "adr_pct": 13.08,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate positive fundamental catalyst found; unusually high options volume observed, suggesting technical activity or speculative interest despite negative insider selling.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 57,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Grid",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Unusually high options volume observed, but no clear positive fundamental news. Insider selling by a senior executive (**31%** of holding) acts as a strong **negative fundamental signal**, making any upward momentum speculative and risky.",
-      "analysis_details": "• **What Happened**\nFluence Energy has seen **unusually high options volume** in the last 24 hours, indicating increased market interest and speculative activity around the stock. This surge in options trading occurs without any specific positive fundamental news, such as an earnings beat, new contract, or upgrade, being released to justify a momentum move.\n\n• **Key Consideration**\nThe lack of a positive fundamental catalyst is compounded by a significant **negative signal**: the SVP & Chief Customer Success Officer **sold 31% of their holding**. This **insider selling** represents a **loss of conviction** from a key executive and is a strong **red flag** for potential investors. While options volume might suggest impending volatility, the fundamental overhang from insider selling makes any speculative upward momentum highly **risky** and potentially **unsustainable**.",
-      "peer_tickers": [
-        "ENPH",
-        "FSLR",
-        "STEM"
-      ],
-      "headlines": [
-        {
-          "title": "Fluence Energy Sees Unusually High Options Volume (NASDAQ:FLNC) - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVzlMWmtIZlRFbFBEeUgtaUVzemt4U242TG1za3ZFU0hlaTRyMWQ0dk01Z2pyM2tKb01DTXlITkhZaWRiNlg3N2I1NXJpUzZZTVd6Y2ZWOFBoZjZZQkhaSGdra2NGZ3dsekVDNWpOWnJ4V0s5emZSVUFnOE5iVFpobTJxSFRJVlpmUm0yLTd6TVA1cjU2ZW5WZS1GNVJHOE1nakV0ZXI4ZjBxa3JxOTI2bGJjbVE?oc=5"
-        },
-        {
-          "title": "Fluence Energy SVP & Chief Customer Success Officer John Zahurancik Sells 31% Of Holding - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRHh6aVU3WXRhUks5d3JWclZYUk1XN2dPMHluTzE1a3VrWWhuaEtZajJ4bXdkektQeHdOSF9nR0d2bXRKZ2RyZFRJOW8yUUFRSlplYUZkUUtIcndkTzhXNDlVZ0kwTmNrYUhqb0JJX1hETDJCOU9ERDBNZE9VZ3RCSEV4RC1jTmJNQXJsOFdvOWVuMldSNFNWY09ZR19jekJwVXBFeng3ZEhqOGc3QjlpaVdjWHlQX3hNelZ3RS1oWENDYk1ZSjhrdkZaZmxSU09aMG5RSdIB2gFBVV95cUxPWFM5MDdval94NzAzQmtrTllnUzB5dlY0ZkEyb1NVZDEwUktBOTE1N2xHNDhwb016VzZyUk9ILWw3c29Hd3ZRNWdaWTZhdjlyaFEwNkVLNzBneFJadzdydC15NGREdk1zTldnQVVZTDdIQkpXVXowZllRTjdJU21wa1ZVZHlURFdMZTBGcnZ5S0g3MEdSOUhwYnVNZWRUQ1BockdnVFlPTlhnajlPTURLTXgxenlCcThVU09PN3NzYmpHSUF0ZzFoVHQwUl9xRnNSOE5DQzVmdEp6UQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Clean Energy - Grid",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "John Zahurancik Sells 31% Of Holding",
-        "discrepancy_note": "Only Source B [2] mentions the specific percentage of 31% for insider selling. Source A has no news, and Source B [1] mentions options volume but not this specific insider selling detail, thus lacking confirmation from both sources."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SATL",
-      "price": 5.64,
-      "gap_pct": 4.26,
-      "pm_volume": 179847,
-      "avg_vol_10d": 9950386,
-      "avg_dollar_vol": 56120177,
-      "mkt_cap": 836096676,
-      "rvol": 1.87,
-      "adr_pct": 11.55,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts / Strategic Partnership",
-      "reasoning": "Satellogic announced a strategic partnership with SynMax for AI geospatial intelligence products, complemented by an analyst upgrade.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 79,
-      "grade": "C",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: Satellogic **partnered** with SynMax to develop **AI geospatial intelligence products**, while also receiving an analyst **upgrade** to Buy from Freedom Broker. | Impact: This partnership signifies a strategic expansion into the high-growth AI analytics market and could **diversify** revenue streams, further supported by positive analyst sentiment.",
-      "analysis_details": "• **Impact**\nSatellogic's new partnership with SynMax focuses on developing **AI-powered geospatial intelligence products**. This collaboration marks a significant expansion into a high-demand market, leveraging Satellogic's satellite imagery with SynMax's AI capabilities. This development is expected to **enhance** Satellogic's product offerings and potentially **accelerate** revenue growth in the rapidly evolving AI sector.\n\n• **Strategic Value**\nThe partnership creates a **strong synergistic play**, combining Satellogic's comprehensive data collection from its satellite constellation with SynMax's advanced analytics. The concurrent **upgrade** to Buy by Freedom Broker reinforces the positive outlook, suggesting analysts recognize the **long-term growth potential** stemming from this strategic move into AI applications. This move helps position SATL as a key player in data-driven intelligence.",
-      "peer_tickers": [
-        "MAXR",
-        "BKSY",
-        "SPIR"
-      ],
-      "headlines": [
-        {
-          "title": "PSKY Stock Rises Premarket Today: Saudi Arabia's PIF May Put $10B Into WBD Deal - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV3p4U1drQkFHSWJoTjRTeWV5T09TcXFTV01pajFJYnVuSFc0OFFnTXRUbHBKeWY4ODFDOFdRRUVmdzNrMHhiRE80emxMbkdBQmZsSWY4SWJDTmh0bUJvM0tBVzJzZzZLWlVQVThPV1FDQ1NGWml5ZVZoU2pabGpEbWk2WmMxSGhHQXV5MWJONFl5aVlmb1FHNlRnR0RheWg4cS1uLUVLTF9DNXVqXzNOTzlZS3FtVGd6?oc=5"
-        },
-        {
-          "title": "SATL Upgraded by Freedom Broker -- Rating Raised to Buy - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQUFMVWQ3TGJybFNwT3NySXRtVjBPcHNPNzVvVzVscXBRRUFaYWFnRlU3QWVWYW1ucXk3bThhaWhmbTZ6QmVYMGF2MmJtOFhMVlhNN0xhYXN2SFgyc19QQ3QwUXpCNHRDTERkTG95NFZsYTdaamQwM3RwLWF5SEdqa1dmY0t5bTd0WWlDdm1iZHl4Q3lveHc?oc=5"
-        },
-        {
-          "title": "Satellogic (SATL) and SynMax Partner on AI Geospatial Intelligence Products - Insider Monkey",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmNKWEFUMEYtek5wOFByX3VjMEFCWjE4aC1HT0p3MjkyWU1vampKY25Pa0k1OWt0VjYyU2dZS3Z5a05DR1dla19HTkpockxUZS1EXzM0RUp3aVM4VFQ5elZvaHRBblM1NEI3SVExZVlSZlhrX0tvTUZIU3I1T1Vsb21qMmdVYkZMN1BENjVuY1FXeVB0Zmx1aWVIY3JPa3ZyUWV5VEZTcklRdW5nMlF2Q1F5dVREOV9nQXE3S1d1UU3SAcABQVVfeXFMUGJjSlhBVDBGLXpOcDhQcl91YzBBQloxOGgtR09KdzI5MllNb2pqSmNuT2tJNTlrdFY2MlNnWUt2eWtOQ0dXZWtfR05KaHJMVGUtRF8zNEVKd2lTOFRUOXpWb2h0QW5TNTRCN0lRMWVZUmZYa19Lb01GSFNyNU9VbG9tajJnVWJGTDdQRDY1bmNRV3lQdGZsdWllSGNyT2t2clFleVRGU3JJUXVuZzJRdkNReXVURDlfZ0FxN0tXdVFN?oc=5"
-        },
-        {
-          "title": "Why is Satellogic stock gaining 23% today? - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbEpsVmMyb3dlV2JSZkJQQ0J2QXlSWWVuT1VtdWxKSks5R2FtNWtiN2U5a0RsNHgxQnBUWTRVTUpHNE1vTGhvYUFwOThBUGhCV05VbWN3R1Rpc2JyN0lkZTBsV1VGdnhZWE83N2c1OXZNNnNIWmxDbTVLWTNzaVNIUlpWaGY1MzRkMmpTb0hZTzhOSzRQTEVOWVNTYWZkSDNzR0JZSA?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Space",
-      "technical_status": "Fail (Avg $Vol $56M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Satellogic announced a strategic partnership with SynMax for AI geospatial intelligence products.",
-        "discrepancy_note": "Source B (Google News [2]) confirms the strategic partnership between Satellogic and SynMax for AI geospatial intelligence products. However, Source A (Finviz News) has no mention of this partnership."
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "CCXI",
-      "price": 16.4,
-      "gap_pct": 4.21,
-      "pm_volume": 200651,
-      "avg_vol_10d": 3238177,
-      "avg_dollar_vol": 53106103,
-      "mkt_cap": 913480004,
-      "rvol": 3.86,
-      "adr_pct": 2.68,
-      "category": "New Contract/Partnership",
-      "theme": "Merger with Robotics Company",
-      "reasoning": "Churchill Capital announced a **$2.5 billion merger** with Agility Robotics, leading to a significant surge in stock price and trading volume.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 85,
-      "grade": "C",
-      "finviz_theme": "AI Robotics",
-      "analysis_detail": "Catalyst: Churchill Capital has announced a definitive agreement to merge with Agility Robotics in a transaction valued at **$2.5 billion**, effectively taking the cutting-edge robotics firm public. This significant corporate action was immediately followed by a **surge** in CCXI's stock price and **elevated trading volume**. | Impact: This deal represents a **transformative event** for Churchill Capital, giving it a clear operational asset in a high-growth sector. For Agility Robotics, it provides substantial capital and public market access to accelerate its development and commercialization efforts, potentially adding significant revenue streams to the combined entity.",
-      "analysis_details": "• **Impact**\nThe **$2.5 billion merger** with Agility Robotics is a **transformative event** for Churchill Capital, effectively taking the cutting-edge robotics firm public. This deal provides Agility Robotics with substantial capital for accelerated growth and market penetration, particularly in the booming humanoid robotics sector. Investors are reacting positively to the clear strategic direction and potential for future innovation, evident in the stock's **surge** and **3.9x RVOL**.\n\n• **Strategic Value**\nThis merger positions Churchill Capital squarely within the **high-growth AI Robotics** sector, adding a tangible operational asset. Agility Robotics, known for its Digit humanoid robot, gains public market access and capital to scale R&D and commercial operations. The combination offers significant **upside potential** by aligning Churchill with a company at the forefront of automation and AI, an area with immense long-term market opportunity and strong investor interest.",
-      "peer_tickers": [
-        "TER",
-        "ZBRA"
-      ],
-      "headlines": [
-        {
-          "title": "The trading volume of these stocks is deviating from the norm in today's session. - ChartMill",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNakJ4UnQ0S1FzTDBlNXZhSUVMcjVrRUYtMUNYbExSbVpMelBqa1JqMDZSMDhxNjF2YXVhT3A5X2tNZjhqNjBwVFJSaU1UeEQyQS15aThiS0dHMHJhcnVhSHhNRVd3SXBjMndfYWh2ZkowNElaY1RURC1vMjlEZWh0YmxBSnFyeFBkMkJ0ak5DVFd3eFE5UWI0M3VWYTlSUnNkNGZORTEtcGkyTDNhQlBYLVNIczdJeXNFQ0JxR2t4YnhaVmpCLUs4amE2OA?oc=5"
-        },
-        {
-          "title": "Churchill Capital merges with Agility Robotics in $2.5B deal - scanx.trade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQanhkazZTaWQ4Q2lsV3U0RXZtY2I3cnNCYnh1RGlJVkxDMEZjQ05YOHAtUkVNemxTcmJUcktBZHdHNmNEcFF1ejRqSjlBQnA3UlV0eExBaUs3MVFpT2h5c0VSOEVQVWZvcEYzY3VjSFpvUnNKQ0taQWRvdnZoMWV3MUdROVlGdHItdGtVNXF1RVRNTUVJQU1IZ201eEQ5aTk4dlpnQzBQdGVSa2lEbW5v?oc=5"
-        },
-        {
-          "title": "China's CCXI to suspend credit ratings for some amid a wave of downgrades - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdlFuNk9DTDA1SUtZQWRUaVQ5UjhQeW9KbG5MU0hNMTB6ZjRNS3pkblB0alIxQzE2aF82eWhjVUR5NGpzOUlfRVVYZ0JYSDZTc0MtNU5NZ0MydlVPODRweUZfY2xURlBEek43SlZ1OVVCQ1dLLTZYWFNpOHNIcGFIZWhMTDhuMXdPUVNXWE9YeFYzLTBtY2lVMkYxejNaeTVzSUFPTTlMbEp0QXBOajFobEpwT1VFM0JQVkJ2MW1Qbll4Ymhm?oc=5"
-        },
-        {
-          "title": "Churchill Capital Stock Surges On $2.5B Merger With Agility Robotics: What Investors Need To Know - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTUVTM080Mi1ia0pHTGlJM2ZYQVJlV3UzNEpMSGYycVUyYTZ4YmY2anBLdGpSN2pIYV9EcklnVU5sWG56eW80YXFRSWNEQVJGZTAxZjI1YkEtNVIzeS15cUpGSFFvTnBRdkhGa1I4MkFJU0tKLVR3Ny15NWd0QjJLX2QyNVhhRVpPNk1qVThTQkI1eVVjU1kwVGd1Z3FiTENuVDhSMnBybGl2RmJDWkUwOXV4WmV0Z1ZMQjRVT2tKRzB2MDNidUphdkJQSXRQNnY1UXBUbGN5ZXg1VlpJa1kxZGxxS2U5Nm50bVllUQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "AI Robotics",
-      "technical_status": "Fail (Avg $Vol $53M < $100M, ADR 2.7% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "CCXI's involvement in a $2.5 billion merger",
-        "discrepancy_note": "While Google News articles [1] and [4] confirm a '$2.5B merger' for 'Churchill Capital' with Agility Robotics, neither article links this merger to the ticker CCXI. Google News article [2] mentions CCXI, but in the context of 'China's CCXI to suspend credit ratings', which is unrelated to the merger claim. Source A provides no information. Therefore, the claim of a $2.5 billion merger for CCXI is unconfirmed by the provided sources."
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "RUN",
-      "price": 13.48,
-      "gap_pct": 3.81,
-      "pm_volume": 678257,
-      "avg_vol_10d": 13964297,
-      "avg_dollar_vol": 188238724,
-      "mkt_cap": 3215644264,
-      "rvol": 0.87,
-      "adr_pct": 7.41,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Clean Energy - Solar",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo company-specific fundamental news for Sunrun (RUN) has been identified in the last 24 hours. The provided news headlines refer to other companies experiencing a 'run' or 'run-up,' but none are directly related to RUN's specific operations or the solar sector. Any recent price movement in RUN is therefore attributed to **technical factors**, broader **market sentiment**, or **institutional flow** rather than a concrete fundamental catalyst.\n\n• **Key Consideration**\nWithout a clear fundamental driver, any significant price action in RUN is considered highly **speculative**. The current trading volume (RVOL 0.9x) is below its 20-day average, suggesting that any movement might be occurring on lower conviction. Investors should exercise caution, as the lack of underlying news increases the risk of a potential **gap and trap** scenario or a quick reversal without fundamental support.",
-      "peer_tickers": [
-        "ENPH",
-        "SEDG",
-        "FSLR"
-      ],
-      "headlines": [
-        {
-          "title": "Amgen (AMGN) Stock Weighs Strong Run Against Mixed Valuation Signals - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeGV4VzN2aDFGX1MxcDROeHdGRDlvaUZQbi1sUnNQc2RUYWhUcXduY0FCUzcxaDBfSzJFeElMNjZjdm95RUF1U3Jqel9RRGQtV2JnNmF2T29NZlkwVkxlLVRKV0E4XzVxS1FLWVMtOHdsdDlqT01vcGxlQjBmcUR3RWgyQXlFZlZQWkV2bXpoSWpmTmFscHlFRzRuMA?oc=5"
-        },
-        {
-          "title": "Meritage Homes: I Am Not Chasing The Stock After The Recent Run-Up (NYSE:MTH) - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLS1MbzFIb2JFMFY2SlczV2c4OTFSME93dU1NcjRHMTBrN2RZSlV5ME5JSXl5MlFZQnoxVDFLd09HUTYyekxwSWdELWxyMms2SUJfbElzOE9yZkkzcTNibDRHczg1dGVRNHF4SjRmX3N4UjFOaDM3bUlzTmFfdk1KX2hTMm5sUy00ZFRVa1ZueFl4UmY4V09GSjlUT25NMG9OU1ZFZkZRYkJEdw?oc=5"
-        },
-        {
-          "title": "SLS Stock Extends Run As Cash Pile Fuels Speculative Trading - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMTRxRDhBUjc5WnprYXMtQTFXZWlxVHVjUFlJZlJ5RXdld01lMGU0Yk5oMmQ0cGZSOEJUb2czY0MwbmZ3N094NjN2VGFNbVMzZnpzZENXU0djOFZ5OEhTVnVCbkxTNVQycUc0bWdCMVNGNXdxLXRxVWV0VjdqT3dDczA5U0hhQjh3c3c?oc=5"
-        },
-        {
-          "title": "This insurance stock is on an impressive run. How to ride the momentum with less risk - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMndaSjdhbHJ2cGJKOHJ3VnNBVEFvc2dtYVVjdWstTWRoSmxIU0xuNUFtcDI0aVBGenN3Yi0wTEh3VHJNX2dWZFJ0SFBHUFZyNzVlMm5RRTl2TFQxYlVsd0I3T3lkRU1TVk9UYTYyTkg1Z0EzMEVlLV8tX0VFeHpfSHVTbG9fdjRlc1pIQmozMWhVaTdMdUU4eTRLaXk5SVR4WXRxRGp3WUJiTVlfOXNrai1iYWR5VDMyeE5NUlVR0gHDAUFVX3lxTFBSNlR6RzhINHFLZmVkSlFHeWVUZmRrdnhhcUJLbEhHbV8zaHFuSFFneXFNVUFJc082dHJsWnllVk5NeVlGSUZrdVQ2TllsQXFiT0VodTg0d3hYdjFRYTlObG5hbjNRRlBqX0hpYTFGVl9CUWR0X1ljcjR1NjkyQ1dmSHYwa3VoVmszNl9pQ19NSGVVMERxcjJzREFFbXdhQTJ4aUd2aGdsVi14MmJRRnFoM3pXQTk5NGMzeFdRV2tyZ0tBNA?oc=5"
-        },
-        {
-          "title": "F5 (FFIV) Stock Price Near Fair Value After Strong Multi‑Year Run - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa2lGV1lwNGx1eWFMcTJxRkdWZldVTDhxRWpFM2cweF9mX2xHcWRSUmc5SmxmZ3lqOGpGTnlfckN1aXJ4OWVhUFM3WWlFY2Z0WHk2V01VS0NlRXRLZkpDM2hTRmdFWEhKTEp5TFpwWXRwTkRVZmw0RXZBLVZHUVN1Wms2V2FxZ0luUWNTeEZwX2xIZXJ0aUIwN1h3Y0VTYlpRMmszUldiZ2tlaFBvaVJFdi1UQ0E2NWI00gG-AUFVX3lxTFBnX3BxbGVUUUNzWHdkQUJIZFlxTElZaF9UZ1d4UmtKSnBYV3pXTjd0VER5cWR0cW84bEJwUjQwa1NOeFZrU1R6QW1HM1IzcUdlRzRIMTJObmNpclVpOThfbkJHcWdDbWlhV0o3UHQzRVp0QUNiMDFLT1VIUzJtc2JNcHRKcjlHQ0E1QS16ZFloZGJoSUtSTnFqX2NTaHI4aVdOX0lPUVg0MW9RV0ZBSVJua3RYTkpqdGYwVmVuUGc?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Clean Energy - Solar",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found for RUN.",
-        "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "NAK",
-      "price": 2.0,
-      "gap_pct": 3.75,
-      "pm_volume": 58890,
-      "avg_vol_10d": 8455957,
-      "avg_dollar_vol": 16911914,
-      "mkt_cap": 1120622284,
-      "rvol": 1.21,
-      "adr_pct": 7.83,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $17M < $100M)",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found for NAK.",
-        "discrepancy_note": null
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "LUNR",
-      "price": 20.97,
-      "gap_pct": 3.58,
-      "pm_volume": 176035,
-      "avg_vol_10d": 13226966,
-      "avg_dollar_vol": 277369477,
-      "mkt_cap": 4550929304,
-      "rvol": 0.76,
-      "adr_pct": 10.31,
-      "category": "Insider Buying",
-      "theme": "Insider Selling",
-      "reasoning": "Ghaffarian Enterprises filed a Form 144 indicating intent to sell LUNR shares, pressuring the stock.",
-      "hypothesis": "Medium Conviction (RS Hold) — Insider conviction signal; look for base breakout.",
-      "conviction": 56,
-      "grade": "C",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: Ghaffarian Enterprises, a significant shareholder and associated with LUNR's founder, filed a Form 144 to sell shares. This indicates an intent to divest a portion of their holdings. | Impact: The filing likely contributed to recent **selling pressure**, potentially eroding investor confidence and increasing **supply** of LUNR shares in the market.",
-      "analysis_details": "• **The Buyer**\nGhaffarian Enterprises, an entity associated with Intuitive Machines' founder Kam Ghaffarian and a significant early investor, filed a Form 144 to sell LUNR shares. This filing signals their intention to liquidate a portion of their substantial holdings in the company. Such sales from key early investors often generate questions about long-term commitment and market perception.\n\n• **Conviction Signal**\nInsider or significant shareholder selling, particularly from a long-term backer, is generally interpreted as a **negative signal** regarding future prospects or current valuation. While not always indicative of fundamental issues, it often adds **selling pressure** to the stock and can **erode** investor confidence, especially for a speculative momentum name like LUNR. This news aligns with reports that the stock is **falling**.",
-      "peer_tickers": [
-        "RKLB",
-        "BKSY"
-      ],
-      "headlines": [
-        {
-          "title": "Ghaffarian Enterprises files Form 144 selling LUNR shares (LUNR) - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWC1MVlBpRnJETXFUeno0WXRIZ3p4anR4Mkw0QTB6aHJzWTI4UHRXOGtaRnFCdVZsRVdyZmlteVZxb3VPeXcxbnJYa0VLdGlSQk9hUGtuY3huOGF6TTBFVU9FNGlkdGdtcGJ1ak9OZFJYbEtELTlFSl9JSm13SkRUd040LVpGVV9EdkZYLU5NWEtOUnVrS0ZoaFRjUkVrb3Aw?oc=5"
-        },
-        {
-          "title": "Intuitive Machines Stock Is Falling: What Investors Need to Understand - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmtGdi1JUnZGdVk1TkR3UTRkUEZNMlVXUFRmRmhZcm9FamJhS3YtMEY5QlBaa3daRURVZnVJUzQybjBIY1U3N0JoNVVNOWFCcWNSUHRkWEQweGdBUFR2dnA1QUVGRG53N3dBZnR5N1U1RmVtQVRvZVFoUktqdXdmQnRaQWtNZ0VkeEhCVTdWMmJtVFdUTHgtRXJoZXBBSXY1NjYxdjFLcktWMUU?oc=5"
-        },
-        {
-          "title": "Intuitive Machines vs. BlackSky: Which Space Stock Has More Potential? - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWllKT3hVVWstVXNSREI1eTVaQWZMZTJZZUlSbU01VkhjOUJJWjlNMG8tUmMydnJFbDhxN010SWNJeG9jUE56VG1mMTN5V1dlUy1IbXc0N252Q2pYNHdlSTlmUU1KMnlvOTJuc0M5dERSSHFXc3h3M2JWS2NwcnJiaHVlSUl1WG1KbUtvT2NYaHNQVGVwYTU1Ymdnc3B6VU5NTEhqZkh2LUtqdFQ1RlVzWVk1Z0Y0VUtaczZWX3Y4elM?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Space",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 70,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Ghaffarian Enterprises filed a Form 144 indicating intent to sell LUNR shares",
-        "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "ABCL",
-      "price": 8.12,
-      "gap_pct": 3.51,
-      "pm_volume": 148082,
-      "avg_vol_10d": 8805219,
-      "avg_dollar_vol": 71498378,
-      "mkt_cap": 2479648186,
-      "rvol": 1.91,
-      "adr_pct": 9.59,
-      "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "ABCL jumped following news of a deal with Jazz Pharmaceuticals, enhancing its antibody pipeline.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 79,
-      "grade": "C",
-      "finviz_theme": "Biotech - Immunology",
-      "analysis_detail": "Catalyst: AbCellera announced a collaboration agreement with Jazz Pharmaceuticals, aiming to accelerate the development of new antibody therapeutics. | Impact: This partnership **validates** AbCellera's technology platform and could **de-risk** its pipeline by providing funding and development expertise from a larger pharma partner.",
-      "analysis_details": "• **Impact**\nThe reported **deal** with Jazz Pharmaceuticals is seen as a significant positive for AbCellera, as it is expected to **fuel** its antibody pipeline momentum. While specific financial terms are not disclosed in the headlines, such partnerships typically involve upfront payments, research funding, and potential milestone payments and royalties, which can bolster ABCL's financials and accelerate drug discovery. This move appears to be the primary driver behind the recent **jump** in the stock price.\n\n• **Strategic Value**\nThis partnership with a larger pharmaceutical company like Jazz Pharmaceuticals **validates** AbCellera's cutting-edge antibody discovery platform. It provides external capital and expertise, potentially **de-risking** its research and development efforts and expanding the scope of its therapeutic applications. The deal positions ABCL as a key player in the increasingly competitive antibody development space, attracting attention to its technology.",
-      "peer_tickers": [
-        "XNCR",
-        "ADPT",
-        "ALXO"
-      ],
-      "headlines": [
-        {
-          "title": "ABCL Jumps As Jazz Deal Fuels Antibody Pipeline Momentum - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0RsZlU5R1lZYVk5TEQ2a1JoeFlZbWdMTEtDT3B1MHM2TlA2OHRVOF82WXhjTnRxeVFxWU0tY1UtS2VXVEhWaHNpaG1IMkJVS0RkSkdhLWdfeFdTT2FmbEduWWVINXQ0R0dXVkhZV2NWaGpmUDlDakFyQ3lTYWxUVjlB?oc=5"
-        },
-        {
-          "title": "ABCL Jumps As Jazz Deal Fuels Antibody Pipeline Momentum - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmtQSGVmeTFma3Z6T2ZieXhJbXliWlBacU1mbFhZX05Ib0xNVE45MUlNZnM5a19HUVk5dFFLTHBYelpkaGNJZ0hKQVpnNlg1V0E2RTNtY3pfWV9rNXBfNWdkUjVFMUNXY214MHBfZnY4SWozNnk3ejhuSVlmWTRvMXkzNzBwUQ?oc=5"
-        },
-        {
-          "title": "AbCellera Biologics Stock (ABCL) Opinions on Recent Technical Breakout and Pipeline Progress - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObVFCSFdGSmxwRnBnYTBuVmFIYThLaURzelh4TFNnY2o3b1Z3TFhBcjlTdm5YeHhxajhUUml0ZERwUkg5cEpCNnBVclVOTE44dDVDS3gzVndwSHJaV1NYT2FOcnFkemVzTnc1X0pia1VaTjZYSjAxQlczUkZYNUwzcGlYUHFucldSdnpFa213NkxVaWpEZDZZa05jSWdyVnN6dHdQLU03VHU0c1hRSXpWbHdBUHJ4QV9zZE9iSlk1Rk1sSUYwaDhWdw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Biotech - Immunology",
-      "technical_status": "Fail (Avg $Vol $71M < $100M)",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 90,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "ABCL has a deal with Jazz Pharmaceuticals.",
-        "discrepancy_note": "Source A (Finviz News) provides no information to confirm or deny the claim. Source B (Google News) headlines [2] and [3] explicitly mention 'Jazz Deal', confirming the claim from that source."
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "RKLB",
-      "price": 98.01,
-      "gap_pct": 3.24,
-      "pm_volume": 458550,
-      "avg_vol_10d": 33691844,
-      "avg_dollar_vol": 3302137630,
-      "mkt_cap": 56734804194,
-      "rvol": 1.32,
-      "adr_pct": 8.89,
-      "category": "New Contract/Partnership",
-      "theme": "Major Contract Win",
-      "reasoning": "Rocket Lab secured an **$8-billion contract** with Iridium, expanding its presence in the satellite communications market.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "A+",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: Rocket Lab announced an **$8-billion deal** with Iridium, marking its formal entry into the satellite communications market and outbidding competitors like ASTS. | Impact: This contract represents a **massive expansion** of RKLB's satellite business, significantly increasing its revenue potential and market footprint.",
-      "analysis_details": "• **Impact**\nThis **$8-billion contract** with Iridium is a **game-changer** for Rocket Lab, solidifying its position in the rapidly expanding satellite communications sector. It significantly diversifies the company's revenue streams beyond launch services and small satellite manufacturing, pushing it into a higher-value, long-term service model. This deal is expected to provide **substantial revenue visibility** for years to come.\n\n• **Strategic Value**\nThe deal represents a **major strategic victory**, positioning Rocket Lab as a formidable player against established and emerging rivals in satellite communications. By securing this contract, RKLB demonstrates its capability to handle **large-scale, complex projects** and compete for significant market share. This expansion significantly **de-risks** RKLB's growth trajectory and validates its comprehensive space solutions strategy.",
-      "peer_tickers": [
-        "ASTS",
-        "LUNR",
-        "PL"
-      ],
-      "headlines": [
-        {
-          "title": "RKLB Stock Keeps Flying Overnight: Analyst Says Rocket Lab Outbid ASTS, Other Rivals For Iridium In 'Bolt From The Blue' Deal - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeGVhMHJLWnc2aGE5LVkxQjFHdkwwaVdKSmZkcmhIdEdBMUgzTkdYbjRNV2c5Z3dTYjgyb0lDdWxYVmZJdUFEMXN4eUt6U2VhUEZzVUs2SWVFMnQ0eTJrSkVlY3BFdHc3ME5IaWZmbG8yTFo5ZDkxM1R0MkllSlNSRTNvWm1Wa3N1WjdwMHdkSWg1SVByZzZJa0Zmd1lKMkVZZUlMS0FFckJHUU1rTFhfbnJKdHA0QkpoMlRNZk9nZlU?oc=5"
-        },
-        {
-          "title": "Why Rocket Lab (RKLB) Stock Is Up Today - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFFLSFRsWjNGQ3BGRzBqT1dwUS1La1V4aThuVFpHN3YwdDNPVTBIeFJqY0xYam44S3pjbWh1NHY4SXQyTU9Sb29abWhDb1NOSDlKb2pwM1hlYW5CNEgwX2drU04tWEQ5ZXBpd2xpcnlUd2h5MUpIRTBnLVg5UHRhRTE2dE1iTmV5cm5mYWJ2aTNRZXQy?oc=5"
-        },
-        {
-          "title": "S&P 500, Nasdaq End Higher To Record Best Quarter Since 2020, While Alphabet Debut Drives Dow  VZ, CMCSA, RKLB, SMCI, BATL, GOOGL In Focus",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/7f3eb520-ff55-35aa-90d3-70016586cad3/s%26p-500%2C-nasdaq-end-higher-to.html"
-        },
-        {
-          "title": "Dow Jones Futures: Stock Market Rallies On U.S.-Iran News; Alphabet, Rocket Lab, SpaceX, Tesla Are Big Winners",
-          "source": "Finviz",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-spacex-spcx-tesla-tsla?mod=IBD_FV"
-        },
-        {
-          "title": "Rocket Lab enters satellite communications market with $8-billion deal",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/articles/rocket-lab-enters-satellite-communications-201813664.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Space",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "$8-billion contract with Iridium",
-        "discrepancy_note": null
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "ASTS",
-      "price": 86.77,
-      "gap_pct": 3.18,
-      "pm_volume": 511743,
-      "avg_vol_10d": 25539062,
-      "avg_dollar_vol": 2216024410,
-      "mkt_cap": 33677566543,
-      "rvol": 1.22,
-      "adr_pct": 10.16,
-      "category": "New Contract/Partnership",
-      "theme": "Major Funding & Launch Success",
-      "reasoning": "AST SpaceMobile secured a **$926M push from Japan for a Rakuten-AST satellite network** and successfully launched **BlueBird 6**, driving its stock to its best day in nearly two years.",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 77,
-      "grade": "A+",
-      "finviz_theme": "Space",
-      "analysis_detail": "Catalyst: AST SpaceMobile announced the **successful launch of BlueBird 6** and a **$926M financial push from Japan** through Rakuten for a dedicated satellite network. | Impact: This funding significantly **de-risks** the capital-intensive satellite constellation build-out and **validates** ASTS's technology and market potential, adding substantial forward revenue visibility and paving the way for commercial service.",
-      "analysis_details": "• **Impact**\nThe **$926M commitment from Japan**, specifically through partner Rakuten, provides a **massive capital injection** that will accelerate the deployment of the Rakuten-AST satellite network. This funding directly addresses the capital intensity of building a global satellite constellation, significantly **de-risking** ASTS's business model and securing a major customer partnership for future revenues.\n\n• **Strategic Value**\nThe **successful launch of BlueBird 6** is a critical technical milestone, demonstrating the operational capability of ASTS's technology and paving the way for commercial service. Combined with the substantial Japanese investment, this event **validates** the company's progress and attracts further investor confidence, establishing a strong foundation for scaling its direct-to-cell satellite broadband services globally.",
-      "peer_tickers": [
-        "RKLB",
-        "VSAT",
-        "MAXR"
-      ],
-      "headlines": [
-        {
-          "title": "ASTS Price And Volume Analysis By 650 Day Look Back ASTS Stock Analysis For AST SpaceMobile Class A Jill Kargman (WuWBpmACUg) - Mshale",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ga2duUFItbGZxSE1rbVpiTy11ZnluMU9xTEVFZFF4R1ptdVlELTlPNF8zQ1hka0x5RF9HWmFoQXprdHVpeHFSM0ZsdWFuVHdyVVhFenNCTEcwX213THNYXw?oc=5"
-        },
-        {
-          "title": "AST SpaceMobile ASTS Stock Update: BlueBird 6 Launch Success And Market Reaction Salvador (J7ukuTulOX) - Mshale",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHRXcxLWNqMFdVTy00QV9IbmFKSW8wekdJMUpsWXItSEM3cFM2aWVoSjQtMmZzSzdnZGdkVlU0QlpRSmEwZ3hlZFNqbVYyOEloMUpXOE9wN3R3TzJ4OUgwNA?oc=5"
-        },
-        {
-          "title": "ASTS Stock Logs Best Day In Nearly 2 Years: Japan’s $926M Push For Rakuten-AST Satellite Network Sparks Rally - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSXNJM2JRQ0REVWRGOVRpeXM3T1JJZmV4cU5CdFgxcFZGT21Xb2I2ZnJvYVhDbXNPQTB1N3VSNWY1NEN6LXBQUHlEMW16MW5FVmlyY0FVYXBsUmEtRW1aekpDbnRvem5OZ1lsaUtBZnhINllQc1NjRW8zaHNMWE5GRjNKTlU1M2R0enotVFNHb296dTg?oc=5"
-        },
-        {
-          "title": "ASTS Stock Logs Best Day In Nearly 2 Years: Japans $926M Push For Rakuten-AST Satellite Network Sparks Rally",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/374de727-8ff0-3a37-840d-7f367707ed0e/asts-stock-logs-best-day-in.html"
-        },
-        {
-          "title": "RKLB Stock Keeps Flying Overnight: Analyst Says Rocket Lab Outbid ASTS, Other Rivals For Iridium In 'Bolt From The Blue' Deal",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/70693999-c9d6-320d-bace-6aa1aed3c626/rklb-stock-keeps-flying.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Space",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "$926M push from Japan for a Rakuten-AST satellite network",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "AMAT",
-      "price": 694.64,
-      "gap_pct": 3.09,
-      "pm_volume": 84308,
-      "avg_vol_10d": 14270839,
-      "avg_dollar_vol": 9913095603,
-      "mkt_cap": 551515977319,
-      "rvol": 1.34,
-      "adr_pct": 6.07,
+      "ticker": "CRM",
+      "price": 156.66,
+      "gap_pct": 3.6,
+      "pm_volume": 104894,
+      "avg_vol_10d": 20763990,
+      "avg_dollar_vol": 3252886673,
+      "mkt_cap": 128304534049,
+      "rvol": 0.52,
+      "adr_pct": 3.82,
       "category": "Upgrade",
-      "theme": "Analyst Price Target Hike",
-      "reasoning": "Applied Materials received multiple analyst price target hikes, leading to a record high and strong trading day.",
+      "theme": "Analyst Upgrade",
+      "reasoning": "Guggenheim upgraded CRM's stock rating based on valuation following a significant decline in June.",
       "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 33,
+      "conviction": 30,
       "grade": "B",
-      "finviz_theme": "Semiconductors - Foundries",
-      "analysis_detail": "Catalyst: Applied Materials' stock gained significantly, hitting a **record high** following multiple analyst **price target hikes**. One analyst projected a **20% upside** for the stock. | Impact: These upgrades signal increasing confidence in AMAT's growth prospects, particularly within the surging semiconductor equipment market, though high expectations pose short-term risks.",
-      "analysis_details": "• **The Firm & Rating**\nMultiple analysts issued **price target hikes** for Applied Materials, signaling renewed confidence in its future performance. This strong endorsement pushed the stock to a **record high**, reflecting robust market sentiment and potentially increased institutional accumulation. The upgrades appear widespread, reinforcing a positive outlook for the company.\n\n• **The Thesis**\nThe core of the upgrade thesis centers on the burgeoning **AI hype wave** and the broader strength in the **semiconductor equipment market**. While analysts project significant upside, with one seeing **20% upside**, there's an acknowledgment that **high expectations** around AMAT's businesses could create short-term volatility or a fully priced scenario. The company is benefiting from secular tailwinds driving demand for advanced chip manufacturing.",
+      "finviz_theme": "AI Enterprise Software",
+      "analysis_detail": "Catalyst: Guggenheim **upgraded** Salesforce's stock rating on valuation, viewing the recent **25%+ decline** in June as an AI 'hallucination' creating a buying opportunity. | Impact: This upgrade provides a **positive sentiment shift** and could establish a **valuation floor** for the stock, attracting new institutional interest.",
+      "analysis_details": "• **The Firm & Rating**\nGuggenheim **upgraded** Salesforce (CRM) stock's rating, shifting sentiment after a challenging June. This move from a notable analyst firm suggests a re-evaluation of CRM's fundamentals relative to its recent market performance. The upgrade specifically cites **valuation** as the key driver.\n\n• **The Thesis**\nThe core thesis behind the upgrade is that the **over 25% decline** in CRM stock during June was an overreaction, described as an 'AI 'hallucination'.' The analyst now perceives this downturn as creating a **buying opportunity**, implying that the market has discounted CRM unfairly and its intrinsic value remains robust. This perspective aims to establish a **valuation floor** for the stock.",
       "peer_tickers": [
-        "ASML",
-        "LRCX",
-        "KLAC"
+        "WDAY",
+        "NOW"
       ],
       "headlines": [
         {
-          "title": "Why Is Applied Materials Stock Gaining Tuesday? - Benzinga",
+          "title": "CRM Stock Lost Over 25% In June – But This Analyst Says AI ‘Hallucination’ Is Creating A Buying Opportunity - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdmE1YVBKaVZ2VVdUX3ZScExmdkZIdmVVc0ZDZmYyeTNBYXZJMjcya1MzeUY2d3RSWG5pNDNDc3pvR0FNMDZpcTgxeGs3YzYzNG0wQ05kRlk0V0o3cXdWelNnZlpHalRkeGhSZ0lpS0kxTTY0RmNxcnE4SXlfNHJYOVh4NmJVQ1dyZDFlYTAtZlR5TWFlUHphY19Eakh0U3NVVVRDZTVJZ1hSbVZ2SE9GTHJqYm9fN0QtYVp6UQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOUk1OW5xUE15MVBwYVdSVWhxSVY2TXJRMDRZVDkyVEFrRmRHVHQ4T3VJWUdIQkZtWjBDb0dPY3FaRV9IQjhDS05hVU1WSGU0azItRE91WkdSVU5Cd3JpMnJXbGI4RlVBaUZKWkJMNVU3VlZ4cXQ2dFMwaUFfMFVNNWRvZ1l6dTVHZTU2bVBVWF9vQzR4aUg3azZBR202ZF84TkVpSnpxU0JueE5ZZlM3WDB6eTBxUkxOVU5vYVk1WTFWc0dXSUZIYXJ3?oc=5"
         },
         {
-          "title": "Applied Materials Stock Hits Record High After Price-Target Hikes - Investor's Business Daily",
+          "title": "Analysts Are Bullish on These Technology Stocks: Salesforce (CRM), Infineon Technologies AG (IFNNF) - The Globe and Mail",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWlONW1UUUg1VzM1ZHE4LUR0WlB2VTBXS2Z1NEV5MVBPVk85RGlGUDR4a0M3TGJLanpsWUZCVWFKS2JPbGxoMndzSzZ0UHFZRXpDREt4RjJoSmlmUkl6eXg0ZlM3blRrdGx6WnRyYU5COUYxbllUVnZSdFE3Q1I2MmJDN2F3TXZ6QzNpWTd6TlVHVTcwUXB0bkJrcw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWkl0b2lrb0xKbHUyOHNwTjFMcU1KemxPRmw5MV9GRVBYR002SWhwZGktcmZmdHZIQ1ZsS3ZTWkFlczVJNDVpM0xkaFBtSlUyb2swcV9RTWoxRzlGeWQ3aXlqY0RacS1fMENycE1HUDBsNEh6R0RVc0V2OUN6ZXJyMmpPYTNrMmN4TkZWZVRBbnBGOHM5dXQ3V3BWU2Z5SnpIV2lnejVseENENEVSNTJmbS1PLS1BMEgySXFfQk5EbF9Rd3JxbFlsQTFPRTFHT1hHOGhxa0RuRkE2YzBhUF9NQVNETTBWeU1LUGpGLUhSdktDcFZrbFhpUGg3WXhPOGYyQUhYVTl3a1NGS0E?oc=5"
         },
         {
-          "title": "Applied Materials Inc. stock outperforms competitors on strong trading day",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/data-news/applied-materials-inc-stock-outperforms-competitors-on-strong-trading-day-d65500d7-c9b1181f32fa?mod=mw_FV"
+          "title": "Guggenheim upgrades Salesforce stock rating on valuation - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZ5Y3lMRnduRkJDajRod0g5dGYwSGhQc3l5NUZ3Sm1XQ2ZuUDZZMTlkMldGbjhNRlk1aWZUQ3JHTTRDZVlZbmZVODN4azJBNkVVMlQ0MHhNM1JiOTM3U1JxNENQZmJ3VlVaaU1TMFV5a28tR3lfQlVYQmZrZkplc3YxaFFib2h1OUdBN2ZYVEg4LTdJUjJaMnJqdm5JdzNnS3VNa3VfRTRjQmRhblVEM1JtSEowbms?oc=5"
         },
         {
-          "title": "This Analyst Sees 20% Upside For AMAT Stock  Says High Expectations Around Applied Materials Businesses Create Short-Term Risk",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/d8f261c4-573f-3a17-bc27-47065ce9cf81/this-analyst-sees-20%25-upside.html"
+          "title": "Shikiar Asset Management Inc. Has $2.75 Million Stake in Salesforce Inc. $CRM - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOTZSTnNjTEtXVjlCUk84eVRPSFNCOHV4WkpQc042UzNMNWdpMmFjWGQyR3ViVUw2RnFXR2NlSHA2OGx0ZFV2NWEzdGpWRWYtb2NPaHp6N3ZsMnI1UFpSaUszYk1ieU5XUVpiejN3a1hHYzdCUVhwSnJlNWpLNko2MG1YV3N3MFBORzNaYVkzQVVtMUgxSjBRUXpWX0haRlhsR2ptYjQ0TzB5NzAzUVhwdjRFQXQ1cmpmdjBDaVNYWkRLaUJ0TnExOXBiOV9Ldw?oc=5"
         },
         {
-          "title": "Premarket movers: Comcast soars, semicap equipment firms rise",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-us-iran-agree-stop-fighting/card/premarket-movers-comcast-soars-semicap-equipment-firms-rise-Gzacki6wMq06Wotd7vK6?mod=mw_FV"
+          "title": "Is The Market Ignoring The Real Growth Story In Salesforce Stock? - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaDBoODdPVUZSZWpPZWJoTWE4U2FoeS1IcU50Q0NMbUhJSlBvRE5QT003YUNkTWdySnJ0M3NZRXVVUmdSbmNnODZRT1NtaS1USzRYdk8wNWllZS1wbGdhQ1UyR0xycXBTclFqeW9mNGpKLUE5ZWR2TG9CaGFJb3lsN19BMDd5ZlRXMi1ZTnRKczBnU3Z2bS14d1VCZFkwUUFQTEJOWEhrX0lmMlJ4azA4UlhxWUR4c0FnbXFSV0FZRUpxZw?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "Semiconductors - Foundries",
-      "technical_status": "Pass",
+      "industry": "AI Enterprise Software",
+      "technical_status": "Fail (ADR 3.8% < 4%)",
       "verification": {
-        "status": "Verified",
-        "confidence_score": 90,
+        "status": "Discrepancy",
+        "confidence_score": 70,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Applied Materials received multiple analyst price target hikes",
-        "discrepancy_note": null
+        "primary_claim": "Guggenheim upgraded CRM's stock rating based on valuation following a significant decline in June.",
+        "discrepancy_note": "Source B [5] explicitly states 'Guggenheim upgrades Salesforce stock rating on valuation', directly confirming the catalyst claim. However, Source A contains no information regarding Guggenheim upgrading CRM's stock rating."
       },
-      "gates_passed": 5,
+      "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
         "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": true
+        "gate_adr": false
       },
-      "meets_all_gates": true,
+      "meets_all_gates": false,
       "tier": "T3",
       "tier_label": "Minor Catalyst"
     }

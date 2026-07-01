@@ -1,41 +1,7 @@
 {
-  "generated_at": "2026-06-30T22:21:16.990319+00:00",
+  "generated_at": "2026-07-01T12:09:33.875718+00:00",
   "data_source": "tradingview",
   "earnings": [
-    {
-      "date": "2026-06-30",
-      "ticker": "PRGS",
-      "company": "Progress Software Corporation",
-      "time_of_day": "AMC",
-      "mkt_cap": 1412999801.0,
-      "eps_estimate": 1.49,
-      "eps_act": 1.62,
-      "eps_surp_pct": 8.76,
-      "rev_est": 242743790.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 33.58,
-      "avg_volume": 902679,
-      "adr_pct": 5.3,
-      "dollar_volume": 30311961.0
-    },
-    {
-      "date": "2026-06-30",
-      "ticker": "STZ",
-      "company": "Constellation Brands, Inc.",
-      "time_of_day": "AMC",
-      "mkt_cap": 23852935567.0,
-      "eps_estimate": 3.2,
-      "eps_act": 3.43,
-      "eps_surp_pct": 7.13,
-      "rev_est": 2389115680.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 139.09,
-      "avg_volume": 2169011,
-      "adr_pct": 2.9,
-      "dollar_volume": 301687740.0
-    },
     {
       "date": "2026-07-01",
       "ticker": "FDS",
@@ -43,15 +9,15 @@
       "time_of_day": "BMO",
       "mkt_cap": 8382073767.0,
       "eps_estimate": 4.45,
-      "eps_act": null,
-      "eps_surp_pct": null,
+      "eps_act": 4.53,
+      "eps_surp_pct": 0.75,
       "rev_est": 618091180.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 230.08,
-      "avg_volume": 975271,
+      "avg_volume": 971877,
       "adr_pct": 5.0,
-      "dollar_volume": 224390352.0
+      "dollar_volume": 223609460.0
     },
     {
       "date": "2026-07-01",
@@ -66,26 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 49.01,
-      "avg_volume": 478217,
+      "avg_volume": 483996,
       "adr_pct": 2.8,
-      "dollar_volume": 23437415.0
-    },
-    {
-      "date": "2026-07-01",
-      "ticker": "GIS",
-      "company": "General Mills, Inc.",
-      "time_of_day": "BMO",
-      "mkt_cap": 18572105979.0,
-      "eps_estimate": 0.8,
-      "eps_act": null,
-      "eps_surp_pct": null,
-      "rev_est": 4601603490.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 34.8,
-      "avg_volume": 9541634,
-      "adr_pct": 2.4,
-      "dollar_volume": 332048863.0
+      "dollar_volume": 23720644.0
     },
     {
       "date": "2026-07-01",
@@ -93,16 +42,16 @@
       "company": "MSC Industrial Direct Co., Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 6641491123.0,
-      "eps_estimate": 1.26,
-      "eps_act": null,
-      "eps_surp_pct": null,
-      "rev_est": 1031200000.0,
+      "eps_estimate": 1.27,
+      "eps_act": 1.43,
+      "eps_surp_pct": 12.25,
+      "rev_est": 1033057140.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 118.95,
-      "avg_volume": 695993,
+      "avg_volume": 706331,
       "adr_pct": 2.4,
-      "dollar_volume": 82788367.0
+      "dollar_volume": 84018072.0
     },
     {
       "date": "2026-07-01",
@@ -117,9 +66,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 264.46,
-      "avg_volume": 233203,
+      "avg_volume": 230203,
       "adr_pct": 2.0,
-      "dollar_volume": 61672865.0
+      "dollar_volume": 60879485.0
     },
     {
       "date": "2026-07-02",
@@ -134,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 123.8,
-      "avg_volume": 196658,
+      "avg_volume": 198317,
       "adr_pct": 2.6,
-      "dollar_volume": 24346260.0
+      "dollar_volume": 24551645.0
     },
     {
       "date": "2026-07-07",
@@ -151,9 +100,60 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 76.01,
-      "avg_volume": 2883679,
+      "avg_volume": 2930858,
       "adr_pct": 10.4,
-      "dollar_volume": 219188441.0
+      "dollar_volume": 222774517.0
+    },
+    {
+      "date": "2026-07-08",
+      "ticker": "AZZ",
+      "company": "AZZ Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 4654076713.0,
+      "eps_estimate": 1.69,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 434521330.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 155.05,
+      "avg_volume": 245001,
+      "adr_pct": 3.9,
+      "dollar_volume": 37987405.0
+    },
+    {
+      "date": "2026-07-08",
+      "ticker": "LEVI",
+      "company": "Levi Strauss & Co.",
+      "time_of_day": "AMC",
+      "mkt_cap": 9549524883.0,
+      "eps_estimate": 0.24,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 1517775670.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 24.83,
+      "avg_volume": 2915646,
+      "adr_pct": 3.2,
+      "dollar_volume": 72395490.0
+    },
+    {
+      "date": "2026-07-08",
+      "ticker": "PSMT",
+      "company": "PriceSmart, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 6035200891.0,
+      "eps_estimate": 1.19,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 1452920000.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 195.34,
+      "avg_volume": 271658,
+      "adr_pct": 2.7,
+      "dollar_volume": 53065674.0
     }
   ]
 }
