@@ -1,6 +1,6 @@
 {
-  "generated_at": "June 30, 2026 (18:45 EDT)",
-  "session": "Post-Market",
+  "generated_at": "July 01, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 16.45,
-      "change": -1.2,
+      "price": 16.79,
+      "change": 0.34,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.42,
-      "change": 0.05,
+      "price": 4.49,
+      "change": 0.12,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 69468.11,
-      "change_pct": 0.15
+      "price": 70474.96,
+      "change_pct": 0.59
     },
     "dax": {
       "label": "DAX",
-      "price": 24626.89,
-      "change_pct": -0.18
+      "price": 24989.71,
+      "change_pct": -0.02
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10497.12,
-      "change_pct": 0.12
+      "price": 10440.09,
+      "change_pct": -0.54
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Risk-On / Tech Leadership",
+  "mood": "Tech-Led Rally / Risk-On Momentum",
   "analysis": {
-    "action_line": "VIX 16.45 Normal with S5FI 60.3% breadth and mixed global tape (Nikkei +0.15%) → favor selective long setups in relative strength leaders.",
-    "analysis_para1": "Global equity markets presented a mixed picture today with the Nikkei 225 up +0.15% and FTSE 100 gaining +0.12%, while the DAX declined -0.18%. Despite this regional divergence, US equities demonstrated significant strength, especially in tech. Underlying market health indicators in the US remain robust, with S5FI (stocks > 50DMA) at 60.3% and MMTH (stocks > 200DMA) at 64.1%, signaling broad participation above key moving averages. The rising 10-year yield at 4.42% continues to be a macro factor to monitor, although its impact on US credit regime remains undefined with the BAML HY spread unknown.",
-    "analysis_para2": "The immediate focus for the S&P 500 is the 7500 level, which could act as minor resistance following today's close at 7499.36; a decisive break above this confirms further upside. Support for the broad market is established near 7450. The Nasdaq 100's strong performance, closing at 30276.35, suggests continued tech leadership, with 30000 serving as a critical short-term support zone. Traders should watch for relative strength leaders breaking out or consolidating above prior resistance, using the 50-day moving average as a key dynamic support indicator. Strict risk management and adherence to stop levels are paramount, particularly given the rising 10-year yield.",
-    "technical_signal": "No reversal pattern confirmed yet. The market's upward momentum today, particularly in the Nasdaq 100, combined with healthy breadth metrics (S5FI 60.3%, MMTH 64.1%), suggests continuation rather than a reversal.",
+    "action_line": "VIX 16.79 Normal, S5FI 60.3% breadth, and mixed global tape (Nikkei positive, FTSE negative) suggest selective long opportunities in RS leaders.",
+    "analysis_para1": "Global markets are mixed this morning, with the Nikkei 225 up +0.59% while European indices like the DAX (-0.02%) and FTSE 100 (-0.54%) show weakness. The BAML HY Spread is currently unknown, leaving the credit regime unconfirmed. Despite the divergence overseas, US breadth metrics are solid, with 60.3% of stocks above their 50-day moving average and 64.1% above their 200-day, indicating healthy participation. This strong internal breadth supports the significant open in the S&P 500 (+0.79%) and especially the Nasdaq 100 (+1.68%).",
+    "analysis_para2": "The S&P 500 is testing significant resistance around the 7500 level (currently 7499.36); a decisive break and hold above this on volume would signal continued upside. Immediate support for the S&P 500 sits around 7450, which should hold for sustained momentum. For the Nasdaq 100, watch 30300 as the next potential resistance target, with a key support level around 30000. Given the rising 10Y Yield at 4.49%, monitor its trajectory, as an accelerated climb could eventually pressure growth stock valuations, though currently, tech is shrugging this off.",
+    "technical_signal": "No reversal pattern confirmed yet. US indices are showing strong positive momentum on the open, particularly in the tech sector.",
     "ticker_intel": [
       {
         "ticker": "NVDA",
-        "company": "NVIDIA Corporation",
+        "company": "NVIDIA Corp",
         "grade": "A+",
-        "reason": "NVDA exhibits exceptional relative strength and strong 1-month performance, making it a prime beneficiary in this tech-led, risk-on market regime."
+        "reason": "NVIDIA Corp exhibits superior relative strength and a strong 1-month return, making it a prime beneficiary of the ongoing AI-driven tech rally."
       },
       {
-        "ticker": "MSFT",
-        "company": "Microsoft Corporation",
+        "ticker": "SMCI",
+        "company": "Super Micro Computer Inc",
         "grade": "A",
-        "reason": "MSFT demonstrates robust relative strength and consistent 1-month gains, fitting well into a market favoring quality growth and AI innovation."
+        "reason": "Super Micro Computer Inc maintains robust relative strength and impressive 1-month gains, fitting the infrastructure demand of the current tech-led growth regime."
       },
       {
-        "ticker": "MMM",
-        "company": "3M Company",
+        "ticker": "WMT",
+        "company": "Walmart Inc",
         "grade": "C",
-        "reason": "MMM shows weak relative strength and underperformed over the last month, signaling distribution and making it an unattractive play in a growth-oriented market."
+        "reason": "Walmart Inc shows weakening relative strength and modest 1-month returns, suggesting potential underperformance as capital rotates towards higher-growth sectors in a risk-on environment."
       }
     ]
   }
