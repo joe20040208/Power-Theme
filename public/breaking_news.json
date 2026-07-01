@@ -1,7 +1,15 @@
 {
-  "last_checked": "June 30, 2026 (22:45 EST)",
+  "last_checked": "June 30, 2026 (22:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "[CNBC] Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bullish",
+      "timestamp": "2026-06-30T22:50:34.768670-04:00",
+      "pub_time": null
+    },
     {
       "headline": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
       "source": "CNBC",
@@ -41,21 +49,9 @@
       "direction": "bullish",
       "timestamp": "2026-06-30T11:40:38.094156-04:00",
       "pub_time": "2026-06-30T11:35:50-04:00"
-    },
-    {
-      "headline": "French biotech stock soars 40% after new data on experimental medicine",
-      "source": "CNBC",
-      "grade": 9,
-      "direction": "bullish",
-      "timestamp": "2026-06-30T11:05:51.530882-04:00",
-      "pub_time": "2026-06-30T10:58:09-04:00"
     }
   ],
   "seen_keys": [
-    {
-      "k": "three new york democrats backed by mamdani win house seat primaries 2 incumbents lose",
-      "ts": "2026-06-24T02:45:28.085160+00:00"
-    },
     {
       "k": "asia tech stocks mixed as samsung rebounds but chip shares remain under pressure after global sello",
       "ts": "2026-06-24T03:30:36.391643+00:00"
@@ -1499,6 +1495,10 @@
     {
       "k": "cnbc daily open ai demand fuels investors portfolios while oil posts biggest monthly decline",
       "ts": "2026-07-01T02:30:41.122939+00:00"
+    },
+    {
+      "k": "iran says it is selling oil at 20 premium as end of us blockade sees 40 million barrels exported",
+      "ts": "2026-07-01T02:50:35.545849+00:00"
     }
   ]
 }
