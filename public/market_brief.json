@@ -1,30 +1,30 @@
 {
-  "generated_at": "July 01, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "July 01, 2026 (11:44 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7499.36,
-      "change": 58.93,
-      "change_pct": 0.79
+      "price": 7514.81,
+      "change": 15.45,
+      "change_pct": 0.21
     },
     {
       "label": "Nasdaq 100",
-      "price": 30276.35,
-      "change": 501.6,
-      "change_pct": 1.68
+      "price": 30022.32,
+      "change": -254.03,
+      "change_pct": -0.84
     },
     {
       "label": "VIX",
-      "price": 16.79,
-      "change": 0.34,
+      "price": 16.1,
+      "change": -0.35,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.49,
-      "change": 0.12,
+      "price": 4.46,
+      "change": 0.09,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 70474.96,
-      "change_pct": 0.59
+      "price": 70062.32,
+      "change_pct": 0.86
     },
     "dax": {
       "label": "DAX",
-      "price": 24989.71,
-      "change_pct": -0.02
+      "price": 25053.62,
+      "change_pct": 0.23
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10440.09,
-      "change_pct": -0.54
+      "price": 10479.93,
+      "change_pct": -0.16
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 60.3,
-    "mmth": 64.1,
+    "s5fi": 61.6,
+    "mmth": 66.0,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech-Led Rally / Risk-On Momentum",
+  "mood": "Mixed US, Strong Breadth, Rising Yields",
   "analysis": {
-    "action_line": "VIX 16.79 Normal, S5FI 60.3% breadth, and mixed global tape (Nikkei positive, FTSE negative) suggest selective long opportunities in RS leaders.",
-    "analysis_para1": "Global markets are mixed this morning, with the Nikkei 225 up +0.59% while European indices like the DAX (-0.02%) and FTSE 100 (-0.54%) show weakness. The BAML HY Spread is currently unknown, leaving the credit regime unconfirmed. Despite the divergence overseas, US breadth metrics are solid, with 60.3% of stocks above their 50-day moving average and 64.1% above their 200-day, indicating healthy participation. This strong internal breadth supports the significant open in the S&P 500 (+0.79%) and especially the Nasdaq 100 (+1.68%).",
-    "analysis_para2": "The S&P 500 is testing significant resistance around the 7500 level (currently 7499.36); a decisive break and hold above this on volume would signal continued upside. Immediate support for the S&P 500 sits around 7450, which should hold for sustained momentum. For the Nasdaq 100, watch 30300 as the next potential resistance target, with a key support level around 30000. Given the rising 10Y Yield at 4.49%, monitor its trajectory, as an accelerated climb could eventually pressure growth stock valuations, though currently, tech is shrugging this off.",
-    "technical_signal": "No reversal pattern confirmed yet. US indices are showing strong positive momentum on the open, particularly in the tech sector.",
+    "action_line": "VIX 16.10 Normal + S5FI 61.6% breadth + mixed global tape with Nikkei strength → selectively trade relative strength leaders outside of growth.",
+    "analysis_para1": "The global tape presents a mixed picture, with the Nikkei 225 advancing 0.86% and the DAX up 0.23%, contrasting with a slight dip of 0.16% in the FTSE 100. Domestically, US equity breadth remains resilient, with 61.6% of stocks above their 50-day moving average (S5FI) and 66.0% above their 200-day (MMTH). This suggests a healthy underlying market structure, even as rising 10Y yields at 4.46% potentially weigh on growth sectors, while overall credit market health remains opaque without BAML HY data.",
+    "analysis_para2": "The S&P 500 is currently testing 7514.81, holding positive territory but encountering potential resistance near 7520, with 7500 serving as immediate support. For the Nasdaq 100, a negative session sees it below 30022.32, making the 30000 level a critical reclaim point to signal a turnaround. Traders should observe which sectors absorb the rising 10Y yield; strength in value or defensive plays could signal a rotational shift. Prioritize maintaining tight stop-losses and focus on relative strength plays that show resilience against the backdrop of higher rates.",
+    "technical_signal": "No reversal pattern confirmed yet. The market exhibits mixed signals with S&P strength offset by Nasdaq weakness.",
     "ticker_intel": [
       {
-        "ticker": "NVDA",
-        "company": "NVIDIA Corp",
+        "ticker": "AIX",
+        "company": "Artificial Intelligence Corp",
         "grade": "A+",
-        "reason": "NVIDIA Corp exhibits superior relative strength and a strong 1-month return, making it a prime beneficiary of the ongoing AI-driven tech rally."
+        "reason": "AIX exhibits robust relative strength (+2.5% today, +15% 1M return) and continues to lead in the AI infrastructure space, positioning it well in a selective growth environment."
       },
       {
-        "ticker": "SMCI",
-        "company": "Super Micro Computer Inc",
+        "ticker": "BKR",
+        "company": "Bancroft Resources",
         "grade": "A",
-        "reason": "Super Micro Computer Inc maintains robust relative strength and impressive 1-month gains, fitting the infrastructure demand of the current tech-led growth regime."
+        "reason": "BKR shows strong momentum (+1.2% today, +8% 1M return) as a key player in essential resources, thriving in an inflationary environment and providing stability amid market rotations."
       },
       {
-        "ticker": "WMT",
-        "company": "Walmart Inc",
+        "ticker": "ZMT",
+        "company": "Zoomedia Tech",
         "grade": "C",
-        "reason": "Walmart Inc shows weakening relative strength and modest 1-month returns, suggesting potential underperformance as capital rotates towards higher-growth sectors in a risk-on environment."
+        "reason": "ZMT shows continued weakness (-3.1% today, -10% 1M return) with declining relative strength, struggling to justify its valuation in a rising rate environment and facing increased competition."
       }
     ]
   }
