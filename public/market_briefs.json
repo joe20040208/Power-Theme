@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-07-01 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Growth Focus / Equity Accumulation",
+    "spy_price": 746.77,
+    "spy_change_pct": 0.78,
+    "vix": 16.73,
+    "hy_oas": 2.8,
+    "yield_curve": 0.3,
+    "credit_status": "Complacent",
+    "s5fi": 60.3,
+    "mmth": 64.1,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Anticipation builds around Alphabet's rumored major AI platform partnership, potentially expanding its cloud and enterprise AI capabilities."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft is gaining pre-market traction following reports of securing a multi-year, multi-billion dollar government cloud services contract."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "NVIDIA continues to benefit from recycled momentum as investors rotate into established AI and semiconductor leaders after quarter-end rebalancing."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-06-30 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "TSLA",
           "company": "Tesla Inc.",
           "reason": "Tesla experienced volatile trading, recycling headlines around production targets and CEO Elon Musk's social media activity, lacking fresh fundamental drivers."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-19 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Cautious / Mixed Signals",
-    "spy_price": 738.65,
-    "spy_change_pct": -0.07,
-    "vix": 18.03,
-    "hy_oas": 2.8,
-    "yield_curve": 0.54,
-    "credit_status": "Complacent",
-    "s5fi": 53.9,
-    "mmth": 59.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Microsoft is poised for upside after announcing a groundbreaking new enterprise AI security suite, expected to significantly boost cloud revenue guidance."
-        },
-        {
-          "ticker": "DIS",
-          "company": "The Walt Disney Company",
-          "reason": "Disney shares are set to react positively following a reported surge in Disney+ subscribers and higher-than-expected theme park attendance for Q2, signaling robust consumer demand."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla, Inc.",
-          "reason": "TSLA remains a C-grade candidate today, driven primarily by ongoing speculative trading volume and continued chatter surrounding competitive pressures in the EV market, without a fresh fundamental catalyst."
         }
       ]
     }
