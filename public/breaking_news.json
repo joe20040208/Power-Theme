@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 02, 2026 (09:42 EST)",
+  "last_checked": "July 02, 2026 (09:49 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -1359,6 +1359,10 @@
     {
       "k": "tesla deliveries jump 25 over last year blowing past expectations",
       "ts": "2026-07-02T13:42:02.856522+00:00"
+    },
+    {
+      "k": "ford q2 sales drop 103 due to fseries supplier issue falling ev demand",
+      "ts": "2026-07-02T13:50:00.840082+00:00"
     }
   ]
 }
