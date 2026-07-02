@@ -1,12 +1,17 @@
 {
-  "last_checked": "July 02, 2026 (15:20 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "July 02, 2026 (15:25 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "iran behind attack on cargo vessel near oman in strait of hormuz us official tells ms now",
-      "ts": "2026-06-25T19:25:23.731345+00:00"
-    },
+      "headline": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-02T15:25:28.904867-04:00",
+      "pub_time": "2026-07-02T14:54:09-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "chicago fed president goolsbee says inflation is too high williams sees price pressures easing",
       "ts": "2026-06-25T19:55:24.406895+00:00"
@@ -1322,6 +1327,14 @@
     {
       "k": "levis the north face and columbia are turning to women to fuel their next phase of growth",
       "ts": "2026-07-02T19:20:42.818029+00:00"
+    },
+    {
+      "k": "trump bought apple nvidia and other tech giants before tariff reversal fueled rebound",
+      "ts": "2026-07-02T19:25:29.745394+00:00"
+    },
+    {
+      "k": "olympian david hearn indicted in reflecting pool destruction of property case",
+      "ts": "2026-07-02T19:25:29.745394+00:00"
     }
   ]
 }
