@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-07-02 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "Global Risk-Off / Tech Retreat",
+    "spy_price": 745.76,
+    "spy_change_pct": -0.14,
+    "vix": 16.53,
+    "hy_oas": 2.75,
+    "yield_curve": 0.31,
+    "credit_status": "Complacent",
+    "s5fi": 60.2,
+    "mmth": 64.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Alphabet (GOOGL) shares are gaining pre-market following reports of Google Cloud securing a substantial multi-year AI infrastructure deal with a major financial institution."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft (MSFT) is seeing positive momentum after unveiling a new suite of enterprise AI tools designed to enhance data analytics and cybersecurity for corporate clients."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp.",
+          "reason": "NVIDIA (NVDA) is experiencing continued technical selling pressure after yesterday's broader tech weakness, with traders watching for potential short-term oversold bounces."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-07-01 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA Corporation continued its upward trend, primarily driven by persistent institutional flow chasing AI infrastructure demand rather than a fresh news catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-20 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-Off Sentiment",
-    "spy_price": 733.73,
-    "spy_change_pct": -0.67,
-    "vix": 18.03,
-    "hy_oas": 2.83,
-    "yield_curve": 0.54,
-    "credit_status": "Complacent",
-    "s5fi": 49.9,
-    "mmth": 57.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Reports of a landmark AI partnership with a major automotive manufacturer position it favorably for future innovation and market share in autonomous driving solutions."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Analyst upgrade following optimistic guidance on Q2 net interest income amid shifting rate expectations, boosting confidence in its financial outlook."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to see heightened volatility as traders adjust positions around previous momentum narratives, with key technical levels in focus after recent market weakness."
         }
       ]
     }
