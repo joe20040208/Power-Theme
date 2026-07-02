@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 02, 2026 (00:45 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 02, 2026 (00:50 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "[CNBC] Russia launches massive strike on Ukraine as Poland scrambles jets, Finland restricts airspace",
+      "source": "CNBC",
+      "grade": 9,
+      "direction": "bearish",
+      "timestamp": "2026-07-02T00:50:36.339912-04:00",
+      "pub_time": null
+    }
+  ],
   "seen_keys": [
     {
       "k": "anthropics latest hiring spree reveals where its building ai data centers next",
@@ -1342,6 +1351,14 @@
     {
       "k": "shares of byd and xiaomi surge as june delivery figures fuel optimism",
       "ts": "2026-07-02T04:10:34.968361+00:00"
+    },
+    {
+      "k": "russia launches massive strike on ukraine as poland scrambles jets finland restricts airspace",
+      "ts": "2026-07-02T04:50:36.784627+00:00"
+    },
+    {
+      "k": "openai proposes 5 stake to trump administration to ease washington pressure report",
+      "ts": "2026-07-02T04:50:36.784627+00:00"
     }
   ]
 }
