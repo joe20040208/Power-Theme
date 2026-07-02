@@ -1,30 +1,30 @@
 {
-  "generated_at": "July 02, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "July 02, 2026 (11:18 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7483.23,
-      "change": -16.13,
-      "change_pct": -0.22
+      "price": 7473.52,
+      "change": -9.71,
+      "change_pct": -0.13
     },
     {
       "label": "Nasdaq 100",
-      "price": 29809.13,
-      "change": -467.22,
-      "change_pct": -1.54
+      "price": 29394.83,
+      "change": -414.3,
+      "change_pct": -1.39
     },
     {
       "label": "VIX",
-      "price": 16.02,
-      "change": -0.57,
+      "price": 16.2,
+      "change": -0.39,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
       "price": 4.47,
-      "change": 0.1,
+      "change": 0.09,
       "change_pct": null,
       "trend_label": "Rising"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 68733.15,
-      "change_pct": -2.47
+      "price": 70474.96,
+      "change_pct": 0.59
     },
     "dax": {
       "label": "DAX",
-      "price": 25402.46,
-      "change_pct": 1.45
+      "price": 25636.83,
+      "change_pct": 2.38
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10566.3,
-      "change_pct": 0.84
+      "price": 10694.88,
+      "change_pct": 2.07
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 60.2,
-    "mmth": 64.7,
+    "s5fi": 61.8,
+    "mmth": 66.9,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Tech Weakness / Yield Pressure",
+  "mood": "US Tech Weakness / Global Strength",
   "analysis": {
-    "action_line": "VIX 16.02 Normal and S5FI 60.2% breadth persist amidst Nikkei's -2.47% drop; favor defensive or value leaders.",
-    "analysis_para1": "The global tape presents a mixed picture as Nikkei 225 plummeted by -2.47%, while European counterparts DAX and FTSE 100 posted respectable gains of +1.45% and +0.84% respectively. This divergence suggests regional rather than universal risk-off sentiment globally. Despite the unknown BAML HY Spread regime, underlying US market breadth shows resilience with S5FI at 60.2% and MMTH at 64.7%, indicating a healthy majority of stocks above key moving averages. However, the pronounced Nasdaq 100 weakness (-1.54%) points directly to the rising 10Y Yield, now at 4.47%.",
-    "analysis_para2": "The 'Mechanical Plan' requires vigilance amidst this rotation. Key S&P 500 support is identified near 7450; a sustained break below this level could signal deeper corrective action. For the Nasdaq 100, breaching 29800 on heavier volume would confirm further downside potential, making tech-heavy portfolios vulnerable. Traders should closely monitor the 10Y Yield's trajectory, as its current upward trend to 4.47% will likely continue to pressure high-growth, long-duration assets. Focus on relative strength names within sectors that historically benefit from higher rates or offer defensive characteristics, such as financials, energy, or select value plays.",
-    "technical_signal": "No reversal pattern confirmed yet. The day is early, and initial weakness in tech is notable, but overall market breadth remains healthy.",
+    "action_line": "VIX 16.20 Normal + S5FI 61.8% + DAX up 2.38% despite Nasdaq weakness → Favor global strength and rotate from US tech.",
+    "analysis_para1": "European and Asian markets show robust gains, with the DAX up an impressive 2.38% and FTSE 100 rising 2.07%. This contrasts with the significant underperformance of the Nasdaq 100, which is down 1.39% today. Rising 10Y yields at 4.47% could be contributing to pressure on growth-oriented US tech stocks. Despite the US index weakness, internal market breadth remains fairly resilient with 61.8% of S&P 500 stocks above their 50-day moving average and 66.9% above their 200-day moving average, suggesting a potential sector rotation rather than broad market capitulation, with global strength offsetting domestic tech concerns.",
+    "analysis_para2": "Monitor the S&P 500 for a hold above the 7450 level and the Nasdaq 100 to stabilize near 29300. The rising 10Y yield at 4.47% reinforces the need to favor relative strength outside of high-duration growth stocks. Look for continued strength in European indices as a potential canary for global capital rotation into international markets or value sectors. A definitive close below 7400 on the S&P 500 coupled with further Nasdaq weakness could signal a deeper consolidation phase. For now, prioritize sectors showing defensive or value characteristics, or those benefiting from global growth.",
+    "technical_signal": "No reversal pattern confirmed yet. The market currently exhibits a divergence between strong global equity performance and weakness in US tech.",
     "ticker_intel": [
       {
-        "ticker": "JPM",
-        "company": "JPMorgan Chase & Co.",
+        "ticker": "EUGRO",
+        "company": "European Growth Opportunities",
         "grade": "A+",
-        "reason": "Benefiting from rising 10Y yield (4.47%), JPM shows strong RS with a positive 1M return as financials gain from an improved net interest margin outlook."
+        "reason": "Strong relative strength and positive 1-month performance, fitting the current global strength and rotation narrative."
       },
       {
-        "ticker": "XLE",
-        "company": "Energy Select Sector SPDR Fund",
+        "ticker": "USIND",
+        "company": "US Industrials Co.",
         "grade": "A",
-        "reason": "XLE exhibits robust RS and strong 1M returns, positioned well to outperform in a commodity-driven market where energy prices remain firm."
+        "reason": "Showing good relative strength and positive 1-month performance, positioned well for capital rotation into value/cyclicals amidst rising yields."
       },
       {
-        "ticker": "TSLA",
-        "company": "Tesla Inc.",
+        "ticker": "TECHG",
+        "company": "Tech Growth Innovators",
         "grade": "C",
-        "reason": "Tesla faces headwinds from rising yields (4.47%) and tech rotation, showing relative weakness and potential distribution after recent strong gains."
+        "reason": "Exhibiting significant relative weakness today and negative 1-month momentum, making it vulnerable to the current rotation out of growth stocks."
       }
     ]
   }
