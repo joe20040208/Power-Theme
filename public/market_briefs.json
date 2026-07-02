@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-07-02 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Tech Divergence, Global Resilience",
+    "spy_price": 744.78,
+    "spy_change_pct": -0.13,
+    "vix": 16.15,
+    "hy_oas": 2.74,
+    "yield_curve": 0.31,
+    "credit_status": "Complacent",
+    "s5fi": 62.6,
+    "mmth": 67.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "PLTR",
+          "company": "Palantir Technologies Inc.",
+          "reason": "Strong new contract wins signal accelerating enterprise and government adoption, reinforcing its growth trajectory."
+        },
+        {
+          "ticker": "HOOD",
+          "company": "Robinhood Markets, Inc.",
+          "reason": "Strategic move into AI-native blockchain and global expansion opens significant new revenue streams and market opportunities."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "reason": "Profit-taking continues in bellwether AI stock amidst broader tech sector weakness, without fresh fundamental catalysts."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-07-02 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continues to benefit from an ongoing tailwind of robust AI chip demand, a theme that has been consistent for months without a fresh specific catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-20 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Broad Risk-On Rally",
-    "spy_price": 741.25,
-    "spy_change_pct": 1.02,
-    "vix": 17.44,
-    "hy_oas": 2.86,
-    "yield_curve": 0.54,
-    "credit_status": "Complacent",
-    "s5fi": 56.3,
-    "mmth": 60.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "CAVA",
-          "company": "CAVA Group",
-          "reason": "CAVA Group rallied strongly post-earnings, delivering a beat & raise that signals robust underlying business momentum and growth."
-        },
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "Intel Corporation surged following its strategic re-positioning in the AI sector, confirming its commitment to competitive innovation and market share."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA Corporation continued its upward trend, primarily driven by persistent institutional flow chasing AI infrastructure demand rather than a fresh news catalyst today."
         }
       ]
     }
