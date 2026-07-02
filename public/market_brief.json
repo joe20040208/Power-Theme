@@ -1,6 +1,6 @@
 {
-  "generated_at": "July 01, 2026 (18:44 EDT)",
-  "session": "Post-Market",
+  "generated_at": "July 02, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,8 +16,8 @@
     },
     {
       "label": "VIX",
-      "price": 16.59,
-      "change": 0.14,
+      "price": 16.02,
+      "change": -0.57,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 70062.32,
-      "change_pct": 0.86
+      "price": 68733.15,
+      "change_pct": -2.47
     },
     "dax": {
       "label": "DAX",
-      "price": 24995.81,
-      "change_pct": 1.5
+      "price": 25402.46,
+      "change_pct": 1.45
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10478.34,
-      "change_pct": -0.18
+      "price": 10566.3,
+      "change_pct": 0.84
     }
   },
   "macro_breadth": {
@@ -60,30 +60,30 @@
     "signal_detected": false,
     "description": ""
   },
-  "mood": "Growth Underpressure / Global Mixed",
+  "mood": "Tech Weakness / Yield Pressure",
   "analysis": {
-    "action_line": "VIX 16.59 Normal + S5FI 60.2% breadth + DAX +1.50% → focus on defensive sectors; avoid high-growth on rising yields.",
-    "analysis_para1": "European markets led by the DAX, which gained a robust +1.50%, alongside a strong Nikkei 225 (+0.86%), suggested underlying global resilience. However, the FTSE 100's slight dip of -0.18% echoed the softer tone seen in the US indices, particularly the Nasdaq 100's -1.54% decline. Despite the mixed international signals, US market breadth remained surprisingly robust, with 60.2% of stocks above their 50-day moving average (S5FI) and 64.7% above their 200-day (MMTH), indicating healthy participation beneath the surface. The rising 10Y yield at 4.47% likely contributed to the pressure on US growth names.",
-    "analysis_para2": "The current environment necessitates a cautious approach, focusing on tactical shifts rather than broad market exposure. Monitor the Nasdaq 100 closely, with 30,000 acting as a psychological resistance level; a sustained break above would signal renewed momentum for growth. Conversely, watch S&P 500 support around the 7450 level for signs of consolidation. Given the rising 10Y yield at 4.47%, continue to favor sectors exhibiting strong relative strength and those less sensitive to interest rate hikes. Maintain smaller position sizes and use tight stops to manage risk effectively in this rotationary environment.",
-    "technical_signal": "No reversal pattern confirmed yet. The market saw a significant daily decline in the Nasdaq 100, but the broader S&P 500 dip was modest, indicating a lack of full capitulation.",
+    "action_line": "VIX 16.02 Normal and S5FI 60.2% breadth persist amidst Nikkei's -2.47% drop; favor defensive or value leaders.",
+    "analysis_para1": "The global tape presents a mixed picture as Nikkei 225 plummeted by -2.47%, while European counterparts DAX and FTSE 100 posted respectable gains of +1.45% and +0.84% respectively. This divergence suggests regional rather than universal risk-off sentiment globally. Despite the unknown BAML HY Spread regime, underlying US market breadth shows resilience with S5FI at 60.2% and MMTH at 64.7%, indicating a healthy majority of stocks above key moving averages. However, the pronounced Nasdaq 100 weakness (-1.54%) points directly to the rising 10Y Yield, now at 4.47%.",
+    "analysis_para2": "The 'Mechanical Plan' requires vigilance amidst this rotation. Key S&P 500 support is identified near 7450; a sustained break below this level could signal deeper corrective action. For the Nasdaq 100, breaching 29800 on heavier volume would confirm further downside potential, making tech-heavy portfolios vulnerable. Traders should closely monitor the 10Y Yield's trajectory, as its current upward trend to 4.47% will likely continue to pressure high-growth, long-duration assets. Focus on relative strength names within sectors that historically benefit from higher rates or offer defensive characteristics, such as financials, energy, or select value plays.",
+    "technical_signal": "No reversal pattern confirmed yet. The day is early, and initial weakness in tech is notable, but overall market breadth remains healthy.",
     "ticker_intel": [
       {
-        "ticker": "CAT",
-        "company": "Caterpillar Inc.",
+        "ticker": "JPM",
+        "company": "JPMorgan Chase & Co.",
         "grade": "A+",
-        "reason": "Showing strong relative strength with a +3.2% 1M return, benefiting from global industrial demand amidst European strength and infrastructure spending."
+        "reason": "Benefiting from rising 10Y yield (4.47%), JPM shows strong RS with a positive 1M return as financials gain from an improved net interest margin outlook."
       },
       {
-        "ticker": "JNJ",
-        "company": "Johnson & Johnson",
+        "ticker": "XLE",
+        "company": "Energy Select Sector SPDR Fund",
         "grade": "A",
-        "reason": "Demonstrates consistent relative strength with a +1.8% 1M return, providing defensive stability in a rising yield and rotationary environment."
+        "reason": "XLE exhibits robust RS and strong 1M returns, positioned well to outperform in a commodity-driven market where energy prices remain firm."
       },
       {
-        "ticker": "CRM",
-        "company": "Salesforce",
+        "ticker": "TSLA",
+        "company": "Tesla Inc.",
         "grade": "C",
-        "reason": "Underperformed significantly today and showed poor relative strength with a -5.5% 1M return, vulnerable to rising yields impacting high-multiple growth stocks."
+        "reason": "Tesla faces headwinds from rising yields (4.47%) and tech rotation, showing relative weakness and potential distribution after recent strong gains."
       }
     ]
   }
