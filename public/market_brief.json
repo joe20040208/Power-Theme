@@ -1,5 +1,5 @@
 {
-  "generated_at": "July 02, 2026 (18:30 EDT)",
+  "generated_at": "July 02, 2026 (18:33 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -62,28 +62,28 @@
   },
   "mood": "Tech Weakness / Global Resilience",
   "analysis": {
-    "action_line": "VIX 16.15 Normal + S5FI 62.6% breadth + strong FTSE 100 (+1.67%) suggests selective long opportunities despite Nasdaq weakness.",
-    "analysis_para1": "Global markets demonstrated resilience today, with the Nikkei 225 gaining +0.59%, the DAX +0.18%, and the FTSE 100 a robust +1.67%. In the US, equity breadth remains healthy, evidenced by 62.6% of stocks above their 50-day moving average (S5FI) and 67.7% above their 200-day moving average (MMTH). However, the rising 10Y Yield at 4.48% appears to be impacting the Nasdaq 100, which fell -1.61%, signaling potential headwinds for growth segments, although the BAML HY spread regime remains unknown.",
-    "analysis_para2": "The S&P 500's flat close at 7483.24 masks significant dispersion underneath, with the Nasdaq 100 declining sharply. Given the VIX is normal at 16.15 and breadth remains robust, the mechanical plan is to prioritize relative strength leaders outside of heavily impacted tech. Watch for the Nasdaq 100 to stabilize near its recent swing low support around 29000; a break below could signal further distribution. Meanwhile, look for the S&P 500 to hold above 7450 as a key short-term support. A sustained rise in the 10Y yield above 4.5% would necessitate re-evaluating tech exposure.",
-    "technical_signal": "No reversal pattern confirmed yet. While Nasdaq showed weakness, overall market breadth remains healthy and global indices were positive.",
+    "action_line": "VIX 16.15 Normal + S5FI 62.6% breadth + FTSE 100 up +1.67% → selective long plays outside of big tech.",
+    "analysis_para1": "Global markets showed resilience today with the Nikkei 225 up +0.59%, DAX +0.18%, and a strong +1.67% gain for the FTSE 100, contrasting with US equity performance. The unknown BAML HY Spread regime, combined with rising 10Y yields at 4.48%, suggests an underlying credit market ambiguity that warrants caution despite international strength. US market breadth remains decent, with 62.6% of stocks above their 50-day moving average and 67.7% above their 200-day, but this masks significant divergence beneath the surface.",
+    "analysis_para2": "The S&P 500's flat close at 7483.24 held key support, while the Nasdaq 100's significant -1.61% drop to 29329.21 signals pronounced weakness in growth sectors. A sustained break below S&P 7400 would trigger broader distribution alerts, whereas Nasdaq needs to reclaim 29500 to alleviate immediate downside pressure. Traders should closely monitor the 10Y yield at 4.48% for further upward momentum, which could continue to pressure rate-sensitive segments. Focus remains on identifying relative strength leaders in stable, dividend-paying, or commodity-linked sectors, while actively avoiding overextended growth names.",
+    "technical_signal": "No reversal pattern confirmed yet. S&P 500 holds flat while Nasdaq 100 shows significant weakness, indicating divergence rather than a unified market turn.",
     "ticker_intel": [
       {
-        "ticker": "CAT",
-        "company": "Caterpillar Inc.",
+        "ticker": "XLE",
+        "company": "Energy Select Sector SPDR Fund",
         "grade": "A+",
-        "reason": "Shows strong relative strength with a +8% 1M return, benefiting from global economic resilience and infrastructure spending while tech lags."
+        "reason": "XLE exhibits strong relative strength and positive 1-month returns, fitting a rising yield and potential inflation environment that favors commodity-related sectors."
       },
       {
         "ticker": "JPM",
         "company": "JPMorgan Chase & Co.",
         "grade": "A",
-        "reason": "Demonstrating robust relative strength and a +5% 1M return, as rising 10Y yields potentially boost bank profitability in a non-tech-led market."
+        "reason": "JPM shows good relative strength and positive 1-month returns, positioning well as a major financial institution that typically benefits from rising interest rates."
       },
       {
-        "ticker": "TSLA",
-        "company": "Tesla Inc.",
+        "ticker": "NFLX",
+        "company": "Netflix, Inc.",
         "grade": "C",
-        "reason": "Exhibiting weakness with a -10% 1M return and poor relative strength, highly susceptible to rising interest rates and the broader tech sector pullback."
+        "reason": "NFLX displays weak relative strength and negative 1-month returns, making it vulnerable as a high-growth tech stock in a market experiencing tech-specific weakness and rising yields."
       }
     ]
   }
