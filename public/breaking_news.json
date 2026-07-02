@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 02, 2026 (09:32 EST)",
+  "last_checked": "July 02, 2026 (09:42 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "micron stock jumps 19 after blockbuster earnings leading chip rally",
-      "ts": "2026-06-25T13:35:26.373912+00:00"
-    },
     {
       "k": "apple sinks nearly 5 after price hikes on macbook and ipad due to memory crunch",
       "ts": "2026-06-25T14:05:41.432650+00:00"
@@ -1359,6 +1355,10 @@
     {
       "k": "us job creation cools in june with payrolls growth of just 57000 unemployment rate at 42",
       "ts": "2026-07-02T13:32:35.022215+00:00"
+    },
+    {
+      "k": "tesla deliveries jump 25 over last year blowing past expectations",
+      "ts": "2026-07-02T13:42:02.856522+00:00"
     }
   ]
 }
