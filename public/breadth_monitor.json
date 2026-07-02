@@ -2,11 +2,33 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-07-02",
+      "date_display": "7/2/2026",
+      "up_4_pct": 264,
+      "down_4_pct": 352,
+      "ratio_5d": 1.95,
+      "ratio_10d": 1.47,
+      "up_25_q": 1691,
+      "down_25_q": 1101,
+      "up_25_m": 304,
+      "down_25_m": 182,
+      "up_50_m": 48,
+      "down_50_m": 34,
+      "up_13_34d": 2217,
+      "down_13_34d": 1539,
+      "atr_10x_ext": 12,
+      "above_50dma_pct": 61.5,
+      "worden_universe": 6499,
+      "t2108": 51.95,
+      "sp_index": 7478.06,
+      "universe_1b": 2712
+    },
+    {
       "date": "2026-07-01",
       "date_display": "7/1/2026",
-      "up_4_pct": 381,
-      "down_4_pct": 214,
-      "ratio_5d": 2.04,
+      "up_4_pct": 389,
+      "down_4_pct": 219,
+      "ratio_5d": 2.03,
       "ratio_10d": 1.49,
       "up_25_q": 1773,
       "down_25_q": 1087,
@@ -18,9 +40,9 @@
       "down_13_34d": 1502,
       "atr_10x_ext": 15,
       "above_50dma_pct": 60.0,
-      "worden_universe": 6494,
-      "t2108": 50.51,
-      "sp_index": 7483.52,
+      "worden_universe": 6499,
+      "t2108": 50.97,
+      "sp_index": 7483.23,
       "universe_1b": 2719
     },
     {
@@ -2931,6 +2953,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-07-01T21:47:15+00:00",
-  "gemini_analysis": "TODAY \u2014 The up4 count of 381 is just shy of a healthy buying thrust, but the dn4 count of 214 signals distribution pressure. The up4/dn4 ratio for today is 1.78.\nWEEK \u2014 The 5-day ratio improved significantly to 2.04, indicating a strong bull trend. Up25M and Up13_34d counts also show improving breadth over the last five sessions.\nMONTH \u2014 The market is not yet frothy with up50M at 44 and T2108 at a neutral 50.51. %above50dma at 60.0% indicates a healthy bull zone for swing traders.\nREGIME \u2014 Bullish \u2014 The strong bull trend indicated by the 5D ratio suggests continued momentum; Stockbee would watch for a consistent up4 count above 400 and sustained expansion in Up25Q to confirm further strength."
+  "fetched_at_utc": "2026-07-02T21:49:35+00:00",
+  "gemini_analysis": "TODAY \u2014 `up4` at 264 falls short of the 400 healthy buying thrust threshold, while `dn4` at 352 shows significant distribution pressure. The 5D ratio of 1.95 is bullish, just under the 2.0 strong bull trend level.\nWEEK \u2014 The 5D ratio has improved from 1.29 to 1.95 over the last five days, indicating strengthening breadth. `up25M` concurrently rose from 176 to 304, signaling broadening participation.\nMONTH \u2014 `up50M` is at 48, nearing the \"hot market\" threshold of 50 but not yet frothy for swing traders. The %above50dma at 61.5% and T2108 at 51.95% reflect healthy, non-extended bull market conditions.\nREGIME \u2014 Bullish. Stockbee would watch for `up50M` to rise above 50 as a caution signal for \"hot market\" conditions, or for `up4` to exceed 400, confirming a renewed buying thrust."
 }
