@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-07-03 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "Mixed Sentiment, Tech Weakness",
+    "spy_price": 744.78,
+    "spy_change_pct": -0.13,
+    "vix": 15.81,
+    "hy_oas": 2.75,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 62.6,
+    "mmth": 67.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "INFQ",
+          "company": "InfoQuest Corp.",
+          "reason": "Analyst Upgrade with Significant Price Target indicates strong institutional conviction and potential for immediate upward re-rating."
+        },
+        {
+          "ticker": "RIVN",
+          "company": "Rivian Automotive, Inc.",
+          "reason": "A strong Beat & Raise quarter signals robust operational execution and improving fundamental outlook, driving renewed investor confidence."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "While lacking a fresh news catalyst today, Microsoft continues to benefit from an underlying AI narrative and strong technical flows, making it a relevant name for sustained interest."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-07-03 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continues to see momentum trading driven by ongoing AI enthusiasm and flow-based buying, despite no specific fresh news catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-21 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Divergent Calm / US Resilience",
-    "spy_price": 742.72,
-    "spy_change_pct": 0.2,
-    "vix": 16.76,
-    "hy_oas": 2.8,
-    "yield_curve": 0.49,
-    "credit_status": "Complacent",
-    "s5fi": 58.9,
-    "mmth": 61.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GFS",
-          "company": "GlobalFoundries Inc.",
-          "reason": "Secured a substantial government contract for advanced quantum computing chip research and development, boosting its long-term revenue outlook."
-        },
-        {
-          "ticker": "INFQ",
-          "company": "Infinity Quantum Solutions",
-          "reason": "Awarded a significant grant from the new federal Quantum Funding Initiative, positioning it as a key beneficiary of government tech investment."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Continued to see positive flow from the ongoing AI hardware demand narrative, with no fresh fundamental catalyst today but sustained institutional interest."
         }
       ]
     }
