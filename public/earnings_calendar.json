@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T21:49:34.618924+00:00",
+  "generated_at": "2026-07-03T12:13:41.697844+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 61.47,
-      "avg_volume": 2964480,
+      "avg_volume": 2956601,
       "adr_pct": 11.3,
-      "dollar_volume": 182226586.0
+      "dollar_volume": 181742263.0
     },
     {
       "date": "2026-07-08",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 150.01,
-      "avg_volume": 248174,
+      "avg_volume": 251456,
       "adr_pct": 3.8,
-      "dollar_volume": 37228582.0
+      "dollar_volume": 37720915.0
     },
     {
       "date": "2026-07-08",
@@ -49,9 +49,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 24.41,
-      "avg_volume": 2921908,
+      "avg_volume": 2920806,
       "adr_pct": 3.2,
-      "dollar_volume": 71323774.0
+      "dollar_volume": 71296874.0
     },
     {
       "date": "2026-07-08",
@@ -66,26 +66,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 197.9,
-      "avg_volume": 273461,
+      "avg_volume": 274248,
       "adr_pct": 2.6,
-      "dollar_volume": 54117932.0
+      "dollar_volume": 54273679.0
     },
     {
       "date": "2026-07-09",
       "ticker": "FRCOY",
       "company": "Fast Retailing Co., Ltd.",
       "time_of_day": "AMC",
-      "mkt_cap": 157163319086.0,
+      "mkt_cap": 157531523498.0,
       "eps_estimate": null,
       "eps_act": null,
       "eps_surp_pct": null,
       "rev_est": 951663839570.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 51.22,
-      "avg_volume": 615950,
-      "adr_pct": 1.9,
-      "dollar_volume": 31548959.0
+      "price": 51.34,
+      "avg_volume": 617104,
+      "adr_pct": 2.1,
+      "dollar_volume": 31682119.0
     },
     {
       "date": "2026-07-09",
@@ -100,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 23.97,
-      "avg_volume": 1986345,
+      "avg_volume": 1990541,
       "adr_pct": 6.7,
-      "dollar_volume": 47612690.0
+      "dollar_volume": 47713268.0
     },
     {
       "date": "2026-07-09",
@@ -117,9 +117,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 144.22,
-      "avg_volume": 7580106,
+      "avg_volume": 7703174,
       "adr_pct": 2.2,
-      "dollar_volume": 1093202887.0
+      "dollar_volume": 1110951754.0
     },
     {
       "date": "2026-07-09",
@@ -134,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 232.22,
-      "avg_volume": 3140453,
+      "avg_volume": 3155456,
       "adr_pct": 2.7,
-      "dollar_volume": 729275996.0
+      "dollar_volume": 732759992.0
     },
     {
       "date": "2026-07-09",
@@ -151,9 +151,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 13.73,
-      "avg_volume": 2906683,
+      "avg_volume": 2897404,
       "adr_pct": 4.0,
-      "dollar_volume": 39908758.0
+      "dollar_volume": 39781357.0
     },
     {
       "date": "2026-07-09",
@@ -168,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 60.36,
-      "avg_volume": 1094653,
+      "avg_volume": 1092780,
       "adr_pct": 3.8,
-      "dollar_volume": 66073255.0
+      "dollar_volume": 65960201.0
     },
     {
       "date": "2026-07-09",
@@ -185,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 38.34,
-      "avg_volume": 624046,
+      "avg_volume": 617498,
       "adr_pct": 2.1,
-      "dollar_volume": 23925924.0
+      "dollar_volume": 23674873.0
     },
     {
       "date": "2026-07-09",
@@ -202,9 +202,43 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 245.83,
-      "avg_volume": 175593,
+      "avg_volume": 174770,
       "adr_pct": 2.6,
-      "dollar_volume": 43166027.0
+      "dollar_volume": 42963709.0
+    },
+    {
+      "date": "2026-07-10",
+      "ticker": "DAL",
+      "company": "Delta Air Lines, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 60936225035.0,
+      "eps_estimate": 1.47,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 18929472740.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 92.75,
+      "avg_volume": 8502425,
+      "adr_pct": 2.9,
+      "dollar_volume": 788599919.0
+    },
+    {
+      "date": "2026-07-10",
+      "ticker": "H",
+      "company": "Hyatt Hotels Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 18011231881.0,
+      "eps_estimate": 0.92,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 1811311780.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 191.28,
+      "avg_volume": 881546,
+      "adr_pct": 2.8,
+      "dollar_volume": 168622119.0
     }
   ]
 }

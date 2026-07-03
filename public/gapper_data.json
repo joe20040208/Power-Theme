@@ -1,140 +1,62 @@
 {
-  "scan_time": "2026-07-02 08:05 ET",
+  "scan_time": "2026-07-03 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "MSTR",
-      "price": 93.39,
-      "gap_pct": 5.75,
-      "pm_volume": 588949,
-      "avg_vol_10d": 34782822,
-      "avg_dollar_vol": 3248367747,
-      "mkt_cap": 32728303083,
-      "rvol": 1.15,
-      "adr_pct": 8.22,
-      "category": "Thematic Narratives",
-      "theme": "Bitcoin Treasury Management Strategy",
-      "reasoning": "MicroStrategy announced a new Bitcoin monetization and share buyback framework providing significant financial flexibility.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 57,
-      "grade": "B",
-      "finviz_theme": "Fintech - Blockchain/Crypto",
-      "analysis_detail": "Catalyst: MicroStrategy introduced a new Bitcoin monetization and share buyback framework, allowing it to sell up to **$1.25 billion** of its Bitcoin holdings. | Impact: This framework provides significant financial **flexibility** for MSTR, enabling it to manage its Bitcoin treasury proactively, potentially execute share buybacks to enhance shareholder value, and address liquidity needs amidst volatile crypto markets.",
-      "analysis_details": "• **The Narrative**\nMicroStrategy has unveiled a new Bitcoin monetization and share buyback framework, representing a **significant evolution** in its capital allocation strategy. This framework grants the company the flexibility to sell up to **$1.25 billion** of its extensive Bitcoin holdings, a departure from Michael Saylor's previous 'never sell' stance. This move is designed to provide **enhanced liquidity** and the ability to return capital to shareholders through potential share buybacks, adapting to a dynamic cryptocurrency market.\n\n• **Explosiveness**\nThe market impact of this announcement is complex, occurring as Bitcoin concurrently hit a **21-month low** with substantial ETF outflows. While the framework itself offers **financial optionality** and a commitment to shareholder value, the underlying pressure on Bitcoin prices could temper immediate positive sentiment. The potential for **share buybacks** introduces a new demand vector for MSTR stock, but the optics of potentially selling Bitcoin after advocating holding could be a mixed signal for some investors.",
-      "peer_tickers": [
-        "COIN",
-        "MARA",
-        "RIOT"
-      ],
-      "headlines": [
-        {
-          "title": "FBI Director Kash Patel Failed to Disclose Six-Figure MicroStrategy Stock Purchase for Six Months - unchainedcrypto.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT1prU3BwTUJPVi1kM0Rjc2N0cjZaM0xSS01ObktYc1ZzM3RsTHlpWjJwcEZVQ3kzRVg4M0hjNWdXX1NtZnZjNHRiQ1k4dk1tZ3NZWXBuSkt0RS1sQWhiY1pEQy1CVzZYbTliTW5BMzRHaDdQRjN5RzR5N01QdmhMdXVHQ0QzeFVSQkdLVllFS2VlM0FYbFNlcFlHT3VVZ3FSc0l5LWlvZGxTQ2JDNGRtbUZNVXVCT2stamF5OEUwaFRoSncx?oc=5"
-        },
-        {
-          "title": "What Strategy (MSTR)'s New Bitcoin Monetization and Buyback Framework Means For Shareholders - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYXNYd3hvMElvUHhOd21CWFhRbmdzXzhMcW9RSXZkbklNa3ZfS1FUUXpkdEZZX0gxckdSS2dhaGhkODZnWVpJSFlPYnc4ZmpOYl9Dc19LcmFCaDV0eXdqZGhQQlJsX3JSMEJFRnZHU0NFY1dyTHJ3RUg4ZnA0N0diRFVaVm5ldVV5elZhcmQ4bUVzenM3RkoxTXlMd1A2cWtJREVWSmxoMEo4ckwyaXY0anRCR01lM0lSR2F0NEYtOHR0dUV6ekHSAcsBQVVfeXFMTVhXbkg3NmU1dldfVDdnazYtOUdHLVBtM3hRWjhoZ1hDM0VUNDc4Sl9zUy00UURRTzBVSDdFLUZERmZFWjhhRGZGaVpUa050LU5HMk1jNmFnOW1BZy1lRmRrbzNsNFduOXVzVVF0M2xnb0NYOTJHWmJkSS05azRnM29ra3lNeXlpdWhSS1RsV0VtellZbU9fZWY3WlQyNzRfaUt6cDZWampRclY5QUhheFMtUng5cDJPenZtRThkWjVyTmlfWm5FTG9EUGs?oc=5"
-        },
-        {
-          "title": "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report - CoinDesk",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlBCQnlsV28tRjNGdnBaY2dEaVlrSjhpX3p4Wi1qdXFlLWhkZlZsY2F3b1pfQ01FaGtxak11TTF1V3ZYS05xUTNTZ3NqSjZOZHBKQ3Bzam1LUnh3TkhaTVgteDZadDlxOEw2RjZDekRmeXVvV3dkU0FLRmNxN09oWkpMTGFqVUF5UmJCd1B1c2VhdXpMSDJvc2syZWNBYzhHcHVrTW94R1p3YlA5U00ySF8zMnBqTWlJbWlQak5DOVJpS0pxR2Q1Q0diYUNUc2dy?oc=5"
-        },
-        {
-          "title": "Strategys Saylor Doubles Down on $100 STRC Target Despite Being $13 Off",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/346ff451-65bf-3e21-ae18-af4466d815c4/strategy%E2%80%99s-saylor-doubles.html"
-        },
-        {
-          "title": "Inside Trumps $1.4 billion crypto empire: Altcoins, Bitcoinand a stake in Michael Saylors Strategy",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/inside-trump-1-4-billion-211135042.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Fintech - Blockchain/Crypto",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 75,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "MicroStrategy announced a new Bitcoin monetization and share buyback framework",
-        "discrepancy_note": "Source B [5] directly confirms 'New Bitcoin Monetization and Buyback Framework.' Source A [5] confirms the ability for 'Strategy' (MSTR) to sell up to $1.25 billion if it needs cash (Bitcoin monetization aspect), but does not explicitly mention a 'share buyback' component or refer to it as a 'framework.'"
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "PLTR",
-      "price": 125.73,
-      "gap_pct": 4.26,
-      "pm_volume": 1269830,
-      "avg_vol_10d": 50058484,
-      "avg_dollar_vol": 6293853193,
-      "mkt_cap": 301414069373,
-      "rvol": 1.41,
-      "adr_pct": 4.81,
+      "ticker": "NEXA",
+      "price": 13.04,
+      "gap_pct": 12.13,
+      "pm_volume": 167313,
+      "avg_vol_10d": 880678,
+      "avg_dollar_vol": 11484041,
+      "mkt_cap": 1726999520,
+      "rvol": 2.08,
+      "adr_pct": 6.67,
       "category": "New Contract/Partnership",
-      "theme": "New Contracts",
-      "reasoning": "Palantir's stock surged following news of a new deal with Nvidia, signaling a strategic partnership.",
+      "theme": "Potential M&A / Strategic Transaction",
+      "reasoning": "Nexa confirmed talks with Boliden regarding a potential transaction involving Votorantim's stake.",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 78,
-      "grade": "A+",
-      "finviz_theme": "AI Enterprise Software",
-      "analysis_detail": "Catalyst: News broke regarding a **new partnership/deal with Nvidia**, a **Tier-1 partner** in the AI sector, alongside CEO Alex Karp's public criticism of AI token costs. | Impact: This development provides significant **validation** of Palantir's AI platform and strategic direction, potentially opening new revenue streams and reinforcing its competitive stance.",
-      "analysis_details": "• **Impact**\nNews of a **new deal** with **Nvidia**, a leading AI chipmaker, has served as a **significant catalyst** for Palantir's stock. This partnership indicates deeper collaboration, potentially integrating Palantir's AI platforms more closely with Nvidia's advanced hardware or distribution network, driving **increased adoption** and **revenue potential**.\n\n• **Strategic Value**\nA partnership with **Nvidia** is a **Tier-1 validation** for Palantir's enterprise AI solutions, positioning it favorably within the competitive AI landscape. This move strengthens Palantir's technological prowess and market credibility, potentially accelerating its expansion into new commercial and government sectors by leveraging Nvidia's ecosystem.",
+      "conviction": 80,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Nexa confirmed it is in discussions with Boliden regarding a potential strategic transaction, possibly involving Votorantim's stake. | Impact: This news introduces significant uncertainty but also potential upside from a strategic deal, which could lead to a change in ownership structure or asset portfolio.",
+      "analysis_details": "• **Impact**\nNexa Resources confirmed it is in **active discussions** with Boliden regarding a **potential strategic transaction**, specifically noting talks related to Votorantim's stake. This announcement has significantly **increased trading volume**, with an RVOL of **2.1x**, as investors weigh the implications of a potential change in corporate structure or asset ownership. The news introduces considerable **speculation** but also potential for a **re-rating** of the stock.\n\n• **Strategic Value**\nA potential deal with Boliden, a major European mining and smelting company, could be **transformative** for Nexa, either through a divestiture of non-core assets, a new partnership, or even an acquisition of Votorantim’s stake. Such a transaction could **optimize** Nexa’s asset portfolio, improve its balance sheet, or provide access to new markets or technologies, enhancing its long-term competitive position in the **metals and mining** sector.",
       "peer_tickers": [
-        "AI",
-        "SNOW"
+        "BHP",
+        "FCX"
       ],
       "headlines": [
         {
-          "title": "Stocks making the biggest moves premarket: Sandisk, Robinhood, Palantir & more - CNBC",
+          "title": "Does Cajamarquilla’s Recovery Timeline Change The Bull Case For Nexa Resources (NEXA)? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX20tVTdGb19SVUtkYzVlV3JfT05rTllXTmo4UzZ0TVI3czIzREpjU2txTF9JRUwwUThjOWxIX3lJVm44aVRZSGVOXzBIcUVjU1FiVnZsamRQWU9yNUxUOVUwRkJoR3FJcnhuSDdDc09ROVcyclpKWFZwNVRvenZqX3hxYW42bHhEYThQQlp1UkVkc0dCSWNQcw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUFVSUHp1clVucXp5UWlTZzJLQjkydk9xTHplN25EU3M1c0hLa1VrQjU2ZDFfM0RpY2JNTVdpY0lQaWZiQlFxV3FzRWRvWEp3WW9tOWZPLVBxQmh5dnZfZG9ONzExZ0owSGpFUzNWYnVMenpUVE03WlA0RExEOTZvNmJPNkk0WEZTTHdBWjA1dWZwTTZJMDUybjNFSHdMeWd6S0NhNzBJSDFyTWYt?oc=5"
         },
         {
-          "title": "South Korea plans CIA-style fund to build its own Palantir",
-          "source": "Finviz",
-          "url": "https://www.digitimes.com/news/a20260701VL219/security-investment-government-technology-data.html"
+          "title": "Nexa Resources confirms talks with Boliden on potential deal By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUx2aDE1S2pleHJmU0lGSGliOGZYUmNMMUo5NHliQTR1a05QWmNTQWg5cHZfYlZsWGNxbjY4NGUxdHVqd3lBbndrcWEwRnRrWVAzWmQ3cTBPZUlJOUxiSFhfbVE4enJyb0huYlRXaGF2Y1o3dS1FTUtGQTBMbXZVTF9sNXY5NXgyb1djaU9JM0FiTHlfdzZMU1c5eHczSnlqUWdkUHZnMXJsY0Nob3daMDJXQnZ6WmpPZVdZVVhR?oc=5"
         },
         {
-          "title": "5 Under-the-Radar Stocks Fueling the AI Revolution",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/5-under-radar-stocks-fueling-000000653.html"
+          "title": "Nexa says it expects talks with Boliden over a possible transaction - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcjhOeV9xbk9xYmczdFNJRkFXSzlaWFhTM3hjaXVXRy1nZjRMR3M1NXByN1puWXdTYmpKRmZfQnZTTTJGdXA3YmYySllCYUlIU01LT01zMVBGM3NKYkNRaFF3SUkyWUpBX1NJU291ZnFhM3hvLTRUeU5JcG1TOEtWdnk4SVVkWHNDRWl6aGRfU0FRTHVqczNLM3UtZjBGb3Rp?oc=5"
         },
         {
-          "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day",
-          "source": "Finviz",
-          "url": "https://www.marketwatch.com/data-news/cognizant-technology-solutions-corp-stock-outperforms-competitors-on-strong-trading-day-f7abcaf3-591395870f06?mod=mw_FV"
+          "title": "Nexa Resources (NYSE: NEXA) notes Boliden talks on Votorantim’s stake and possible deal - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGZlUjl0RG1tUHNHSWVVZkFYSi0ySWZFNUVncG9QLUJ4N3NISmROM3ZwX1pWT05tT2YtTV9yVkdSckdkRUNMTzF5bWNaTk5rb2p6OHU5THd6V2RFa3MxOEJ0U2xPSEMzTVF4VEpJRHhwMG1hekNjbjQ0dzZzNGs1VjAwMXQxMVdnTy1GUWVCMnBSMEswTUttcHR5SUlNVGhCUnFxOWNWTFNoWHdZMEZpSV9UbWc?oc=5"
         },
         {
-          "title": "Palantir Stock Jumps After Nvidia Deal, Michael Burry Pulls Back Bearish Bet",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-jumps-nvidia-deal-200357855.html"
+          "title": "4 PEG Value Stocks Trading at Attractive Discounts in July - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY2hOQ0ZlQ21CZVIyNzQ4TnpBQ0hNemJSZXJTbDVfa0g1WnVvdTFOODlYR2J2UjQxbDJnRDF4aER0MlFzRUJuM056dm1QRkU3LTFuTm5Uc0tRNXA3WFhEY3NIN2VEN1luVU9WejNsa1AwMWItdU1zRTNjbklTQW9xQnBTVzBsSDVTOURWU1UtMFMtV0liYlE?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
-      "industry": "AI Enterprise Software",
-      "technical_status": "Pass",
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (Avg $Vol $11M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 90,
@@ -142,56 +64,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Palantir's stock surged following news of a new deal with Nvidia",
-        "discrepancy_note": "Source A (Finviz) headline [4] mentions 'Nvidia Deal' as a reason for the stock jump. Source B (Google News) headlines do not mention an 'Nvidia Deal' as the catalyst for the surge; headline [1] attributes a rally to CEO comments, and other headlines either ask why it's surging without providing the reason or discuss other topics."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T1",
-      "tier_label": "Major Catalyst"
-    },
-    {
-      "ticker": "ASST",
-      "price": 12.02,
-      "gap_pct": 4.24,
-      "pm_volume": 95085,
-      "avg_vol_10d": 5379816,
-      "avg_dollar_vol": 64665388,
-      "mkt_cap": 982478386,
-      "rvol": 1.04,
-      "adr_pct": 8.6,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $65M < $100M)",
-      "verification": {
-        "status": "Verified",
-        "confidence_score": 100,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found",
-        "discrepancy_note": null
+        "primary_claim": "Nexa confirmed talks with Boliden regarding a potential transaction involving Votorantim's stake.",
+        "discrepancy_note": "Source A's headline is too vague, only stating 'Nexa Resources Statement Regarding Boliden's Announcement' which does not confirm talks or mention Votorantim's stake. Source B headlines offer varying degrees of confirmation: [2] says 'expects talks' (not 'confirmed'), [3] says 'notes Boliden talks on Votorantim’s stake' (weaker verb, mentions stake), and [5] says 'confirms talks with Boliden on potential deal' (strong verb, but omits Votorantim's stake). No single headline across both sources fully and explicitly confirms all elements of the primary claim with matching specificity."
       },
       "gates_passed": 3,
       "gates_detail": {
@@ -206,54 +80,283 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "CRCL",
-      "price": 61.95,
-      "gap_pct": 4.15,
-      "pm_volume": 349504,
-      "avg_vol_10d": 15189210,
-      "avg_dollar_vol": 940971560,
-      "mkt_cap": 15399285590,
-      "rvol": 1.97,
-      "adr_pct": 7.64,
-      "category": "Institutional Buying",
-      "theme": "Cathie Wood's ARK Boosts Stake",
-      "reasoning": "Cathie Wood's ARK Invest bought $17.8 million in CRCL stock, signalling institutional conviction despite recent headwinds.",
-      "hypothesis": "Medium Conviction (RS Hold) — Large fund accumulation; watch for continuation.",
-      "conviction": 59,
+      "ticker": "OWL",
+      "price": 9.04,
+      "gap_pct": 7.87,
+      "pm_volume": 459313,
+      "avg_vol_10d": 25816391,
+      "avg_dollar_vol": 233380175,
+      "mkt_cap": 14093814880,
+      "rvol": 1.38,
+      "adr_pct": 4.97,
+      "category": "Thematic Narratives",
+      "theme": "Private Credit Stability / Easing Redemptions",
+      "reasoning": "News of easing redemption requests for its private credit funds and institutional position raising fueled positive sentiment.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 58,
       "grade": "B",
+      "finviz_theme": "Fintech - Lending",
+      "analysis_detail": "Catalyst: Blue Owl announced that redemption requests for its Owl Rock Core Income Corp (OCIC) have eased from the prior quarter, though withdrawal caps remain in place, signaling some stabilization in a key private credit product. Leonteq Securities AG also raised its position in OWL. | Impact: The news de-risks concerns around fund outflows and capital stability for its private credit offerings, alleviating investor fears and providing an incremental positive catalyst.",
+      "analysis_details": "• **The Narrative**\nNews indicates a notable **easing** of redemption requests for Blue Owl's critical Owl Rock Core Income Corp (OCIC) from the prior quarter. This development **mitigates** recent investor concerns surrounding the stability and liquidity of private credit funds, a sector where Blue Owl is a major player. While withdrawal caps remain active, the **reduction** in exit pressure suggests a more stable environment for assets under management.\n\n• **Explosiveness**\nThe market's reaction, alongside a reported stock position **increase** by Leonteq Securities AG, suggests a positive re-evaluation of OWL's operational resilience. This is an **incremental positive** addressing a key overhang, rather than a transformative event. The higher relative volume (RVOL 1.4x) indicates strong interest in the stock as this narrative shift takes hold, potentially leading to continued momentum.",
+      "peer_tickers": [
+        "ARES",
+        "APO",
+        "KKR"
+      ],
+      "headlines": [
+        {
+          "title": "Blue Owl Capital Inc. $OWL Stock Position Raised by Leonteq Securities AG - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRlRWREJzUGx2RzBWYjZ6aXlwVm9NMWhCSnNFNTYwckJsemxRLWVuLTVHSXBJMWFPNlREcTRFYlJuZWplRUNmZlZLS0lpcnI4SWdULUM1V1lpSVFRSE1mc1lyVmdzeU1wQlIzUWhxYVJsRDZwanlSTHQyRm1acmJmRi1FbGxwbXlkRVBtLThHMUZaLW9IcHNsWm1rU0hzTXlkTVhmVkUza3REVU1ZMkI1WHFXZDdTVmU3aUExZVpTU05SMzFvdV9UY2lVUnk?oc=5"
+        },
+        {
+          "title": "Blue Owl Stock Rises as Exit Rush Eases - Barron's",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91YUxZNDdzd3hTa2dzRDVieGdEQktvR2tWdmpBd1d2cU5sWXdTaTcyXy12ODVLb2JiT0xrVW91TFJEdWsyRlZfOWxVMzFQMnNMME1LeHNHT01Vb3FhQkNXRXI1c2FMelF4ZFJrUnVGNDFRLW5GRF8tbFFBYw?oc=5"
+        },
+        {
+          "title": "Blue Owl keeps withdrawal cap as redemption requests remain elevated - Reuters",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlpIS3hCbzJBLUJTZXZtaWt6YUxDdllLNFozenlLdVpNWmx4cldpM2tnMHdFSFQyN1NiNzVMU0dsZ0FNbVBGOGdpVDUtZU9LLTJzSk51YkZuUGFZczNILWlqSmFqQWFCUi14WDYtNFZMX01LaVFUdWtWWlFFcjBXSGFQc0gzd2Q3TEV2ZUdJWmVFcFFORTdNZUN4Y1pGX0FiUHdtX1dyUy1RZmdCT05wa3lVMFpkbE5PNDd4RnpCbFF4ZGJyTENNVw?oc=5"
+        },
+        {
+          "title": "Why Blue Owl Capital (OWL) Stock Is Up Today - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWGVacmNLeWU5V3o0RVZqalExOTB3WTF4aVpJYzlUazcwcTkwVkprdnpKRkdnb2ZmVnlDdzNtRlRHYUpVemRxS1JVZDY0NDhJc3d4WWJkaEYzRmlCS2hROUM3UmNOVDNkUnNncGNFMC1rblBKcHpuUzVsNkNqNldOLXlMOFdfczZP?oc=5"
+        },
+        {
+          "title": "Blue Owl Stock Rises as Exit Rush Eases",
+          "source": "Finviz",
+          "url": "https://www.barrons.com/articles/blue-owl-stock-private-credit-223da748?mod=bar_FV"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Fintech - Lending",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "redemption requests for its private credit funds are easing",
+        "discrepancy_note": "Finviz headlines [1, 4] and a Barron's article (Google News [2]) state that the exit rush/redemption requests are easing. However, a Reuters article (Google News [1]) explicitly states that 'redemption requests remain elevated', directly contradicting the 'easing' claim."
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "ASST",
+      "price": 13.11,
+      "gap_pct": 7.07,
+      "pm_volume": 159230,
+      "avg_vol_10d": 5516308,
+      "avg_dollar_vol": 72318798,
+      "mkt_cap": 1071571672,
+      "rvol": 1.21,
+      "adr_pct": 8.57,
+      "category": "Others",
+      "theme": "Company-specific Investment Decision",
+      "reasoning": "ASST's stock **dropped** after their significant **Bitcoin purchase** resulted in **immediate paper losses**.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
       "finviz_theme": "Fintech - Blockchain/Crypto",
-      "analysis_detail": "Catalyst: Cathie Wood's ARK Invest **bought $17.8 million** in CRCL stock. This institutional purchase follows recent negative news regarding Russell index removal and increased stablecoin competition from OUSD. | Impact: Signals **strong conviction** from a notable growth investor during a period of market uncertainty and perceived competitive pressure. This institutional flow could **stabilize** the stock after a recent **sell-off** and potentially attract retail and other institutional buyers.",
-      "analysis_details": "• **The Buyer**\nARK Invest, led by Cathie Wood, **acquired $17.8 million** worth of Circle Internet Group (CRCL) stock. This move comes amidst heightened competition in the stablecoin market and a recent Russell Growth Index removal, which analysts speculated would lead to a valuation reset.\n\n• **Conviction Signal**\nThe significant institutional purchase by ARK suggests a strong belief in Circle's long-term prospects despite current headwinds. This investment acts as a potential **floor** for the stock following its recent **plummet** due to a new stablecoin rival and regulatory concerns. High Relative Volume **(RVOL: 2.0x)** indicates heightened interest and liquidity, further validating the buy-side pressure.",
+      "analysis_detail": "Catalyst: Strive, Inc. (ASST) purchased **2,500 bitcoin** for **$185 million**, immediately incurring **paper losses** as the value declined shortly after. This decision led to a **drop** in ASST's stock price. | Impact: This represents a speculative investment move impacting shareholder sentiment and immediate share price performance due to the volatility and associated losses from their treasury strategy.",
+      "analysis_details": "• **What Happened**\nASST's stock **declined** following news that the company acquired **2,500 Bitcoin** for **$185 million**. This significant investment immediately resulted in **paper losses**, triggering a negative market reaction. While Bitcoin had rebounded earlier in the day, ASST's specific timing and subsequent valuation dip led to a stock drop.\n\n• **Key Consideration**\nThis event highlights ASST's aggressive and potentially risky treasury strategy, tying its performance more closely to the volatile cryptocurrency market. The immediate paper losses raise questions about the timing and wisdom of the investment, creating a negative sentiment overhang for momentum investors.",
+      "peer_tickers": [
+        "MSTR",
+        "COIN",
+        "MARA"
+      ],
+      "headlines": [
+        {
+          "title": "ASST stock drops after Vivek Ramaswamy’s Strive buys 2,500 bitcoin for $185M, instantly facing paper losses - MSN",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPUUpia3piVmRmQjF0NlM0Q2N4ODhpM0Z0NGFMRnh2RGo3QU45c2JiYnVDRkp3Q0ZqM2Z3VXR0eURsbFZYZGRQcFBEcGRrRm1jTnNkT0ZCcVd6dnJ5bUxfSk9ZTTRnVTdsTEFzUXRHc0kwWmpRQTFRdWxFZGJweUljLVJJN1B0dkVraTVlLUpRazR6SjRralZ3U09Od1hxUHFlLUl1MUM0VlJnX0h0akktWFpBWDBzVGhZT0tIMkFxMHN6QTNRc0pDXzRKb1pCUHF6bHZrd0lmSGVZc1M3Z1cwSWhpcmkybHV0ejZkUHNGUFFybkFxNEotSV9mZzhFcm41blZvdDNKWkRyR29KaEVSRlFwUEM0ZnlFMER2bFplc3VFSUJ4ZERMaS1oVVowM1BiQnlmMnhucEk5Q0VJdFkxb2hUdC15U0pDdkJrTE83VXBmSnEwY1preFlZYTBfSENDR0U4ZVdaTmZjemRBcjNHb2tIZ1Fvdy1Ca2V5X01rY2lKNkk?oc=5"
+        },
+        {
+          "title": "Strive (NASDAQ: ASST) CFO settles RSUs with routine tax withholding - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWVHZEd3UGhxcnVzaGx4X0ZQVWMzVENZbnFWRUlhUEg2cy1iS0xDVHJBWDVLYkwtM184d3VMcmhKQkpOTVZQU1pJSmtTQ1lDYnN2bWZWTXlXSlpyU3JvWF9WUVBKUWVwVjRrYWxqUDhIR0E2OUVvOU4xYll5SkJYNF9jbkcwV2wwOERQYmxFalViOElwYTN1cEd5WVRpaWJTa0dSeHFINA?oc=5"
+        },
+        {
+          "title": "Strive, Inc. (ASST) director Eric Semler granted 14,815 Restricted Stock Units - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSFBhODBSTnJQMmU0YngzbjVQY1ZQQ2pfbjZvV21wOEZnWTB3QzF4akdJcnBJbkhVQmNaSmtoS2pYVVVNU2NXUUFEcldNWENEeEpZcDc3OUFFb3JZY3dmLWJUSFpJYXRVVzNHUUhyZmhMem1iZ1R0RnNGb2N3OGVoTG1zZW5KSHltQUJWMks4M2FqSVZEbVJoc1pQVUxqNEdXdkVLaXo0Zw?oc=5"
+        },
+        {
+          "title": "Bitcoin Price Reclaims $60K as Strategy (MSTR) and Strive (ASST) Stocks Rebound - CCN.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMHJNdVlXcEppOXhUTm1SY2p6dnpEZVg5WXlWalBqckhEcHJzeEdpTXQ2RE1OSVBxY25hMC0tNlNveFhjVjVYZjAxTFM2b05sa1VWNEFDNFh1OVNiQXRiRkdodVRueXRKNDNlRnFRWE44eDlrLWY3bDMxLW9DUUowR2QtSXBKd0JSTTZ5Q0NYVHV5VmJTdFl5WDF3?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Fintech - Blockchain/Crypto",
+      "technical_status": "Fail (Avg $Vol $72M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "ASST's Bitcoin purchase was for $185M.",
+        "discrepancy_note": "Source B [4] states ASST bought 2,500 bitcoin for $185M. Source A (Finviz News) provides no information regarding a Bitcoin purchase or its dollar amount."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "DB",
+      "price": 35.86,
+      "gap_pct": 6.82,
+      "pm_volume": 121438,
+      "avg_vol_10d": 2468728,
+      "avg_dollar_vol": 88528586,
+      "mkt_cap": 67175788467,
+      "rvol": 1.27,
+      "adr_pct": 1.82,
+      "category": "Upgrade",
+      "theme": "Price Target Increase",
+      "reasoning": "Deutsche Bank's stock jumped following positive comments and a price target increase from Morgan Stanley.",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 32,
+      "grade": "C",
+      "finviz_theme": "Others",
+      "analysis_detail": "Catalyst: Deutsche Bank saw its stock **jump 6%** following positive comments and a **price target increase** from Morgan Stanley. This analyst re-rating indicates improved sentiment from a major investment bank. | Impact: The upgrade suggests potential for continued positive momentum and reflects an **improved outlook** on the bank's future performance or valuation by a key institutional player.",
+      "analysis_details": "• **The Firm & Rating**\nDeutsche Bank (**DB**) experienced a **significant 6% jump** in its stock price after Morgan Stanley provided positive comments and **increased its price target**. This move by a tier-1 investment bank signals a more bullish outlook on **DB's** valuation and business prospects, potentially attracting further investor attention.\n\n• **The Thesis**\nWhile the specific details of Morgan Stanley's underlying thesis were not explicitly disclosed, the price target increase suggests a belief in **DB's** improving fundamentals, successful restructuring initiatives, or a more favorable macroeconomic environment for the banking sector. This re-rating could drive additional institutional interest and sustained momentum in the short term.",
+      "peer_tickers": [
+        "JPM",
+        "GS",
+        "HSBC"
+      ],
+      "headlines": [
+        {
+          "title": "DB News & Events - Intellectia AI",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzV1RkRTFLYlpUdFVNdlRQM3FleVZmOWZUTGVNNVQ4YVVHM0ZncGVmZExibloxMldZeHZaSWZ0UVppTU1MMU40WnU5N1lVdTBB?oc=5"
+        },
+        {
+          "title": "(INE.DB.C) Technical Pivots with Risk Controls (INE.DB.C:CA) - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3Y4MkNXOGtfNzBvUmpHUkcwU3lBc0w3bnc5T0JYX2g0QmJqaVE3UWFpenVDbXY3RlFNMXNzM04wY0xXeFRqWmhkU2czR2Fodk5XaUJ4MExuVFZiR3YtTEY4d1FpaElWUDZyR2FxSS12WFg1ZGw0NFlfTlBQbDYwaUFwV2NyS0JnekNOMGNoSllBR2Y4VEZad1hHQkVWYUJGcGc?oc=5"
+        },
+        {
+          "title": "When the Price of (ECN.DB.A) Talks, People Listen (ECN.DB.A:CA) - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOTB0MDRRMEo0WFI3VDJ4Q0tEXzhJVlBpY2pxeU55WVdJcHo2WGNNZWRNSVFubUVwcHVqMEwxdWJmMjdxMEZHNWdXYmxtU25sMURIWXdqSnp0bXZrdXhoNmllZ1lnMGJ4SmtOUzY2cUZidWdHaFdLWlhaS0RSSFpyQnhhWlh0ZFZ2T2wxSU5zVTEwVlFkcDBPeHVxV0tqNHZuYk4yV013?oc=5"
+        },
+        {
+          "title": "Five-Star DB Joshua Dobson Shares Why He Chose South Carolina Over Others - Sports Illustrated",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOHkxdXBWWkNBQzRycG5NWnlCcC02TWFIZzF0LXBRN1NwelRrN0JRbGVhR3BXb2MwUl9WWGk2Y1p5OXJzY1ZwcFNjVWk0Ujd2MG1mSjdubzNod2swXzFnc0g4TUlnWHFMMEh4aGwwU2NXZnhteDVHdUNtMGNOOTBOVUVDMVNPa3BvVmlhdVJqRGRHeDNnM2ZCR2xjOTRNWmdBM2xtYzBjcUFRRzdxSlYyUUhKblp1Y3VxT045cWRvd3VWWUdkV0E?oc=5"
+        },
+        {
+          "title": "Deutsche Bank stock jumps 6% on Morgan Stanley comments, price target increase - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaDlia3hOSEQtTG44MkZwS1FKQVl3OTZfa251bDFjMW1rczdOcms1TlJlaGhOSDVteDJMMGp6Ym1ZdnhycU8yUnpQNElmZEdlUzdsejhKckxHeTZyX0ZWbllCdkpfTmo3eVNyMXprSlMzRnpJYlJuMWhJVnhmNzJ1dnJiSXhweGd0RTFSV3FsUU1oZmxBbDlBTk9rRnRJSVJsZ04xYTRIQkFld185MkNxaTBNeWs5T3ROUnlTcEM4Rmp1X2xUbWRqakVzMWI4OEhaSExMNQ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Others",
+      "technical_status": "Fail (Avg $Vol $89M < $100M, ADR 1.8% < 4%)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Deutsche Bank's stock jumped 6%",
+        "discrepancy_note": "Source A (Finviz) has no relevant news. Source B (Investing.com) reports Deutsche Bank stock jumped 6%, but there is no second source to confirm this specific percentage."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "MSTR",
+      "price": 100.77,
+      "gap_pct": 6.67,
+      "pm_volume": 1371176,
+      "avg_vol_10d": 36453267,
+      "avg_dollar_vol": 3673395716,
+      "mkt_cap": 35314605208,
+      "rvol": 1.0,
+      "adr_pct": 8.02,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate positive fundamental catalyst found to explain the **7.9%** stock gain; likely a technical breakout or short-term institutional flow, despite a recent JPMorgan warning.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Fintech - Blockchain/Crypto",
+      "analysis_detail": "Catalyst: MSTR saw a **7.9%** rally despite a JPMorgan warning about its Bitcoin sales policy creating market risks, with no specific positive fundamental news reported. GuruFocus and Yahoo Finance noted the stock appeared **undervalued**. | Impact: The move is likely driven by technicals or a general sentiment shift rather than concrete company news, making its sustainability speculative and potentially **high risk** without fundamental backing.",
+      "analysis_details": "• **What Happened**\nMSTR stock **climbed 7.9%** on average volume, despite multiple headlines from JPMorgan warning about market risks associated with MicroStrategy's new Bitcoin sales policy. Concurrently, several analyst-type articles highlighted the stock as potentially **undervalued** based on fair value and book value metrics. However, no specific positive fundamental catalyst, such as an earnings beat, new contract, or analyst upgrade, was reported within the last 24 hours.\n\n• **Key Consideration**\nThe significant upward move without a clear, positive fundamental driver suggests technical buying or short-term momentum trading is at play. The average trading volume (**RVOL 1.0x**) and daily range (**ADR% 8.0%**) indicate the move was within typical volatility, but its occurrence alongside a major bank's cautionary note creates an interesting dynamic. Investors should be wary of potential \"gap and trap\" scenarios given the lack of concrete, positive news to sustain the rally.",
       "peer_tickers": [
         "COIN",
-        "MSTR",
+        "MARA",
         "RIOT"
       ],
       "headlines": [
         {
-          "title": "Circle Internet Group (CRCL) Faces A Valuation Reset After Russell Growth Index Removal - simplywall.st",
+          "title": "Strategy Inc (MSTR) Stock Up 7.9% and Still Undervalued -- GF Sc - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSHQ2aEhLbFRrUFRKUVp4UmNZNEdjNzZ6bWNzZHZERUl1S2lhYXd5Y2piRlN4aTBuYkFSQ3FnMk1ESlV6TDVwTW4zWWkxVExPek9OUEFVbUFrOFd4MTk3SjJnRTVBSGRTVU5LNjJESmVlUi03UjZLYWhRbi01c2pjRXpSMUZjbWJVdHJWc0xxT05WYld3UVBVTHFWMFZrQ2ZaUGY0VTc1bWQyaS0tN0JvSUtUYnRKN3hyVEhGOXN2WXQ4Z2o5UFdQUGhXUzFjWGhOcWpCetIB2gFBVV95cUxNM3d3UHBzY1JFbnRHTlZWNEpOR1FpY2J0WVRBa0NobHRMRlFaMXFhd19pYmJFdXAxRnJDWmwwbjU4VGVFQ1ZENGxweXZjYmhKMDRlbk1NZnpsbnBjZHpqS3ZXU2FOcVNDdl96MFdfR3lFQWlReFRSMGpHUE9OdHY3ZGRjTi10aGNRNHZzZ2pzdUUtakp2cTRrZ3I5NTdLZmdIaEUtR0stRXZDWFB3Q0VsUDhMc0JSN3EteDVSaF9lX0c3WUhTV2xNRXpQb1owNXhDR0JwNFNneG9fUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVlhmWDFWWFkwaVB4aEJadTFOc2VTLXVDS2sxN2JseWdpREZkTlVZeWZKSjlmTEp1WlZpTVBuY3BtSjZjcDRpOXl5ckw4QTd2QkNYcUFqakJRTDI2VjhLeTE0QmNfNjhJcjExbjM0UldRWVAxaS0wdEdUVnNnTkkwMGI0RE1LeFhJdVV2aWktY1JYeVJ0NTNDMkNua0Rwald3a0p2eXdfQ2Q?oc=5"
         },
         {
-          "title": "Cathie Wood Loads Up on Circle Amid Stablecoin War: Ark Buys $17.8 Million in CRCL Stock - Benzinga",
+          "title": "Why Is Strategy (MSTR) Stock Rocketing Higher Today - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWDktUjgwQzlOSzgzZzF0cE0wdDYwZjRsX1FuVk1NYlducy0wTXdsS3BSNWNPMjVKc2xqcmdMRm9TNFNxbE1ZZVJCZHR4TkZpWm4wanJPcWpjNHdJTFg2YjYtTnhrczV1XzBMVVNCbjRZa016Wkk0WnZuUFZSNk5GS3BKVThzNnQtbWZMYzRjWWVxMWV5bkhuanBZVU5jZW5jbXNaQ1Vlb1AyTUlIeDRqM01oNnFrYmtubUtrb1RaYUlrM2ZUWkVTaDBQOWNOc212RV92bkNpMXNXVHF0aERXYQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR3NpRlljTzhNdzZidEEzV2dLZlYyQkpaTk1nRElLZW1uUFJKQXYyUG9ESFZjNW81Z0h6WTlVQjVTQXRHamxIcFdadjhVb2VTU2FQQVZQNDBZeWlDWnM4X1pnQXdpT1dSaEdBRHE2ajNubG5ob0JTeklRdnJzYk1UWHU2MDI5aW1OUzVZeS0wNE1aVl9RR2s2WWVieUlDVEk?oc=5"
         },
         {
-          "title": "CRCL Stock Rises Overnight — Cathie Wood’s ARK Boosts Stake; Retail Cheers Stablecoin Yield Ban Proposal - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHVKSlBuemxEZHJjelQyNmdqYUVTWGV2MDZ5WDR1YmRhNDFYSUlVLTBvemZNbjlGUjJyaUNiTUZVWnVvZ3U3U3BNRkFEYXZjanpHNFpUdEk3QmVHYmg2SmxfczlsdjUxZkxkeTg1X2ZHRUl6Qmd4Vy1rMXNsR09DVUNZc3hQRHlEMWtFV0V6ekRlWWNGb25tMFpKTDhvaHlqcjIybHhVOExUdkpnRHN2MXVBQURxVE15SXNiSA?oc=5"
+          "title": "JPMorgan Sounds the Alarm on MicroStrategys New Bitcoin Sales Policy",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/c97248f7-177f-3261-b717-e73acadf50dc/jpmorgan-sounds-the-alarm-on.html"
         },
         {
-          "title": "CRCL Stock in Focus as Circle Faces Increasing Stablecoin Competition - Barchart.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVJ6alp6YUo5SE1ZTzl1S1VuTWJfZzVmSFZPZ3VPTm13TVJRak11c0pfX19IQVZjaXFaWUdCaXQwR08yM3hDSWVjWmlwVC1Ub21QRGxWODdHd1FOdTI5Z0cyc0RkV1FGMzUtaWplSkdhZXR6bEhTNmVzZVM3VExBZ2IzWm5YY0ZKOWVQamlqZ3F5azFyQUZQM0ZwQ3dqZ1dta1pzdHNEMUtESkhkc1FUQkdHNA?oc=5"
+          "title": "JPMorgan says Strategy's Bitcoin sales are a market risk",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/03391bf7-a914-38e8-bbb5-d72cb61b2a11/jpmorgan-says-strategy%27s.html"
         },
         {
-          "title": "Does Circle Internet Group (CRCL) Losing Russell Spots Recast Its Stablecoin Regulatory Edge? - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ1FNMHBBSVpQZzVENVhMRE4yN2owYVhzaW1fQjdEZlk0N1hjenpSV2pOQTJmcWRIelZJc2RBYjZDOFdRSUswYUlKczBBc0lZQnkzWkVPME8zbUpqbU10cVRBR2RjMWVjazZ1SFhkTjJnZ1JSTDVFRGtOSFc4SGR6d3RwLThEM2pzYVA1bzd3SE9FNjdjVXBldFItS0Y?oc=5"
+          "title": "Strategys bitcoin trading policy creates risks for broader markets, says JPMorgan",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-bitcoin-trading-policy-creates-183224947.html"
         }
       ],
       "float_shares": null,
@@ -263,91 +366,13 @@
       "technical_status": "Pass",
       "verification": {
         "status": "Discrepancy",
-        "confidence_score": 70,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "$17.8 million",
-        "discrepancy_note": "Google News headline [5] explicitly states 'Ark Buys $17.8 Million in CRCL Stock', confirming the specific dollar amount. However, Finviz News (Source A) does not mention Cathie Wood, ARK Invest, or any specific buying amount for CRCL in the provided headlines."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "ABVX",
-      "price": 132.56,
-      "gap_pct": 3.94,
-      "pm_volume": 69493,
-      "avg_vol_10d": 3391165,
-      "avg_dollar_vol": 449532832,
-      "mkt_cap": 10524001949,
-      "rvol": 1.35,
-      "adr_pct": 7.97,
-      "category": "Thematic Narratives",
-      "theme": "Buyout Chatter & Commercialization Momentum",
-      "reasoning": "Stock rising on increasing speculative buyout chatter and positive sentiment around US commercialization plans, reinforced by recent $800M capital raise.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 58,
-      "grade": "B",
-      "finviz_theme": "Biotech - Immunology",
-      "analysis_detail": "Catalyst: Buyout speculation is intensifying around Abivax's lead drug, coupled with positive momentum in its US commercialization plans. The company recently secured **$800M** in funding, extending its cash runway to **2029**. | Impact: The capital raise significantly de-risks future operations and provides ample funding for commercialization, making the company a more attractive target and fueling speculative upside.",
-      "analysis_details": "• **The Narrative**\nAbivax (ABVX) is experiencing a surge in investor interest, with its stock eyeing a six-month high, driven by escalating **buyout chatter** and perceived momentum in its **US commercialization plans**. This speculative interest is compounded by the recent **$800M capital raise**, which, despite an **8% dilution**, has solidified the company's financial position, extending its cash runway until **2029**.\n\n• **Explosiveness**\nThe combination of a de-risked balance sheet, progress with its lead drug, and pervasive buyout speculation creates a potent momentum setup. While the buyout remains unconfirmed, the strong funding provides a solid foundation for the company's operational goals and could make it a more attractive acquisition target, increasing the potential for significant upside if a deal materializes.",
-      "peer_tickers": [
-        "RVMD",
-        "MRNA",
-        "VRTX"
-      ],
-      "headlines": [
-        {
-          "title": "ABVX Stock Eyes Over Six-Month High As Investors Double Down On Abivax's Lead Drug Bet – Buyout Chatter Builds - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkRXQy1LMXZFVUlQNUJ6VmFVUEZKcmFLUHNjWFhFM0VLVFZ0UjhuNE5Xd2JTc1B0Z2hIa1lXTGRtV09FV0pGMXcwTUNoeDRSajdiSmxKQjBacVBzWEFFblVUVUpqNWwwY055M2RmRk9LQ1lkSzNSU0lIblQ2ZmVCWnhYMWx1WlBNSHUxQWQ1M3U1bXM?oc=5"
-        },
-        {
-          "title": "ABVX Stock Eyes Over Six-Month High As US Commercialization Plans Gain Momentum – Retail Eyes Potential Buyout - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMi10bWx5U2xtZGNjVHk4QjRGVU1MRHlibTI5TVVXd3VBbC02LWhTRURPeGlnWUw1Z25zb0xoekQ0OW1BSUdsV0E4UE4yZUtwLVZkYjFHS093YTE3cXhQaHNpRlJnLVB2c21pd3FlLVlETjRrNkRRLWpucFdxcndYcXV0WFpJa3I0Y0lKQmQ2SmgwWE8xRVBPc2tCcU1LVWpXeHBoLUJjLTV6Rk5GdWdXc1hsUTZRQU0?oc=5"
-        },
-        {
-          "title": "ABIVAX (ENXTPA:ABVX) Stock Looks Expensive Even After Strong Trial Progress - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOGxRTUp4NGFHV1kxb25FUGtUejkzREdtb2lGRjE3aHNiOEVCVmRQZmhnd2xuUEw4YW9FaHRBUVV3emJhcnRwZDFPVURwRkF0R3ZIeExhX3RZT09BNU1LdV9kSGZrekpyS0pQb2ZQa00wbm9UME5qV2V2emRscjBGQzM2aW1sa0VtQkhGcWQ4R09DSjFVcHc?oc=5"
-        },
-        {
-          "title": "Abivax Prices $800M Offering Of ADS – Here’s A Look At Some Key Figures - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWs5c2ZJTF9uUk5GUWtfU29nYlRCaDRnTlRXcklyS0pCdU9WUDBKYkw0Q1JsSlZ2V3c2V3pVaEFFREFUZEM0S1F0dVNnM3N5b2p5Z3Q4RDMyRGltSFQySFhFbHBiX0p1REg4OGlENFl1RmZYTE9VaDZFM1VNR1hQc1M0UXNTa3RFcmZldG1vZ0U2UmxOTEJiNzRUbDg?oc=5"
-        },
-        {
-          "title": "Abivax raises $800M as dilution hits 8% and cash reaches 2029 - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNzA2RWlWV2VJcFB2eFI2WmtwNm1BMFVFZGhIN2dvaGhndmRNdDdaQmdaRzRyaTVWNEpNRnE3cXgtNktQSXlHekppN0pNbWM1MW41SWpWbXZtRHFNNHFBZzFyWmhLenptSXoyUGg3WXVLZXYyb29HNFduSWFlZlZPMmZTaThKdFJ2dGc1Q1AyM0sybUVHSTA3STNlNHJpTGpHV2pwZmZWS2tndWJBTHdNRTNjWjF3QnFSSkxZ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Biotech - Immunology",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
         "confidence_score": 90,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "recent $800M capital raise",
-        "discrepancy_note": "Finviz News (Source A) does not contain any mention of an $800M capital raise. Google News (Source B) articles [2] and [5] both confirm an $800M offering/raise."
+        "primary_claim": "7.9% stock gain",
+        "discrepancy_note": "Source A (Finviz) does not mention the 7.9% stock gain. Source B (Google News, headline [4]) confirms 'Stock Up 7.9%'. Only one source provides the specific percentage mentioned in the claim."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -363,52 +388,38 @@
     },
     {
       "ticker": "INFQ",
-      "price": 12.93,
-      "gap_pct": 3.63,
-      "pm_volume": 535166,
-      "avg_vol_10d": 20628832,
-      "avg_dollar_vol": 266730798,
-      "mkt_cap": 2821285647,
-      "rvol": 0.57,
-      "adr_pct": 9.44,
+      "price": 12.31,
+      "gap_pct": 5.96,
+      "pm_volume": 1133500,
+      "avg_vol_10d": 21628798,
+      "avg_dollar_vol": 266250503,
+      "mkt_cap": 2686003736,
+      "rvol": 1.23,
+      "adr_pct": 9.87,
       "category": "Upgrade",
-      "theme": "Analyst Initiation with Buy Rating",
-      "reasoning": "Canaccord Genuity initiated coverage with a Buy rating and 70% upside potential, providing a significant fundamental catalyst.",
+      "theme": "Analyst Upgrade with Significant Price Target",
+      "reasoning": "Infleqtion (INFQ) received a Buy rating from Canaccord with a projected 70% upside.",
       "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
-      "conviction": 30,
+      "conviction": 32,
       "grade": "A",
       "finviz_theme": "Others",
-      "analysis_detail": "Catalyst: Canaccord Genuity initiated coverage of Infleqtion (INFQ) with a **Buy** rating, citing **scarcity value** in quantum technology and projecting a **70% upside potential**. This follows news of President Trump signing orders to boost the quantum computing space, adding sector tailwinds. | Impact: The analyst initiation provides significant validation and visibility for INFQ, potentially attracting institutional interest and driving continued momentum in the stock as a pure-play quantum leader.",
-      "analysis_details": "• **The Firm & Rating**\nCanaccord Genuity has initiated coverage on Infleqtion (INFQ) with a **Buy** rating, a significant endorsement for the quantum computing specialist. The firm has set a price target that implies a substantial **70% upside potential** from current levels, signaling strong conviction in the company's future performance and its strategic position within the emerging quantum technology sector. This positive re-rating is a key catalyst for potential institutional interest.\n\n• **The Thesis**\nCanaccord's thesis centers on Infleqtion's **scarcity value** as a pure-play quantum technology company in a rapidly expanding market. The firm likely views INFQ as a critical player poised to benefit from increasing government and enterprise adoption of quantum computing. This initiation, coupled with recent executive orders from President Trump supporting the quantum space, provides a powerful narrative for growth and market leadership, despite today's 0.6x RVOL suggesting current consolidation.",
+      "analysis_detail": "Catalyst: Canaccord initiated coverage or upgraded Infleqtion (INFQ) to a **Buy** rating, setting a price target that implies a **70% upside**. This strong analyst endorsement highlights their conviction in the company's future performance. | Impact: The significant upside potential de-risks the stock for new investors and could trigger further institutional interest and buying momentum.",
+      "analysis_details": "• **The Firm & Rating**\nCanaccord, a notable investment bank, has initiated coverage or upgraded Infleqtion (INFQ) with a **Buy** rating, projecting a substantial **70% upside**. This represents a strong vote of confidence from a recognized analyst firm, signaling potential for significant capital appreciation and increased investor confidence.\n\n• **The Thesis**\nThe optimistic outlook likely stems from Infleqtion's strong positioning within the burgeoning **quantum technology** sector, with Canaccord identifying significant growth potential and a strong competitive edge for the company. While specific details of the thesis are not fully disclosed, the **70% price target** suggests a fundamental conviction in INFQ's technology and market opportunity.",
       "peer_tickers": [
-        "QBTS",
-        "RGTI"
+        "IONQ",
+        "RGTI",
+        "QUBT"
       ],
       "headlines": [
         {
-          "title": "Canaccord initiates Infleqtion stock with buy on quantum tech By Investing.com - Investing.com Canada",
+          "title": "Infleqtion (INFQ) Receives Buy Rating with Significant Upside Po - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWFdfLUFxZzBXOTU2S003RzJaQm5TcWxBUW5xRXh4eVhIWGd4THRuaklYUUVnbHlrVWk4WjRremtaalFENmNFYWFwbHhwRG9BeE1WNE1ndGprN1lwaDhQR24tZmpLNGJkSUVVZy1MM3VxSDJIZE5Hd3k3N19zSzJsNUVnVWF0Y1lqUWI4NjZEQjk5dURsTUVYeFFweUxBQ0ZoamhYOThFVEg5WmNtbG5qMjI2UzlSelpTTXZiRFdZWQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZldJQWdDclprOVlxcTlUVkUxd1Myb1ZmYkpXOGoxOE1PN2FaUHN2VmlXSkFoY21EVEdsbm1nYVAzOXhuRUJqVE1BaWlmLTVuMG1HWkJBcGg1WDJENmpWcWF0OXlZT3ZkSkpybERGZ0IyYUdPdEdvX2xkazlWeFBWblRNeUJ1RUlTVWlTd1l5ZmgxOTc1TXRqTVJqMkdrZGdhR2ZTcXltUGxKYUxwUlY2eDFjM3BMeDljai12LS1hdXBrQ0VBR0NVMVZ3VzRQYTlnaXc?oc=5"
         },
         {
-          "title": "This Beaten-Down Quantum Stock Has 'Scarcity Value,' Says Canaccord, Sees 70% Upside Potential - TradingView",
+          "title": "Infleqtion Stock Rises as Canaccord Sees 70% Upside - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMnB3bDUzVkJvbWRwLXNNUGpyMWtMcEg5TW1NZTZYQ29EaUJLWjR6SXluM1o2VU9nUnNQdWdqYjhFTk1BRUE5YXBTd0oxYXc4cEhvWFdPRVloaXpEN0ozd0htSE9rYXpSV09IWE5QaGtJREhLcmFGU09fcEtNR2JVVEhBX1ZJVmFtakVHZTh3TEN4MlRvVkJ5NWttdTFaWUJxaFY0aW1uZFNHMU5aUHB1RkktTm84cVk4Q1k0U0dXQWNfTUlBWFJISGcyVFZJdTlsX2IzVmZ2eEZmVTZIUzllaEdfUlo?oc=5"
-        },
-        {
-          "title": "INFQ Initiated Coverage by Canaccord Genuity -- Rating Set to Bu - GuruFocus",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZmNBZWJDYm5yLU5KOGFRQXRqbmtBNTNIQmNFSW0xZXUyZG9Ha204S0VXQlJySVppT014LXB2NGEweTJfV1hFTDZ0TDB1MWJVTE5HZDRkbW1JRkVRMTFITmtxT1NKQmV5X2JNc0hoYjkxaUI4NXEyVEVuRHpRZVBnN25jbzZTNmI1ak9UT2tIT3J4dmo1NjNBTTE0RUVKYzREaEhF?oc=5"
-        },
-        {
-          "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNllSY1VfWGxKRDE2ZFBCaFY4dWtCa3MxaGhvbGg3djVqSkxwMUZ2T3N1UTVlUWVqczZnS1RVX3hOcURZWDNzT3ZVM2V1VFdrMGN2NElHMjNnZk1KTmwwMnphdXNoNnNhMC0tZGNROXpHLW40RGR3RG41R1lqdDFVRUZhOTZJektSSGc2aGs3bDgzYkNUUldDZGkzTExjRjd2T0FkcVp2d1dkNWVnbW9YMWNPUzNKX25NMnliYndNaFQwVkstcFBIV1hRNXRUWmdqYjYtME9OYW96Vk0yWm5PdXYwdkFoQ09rRTk1RDZQMU1iTmtJdnlXRXhQQ0tmS041bldKbQ?oc=5"
-        },
-        {
-          "title": "INFQ Stock Soars To All-Time High — Retail Eyes Breakout On Quantum Hype - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTEtQmpoSG5FRkp6STJVb3BJRTQwQXB0UDZlQllpMHFDV0RrR2ZnYVo4OXI0RGRMUnA0RDVKNkxOazdHUkhfcElmNVUzclFhTXVXSkpadjlXdlY3S0hBRU10M0tiM2pHcVRPVWdmWHFEbUdKenp5bTNKbDRzRklhTWhSTVFMWi1mU1hKdjlGT0RyU0NXNzVFaUdoRHVxLXRTNEhDLXJOT2JCRldiSGdqSlZIWHcwbkxFY2xzLU1LeUlWZGZ0SUtqYmk3eEFURmM?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb2NFV2ZlWTViVWtUX1hhS2l6YzBmcWdmUUkwTjJLSGNROFo4VEF1ZWh6MnhmdWJZRGFnU3JISG1GeE1uLUpyM1JkVkFvN3lCRHkzNkpHbGhJNjUycE5EbGlsZmNOck9ob2ZQdGc3eUVxcWdoU1UzamUzMDZucVRxaDk0NzVCSjh3MEZpa0V0Y0ZUUUdCcGlGRzV2WklsUlB3d05zNXRR?oc=5"
         }
       ],
       "float_shares": null,
@@ -423,8 +434,8 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "70% upside potential",
-        "discrepancy_note": "Source A (Finviz News) did not provide any information regarding the upside potential. Source B (Google News, item 1) explicitly mentions '70% Upside Potential'."
+        "primary_claim": "70% upside",
+        "discrepancy_note": "Source A (Finviz News) provides no information. Source B (Google News) has one article (Benzinga) that mentions '70% Upside', but another article (GuruFocus) only mentions 'Significant Upside' without the specific percentage. Therefore, the claim is not confirmed by both primary sources with matching specifics."
       },
       "gates_passed": 5,
       "gates_detail": {
@@ -439,93 +450,15 @@
       "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "COIN",
-      "price": 159.24,
-      "gap_pct": 3.56,
-      "pm_volume": 85187,
-      "avg_vol_10d": 9031088,
-      "avg_dollar_vol": 1438110453,
-      "mkt_cap": 41953529640,
-      "rvol": 1.51,
-      "adr_pct": 6.17,
-      "category": "Thematic Narratives",
-      "theme": "Super App Vision",
-      "reasoning": "Coinbase stock rallied significantly on news highlighting its strategic move to build a multi-asset 'Super App' gaining market momentum.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 58,
-      "grade": "B",
-      "finviz_theme": "Fintech - Blockchain/Crypto",
-      "analysis_detail": "Catalyst: Reports highlight Coinbase's strategic push to develop a multi-asset 'Super App', gaining market momentum. | Impact: Reinforces long-term growth narrative and expands potential user base beyond crypto trading, attracting new investor interest.",
-      "analysis_details": "• **The Narrative**\nNews reports emphasize Coinbase's strategic pivot and execution towards becoming a **multi-asset 'Super App'**. This vision aims to integrate various financial services beyond traditional crypto trading, including potentially NFTs, stablecoins, and other Web3 functionalities, creating a comprehensive digital financial ecosystem, driving the stock's recent strength.\n\n• **Explosiveness**\nThe market's positive reaction, with COIN stock **up 9.5%** on **1.5x average volume**, suggests strong investor enthusiasm for this narrative. While not an immediate financial metric, this strategic expansion is seen as a key differentiator and a path to broadening its total addressable market and user engagement, driving significant near-term momentum.",
-      "peer_tickers": [
-        "MARA",
-        "MSTR",
-        "RIOT"
-      ],
-      "headlines": [
-        {
-          "title": "Morgan Stanley Smith Barney (COIN) reports 10,000-share resale and 10b5-1 sales - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3NVdU5pRDh3Nzg3T3h3UWd3bkxKQmdrSWEzb09DQ3VOczRmdW1BVlRPOVV5WGFGNkh1QlFaMXBKcDJ0ZHVieEFGSjg2NU1FakVjX2VKeE5ra3FXVVZGLUpwaWFpYmJHeDBsQXkzSTl3b1h3RDdZWlZFa01QMzNXWHBYTUpGbnZoOHlrMzZ0MXl5Q2RkeVlWWlpVQ0M?oc=5"
-        },
-        {
-          "title": "Coinbase Stock Rallies As Super App Vision Gains Momentum - StocksToTrade",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iTDZMNTFubFZUUndhMUowWlNDd0FfWU9JaWxFc1lyU2tvRDNJdlg2UDFRZDBtdVBtc0RUeGRwMGszbkNvRmJ6X0xVUzlDeHB3Q18xTHNGY05mX2RLQjhaTW0zUVlGUm1SdXVsSzB5SEF5S01YcGtIc2oxSE1RbDQ?oc=5"
-        },
-        {
-          "title": "Preferred Stock Is Becoming Bitcoin Treasury Firms' Financing Tool Of Choice: Report - Bitcoin Magazine",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WQk82ak1la3BmUWJnajQxeUR4QWhVbENwUTJ5dnRGamJlNU8wdXNYYWRBTVpLUWFuQjhsQlVELUhNQ2h5aTA5aXNLaE1LX0tJbEtsd0kzMnVGTWRqN3FZR2l3UFFrLUNIakRMOGZQdXl0UXhuT3h3?oc=5"
-        },
-        {
-          "title": "COIN Stock Rallies As Coinbase Builds Multi‑Asset Super App - timothysykes.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOEtLQnhXSWdaWjhQamlORjNsOEdZYW1WZ2VVcTgyY3VCbG9pQUJEQkNJUTBDbVNLYnU5dVNYV3I0bkQ4bW5Iak5GNTA1ajlyRVF6YjNreno2dllZUmxiWXlRY0pRVHlhTmM4WnU0djFpUjM5d1NVLVVqNk82RkVLYw?oc=5"
-        },
-        {
-          "title": "Coinbase Global (NASDAQ:COIN) Stock Price Up 9.5% - Here's Why - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWZWdDN3VU5ETjltbk9WME1wZzdmWjNrbWhWdFFXWlJEbVJ6TXBNUEF3VzZOcG0xajdaWG9LQzN2NjdmUThoNXlSRmZJVUlrd2Fad2ZNamRnX2t4TWZCYVZMQmZ0NW12LS16X1hTc3JwNmdoRkpzc2JjdHZfakNrNnc4akg0bzA5OHNpaDhkT2F0NmpXTFhPT3Itc0ZUSDExMkFMc0dSbFdGeXhf?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "Fintech - Blockchain/Crypto",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Discrepancy",
-        "confidence_score": 95,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Coinbase stock rallied 9.5%",
-        "discrepancy_note": "Source A (Finviz) does not contain any information about Coinbase (COIN) stock rallying or a specific percentage increase. Source B (Google News) headline [3] specifically mentions 'Coinbase Global (NASDAQ:COIN) Stock Price Up 9.5%'. The claim of a rally linked to a 'Super App' is mentioned in Source B [1] and [4] but without a specific percentage."
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "GFI",
-      "price": 33.73,
-      "gap_pct": 3.23,
-      "pm_volume": 106793,
-      "avg_vol_10d": 4244428,
-      "avg_dollar_vol": 143164556,
-      "mkt_cap": 29882684824,
-      "rvol": 0.98,
-      "adr_pct": 3.6,
+      "ticker": "HMY",
+      "price": 16.09,
+      "gap_pct": 5.93,
+      "pm_volume": 363961,
+      "avg_vol_10d": 4043995,
+      "avg_dollar_vol": 65067880,
+      "mkt_cap": 10113876554,
+      "rvol": 1.34,
+      "adr_pct": 3.97,
       "category": "Others",
       "theme": "Technical / Flow",
       "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
@@ -541,15 +474,121 @@
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 3.6% < 4%)",
+      "technical_status": "Fail (Avg $Vol $65M < $100M, ADR 4.0% < 4%)",
       "verification": {
         "status": "Verified",
-        "confidence_score": 100,
+        "confidence_score": 95,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
         "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "USAS",
+      "price": 4.89,
+      "gap_pct": 5.27,
+      "pm_volume": 112371,
+      "avg_vol_10d": 3799044,
+      "avg_dollar_vol": 18577325,
+      "mkt_cap": 1598705084,
+      "rvol": 1.16,
+      "adr_pct": 7.14,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $19M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": null
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "GFI",
+      "price": 35.46,
+      "gap_pct": 5.25,
+      "pm_volume": 201385,
+      "avg_vol_10d": 4186538,
+      "avg_dollar_vol": 148454637,
+      "mkt_cap": 31396210907,
+      "rvol": 0.86,
+      "adr_pct": 3.66,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nGold Fields Ltd (GFI) experienced a **5.1% gain** on **July 2nd**, as reported by GuruFocus. The news headline merely observes this price movement and provides a GF Value of **$38**, without offering any specific fundamental catalyst or company-specific news to explain the rally. The stock's Relative Volume (RVOL) was **0.9x**, indicating the move occurred on **below-average** trading volume.\n\n• **Key Consideration**\nThe absence of a clear fundamental driver combined with **below-average** volume suggests this move is likely technically driven or due to speculative institutional flow rather than a robust narrative shift. Momentum plays lacking fundamental catalysts and volume confirmation carry a **high risk** of mean reversion or being a \"gap and trap\" scenario, making it difficult to establish a high-conviction long position.",
+      "peer_tickers": [
+        "GOLD",
+        "NEM",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "A Look at Gold Fields Ltd (GFI) After 5.1% Gain -- GF Value $38. - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcFBRMnU5SGpBUG5ON2s4Vy1zR3VnTWVGVE14Y200ekVmZDFqVUNOa3RBZTNVdlprV3lXS0NaTWtUQkdBbUxZRklGa1pueEtWRHFPOU0tbTJmaE10S1pKVXhkN0ZQMkpLSHFDRXJLLUY3T3ItTmhRbWk1Wms1SVNJTlRqTWNaS2hTbTlXVlRVYlZqcWNfRTFfd3pzNzQzSG8tbExCdld4M1NGRFdTLTcw?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (ADR 3.7% < 4%)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found.",
         "discrepancy_note": null
       },
       "gates_passed": 4,
@@ -565,53 +604,575 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "HOOD",
-      "price": 108.65,
-      "gap_pct": 3.0,
-      "pm_volume": 382086,
-      "avg_vol_10d": 34724230,
-      "avg_dollar_vol": 3772787590,
-      "mkt_cap": 97926820998,
-      "rvol": 0.89,
-      "adr_pct": 6.96,
-      "category": "Thematic Narratives",
-      "theme": "AI-Native Blockchain & Global Expansion",
-      "reasoning": "Robinhood announced the launch of an AI-native Ethereum Layer-2 network, tokenized stock trading in 120+ countries, and expansion of derivatives and crypto offerings in Europe and the UK, signaling a significant strategic pivot.",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 56,
-      "grade": "A+",
-      "finviz_theme": "Fintech - Blockchain/Crypto",
-      "analysis_detail": "Catalyst: Robinhood has launched an **AI-native Ethereum Layer-2 network**, expanded **tokenized stock trading to 120+ countries**, and significantly increased its **European derivatives and UK crypto market offerings**. This strategic pivot integrates advanced AI with blockchain technology and global market expansion. | Impact: These initiatives represent a **significant expansion** of Robinhood's product suite and addressable market, potentially **diversifying revenue streams** beyond traditional trading and **capturing new growth** in the Web3 and international financial sectors.",
-      "analysis_details": "• **The Narrative**\nRobinhood is making a **bold strategic pivot** by integrating cutting-edge AI with blockchain technology and aggressive global market expansion. Key announcements include the launch of an **AI-native Ethereum Layer-2 network**, enabling faster and cheaper transactions, alongside expanding **tokenized stock trading to over 120 countries**. Furthermore, the platform is significantly bolstering its **European perpetual futures offerings** and entering the **UK crypto market**, underscoring a commitment to becoming a global, multi-asset Web3 financial platform.\n\n• **Explosiveness**\nThe sheer breadth and ambition of these initiatives suggest a potential for **significant long-term growth** and market re-rating for HOOD. The combination of **AI-native infrastructure** and **tokenized real-world assets** (stocks) on a blockchain represents a frontier in financial technology, attracting a new demographic of users and capital. While premarket dips might reflect short-term profit-taking, the underlying fundamental developments are **structurally positive**, positioning Robinhood to capture substantial market share in emerging digital asset and international trading arenas.",
+      "ticker": "MT",
+      "price": 63.4,
+      "gap_pct": 4.96,
+      "pm_volume": 78279,
+      "avg_vol_10d": 1554412,
+      "avg_dollar_vol": 98549721,
+      "mkt_cap": 47062428594,
+      "rvol": 2.17,
+      "adr_pct": 2.92,
+      "category": "New Contract/Partnership",
+      "theme": "New Contracts & Buyback",
+      "reasoning": "The stock is rising on news of a new AWS deal and a buyback program boosting outlook.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 80,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: ArcelorMittal (MT) announced a new partnership with AWS and a share buyback program, contributing to a positive outlook. | Impact: The AWS deal suggests a focus on digital transformation or operational efficiency, while the buyback indicates management confidence and a commitment to shareholder returns, collectively boosting investor sentiment.",
+      "analysis_details": "• **Impact**\nThe recent news highlights ArcelorMittal's new partnership with AWS, which is likely to **streamline operations** or enhance digital capabilities. This development, coupled with a newly announced share **buyback program**, signals strong management confidence in the company's valuation and future prospects. The buyback effectively **reduces share count**, boosting EPS and providing a direct return to shareholders.\n\n• **Strategic Value**\nThe AWS deal positions MT to leverage cloud technologies for greater **efficiency and innovation** in its operations, a crucial step for a materials giant. This strategic move could lead to **cost reductions** and improved data analytics, supporting long-term competitive advantage. The concurrent buyback reinforces a **positive capital allocation strategy**, enhancing shareholder value.",
       "peer_tickers": [
-        "COIN",
-        "SQ"
+        "RIO",
+        "VALE",
+        "NUE"
       ],
       "headlines": [
         {
-          "title": "Stocks making the biggest moves premarket: Sandisk, Robinhood, Palantir & more - CNBC",
+          "title": "ArcelorMittal Stock And 2 Shares Exposed To EU Tariff Changes - simplywall.st",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX20tVTdGb19SVUtkYzVlV3JfT05rTllXTmo4UzZ0TVI3czIzREpjU2txTF9JRUwwUThjOWxIX3lJVm44aVRZSGVOXzBIcUVjU1FiVnZsamRQWU9yNUxUOVUwRkJoR3FJcnhuSDdDc09ROVcyclpKWFZwNVRvenZqX3hxYW42bHhEYThQQlp1UkVkc0dCSWNQcw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc1ltVHZiUVJXeG5nWDVidHNiblkxYTh0d2d3Q2hhN0lLYTlJNWM2aTliT1g2MGZWOW1XQzFycTN3eS0yckZ3c2dGWUpZeDJCZ0k5M2R5X3NrY0NoemNWeDBYeWtSWG9ac1dnOTlZamR6N3ctWE4xSWNQYktMbl9fTzBSTFlXTlh6ZnJxU3ZIVUpPTkpBaGMzNV9rendnZUExM2UybFkxSUM2MFdaTjFwSDU3ZEdGWGlxNG9sNVA0Um5GbW1pS0NqWjNuTHMzYVRx0gHWAUFVX3lxTFB5ZlpSLXZlS2R6N0J6dFQ5Sm5wRXBfMkFoZ3hOMUhiSHhEcWlDcERkZmdqenIxRjUwME14WEdWMkU4dEk2VlNuX1cxZmkwYVdzaE5SU0hYVjJ5djNmRWJEQ04tY3NuZTV2S1V4OE5ZUmJVck1Ob0tudFZkS2dXMEw4VmQwQ2JRSG5GRUE2ZVRLMUNNeGtDUDhtYzZpRlBzbktNeUVqUjBsaTVDWnVRTXFOdURWSmZ0U0JDTk1DaFE2cXd6VWdRanpsTzd1NTlMaVN1WlN3bnc?oc=5"
         },
         {
-          "title": "Robinhood Claims It Just Broke An AI Guinness World Record – HOOD Stock Dips Premarket After Major Event - Yahoo Finance",
+          "title": "Price Band Hitters Today, July 3, 2026: TICL, Aurigrow Advance; MT Educare Among Lower Circuit Stocks - HDFC Sky",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTTlaVmpQVzl6SGxOcnJGUklkNHJTY25RY09wVmFsWlBWbkFLOFR2WFpWb0YtTDhYTmxNd2NKbktiNS1lVHN4Qk05Y3ptcmVjMXhqMkVNYWxNbUE1ME9oc3JZRzVOR2RxODRfaTFDam90SHl0RWw3Tm5lSnVHekJJY3VNV0dFcGFQckVTR0Rmb2RKeC10MXFDbV9B?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KSmVya0VQVjlJekZYR2ZZZzNvZnRiVnRJQjNGYUUySjJWRldkaWYtTF9xMWZuSG1QMEJSU1VlLVQySGVTdDFYay1ScTJNY0NwV2ZXY2ZFak5IRHNmcUNsNzZDbmlfOU5LUUw1UEhB?oc=5"
         },
         {
-          "title": "HOOD Stock Jumps To Near Six-Month High  Robinhood Expands Into European Derivatives, Targets UK Crypto Market",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/658a681e-2755-390d-b210-f7fe91646dff/hood-stock-jumps-to-near.html"
+          "title": "Mountain Province Diamonds to delist shares from Toronto Stock Exchange - Yellowknifer",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQay04ZFhrbGg0cmh4ZW9kWjQ1RWRvbGtkUFkxQ2pwVzN1R01kd1pIY0lGZmU2Rk56OVItcUxOLVNxV1M1R1NZMktSZmtaNjF5dUpUOHJJYmdNRWRXZmozZzdYYU8zTWd3YmE0V1pjRE4yMkJ5MjcxSWRwZi1BZ3FiNThjbnp4b1o3aTZvSENRNW9vTTFsU1BnbFlvU2lUX2lvWGttMTNMR2NhcnRF?oc=5"
         },
         {
-          "title": "Robinhood takes tokenized stocks to 120+ countries",
-          "source": "Finviz",
-          "url": "https://www.youtube.com/shorts/LgnRqGiX4-c"
+          "title": "Why ArcelorMittal (MT) Stock Is Up Today - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdldQT1FMS2VKYWdZQm10NG15N3BLT05OUjFObG44bVlKNUVLVzVtcDlrUjZRNjJoZ2RkcXlzR0RRRFV2MUtNN3UyYUN0MHVlR3VTeTdPRXVWUHV1ZmV2WFJNNkkta3BNRzA0a29kZzk2Qk4xT1FpSnA1enlYTUoyT2xBZw?oc=5"
         },
         {
-          "title": "Robinhood Launches 'AI-Native' Ethereum Layer-2 Network, Tokenized Stock Trading",
+          "title": "MT Stock Rises As Buyback And AWS Deal Boost Outlook - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQREtvUG9hTmp1Vk9SWHk3dUZ6N3d0WlU1NG8zSnZfemhXVFZzZHg3bUdRX2pXSG1lbnloRmFDVUU5Rzk2V3NVMTktQXpXaFlJZGY3VmJEYWwwU0JKMEpEUFVKR0xXOGJQZGtmVXlqWjJJQmtCRWJuOFViTEVoRWVIQ1lNbHlZVWdua0VaM1ZPWkdaQQ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (Avg $Vol $99M < $100M, ADR 2.9% < 4%)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "ArcelorMittal (MT) has a new AWS deal and a buyback program.",
+        "discrepancy_note": "Source A (Finviz) provides no information. Source B (Google News) headline [2] mentions 'Buyback And AWS Deal', but this is not confirmed by both primary sources."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "RIVN",
+      "price": 18.63,
+      "gap_pct": 4.77,
+      "pm_volume": 1578877,
+      "avg_vol_10d": 35122257,
+      "avg_dollar_vol": 654327648,
+      "mkt_cap": 23481581607,
+      "rvol": 2.49,
+      "adr_pct": 6.65,
+      "category": "Earnings",
+      "theme": "Beat & Raise",
+      "reasoning": "Rivian **beat** Q2 delivery estimates and **raised** its full-year 2026 delivery outlook.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 81,
+      "grade": "A",
+      "finviz_theme": "Electric Vehicles",
+      "analysis_detail": "Catalyst: Rivian announced **stronger-than-expected Q2 deliveries** and subsequently **raised its full-year 2026 delivery forecast**, signaling improving operational execution and market demand. | Impact: This positively shifts investor sentiment, de-risks near-term execution concerns, and suggests a stronger growth trajectory, potentially leading to upward revisions in analyst models.",
+      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nRivian Automotive (RIVN) **exceeded Q2 delivery estimates**, a crucial indicator of operational ramp-up and market acceptance in the competitive EV sector. This **positive surprise** demonstrates the company's ability to navigate production complexities and deliver vehicles to customers, building confidence in its manufacturing capabilities.\n\n• **The Growth (Momentum)**\nFollowing the robust delivery numbers, Rivian **raised its full-year 2026 delivery outlook**, implying **stronger expected growth** for the remainder of the year. This forward-looking revision acts as a significant catalyst, suggesting sustained demand and potential for accelerated revenue growth, which is critical for momentum-driven investors.",
+      "peer_tickers": [
+        "TSLA",
+        "LCID"
+      ],
+      "headlines": [
+        {
+          "title": "Rivian Beats Delivery Estimates, RVNL Tops EV ETFs - Rivian Automotive (NASDAQ:RIVN), GraniteShares 2x Lo - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR0FkNjJvVjlKaGNfdUNuRHpKSXpQQ2xWbnNUejR3WUJGbVA4QzlEaUZHNHl3cGlyNnY0dVVyMUZkTE10Q1l3cHJoR0dZY0JRV1NBVnlaR01ZT1paZkdLVXVxeHJHZnFuOUJ4MGpvZllRMEJudy1nOTY5dXEwNkZtNXBUbDdwSFRqMHpFeUZqSk9lTFNTRVZFT3BZblFxWnIxVEtYb18zNDVmUm9XYkhpX2F3OUtyVXdadEJQbGF0VC00bDNQVmIzRFNOZE9DWXVIbzBWTA?oc=5"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Rivian, Tesla, Sandisk, Blue Owl, AeroVironment & more - CNBC",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVJuRkw3VGxNQWJpeDhYc2hxTThBaThlWks5eG9zYUJpbWtwR2Zwbi1xc1I0VEFFX1NPNXdYbE5vUUx3b3J3RzJZSGFJRHlBREU3QlkzaDBlSUtPRTNQdzVzVkN3cGN5STRua1JTVXJPOV9zdlpzVGk5ZVBtbzdQSUR3cUhyRVJVODR0WU5Wb0VZbmRfZzB5R3V0aU9SX3ll?oc=5"
+        },
+        {
+          "title": "With Its First Mass-Market Vehicle Launching, Is Rivian Stock Ready To Turn The Corner? - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQWc3NHQ2ZmYyN1ZXRWpQUnZNZGpKRzNnWThjdGhGM1FJc0UwMW9GMWxEczlJb2hkdjl6TV8xWW8tS0Y2MFZNc2RIM0JLR1hLYldVMXRFS1pVX2NpQXk3MlU2YUNCdlo1QmpoT3d5Nm5TeElYdnIxb2JWc1U3clBWZ0JrZVFPaWNGdVZHMDVaS2pHdDlCYjVKc1VoQ3Z5eU82OTJZYmp4cG5mbTY5MXpDTUpXdnF2WkExcWh4bWRSRGNhamxMNEVEWmlYYlFPUjRYMi1wUDJvN0xOWnlHS05V?oc=5"
+        },
+        {
+          "title": "Why Rivian Shares Are Soaring Today",
           "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/e9bac608-70a2-3f20-8ca8-82c4a446e575/robinhood-launches.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-rivian-shares-soaring-today-193939950.html"
+        },
+        {
+          "title": "Palantir upgraded to Buy, Rivian lifts delivery outlook, Robinhood's new product",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/video/palantir-upgraded-to-buy-rivian-lifts-delivery-outlook-robinhoods-new-product-193145290.html"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Electric Vehicles",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "raised its full-year 2026 delivery outlook",
+        "discrepancy_note": "Source A (Finviz) headline [5] mentions 'Rivian raises 2026 delivery forecast'. Source B (Google News) headlines do not specify '2026' or any specific year for a raised delivery outlook."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "KTOS",
+      "price": 55.35,
+      "gap_pct": 4.69,
+      "pm_volume": 77015,
+      "avg_vol_10d": 7872558,
+      "avg_dollar_vol": 435746085,
+      "mkt_cap": 10379231106,
+      "rvol": 1.54,
+      "adr_pct": 6.49,
+      "category": "New Contract/Partnership",
+      "theme": "New Contract Win",
+      "reasoning": "Kratos secured an approximate **$36 million** single-award contract for an Air Defense System, which, combined with Wall Street's backing of its autonomy growth story, led to increased stock price and trading volume.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 78,
+      "grade": "B",
+      "finviz_theme": "Drones",
+      "analysis_detail": "Catalyst: Kratos (KTOS) announced an approximate **$36 million** single-award contract for an Air Defense System on 2026-07-02. This news was followed by positive stock price action and commentary from financial media highlighting Wall Street's backing of Kratos's 'Autonomy Growth Story'. | Impact: This contract adds to Kratos's backlog, validates its strategic focus on advanced defense technologies, and reinforces the positive market narrative around its growth prospects in the unmanned systems space.",
+      "analysis_details": "• **Impact**\nKratos (KTOS) secured an approximate **$36 million** single-award contract for an Air Defense System, directly adding to its backlog. While not a massive, multi-billion dollar deal, this contract represents a solid win that reinforces the company's capabilities in critical defense technologies, particularly in the growing autonomous systems market. It provides further revenue visibility and operational stability.\n\n• **Strategic Value**\nThis contract victory is strategically significant as it validates Kratos's ongoing efforts to position itself as a leader in unmanned systems and advanced air defense. It aligns perfectly with the prevailing 'Autonomy Growth Story' being backed by Wall Street, indicating that Kratos is actively converting its R&D into tangible revenue streams and strengthening its competitive edge in a high-growth defense segment. The timing also coincides with increased government spending on modern defense technologies.",
+      "peer_tickers": [
+        "AVAV",
+        "TXT"
+      ],
+      "headlines": [
+        {
+          "title": "Insider Sale: EVP & CFO of $KTOS Sells 500 Shares - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaXcwRUlWQW9HYXBFNU1nM3Vzcmc3TERBZHpyaTNxdWpNOVRMZURpYXc0VzFkVmFWdGFFUnNaVHdWay1PVFVtZlhZbmRkT05BTEgtSm1UVTdlN0VwYk1yaDlleHhSN1Jqd0dCZmI5MU55SWFOYnRFMV9SVDBmNGtLX1RJazFPOGtwZ3JhbVRTMzFQdw?oc=5"
+        },
+        {
+          "title": "CFO of Kratos (NASDAQ: KTOS) sells 5,000 shares via trading plan - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb2R5TDRrR0JjQVZwYjlXUUdqcUdlY3h3S3F1YmxtYVlyOGc2dWthRE9FV1BOTXE1NjV2UHFfX0RxdXBoNWRtV0dLaG5HaS13dVBhT2hZV0YxWDQzTlVrU214STlxdWpuZXJNWkFOV1Bvd0wyQmxLdy1MamRlZlJZck9kZEdtOWxHMUl2a1dYbWNvMmFtemx2aVJvS1pfcm15SkVFZk1UdUxrR1ZfMjhja0w1akRYU3l1UDNlWFBFby1TVTlDTVdYY2Nncw?oc=5"
+        },
+        {
+          "title": "Kratos (NASDAQ: KTOS) division president logs pre-planned sale of 4,675 shares - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDdQbG13dUV0WFhRVl9fVEYzeGkxNHZPRW1xQXZNZ1l0a0l2bjZGcGJocnNNemhheWZpTVhsZU1nOElXNVZBS3REWGJFRGpjTVRlQWVMRUNWdEJmbENfbXBfeDZUanMzUzRBUjhrbkFUTGo2OHVWMC0xU2h2aWlySk9SUnl0ZWt3Y2RYTVJ5S3dIRTNRSUc2UGtBUkV3TENWcnNwTVZEMXNDZXE2bVV3bnhSY1hmOXhsNS1RZ2dtdldEUGVGcjRnZUZIUQ?oc=5"
+        },
+        {
+          "title": "AEVEX Lands A New Deal, And A New Narrative",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/75e84001-d7f3-31d5-84eb-d7b0ad9978e3/aevex-lands-a-new-deal%2C-and-a.html"
+        },
+        {
+          "title": "Three Years of War Changed What Governments Buy. One Player is Already Winning Contracts (NASDAQ: MDWD)",
+          "source": "Finviz",
+          "url": "/news/365680/three-years-of-war-changed-what-governments-buy-one-player-is-already-winning-contracts-nasdaq-mdwd"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Drones",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Kratos secured an approximate $36 million single-award contract for an Air Defense System",
+        "discrepancy_note": "Source A (Finviz) confirms an approximate $36 Million Air Defense System Single Award Contract for Kratos. Source B (Google News) does not mention this specific contract or dollar amount in any of its provided headlines, focusing instead on stock movement, insider sales, and the 'Autonomy Growth Story'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "ABVX",
+      "price": 144.65,
+      "gap_pct": 4.59,
+      "pm_volume": 188582,
+      "avg_vol_10d": 3619613,
+      "avg_dollar_vol": 523577020,
+      "mkt_cap": 11657689347,
+      "rvol": 1.23,
+      "adr_pct": 7.65,
+      "category": "Thematic Narratives",
+      "theme": "Drug Commercialization Funding",
+      "reasoning": "Abivax successfully completed an upsized ADS offering, raising nearly $800M for the commercialization of its key drug, Obefazimod, following positive data.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 57,
+      "grade": "A",
+      "finviz_theme": "Biotech - Immunology",
+      "analysis_detail": "Catalyst: Abivax **successfully raised $759.8M** through an upsized ADS offering, driven by **positive data** for its lead asset, Obefazimod, and investor enthusiasm for its **US commercialization plans**. | Impact: This financing significantly **de-risks** the path to market for Obefazimod and provides substantial capital for growth, extending the company's financial runway.",
+      "analysis_details": "• **The Narrative**\nAbivax's stock surged after it successfully completed an **upsized ADS offering**, raising approximately **$759.8 million**. This significant capital injection is directly tied to enthusiastic investor response to **positive data** for its lead drug candidate, Obefazimod, and the company's accelerating **US commercialization plans**. The market views this raise as a strong vote of confidence and a critical step towards bringing Obefazimod to market.\n\n• **Explosiveness**\nThe successful funding round provides a substantial financial runway, significantly **de-risking** the development and commercial launch of Obefazimod. With nearly **$800 million** in new capital, Abivax is well-positioned to execute its marketing and sales strategies, potentially accelerating patient access and market penetration. This event marks a crucial inflection point, transitioning the company from a clinical-stage biotech to one with clearer commercial prospects.",
+      "peer_tickers": [
+        "VRTX",
+        "REGN"
+      ],
+      "headlines": [
+        {
+          "title": "Abivax (NASDAQ: ABVX) launches 6.4M ADS offering raising $759.8M - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMVI0M0VFZjNEcnpxbFdiM1B1MGhKMmxsU0tuaUNZUWhvSnliR2VpLUtIWjRXRWsyVWhRdzB2bFBxR0tBMWlJZjlHNWFFa3RfMG16R0RULV96Yk1ER3R3b0NxVW81cjNPblplUl84SUcyTnhzSkFTcDNsUF9oTERWZUd4RVNCTndRYjM4cHdGSGpVRm5INVQ3Yk1Bc0U3cTVZTHJnLTZEVlZCQQ?oc=5"
+        },
+        {
+          "title": "ABVX Stock Surges As Obefazimod Data Fuel $800M Raise - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jUFQxa2ZmZmx5c0V3emxxT2RKcTlQRjJLVlNFb3k2cmNtZnE1VFFTOVR2WHZXM1FVOUYyRHJpbmh5YU1nRExxaFd2aU91UmliLXl2azRKMG1fU2gxZ1FkX3BBbE9wbU0yZzBrVXJhMTdkbEI4QXc?oc=5"
+        },
+        {
+          "title": "ABVX Stock Soars As Obefazimod Data Fuels $800M Raise - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LQ1RjS3c0MUxoaU5wUm1mVGVTRklYeXd2aEZWclk1REVhVmczVGtORk1wXzdiVFEyUW5BUkhHeFFyUUdPaThSekxub2RLNHcta0JTZk55UzlDeFZ0ZEFiV0NTenF6S3JjbUJoTEFlTQ?oc=5"
+        },
+        {
+          "title": "Abivax rises as investors cheer fully exercised upsized ADS offering - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNlB0b2hSNTFzY2RrTndFejA4U3lVOUNhWElMZTMxWHp2SWU4ejlIdGhMUjcwODBDSHp6V0hpS3d2Vjl3ckFUX2dsNGpMczdxUnRfZHJ6cm9SMjJOX2pNZ2dJYnlhaWZoOWtPOXlDVVZxWkRmUkdmUDVfQW9NVmdzcWl5VUpNMi1SY3N2d0s2dTZOQ2RhSVAtMjFtYWFmVzVHQUJz?oc=5"
+        },
+        {
+          "title": "ABVX Stock Eyes Over Six-Month High As US Commercialization Plans Gain Momentum – Retail Eyes Potential Buyout - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMi10bWx5U2xtZGNjVHk4QjRGVU1MRHlibTI5TVVXd3VBbC02LWhTRURPeGlnWUw1Z25zb0xoekQ0OW1BSUdsV0E4UE4yZUtwLVZkYjFHS093YTE3cXhQaHNpRlJnLVB2c21pd3FlLVlETjRrNkRRLWpucFdxcndYcXV0WFpJa3I0Y0lKQmQ2SmgwWE8xRVBPc2tCcU1LVWpXeHBoLUJjLTV6Rk5GdWdXc1hsUTZRQU0?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Biotech - Immunology",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Abivax successfully completed an upsized ADS offering, raising nearly $800M.",
+        "discrepancy_note": "Finviz (Source A) provides no information. Google News (Source B) articles contain conflicting specific dollar amounts for the raise: articles [2] and [3] state '$800M Raise', while article [4] states '$759.8M'."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "EXK",
+      "price": 8.56,
+      "gap_pct": 4.56,
+      "pm_volume": 67884,
+      "avg_vol_10d": 5850314,
+      "avg_dollar_vol": 50078688,
+      "mkt_cap": 2534349098,
+      "rvol": 0.77,
+      "adr_pct": 6.24,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $50M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found for EXK.",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "HL",
+      "price": 16.33,
+      "gap_pct": 4.55,
+      "pm_volume": 205900,
+      "avg_vol_10d": 38902661,
+      "avg_dollar_vol": 635280454,
+      "mkt_cap": 10952733479,
+      "rvol": 0.88,
+      "adr_pct": 5.32,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nHL has seen price action suggesting a **technical move** or **institutional flow** without any specific fundamental news release in the last 24 hours. Headlines were generic, focusing on price-driven insights or company profiles, providing **no material update** to the company's operational or financial outlook.\n\n• **Key Consideration**\nThe lack of a **discernible catalyst** makes any price movement speculative and potentially unsustainable. Traders should exercise **extreme caution** as such moves often lack fundamental support, increasing the risk of a **quick reversal** or \"gap and trap\" scenario.",
+      "peer_tickers": [
+        "GOLD",
+        "NEM",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "Price-Driven Insight from (HL) for Rule-Based Strategy - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVjRSUTZON2FCRkdfZlRadTJzWDZCbGtoX1UyZkFXS2FDOW1KX1UybUd5R09FRXpheG9ielhlSVhxUldxSGVTNnB3NkF0Qm9UZ1RMSzhuYndJOExtQUNnNzRoQmtUOFBCMkhmVk9tOV9aZUk1SEE0QWN6c0FCTktBcUlmaXI3ZDVwMEU4VU1NNEhoME42YzhOMC1LX2hvWlM0QXY3Y1pRcjZvY2k0cy1UMzd3WVloTFVLMXlFUzhldVNDUkZiYmU4V0hLUnI?oc=5"
+        },
+        {
+          "title": "Hecla Mining stock. Company profile and market context - Ad-hoc-news.de",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV01pTXROSEF0WEpLSDNEYk9MRTBJZ3RRbC1FUVlJSWp0TFF3UlYxbEhOaHlqcTc2MUJOazJSSHFTay1Hc210aksybFBtNUtMR0hzaVdyaDdfVXpBck50WWdPZEh0Mkh3NWo4YmNPeVlXS0RXUHVmeTRpOFgxdFFxcHpoVnY2VGVDZms4bVA3Tm5manEwVFFoQmtoT1lzcC1NU0hzSDc2cURxal9fWW5tLWdB?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Sources do not report any immediate fundamental catalyst for HL.",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "EQX",
+      "price": 10.14,
+      "gap_pct": 4.41,
+      "pm_volume": 288419,
+      "avg_vol_10d": 14642807,
+      "avg_dollar_vol": 148478063,
+      "mkt_cap": 8002060529,
+      "rvol": 1.36,
+      "adr_pct": 5.14,
+      "category": "New Contract/Partnership",
+      "theme": "Land Access Agreement",
+      "reasoning": "Equinox Gold secured a significant 20-year land access agreement for its Los Filos mine, de-risking long-term operations.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 78,
+      "grade": "A",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Equinox Gold secured **20-year** land access agreements for its Los Filos mine, a crucial step for long-term operational stability. | Impact: This agreement **de-risks** a significant asset, providing **certainty** for future exploration, development, and production at Los Filos and validating the company's long-term operational strategy.",
+      "analysis_details": "• **Impact**\nEquinox Gold **surged 7.6%** today on the back of securing **20-year** land access agreements for its Los Filos mine in Mexico. This development is crucial as it resolves a long-standing operational uncertainty, ensuring uninterrupted access to key mining areas and surrounding lands. The agreement provides the necessary social license and legal framework for **long-term** resource development and production at one of the company's core assets.\n\n• **Strategic Value**\nThe **multi-decade** agreement **significantly de-risks** the Los Filos operation, which is a material contributor to EQX's overall production profile. It enables the company to proceed with planned expansions and exploration initiatives without the threat of land access disputes. This long-term clarity is a **strong positive** for investor confidence and provides a stable foundation for future capital allocation and operational planning, reinforcing EQX's production growth trajectory.",
+      "peer_tickers": [
+        "NEM",
+        "GOLD",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "Equinox Gold (TSX:EQX) Is Up 7.6% After Securing 20-Year Los Filos Land Access Agreements - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSF9WZDJLWmJ4d0pMT3FVckxjWUxUYjBKRzVieU1vX2ZIX1JMQVhvbXoyUFZPY1A4Xy01UzVubDRmSDc5VklPOGo4d25lbWIzR3hhZGJUNS1Xb1JVcEs4RXpoeG9qRWMySlZTdU42RmI4YklPTWZoM3BoMWhLRlRvSnR6MDM4X04wQm5rY1ZKN3RyVUxyRi1lR2JNTkFCS2xLN29sWmpQM0RYc3U0TnZHaUZJNnBkRVNrNFdoVE9SNlVkMVhLS29zTjJJQnM4blFn0gHWAUFVX3lxTE9IcncwbTA4SC1DZFN4VTZvZGtXNGY5ZjZOZi1qbUN1cG5iSWJwMkdEQ1daRGplN3JVVHROWHhxek54MDVKVjlkQ25wN1BPeEh3LThZQ0tpWlBmUHpKNG5uakNranNMNzVFcG1PaS1FNWdJbmdQbGl0bktsTkVIM1pnZUwyS3JJX3ByRUlIc0pqbnpjdFJTYzZwWExuWEZ3aUZUdTRMVkg0MTFKWUsyQnhxMHlnQWlCSGhhZEFaVmlUS0JpRjF1MG9jaVdoOU9DTzVpMWx3dWc?oc=5"
+        },
+        {
+          "title": "Equatorial Resources Ltd (ASX: EQX) Share Price Surges as Investors Focus on Iron Ore Projects - Kalkine",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWW9mbzZnT081X3hFbE9UcC1ZT2pYd0lUNmNNZm5vZHVOUWpCZnQxUHBiOHpHMkNnYmJZaE9wTG9uS2pLWEg4ZWk3YmJGR19val91TzUxWklRWXpCdUNkNlE0NmFZSDk5ZGowSHlORG93X3p4eU1IZThRRVFYbm1YUXVnZHFGcjZSZzMxN0N1VWYzZ3VQZEZBdU5nTDNramhIX1ljVHR6dlJDUVR3NDdobC1ESzhRQ1I1VTRqZFZJdVJ1TmU4Z0pEQWY2T09LY0Q1d1E?oc=5"
+        },
+        {
+          "title": "Discipline and Rules-Based Execution in EQX Response - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSWM5LWIyS3VNQmdJME1SR25Cd1ZudUVZZ0xWRkhIZEstaDZwMExnR1IzWmUweUFfOENMYU9uWEUyYUxNUnFFd3BwNnduYm93eDBKMWNQVFllWVpwWmpVOTZVZWF6LUtKcWN0bTJUOWZ4cXV1ZENrcVJ2Nkt0NGRiMU9XQi1vQmZYTkFsRVpmelA3VEFhdVlIWlBXRzV2TnQ4QXYyM3NHQWRZcnAyZzViQ1NCUzJoWFJRNVo4eE9IRGppX1J0clNodk1yTEw?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "20-year land access agreement",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T1",
+      "tier_label": "Major Catalyst"
+    },
+    {
+      "ticker": "CABA",
+      "price": 3.19,
+      "gap_pct": 4.35,
+      "pm_volume": 227106,
+      "avg_vol_10d": 8232468,
+      "avg_dollar_vol": 26261573,
+      "mkt_cap": 520144803,
+      "rvol": 1.86,
+      "adr_pct": 7.27,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $26M < $100M)",
+      "verification": {
+        "status": "Verified",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "HIVE",
+      "price": 3.24,
+      "gap_pct": 4.34,
+      "pm_volume": 517984,
+      "avg_vol_10d": 40430731,
+      "avg_dollar_vol": 130995568,
+      "mkt_cap": 866475870,
+      "rvol": 0.88,
+      "adr_pct": 11.2,
+      "category": "Earnings",
+      "theme": "Earnings Miss",
+      "reasoning": "HIVE's stock declined significantly following a Q4 earnings miss and a new $115M zero-coupon note deal.",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 76,
+      "grade": "C",
+      "finviz_theme": "Fintech - Blockchain/Crypto",
+      "analysis_detail": "Catalyst: HIVE reported a **Q4 earnings miss** and announced a **$115M zero-coupon note deal**, impacting crypto sentiment. Impact: The news caused the stock to **plummet**, indicating strong negative investor reaction to both operational underperformance and potentially dilutive/debt financing.",
+      "analysis_details": "• **The 'Beats' (Surprise Factor)**\nHIVE reported a significant **Q4 earnings miss**, with the stock **plummeting** immediately after the announcement. This underperformance suggests that analyst and investor expectations were not met, leading to a negative surprise and subsequent sell-off. The chairman's statement dismissing volatility as a 'non-event' likely did little to reassure investors.\n\n• **The Growth (Momentum)**\nThe company also announced a **$115M zero-coupon note deal**, which has further **weighed down** on crypto sentiment for HIVE. This financing move, coming on the heels of an earnings miss, raises questions about the company's immediate financial health and ability to fund operations or growth without resorting to potentially dilutive or high-cost debt instruments, negatively impacting growth momentum.\n\n• **The Guide**\nWhile specific guidance details are not provided in the headlines, the combination of an **earnings miss** and a **significant debt deal** points to a challenging outlook. The market's strong negative reaction suggests investors are anticipating continued headwinds or at least a lack of clear positive catalysts, diminishing confidence in future performance projections.",
+      "peer_tickers": [
+        "MARA",
+        "RIOT",
+        "CLSK"
+      ],
+      "headlines": [
+        {
+          "title": "HIVE Stock Drops As $115M Zero‑Coupon Note Deal Hits Crypto Sentiment - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU1RCZmtsRHNIX2JqTUdjUzJGSkRhdWVsU0pnem9EbU5rd0VQZENIWGdYMXUxZDhfdUdfWFk2VXFiM3dmcnYwMVFNTUZBY0lYaW1jSDRva1JkV1lVdUozYUFLeGlnbGxWNU1pQmxYZHUzUmJPMUxBMVpqNGpKcW1zbE8xTTJzLV8xSUZDUkV3?oc=5"
+        },
+        {
+          "title": "HIVE's Stock Plummets On Q4 Earnings Miss — Chairman Says Share Price Volatility Is A 'Non-Event' - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVF92MjhfYW9MYW5Held3MlVBZGR6NDVlN2VRRWRxSkZGRzd0Q2tHdHpfZmFDRl9vUFFGdzI2S19UWjBRSndHdURaUURGME1nRmhkbzdXbHBZbU1JaFFZOTFhb05FSnNVUG1JcEhwQWpnWG94WmlHeWhOVUh3cDQ4b3FiVVB3cEJVMVFzRWdFWU85cUxMc3ZETlJlTEdyNnVJV2o3b1p4QQ?oc=5"
         }
       ],
       "float_shares": null,
@@ -620,14 +1181,498 @@
       "industry": "Fintech - Blockchain/Crypto",
       "technical_status": "Pass",
       "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 75,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "new $115M zero-coupon note deal",
+        "discrepancy_note": "Source B[2] confirms a '$115M Zero-Coupon Note Deal'. Source B[1] mentions the Q4 earnings miss but not the deal. Source A provides no information."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "KGC",
+      "price": 24.71,
+      "gap_pct": 4.18,
+      "pm_volume": 83514,
+      "avg_vol_10d": 9328198,
+      "avg_dollar_vol": 230499773,
+      "mkt_cap": 29506208982,
+      "rvol": 1.01,
+      "adr_pct": 4.12,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. A **5.3% rally** without a clear fundamental driver suggests a potential technical breakout or institutional short covering. This type of move carries a **higher risk** of a 'Gap and Trap' scenario.",
+      "analysis_details": "• **What Happened**\nKinross Gold (KGC) experienced a **significant rally of 5.3%** yesterday, leading to questions about its valuation from GuruFocus. However, no specific fundamental news or catalyst was released within the last 24 hours to explain this sharp move. The only company-specific news relates to the **upcoming Q2 2026 earnings announcement on July 29th** and the subsequent conference call on July 30th.\n\n• **Key Consideration**\nThe absence of a clear fundamental driver for the **5.3% rally** suggests this move is likely technically driven, potentially due to **short covering**, a **technical breakout** above a key resistance level, or broader **institutional flow** into the gold mining sector. Without a fundamental underpinning, the sustainability of this momentum is **speculative** and warrants caution, as the stock could be prone to a quick reversal. The upcoming earnings report on **July 29th** will be the next major catalyst to watch.",
+      "peer_tickers": [
+        "NEM",
+        "GOLD"
+      ],
+      "headlines": [
+        {
+          "title": "Is Kinross Gold Corp (KGC) Overvalued After 5.3% Rally? GF Value - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDFIVkY4TTJ1N3daZjVKLTFScWt4SFdFMjB2U3ZSUzVtWXhlTWtpZnNla2t1RUo0bVpXdEQzdTRmdzdYNVJ4clFiOGRWUGViOVRCSEtZU1NBS2tPY1ZqRWVpdHNGS3ZrcF9icG43T3NvZUliQVZmekRHaEt5WG5PVy1qRUJzWGRBZkZGejQ5VXVpS3RjbUdhd0NSSm1kSk0taFAwOFlCOEFrbFBFNHUwSExNT0k?oc=5"
+        },
+        {
+          "title": "Kinross to announce Q2 results on July 29, 2026 - The Globe and Mail",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPanRmRDBUVDNMSlUyWndUal9zd3RMZTlJQzhVYUo2SmZYc2RtQ0lJcUlQNngtRnA0eldnOFlLRDhMUVlnRl9xTDJseEpoZHdyWGlxVm43d3pQbnVxcktSdkxlZVFiVTY2dGxQTDV1SUxDNXhMaG4xUjhwclBJRWtPREEzVWh5QkZXWllzSHFocXpSYzIxbXpnVWd6UTBMZHhJQ1FyYXpPdW1oeVJIU2VWemZ5ZmVFUG1XUVJkQ2JsT1JsQmNMdVJ2RFI3U1MtQQ?oc=5"
+        },
+        {
+          "title": "Kinross sets July 29 Q2 results and July 30 call - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX0djT3pyTF92X19kam12LXd1QmpmcDdkQnlGSFJycV9CcDRyWjlUZm9tcHNjQUdrU21kNnZyWFdTbXU2Um5yLXduZnFyRDcxRTAzWW44VlhJNUtjSkdPQmRjem5WLWNhaWhqVGJ5amlTaWt3ZlQyNUIyTzhWa2xKMURIdjNpMWljYVBVZllYYzVKTzQ4UnZhQk9MZw?oc=5"
+        },
+        {
+          "title": "Kinross Gold (NYSE: KGC) to release Q2 2026 results and host July 30 call - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbEFseTJTNkpXMnM5Z3h1RTFmelkydFB4T05BaDk4RHJGeGxXQzV4MnF0cGlEZ0hUTHFZZUVnS3RDNTJwU001T1RQa1pEWHlIVzV6S0ZacHFUM2F5c1JKYmtob1V5R1R3OVhSZ0M0S19pZ0NOaDQ0Zzh6TlZvTW5HeUhnb0JjZmdUV29SMi00b0FQelYtT2RoakYzc04wSnlrZEVJYS1hOXJNbUJKTWpVMEt3?oc=5"
+        },
+        {
+          "title": "Kinross to announce Q2 results on July 29, 2026",
+          "source": "Finviz",
+          "url": "/news/365791/kinross-to-announce-q2-results-on-july-29-2026"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 100,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": "The initial analysis claims 'No immediate fundamental catalyst found', but both Finviz (Source A [1]) and Google News (Source B [1], [3], [4]) confirm Kinross will announce Q2 results on July 29, 2026, which is an immediate fundamental catalyst."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "AG",
+      "price": 17.82,
+      "gap_pct": 4.17,
+      "pm_volume": 189052,
+      "avg_vol_10d": 11311986,
+      "avg_dollar_vol": 201579591,
+      "mkt_cap": 8798973670,
+      "rvol": 1.16,
+      "adr_pct": 5.92,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; likely technical breakout or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nAG stock **jumped over 5%** in overnight trading, as highlighted by a Stocktwits report. This notable price action occurred without any **identifiable company-specific news** or fundamental catalysts being released within the last 24 hours. The trading volume was moderately elevated at **1.2x RVOL**, but not indicative of a major news-driven event.\n\n• **Key Consideration**\nThe absence of a specific fundamental driver points to this being a **technical or flow-driven** move. This could be attributed to a short squeeze, algorithmic trading triggers, or potentially institutional rebalancing. Investors should approach this with **caution**, as moves without clear fundamental backing are highly **speculative** and prone to rapid reversals or 'gap and trap' scenarios.",
+      "peer_tickers": [
+        "PAAS",
+        "HL"
+      ],
+      "headlines": [
+        {
+          "title": "Leonteq Securities AG Has $4.45 Million Stock Holdings in Blackstone Inc. $BX - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdGhQUUlUZENzNHRMREM0RzVwbEVzN2t6R3BDcXZCZTNvTnZGRmZaQnBaOEMwUDM5M0Z5aW5LNjB4RmpqVlNBQktURTVqM0tsRXpYYk5sTlZUeG44NFFSRVhJRGdUR2xqaTFXREhEeWV5dk5LeFhwYk1DNUJjTVRKSkNsUjRWZDhKREZwQW5RM0xGSmw0TXZwc3UyOU9iYXE0T1o2YjF5bnlkRjM1NHM0X0ZYUTlkUDB3MThqbHh0allJR1JjLXhsNFdYS1JYUDA?oc=5"
+        },
+        {
+          "title": "Blue Owl Capital Inc. $OWL Stock Position Raised by Leonteq Securities AG - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRlRWREJzUGx2RzBWYjZ6aXlwVm9NMWhCSnNFNTYwckJsemxRLWVuLTVHSXBJMWFPNlREcTRFYlJuZWplRUNmZlZLS0lpcnI4SWdULUM1V1lpSVFRSE1mc1lyVmdzeU1wQlIzUWhxYVJsRDZwanlSTHQyRm1acmJmRi1FbGxwbXlkRVBtLThHMUZaLW9IcHNsWm1rU0hzTXlkTVhmVkUza3REVU1ZMkI1WHFXZDdTVmU3aUExZVpTU05SMzFvdV9UY2lVUnk?oc=5"
+        },
+        {
+          "title": "Leonteq Securities AG Has $2.05 Million Stock Holdings in Transdigm Group Incorporated $TDG - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWlNISG96RzNMRzVYczZVNzNRejBLNF81NmtFbVhRRGlqT1JhUHJuR3JkNFROT3ZXaDlDaU9nSHUwdEIxMnV5d1F4QmdDNnZnMTR5Nm5pbEVidFBEVVRzNHNhRm1wT3NYaExXVnowMGhGZElYSmZGWHh5ZEN6MlZGRlc2emtwZElwemIwWHdld2JHdTZXX0MtTUlHREFSWWJVaTlPeE45cGplQXJWOVl5aEcyQXQ5WG5LQzllMkp3OU9mTjMySVJrSGlTdXRvUVpZN3hqcTdNbHc1dGNSZFpWNW9kZw?oc=5"
+        },
+        {
+          "title": "Why Is AG Stock Jumping Over 5% In Overnight Trading? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWN4cjJ0TVQ3NUdWMm1CVVR2b2NWM3Q0QTdFX2h2NU8tQ3ZKNVNYUXlUNkt0NVkyZ0ZwV05DaWh3RVJzRzJzcVc5c3VBVWctc2dCdVZLMVU1U0NnY1Iwc3FKVjgxV1V5cHR3SklSSjFYTU5Mam41T0N5b3V0b041d20zOUo5RVZQMUxRSjhtN1g5ejA4Wmk2OWR4LXJDQQ?oc=5"
+        },
+        {
+          "title": "Novartis AG (NVS) Stock Up 3.7% but GF Value Says Overvalued -- GF Score: 82/100 - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSGpDdFZOQ1VsQ3QwS0pwczQxZ2ZtYTVQUjdMcHFKVXFGSmtZekFJV1ZRRnlIS3FfRExScDRfZWwxeVdEWS13ZXBSWS0yWGpCbHV2ZHRrWklIQldKWnRLTWpZbVB0eXQ2WVljQUZVaUwzaXYteDV3QVpCWmVnYnJGNENPR3FuQnFHNU1mU3FWeXRVakdkS284aEl3VnFhVWRfcTV5S3pqdGk2ZVA3RGpkYlJXWGtnNjZBMnpsQnpoU3RDYnl1YzJUVEhudTdoNjZVSHctTA?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 40,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found for AG.",
+        "discrepancy_note": null
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "NG",
+      "price": 6.44,
+      "gap_pct": 4.12,
+      "pm_volume": 93454,
+      "avg_vol_10d": 5789844,
+      "avg_dollar_vol": 37286595,
+      "mkt_cap": 2825747344,
+      "rvol": 1.02,
+      "adr_pct": 7.02,
+      "category": "Insider Buying",
+      "theme": "Insider Buying",
+      "reasoning": "NOVAGOLD's CEO and COO increased their holdings via ESPP, signaling management confidence.",
+      "hypothesis": "Medium Conviction (RS Hold) — Insider conviction signal; look for base breakout.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: NOVAGOLD's CEO Gregory Lang acquired **1,909 shares** and COO Michael C. C. Davies acquired **994 shares** through the Employee Stock Purchase Plan (ESPP), as reported in Form 4 filings. | Impact: This signals management confidence in the company's future prospects, albeit the individual share counts from the ESPP are modest and often discounted.",
+      "analysis_details": "• **The Buyer**\nNOVAGOLD's top management, CEO Gregory Lang and COO Michael C. C. Davies, increased their stakes in the company. CEO Lang acquired **1,909 shares** through an Employee Stock Purchase Plan, while COO Davies added **994 shares** via the same program. These transactions were reported via Form 4 filings on July 2, 2026.\n\n• **Conviction Signal**\nWhile Employee Stock Purchase Plan (ESPP) purchases are typically made at a discount to the market price and the quantities are relatively small for a company of NOVAGOLD's market capitalization, any insider buying provides a positive signal of management's conviction. It suggests that those closest to the company believe in its long-term value proposition and future performance, potentially influencing investor sentiment positively.",
+      "peer_tickers": [
+        "NEM",
+        "GOLD",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "NOVAGOLD (NG) COO adds 994 shares through Employee Stock Purchase Plan - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTUdzMlJPdXpmTEZwZHdrOWxxYXV1THpNZzhWZDkyYlBvRWg2YWlGbmxsbjFkZ0RVY1NwdElFUXBoTjRNMTJnWm9FQVVndnpHWG5FM2ZHM2FBTkhjdzF5aWpoYUpsbTgxX1QxVkhGRlhWOVdQemU0OHJTY3ktZ3BVUnRyb3BHd1RaU0NyaUlNVFhaWmZmTTNKa0ZXMkpOX2dwWjVDZWFKOEJKUTRDX1JnVGtmWVQ?oc=5"
+        },
+        {
+          "title": "NOVAGOLD (NG) CEO boosts stake with 1,909 ESPP shares and sizeable trust holdings - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUEtGYW5Jem9heV9kSmJPVk56ZzZyQmNWNUdleUt0SXRYbkpLSTRzWUxjejRfVlpGT0FBN3I5Z3ZIeThjbmtfZnlRYTJReUhDUkpLSEtuQWNmbDlKeWtYUTJfdXpvVHVKTlhVZEhabm43MmR1NnFEYUl2VnJDYzV6VWhXbGY5NjRvR3Jlb1ZSOGswRWJkZWliY2ZNSF9Lb1A4WGhPbTBMSGtsREs0cGxabmxuRzI?oc=5"
+        },
+        {
+          "title": "[Form 4] NOVAGOLD RESOURCES INC Insider Trading Activity - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbkhhLUJDUEpDZktQazllRmZUVkZ1dkdaeFo5b05PWm11cG9KakNyYjFsNUJxTjF0ZWhxWTRxNUFVd2x5Q2l5WVpsLTA4MU5HLXBRWWUyNHZGN1lwNDM1cnpScl80YTl4Z0wtTjI2WC1WbDRJcTF2ZnM2WWxxWE1JcnhsSlJ6NGxUdjlGZ092Si1kellSRGduYTU3bkp3d05aOF91UEUxLTJBWGR2NkR5RFcyZ0Q?oc=5"
+        },
+        {
+          "title": "Ticketplus files for IPO on NYSE American at up to $15 per share - Investing.com Nigeria",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1FfdVpXY3BHUXR0MUJSWlJnZVBFUHFhNU1wVFdWNlZNVmVlUVdrTDlZVUxjTkZWZ2laMFBpdmlOWjRQMF96eVpiZFRPVms3aEdBNGxBYnlmb3JMNTkyVXlYN3BRTWQ0cGpUODB6dVV1STZSc1I2WlBmRUpCNGJFU2ZCWUpXd2Yzcm5lZllNV25QOVdHb3RTYzNFWFktNTFLYkc3RFA3RWVfYkZRcndCTFBDVDZOZklXUURZM1lsMWhXbE0?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Fail (Avg $Vol $37M < $100M)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "NOVAGOLD's CEO increased holdings by 1,909 shares and COO by 994 shares via ESPP.",
+        "discrepancy_note": "Finviz News provided no information regarding the specific share amounts or ESPP purchases by the CEO or COO. Google News headlines [1] and [2] confirm the specific share amounts for both the COO (994 shares) and CEO (1,909 ESPP shares)."
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "CDE",
+      "price": 17.3,
+      "gap_pct": 4.11,
+      "pm_volume": 146833,
+      "avg_vol_10d": 64048761,
+      "avg_dollar_vol": 1108043565,
+      "mkt_cap": 17828008223,
+      "rvol": 0.96,
+      "adr_pct": 5.81,
+      "category": "Others",
+      "theme": "Sector Sympathy",
+      "reasoning": "CDE rallied in sympathy with the broader precious metals and gold sector, despite a quiet company-specific news day.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 56,
+      "grade": "C",
+      "finviz_theme": "Materials - Metals & Mining",
+      "analysis_detail": "Catalyst: Sector Tailwinds | Impact: Secondary. No company-specific news; move correlated to broader Gold Sector trend.",
+      "analysis_details": "• **What Happened**\nCoeur Mining (CDE) experienced a significant **4.6%** to **8%** price gain in the last 24 hours. This move was primarily driven by a broader rally in the **precious metals and gold sector**, with multiple headlines pointing to sector-wide strength leading gains at market open.\n\n• **Key Consideration**\nDespite the strong price action, there was **no company-specific fundamental news** for CDE. The stock's performance is a **direct correlation** to the overall positive sentiment and flow into gold-related assets, suggesting this is a **sympathy move** rather than a catalyst specific to Coeur Mining's operations or financials, increasing the risk of mean reversion.",
+      "peer_tickers": [
+        "NEM",
+        "GOLD",
+        "AEM"
+      ],
+      "headlines": [
+        {
+          "title": "A Look at Coeur Mining Inc (CDE) After 4.6% Gain -- GF Value $9. - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcWtReEV1N2ZZaU9YNERCeG55WjgxeWFnaFdYd2NNNXNxNFRYZDJ2bXhzcVVaLW1VT090OWRodGJwaU5UZVhObGg3NW1CZ2VVa2ZNTHZQcjA1enZaVi03RHBWX1VlRTVHZFhETUZlUVR6WUh5SF82UHgySWstam53bmYzQkVzYkJ6VXFDMDRCMGM5TDNib2Y3OW02cEh2ck5jaHFtU0lzN1JTaG1WcDFz?oc=5"
+        },
+        {
+          "title": "Coeur Mining (CDE) Rallies As MidCap 400, Analyst Targets Align - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCVGIxRFJpMEgxZWZxVTdXQ2h6dkx4enFOYUhQVEVyTXdDaUFGUFh0U1QzTHNOS3FFbVhFQUFXV0ZmRlBzNEprTEkzOV8yR003RUp0X081WUI1cjJhOUlDc2lPUmtjaGhWVjVjdV9zU2Vwb09YSzdqZzJxSQ?oc=5"
+        },
+        {
+          "title": "Coeur Mining gains as precious-metals rally appears to outweigh a quiet company news day - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3lFdVZ0ZG1iemRYUFdGdlRPLU81YklISDBueGQ4SzBWQ0Q1VnJCVE1Zeko3Q2I3R2FhQkxsajJFbzEtQklPMlh4ak1YMld6M2ZvUkJxZmhpN3RIQ3ZzMmRuWG5BcjlsTmsya25LTDBPMjhFZXhoQVh1eWJ0VmdFU2xla1lJcWR6TWRGc1ZUaDFWTVlmZVpNdkt6RUI5QlU0bnRiazNVMG83YWlDU1JXT2xVdzE3NkNlS3BIcnJB?oc=5"
+        },
+        {
+          "title": "U.S. Stocks Move | Gold Sector Leads Gains at Market Open; Coeur Mining (CDE.US) Rises Over 8% - Moomoo",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMFlmbUJCTzRwQkZrMndsNUJJenNDSFZnMVJ3dV90eHlwZWRfejBLX0FTZzZQY2RlbkxLeUN1SG11aHRNM1pFdEM4R3RCR2FhUTY0YU0zbUNjSjE3XzRxXzBSZENQR09CS2ZjNTNJcUZUZmlMeGNYMTZudlAyZ1UyM01aaXNxQVVkekVmcXRpSHNjVFZyT3lQTHgwYw?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Materials - Metals & Mining",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 90,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "CDE rallied",
+        "discrepancy_note": "Google News Source [2] mentions a '4.6% Gain' for CDE, while Google News Source [4] states CDE 'Rises Over 8%'. These are conflicting specific percentages for the rally."
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "BLDP",
+      "price": 3.52,
+      "gap_pct": 4.07,
+      "pm_volume": 50148,
+      "avg_vol_10d": 7158369,
+      "avg_dollar_vol": 25197459,
+      "mkt_cap": 1061194921,
+      "rvol": 0.88,
+      "adr_pct": 10.1,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $25M < $100M)",
+      "verification": {
         "status": "Verified",
         "confidence_score": 100,
         "sources_consulted": [
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "tokenized stock trading in 120+ countries",
-        "discrepancy_note": null
+        "primary_claim": "No immediate fundamental catalyst found",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "SBET",
+      "price": 5.31,
+      "gap_pct": 4.06,
+      "pm_volume": 105151,
+      "avg_vol_10d": 14033263,
+      "avg_dollar_vol": 74516627,
+      "mkt_cap": 1127819405,
+      "rvol": 1.68,
+      "adr_pct": 6.53,
+      "category": "Thematic Narratives",
+      "theme": "Thematic Inclusion",
+      "reasoning": "SBET was featured in a crypto-focused article discussing discounted investment opportunities alongside other digital assets.",
+      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
+      "conviction": 59,
+      "grade": "C",
+      "finviz_theme": "Fintech - Blockchain/Crypto",
+      "analysis_detail": "Catalyst: A ChainCatcher article, a publication focused on cryptocurrency and blockchain, highlighted SharpLink (SBET) as a discounted investment opportunity alongside Ethereum and Bitmine. This places SBET within a current market narrative around potentially undervalued digital asset plays. | Impact: This could generate **speculative interest** and **increased visibility** for SBET among crypto-savvy investors, but it does not represent a fundamental shift in the company's financials or operations.",
+      "analysis_details": "• **The Narrative**\nThe ChainCatcher article discussing \"How to choose between buying discounted ETH, Bitmine, and SharpLink?\" frames SBET as a potential **undervalued opportunity** within the broader digital asset and blockchain ecosystem. This inclusion by a crypto-centric publication suggests market perception of SBET as a relevant play in this thematic area, potentially attracting new investor attention from the crypto community.\n\n• **Explosiveness**\nThe direct impact on SBET's fundamentals from this article is **minimal**. While it provides increased visibility and can spark **speculative buying**, particularly from retail investors seeking \"discounted\" crypto-related assets, it lacks the **materiality** of a new contract, strategic partnership, or significant financial announcement. The potential for a sustained, fundamentally-driven rally based solely on this type of news is **low**, making it susceptible to profit-taking.",
+      "peer_tickers": [
+        "COIN",
+        "RIOT",
+        "MARA"
+      ],
+      "headlines": [
+        {
+          "title": "How to choose between buying discounted ETH, Bitmine, and SharpLink? - 链捕手ChainCatcher",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Tb0szbGRZRVRYX3JtNC1UUUdIOXJ0UnloSHRZSk1tUFZ5eFdOSVVGU0szdmJjcmtLWUxBbFgxUGFnN296RElnMWUycnlCcjBFYUU2eXhHNERnRXM?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Fintech - Blockchain/Crypto",
+      "technical_status": "Fail (Avg $Vol $75M < $100M)",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 85,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "SBET was featured in a crypto-focused article discussing discounted investment opportunities.",
+        "discrepancy_note": "Source B directly mentions 'SharpLink' (SBET) alongside 'discounted' assets in a headline from '链捕手ChainCatcher' (ChainCatcher), a known crypto-focused publication. Source A provides no information to confirm this claim."
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "ASX",
+      "price": 41.87,
+      "gap_pct": 4.05,
+      "pm_volume": 247321,
+      "avg_vol_10d": 14791263,
+      "avg_dollar_vol": 619310182,
+      "mkt_cap": 99990473183,
+      "rvol": 1.29,
+      "adr_pct": 5.56,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found for PEXA's significant drop; likely technical breakdown or institutional flow.",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 57,
+      "grade": "C",
+      "finviz_theme": "Real Estate",
+      "analysis_detail": "Catalyst: Unknown. PEXA Group (ASX: PXA) shares **declined** by **20-21%** on heavy volume, with no explicit fundamental news reported within the last 24 hours to explain the sharp drop. | Impact: Speculative. The significant move without clear news suggests a potential technical breakdown, large institutional block trade, or stop-loss cascade rather than a news-driven fundamental shift. This creates high uncertainty and risk for short-term traders.",
+      "analysis_details": "• **What Happened**\nPEXA Group (ASX: PXA) experienced a **sharp decline** of approximately **21%** in its share price during the latest trading session. This substantial move occurred on what appears to be **elevated volume**, suggesting significant selling pressure or a large block trade. Crucially, there were no specific company-level news announcements, analyst downgrades, or adverse regulatory updates released in the last 24 hours that would directly explain such a severe single-day drop.\n\n• **Key Consideration**\nThe absence of a clear fundamental catalyst for PEXA's **steep decline** makes this move highly speculative and potentially technically driven. It could be indicative of a large institutional investor offloading shares, a technical breakdown triggering stop-loss orders, or a 'gap and trap' scenario where initial selling compounds. Without fundamental justification, the risk of a swift reversal or further volatility is **high**, making it a challenging setup for momentum traders focused on news-driven entries.",
+      "peer_tickers": [
+        "ZG",
+        "RDFN",
+        "CSGP"
+      ],
+      "headlines": [
+        {
+          "title": "Sprintex seeks ASX quotation for 12.7 million new shares - TipRanks",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1ZYLUMySmh3Q1lYZ0hlNFZYVEpmM0hxNWhpWVdsdEJlWlFZUGd2OXJLX29zTVBBZXctUlJkV0g1Qmh4eVpWajNjclVPbTRlbmV1Ty02VFFpSjBncWNsdVc4dktKcDl3bm5WM1EtNGJsd0hFVnFCUTVJZXZ6SEYzUlJMWmRuWXhOTE1YeGJGdUFDZElfSWxTcElLY3NVMkVMa3hmNGotRmttQ3BD?oc=5"
+        },
+        {
+          "title": "Australia stocks higher at close of trade; S&P/ASX 200 up 1.37% - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDVhU3A5X0RZT1VEZnpQMjdpbUlYb0JYQzRBbGFVdUlUQU5yUWtFbl95WWtLVG9TR0NMeExHUlBQTHJyal8zQUE1c2J5b1c2YnlPMUhZN2VRVUwwVDVxT1pYeWhjckxqUERkdkJxQVpKTFBEOTZTSTdnVDV4VmhGVmpxT1VicXBqeHN3SVRuU01Bd1haNUNEd2puRXJoWVNkejlwQkxEZmFTMXd4Rnl4ZDlmdXhWQQ?oc=5"
+        },
+        {
+          "title": "ASX 200 LIVE: ASX ends up 1.4pc as gold stocks soar; PEXA sinks 21pc - AFR",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmJDUHR5WkdhNDZpQlRYczd6REdnaTlBR0poanN3VXJmZWRiMFFjOUp2RTgxR2YtcVFKcy0zSTYxaHdsOWd1c2JQeFFRTTBXOC1FYmdxWlhFd1BLRFhkVGsxaTc2cHMzcHJ2b0cxQVZoS2k5QTlQTHVHNjE2YTRNTW81OVFLNFk2X19OazNmUUFxUXpYTnJzYWNKQ3dFSHhtY2tieE01UFVlMEZ2WGNVbVFuNXFjWEVYSDhIOENR?oc=5"
+        },
+        {
+          "title": "World’s Worst-Performing Exchange ASX Bets on Outsider for Pivot - Bloomberg.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcGpFMGFHMEtQWDV0ZE51dTNPQU81U1FlNnR4RDVfR3ZWZlBuM1JuQUI2c2pHbFV0MVBndkJaVzNRd3N1M0tHdWx6ejRiNTFpUFZsT0NjdkdMbndPc1F0TU5XQ3llQi04WFVNeFgtMHVQMklDbnJocDg1VUVOQkRhVzJpaFVEXzc5dWRVRGt6UVdndVlkWEhlNWlGckdZNlFnanZBMGFvQTdhVGJKb1otZFkydGc4dw?oc=5"
+        },
+        {
+          "title": "ASX gains ground, PEXA shares lose 20pc in value — as it happened - ABC News & Headlines – Australian Broadcasting Corporation",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd19aelBPelAxbkJSTWtqanlYZHZpQUN3ektvRjJJTkVMcENlamk3U3BlelVybm9kcUtzdWdGaXJOV05FcFBGQ1lCaFIwNFZaeWZHbTZTWUJPdjM2d1dSYVhxd05FTlR4WWl1NV9hTG53a2RsRndOeHVrQTNXZnljWEt2c1NZU042MEpETnRZbDA?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "Real Estate",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Discrepancy",
+        "confidence_score": 95,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "PEXA's share price dropped by a specific percentage.",
+        "discrepancy_note": "Finviz (Source A) provides no information. Google News (Source B) contains conflicting reports on PEXA's percentage drop: AFR states 'PEXA sinks 21pc', while ABC News states 'PEXA shares lose 20pc in value'."
       },
       "gates_passed": 5,
       "gates_detail": {
