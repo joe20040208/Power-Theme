@@ -4,23 +4,23 @@
     {
       "date": "2026-07-02",
       "date_display": "7/2/2026",
-      "up_4_pct": 264,
-      "down_4_pct": 352,
-      "ratio_5d": 1.95,
-      "ratio_10d": 1.47,
+      "up_4_pct": 272,
+      "down_4_pct": 375,
+      "ratio_5d": 1.92,
+      "ratio_10d": 1.46,
       "up_25_q": 1691,
-      "down_25_q": 1101,
+      "down_25_q": 1103,
       "up_25_m": 304,
       "down_25_m": 182,
       "up_50_m": 48,
       "down_50_m": 34,
       "up_13_34d": 2217,
-      "down_13_34d": 1539,
+      "down_13_34d": 1541,
       "atr_10x_ext": 12,
       "above_50dma_pct": 61.5,
-      "worden_universe": 6499,
+      "worden_universe": 6500,
       "t2108": 51.95,
-      "sp_index": 7478.06,
+      "sp_index": 7483.24,
       "universe_1b": 2712
     },
     {
@@ -2953,6 +2953,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-07-02T21:49:35+00:00",
-  "gemini_analysis": "TODAY \u2014 `up4` at 264 falls short of the 400 healthy buying thrust threshold, while `dn4` at 352 shows significant distribution pressure. The 5D ratio of 1.95 is bullish, just under the 2.0 strong bull trend level.\nWEEK \u2014 The 5D ratio has improved from 1.29 to 1.95 over the last five days, indicating strengthening breadth. `up25M` concurrently rose from 176 to 304, signaling broadening participation.\nMONTH \u2014 `up50M` is at 48, nearing the \"hot market\" threshold of 50 but not yet frothy for swing traders. The %above50dma at 61.5% and T2108 at 51.95% reflect healthy, non-extended bull market conditions.\nREGIME \u2014 Bullish. Stockbee would watch for `up50M` to rise above 50 as a caution signal for \"hot market\" conditions, or for `up4` to exceed 400, confirming a renewed buying thrust."
+  "fetched_at_utc": "2026-07-03T21:47:15+00:00",
+  "gemini_analysis": "TODAY \u2014 Up4 was 272 against Dn4 of 375, resulting in a ratio of 0.72. The Dn4 reading of 375 indicates notable distribution pressure.\nWEEK \u2014 The 5-day ratio (r5d) showed an improving trend, hitting a strong bull reading of 2.03 yesterday and 1.92 today. Medium-term momentum (Up13% 34-Day) consistently rose from 2027 to 2217 over the week, signaling accelerating breakouts.\nMONTH \u2014 Up50% Monthly is at 48, nearing the \"hot market\" threshold, suggesting increasing market heat for swing traders. The % above 50 DMA at 61.5% and T2108 at 51.95% place the market in a healthy bull zone, not yet overbought.\nREGIME \u2014 **Bullish-Extended** \u2014 Stockbee would watch for Up50% Monthly to cross 50 or ATR Ext to rise above 20 as signs of froth. He would also monitor if medium-term momentum (Up13% 34-Day) continues to expand or if distribution (Dn25% Monthly or Dn13% 34-Day) broadens."
 }
