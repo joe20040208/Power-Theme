@@ -1,16 +1,7 @@
 {
-  "last_checked": "July 03, 2026 (17:05 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-03T05:10:38.514425-04:00",
-      "pub_time": "2026-07-03T04:58:19-04:00"
-    }
-  ],
+  "last_checked": "July 03, 2026 (17:10 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "chinas zhipu is closing in on top us ai models with anthropic and openai held back",
