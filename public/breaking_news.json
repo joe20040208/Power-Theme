@@ -1,12 +1,17 @@
 {
-  "last_checked": "July 03, 2026 (05:05 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "July 03, 2026 (05:10 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "red lobsters ultimate endless shrimp promotion described as a car crash for the company lawsuit s",
-      "ts": "2026-06-26T09:10:27.752804+00:00"
-    },
+      "headline": "Gold prices set for first weekly rise in a month as investors scale back Fed rate hike bets",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-03T05:10:38.514425-04:00",
+      "pub_time": "2026-07-03T04:58:19-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "us crude oil falls below 70 resuming losses after attack on cargo ship near oman",
       "ts": "2026-06-26T09:25:28.452730+00:00"
@@ -1278,6 +1283,10 @@
     {
       "k": "oman walks a diplomatic tightrope over strait of hormuz fees creating a ‘blind spot’ for markets",
       "ts": "2026-07-03T08:10:46.000773+00:00"
+    },
+    {
+      "k": "gold prices set for first weekly rise in a month as investors scale back fed rate hike bets",
+      "ts": "2026-07-03T09:10:39.403342+00:00"
     }
   ]
 }
