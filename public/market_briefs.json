@@ -1,5 +1,43 @@
 [
   {
+    "generated_at": "2026-07-03 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "US Tech Retreat, Global Stability",
+    "spy_price": 744.78,
+    "spy_change_pct": -0.13,
+    "vix": 15.97,
+    "hy_oas": 2.74,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 62.6,
+    "mmth": 67.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {
+      "a_grade": [
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "reason": "Alphabet is seeing strong interest after announcing a significant breakthrough in quantum AI computing, securing a multi-year government contract."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corp.",
+          "reason": "Microsoft is gaining pre-market as it reports record-breaking cloud services growth, exceeding analyst expectations and raising full-year guidance."
+        }
+      ],
+      "c_grade": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corp",
+          "reason": "NVIDIA is experiencing continued technical selling pressure following yesterday's broad tech weakness, absent any fresh positive catalysts to stem the flow."
+        }
+      ]
+    }
+  },
+  {
     "generated_at": "2026-07-02 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2275,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "Continued to see positive flow from the ongoing AI hardware demand narrative, with no fresh fundamental catalyst today but sustained institutional interest."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-21 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-On / Growth Optimism",
-    "spy_price": 741.25,
-    "spy_change_pct": 1.02,
-    "vix": 17.64,
-    "hy_oas": 2.86,
-    "yield_curve": 0.53,
-    "credit_status": "Complacent",
-    "s5fi": 56.3,
-    "mmth": 60.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "AWS announced winning a massive new multi-year cloud contract with a major government agency, reinforcing its market dominance in enterprise AI solutions."
-        },
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "The company announced surprisingly robust Phase 3 trial results for its new Alzheimer's drug, exceeding analyst expectations and pointing to a significant market opportunity."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to benefit from an ongoing tailwind of robust AI chip demand, a theme that has been consistent for months without a fresh specific catalyst today."
         }
       ]
     }
