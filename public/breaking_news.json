@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 06, 2026 (16:45 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 06, 2026 (16:50 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-06T16:50:48.118890-04:00",
+      "pub_time": "2026-07-06T16:49:25-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "supreme court rulings on fed ftc what they mean for consumers",
@@ -1030,6 +1039,10 @@
     {
       "k": "toyota to invest 36 billion to move tacoma pickup truck production from mexico to texas",
       "ts": "2026-07-06T20:35:26.823804+00:00"
+    },
+    {
+      "k": "chinas alibaba bans anthropic ai for employees after distillation attack accusation",
+      "ts": "2026-07-06T20:50:48.626863+00:00"
     }
   ]
 }
