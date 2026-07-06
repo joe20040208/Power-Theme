@@ -2,6 +2,28 @@
   "ok": true,
   "rows": [
     {
+      "date": "2026-07-06",
+      "date_display": "7/6/2026",
+      "up_4_pct": 233,
+      "down_4_pct": 155,
+      "ratio_5d": 1.47,
+      "ratio_10d": 1.36,
+      "up_25_q": 1705,
+      "down_25_q": 1078,
+      "up_25_m": 253,
+      "down_25_m": 178,
+      "up_50_m": 36,
+      "down_50_m": 39,
+      "up_13_34d": 2248,
+      "down_13_34d": 1517,
+      "atr_10x_ext": 9,
+      "above_50dma_pct": 62.5,
+      "worden_universe": 6500,
+      "t2108": 52.0,
+      "sp_index": 7537.98,
+      "universe_1b": 2716
+    },
+    {
       "date": "2026-07-02",
       "date_display": "7/2/2026",
       "up_4_pct": 272,
@@ -2953,6 +2975,6 @@
   "source_url": "https://docs.google.com/spreadsheets/d/1O6OhS7ciA8zwfycBfGPbP2fWJnR0pn2UUvFZVDP9jpE/pubhtml/sheet?headers=false&gid=1082103394",
   "blog_url": "https://stockbee.blogspot.com/p/mm.html",
   "detail": null,
-  "fetched_at_utc": "2026-07-06T21:47:09+00:00",
+  "fetched_at_utc": "2026-07-06T22:15:05+00:00",
   "gemini_analysis": null
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:47:09.083856+00:00",
+  "generated_at": "2026-07-06T22:15:05.210583+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -222,23 +222,6 @@
       "avg_volume": 8502425,
       "adr_pct": 3.0,
       "dollar_volume": 779502324.0
-    },
-    {
-      "date": "2026-07-10",
-      "ticker": "H",
-      "company": "Hyatt Hotels Corporation",
-      "time_of_day": "BMO",
-      "mkt_cap": 18218387127.0,
-      "eps_estimate": 0.92,
-      "eps_act": null,
-      "eps_surp_pct": null,
-      "rev_est": 1811311780.0,
-      "rev_act": null,
-      "rev_surp_pct": null,
-      "price": 193.48,
-      "avg_volume": 881546,
-      "adr_pct": 2.8,
-      "dollar_volume": 170561520.0
     },
     {
       "date": "2026-07-13",
