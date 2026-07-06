@@ -3,33 +3,16 @@
   "filter": "dn50m",
   "label": "Down 50%+ Monthly",
   "min_cap_b": 1.0,
-  "count": 1,
-  "stocks": [
-    {
-      "ticker": "AXTI",
-      "company": "AXT Inc",
-      "industry": "Electronic Production Equipment",
-      "market_cap_b": 3.704,
-      "price": 56.62,
-      "change_pct": -12.93,
-      "dollar_volume": "$597.2M",
-      "adr_pct": 21.6,
-      "perf_1m": -51.14,
-      "perf_3m": 27.18,
-      "perf_34d": null,
-      "perf_qtd": 27.18,
-      "perf_mtd": -51.14,
-      "rs_ibd": 99
-    }
-  ],
+  "count": 0,
+  "stocks": [],
   "spx_benchmarks": {
-    "spx_1d": 0.0,
-    "spx_1m": -0.93,
-    "spx_3m": 13.68,
-    "spx_34d": -0.24,
-    "spx_qtd": 0.0,
-    "spx_mtd": 0.0
+    "spx_1d": 0.72,
+    "spx_1m": -0.62,
+    "spx_3m": 14.0,
+    "spx_34d": 1.74,
+    "spx_qtd": 0.72,
+    "spx_mtd": 0.72
   },
-  "fetched_at_utc": "2026-07-03T21:47:37+00:00",
+  "fetched_at_utc": "2026-07-06T21:47:24+00:00",
   "source": "tv_fallback"
 }
