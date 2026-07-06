@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-06 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 751.28,
+    "spy_change_pct": 0.87,
+    "vix": 15.57,
+    "hy_oas": 2.74,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 63.8,
+    "mmth": 67.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-06 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2217,44 +2235,6 @@
           "ticker": "AAPL",
           "company": "Apple Inc.",
           "reason": "Continued buzz around upcoming software updates and service offerings, but no fresh hardware catalyst today, making it a flow-driven trade."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-22 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On / Global Optimism",
-    "spy_price": 745.64,
-    "spy_change_pct": 0.39,
-    "vix": 16.7,
-    "hy_oas": 2.78,
-    "yield_curve": 0.49,
-    "credit_status": "Complacent",
-    "s5fi": 61.4,
-    "mmth": 63.4,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "WDAY",
-          "company": "Workday Inc.",
-          "reason": "Strong Q1 earnings beat and raised guidance signal robust enterprise software demand, driving fresh investor interest."
-        },
-        {
-          "ticker": "INFQ",
-          "company": "Infinera Corporation",
-          "reason": "Secured significant government funding under the CHIPS Act, bolstering optical networking infrastructure expansion and growth prospects."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continued momentum from broader AI investment trends and technical strength, absent fresh specific fundamental news today."
         }
       ]
     }
