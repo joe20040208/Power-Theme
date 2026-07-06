@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03 17:05 ET",
-  "phase": "POST",
-  "session": "Post-Market",
+  "generated_at": "2026-07-06 08:05 ET",
+  "phase": "PRE",
+  "session": "Pre-Market",
   "assets": {
     "SPY": {
       "label": "S&P 500 ETF",
@@ -12,7 +12,7 @@
       "close": 744.78,
       "prev_open": 745.0,
       "prev_close": 745.76,
-      "volume": 57506000,
+      "volume": 57447800,
       "change_pct": -0.13
     },
     "QQQ": {
@@ -24,56 +24,56 @@
       "close": 712.6,
       "prev_open": 729.19,
       "prev_close": 725.17,
-      "volume": 51086100,
+      "volume": 50959800,
       "change_pct": -1.73
     },
     "^VIX": {
       "label": "VIX",
-      "price": 15.81,
-      "open": 15.78,
-      "high": 16.01,
-      "low": 15.75,
-      "close": 15.81,
+      "price": 16.33,
+      "open": 16.4,
+      "high": 16.4,
+      "low": 16.24,
+      "close": 16.33,
       "prev_open": 17.05,
       "prev_close": 16.15,
       "volume": 0,
-      "change_pct": -2.11
+      "change_pct": 1.11
     },
     "CL=F": {
       "label": "Crude Oil",
-      "price": 68.78,
-      "open": 68.43,
+      "price": 68.54,
+      "open": 68.68,
       "high": 69.26,
-      "low": 68.08,
-      "close": 68.78,
+      "low": 67.82,
+      "close": 68.54,
       "prev_open": 68.03,
       "prev_close": 68.69,
-      "volume": 48758,
-      "change_pct": 0.13
+      "volume": 99172,
+      "change_pct": -0.22
     },
     "^N225": {
       "label": "Nikkei 225",
-      "price": 68733.15,
-      "open": 70039.89,
-      "high": 70081.39,
-      "low": 68676.26,
-      "close": 68733.15,
-      "prev_open": 70774.28,
-      "prev_close": 70474.96,
-      "volume": 169900000,
-      "change_pct": -2.47
+      "price": 69737.69,
+      "open": 69973.34,
+      "high": 70384.59,
+      "low": 68904.41,
+      "close": 69737.69,
+      "prev_open": 68676.06,
+      "prev_close": 69744.07,
+      "volume": 0,
+      "change_pct": -0.01
     },
     "^GDAXI": {
       "label": "DAX",
-      "price": 25779.31,
-      "open": 25763.97,
-      "high": 25826.78,
-      "low": 25611.69,
-      "close": 25779.31,
-      "prev_open": 25025.13,
-      "prev_close": 25580.88,
+      "price": 25787.65,
+      "open": 25811.9,
+      "high": 25900.1,
+      "low": 25756.17,
+      "close": 25787.65,
+      "prev_open": 25763.97,
+      "prev_close": 25779.31,
       "volume": 0,
-      "change_pct": 0.78
+      "change_pct": 0.03
     }
   },
   "fred": {
@@ -98,36 +98,6 @@
     }
   },
   "analysis": {
-    "title": "Post-Market Brief: July 03, 2026",
-    "mood_emoji": "📉",
-    "mood": "Mixed Sentiment, Tech Weakness",
-    "narrative": "US equities displayed mixed performance today, with significant weakness in the technology sector offsetting a relatively flat S&P 500. Global markets were divergent, highlighted by sharp declines in Asia contrasting with resilience in Europe.",
-    "snapshot_md": "| Asset | Last | % Change | Sentiment |\n|-------|------|----------|-----------|\n| S&P 500 ETF | 744.78 | -0.13% | ➡️ |\n| Nasdaq 100 ETF | 712.60 | -1.73% | 📉 |\n| VIX | 15.81 | -2.11% | 📉 |\n| Crude Oil | 68.78 | +0.13% | ➡️ |\n| Nikkei 225 | 68733.15 | -2.47% | 📉 |\n| DAX | 25779.31 | +0.78% | 📈 |",
-    "macro_section": "US high-yield credit spreads remain 'Complacent' at 2.75%, suggesting no immediate stress in corporate credit markets. Furthermore, the 10Y-2Y yield curve sits at a 'Normal / Steepening' +0.350, implying a healthy economic outlook and a supportive backdrop for institutional risk-taking despite today's equity movements.",
-    "analysis_para1": "The global tape presented a divergent picture, with Japan's Nikkei 225 sharply down by -2.47% signaling regional headwinds, while the DAX in Europe gained +0.78% indicating localized strength. Crude Oil saw a marginal increase of +0.13%, showing stability in energy markets. Despite this mixed international performance, particularly the weakness in Asian equities, US high-yield credit spreads remained 'Complacent' at 2.75%. This suggests that while some areas of the global market are experiencing pressure, the broader US credit environment does not yet reflect systemic risk aversion, allowing institutional risk appetite to remain cautiously stable.",
-    "analysis_para2": "Today's primary market flow was dominated by profit-taking in growth and technology stocks ahead of the extended holiday weekend. The Nasdaq 100 ETF's significant -1.73% decline, juxtaposed with the S&P 500 ETF's minor -0.13% dip, underscores this sector-specific rotation. With market participants squaring positions and reducing exposure into the July 4th holiday, the mechanical pressure weighed disproportionately on recent outperformers in the tech space. This pre-holiday positioning explains the observed divergence without indicating a broader panic, especially given the VIX's -2.11% decline.",
-    "analysis_para3": "Traders should remain agile and focused on key support levels as we head into the holiday-shortened week. For the S&P 500 ETF, watch 740 as a critical near-term support; a sustained break below could trigger further downside. The Nasdaq 100 ETF needs to hold above 710 to avoid a deeper pullback, with 700 acting as a significant psychological level. Long entries could target quality names that have seen disproportionate dips today, using tight stops just below these support zones. A decisive breach of S&P 740 coupled with a VIX rebound above 16.5 would serve as a clear risk-off threshold, prompting a reduction in overall market exposure immediately.",
-    "technical_signal": "No reversal pattern confirmed yet. The market currently exhibits mixed breadth with 62.6% of stocks above their 50-day moving average and 67.7% above their 200-day moving average, indicating a healthy underlying trend despite today's pullback. Watch for a bounce from key index support levels or a sustained push higher in the S&P 500 to confirm renewed momentum, while a drop in breadth below 60% would signal broader weakening.",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INFQ",
-          "company": "InfoQuest Corp.",
-          "reason": "Analyst Upgrade with Significant Price Target indicates strong institutional conviction and potential for immediate upward re-rating."
-        },
-        {
-          "ticker": "RIVN",
-          "company": "Rivian Automotive, Inc.",
-          "reason": "A strong Beat & Raise quarter signals robust operational execution and improving fundamental outlook, driving renewed investor confidence."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "While lacking a fresh news catalyst today, Microsoft continues to benefit from an underlying AI narrative and strong technical flows, making it a relevant name for sustained interest."
-        }
-      ]
-    }
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
   }
 }

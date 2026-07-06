@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-06 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 744.78,
+    "spy_change_pct": -0.13,
+    "vix": 16.33,
+    "hy_oas": 2.75,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 62.6,
+    "mmth": 67.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-03 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2237,44 +2255,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continued momentum from broader AI investment trends and technical strength, absent fresh specific fundamental news today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-22 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-On Momentum",
-    "spy_price": 742.72,
-    "spy_change_pct": 0.2,
-    "vix": 16.95,
-    "hy_oas": 2.8,
-    "yield_curve": 0.49,
-    "credit_status": "Complacent",
-    "s5fi": 58.9,
-    "mmth": 61.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Analyst upgrades following reports of strong pre-orders for new AI-integrated iPhone models, driving positive sentiment ahead of anticipated product launch details."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Positive sentiment driven by a major analyst firm's upgrade citing robust Q2 earnings guidance and strong performance in capital markets amid recovering global activity."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to see momentum trading driven by ongoing AI enthusiasm and flow-based buying, despite no specific fresh news catalyst today."
         }
       ]
     }
