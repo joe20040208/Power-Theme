@@ -1,37 +1,7 @@
 {
-  "generated_at": "2026-07-06T22:15:05.573346+00:00",
+  "generated_at": "2026-07-07T21:49:49.743369+00:00",
   "data_source": "tradingview",
   "events": [
-    {
-      "date": "2026-06-08",
-      "time_et": "11:00",
-      "event": "Consumer Inflation Expectations",
-      "impact": "Low",
-      "actual": "3.5",
-      "forecast": null,
-      "previous": "3.6",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-06-08",
-      "time_et": "11:30",
-      "event": "6-Month Bill Auction",
-      "impact": "Low",
-      "actual": "3.69",
-      "forecast": null,
-      "previous": "3.665",
-      "currency": "USD"
-    },
-    {
-      "date": "2026-06-08",
-      "time_et": "11:30",
-      "event": "3-Month Bill Auction",
-      "impact": "Low",
-      "actual": "3.64",
-      "forecast": null,
-      "previous": "3.63",
-      "currency": "USD"
-    },
     {
       "date": "2026-06-09",
       "time_et": "06:00",
@@ -3007,9 +2977,9 @@
       "time_et": "09:45",
       "event": "S&P Global Services PMI Final",
       "impact": "Low",
-      "actual": "51.2",
+      "actual": null,
       "forecast": "51.4",
-      "previous": "50.7",
+      "previous": null,
       "currency": "USD"
     },
     {
@@ -3017,9 +2987,9 @@
       "time_et": "09:45",
       "event": "S&P Global Composite PMI Final",
       "impact": "Low",
-      "actual": "51.9",
+      "actual": null,
       "forecast": "52.2",
-      "previous": "51.5",
+      "previous": null,
       "currency": "USD"
     },
     {
@@ -3107,7 +3077,7 @@
       "time_et": "06:00",
       "event": "LMI Logistics Managers Index",
       "impact": "Low",
-      "actual": null,
+      "actual": "71.1",
       "forecast": null,
       "previous": "69.5",
       "currency": "USD"
@@ -3117,9 +3087,9 @@
       "time_et": "08:15",
       "event": "ADP Employment Change Weekly",
       "impact": "Low",
-      "actual": null,
+      "actual": "21",
       "forecast": null,
-      "previous": "30.75",
+      "previous": "24.25",
       "currency": "USD"
     },
     {
@@ -3127,9 +3097,9 @@
       "time_et": "08:30",
       "event": "Balance of Trade",
       "impact": "Low",
-      "actual": null,
-      "forecast": "-78",
-      "previous": "-55.9",
+      "actual": "-77.6",
+      "forecast": "-78.5",
+      "previous": "-54.6",
       "currency": "USD"
     },
     {
@@ -3137,9 +3107,9 @@
       "time_et": "08:30",
       "event": "Exports",
       "impact": "Low",
-      "actual": null,
+      "actual": "317.7",
       "forecast": null,
-      "previous": "327.1",
+      "previous": "328.2",
       "currency": "USD"
     },
     {
@@ -3147,9 +3117,9 @@
       "time_et": "08:30",
       "event": "Imports",
       "impact": "Low",
-      "actual": null,
+      "actual": "395.3",
       "forecast": null,
-      "previous": "383",
+      "previous": "382.8",
       "currency": "USD"
     },
     {
@@ -3157,7 +3127,7 @@
       "time_et": "08:55",
       "event": "Redbook YoY",
       "impact": "Low",
-      "actual": null,
+      "actual": "11.5",
       "forecast": null,
       "previous": "10.5",
       "currency": "USD"
@@ -3177,7 +3147,7 @@
       "time_et": "10:00",
       "event": "RCM/TIPP Economic Optimism Index",
       "impact": "Low",
-      "actual": null,
+      "actual": "45.5",
       "forecast": "45",
       "previous": "42.5",
       "currency": "USD"
@@ -3187,7 +3157,7 @@
       "time_et": "11:00",
       "event": "Consumer Inflation Expectations",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.7",
       "forecast": null,
       "previous": "3.5",
       "currency": "USD"
@@ -3197,7 +3167,7 @@
       "time_et": "11:30",
       "event": "52-Week Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.86",
       "forecast": null,
       "previous": "3.75",
       "currency": "USD"
@@ -3207,7 +3177,7 @@
       "time_et": "11:30",
       "event": "6-Week Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.635",
       "forecast": null,
       "previous": "3.655",
       "currency": "USD"
@@ -3217,18 +3187,18 @@
       "time_et": "13:00",
       "event": "3-Year Note Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "4.179",
       "forecast": null,
       "previous": "4.192",
       "currency": "USD"
     },
     {
       "date": "2026-07-07",
-      "time_et": "16:30",
+      "time_et": "17:00",
       "event": "API Crude Oil Stock Change",
       "impact": "Low",
-      "actual": null,
-      "forecast": null,
+      "actual": "-0.399",
+      "forecast": "-1.5",
       "previous": "-6.072",
       "currency": "USD"
     },
@@ -3438,7 +3408,7 @@
       "event": "Consumer Credit Change",
       "impact": "Low",
       "actual": null,
-      "forecast": "17",
+      "forecast": "17.1",
       "previous": "20.73",
       "currency": "USD"
     },
@@ -3448,7 +3418,7 @@
       "event": "Initial Jobless Claims",
       "impact": "Low",
       "actual": null,
-      "forecast": "220",
+      "forecast": "218",
       "previous": "215",
       "currency": "USD"
     },
@@ -3468,7 +3438,7 @@
       "event": "Continuing Jobless Claims",
       "impact": "Low",
       "actual": null,
-      "forecast": "1810",
+      "forecast": "1820",
       "previous": "1814",
       "currency": "USD"
     },
@@ -3629,7 +3599,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.83",
       "currency": "USD"
     },
     {
@@ -3639,7 +3609,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.735",
       "currency": "USD"
     },
     {
@@ -3649,7 +3619,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": "293",
+      "previous": "-293",
       "currency": "USD"
     },
     {
@@ -3669,7 +3639,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "21",
       "currency": "USD"
     },
     {
@@ -3739,7 +3709,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "11.5",
       "currency": "USD"
     },
     {
@@ -3759,7 +3729,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "3.635",
       "currency": "USD"
     },
     {
@@ -3809,7 +3779,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "-0.399",
       "currency": "USD"
     },
     {
@@ -4099,7 +4069,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "-10.1",
       "currency": "USD"
     },
     {
@@ -4479,7 +4449,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "49.5",
       "currency": "USD"
     },
     {
@@ -4489,7 +4459,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "47.7",
       "currency": "USD"
     },
     {
@@ -4499,7 +4469,7 @@
       "impact": "Low",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": "50.7",
       "currency": "USD"
     },
     {
@@ -4546,6 +4516,46 @@
       "date": "2026-07-20",
       "time_et": "11:30",
       "event": "3-Month Bill Auction",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-21",
+      "time_et": "08:15",
+      "event": "ADP Employment Change Weekly",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-21",
+      "time_et": "08:55",
+      "event": "Redbook YoY",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-21",
+      "time_et": "11:30",
+      "event": "6-Week Bill Auction",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-07-21",
+      "time_et": "16:30",
+      "event": "API Crude Oil Stock Change",
       "impact": "Low",
       "actual": null,
       "forecast": null,
