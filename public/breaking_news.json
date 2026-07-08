@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 08, 2026 (16:05 EST)",
+  "last_checked": "July 08, 2026 (16:10 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "meta pops 9 as company makes cloud push to sell excess ai compute power capacity",
-      "ts": "2026-07-01T20:05:32.638174+00:00"
-    },
     {
       "k": "chip stocks that notched record rallies in second quarter start q3 with a dud",
       "ts": "2026-07-01T20:15:24.758415+00:00"
@@ -1007,6 +1003,10 @@
     {
       "k": "meta is building its first big canadian data center as ai expansion crosses the border",
       "ts": "2026-07-08T19:35:29.671590+00:00"
+    },
+    {
+      "k": "spacex stock closes below debut price at 148 in twoday slide after nasdaq 100 inclusion",
+      "ts": "2026-07-08T20:10:50.511471+00:00"
     }
   ]
 }
