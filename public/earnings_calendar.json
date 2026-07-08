@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:13:08.315113+00:00",
+  "generated_at": "2026-07-08T12:07:35.890313+00:00",
   "data_source": "tradingview",
   "earnings": [
     {
@@ -15,9 +15,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 144.05,
-      "avg_volume": 253972,
-      "adr_pct": 4.0,
-      "dollar_volume": 36584667.0
+      "avg_volume": 255546,
+      "adr_pct": 4.1,
+      "dollar_volume": 36811401.0
     },
     {
       "date": "2026-07-08",
@@ -32,9 +32,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 24.66,
-      "avg_volume": 2911703,
+      "avg_volume": 2831558,
       "adr_pct": 3.2,
-      "dollar_volume": 71802596.0
+      "dollar_volume": 69826220.0
     },
     {
       "date": "2026-07-08",
@@ -49,26 +49,26 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 191.95,
-      "avg_volume": 276793,
+      "avg_volume": 276501,
       "adr_pct": 2.7,
-      "dollar_volume": 53130416.0
+      "dollar_volume": 53074367.0
     },
     {
       "date": "2026-07-09",
       "ticker": "FRCOY",
       "company": "Fast Retailing Co., Ltd.",
       "time_of_day": "AMC",
-      "mkt_cap": 164895681964.0,
+      "mkt_cap": 165110468846.0,
       "eps_estimate": null,
       "eps_act": null,
       "eps_surp_pct": null,
       "rev_est": 951663839570.0,
       "rev_act": null,
       "rev_surp_pct": null,
-      "price": 53.74,
-      "avg_volume": 618462,
+      "price": 53.81,
+      "avg_volume": 619391,
       "adr_pct": 2.3,
-      "dollar_volume": 33236148.0
+      "dollar_volume": 33329430.0
     },
     {
       "date": "2026-07-09",
@@ -83,9 +83,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 24.4,
-      "avg_volume": 1975417,
+      "avg_volume": 1967280,
       "adr_pct": 6.0,
-      "dollar_volume": 48200175.0
+      "dollar_volume": 48001632.0
     },
     {
       "date": "2026-07-09",
@@ -100,9 +100,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 144.98,
-      "avg_volume": 7790982,
+      "avg_volume": 7857125,
       "adr_pct": 2.3,
-      "dollar_volume": 1129536570.0
+      "dollar_volume": 1139125982.0
     },
     {
       "date": "2026-07-09",
@@ -110,16 +110,16 @@
       "company": "The Progressive Corporation",
       "time_of_day": "BMO",
       "mkt_cap": 136467676447.0,
-      "eps_estimate": 4.6,
+      "eps_estimate": 4.65,
       "eps_act": null,
       "eps_surp_pct": null,
       "rev_est": 21244257140.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 234.4,
-      "avg_volume": 3175146,
+      "avg_volume": 3180945,
       "adr_pct": 2.7,
-      "dollar_volume": 744254222.0
+      "dollar_volume": 745613508.0
     },
     {
       "date": "2026-07-09",
@@ -134,9 +134,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 13.17,
-      "avg_volume": 2900906,
+      "avg_volume": 2885890,
       "adr_pct": 4.3,
-      "dollar_volume": 38204932.0
+      "dollar_volume": 38007171.0
     },
     {
       "date": "2026-07-09",
@@ -147,13 +147,13 @@
       "eps_estimate": 66.35,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 1194315500.0,
+      "rev_est": 1194399500.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 62.03,
-      "avg_volume": 1086866,
+      "avg_volume": 1089095,
       "adr_pct": 3.7,
-      "dollar_volume": 67418298.0
+      "dollar_volume": 67556563.0
     },
     {
       "date": "2026-07-09",
@@ -168,9 +168,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 37.65,
-      "avg_volume": 619135,
+      "avg_volume": 615474,
       "adr_pct": 2.1,
-      "dollar_volume": 23310433.0
+      "dollar_volume": 23172596.0
     },
     {
       "date": "2026-07-09",
@@ -185,9 +185,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 249.65,
-      "avg_volume": 174238,
+      "avg_volume": 173982,
       "adr_pct": 2.6,
-      "dollar_volume": 43498517.0
+      "dollar_volume": 43434606.0
     },
     {
       "date": "2026-07-10",
@@ -195,16 +195,16 @@
       "company": "Delta Air Lines, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 58229406550.0,
-      "eps_estimate": 1.48,
+      "eps_estimate": 1.5,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 18784119490.0,
+      "rev_est": 18853972740.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 88.63,
-      "avg_volume": 8472335,
+      "avg_volume": 8344233,
       "adr_pct": 3.0,
-      "dollar_volume": 750903051.0
+      "dollar_volume": 739549371.0
     },
     {
       "date": "2026-07-13",
@@ -219,9 +219,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 47.11,
-      "avg_volume": 7241311,
+      "avg_volume": 7228314,
       "adr_pct": 2.5,
-      "dollar_volume": 341138161.0
+      "dollar_volume": 340525873.0
     },
     {
       "date": "2026-07-14",
@@ -236,9 +236,9 @@
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 26.15,
-      "avg_volume": 1440885,
+      "avg_volume": 1443772,
       "adr_pct": 2.1,
-      "dollar_volume": 37679143.0
+      "dollar_volume": 37754638.0
     },
     {
       "date": "2026-07-14",
@@ -249,13 +249,13 @@
       "eps_estimate": 1.12,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 30339850500.0,
+      "rev_est": 30596474350.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 59.86,
-      "avg_volume": 36086658,
+      "avg_volume": 36099838,
       "adr_pct": 1.9,
-      "dollar_volume": 2160147348.0
+      "dollar_volume": 2160936303.0
     },
     {
       "date": "2026-07-14",
@@ -263,16 +263,16 @@
       "company": "Citigroup Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 240094075242.0,
-      "eps_estimate": 2.68,
+      "eps_estimate": 2.71,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 23473722470.0,
+      "rev_est": 23614616170.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 140.77,
-      "avg_volume": 12120548,
+      "avg_volume": 12141261,
       "adr_pct": 2.2,
-      "dollar_volume": 1706209542.0
+      "dollar_volume": 1709125311.0
     },
     {
       "date": "2026-07-14",
@@ -283,13 +283,13 @@
       "eps_estimate": 0.11,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 54038355610.0,
+      "rev_est": 54057272270.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 10.82,
-      "avg_volume": 10530933,
+      "avg_volume": 10550716,
       "adr_pct": 2.4,
-      "dollar_volume": 113944695.0
+      "dollar_volume": 114158747.0
     },
     {
       "date": "2026-07-14",
@@ -297,16 +297,16 @@
       "company": "The Goldman Sachs Group, Inc.",
       "time_of_day": "BMO",
       "mkt_cap": 307686834193.0,
-      "eps_estimate": 14.04,
+      "eps_estimate": 14.31,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 15987801670.0,
+      "rev_est": 16217394360.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 1042.98,
-      "avg_volume": 2167945,
+      "avg_volume": 2165596,
       "adr_pct": 2.6,
-      "dollar_volume": 2261123276.0
+      "dollar_volume": 2258673316.0
     },
     {
       "date": "2026-07-14",
@@ -314,16 +314,16 @@
       "company": "JPMorgan Chase & Co.",
       "time_of_day": "BMO",
       "mkt_cap": 908943866485.0,
-      "eps_estimate": 5.61,
+      "eps_estimate": 5.67,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 49563155700.0,
+      "rev_est": 50544574700.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 339.22,
-      "avg_volume": 8986496,
+      "avg_volume": 8974596,
       "adr_pct": 2.2,
-      "dollar_volume": 3048399173.0
+      "dollar_volume": 3044362455.0
     },
     {
       "date": "2026-07-14",
@@ -334,13 +334,251 @@
       "eps_estimate": 1.7,
       "eps_act": null,
       "eps_surp_pct": null,
-      "rev_est": 21805285710.0,
+      "rev_est": 21847166670.0,
       "rev_act": null,
       "rev_surp_pct": null,
       "price": 87.18,
-      "avg_volume": 16545543,
+      "avg_volume": 16564972,
       "adr_pct": 2.3,
-      "dollar_volume": 1442440439.0
+      "dollar_volume": 1444134259.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "ASML",
+      "company": "ASML Holding N.V.",
+      "time_of_day": "BMO",
+      "mkt_cap": 673432588993.0,
+      "eps_estimate": 6.88,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 8865942660.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 1747.28,
+      "avg_volume": 1948856,
+      "adr_pct": 3.9,
+      "dollar_volume": 3405197112.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "BLK",
+      "company": "BlackRock, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 156456994383.0,
+      "eps_estimate": 12.57,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 6801478330.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 1009.43,
+      "avg_volume": 741395,
+      "adr_pct": 2.7,
+      "dollar_volume": 748386355.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "BNY",
+      "company": "The Bank of New York Mellon Cor",
+      "time_of_day": "BMO",
+      "mkt_cap": 104954222285.0,
+      "eps_estimate": 2.22,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 5405799640.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 152.91,
+      "avg_volume": 3901303,
+      "adr_pct": 2.3,
+      "dollar_volume": 596548242.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "CAG",
+      "company": "Conagra Brands, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 6712473171.0,
+      "eps_estimate": 0.46,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 2890731530.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 14.03,
+      "avg_volume": 17569682,
+      "adr_pct": 3.4,
+      "dollar_volume": 246502638.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "CTAS",
+      "company": "Cintas Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 72756889805.0,
+      "eps_estimate": 1.24,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 2872801560.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 181.83,
+      "avg_volume": 2097159,
+      "adr_pct": 2.5,
+      "dollar_volume": 381326421.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "ELV",
+      "company": "Elevance Health, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 90958464188.0,
+      "eps_estimate": 6.21,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 48626975280.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 418.85,
+      "avg_volume": 1725229,
+      "adr_pct": 2.6,
+      "dollar_volume": 722612167.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "FHN",
+      "company": "First Horizon Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 12226154972.0,
+      "eps_estimate": 0.52,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 880128420.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 25.76,
+      "avg_volume": 4445906,
+      "adr_pct": 1.8,
+      "dollar_volume": 114526539.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "HOMB",
+      "company": "Home BancShares, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 5772508672.0,
+      "eps_estimate": 0.61,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 289215920.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 28.66,
+      "avg_volume": 1734108,
+      "adr_pct": 1.8,
+      "dollar_volume": 49699535.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "JBHT",
+      "company": "J.B. Hunt Transport Services, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 25932280825.0,
+      "eps_estimate": 1.71,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 3213604690.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 275.0,
+      "avg_volume": 989369,
+      "adr_pct": 3.2,
+      "dollar_volume": 272076475.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "time_of_day": "BMO",
+      "mkt_cap": 643304639822.0,
+      "eps_estimate": 2.85,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 25061715630.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 267.24,
+      "avg_volume": 8221179,
+      "adr_pct": 2.3,
+      "dollar_volume": 2197027876.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "MS",
+      "company": "Morgan Stanley",
+      "time_of_day": "BMO",
+      "mkt_cap": 350220310177.0,
+      "eps_estimate": 2.9,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 19608538380.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 222.04,
+      "avg_volume": 5902341,
+      "adr_pct": 2.5,
+      "dollar_volume": 1310555796.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "MTB",
+      "company": "M&T Bank Corporation",
+      "time_of_day": "BMO",
+      "mkt_cap": 35110203135.0,
+      "eps_estimate": 4.65,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 2460660670.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 239.75,
+      "avg_volume": 1049198,
+      "adr_pct": 1.7,
+      "dollar_volume": 251545220.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "PNC",
+      "company": "The PNC Financial Services Group, Inc.",
+      "time_of_day": "BMO",
+      "mkt_cap": 102001429968.0,
+      "eps_estimate": 4.55,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 6402666670.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 254.01,
+      "avg_volume": 2066333,
+      "adr_pct": 1.9,
+      "dollar_volume": 524869245.0
+    },
+    {
+      "date": "2026-07-15",
+      "ticker": "UAL",
+      "company": "United Airlines Holdings, Inc.",
+      "time_of_day": "AMC",
+      "mkt_cap": 41645541007.0,
+      "eps_estimate": 1.85,
+      "eps_act": null,
+      "eps_surp_pct": null,
+      "rev_est": 17570970110.0,
+      "rev_act": null,
+      "rev_surp_pct": null,
+      "price": 128.31,
+      "avg_volume": 6415159,
+      "adr_pct": 3.7,
+      "dollar_volume": 823129051.0
     }
   ]
 }
