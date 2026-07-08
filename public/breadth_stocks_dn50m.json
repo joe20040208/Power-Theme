@@ -3,49 +3,16 @@
   "filter": "dn50m",
   "label": "Down 50%+ Monthly",
   "min_cap_b": 1.0,
-  "count": 2,
-  "stocks": [
-    {
-      "ticker": "NVTS",
-      "company": "Navitas Semiconductor Corporation",
-      "industry": "Semiconductors",
-      "market_cap_b": 3.316,
-      "price": 13.99,
-      "change_pct": -8.14,
-      "dollar_volume": "$292.7M",
-      "adr_pct": 16.9,
-      "perf_1m": -51.95,
-      "perf_3m": 46.65,
-      "perf_34d": null,
-      "perf_qtd": 46.65,
-      "perf_mtd": -51.95,
-      "rs_ibd": 90
-    },
-    {
-      "ticker": "RDW",
-      "company": "Redwire Corporation",
-      "industry": "Aerospace & Defense",
-      "market_cap_b": 2.438,
-      "price": 10.21,
-      "change_pct": -10.12,
-      "dollar_volume": "$256.9M",
-      "adr_pct": 15.2,
-      "perf_1m": -50.91,
-      "perf_3m": -1.64,
-      "perf_34d": null,
-      "perf_qtd": -1.64,
-      "perf_mtd": -50.91,
-      "rs_ibd": 10
-    }
-  ],
+  "count": 0,
+  "stocks": [],
   "spx_benchmarks": {
-    "spx_1d": -0.45,
-    "spx_1m": 1.63,
-    "spx_3m": 13.41,
-    "spx_34d": 1.36,
-    "spx_qtd": 0.28,
-    "spx_mtd": 0.28
+    "spx_1d": -0.28,
+    "spx_1m": 1.04,
+    "spx_3m": 10.32,
+    "spx_34d": 1.76,
+    "spx_qtd": -0.01,
+    "spx_mtd": -0.01
   },
-  "fetched_at_utc": "2026-07-07T22:13:24+00:00",
+  "fetched_at_utc": "2026-07-08T21:53:11+00:00",
   "source": "tv_fallback"
 }
