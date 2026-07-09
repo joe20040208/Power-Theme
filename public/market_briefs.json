@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-09 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 745.4,
+    "spy_change_pct": -0.31,
+    "vix": 16.91,
+    "hy_oas": 2.67,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 61.3,
+    "mmth": 67.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-08 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2117,44 +2135,6 @@
           "ticker": "TSLA",
           "company": "Tesla, Inc.",
           "reason": "Continued to exhibit volatility on technical flow and short-term positioning, lacking a fresh fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-28 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Caution / Global Weakness",
-    "spy_price": 750.46,
-    "spy_change_pct": -0.02,
-    "vix": 16.77,
-    "hy_oas": 2.72,
-    "yield_curve": 0.48,
-    "credit_status": "Complacent",
-    "s5fi": 58.8,
-    "mmth": 64.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "Amazon (AMZN) secures exclusive streaming rights for a major global sporting event through AWS integration, boosting Prime subscriptions."
-        },
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA (NVDA) unveils a new generation of AI accelerators with significant performance leaps, solidifying its market dominance in data centers."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla Inc.",
-          "reason": "Tesla (TSLA) continues to be influenced by recycled headlines regarding EV competitive dynamics and production targets, offering tactical trading based purely on flow."
         }
       ]
     }
