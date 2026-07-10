@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-10 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 751.71,
+    "spy_change_pct": 0.85,
+    "vix": 15.91,
+    "hy_oas": 2.7,
+    "yield_curve": 0.38,
+    "credit_status": "Complacent",
+    "s5fi": 62.5,
+    "mmth": 67.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-09 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -2077,44 +2095,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Movement driven by recycled sector momentum and general market flow rather than a specific fresh fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-05-29 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Growth Push",
-    "spy_price": 754.6,
-    "spy_change_pct": 0.55,
-    "vix": 15.8,
-    "hy_oas": 2.71,
-    "yield_curve": 0.46,
-    "credit_status": "Complacent",
-    "s5fi": 59.1,
-    "mmth": 64.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp",
-          "reason": "Announced significant advancements in enterprise AI integration suite, promising increased productivity and cost savings for corporate clients."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Received analyst upgrade to 'Outperform' based on strong Q2 guidance and robust consumer spending data, signaling continued strength in financial sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Pure flow/momentum play as AI enthusiasm continues to drive investor interest, despite no fresh specific catalyst today."
         }
       ]
     }
