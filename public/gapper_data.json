@@ -1,59 +1,59 @@
 {
-  "scan_time": "2026-07-08 08:05 ET",
+  "scan_time": "2026-07-10 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "BABA",
-      "price": 98.14,
-      "gap_pct": 9.22,
-      "pm_volume": 1603865,
-      "avg_vol_10d": 14092551,
-      "avg_dollar_vol": 1383042955,
-      "mkt_cap": 234558712208,
-      "rvol": 0.73,
-      "adr_pct": 2.6,
+      "ticker": "EQPT",
+      "price": 16.0,
+      "gap_pct": 13.75,
+      "pm_volume": 66029,
+      "avg_vol_10d": 3001869,
+      "avg_dollar_vol": 48029904,
+      "mkt_cap": 4044898438,
+      "rvol": 0.99,
+      "adr_pct": 7.64,
       "category": "Others",
       "theme": "Others",
-      "reasoning": "Why Is Alibaba Stock Soaring Tuesday? - Benzinga",
+      "reasoning": "EquipmentShare (Nasdaq: EQPT) boosts 2026 outlook and launches $500M stock repurchase plan - Stock Titan",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 50,
-      "grade": "B",
+      "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Why Is Alibaba Stock Soaring Tuesday? - Benzinga | Impact: See analysis.",
-      "analysis_details": "Why Is Alibaba Stock Soaring Tuesday? - Benzinga",
+      "analysis_detail": "Catalyst: EquipmentShare (Nasdaq: EQPT) boosts 2026 outlook and launches $500M stock repurchase plan - Stock Titan | Impact: See analysis.",
+      "analysis_details": "EquipmentShare (Nasdaq: EQPT) boosts 2026 outlook and launches $500M stock repurchase plan - Stock Titan",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Why Is Alibaba Stock Soaring Tuesday? - Benzinga",
+          "title": "EquipmentShare (Nasdaq: EQPT) boosts 2026 outlook and launches $500M stock repurchase plan - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeGRtTVZQd2JQa0k2ZHBfV2lvNnhxdm9vdVhwMVUxTVVqd3V6QUlsZmdzQ1kxbUtIb0J3WEFucFdtLVI2elAxSExlQTRyUzRYbVRFZlAwQkZiNmJpUmNIRzQ5RU9ROVU5T3ZEd3RlVVJuR0c4dXhQUkVBUlpubW8wX1gxTlQ4SHIta0VCZTZKMTNvbDQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOalptNUZWOHZBS2tpa2F0VXowV3VJdTM0SzZTNXdVT1VIemVEVExjajN2Nlp2eDlnbmpBLS03Qklyb0hxd1FBVldGc1JYblh5SUF5cTlVaWVtSm5nYnRZd2FJTGRSTFA2VkJZRDA3MWtyeXNPVDJJektEM2I4OHlUcnl5V1l3a2lKN0gzdjlhcm5zM0VRRXhMbmJBUVloU3NMdGQ3c0ZUbTdyYko2MTI2OE9n?oc=5"
         },
         {
-          "title": "Biggest stock movers Wednesday: FCEL, BABA, and more (NYSE:MTZ) - Seeking Alpha",
+          "title": "Why Is EquipmentShare Stock Soaring Friday? - EquipmentShare.com (NASDAQ:EQPT) - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSHdWdEw2VHZ0WGZnRi0zSTZOZXo4NGNoNkUzb3RIUlZPVjdsS2tteVR5dmp0VDJQdWVVd0R1U1M4Q1FzVWN1MmVRQ09VN2JsNVVaUm13dzlidUN2cFNWTmlxNTVPc3FkWWVDLUtzY1dnYkFhRVd5R3hBSnBnN1ZrQXp0U1VuTVg0UU1UWHJ0SQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVXdhbXFLdlo4ZEdDYlBwa1dLd3BKU2FpQzhwajEyWXRJa2Ffb3UtWnhRNUh1blh4cmtmaTV1S2V4ZFdYY1otMWhrNmNFd19XS2ZnRWJjVHJ3QjFjS1FiOEoxdGQ2VUNiaEltMzFBMFhyb2JGMlpvSjdRbGZtVWRiTWhXdE42Z2xGeUs1VnFjNnRfVW1zd0xlaDNpTm5XN3JPU0YxRDFxeVZ5bjVrYXdtem1xXzBTWEhiNFdzcQ?oc=5"
         },
         {
-          "title": "AIsa Raises $6.5M as Alibaba and Tribe Capital Back AI Agent Payment Network",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/8d2e4cc0-9296-3dad-ab62-6451202fd66a/aisa-raises-%246.5m-as-alibaba.html"
+          "title": "EquipmentShare lifts 2026 outlook and authorizes $500 million buyback - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWVNVlRuYUtVMnZfcUtsUlVGM0ViUXhEYUlsNUhUVDVJUUZ6NHRha01NeTdFRkhFbWRNYi1MUVNhRUxHazdLWXJVa3o0MElTQTYxMDhmeW9GQjJDV05RRzZvU20tZGd6WTJmWVNpOUtaWkdFSHhkM2Y0VHpVd1MyWWFDdHdkbllaUkpQckxHLUZiSkRpbGtrZE9mb3NMN1FKUlN5b203Q0NXdFRUdVRUNFhOT0FmR1dIUWdR?oc=5"
         },
         {
-          "title": "Nvidia and AMD Face China Chip Pressure",
+          "title": "EquipmentShare Raises 2026 Financial Outlook on Strong Customer Demand and Authorizes $500 Million Share Repurchase Program",
           "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-face-china-chip-191636641.html"
+          "url": "/news/367123/equipmentshare-raises-2026-financial-outlook-on-strong-customer-demand-and-authorizes-500-million-share-repurchase-program"
         },
         {
-          "title": "Nvidia Faces China Shift as Domestic AI Chip Budgets Jump to 46%",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-faces-china-shift-domestic-191603710.html"
+          "title": "3 Insider-Owned Growth Companies To Watch Now - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejE0QndvNE5RcFYzc1NkT3BCRUxJTThOWHpjVGtwbWtJOE5vak9ENHlzMFlEQS1OaHlJeE8ySjUxcDJUS1B3MVByMkFUUHFHRFFNVGxuVm96OTM0eU1tZHM3RmlJWFhvVU5RYTFDM2lmSW8zR3dDa0JMWE9OXzVzZ0l4VXRJbHZ0QjhucHZJa210QldxVl8zN3MtaTJSNU5vUjJBeDFVS1ZfRDkzMEcwaXhqN1d5YkVHQUxMVXBqMkR6ZEYwckJV0gHMAUFVX3lxTE5oV09BS0RXM0w4aHRXc0lMZG5Ld04tV3VfZVJhWGcxVFRQVG1XZ01jd3FYVXc1Mm5fSDQ4YmxyV3dmNFFRaWo2YjVQb3lNdkFaX3dmSjVlVlJ6ODRsLWZnYVUzay13X0F5V3dnYjhzTW1PVFpCWjJXR1l4YTJsSWFONkIyV3M3OHlqUUpiZ0swZmcydTZBcS15QzU2SFZ3b3VRYjlMaGhBWHBWdUU5TWxIRDVfWnNZdWI1aTg0YzNsRUE3bzk2VFcwQmdqTg?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 2.6% < 4%)",
+      "technical_status": "Fail (Avg $Vol $48M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -61,73 +61,73 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Why Is Alibaba Stock Soaring Tuesday? - Benzinga",
+        "primary_claim": "EquipmentShare (Nasdaq: EQPT) boosts 2026 outlook and launches $500M stock repurchase plan - Stock Titan",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": true,
+        "gate_dollar_vol": false,
         "gate_mkt_cap": true,
-        "gate_adr": false
+        "gate_adr": true
       },
       "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "KC",
-      "price": 9.44,
-      "gap_pct": 9.16,
-      "pm_volume": 124626,
-      "avg_vol_10d": 1250206,
-      "avg_dollar_vol": 11801945,
-      "mkt_cap": 2825011464,
-      "rvol": 1.71,
-      "adr_pct": 3.75,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Kingsoft Cloud Holdings (KC) Receives Overweight Rating from Mor - GuruFocus",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "ticker": "CRCL",
+      "price": 63.01,
+      "gap_pct": 13.02,
+      "pm_volume": 2387085,
+      "avg_vol_10d": 15445696,
+      "avg_dollar_vol": 973233305,
+      "mkt_cap": 15662775507,
+      "rvol": 0.61,
+      "adr_pct": 7.19,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Circle Internet Group (CRCL) Shares Surge After National Trust B - GuruFocus",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "C",
+      "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Kingsoft Cloud Holdings (KC) Receives Overweight Rating from Mor - GuruFocus | Impact: See analysis.",
-      "analysis_details": "Kingsoft Cloud Holdings (KC) Receives Overweight Rating from Mor - GuruFocus",
+      "analysis_detail": "Catalyst: Circle Internet Group (CRCL) Shares Surge After National Trust B - GuruFocus | Impact: See analysis.",
+      "analysis_details": "Circle Internet Group (CRCL) Shares Surge After National Trust B - GuruFocus",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Kingsoft Cloud Holdings (KC) Receives Overweight Rating from Mor - GuruFocus",
+          "title": "Circle Internet Group (CRCL) Shares Surge After National Trust B - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWsybzA0b3FIYW5FUVE2ZXIzdnljQVJRQzZ4SERHNVZkdEU2cjcxZ0hCSmdmNnVpMGloUGxUUUJoZlNCR0oyTDB4NGhVUmhFNmdTT1NFcmhwU0tmYUhhTnlGN1VnQ3JzVTV6YXFHWGl5czc2MUtwQmZQRkJwT19nVHRWa2JaM3pEVGdUaXNaTWNWeHY3ejdhQlpkQVVJdFVzUFc5T00zdXZpVU1HSS1zZmh3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnJxVjFCQmtLN29meV9wbTdvQmVucXBPcFQyeUcwZlFmVHFmdWdQaGJzTkVLNFIwS1Jrd2dUcTViaDhjV0VNYWhPUzlSSWg1ME50ckNWS0t6NllQRURMWG1XUnNyQndTSWxsYlJFbXBwVU5pYmgyci1BU2dLZm9fUm1SUzctN25yXzJwaEJuaVo4eDgzQkpXcjlFYkk3T0pnU2s5U1NnejFCMnVwQUtLSFZISQ?oc=5"
         },
         {
-          "title": "Kingsoft receives Overweight rating by Morgan Stanley as it emerges as pure AI cloud play in China - Seeking Alpha",
+          "title": "Circle Internet wins OCC approval for national trust bank (CRCL:NYSE) - Seeking Alpha",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXZRcGVfWGVxNDk1RUt0THgxRjM3cU5oelRIcGRpak9TVTdELXBQZFJIWUJmQllMOGRScDNKV1JBYzRWcEZSdHZXaWhlUlNKbFpBYTkxaG5KRkllTENnMjQwd056dWt3aGtZX2VKRnZrLUszdklzVlBnN3BYamFJaDIycHhJMEN5UDR4NjM0RmhGNXQtdVlBV0JhSHQ5ek9LVlZXdkVEX2p4bmwybnl0N3NxQ040WnBrZGU0bnd1NVN4UUpxUkd4S2lB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaFNkZi1IR0lpVWdIdUJwb3pGSE9HS0tqQkVPY3gxN0x0YU8xb0xpcFNodWVocy1tanJxUG4zbW8xQXhLWVNfejJoYUl0dC15MVFCVFJQWHNtQXVXUjFUemI3aURmUk5nWl9MTXdXa3JKUlhaeUxFMjEwcGlWcmt4MTM2ZDVjbWF1N0tJR2pFazA1UnNzSHR1a0RRdw?oc=5"
         },
         {
-          "title": "AI Pivot Sends Kingsoft Cloud Stock Into Rally Mode - TipRanks",
+          "title": "U.S. regulator clears Circle to launch federally overseen digital currency trust bank - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGZsTmtPVElTSXgwb3g1ZDNDV05GZ2xYeV9tYnNmQ3RZdnRmUXM0TWVMZm1vVThCQThCMmZzT3VNRmkyMENyMUxQSkdXeUxWcGFYMEk5ZVJUS3NHZEd6S2xMMUFORDJyWUZvajExNTJjbVg1T1BOQTJjaEFPRVVwcGJfUnlqUHFydXV6V0NXS0JaT0Nk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzVMazlpY05aOEp5Mk9oeS1EM1JvUUUwOUxhb2xDVTRJS3pXUjRXeWNzQmM0VWgyMnJaendLbi03d0g2X2xENW0zSjlaWmVhZ1lweW5vb1BhbEZzbTFDVTNXV1l6UnBNdTd4LWQ4cXE2VE5iWXUtaklibXVaWUFHNllEZGVmamZmVE5sSGxEV3hwNDNLMUw0azA3eXVfYXp1VEVCM25vTnZQZWdYb0lZOTJnRWRjajlZ?oc=5"
         },
         {
-          "title": "Kingsoft Cloud Confirms June Share Capital Stability and Public Float Compliance - TipRanks",
+          "title": "CRCL Stock Outlook: ARK Invest Dismisses OUSD Threat to Circle as Cathie Wood Scoops $13M Shares - CoinGape",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelQxQUo5VTlLSG9LMW9OaWtCN3p4Sno1elhnXzJ2eXBucTBtTHJrSWRSOW52YXItOHZVUUtxYldzR0wyc2pQVy1ScVVvajQtMTQ5VU8xVUc4LWg3RkFhdjNGYjl2bHdOZXJZUE1ORGR2UHpwYVdZcFVHVGZPUk9xRHBOY0hQakV4ZXpCeXJrNTN1NUNJWkxZZDU5Y3RqVGZPdXRPN3NxN2xCN2hwMm9RRGNSS2lpVFo1OVRVc0RxeGJ5NmVySmpJVWJzUTk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU01xWnNIUE1pZGpZSThmcEdVMlVkWmVvVmNKZ2MtY3hUYV9FRzNDWVF6MkZzWDdhVVR0Wm5WYVI4LVZkeFhJeENmc2wxdFlLM1p4MHlhR2RkTTBoaHkwWUlVMUNiWkI4Wm5YcFpOUlMydWExQWNZdENvS2pxYW5iVmRmVEt3azhKM0FLTy1vMkhMOW56SWlTOGdiUkpMN0RRdC1KemhieU05QQ?oc=5"
         },
         {
-          "title": "KC Initiates Coverage On Morgan Stanley -- Rating Set to Overwei - GuruFocus",
+          "title": "Circle Internet Group, Inc. (NYSE:CRCL) Receives Consensus Recommendation of \"Hold\" from Analysts - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOajJlZVpkVElwYkFTd3RwODJ3dG1mQklLUXhkQUM5bF9WOWdOXzRISzZFSzN3cl9NeWlTdkZLaWNKVExMMUVVZTlUQ3dXN3hFQXJ2NGNVdWU3VHZCV3BwV05YQ0N6NkVhd1BWMjh4ci11eW00MEh6OTBoV01fZktqTENIYmgwSFo2cFVkZW93UFhnR0s4aUlhQlNlb2FQZktGc2hQckhB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNy1tY3hkN2FlRWg3cWtjQXphNlRWRjV0ZnBHRUZkeGZhdGo3UWxaNm1FN3pYSjRlS2FqdklWd05rRlM3cm1RVlNBd3FpRGpJVjBMWTRQNnBfT1QtM1pCbTBuN3FPRkVoemJDczctT3dyaFdaRWYtTC0zbVZZOWctT0ZkZUEtS3Zkc2h3LTc5dmx0WXN6X293YWZ2cFpxczQ5dU0zSGE4WC1TaFRncEJZcGljWkI5X2Jqdk9RYjNMdmpBQ2xmWkluTEliMkZzRHA4TXNjV0dSUEFXb3Ba?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $12M < $100M, ADR 3.8% < 4%)",
+      "technical_status": "Pass",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -135,13 +135,87 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Kingsoft Cloud Holdings (KC) Receives Overweight Rating from Mor - GuruFocus",
+        "primary_claim": "Circle Internet Group (CRCL) Shares Surge After National Trust B - GuruFocus",
         "discrepancy_note": ""
       },
-      "gates_passed": 2,
+      "gates_passed": 5,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": false,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "VOD",
+      "price": 13.08,
+      "gap_pct": 12.77,
+      "pm_volume": 268621,
+      "avg_vol_10d": 3666934,
+      "avg_dollar_vol": 47963497,
+      "mkt_cap": 30170232441,
+      "rvol": 0.52,
+      "adr_pct": 1.57,
+      "category": "New Contract/Partnership",
+      "theme": "New Contract/Partnership",
+      "reasoning": "VOD: Xavier Niel Acquires 16.2% Stake in Vodafone for $5.9 Billi - GuruFocus",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: VOD: Xavier Niel Acquires 16.2% Stake in Vodafone for $5.9 Billi - GuruFocus | Impact: See analysis.",
+      "analysis_details": "VOD: Xavier Niel Acquires 16.2% Stake in Vodafone for $5.9 Billi - GuruFocus",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "VOD: Xavier Niel Acquires 16.2% Stake in Vodafone for $5.9 Billi - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3Q5Sms1X3JxZ2ZvMGlnTlc4Yk1McDhaZFRkMXVMOFduTFV1cnlQX1ZVVG80N19CS2RqYjFfUnRJd3VtTmVfUVpNS3BkZnFRU0g0ci1NZ0g4aFE3UEVud0p6eW8xRG1WcmZ2OU1wTzBMNVl0Z0xtLWNwTHRmRWU5Z0wwNnBoazRyMlhtLVcyNm9iS1M0ZFZqUlhHYkZneHk1MGc?oc=5"
+        },
+        {
+          "title": "Vodafone (VOD) Relationship Agreement Terminated by Emirates Tel - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaU9xVGtNUmR0aWNQQXF5NjRaU2dUeXg2RzhhMWI1dUNydVlIY0szdllkaXhBVGFyWHh5anFVckNzUUFBRlpxQmp5eDBWejluNHE5eWI1cFBqVlZYXzc5WkpZS0kxYlV1bjVWRE05bkttR3VFSmg1ZWpXdV95WXZXZXpTVDF4VkZiVzh4R0Y2bzVnS2tVbnc5dXAzdFNEWF83Ykl6V2dfb2ZXem9jWGxWR3hJOU9sVnRrTnZGa05yaw?oc=5"
+        },
+        {
+          "title": "Vodafone (VOD) Stock Soars 12% as Xavier Niel Acquires Massive $5.95B Stake - Blockonomi",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdFFFWW9YSVM3WjBkSUw2TW9qNXdDdHBLZXpGQ3BmNWp3Wk1yN1h0a3IyTGtfNHdWUDFxWDBmZ3hvNGhQdU9wYXVKekdsVy1VUm9pbG5uMmVVRldDRndDclRPMlhYS3hTNm1acUFFdVhiQkVnd0FsZk8wdHFpZ3lrd2lFeGg1N0FQRFVrbGE2S1R3b3F0SURXUjU2aw?oc=5"
+        },
+        {
+          "title": "Biggest stock movers: WDFC, VOD, and more - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOekVfUGlVOThyWmdCeGtwc0Ezc0pWclAwUU5WM3pIZjNtOVpWb0lXRVNpdDhxN1lFbFNyY3YyMHhLUlJNMGJoQVk3NVBkMF9COEJDa05NU1dIWURpR21SMHZqNVQ5RGxYcE9qS0dkSF9vbFg0UW56LTZLNEduWGZPUGhDVQ?oc=5"
+        },
+        {
+          "title": "Vodafone shares jump 10% as French billionaire takes £4.4bn stake - UPDATE - Proactive Investors",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZS1XSGttQ2RncU9UaThHVVhQR2JCcnpRR0FkeU1wZU84YkJOM250X3MzNDdYZGJnckM1ZmVYTkY0UV9YMHB6Y1dJcElwZXdlOXdUTWxrQXJLWjFWZmRKQWNUWDdfckRuVDFoVUtNV19yamNJakQyZUdqM2tVZTFvS0gzYWtJNllGY3pOcGl5ZVMtSVlBeG1OT3F5ckhCRFdKQVpCVnVJZ3JGTXpIb1RWZnQydHQ2QVVZOG13Zi02UmFDS292V2M5dTV6QVZoN0xrSlJxQ0FLbjN6QWs?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $48M < $100M, ADR 1.6% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "VOD: Xavier Niel Acquires 16.2% Stake in Vodafone for $5.9 Billi - GuruFocus",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
         "gate_dollar_vol": false,
         "gate_mkt_cap": true,
         "gate_adr": false
@@ -151,37 +225,57 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "BIDU",
-      "price": 112.09,
-      "gap_pct": 4.35,
-      "pm_volume": 78233,
-      "avg_vol_10d": 2464907,
-      "avg_dollar_vol": 276291426,
-      "mkt_cap": 38972194699,
-      "rvol": 0.83,
-      "adr_pct": 3.26,
+      "ticker": "MSTR",
+      "price": 93.89,
+      "gap_pct": 5.4,
+      "pm_volume": 521063,
+      "avg_vol_10d": 31846302,
+      "avg_dollar_vol": 2990049295,
+      "mkt_cap": 32903526563,
+      "rvol": 0.39,
+      "adr_pct": 7.85,
       "category": "Others",
       "theme": "Others",
-      "reasoning": "Alibaba Stock Jumps 10%. The AI Rally Isn’t Over, It’s Just Moved to China. - Barron's",
+      "reasoning": "MSTR Stock Outpaces ASST, BMNR Despite Bitcoin Buying Pause While Peers Keep Accumulating - Stocktwits",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Alibaba Stock Jumps 10%. The AI Rally Isn’t Over, It’s Just Moved to China. - Barron's | Impact: See analysis.",
-      "analysis_details": "Alibaba Stock Jumps 10%. The AI Rally Isn’t Over, It’s Just Moved to China. - Barron's",
+      "analysis_detail": "Catalyst: MSTR Stock Outpaces ASST, BMNR Despite Bitcoin Buying Pause While Peers Keep Accumulating - Stocktwits | Impact: See analysis.",
+      "analysis_details": "MSTR Stock Outpaces ASST, BMNR Despite Bitcoin Buying Pause While Peers Keep Accumulating - Stocktwits",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Alibaba Stock Jumps 10%. The AI Rally Isn’t Over, It’s Just Moved to China. - Barron's",
+          "title": "MSTR Stock Outpaces ASST, BMNR Despite Bitcoin Buying Pause While Peers Keep Accumulating - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MYnluV2tycFlEdC0xcnFLckM0Z1pHYzJHUE9renhrYU5KS3hhbTVXS2dtNzZSOTdhLVhmWDJSX2JGd3REemhPSlhGekd3SFJFNldOMVJHTTVJUmVici1tRTgyX3FKSlZqTnJneG9QYlNBUU1JeU85cWR3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeW5iWlpQVFUwakcta3BQREp5czlrQmROOFVNQUJ6UlIyX3IxRGdaM3FNLTZjQnFlT010WWhZSFFQN0RwSTRxVDdYaXdnUDQ0Nms5OW9qa1A3bHhJV0RYZzBlb3NyLUlzOGVqWk0zcWdManA3cTVyTjktR09oSVFlem9xdXFmZVFaZ25iNUJMSW00d1gtODgxeGJLVHFyczNJVmMwZ0ladEdNUjVtYXFrZDZ2ZkNSTWVkRS1FZ1VaT0Qyck8yNkUwQTBn?oc=5"
+        },
+        {
+          "title": "MSTR Stock Dips After New Bitcoin Buy – BMNR Slows Pace Of Ethereum Accumulation - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUGk2U254SjZDcjRQcVQtNUotVkh5Yl9sX0pTMjNQc3JCNWNFcTNRNVlFZlpQUERhZHlyaTFTUndpSmpVWFJJdHdhREJ4VzJIUU1KWHg0QVJfYVFQdnZTVFNia1E0Mmk4UTVSQS11bEhvSDVXeG5GdHZGcUFROXpmemhveFpJalFVQjFBRzRVRmoyUkdNd1J3eVdGM09Oa2lObnJkeks3eURESVBoMml4WkIzemFTYlNnRmV1T1NpRVYxSEhma1pGTURKVFBzSEk?oc=5"
+        },
+        {
+          "title": "MSTR Isn’t Bitcoin’s Biggest Risk, JPMorgan Says — Even CLARITY Act May Not Fix The Real Problem - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPODczSVVXMjVJOVhpYnVyY3R2dFVDajd3WVMwVnNhMjdzcDd2YmpVZl84RTR3QWgwSm5Pc2hOVE1hbGRGR2VFbnFIMkhuZ3JNQzJzdmJPUFZHNGpQWTllT0NCckViMDcxM25zSWxzYXBONzQtbmdObFc1RTZQV1N0VUdlTWhFb0l6Y2FzSmEzRFdiVkNsU1E?oc=5"
+        },
+        {
+          "title": "JPMorgan Chase Says Bitcoin's Main Risk Isn't Strategy",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/30ca188b-0dd6-3738-982b-7ecef55cca11/jpmorgan-chase-says-bitcoin%27s.html"
+        },
+        {
+          "title": "MSTR Isnt Bitcoins Biggest Risk, JPMorgan Says  Even CLARITY Act May Not Fix The Real Problem",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/06e5ded4-d0c5-3444-9ad4-6b3cad16637a/mstr-isn%E2%80%99t-bitcoin%E2%80%99s-biggest.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 3.3% < 4%)",
+      "technical_status": "Pass",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -189,58 +283,73 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Alibaba Stock Jumps 10%. The AI Rally Isn’t Over, It’s Just Moved to China. - Barron's",
+        "primary_claim": "MSTR Stock Outpaces ASST, BMNR Despite Bitcoin Buying Pause While Peers Keep Accumulating - Stocktwits",
         "discrepancy_note": ""
       },
-      "gates_passed": 4,
+      "gates_passed": 5,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
         "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": false
+        "gate_adr": true
       },
-      "meets_all_gates": false,
+      "meets_all_gates": true,
       "tier": "T3",
       "tier_label": "Minor Catalyst"
     },
     {
-      "ticker": "KOS",
-      "price": 2.21,
-      "gap_pct": 4.07,
-      "pm_volume": 86490,
-      "avg_vol_10d": 18245555,
-      "avg_dollar_vol": 40322677,
-      "mkt_cap": 1310948309,
-      "rvol": 0.81,
-      "adr_pct": 6.2,
+      "ticker": "COIN",
+      "price": 158.44,
+      "gap_pct": 5.02,
+      "pm_volume": 123241,
+      "avg_vol_10d": 7674011,
+      "avg_dollar_vol": 1215870303,
+      "mkt_cap": 41742760840,
+      "rvol": 0.51,
+      "adr_pct": 5.89,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "Kosmos Energy (NYSE:KOS) Shares Up 7.2% - What's Next? - MarketBeat",
+      "reasoning": "MARA Stock Price Prediction 2026, 2027, 2030 – 2040: Is MARA Holdings the Best Bitcoin Stock To Buy? - Coinpedia",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "C",
+      "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Kosmos Energy (NYSE:KOS) Shares Up 7.2% - What's Next? - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Kosmos Energy (NYSE:KOS) Shares Up 7.2% - What's Next? - MarketBeat",
+      "analysis_detail": "Catalyst: MARA Stock Price Prediction 2026, 2027, 2030 – 2040: Is MARA Holdings the Best Bitcoin Stock To Buy? - Coinpedia | Impact: See analysis.",
+      "analysis_details": "MARA Stock Price Prediction 2026, 2027, 2030 – 2040: Is MARA Holdings the Best Bitcoin Stock To Buy? - Coinpedia",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Kosmos Energy (NYSE:KOS) Shares Up 7.2% - What's Next? - MarketBeat",
+          "title": "MARA Stock Price Prediction 2026, 2027, 2030 – 2040: Is MARA Holdings the Best Bitcoin Stock To Buy? - Coinpedia",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRExSc0RzODFRcFl6dVR4eXZvRi15bUo0WTBxQmFNbUJ6UllBQmhEMlF2UjdyWmNydnJJOE5RWU1hYVpOdjZQeXk5Qy1rdlM5UUVhNWdfNllMRVdnX1RoRHhQeVh6SVRFUVJ4bkxKRTFOSk51dERnVVU2RGFSRUk5dnpvVEMxZE1ONHlwTDJJMURPaTZIYVpmVjVWTmMtbnVL?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdkl4d2lQX25vbzFhVVpibWFPQThaNmhQM2RpWjdWQTc4a2RuaGVIUWV6aWdvUkUyVVdQeTYxVlV6d0sySFZCdm9fLUNmTExiY0Z4TnhrRUJTTTQ2SU5NYkRfcGNLdHFTQTBTOXZZMFBkVGRrZHdZV0p5cC1SOWVfNEREOGkwVE14bkJPQklPXzJBUXhiVTVYT0VR0gGfAUFVX3lxTE9rSHZ4NjQ4YmFabmFkX2hCQmxiY1RWQ2xaMEJmTXI5SW9iVzA2ZThyUm5sNDVxdktDSk55bWJnd0VmXzEtd0ZsQllqbi1QSURFelhTa3N2WFZEenRqeFJTd1JjeVNITEdmcV9vQUI3U1V6ZWlCYVh0aS1DRFRXemREWTdWU01udFIxNGd5WnpiakVfRzBtckI5QVZHR19xOA?oc=5"
         },
         {
-          "title": "HOLX, KOS, MRVL Stocks Hit 52-Week Highs Today: What's Driving The Rally? - Stocktwits",
+          "title": "Crypto US Stock Watch: CRCL, HOOD, COIN, and MSTR — What Are They Trading On? - odaily.news",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVC1LVnRYQmg5TFlSRU1iS3lGZFhITDZ1TVpqZjQ2ZFFoOGRCWWNDbDcteEZwNnhsOWhubmtMcTVaTlplWHY0OEpEcGNta2Y4Q0Fkb3ItbGE2U0o4NUI3UHNtQmFycHFmTm90ZDJVdkgxQ0lPd2hrSHY4dkVVM3BaVmJrdGFxNG56X3kxZkVDZXpjVGtrVmxETldGSG5TamdmemJYYklMRWNENkhXMzRfM0pzcTZ3dVhrYTlteWtaNVhSSk9v?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11SDQ1dklfS1JTbGJ3dDVuNGpwMjJzS1NDMTBZTW9fUjN2cGxBNnBaUnJtbldXNFNmS1ZsaFZzVVBJdC1TUEFQMHVaOTI2aGst?oc=5"
+        },
+        {
+          "title": "Paul Grewal to exit Coinbase (COIN) legal chief role, advisory deal signed - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSjg3d3h3X0ZucHNuYmZ2UlEzQl9HcmhYUjFXVkRsUldGWlpybnczOEhfakVDaERTa3RWRlRnek95ZzRiTDdtYVhKcENWX3ZnZlZiMkxuRFJ6bE5rXzdCd0k1S3Z1Njk1ZWNreWRzZVBzYmtkUEx5NzRMeDB1ZGoxTnVMV1VfTnpvMUk0djBLUE9WM015YkU0M3BHNUw5VzNHeGU4UnJFWGlaQ3Qz?oc=5"
+        },
+        {
+          "title": "COIN Stock Drops After Wall Street Price Target Cuts On Q1 Earnings Miss – Retail Traders Say HOOD Had It Worse - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOamFhdzRHRlZyd2FFZmtpOG9nZm11WFQzaFF3RHJ4VHNxel9wMDFrYTJVNzBBZWpHeTdVTUFZQXRwWW1LcVhVa0dZdndGWjlxNmdjZXNSUDkzZVFfLU9RbWpwVm16VXh3OE5jTGVQTGJ6ZzlGdHFiajNoVWVLWGs1NDVzY3BrU2t4RFFJT0x4SDhBeDhOazRzSHZOSklUTHByZWIwcnVqX3gtX0xIaXNaZ3daR2F6UEgzZDlwcEdEVG5FOWF4T3ZSNk9UZDc?oc=5"
+        },
+        {
+          "title": "Coinbase and Grayscale Executives Step Down After Major Crypto Wins",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/aea24561-b12e-3b4d-85e0-764234d579b8/coinbase-and-grayscale.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $40M < $100M)",
+      "technical_status": "Pass",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -248,7 +357,209 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Kosmos Energy (NYSE:KOS) Shares Up 7.2% - What's Next? - MarketBeat",
+        "primary_claim": "MARA Stock Price Prediction 2026, 2027, 2030 – 2040: Is MARA Holdings the Best Bitcoin Stock To Buy? - Coinpedia",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "FLNC",
+      "price": 16.74,
+      "gap_pct": 4.06,
+      "pm_volume": 153333,
+      "avg_vol_10d": 9573936,
+      "avg_dollar_vol": 160267689,
+      "mkt_cap": 3085360618,
+      "rvol": 1.17,
+      "adr_pct": 10.93,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "RDW Stock On Track For Biggest Single-Day Drop In 6 Months – This Analyst Downgraded Redwire On Valuation Concerns - Stocktwits",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: RDW Stock On Track For Biggest Single-Day Drop In 6 Months – This Analyst Downgraded Redwire On Valuation Concerns - Stocktwits | Impact: See analysis.",
+      "analysis_details": "RDW Stock On Track For Biggest Single-Day Drop In 6 Months – This Analyst Downgraded Redwire On Valuation Concerns - Stocktwits",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "RDW Stock On Track For Biggest Single-Day Drop In 6 Months – This Analyst Downgraded Redwire On Valuation Concerns - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZVJVRXFMZWctMkFmVzhkVmVhTzhGQVEyc2dfdnQ4R0hvcEZMRmxlU2hPclJ4SjBiTWJRTVNlZXIySzFBN2pIem5IUzc1bGEybDZkN1pSOHFCdmhBVUFWYkk1TmZQWnBPUEtMTXRlRzA5N0hIVjc3bDlJMXNQejBPRndXREpVd0FITmk4STVvR3UxNEJSVUVfT2djOWZLTUlPWUNoQU84MlpSYnVxTV82aFlKb2plb3NrLXp5b05xV29uUDlsdUdUbEJaOGVweUVaNWh4RW1ySEVRYmNIU2hodHRxMFVBck83VEFqRTh5N0tkenZJNU5FaU8xUVB0Ulo5Q2ZLQnRydw?oc=5"
+        },
+        {
+          "title": "FLNC Stock Slides As AI Battery Demand Story Heats Up - StocksToTrade",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jeHBuZWVzMWtvNXRhTmd3YlJTUnhpWE9FaEVRNzVIak94ZTNiSjNhbm9RWjJPaVY4aFAyTEozQVF2YlFyZzNIWjg5cUVCcFBYYmpjeVdwYWJtcDZiWjcyZ3FsTGViRWFrbW9nZ2xyVktrd3VLbHNrOU14dw?oc=5"
+        },
+        {
+          "title": "Why Is FLNC Stock Rising Today? - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ05fQ3A4b21WaC11Y0tCNTRlOS1OXzNTRHIzX0lxNTJfWmtQdFpiOTl3SG1qWlNUbHVZQU5EdjNXLXRPR3JpUEx0ak9OeFVrb3RiRkRTRlRKSWtMZTJSdnZHTGxJcUdmcjl2T0c5S1Q2LXE5UW9YV1VSR01KODI3aXZKdkFhWU5ud1k4T0ktN0ZtTkhISE0yZmlYMldraVFicnhjaGRlWmlWdUpUbWtXQjk1NDZFQW1vUVFIXw?oc=5"
+        },
+        {
+          "title": "Fluence Energy (NASDAQ:FLNC) Shares Gap Up - What's Next? - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlotX1FBNUN1NmhUX2VfTlJnLXpCS0pIS3pTSDdRdHpCc1VsWWYwZ1lCbDBUamtLeDJEd29GLS1jV1ZVSV9ua2Y5cUhOY2l6Wk1JWjl6SjFUWWh0dy1lMm1LQzlRbG9hMFlYR3pHeEVuS1R3U3dMYWVEcTNjZWYxUGh1Y0pUdGZjNjc1b0xiWEdEMWI5NU9qRzZyVklJbElMc2F4NmJGRQ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "RDW Stock On Track For Biggest Single-Day Drop In 6 Months – This Analyst Downgraded Redwire On Valuation Concerns - Stocktwits",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "BMNR",
+      "price": 14.69,
+      "gap_pct": 3.68,
+      "pm_volume": 554437,
+      "avg_vol_10d": 39542575,
+      "avg_dollar_vol": 580880427,
+      "mkt_cap": 8367082691,
+      "rvol": 0.49,
+      "adr_pct": 6.67,
+      "category": "Upgrade",
+      "theme": "Upgrade",
+      "reasoning": "The Bitmine Immersion Discount Is Dangerous (Upgrade) (NYSE:BMNR) - Seeking Alpha",
+      "hypothesis": "Caution (Fade Candidate) — Low institutional conviction; likely gap-fill.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: The Bitmine Immersion Discount Is Dangerous (Upgrade) (NYSE:BMNR) - Seeking Alpha | Impact: See analysis.",
+      "analysis_details": "The Bitmine Immersion Discount Is Dangerous (Upgrade) (NYSE:BMNR) - Seeking Alpha",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "The Bitmine Immersion Discount Is Dangerous (Upgrade) (NYSE:BMNR) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXpmWjRneVpMSWl5eXFvVTA1XzNRaXpxRGxQWloyVVZEUWNOVEFaaDc5TGtCSU1nczJtR05vazJBUjBJVU0tX09JUHBYYmVzeFBrV3JLS0N4U0xHTVcwdS1JSExFUC1tTFdMWE1qUFRKQm1KZmpPdklYWC1DeGlnYnFxUlFrd18zUk5sSWRIVzhGTmpHc19N?oc=5"
+        },
+        {
+          "title": "MSTR Stock Dips After New Bitcoin Buy – BMNR Slows Pace Of Ethereum Accumulation - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUGk2U254SjZDcjRQcVQtNUotVkh5Yl9sX0pTMjNQc3JCNWNFcTNRNVlFZlpQUERhZHlyaTFTUndpSmpVWFJJdHdhREJ4VzJIUU1KWHg0QVJfYVFQdnZTVFNia1E0Mmk4UTVSQS11bEhvSDVXeG5GdHZGcUFROXpmemhveFpJalFVQjFBRzRVRmoyUkdNd1J3eVdGM09Oa2lObnJkeks3eURESVBoMml4WkIzemFTYlNnRmV1T1NpRVYxSEhma1pGTURKVFBzSEk?oc=5"
+        },
+        {
+          "title": "Ethereum Bottom In Sight? Tom Lee Shares Chart Pointing To Recovery - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUWtKT0pNcUtCeHN6bnh5VXM1bmxvTnBuTmNidHhvY0FxUURVMkc5cENWek55RHE1QVctVmxuRGNseHFTdkhMSTdjRmJtVVhfSjRtYlR6bDUxYXVCcFZ5bHhmem1jNEppRGhNSElaUFNxMVRzaUg1OFc2Wjc1aC15TjQ1U1JWZnM1SUdKTU9iWU1peVhjank5cG5Pa0MwdTFiZ2FfcFJfLTl1aDJZcF9zbk55WElDVG9KYk1UVVd2QjZoZzAxcWZRYTZsT2cwbnlMS3B0LWtkWHQ?oc=5"
+        },
+        {
+          "title": "Tom Lee Flags 'Interesting' Ethereum Levels To Watch With Altcoin 60% Below Record High",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/2f783049-dd8c-3556-8821-dd86433e33a6/tom-lee-flags-%27interesting%27.html"
+        },
+        {
+          "title": "Ethereum Will Be $5 Trillion Network In 'Few Years,' Says Tom Lee  What Would That Make Price?",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/d54e6d14-16f7-367d-a818-45437bd1412b/ethereum-will-be-%245-trillion.html"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "The Bitmine Immersion Discount Is Dangerous (Upgrade) (NYSE:BMNR) - Seeking Alpha",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "PURR",
+      "price": 7.56,
+      "gap_pct": 3.57,
+      "pm_volume": 85263,
+      "avg_vol_10d": 13088377,
+      "avg_dollar_vol": 98948130,
+      "mkt_cap": 1485941198,
+      "rvol": 0.74,
+      "adr_pct": 8.89,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat | Impact: See analysis.",
+      "analysis_details": "Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiMDdvX19fNURtaHhVbGwxTHpxNjNpU2VoZ0pLVUg3T1lYeF9BWDFEVThnZHZ6SnNnMTFDUUI0QUNoM1BHZnBmWWpGaWNpN3ZkYTVaQ0xJRWU1cnNmN1hfZVhELWhmcFVJWmRmNVNxR0pNU1hZaVJURVpB?oc=5"
+        },
+        {
+          "title": "Bet On SpaceX Via The Hype Token? Hyperliquid SPCX Volume Could Lead To Huge Buyback (PURR Stock) Reggie Miller (QD8X3BecY1) - Mshale",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lNTc2bmhUQ2dDS2lHb3VNM3BvQzgzcVQ5VmU2bGdQSEN6SHUzSHBvSVlVcmt4SFhxUDJDYVd2RU9TZko4QXRjM2RxT1VJWS1wMk5xWlJOUlBDQTA?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $99M < $100M)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Hyperliquid Strategies (PURR) Institutional Ownership 2026 $PURR - MarketBeat",
         "discrepancy_note": ""
       },
       "gates_passed": 2,
@@ -264,57 +575,57 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "RIG",
-      "price": 5.02,
-      "gap_pct": 3.39,
-      "pm_volume": 172574,
-      "avg_vol_10d": 38709161,
-      "avg_dollar_vol": 194319988,
-      "mkt_cap": 5605442772,
-      "rvol": 1.0,
-      "adr_pct": 3.94,
+      "ticker": "META",
+      "price": 631.48,
+      "gap_pct": 3.35,
+      "pm_volume": 675051,
+      "avg_vol_10d": 21266498,
+      "avg_dollar_vol": 13429368157,
+      "mkt_cap": 1602963386127,
+      "rvol": 1.46,
+      "adr_pct": 3.52,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "Transocean Q2 2026 earnings call set for Aug. 6 after market close - Stock Titan",
+      "reasoning": "META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises ‘More To Come’ - Yahoo Finance",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Transocean Q2 2026 earnings call set for Aug. 6 after market close - Stock Titan | Impact: See analysis.",
-      "analysis_details": "Transocean Q2 2026 earnings call set for Aug. 6 after market close - Stock Titan",
+      "analysis_detail": "Catalyst: META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises ‘More To Come’ - Yahoo Finance | Impact: See analysis.",
+      "analysis_details": "META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises ‘More To Come’ - Yahoo Finance",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Transocean Q2 2026 earnings call set for Aug. 6 after market close - Stock Titan",
+          "title": "META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises ‘More To Come’ - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0ZUeTZTOVFObTBYMzY0V0lJb3E4UHQ3bHo2c0VfUmdRdjJ2ajI1M1lXbjE5aTI2WnNvNTBDb0tHc1FmY3hqem12cmpXNGdnLU1JV1d0bkgxNWhlc3Y3SlEyNkpBVFdmMWdHUFlpamR1cUI1U2doQ2RxNWU5MzNyT3haUlBrRGFhVlRkYmNQVldXdmFoLVdiaHVxRjFVWDloT3NreWI4ckdudktjZkdyNVpiNHd2dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOE8zMy03TGtWdS15WWxXaHVNN2RLVTRfZFFIT25KTEFxUWNQVElHVXhzMkh4ZWZJc0Jyd2Nxb2NhelNWZjF3UllOVmlXcXh5bGdpVHAzTC1feUdiTmU0QVlDVE4yV0tPWDNLVjlIOEJvZi1zZGxyMU5CUlhBOXRib1NLYTFsbnFiOWdSTzlKYURaMXVacVE?oc=5"
         },
         {
-          "title": "Insider buy: Transocean rises 2% after director purchases 35K shares - MSN",
+          "title": "META Stock Moves Closer To 200-DMA After Muse Spark AI Release: Cathie Wood's ARK Boosts Stake By Over $20M - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcldsekJpbk92amIzMG5YUnJ3SHd2dTBVM2xXWW9qSmtnUHB0ZVBMQVBOM2pVeDRBcU9qbU5na04wTlFlcEVPZGhCdlhCRVBSa2Vld0pxT2Vqam9EYmVHRHdNazl3a2FQR01LWjk2cnFJOEF6Q2gyckIySFV0NWZrNW1MUm05MEhGYk1jcllIY3RVeVItRVhUS3VnY3E0ZnUtN3BmVjFlRXk0bHpKWDBXX05iaW90WVF4MjEyZ1RJcjFUS2JRYmlmQ1pLLVAwU0RNUm5MRm1QXzlkUDQ0Q0lr?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVDdvbi1FUERlUXFBZVk1dHR6bzhLS0E1bWNUbXVkQmFYMFdfSEVqcjZocExVcmVtdTVVR29QcVdHajdRQ2ZMbUlDQnkwTFJ2Q0Z4UDR6dHJHbEg0U2F5aWQwR0xhUTNLeFJuR19UaEU2R3djMnFTRGRNUThkeVlGNTRld2tqZk1OMzJsLXhDZm1jaHg1YVA3eHRHTUp0Rjd0cEFGR2VpMlJLVWN5T0VMZHg2NG5EcXpXWnpvWWlkYXVZNDBXMktvTHU3YkFsMlB2ZnZadjRGQ21Janh4enVKQXZCVkZZT0RSX1o0YWIwal92N0Q4Qm1VNzRLMTE4dDA?oc=5"
         },
         {
-          "title": "Transocean (RIG) Lands Major Equinor Deal, Is The Stock Still Undervalued? - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORnI2OW43ZDU1YTg2bTAydzVlcXZDekJFUzZCaUVub3lrNklDZUlsY3I2aUt6bFljLTlCOTA2a2pKOG82dVVzUUhsNDh3RmZfOXgxOXViRENJZnN3QVRnY25sb0NTYS14QmFLdXlhWnRkeF9YV1o3NENVc0JHa0wwZ3UzTGJmcWRlUUdObmxvc3B4VkFUSVVMSlp2bmJ0UlVWNFVhRnZjSHlUcVZSNDJzSTh6MmZpUWhXNVBVMU5wYW0zUdIBxwFBVV95cUxOTms4Y05YcVFzdFVtQVdpRFp3SjduWnlISnpTcUs3Z2Jid0xBZl9mMXQwdXJIdlB2S3FMem9rUkdWMmtDR3B3X2E1V1l2bXJwZWdWcmU0U0hMdFRiM3FDa19mZWE0MlpiZlV6VmNZZXVyUG1GQW5vVXQ3WHFLQ0lhTTA2M2hRZzEzdkhWZm5uOXphMS1hMmFkclh6ZXdZSVI5NHNPOVZ1SDNnR0o3SlVWSGRNSDVrXzc0VEFzVlNZbFZNZHVwVGZZ?oc=5"
+          "title": "Tencent in talks to become AI startup Manus' largest shareholder, sources say",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tencent-talks-become-ai-start-030728722.html"
         },
         {
-          "title": "Insider Purchase: Director at $RIG Buys 35,000 Shares - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWlZQRC1WM1Q3OUt1eUR2MGpLRVJmenpraEkzMWNKOVA3V3VwLWdoWGFLNmFzMElUWldodU5VOEdxdU5NLXFFVWFwSV9yanB0S2I3cC1UblF6c2lycW1RWG12VThvQ1hhMEpQSTZyYlBPR2pMUUxDSXJWRW9CUEFCSGFkUk43Z0cwcG81VVBmaWlZcG1rQTVj?oc=5"
+          "title": "Tencent leads deal to unwind Metas $2bn Manus acquisition",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tencent-leads-deal-unwind-meta-025153817.html"
         },
         {
-          "title": "Noble vs. Transocean: Which Off-Shore Drilling Stock Is a Better Buy in 2026? - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbWg1bjF0RVJ5SEZDNy0wdGREVkM3dFhRNTJCTkt3ek9jM0tEck9MZnhSMk5aVVVValRfTEhUSzJIWlN4X0gtaEhRZjAyckU4cWdCUDR6OEZVdVJ2RHJhbnZHQVJ1bkl6dl9SSHJiOEE3SnNXMFdyY0MteGxmM3BobmlTbUpoSVZFUVEtdWhyWGRKQXRwU3puY0J6UVN5SEM1U3kyMnlFaXMwNXRIWFZ1UURFMFNGb3M4Z3JickpUYlByWjJzUWc?oc=5"
+          "title": "Meta readies Iris chip, locks in supply for push to 14 gigawatts",
+          "source": "Finviz",
+          "url": "https://www.digitimes.com/news/a20260710VL205/meta-ai-accelerator-infrastructure-manufacturing.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 3.9% < 4%)",
+      "technical_status": "Fail (ADR 3.5% < 4%)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -322,81 +633,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Transocean Q2 2026 earnings call set for Aug. 6 after market close - Stock Titan",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "DOW",
-      "price": 28.64,
-      "gap_pct": 3.0,
-      "pm_volume": 62509,
-      "avg_vol_10d": 13669931,
-      "avg_dollar_vol": 391506824,
-      "mkt_cap": 20642034833,
-      "rvol": 1.07,
-      "adr_pct": 3.88,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Stock Market Today: Futures Sink, Oil Soars as Trump Says Iran Truce ‘Over’; Chip Stocks Drop Further - Investopedia",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Stock Market Today: Futures Sink, Oil Soars as Trump Says Iran Truce ‘Over’; Chip Stocks Drop Further - Investopedia | Impact: See analysis.",
-      "analysis_details": "Stock Market Today: Futures Sink, Oil Soars as Trump Says Iran Truce ‘Over’; Chip Stocks Drop Further - Investopedia",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Stock Market Today: Futures Sink, Oil Soars as Trump Says Iran Truce ‘Over’; Chip Stocks Drop Further - Investopedia",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa1hXc1loVXZfcGRBZVF4d1hNNjN0dENKeHVXQ0NFWG0tYldGLVpUQTgxZl9LMjZEeF9EWUdiVjY0ejVPTURVX01ZTkpzV3I1bjlubGh6OUJpNUFBNzZnb29YVzE5bm0xZTk3cFJoWmdBbHJGVkRVLXRxY1ZmRjRUeDRId3h2X3VCcF9sT19zcVo?oc=5"
-        },
-        {
-          "title": "Dow futures drop 700 points, oil surges after Trump declares Iran ceasefire 'over': Live updates - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1UE9OUENmM01BZUNWbHBFTTg5T0x2eWl5dFFyV29lQUMwd3RRMnpSLUVBcV9LMkhsWC1NSk9xbEFXLVA3RldnNjJsUmhOWHF3dnpqMGZhV201OW1sY1dBa1A4eHBVOTB1aFByY2dYNmZJSHYxWE440gF8QVVfeXFMT1BxVjNOUy1NZWN0R3NqcFZtNnZ1QTBHT2lWV3ZYNk9WZU9CdmRnUUFHMGY0b3hhVDVBcUpZT21ZaEdpcmtWNkVrejlpMDMwLTBZbVNnYUhJU0lKbDBvZlZ1Z3QxQnNjVHN6SGlEQVN0S2RfUjZsZEFvWkdQVw?oc=5"
-        },
-        {
-          "title": "U.S. Stock Futures Drop After Trump Says Ceasefire Over - WSJ",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazBsQ1IwOVlfaWRSRzRWc2h6d3hCMXI3Tk1YOWlGYWc5Z0s1TzNXOWZhaEFEQlZKbW50VHhhUzNqRnA4bXdJVDJ1bC1VVFNKd3k0SmhRTmotRVpOWGtIRnUzYkxkMWRYVFdEeV9oc0RzUnN1WjFyS1YyV3pCTXFRWThvTloyWE9POUhOMVN1WXY0U3VLNWZqZXhweTVOeFk?oc=5"
-        },
-        {
-          "title": "S&P Dow Jones Signals Possible Frontier-Market Cut for Indonesia - Bloomberg.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQmRyZ0FHVUdFZV9uMHhDMkNqVTY2Y0N3YXBrQ19MM3dXTmtTeXBzdjBZVVRvUlJWNzJyazlqWDhVWm80dERfSjRjWUdJaXpwWjlzZkRQUjdVVkk0TndOUHFjVk1QdTRmdVA0YWxwVHVTVDhoRWZ3R1d2RUhIdGFOSHBubmtQVWdJY0I1UzlKWE1OejVmcGVjQlk1ajBPeUFnOUFQTFJOS1dUYzBEdnh3dGh0YWVHdw?oc=5"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq fall as semiconductors sell off, oil prices jump - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdGl1NlI4Wm5NTFZERzFIZ1FOelRWQUY4Ty0zdVRrSkt6YWY3WnVQXzFkd1ZpeENzVWM5MVFvSjdrWi1MNXJpYnZFUTZ1MW51SmxubzhHdUhHQlljR1BjVnh0QmZRYjI1elpnWERMdV9sZk1BZXB2TmZxU0lUTnEzVFBUNndITzFnYkhoN0pxNEJFZW5GemllUlVuaDNYdnNSMVNoY3pVa2JncVRseGJLa1g5cHo1Q2o5aEhBbkc4MTlEd0JkRFJJWngtV1hUSWVoeVNWS1pONnQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 3.9% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Stock Market Today: Futures Sink, Oil Soars as Trump Says Iran Truce ‘Over’; Chip Stocks Drop Further - Investopedia",
+        "primary_claim": "META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises ‘More To Come’ - Yahoo Finance",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
@@ -408,6 +645,75 @@
         "gate_adr": false
       },
       "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "UUUU",
+      "price": 13.49,
+      "gap_pct": 3.13,
+      "pm_volume": 70848,
+      "avg_vol_10d": 7761202,
+      "avg_dollar_vol": 104698615,
+      "mkt_cap": 3370705832,
+      "rvol": 0.83,
+      "adr_pct": 6.32,
+      "category": "Others",
+      "theme": "Others",
+      "reasoning": "UUUU Stock Rises Overnight: Energy Fuels Leadership Signals Confidence With Fresh Stock Purchases - Stocktwits",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: UUUU Stock Rises Overnight: Energy Fuels Leadership Signals Confidence With Fresh Stock Purchases - Stocktwits | Impact: See analysis.",
+      "analysis_details": "UUUU Stock Rises Overnight: Energy Fuels Leadership Signals Confidence With Fresh Stock Purchases - Stocktwits",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "UUUU Stock Rises Overnight: Energy Fuels Leadership Signals Confidence With Fresh Stock Purchases - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOczYxMmJyZ1FoVTFxRnM5QWQtMDdDNWd0R1cwX3hjNGxfQkRvV1FERnNTWW5VWW1CUkNMRklRdUtHMUxjY3RDWUdTb1F2bWNJOGtEekdaM3RmdHJwRXVVRWdDbm5Zb2ZCYWNUYi02ZWhMZ2VsOEMyWXpreFQwa2tveEtOcUJONF9samlvS0NmQURNT21LQ2tsYmpnaGxoRkV1Z1dkSDRVMkd6WGx5X2lFTjN1ZURSRUpJRVpnbkR3aDdpSmh2Nkp6aE5MZHgzUVBGbGlJRnhEdWpGRjl4S1dJSlpzdUJHVHdvMUptQ1FTYndTUQ?oc=5"
+        },
+        {
+          "title": "Insider Purchase: President and CEO of $UUUU Buys 74,000 Shares - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZkxpMFJZNlAwZGhYb09XNWktN0ppV1NCY1NidmF0QVJiUldaLU9aTnN5ZnZjRGMzeXQzYWpncld0bU9ZT2djZFZOZ2RxbllQaXBIclRsN0M0Tk8zWmNwQXRFZi1tbm9NQmtpYURSYmR0ektLMEdLQkhiYUR4ZWpDNEYwdUpod3RqNURjNlRNaHhTSnc1bHhXTVUtVGo5SjlDb2V1cg?oc=5"
+        },
+        {
+          "title": "Energy Fuels (UUUU) CEO adds 74,000 shares in open-market buy at $13.08 - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWnNSMXZWeF9qWmZtUGNfMERGdFMzWkJlT20zSzlZWXNtYmxZVl81VHJVcC14cktLQVNvVFFYRFdKMHpsS19US2g1TGlNRDdSVWhIMU91Yk1hNDQwTmRWcVB6SjExWEtBS3NsUDhNRXpOeVZQdWlPaXI5T1gxWTJZMDdod05jTzRvaTI3eGZjV01lb01FSk1NRmg0alNkMU9uQlFUaW82NGtoTU5pTWFz?oc=5"
+        },
+        {
+          "title": "Insider Purchase: Director at $UUUU Buys 4,000 Shares - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVhONjdGZzZ2SEZQOE91emNPZWxBZkxadVVPU2hwbmtOLWhWMEZ5RnlEQkdvdG9Nb0tlY0JCVklNMXBUb3dXTTFQN0Q3RFd3TzFZWE0tTUpLT2dYR0xNSDBLUXBFeTBVX1VVYlBYVndCQl9XM1pYUlZNV3gtUjF1SWV2X3RlZk9LQjVPUFhWNUJqc2IwOThJ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "UUUU Stock Rises Overnight: Energy Fuels Leadership Signals Confidence With Fresh Stock Purchases - Stocktwits",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
       "tier": "T3",
       "tier_label": "Minor Catalyst"
     }
