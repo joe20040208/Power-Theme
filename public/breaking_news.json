@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 11, 2026 (05:40 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 11, 2026 (05:45 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-11T05:45:33.028319-04:00",
+      "pub_time": "2026-07-11T05:36:03-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "uk and france agree with oman to ensure safety of its territorial waters",
@@ -1134,6 +1143,10 @@
     {
       "k": "astrazenecas trial flop raises a bigger question is its pipeline premium becoming more vulnerable",
       "ts": "2026-07-11T05:45:26.373173+00:00"
+    },
+    {
+      "k": "trump threatens to decimate iran if it tries to kill him as treasury sanctions alleged iranian fi",
+      "ts": "2026-07-11T09:45:33.640186+00:00"
     }
   ]
 }
