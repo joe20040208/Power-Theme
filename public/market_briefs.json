@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-13 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 749.17,
+    "spy_change_pct": -0.77,
+    "vix": 17.16,
+    "hy_oas": 2.69,
+    "yield_curve": 0.36,
+    "credit_status": "Complacent",
+    "s5fi": 62.1,
+    "mmth": 68.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-13 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -2017,44 +2035,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corporation",
           "reason": "Microsoft (MSFT) is seeing renewed technical interest as it approaches a key overhead resistance level, drawing attention from momentum-focused traders."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-01 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Inflationary Bid / Volatile Rally",
-    "spy_price": 758.54,
-    "spy_change_pct": 0.27,
-    "vix": 16.05,
-    "hy_oas": 2.74,
-    "yield_curve": 0.47,
-    "credit_status": "Complacent",
-    "s5fi": 55.6,
-    "mmth": 61.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "HPE",
-          "company": "Hewlett Packard Enterprise Company",
-          "reason": "The company's new AI server launch and strategic NVIDIA partnership position it strongly in the rapidly expanding AI infrastructure market."
-        },
-        {
-          "ticker": "SPCE",
-          "company": "Virgin Galactic Holdings, Inc.",
-          "reason": "A significant new institutional investor signals renewed confidence and potential future capital injection for the space tourism pioneer."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Ongoing optimism surrounding its AI initiatives continues to drive flow, despite no fresh, specific catalyst today, making it a recycled theme."
         }
       ]
     }
