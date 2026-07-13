@@ -2,67 +2,43 @@
   "ok": true,
   "filter": "above50dma",
   "label": ">50 DMA",
-  "count": 5,
+  "count": 3,
   "stocks": [
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.58,
-      "change_pct": -0.05,
-      "adr_pct": 4.6,
-      "dollar_volume": "$1.10B",
-      "market_cap_b": 8.846,
+      "price": 83.67,
+      "change_pct": 0.11,
+      "adr_pct": 4.3,
+      "dollar_volume": "$1.11B",
+      "market_cap_b": 8.856,
       "rs_ibd": 95,
-      "above50dma_pct": 106.6
+      "above50dma_pct": 102.3
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 36.24,
-      "change_pct": 11.85,
-      "adr_pct": 8.1,
-      "dollar_volume": "$43.9M",
-      "market_cap_b": 1.265,
-      "rs_ibd": 84,
-      "above50dma_pct": 93.7
+      "price": 35.01,
+      "change_pct": -3.39,
+      "adr_pct": 8.3,
+      "dollar_volume": "$40.7M",
+      "market_cap_b": 1.222,
+      "rs_ibd": 80,
+      "above50dma_pct": 84.9
     },
     {
-      "ticker": "BLZE",
-      "company": "Backblaze, Inc.",
-      "industry": "Computer Peripherals",
-      "price": 17.6,
-      "change_pct": -1.29,
-      "adr_pct": 6.7,
-      "dollar_volume": "$65.0M",
-      "market_cap_b": 1.056,
-      "rs_ibd": 98,
-      "above50dma_pct": 87.0
-    },
-    {
-      "ticker": "DFTX",
-      "company": "Definium Therapeutics, Inc.",
-      "industry": "Pharmaceuticals: Major",
-      "price": 47.07,
-      "change_pct": -2.85,
-      "adr_pct": 6.4,
-      "dollar_volume": "$186.1M",
-      "market_cap_b": 6.248,
-      "rs_ibd": 97,
-      "above50dma_pct": 64.2
-    },
-    {
-      "ticker": "MBX",
-      "company": "MBX Biosciences, Inc.",
-      "industry": "Biotechnology",
-      "price": 61.05,
-      "change_pct": -7.09,
-      "adr_pct": 6.0,
-      "dollar_volume": "$69.9M",
-      "market_cap_b": 2.906,
-      "rs_ibd": 97,
-      "above50dma_pct": 54.8
+      "ticker": "PSNL",
+      "company": "Personalis, Inc.",
+      "industry": "Medical/Nursing Services",
+      "price": 15.04,
+      "change_pct": 6.89,
+      "adr_pct": 7.9,
+      "dollar_volume": "$72.3M",
+      "market_cap_b": 1.575,
+      "rs_ibd": 94,
+      "above50dma_pct": 52.4
     }
   ],
   "spx_benchmarks": {
@@ -73,5 +49,5 @@
     "spx_qtd": null,
     "spx_mtd": null
   },
-  "fetched_at_utc": "2026-07-10T21:45:27+00:00"
+  "fetched_at_utc": "2026-07-13T21:49:03+00:00"
 }

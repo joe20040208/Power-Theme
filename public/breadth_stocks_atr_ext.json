@@ -2,91 +2,79 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 7,
+  "count": 6,
   "stocks": [
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.58,
-      "change_pct": -0.05,
-      "adr_pct": 4.6,
-      "dollar_volume": "$1.10B",
-      "market_cap_b": 8.846,
+      "price": 83.67,
+      "change_pct": 0.11,
+      "adr_pct": 4.3,
+      "dollar_volume": "$1.11B",
+      "market_cap_b": 8.856,
       "rs_ibd": 95,
-      "atr_ext_val": 23.3
+      "atr_ext_val": 24.05
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 133.65,
-      "change_pct": 0.06,
-      "adr_pct": 2.3,
-      "dollar_volume": "$383.3M",
-      "market_cap_b": 10.048,
+      "price": 133.82,
+      "change_pct": 0.13,
+      "adr_pct": 2.2,
+      "dollar_volume": "$328.9M",
+      "market_cap_b": 10.061,
       "rs_ibd": 95,
-      "atr_ext_val": 16.0
-    },
-    {
-      "ticker": "BLZE",
-      "company": "Backblaze, Inc.",
-      "industry": "Computer Peripherals",
-      "price": 17.6,
-      "change_pct": -1.29,
-      "adr_pct": 6.7,
-      "dollar_volume": "$65.0M",
-      "market_cap_b": 1.056,
-      "rs_ibd": 98,
-      "atr_ext_val": 13.04
+      "atr_ext_val": 16.52
     },
     {
       "ticker": "TMHC",
       "company": "Taylor Morrison Home Corporation",
       "industry": "Homebuilding",
-      "price": 71.85,
-      "change_pct": 0.07,
+      "price": 71.87,
+      "change_pct": 0.03,
       "adr_pct": 0.7,
-      "dollar_volume": "$212.9M",
-      "market_cap_b": 6.61,
-      "rs_ibd": 50,
-      "atr_ext_val": 12.24
+      "dollar_volume": "$198.1M",
+      "market_cap_b": 6.612,
+      "rs_ibd": 54,
+      "atr_ext_val": 12.51
     },
     {
       "ticker": "PAYO",
       "company": "Payoneer Global Inc.",
       "industry": "Miscellaneous Commercial Services",
       "price": 7.1,
-      "change_pct": 0.14,
-      "adr_pct": 1.7,
-      "dollar_volume": "$30.1M",
+      "change_pct": 0.0,
+      "adr_pct": 1.6,
+      "dollar_volume": "$24.5M",
       "market_cap_b": 2.401,
-      "rs_ibd": 63,
-      "atr_ext_val": 11.89
+      "rs_ibd": 58,
+      "atr_ext_val": 12.17
     },
     {
       "ticker": "TECH",
       "company": "Bio-Techne Corp",
       "industry": "Biotechnology",
-      "price": 71.3,
-      "change_pct": 0.21,
-      "adr_pct": 2.4,
-      "dollar_volume": "$633.8M",
-      "market_cap_b": 11.163,
-      "rs_ibd": 74,
-      "atr_ext_val": 11.74
+      "price": 71.36,
+      "change_pct": 0.08,
+      "adr_pct": 2.3,
+      "dollar_volume": "$562.4M",
+      "market_cap_b": 11.173,
+      "rs_ibd": 73,
+      "atr_ext_val": 12.09
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 36.24,
-      "change_pct": 11.85,
-      "adr_pct": 8.1,
-      "dollar_volume": "$43.9M",
-      "market_cap_b": 1.265,
-      "rs_ibd": 84,
-      "atr_ext_val": 11.63
+      "price": 35.01,
+      "change_pct": -3.39,
+      "adr_pct": 8.3,
+      "dollar_volume": "$40.7M",
+      "market_cap_b": 1.222,
+      "rs_ibd": 80,
+      "atr_ext_val": 10.22
     }
   ],
   "spx_benchmarks": {
@@ -97,5 +85,5 @@
     "spx_qtd": null,
     "spx_mtd": null
   },
-  "fetched_at_utc": "2026-07-10T21:45:27+00:00"
+  "fetched_at_utc": "2026-07-13T21:49:03+00:00"
 }
