@@ -3,16 +3,33 @@
   "filter": "dn50m",
   "label": "Down 50%+ Monthly",
   "min_cap_b": 1.0,
-  "count": 0,
-  "stocks": [],
+  "count": 1,
+  "stocks": [
+    {
+      "ticker": "LUNR",
+      "company": "Intuitive Machines, Inc.",
+      "industry": "Aerospace & Defense",
+      "market_cap_b": 3.236,
+      "price": 14.91,
+      "change_pct": -1.58,
+      "dollar_volume": "$157.0M",
+      "adr_pct": 15.0,
+      "perf_1m": -50.09,
+      "perf_3m": -37.21,
+      "perf_34d": null,
+      "perf_qtd": -37.21,
+      "perf_mtd": -50.09,
+      "rs_ibd": 79
+    }
+  ],
   "spx_benchmarks": {
-    "spx_1d": -0.79,
-    "spx_1m": 1.64,
-    "spx_3m": 9.14,
-    "spx_34d": 0.56,
-    "spx_qtd": 0.43,
-    "spx_mtd": 0.43
+    "spx_1d": 0.38,
+    "spx_1m": 1.51,
+    "spx_3m": 8.27,
+    "spx_34d": 0.33,
+    "spx_qtd": 0.81,
+    "spx_mtd": 0.81
   },
-  "fetched_at_utc": "2026-07-13T21:49:14+00:00",
+  "fetched_at_utc": "2026-07-14T21:51:02+00:00",
   "source": "tv_fallback"
 }
