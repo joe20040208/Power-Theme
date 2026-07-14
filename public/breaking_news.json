@@ -1,32 +1,7 @@
 {
-  "last_checked": "July 13, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "China exports in June rise at fastest pace since 2021 as AI boom, tariff rush lift trade",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-13T23:50:52.865144-04:00",
-      "pub_time": "2026-07-13T23:45:21-04:00"
-    },
-    {
-      "headline": "China exports in June jump at fastest pace since 2021 as AI boom, tariff rush lift trade",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-13T22:50:49.660797-04:00",
-      "pub_time": "2026-07-13T22:47:52-04:00"
-    },
-    {
-      "headline": "China exports jump at fastest pace since 2021 as AI boom, tariff rush lift trade",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-13T22:45:24.771253-04:00",
-      "pub_time": "2026-07-13T22:41:24-04:00"
-    }
-  ],
+  "last_checked": "July 14, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "chinese ai models are gaining ground with us companies as openai anthropic costs surge",
