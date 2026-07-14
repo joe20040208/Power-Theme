@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 14, 2026 (04:55 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 14, 2026 (05:00 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Treasury yields rise as Fed rate hike expectations grow ahead of June inflation print",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-14T05:00:56.278145-04:00",
+      "pub_time": "2026-07-14T04:38:40-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "samsung posts 1800 jump in profit but ai spending concerns spook investors",
@@ -1182,6 +1191,10 @@
     {
       "k": "is hormuz open trumps toll threat intensifies rush to bypass the strait altogether",
       "ts": "2026-07-14T08:50:57.571403+00:00"
+    },
+    {
+      "k": "treasury yields rise as fed rate hike expectations grow ahead of june inflation print",
+      "ts": "2026-07-14T09:00:56.661960+00:00"
     }
   ]
 }
