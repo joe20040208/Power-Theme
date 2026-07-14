@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 13, 2026 (22:40 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 13, 2026 (22:45 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "China exports jump at fastest pace since 2021 as AI boom, tariff rush lift trade",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-13T22:45:24.771253-04:00",
+      "pub_time": "2026-07-13T22:41:24-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "chinese ai models are gaining ground with us companies as openai anthropic costs surge",
@@ -1158,6 +1167,10 @@
     {
       "k": "trumps hormuz toll plans bring oil supply risks back in spotlight",
       "ts": "2026-07-14T02:40:53.260010+00:00"
+    },
+    {
+      "k": "china exports jump at fastest pace since 2021 as ai boom tariff rush lift trade",
+      "ts": "2026-07-14T02:45:25.463438+00:00"
     }
   ]
 }
