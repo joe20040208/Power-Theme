@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 13, 2026 (22:45 EST)",
+  "last_checked": "July 13, 2026 (22:50 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "China exports in June jump at fastest pace since 2021 as AI boom, tariff rush lift trade",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-13T22:50:49.660797-04:00",
+      "pub_time": "2026-07-13T22:47:52-04:00"
+    },
     {
       "headline": "China exports jump at fastest pace since 2021 as AI boom, tariff rush lift trade",
       "source": "CNBC",
@@ -1171,6 +1179,10 @@
     {
       "k": "china exports jump at fastest pace since 2021 as ai boom tariff rush lift trade",
       "ts": "2026-07-14T02:45:25.463438+00:00"
+    },
+    {
+      "k": "china exports in june jump at fastest pace since 2021 as ai boom tariff rush lift trade",
+      "ts": "2026-07-14T02:50:50.158468+00:00"
     }
   ]
 }
