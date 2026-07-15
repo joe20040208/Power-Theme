@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 14, 2026 (22:45 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 14, 2026 (22:50 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-14T22:50:49.138050-04:00",
+      "pub_time": "2026-07-14T22:47:52-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "oil jumps as us powerful strikes against iran risk unraveling fragile mideast truce",
@@ -1238,6 +1247,10 @@
     {
       "k": "china posts slowest gdp growth since 2022 at 43 missing expectations",
       "ts": "2026-07-15T02:10:51.157095+00:00"
+    },
+    {
+      "k": "china posts slowest quarterly growth since 2022 as investment slumps fanning stimulus calls",
+      "ts": "2026-07-15T02:50:49.721501+00:00"
     }
   ]
 }
