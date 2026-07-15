@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 15, 2026 (16:30 EST)",
+  "last_checked": "July 15, 2026 (16:35 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "us military launches new iran strikes as trump says not sure he wants deal",
-      "ts": "2026-07-08T20:30:59.492846+00:00"
-    },
     {
       "k": "spacex stock closes below debut price at 148 in twoday slide after nasdaq100 inclusion",
       "ts": "2026-07-08T21:05:27.123923+00:00"
@@ -1295,6 +1291,10 @@
     {
       "k": "united earnings top estimates but airline expects 6 billion in added fuel costs",
       "ts": "2026-07-15T20:20:54.012016+00:00"
+    },
+    {
+      "k": "trump blasts new york ai data center moratorium says state should change policy immediately",
+      "ts": "2026-07-15T20:35:28.006427+00:00"
     }
   ]
 }
