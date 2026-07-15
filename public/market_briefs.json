@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-15 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 754.81,
+    "spy_change_pct": 0.4,
+    "vix": 15.67,
+    "hy_oas": 2.72,
+    "yield_curve": 0.4,
+    "credit_status": "Complacent",
+    "s5fi": 61.0,
+    "mmth": 67.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-15 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1937,44 +1955,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp",
           "reason": "Continued speculation around AI chip demand and ongoing analyst upgrades from earlier in the week provide a carry-over technical catalyst."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-03 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-Off / Credit Caution",
-    "spy_price": 754.24,
-    "spy_change_pct": -0.7,
-    "vix": 16.06,
-    "hy_oas": 2.71,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 53.7,
-    "mmth": 61.4,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "High conviction due to fresh AI product innovations expected to boost market share and revenue growth."
-        },
-        {
-          "ticker": "ABVX",
-          "company": "AbbVie Inc.",
-          "reason": "High conviction due to a new drug safety signal, posing potential headwinds for key pharmaceutical products."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Featured due to ongoing technical momentum and consistent institutional flow, rather than a new fundamental catalyst today."
         }
       ]
     }
