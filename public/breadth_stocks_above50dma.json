@@ -2,64 +2,88 @@
   "ok": true,
   "filter": "above50dma",
   "label": ">50 DMA",
-  "count": 4,
+  "count": 6,
   "stocks": [
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.71,
-      "change_pct": 0.05,
-      "adr_pct": 4.0,
-      "dollar_volume": "$1.15B",
-      "market_cap_b": 8.86,
+      "price": 83.9,
+      "change_pct": 0.23,
+      "adr_pct": 3.7,
+      "dollar_volume": "$1.17B",
+      "market_cap_b": 8.88,
       "rs_ibd": 95,
-      "above50dma_pct": 98.1
+      "above50dma_pct": 94.4
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 34.37,
-      "change_pct": -1.83,
-      "adr_pct": 8.5,
-      "dollar_volume": "$41.2M",
-      "market_cap_b": 1.199,
-      "rs_ibd": 78,
-      "above50dma_pct": 79.4
+      "price": 36.13,
+      "change_pct": 5.12,
+      "adr_pct": 8.2,
+      "dollar_volume": "$41.9M",
+      "market_cap_b": 1.261,
+      "rs_ibd": 81,
+      "above50dma_pct": 85.9
+    },
+    {
+      "ticker": "CHRN",
+      "company": "ChronoScale Holdings Corporation",
+      "industry": "Packaged Software",
+      "price": 29.63,
+      "change_pct": 28.77,
+      "adr_pct": 10.3,
+      "dollar_volume": "$13.1M",
+      "market_cap_b": 4.303,
+      "rs_ibd": 98,
+      "above50dma_pct": 59.2
+    },
+    {
+      "ticker": "PSNL",
+      "company": "Personalis, Inc.",
+      "industry": "Medical/Nursing Services",
+      "price": 15.79,
+      "change_pct": 5.06,
+      "adr_pct": 7.2,
+      "dollar_volume": "$76.9M",
+      "market_cap_b": 1.654,
+      "rs_ibd": 95,
+      "above50dma_pct": 53.9
+    },
+    {
+      "ticker": "ERAS",
+      "company": "Erasca, Inc.",
+      "industry": "Pharmaceuticals: Major",
+      "price": 21.26,
+      "change_pct": 9.03,
+      "adr_pct": 6.0,
+      "dollar_volume": "$113.2M",
+      "market_cap_b": 6.612,
+      "rs_ibd": 99,
+      "above50dma_pct": 52.4
     },
     {
       "ticker": "DFTX",
       "company": "Definium Therapeutics, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 45.98,
-      "change_pct": 5.34,
-      "adr_pct": 6.7,
-      "dollar_volume": "$119.0M",
-      "market_cap_b": 6.104,
+      "price": 45.66,
+      "change_pct": -0.7,
+      "adr_pct": 6.6,
+      "dollar_volume": "$104.5M",
+      "market_cap_b": 6.061,
       "rs_ibd": 97,
-      "above50dma_pct": 55.3
-    },
-    {
-      "ticker": "TXG",
-      "company": "10x Genomics, Inc.",
-      "industry": "Biotechnology",
-      "price": 45.79,
-      "change_pct": 9.62,
-      "adr_pct": 5.9,
-      "dollar_volume": "$132.2M",
-      "market_cap_b": 5.813,
-      "rs_ibd": 95,
       "above50dma_pct": 51.7
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 0.38,
-    "spx_1m": 1.51,
-    "spx_3m": 8.27,
-    "spx_34d": 0.33,
-    "spx_qtd": 0.81,
-    "spx_mtd": 0.81
+    "spx_1d": null,
+    "spx_1m": null,
+    "spx_3m": null,
+    "spx_34d": null,
+    "spx_qtd": null,
+    "spx_mtd": null
   },
-  "fetched_at_utc": "2026-07-14T21:50:51+00:00"
+  "fetched_at_utc": "2026-07-15T21:45:51+00:00"
 }

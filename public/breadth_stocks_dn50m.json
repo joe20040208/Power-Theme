@@ -6,30 +6,30 @@
   "count": 1,
   "stocks": [
     {
-      "ticker": "LUNR",
-      "company": "Intuitive Machines, Inc.",
-      "industry": "Aerospace & Defense",
-      "market_cap_b": 3.236,
-      "price": 14.91,
-      "change_pct": -1.58,
-      "dollar_volume": "$157.0M",
-      "adr_pct": 15.0,
-      "perf_1m": -50.09,
-      "perf_3m": -37.21,
+      "ticker": "AXTI",
+      "company": "AXT Inc",
+      "industry": "Electronic Production Equipment",
+      "market_cap_b": 3.495,
+      "price": 53.42,
+      "change_pct": -7.21,
+      "dollar_volume": "$478.0M",
+      "adr_pct": 19.7,
+      "perf_1m": -50.23,
+      "perf_3m": -15.0,
       "perf_34d": null,
-      "perf_qtd": -37.21,
-      "perf_mtd": -50.09,
-      "rs_ibd": 79
+      "perf_qtd": -15.0,
+      "perf_mtd": -50.23,
+      "rs_ibd": 99
     }
   ],
   "spx_benchmarks": {
     "spx_1d": 0.38,
-    "spx_1m": 1.51,
-    "spx_3m": 8.27,
-    "spx_34d": 0.33,
-    "spx_qtd": 0.81,
-    "spx_mtd": 0.81
+    "spx_1m": 0.24,
+    "spx_3m": 7.82,
+    "spx_34d": 0.69,
+    "spx_qtd": 1.19,
+    "spx_mtd": 1.19
   },
-  "fetched_at_utc": "2026-07-14T21:51:02+00:00",
+  "fetched_at_utc": "2026-07-15T21:46:03+00:00",
   "source": "tv_fallback"
 }

@@ -2,76 +2,88 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 5,
+  "count": 6,
   "stocks": [
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.71,
-      "change_pct": 0.05,
-      "adr_pct": 4.0,
-      "dollar_volume": "$1.15B",
-      "market_cap_b": 8.86,
+      "price": 83.9,
+      "change_pct": 0.23,
+      "adr_pct": 3.7,
+      "dollar_volume": "$1.17B",
+      "market_cap_b": 8.88,
       "rs_ibd": 95,
-      "atr_ext_val": 24.73
+      "atr_ext_val": 25.52
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 133.96,
-      "change_pct": 0.1,
-      "adr_pct": 2.0,
-      "dollar_volume": "$300.7M",
-      "market_cap_b": 10.072,
+      "price": 134.29,
+      "change_pct": 0.25,
+      "adr_pct": 1.9,
+      "dollar_volume": "$236.6M",
+      "market_cap_b": 10.121,
       "rs_ibd": 95,
-      "atr_ext_val": 17.04
-    },
-    {
-      "ticker": "TMHC",
-      "company": "Taylor Morrison Home Corporation",
-      "industry": "Homebuilding",
-      "price": 71.94,
-      "change_pct": 0.1,
-      "adr_pct": 0.7,
-      "dollar_volume": "$185.3M",
-      "market_cap_b": 6.618,
-      "rs_ibd": 54,
-      "atr_ext_val": 12.9
-    },
-    {
-      "ticker": "PAYO",
-      "company": "Payoneer Global Inc.",
-      "industry": "Miscellaneous Commercial Services",
-      "price": 7.1,
-      "change_pct": 0.0,
-      "adr_pct": 1.5,
-      "dollar_volume": "$22.5M",
-      "market_cap_b": 2.401,
-      "rs_ibd": 57,
-      "atr_ext_val": 12.38
+      "atr_ext_val": 17.6
     },
     {
       "ticker": "TECH",
       "company": "Bio-Techne Corp",
       "industry": "Biotechnology",
-      "price": 71.23,
-      "change_pct": -0.18,
-      "adr_pct": 2.1,
-      "dollar_volume": "$476.9M",
-      "market_cap_b": 11.152,
-      "rs_ibd": 73,
-      "atr_ext_val": 12.36
+      "price": 71.48,
+      "change_pct": 0.35,
+      "adr_pct": 2.0,
+      "dollar_volume": "$388.0M",
+      "market_cap_b": 11.192,
+      "rs_ibd": 75,
+      "atr_ext_val": 13.04
+    },
+    {
+      "ticker": "TMHC",
+      "company": "Taylor Morrison Home Corporation",
+      "industry": "Homebuilding",
+      "price": 71.86,
+      "change_pct": -0.11,
+      "adr_pct": 0.6,
+      "dollar_volume": "$180.5M",
+      "market_cap_b": 6.611,
+      "rs_ibd": 54,
+      "atr_ext_val": 12.72
+    },
+    {
+      "ticker": "PAYO",
+      "company": "Payoneer Global Inc.",
+      "industry": "Miscellaneous Commercial Services",
+      "price": 7.11,
+      "change_pct": 0.14,
+      "adr_pct": 1.4,
+      "dollar_volume": "$21.1M",
+      "market_cap_b": 2.405,
+      "rs_ibd": 50,
+      "atr_ext_val": 12.7
+    },
+    {
+      "ticker": "TRAX",
+      "company": "First Tracks Biotherapeutics, Inc.",
+      "industry": "Biotechnology",
+      "price": 36.13,
+      "change_pct": 5.12,
+      "adr_pct": 8.2,
+      "dollar_volume": "$41.9M",
+      "market_cap_b": 1.261,
+      "rs_ibd": 81,
+      "atr_ext_val": 10.47
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 0.38,
-    "spx_1m": 1.51,
-    "spx_3m": 8.27,
-    "spx_34d": 0.33,
-    "spx_qtd": 0.81,
-    "spx_mtd": 0.81
+    "spx_1d": null,
+    "spx_1m": null,
+    "spx_3m": null,
+    "spx_34d": null,
+    "spx_qtd": null,
+    "spx_mtd": null
   },
-  "fetched_at_utc": "2026-07-14T21:50:51+00:00"
+  "fetched_at_utc": "2026-07-15T21:45:51+00:00"
 }
