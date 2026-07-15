@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 15, 2026 (12:15 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 15, 2026 (12:20 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-15T12:20:57.086228-04:00",
+      "pub_time": "2026-07-15T12:19:08-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "trump loses latest appeals court bid to restore his name to kennedy center",
@@ -1282,6 +1291,10 @@
     {
       "k": "spacex stock sinks below 135 ipo price for the first time",
       "ts": "2026-07-15T16:15:32.613316+00:00"
+    },
+    {
+      "k": "fed chairman kevin warshs testimony to senate banking committee hits on economy interest rates",
+      "ts": "2026-07-15T16:20:57.731452+00:00"
     }
   ]
 }
