@@ -9,27 +9,27 @@
       "ticker": "AXTI",
       "company": "AXT Inc",
       "industry": "Electronic Production Equipment",
-      "market_cap_b": 3.495,
-      "price": 53.42,
-      "change_pct": -7.21,
-      "dollar_volume": "$478.0M",
-      "adr_pct": 19.7,
-      "perf_1m": -50.23,
-      "perf_3m": -15.0,
+      "market_cap_b": 2.981,
+      "price": 45.57,
+      "change_pct": -14.69,
+      "dollar_volume": "$420.9M",
+      "adr_pct": 22.8,
+      "perf_1m": -58.04,
+      "perf_3m": -42.4,
       "perf_34d": null,
-      "perf_qtd": -15.0,
-      "perf_mtd": -50.23,
+      "perf_qtd": -42.4,
+      "perf_mtd": -58.04,
       "rs_ibd": 99
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 0.38,
-    "spx_1m": 0.24,
-    "spx_3m": 7.82,
-    "spx_34d": 0.69,
-    "spx_qtd": 1.19,
-    "spx_mtd": 1.19
+    "spx_1d": -0.51,
+    "spx_1m": 0.3,
+    "spx_3m": 6.99,
+    "spx_34d": -0.39,
+    "spx_qtd": 0.68,
+    "spx_mtd": 0.68
   },
-  "fetched_at_utc": "2026-07-15T21:46:03+00:00",
+  "fetched_at_utc": "2026-07-16T21:47:42+00:00",
   "source": "tv_fallback"
 }
