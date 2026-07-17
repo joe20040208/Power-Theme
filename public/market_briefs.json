@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-17 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 743.29,
+    "spy_change_pct": -0.99,
+    "vix": 18.77,
+    "hy_oas": 2.71,
+    "yield_curve": 0.41,
+    "credit_status": "Complacent",
+    "s5fi": 63.2,
+    "mmth": 68.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-17 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1857,44 +1875,6 @@
           "ticker": "ZM",
           "company": "Zoom Video Communications, Inc.",
           "reason": "Continues to face headwinds from increased competition and slowing enterprise adoption rates, with today's selling reflecting broader tech sector weakness rather than fresh news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-05 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-Off / Heightened Volatility",
-    "spy_price": 737.55,
-    "spy_change_pct": -2.58,
-    "vix": 21.51,
-    "hy_oas": 2.74,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 54.2,
-    "mmth": 63.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "RDW",
-          "company": "RDW Corporation",
-          "reason": "The company secured significant new contracts, signaling strong business momentum despite the broader market downturn."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp",
-          "reason": "Microsoft announced a multi-billion dollar AI infrastructure contract, reinforcing its dominant position in enterprise cloud solutions."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "JPMorgan saw continued technical trading interest, supported by recycled speculation regarding sector consolidation and recent analyst commentary."
         }
       ]
     }
