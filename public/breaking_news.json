@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 17, 2026 (15:40 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 17, 2026 (15:45 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump rips Canada as wildfire smoke spreads, says U.S. will add pollution cost to tariffs",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-17T15:45:29.261449-04:00",
+      "pub_time": "2026-07-17T15:40:55-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "trump admin eases export controls for uae warren blasts corrupt provision",
@@ -1262,6 +1271,10 @@
     {
       "k": "iraq and syria sign agreement to restore oil pipeline that would provide alternative to strait of ho",
       "ts": "2026-07-17T18:50:32.197178+00:00"
+    },
+    {
+      "k": "trump rips canada as wildfire smoke spreads says us will add pollution cost to tariffs",
+      "ts": "2026-07-17T19:45:29.863041+00:00"
     }
   ]
 }
