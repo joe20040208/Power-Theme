@@ -1,133 +1,54 @@
 {
-  "scan_time": "2026-07-16 08:05 ET",
+  "scan_time": "2026-07-17 08:07 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "ATAI",
-      "price": 5.36,
-      "gap_pct": 34.34,
-      "pm_volume": 12985957,
-      "avg_vol_10d": 9507293,
-      "avg_dollar_vol": 50959090,
-      "mkt_cap": 1973373491,
-      "rvol": 0.67,
-      "adr_pct": 8.53,
+      "ticker": "PSNL",
+      "price": 15.58,
+      "gap_pct": 5.26,
+      "pm_volume": 74215,
+      "avg_vol_10d": 5761116,
+      "avg_dollar_vol": 89758187,
+      "mkt_cap": 1631554728,
+      "rvol": 2.74,
+      "adr_pct": 8.95,
       "category": "Others",
       "theme": "Others",
-      "reasoning": "Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8 billion as experimental treatments gain traction - CNBC",
+      "reasoning": "Why Is PSNL Stock Up 5% After-Hours? - Stocktwits",
       "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8 billion as experimental treatments gain traction - CNBC | Impact: See analysis.",
-      "analysis_details": "Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8 billion as experimental treatments gain traction - CNBC",
+      "analysis_detail": "Catalyst: Why Is PSNL Stock Up 5% After-Hours? - Stocktwits | Impact: See analysis.",
+      "analysis_details": "Why Is PSNL Stock Up 5% After-Hours? - Stocktwits",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8 billion as experimental treatments gain traction - CNBC",
+          "title": "Why Is PSNL Stock Up 5% After-Hours? - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYmtnNzNheEZDZEFwLXY5UFBDc0FHeGc4OXZJUGgzeFNRVjE3RGtsOVhSMGFWRTRMNmpQdGRFZDNTWVhMcWR4MUNaOHB6X2g3LUloUE03NVZhZkxkeXFzeEV4ZnRYRWNaenBFZnAyT1BtNXNmU2NxS0VVcDU3SlZFLXFmYkRmOEZyRUdoQXltMkQyTmtLZ2tFejM1bHkxcDRmM1HSAacBQVVfeXFMUDYzb21fTEcxTXZjNWpnZ3IwT3VWclhOcXd3UkczSjdwTVozNDZ3RlpIZmxDVE5fYllfYURKT3dzLW1fWVNUdkc2M1dzUURiSHNKaEEzREljamltVDEwUVVNSG1WaUlnYVIxQzAybGF2LVJseE9nWnFYWkJnU0stZDM1Q3NiWXBhRTQtdWVLTElDaTNud09kQ2Nfa2wwaHF4UjE5SnkzNUk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTQyTDhaY3MxNndLYzFXdWZGTnNkdm1iVlZKSjB6ckZCMzBVTXp4NW5ZYmdxTW5jSkk5bGZZVWdwTGpGSnBFSXIyaWxMMUpVRkY3RUxJbHdPcWhWN2ZJYkJjMXh0cmtnZTFoRVVPaVU0SEh4WkE1MXB4TkdBWmwydGhUQjgxRWotU1NzODAtdW9XYTN6M1VTUENBVklLR1k?oc=5"
         },
         {
-          "title": "Lilly to acquire AtaiBeckley to advance therapies for treatment-resistant depression and other mental health conditions - Yahoo Finance",
+          "title": "12 Health Care Stocks Moving In Thursday's After-Market Session - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVVaSFBKSzNacW5hVzFpWUJjMFhxclhEZFQyUlh1RVJxM3NiM0M0ZnBMSTZRWGJZdDZlVkhwYjRLNGQ3R25nU1N0enpiSjlNZlNBQmhwa0hJbERiblJzWGNpMmdyakhya1A2c1Y1TnRjVGF6dWhmSlE0c29ubUVOR0VVdmF2Vm9sWEIzS0FpSC1KNERfc2lhT1NRRFdKVUhHR0N1VVhnTQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUmtiemFOT0c0cms0ZklMTHZxOW8xUGxISFVNTk1hOFRHSVV2WmNWWmEwYVFvZlI2TktDUmthdFJJME5GYkgtSFRKNU5VQnlkWDlhY3VWNEJSakNXVGZmQkRDT19uSDhFYkN3ZjdlNFpZSGd0SVJJSTdNc0VhYS1hbWtPaUhLeDE0aWJGeEhvbndHV2RBQnVOTFJ6NmZBZ011U3d3YzB5aEg2cXlmTnFYSnQ1N1UtU3lxNzlDa2RB?oc=5"
         },
         {
-          "title": "AtaiBeckley (ATAI) Stock Skyrockets 65% After-Hours on Eli Lilly Acquisition Talks - Benzinga",
+          "title": "Personalis attracting takeover interest, Street Insider says - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYmlWaDFULXhnWTdlQ0YxdWRubmNKLTJaRHA4VDg0ekQwQ3JaQ2JYYUgybXBKMkxES3psVk9VdWxYZEV3bzlaQnVWc0NxQlM1eFI3TGhqZjNnZjBvSGVFSi0xUFFZdlE1bk5VZ0RZY2NtaDdwcTByY2pObU1RcmthejNQRC1qa0MwV3VtSDhHMkplb1NNa3d6al81MkxEdFlsV2tvc0VnN2V1M094cVRzME13SDlZMy1pdUZfSG1XcHhoMUk3bS0zeERNRDZWekxDWHc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmZLem5jeUk1Z2NWWEVlU3pVMFlrbmxLV3JsUG1fM0tzWHRZRjhQOHA2OTNUQTM2bmVhVmZJcWYzcmUtRG9ab0podlQza09HeV9sNW1MSHY3enBKbGItTTJ1RmR1TzhRblhTZ0dpYVNUMW9ETU9JTkdSN2k5dnRBRzlpek1lRktHRmNKRGI3VHN0Z05ZX3B5OFdaRno0NVUyRnZ6cHFSTmdLV0JzOFE?oc=5"
         },
         {
-          "title": "Why Is ATAI Stock Soaring 59% After-Hours? - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQUNRNDlmNjBXeGVLcFlPZW0xNXVZc01sckR2RFdTUDdrNXBwV0ktQ1pkSDVBbE1KUEtHNXpzczd5dldmLUpxbDlnR2x2cEtWTHRqNjBBRF9PSk10NEtIY3Y5YjJOZ0dra1dySlNFMl9LWVZ2U2FaRW0zeTUtU3NLQ2hQaFJySXRDeXBqcFllWVJGa0JxU09qc1EzN2pSWG04emJn?oc=5"
-        },
-        {
-          "title": "Here Is Why AtaiBeckley (ATAI) Is One Of The 10 Best Stocks Under $10 That Could Triple - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUWRPWm9BSGVHOTUyQ1VzM0VNcTUwSWhaemFzeWJuY1p1TGFnVGRxZXcwYS1mVFFJWmowRVVVTjBBMnM2X0t6R295RmdVaVZ3d20wTUhrYmE1WFJlSmplMDB4VGVYbUt2Sm95NEFIOWFXREdLZ2Ezd3dYRXRjMGRoejV1M3NwRVN3Vk1JWExBSGtlR3RoUFVv?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $51M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Eli Lilly to buy psychedelics maker AtaiBeckley for $2.8 billion as experimental treatments gain traction - CNBC",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "CMPS",
-      "price": 13.31,
-      "gap_pct": 9.17,
-      "pm_volume": 214411,
-      "avg_vol_10d": 5021702,
-      "avg_dollar_vol": 66838854,
-      "mkt_cap": 1795829113,
-      "rvol": 0.55,
-      "adr_pct": 7.37,
-      "category": "FDA",
-      "theme": "FDA",
-      "reasoning": "ATAI Stock Soars On Eli Lilly’s $2.8B Buyout – Why Are CMPS Shares Rising Too? - TradingView",
-      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: ATAI Stock Soars On Eli Lilly’s $2.8B Buyout – Why Are CMPS Shares Rising Too? - TradingView | Impact: See analysis.",
-      "analysis_details": "ATAI Stock Soars On Eli Lilly’s $2.8B Buyout – Why Are CMPS Shares Rising Too? - TradingView",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "ATAI Stock Soars On Eli Lilly’s $2.8B Buyout – Why Are CMPS Shares Rising Too? - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdEdpdU5rdUdqaXJkeldxT3dSNDVRSzg1VUZjdF9ETWlyaUNGLTJtWmpTRmE4Qmc2UzAxLVl4aHlUdW5vcUVKX1I3N0RreUdTbTFiUy1Ubk9oWExucUVPU3hMYm9GT3FFa1F0VzF6QTNod3ZZR25LcEpUU0xWcTRPa3hKQzVrUUU1NDFCZFRUVmFINVJUNWVoekt4eEc3Zk4yN1VVUjJWT3l6RDFpR2l2WkNxQlZjUm1qY2dwQmhfUkdJVWxBb0pTRnZtTFg0WGd0?oc=5"
-        },
-        {
-          "title": "Why Psychedelic stocks are surging today - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbk81WTQ5bVZRcjk5V2N5QXYyX3FPdEVNclFOWnFUMS11OXJlNDdCSVJ5ZU5vSGRxc1g1bjJLQWtzdnhrc2h3dUVHT0Q3eG5TNGRtaFE2cDJaaS04d2RKbXR4dGRES3NvWVlEa1dIYUMwN3p4aFU1ZWRJUklucGpsZW9EWEdhNlJ3UVJJb0JZSnVrcWR2eVRzdGVuU0U4UQ?oc=5"
-        },
-        {
-          "title": "Compass Pathways PTSD Study Found 78% of Sessions Were Silent - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT3llbDZITmg0UE5zT2s1b3NWNUtzLVNpX1ZfNEszbDE2M2htNHJxMVZ0Z0JZQUJRdngyLWp1NmlOeE1Fdi1UNUtHT3lreWlxZF93S04xOVNSUTJJNFVZMnRnajdhdEtQc2R1a1Z2aFNHbDI4aVlBM0Y5bk02Rl8ybGZENHo4RUdWRm1ULWRNMmM0MlV6SHJiMThVWUdEMDNyVWt6d3k3UGw2RUFwZW1yZlpjeWI?oc=5"
-        },
-        {
-          "title": "Should COMP360’s Durable Phase 3 Results and FDA Momentum Require Action From COMPASS Pathways (CMPS) Investors? - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPczBnTUJpY3Q4cHBHVVZvZ2h4RXN1WEhMc0FuQXJEUWtrY3U1QXFpeHRqUWYwcVdhZkUyOF9sMWNnX0J0XzNCZndob0xWdVdldy02ZXpJSnZfMllueGRKQ2xtZXJmXzhqSW9iVDNiVTdic3lSdzJUSndmbkxMMTV3S0lMNkg4aVFwR1kyMlZYUHJqOE5uUVdQdm95SFdDQlhqWXBaRURWeEsweXVCZ3ZWdnVFSWRRbzgyQWhNUEM4WE1TcFRLOEVRN1pJb3NCV1BNeWJYeGItejR4WUc3aXRZemRtOFc0TXFLLWfSAeoBQVVfeXFMT3MwZ01CaWN0OHBwR1VWb2doeEVzdVhITHNBbkFyRFFra2N1NUFxaXh0alFmMHFXYWZFMjhfbDFjZ19CdF8zQmZ3aG9MVnVXZXctNmV6SUp2XzJZbnhkSkNsbWVyZl84aklvYlQzYlU3YnN5UncyVEp3Zm5MTDE1d0tJTDZIOGlRcEdZMjJWWFByajhOblFXUHZveUhXQ0JYallwWkVEVnhLMHl1Qmd2VnZ1RUlkUW84MkFoTVBDOFhNU3BUSzhFUTdaSW9zQldQTXliWHhiLXo0eFlHN2l0WXpkbThXNE1xSy1n?oc=5"
-        },
-        {
-          "title": "Johnson & Johnsons Spravato sales growth supports psychedelic drug opportunity: Jefferies",
+          "title": "Why Is PSNL Stock Up 5% After-Hours?",
           "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/b46303ae-6f2d-3169-bd32-7f48f6cdbef5/johnson-%26-johnson%E2%80%99s-spravato.html"
+          "url": "https://finance.yahoo.com/m/e40123dd-8da8-3217-a6e3-dd040eaa05e8/why-is-psnl-stock-up-5%25.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $67M < $100M)",
+      "technical_status": "Fail (Avg $Vol $90M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -135,7 +56,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "ATAI Stock Soars On Eli Lilly’s $2.8B Buyout – Why Are CMPS Shares Rising Too? - TradingView",
+        "primary_claim": "Why Is PSNL Stock Up 5% After-Hours? - Stocktwits",
         "discrepancy_note": ""
       },
       "gates_passed": 3,
@@ -151,57 +72,31 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "EOSE",
-      "price": 4.37,
-      "gap_pct": 8.47,
-      "pm_volume": 970961,
-      "avg_vol_10d": 27323786,
-      "avg_dollar_vol": 119404945,
-      "mkt_cap": 1543473743,
-      "rvol": 0.97,
-      "adr_pct": 9.97,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Why Is Eos Energy Stock Gaining Thursday? - Eos Energy Enterprises (NASDAQ:EOSE) - Benzinga",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
+      "ticker": "TRVI",
+      "price": 17.36,
+      "gap_pct": 4.84,
+      "pm_volume": 54404,
+      "avg_vol_10d": 2702864,
+      "avg_dollar_vol": 46921719,
+      "mkt_cap": 2464767779,
+      "rvol": 1.12,
+      "adr_pct": 6.05,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Why Is Eos Energy Stock Gaining Thursday? - Eos Energy Enterprises (NASDAQ:EOSE) - Benzinga | Impact: See analysis.",
-      "analysis_details": "Why Is Eos Energy Stock Gaining Thursday? - Eos Energy Enterprises (NASDAQ:EOSE) - Benzinga",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
       "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Why Is Eos Energy Stock Gaining Thursday? - Eos Energy Enterprises (NASDAQ:EOSE) - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeE8yd3Z3WTItazNvNkMwTmdUb05Ta0tGNXRSZjRtSXNJdmdFZ1QwQ2JtRnB2ZVliZVhlQ2VfdDk1LW1sOG5rT2xiRUxTUzlqMXdnYzd3cWx5N0JYeEdNUm5FRzFyOGZFd1VoZ1ZiY3NDVXhSazRrOW9jd3Fuc1FLOGVnNzR2dlBEMEJIaGp6S19NWnZlVHNPZDZYQW14V1FJNHBGbDZIcFVFcFphVUZYZ3lHckdWTFRNTWpldmdhSTkzb3lQOFJGMk5mUEtBak0?oc=5"
-        },
-        {
-          "title": "Biggest stock movers Thursday: TSM, EOSE, ASTS, and more - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmdoZDZHUThRVWtVWkU0VTl5WGNQSUlHN3ZyRGFTRFRiZ0VYalB6a0ljOHBGclhRel95cnBtbFV0RmxrSTJkNkpMdUZjUUNtaTVFSjBvV21mN0wyZUR2RzNTYnN1MVlaQ1ZsVGs5Y2xkZFM1ejNRMWdOMHVjN1pOaVRfNlYzWEhnazdFak13YmJJYVg3?oc=5"
-        },
-        {
-          "title": "Record Defense Contract And Q2 Revenue Might Change The Case For Investing In Eos Energy (EOSE) - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMlFTb2VHdXV4ZmFBamUyM0pyM0p5TkFVQlFlOC1BSEtMMzd0SVdTN21mWTk5UDVrWXR4U0ZnWS01MDJoaHluY0tFSG9Oa2JnV203MGdhMEM1c2stWFI1c2gzUnh3SU9vM3JsaG5JcWtpc3E1NmZxVnpEZE9TTGxWT0Nja2pJUngwUXIwaFZmSzd0TjhDaUw3dkdlOFBWNXhZ?oc=5"
-        },
-        {
-          "title": "Pittsburgh-Made Energy Storage Selected for Golden Dome Defense - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc0p3bzYyTWFVSUV1OGdfTHQ5RWMwd2tDOWNCeHJMYldMbXpXcktVcnRCSV9DdjZTMVRyLXBSWHhtQ3hObTBOSS1wRXE3X2J1dWdheG9HaWVXcXNoaU0wLTNXSDRpdVhOYXJ3bGhUR1Q0V1BPR1R1X3hTU1NoblNMbHBldjFhaUFPOGx5dkpqU0lNLU5lQ1JnYUNDTzlEM2lOdnUtYmQtV3lzSFlUdU9zaklOdTJRSXF3ODdlNXpB?oc=5"
-        },
-        {
-          "title": "Eos Energy Enterprises Selected to Deliver Mission-Ready Power for Golden Dome for America",
-          "source": "Finviz",
-          "url": "/news/368819/eos-energy-enterprises-selected-to-deliver-mission-ready-power-for-golden-dome-for-america"
-        }
-      ],
+      "headlines": [],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Pass",
+      "technical_status": "Fail (Avg $Vol $47M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -209,242 +104,20 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Why Is Eos Energy Stock Gaining Thursday? - Eos Energy Enterprises (NASDAQ:EOSE) - Benzinga",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "UNH",
-      "price": 418.52,
-      "gap_pct": 5.65,
-      "pm_volume": 287013,
-      "avg_vol_10d": 5008516,
-      "avg_dollar_vol": 2096164116,
-      "mkt_cap": 380076562608,
-      "rvol": 1.47,
-      "adr_pct": 2.26,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "UNH Stock Flashes Buy Signal On Massive Earnings Beat - Investor's Business Daily",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: UNH Stock Flashes Buy Signal On Massive Earnings Beat - Investor's Business Daily | Impact: See analysis.",
-      "analysis_details": "UNH Stock Flashes Buy Signal On Massive Earnings Beat - Investor's Business Daily",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "UNH Stock Flashes Buy Signal On Massive Earnings Beat - Investor's Business Daily",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KN1g2cEllT2tETm9xV19kQ21kS0pTYkZRalVFVDNWdXItZXFlc2FVd2N0bjZDNlJSaS1QTzFRdFc5MjZ2UFhreGZxNnNMRW5VRXdHbzZSQWFkaFR1ZXM0UHBWTWFVUVd0Z1hld3N5cGJ6ZE96?oc=5"
-        },
-        {
-          "title": "UnitedHealth blows past estimates, hikes earnings outlook as it reins in costs - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXkwTnFCbkJrMTR1T3A5RXU2aWptaGRLZ0lIUFRmM0h5MmFvU0dHYldfcFZtalhUZkI3N2xvMUN3NVNfRkR0NF9RNWxLN3U4WEQyRy1qMVBRdEdFWFZFWUhEcWpadThqSUtWNDhYQXNKMmVJWDNWOF9LZEhsaWZkX0Z30gGHAUFVX3lxTE1ybnJWekJxVVNQWGd3U2c4bktwNk1FbF9HX1I0dmx1WElUUTRxemJWRHBTNDhtSXpsU0hVVVpfa2xQREl5T0tveWFKbHlkUC1IR0VkekdwVFhPcjZJRGRMWExZejlTV2RYRTFub0VhVFU1MHJnY0F6dUFwczEwTGpjU0JFakktaw?oc=5"
-        },
-        {
-          "title": "UnitedHealth's Stock Run Is Strong. Earnings Will Gauge Medicare Advantage Recovery.",
-          "source": "Finviz",
-          "url": "https://www.barrons.com/articles/unitedhealth-stock-earnings-ai-b825645a?mod=bar_FV"
-        },
-        {
-          "title": "Health insurance stocks slide after Elevance highlights margin pressures (ELV)",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/7d15cee1-4862-35f9-934f-076eec1f6d2a/health-insurance-stocks-slide.html"
-        },
-        {
-          "title": "Insurance stocks fall after Elevance Health results show margin pressure",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/healthcare/articles/insurance-stocks-fall-elevance-health-112121271.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 2.3% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "UNH Stock Flashes Buy Signal On Massive Earnings Beat - Investor's Business Daily",
+        "primary_claim": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "XPEV",
-      "price": 13.78,
-      "gap_pct": 3.63,
-      "pm_volume": 162023,
-      "avg_vol_10d": 6871631,
-      "avg_dollar_vol": 94691075,
-      "mkt_cap": 12817408468,
-      "rvol": 1.55,
-      "adr_pct": 3.19,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "XPENG Inc. (NYSE: XPEV) director gains 9,072 shares from RSUs - Stock Titan",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: XPENG Inc. (NYSE: XPEV) director gains 9,072 shares from RSUs - Stock Titan | Impact: See analysis.",
-      "analysis_details": "XPENG Inc. (NYSE: XPEV) director gains 9,072 shares from RSUs - Stock Titan",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "XPENG Inc. (NYSE: XPEV) director gains 9,072 shares from RSUs - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTEhPLTc0R2lqeTREbFhfMk5KbEJTS2VCdHhaQVVkRDkxY3N3UkNwRF9vVkFDdDJFSy1fd3d0d2RFemFpRTNiYlRvNTFqdHQtdGx2U3pOaVJJT05EMkZUaldDTUx1V2lXd2k3R0RRWVNGb1oyTU4yLWNFVHdpZEZkaXV1b2l5d3AzWHozZkZjNVFiSTEyTW5vYlhJd3h1UVBXclV4bV9n?oc=5"
-        },
-        {
-          "title": "NIO Vs. LI Vs. XPEV: Which Stock Does Wall Street See Most Upside For? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWWdiNk1VWE1UX2VNalQ4T0hNTi1sX0JNRDZGZHkzeTcxZS1OSF9aYnlCWkJ0b2w2Tm5ZRnlPeWY2bzR1RWRxV0lRbTdLTjV4eEJ6NlctMGk0ekxiRnNwMmxUYS1KYUYtbXB5U2RYMnprQ2ptaVczUW5sLUE1OFdsMHFsOTQwN01UNkNtN2xNRFJYclF5X0hBbzhXR3pRWmJ1eVZRS09ESWdhQnNjOFVoek9Xbkl2UzgwRTBMaDRNNGVMN0FJajIwRjVR?oc=5"
-        },
-        {
-          "title": "XPENG (NYSE:XPEV) Shares Up 6.4% - What's Next? - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTExXWGd6VnFWRHBvWkhESGFkbGtLVENuR1lGQ3NWalZpUzE5M3NZVHhCRjV2YngzY3ZnZE9nbnZJTWxPWVhzNGhyS2pTcFdVQ1R2OUNRM2JHY2dfNjFHbGh4Zm1wN3c1Mnc0WjZhVk9HNG1aQ3ZEY1FMd0FBMkRvSG5hclUwUWNfcVhEWk01WllUTXF0cEZr?oc=5"
-        },
-        {
-          "title": "XPeng Inc. (NYSE: XPEV) awards 1,255,122 RSUs under 2025 share incentive scheme - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTzY0OFVOT0l2MFB4a2laTGJCcENJVl9GamE3TTRtUVZsWFo5VGEyb1lZbnByOE9BZ3B6Nm9RY0JPS0ZvNHNJVHVDZzVFOVplRVFGM1hQeFM1MzFhTGo0YmRNb1R5RzIwOG4xUFJqcnlLdVlZV09mcWdEZkQxTko2NTlvZ1RaakRBT2JtVUhhTlp1dVEyRThDbllaeUNlNXo1dGs1OUZQd1U?oc=5"
-        },
-        {
-          "title": "XPeng shares gain after report outlines humanoid robot production plans (XPEV) - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWRHdlJxc2tqdEpKYmxOaV9XZC0xLUZYSG5MMk82TzBsc2pfYUZjMkk4SzlYTU5VZzB5WDZRMlhSbVZfN0hLZ0JOc2JuVnQzc3dERjE2YTBzaXowcDRPM1pKaE13Wi1MeWxQS0J5c1ROQ2t2NHFMdUhtckpQbFhVZm9RY3BPXzF5T2xQNUhjZ2dEMnpIYndNUjY1UU9zdw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $95M < $100M, ADR 3.2% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "XPENG Inc. (NYSE: XPEV) director gains 9,072 shares from RSUs - Stock Titan",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
         "gate_dollar_vol": false,
         "gate_mkt_cap": true,
-        "gate_adr": false
+        "gate_adr": true
       },
       "meets_all_gates": false,
       "tier": "Fail",
       "tier_label": "Excluded"
-    },
-    {
-      "ticker": "ABT",
-      "price": 89.27,
-      "gap_pct": 3.07,
-      "pm_volume": 266421,
-      "avg_vol_10d": 11611818,
-      "avg_dollar_vol": 1036586993,
-      "mkt_cap": 155491585131,
-      "rvol": 1.74,
-      "adr_pct": 2.56,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "ABBOTT LABORATORIES ($ABT) Releases Q2 2026 Earnings - Quiver Quantitative",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: ABBOTT LABORATORIES ($ABT) Releases Q2 2026 Earnings - Quiver Quantitative | Impact: See analysis.",
-      "analysis_details": "ABBOTT LABORATORIES ($ABT) Releases Q2 2026 Earnings - Quiver Quantitative",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "ABBOTT LABORATORIES ($ABT) Releases Q2 2026 Earnings - Quiver Quantitative",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU1gtODRaaExTNkxwWl9nQzh1OTJ5NlhtWGtUd3lwMnVldWU2RzJoNG5LX3ZNOGNIcW1Ra0cwZHdDemFsTWhQeldkZFZ0em1EUDY2ZV9SejdnbnRfR2RFWFdSNkdGcGVwOWV5SHVCdTRHb005enVSUHY5ekpSTFJBUmRzeC1Bck96Qm9KY2Z2ZnhqV0Znc0E?oc=5"
-        },
-        {
-          "title": "Updated Cancer Guidelines Reaffirm Cologuard Tests as Preferred Options - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVBaSDROVGxGR3FNWm5YUzhRTnhSNm05RTRNUEltRC1YY1NsRjliV19ybVU5QXBQa3N4QVljWkdxODN1MzhFVks4Y29iVHF2UEZZMGZSR3lWWTlkTmZuSm9vbVdGelowTV9fOFh6cy1tUk5qNVBQQW03TVhGVE9aRFlIMlFFRWFUX0N4YnZpZjBIbDBBMDVxVWNOU0gyWWZDbjlWQ3BicUk2Z1dFd0N0UFMxVFAtcEZ3U1ZoRUx3?oc=5"
-        },
-        {
-          "title": "Responsive Playbooks and the ABT Inflection - Stock Traders Daily",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV3ZIQnNsTUtkMlJiMTVmUEZfUTY0NTRiQVFlQk9zbTZFdmpiTHhHSkhRM20tbmdiZGtPV2tMai1LZ1IyZmhwX1FEUGdraFNDbGMwd0U4TzBWRnhyT0VCVVhiVEZYSXpvTlloeUdYb2ZzcHdYMFdUdlpKUGMybTBBR3hDWUQ1dHVNYmpIazZ0bDBmVEVaRWRuUnV5cU5fVEtvSGJ3RUpCd0xpNVY1U2RQTXNwcnQwUlVIbWZnejd2V0ZFUQ?oc=5"
-        },
-        {
-          "title": "ALP, ABT, HUBC Stocks Hit 52-Week Lows Today: What's Driving The Selloff? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQVhzRlRpTGJrM2NGTjdzUlphckxWemg0TlVjaElnYnR5RTdXMW8td2JZOVBncGFjd243RWpYYkZhUU1famJlcU9Lc0x5cVZUX3huTXVfcG11aXBRdkM4c2lnWW0tZWc0NlhvQWppZWNfcEdBTmVBRDFLTmg5Q1BUeE1DWWMxU0ZCa2MzcUdRMDJMbVh5UjRscVBDOUdsN2Y2STRKZ2NReDk3Y2JiOW1XTllCUmNnQ3luRURfU1ZjVllFeXpEMDJLa0hhLWhqdw?oc=5"
-        },
-        {
-          "title": "Reasons to Retain Abbott Stock in Your Portfolio for Now - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRVp2amczMTMtVEtDeEsxQnZ2R3FQMGpmZXpfcDF4dGRMcFFsRVBrVnVzU1k5czViRENQbERBeHRFd2FUMWtTSndGcUZNdmFRamUwTmRFSDlBeGtnaFRPa19TOGJsc0NQQjJ4aVNZa2hiRzNrN3pVREJCcUJWRlFrdmtiWi02RTh4THRNZ1BvNVJKbGRVWnBRS3RqODVkdmxnZ1pSM29MVXhfQ1JkTUJEQ0Fn?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 2.6% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "ABBOTT LABORATORIES ($ABT) Releases Q2 2026 Earnings - Quiver Quantitative",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
     }
   ],
   "ibkr_scanner": []
