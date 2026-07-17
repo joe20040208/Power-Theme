@@ -1,16 +1,7 @@
 {
-  "last_checked": "July 16, 2026 (23:55 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-16T13:25:28.305607-04:00",
-      "pub_time": "2026-07-16T13:18:17-04:00"
-    }
-  ],
+  "last_checked": "July 17, 2026 (00:00 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "sk hynix is set to make its wall street debut will that narrow the chipmakers korea discount",
@@ -1311,6 +1302,10 @@
     {
       "k": "seven i shares jump 3 on report of stake talks with polish convenience chain zabka",
       "ts": "2026-07-17T03:30:43.898679+00:00"
+    },
+    {
+      "k": "indias biggest ipo this year rakes in bids worth 31 billion powered by institutional frenzy",
+      "ts": "2026-07-17T04:00:42.365111+00:00"
     }
   ]
 }
