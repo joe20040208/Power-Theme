@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-17 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 750.72,
+    "spy_change_pct": -0.54,
+    "vix": 18.09,
+    "hy_oas": 2.71,
+    "yield_curve": 0.41,
+    "credit_status": "Complacent",
+    "s5fi": 64.8,
+    "mmth": 70.4,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-16 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1877,44 +1895,6 @@
           "ticker": "JPM",
           "company": "JPMorgan Chase & Co.",
           "reason": "JPMorgan saw continued technical trading interest, supported by recycled speculation regarding sector consolidation and recent analyst commentary."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-05 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Mixed Sentiment / Volatility Uptick",
-    "spy_price": 757.09,
-    "spy_change_pct": 0.38,
-    "vix": 15.65,
-    "hy_oas": 2.75,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 59.3,
-    "mmth": 64.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "JPMorgan announced a new strategic partnership aimed at expanding its digital banking services, signaling aggressive growth in fintech."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft unveiled significant advancements in its AI cloud services platform, receiving strong positive analyst feedback and boosting growth expectations."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Shares are experiencing profit-taking and encountering technical resistance after a strong recent rally, with no fresh fundamental catalysts."
         }
       ]
     }
