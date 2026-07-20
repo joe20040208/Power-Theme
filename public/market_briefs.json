@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-20 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 742.09,
+    "spy_change_pct": -0.16,
+    "vix": 18.65,
+    "hy_oas": 2.73,
+    "yield_curve": 0.39,
+    "credit_status": "Complacent",
+    "s5fi": 59.7,
+    "mmth": 66.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-20 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1817,44 +1835,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "Continued analyst upgrades and positive industry commentary around AI infrastructure spending are sustaining momentum, though no fresh fundamental news broke today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-08 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Tech-Led Strength, Volatility Eases",
-    "spy_price": 739.22,
-    "spy_change_pct": 0.23,
-    "vix": 18.92,
-    "hy_oas": 2.76,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 52.5,
-    "mmth": 60.4,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "reason": "S&P 500 inclusion creates significant mechanical buying pressure from index funds and ETFs."
-        },
-        {
-          "ticker": "CBRS",
-          "company": "CyberSec Solutions Corp.",
-          "reason": "Strong analyst initiations today signal fresh institutional interest and potential for sustained upward momentum."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continued robust investor interest driven by lingering enthusiasm for AI themes, without a specific new fundamental catalyst today."
         }
       ]
     }
