@@ -6,30 +6,30 @@
   "count": 1,
   "stocks": [
     {
-      "ticker": "AXTI",
-      "company": "AXT Inc",
-      "industry": "Electronic Production Equipment",
-      "market_cap_b": 3.0,
-      "price": 45.86,
-      "change_pct": 0.64,
-      "dollar_volume": "$414.0M",
-      "adr_pct": 22.0,
-      "perf_1m": -52.42,
-      "perf_3m": -42.04,
+      "ticker": "NVTS",
+      "company": "Navitas Semiconductor Corporation",
+      "industry": "Semiconductors",
+      "market_cap_b": 2.735,
+      "price": 11.54,
+      "change_pct": 0.7,
+      "dollar_volume": "$160.3M",
+      "adr_pct": 15.3,
+      "perf_1m": -51.13,
+      "perf_3m": -20.11,
       "perf_34d": null,
-      "perf_qtd": -42.04,
-      "perf_mtd": -52.42,
-      "rs_ibd": 99
+      "perf_qtd": -20.11,
+      "perf_mtd": -51.13,
+      "rs_ibd": 83
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -1.01,
-    "spx_1m": 0.51,
-    "spx_3m": 4.65,
-    "spx_34d": -1.61,
-    "spx_qtd": -0.34,
-    "spx_mtd": -0.34
+    "spx_1d": -0.19,
+    "spx_1m": -0.76,
+    "spx_3m": 4.7,
+    "spx_34d": -2.06,
+    "spx_qtd": -0.53,
+    "spx_mtd": -0.53
   },
-  "fetched_at_utc": "2026-07-17T21:47:06+00:00",
+  "fetched_at_utc": "2026-07-20T21:54:15+00:00",
   "source": "tv_fallback"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T21:46:48.739208+00:00",
+  "generated_at": "2026-07-20T21:53:56.790898+00:00",
   "data_source": "tradingview",
   "events": [
     {
@@ -2407,7 +2407,7 @@
       "time_et": "16:30",
       "event": "API Crude Oil Stock Change",
       "impact": "Low",
-      "actual": "-0.056",
+      "actual": "-0.564",
       "forecast": "-2.7",
       "previous": "-0.399",
       "currency": "USD"
@@ -3197,8 +3197,8 @@
       "time_et": "10:00",
       "event": "CB Leading Index MoM",
       "impact": "Low",
-      "actual": null,
-      "forecast": "0.1",
+      "actual": "-0.2",
+      "forecast": "-0.1",
       "previous": "0.1",
       "currency": "USD"
     },
@@ -3207,7 +3207,7 @@
       "time_et": "11:30",
       "event": "6-Month Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.835",
       "forecast": null,
       "previous": "3.86",
       "currency": "USD"
@@ -3217,7 +3217,7 @@
       "time_et": "11:30",
       "event": "3-Month Bill Auction",
       "impact": "Low",
-      "actual": null,
+      "actual": "3.73",
       "forecast": null,
       "previous": "3.76",
       "currency": "USD"
@@ -3258,8 +3258,8 @@
       "event": "API Crude Oil Stock Change",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
-      "previous": "-0.056",
+      "forecast": "-1.5",
+      "previous": "-0.564",
       "currency": "USD"
     },
     {
@@ -3338,7 +3338,7 @@
       "event": "EIA Crude Oil Stocks Change",
       "impact": "Low",
       "actual": null,
-      "forecast": null,
+      "forecast": "-1.5",
       "previous": "-1.693",
       "currency": "USD"
     },
@@ -3568,7 +3568,7 @@
       "event": "S&P Global Services PMI Flash",
       "impact": "Low",
       "actual": null,
-      "forecast": "51",
+      "forecast": "51.5",
       "previous": "51.2",
       "currency": "USD"
     },
@@ -3608,7 +3608,7 @@
       "event": "New Home Sales",
       "impact": "Low",
       "actual": null,
-      "forecast": "0.62",
+      "forecast": "0.61",
       "previous": "0.58",
       "currency": "USD"
     },
@@ -4456,6 +4456,96 @@
       "date": "2026-07-31",
       "time_et": "13:00",
       "event": "Baker Hughes Oil Rig Count",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "09:45",
+      "event": "S&P Global Manufacturing PMI Final",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "53.9",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "10:00",
+      "event": "ISM Manufacturing Prices",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "73",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "10:00",
+      "event": "ISM Manufacturing PMI",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "53.3",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "10:00",
+      "event": "ISM Manufacturing New Orders",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "56",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "10:00",
+      "event": "ISM Manufacturing Employment",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "49.7",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "10:00",
+      "event": "Construction Spending MoM",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.1",
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "11:30",
+      "event": "3-Month Bill Auction",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "11:30",
+      "event": "6-Month Bill Auction",
+      "impact": "Low",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-08-03",
+      "time_et": "15:00",
+      "event": "Treasury Refunding Financing Estimates",
       "impact": "Low",
       "actual": null,
       "forecast": null,
