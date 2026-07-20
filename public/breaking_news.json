@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 20, 2026 (17:00 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 20, 2026 (17:05 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump imposing 50% tariffs on certain Canadian goods over alleged trade discrimination",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-20T17:05:29.914026-04:00",
+      "pub_time": "2026-07-20T17:00:39-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "3 things you need to know about cyclospora",
@@ -1334,6 +1343,10 @@
     {
       "k": "trump administrations head of ai safety agency resigns after 3 months on job",
       "ts": "2026-07-20T19:30:36.518150+00:00"
+    },
+    {
+      "k": "trump imposing 50 tariffs on certain canadian goods over alleged trade discrimination",
+      "ts": "2026-07-20T21:05:30.911257+00:00"
     }
   ]
 }
