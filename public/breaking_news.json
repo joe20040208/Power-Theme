@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 21, 2026 (14:55 EST)",
+  "last_checked": "July 21, 2026 (15:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "White House teases new trade action 'soon' as it works to re-create global tariff regime",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-21T15:00:35.994832-04:00",
+      "pub_time": "2026-07-21T15:00:20-04:00"
+    },
     {
       "headline": "Bessent says U.S. could sanction China over AI model 'theft'",
       "source": "CNBC",
@@ -1247,6 +1255,10 @@
     {
       "k": "rfk jr says cyclospora outbreak is under control",
       "ts": "2026-07-21T18:45:28.352628+00:00"
+    },
+    {
+      "k": "white house teases new trade action soon as it works to recreate global tariff regime",
+      "ts": "2026-07-21T19:00:36.415809+00:00"
     }
   ]
 }
