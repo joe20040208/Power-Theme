@@ -1,12 +1,17 @@
 {
-  "last_checked": "July 21, 2026 (09:20 EST)",
-  "has_alert": false,
-  "alerts": [],
-  "seen_keys": [
+  "last_checked": "July 21, 2026 (09:25 EST)",
+  "has_alert": true,
+  "alerts": [
     {
-      "k": "united airlines new upsell keeping other travelers out of the middle seat",
-      "ts": "2026-07-14T13:25:30.605802+00:00"
-    },
+      "headline": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-21T09:25:30.451057-04:00",
+      "pub_time": "2026-07-21T09:25:00-04:00"
+    }
+  ],
+  "seen_keys": [
     {
       "k": "spacex alumni building remotecontrolled construction equipment land 115 million fund round",
       "ts": "2026-07-14T13:35:29.904665+00:00"
@@ -1278,6 +1283,10 @@
     {
       "k": "intels foundry lands first named customer under ceo lipbu tan as fortinet signs on for security c",
       "ts": "2026-07-21T13:10:31.895472+00:00"
+    },
+    {
+      "k": "greer hints new trump tariffs coming on dozens of countries expect action soon",
+      "ts": "2026-07-21T13:25:31.007988+00:00"
     }
   ]
 }
