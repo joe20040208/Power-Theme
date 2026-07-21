@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-21 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 742.09,
+    "spy_change_pct": -0.16,
+    "vix": 17.73,
+    "hy_oas": 2.73,
+    "yield_curve": 0.39,
+    "credit_status": "Complacent",
+    "s5fi": 59.7,
+    "mmth": 66.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-20 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1797,44 +1815,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVDA continues to be a bellwether for the tech sector; watch for its response to broader Nasdaq weakness as a key technical and flow indicator, absent fresh news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-09 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Broad Risk-On Momentum",
-    "spy_price": 739.22,
-    "spy_change_pct": 0.23,
-    "vix": 18.03,
-    "hy_oas": 2.76,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 52.7,
-    "mmth": 60.4,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Fresh reports indicate stronger-than-expected pre-orders for Apple's new Vision Pro 2 headset, signaling robust consumer demand for its spatial computing platform."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft secured a multi-year, multi-billion dollar cloud services contract with a major federal agency, reinforcing its dominance in enterprise AI and cloud solutions."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Continued analyst upgrades and positive industry commentary around AI infrastructure spending are sustaining momentum, though no fresh fundamental news broke today."
         }
       ]
     }
