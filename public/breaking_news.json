@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 21, 2026 (10:30 EST)",
+  "last_checked": "July 21, 2026 (10:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Bessent says U.S. could sanction China over AI model 'theft'",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-21T10:35:33.032153-04:00",
+      "pub_time": "2026-07-21T10:14:52-04:00"
+    },
     {
       "headline": "Greer hints new Trump tariffs coming on dozens of countries: 'Expect action soon'",
       "source": "CNBC",
@@ -1271,6 +1279,14 @@
     {
       "k": "property taxes are poised for major midterm elections ballot battles across many us states",
       "ts": "2026-07-21T14:20:33.797739+00:00"
+    },
+    {
+      "k": "bessent says us could sanction china over ai model theft",
+      "ts": "2026-07-21T14:35:33.575327+00:00"
+    },
+    {
+      "k": "bets against spacex grow to 32 of float as elon musk warns short sellers wont survive",
+      "ts": "2026-07-21T14:35:33.575327+00:00"
     }
   ]
 }
