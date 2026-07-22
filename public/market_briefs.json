@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-22 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 747.41,
+    "spy_change_pct": -0.12,
+    "vix": 16.64,
+    "hy_oas": 2.69,
+    "yield_curve": 0.36,
+    "credit_status": "Complacent",
+    "s5fi": 59.1,
+    "mmth": 65.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-22 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1737,44 +1755,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA shares continue to experience profit-taking after recent parabolic gains, now testing a critical technical support level as institutional flows rebalance."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-10 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Broad De-Risking / Volatility Spike",
-    "spy_price": 725.43,
-    "spy_change_pct": -1.58,
-    "vix": 22.22,
-    "hy_oas": 2.78,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 50.8,
-    "mmth": 60.1,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "The company today announced a groundbreaking advancement in its next-gen Gemini AI model, showcasing real-time multimodal capabilities that analysts believe significantly broaden its enterprise application market."
-        },
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "Eli Lilly received expedited FDA approval for its new obesity drug, demonstrating superior weight loss efficacy in Phase 3 trials, setting the stage for substantial market share capture."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp",
-          "reason": "Microsoft saw continued selling pressure aligned with broader tech, though some dip-buyers emerged citing recycled headlines around its sustained AI leadership and robust cloud growth as long-term drivers."
         }
       ]
     }
