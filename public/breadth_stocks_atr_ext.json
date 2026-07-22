@@ -2,112 +2,100 @@
   "ok": true,
   "filter": "atr_ext",
   "label": "10x ATR Extended",
-  "count": 8,
+  "count": 7,
   "stocks": [
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.9,
-      "change_pct": 0.04,
-      "adr_pct": 2.8,
-      "dollar_volume": "$547.7M",
-      "market_cap_b": 8.88,
+      "price": 83.72,
+      "change_pct": -0.21,
+      "adr_pct": 2.6,
+      "dollar_volume": "$438.0M",
+      "market_cap_b": 8.861,
       "rs_ibd": 96,
-      "atr_ext_val": 28.74
+      "atr_ext_val": 29.12
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 134.2,
-      "change_pct": 0.04,
-      "adr_pct": 1.5,
-      "dollar_volume": "$173.8M",
-      "market_cap_b": 10.114,
+      "price": 134.08,
+      "change_pct": -0.09,
+      "adr_pct": 1.4,
+      "dollar_volume": "$158.5M",
+      "market_cap_b": 10.105,
       "rs_ibd": 95,
-      "atr_ext_val": 19.25
+      "atr_ext_val": 19.44
+    },
+    {
+      "ticker": "FBRX",
+      "company": "Forte Biosciences, Inc.",
+      "industry": "Biotechnology",
+      "price": 56.63,
+      "change_pct": 11.63,
+      "adr_pct": 7.7,
+      "dollar_volume": "$76.8M",
+      "market_cap_b": 1.16,
+      "rs_ibd": 98,
+      "atr_ext_val": 16.3
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
       "price": 14.06,
-      "change_pct": 88.72,
-      "adr_pct": 5.6,
-      "dollar_volume": "$111.5M",
+      "change_pct": 0.0,
+      "adr_pct": 5.2,
+      "dollar_volume": "$140.0M",
       "market_cap_b": 2.023,
-      "rs_ibd": 75,
-      "atr_ext_val": 15.58
+      "rs_ibd": 76,
+      "atr_ext_val": 16.06
     },
     {
       "ticker": "TECH",
       "company": "Bio-Techne Corp",
       "industry": "Biotechnology",
-      "price": 71.63,
-      "change_pct": -0.01,
-      "adr_pct": 1.7,
-      "dollar_volume": "$246.6M",
-      "market_cap_b": 11.215,
-      "rs_ibd": 77,
-      "atr_ext_val": 13.93
+      "price": 71.78,
+      "change_pct": 0.21,
+      "adr_pct": 1.6,
+      "dollar_volume": "$225.4M",
+      "market_cap_b": 11.239,
+      "rs_ibd": 78,
+      "atr_ext_val": 14.27
     },
     {
       "ticker": "TMHC",
       "company": "Taylor Morrison Home Corporation",
       "industry": "Homebuilding",
-      "price": 72.48,
-      "change_pct": 0.06,
+      "price": 72.47,
+      "change_pct": -0.01,
       "adr_pct": 0.5,
-      "dollar_volume": "$165.3M",
-      "market_cap_b": 6.668,
-      "rs_ibd": 51,
-      "atr_ext_val": 13.58
-    },
-    {
-      "ticker": "FBRX",
-      "company": "Forte Biosciences, Inc.",
-      "industry": "Biotechnology",
-      "price": 50.73,
-      "change_pct": 6.82,
-      "adr_pct": 8.0,
-      "dollar_volume": "$69.1M",
-      "market_cap_b": 1.039,
-      "rs_ibd": 98,
-      "atr_ext_val": 13.42
+      "dollar_volume": "$156.6M",
+      "market_cap_b": 6.667,
+      "rs_ibd": 47,
+      "atr_ext_val": 13.75
     },
     {
       "ticker": "PAYO",
       "company": "Payoneer Global Inc.",
       "industry": "Miscellaneous Commercial Services",
       "price": 7.12,
-      "change_pct": -0.14,
-      "adr_pct": 1.2,
-      "dollar_volume": "$21.8M",
+      "change_pct": 0.0,
+      "adr_pct": 1.1,
+      "dollar_volume": "$20.2M",
       "market_cap_b": 2.408,
-      "rs_ibd": 51,
-      "atr_ext_val": 12.54
-    },
-    {
-      "ticker": "PBF",
-      "company": "PBF Energy Inc.",
-      "industry": "Oil Refining/Marketing",
-      "price": 66.05,
-      "change_pct": 3.45,
-      "adr_pct": 4.3,
-      "dollar_volume": "$197.5M",
-      "market_cap_b": 7.814,
-      "rs_ibd": 91,
-      "atr_ext_val": 10.48
+      "rs_ibd": 54,
+      "atr_ext_val": 12.63
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 0.89,
-    "spx_1m": 0.49,
-    "spx_3m": 6.3,
-    "spx_34d": -1.32,
-    "spx_qtd": 0.35,
-    "spx_mtd": 0.35
+    "spx_1d": -0.14,
+    "spx_1m": 1.81,
+    "spx_3m": 5.06,
+    "spx_34d": -0.72,
+    "spx_qtd": 0.21,
+    "spx_mtd": 0.21
   },
-  "fetched_at_utc": "2026-07-21T21:53:59+00:00"
+  "fetched_at_utc": "2026-07-22T21:47:11+00:00"
 }
