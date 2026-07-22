@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 22, 2026 (09:00 EST)",
+  "last_checked": "July 22, 2026 (09:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Sen. Wyden introduces bill to curb Trump's tariff powers",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-22T09:05:29.428593-04:00",
+      "pub_time": "2026-07-22T09:00:15-04:00"
+    },
     {
       "headline": "Trump plans generic drug tariffs from 2028 with two-year delay testing U.S. onshoring push",
       "source": "CNBC",
@@ -12,10 +20,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "treasury yields are flat as traders weigh encouraging inflation data vs oil rebound",
-      "ts": "2026-07-15T13:01:09.667316+00:00"
-    },
     {
       "k": "stripe advent make 53 billion takeover offer for paypal sending stock soaring",
       "ts": "2026-07-15T13:10:52.066673+00:00"
@@ -1187,6 +1191,10 @@
     {
       "k": "fidelity says 2026 retirees may spend 185500 on healthcare one category may push those costs high",
       "ts": "2026-07-22T13:00:51.016168+00:00"
+    },
+    {
+      "k": "sen wyden introduces bill to curb trumps tariff powers",
+      "ts": "2026-07-22T13:05:30.306556+00:00"
     }
   ]
 }
