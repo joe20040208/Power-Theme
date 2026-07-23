@@ -2,88 +2,64 @@
   "ok": true,
   "filter": "above50dma",
   "label": ">50 DMA",
-  "count": 6,
+  "count": 4,
   "stocks": [
     {
       "ticker": "FBRX",
       "company": "Forte Biosciences, Inc.",
       "industry": "Biotechnology",
-      "price": 56.63,
-      "change_pct": 11.63,
-      "adr_pct": 7.7,
-      "dollar_volume": "$76.8M",
-      "market_cap_b": 1.16,
+      "price": 59.7,
+      "change_pct": 5.42,
+      "adr_pct": 7.8,
+      "dollar_volume": "$56.4M",
+      "market_cap_b": 1.223,
       "rs_ibd": 98,
-      "above50dma_pct": 125.4
+      "above50dma_pct": 131.4
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
-      "price": 14.06,
-      "change_pct": 0.0,
-      "adr_pct": 5.2,
-      "dollar_volume": "$140.0M",
-      "market_cap_b": 2.023,
-      "rs_ibd": 76,
-      "above50dma_pct": 83.5
+      "price": 14.09,
+      "change_pct": 0.21,
+      "adr_pct": 4.8,
+      "dollar_volume": "$150.3M",
+      "market_cap_b": 2.027,
+      "rs_ibd": 77,
+      "above50dma_pct": 80.7
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 38.17,
-      "change_pct": 2.14,
+      "price": 37.64,
+      "change_pct": -1.39,
       "adr_pct": 8.8,
-      "dollar_volume": "$48.4M",
-      "market_cap_b": 1.332,
-      "rs_ibd": 90,
-      "above50dma_pct": 80.5
+      "dollar_volume": "$32.2M",
+      "market_cap_b": 1.313,
+      "rs_ibd": 88,
+      "above50dma_pct": 74.9
     },
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.72,
-      "change_pct": -0.21,
-      "adr_pct": 2.6,
-      "dollar_volume": "$438.0M",
-      "market_cap_b": 8.861,
+      "price": 83.65,
+      "change_pct": -0.08,
+      "adr_pct": 2.5,
+      "dollar_volume": "$389.5M",
+      "market_cap_b": 8.854,
       "rs_ibd": 96,
-      "above50dma_pct": 76.4
-    },
-    {
-      "ticker": "COAG",
-      "company": "Hemab Therapeutics Holdings, Inc.",
-      "industry": "Biotechnology",
-      "price": 49.23,
-      "change_pct": 1.97,
-      "adr_pct": 7.5,
-      "dollar_volume": "$16.9M",
-      "market_cap_b": 2.299,
-      "rs_ibd": 81,
-      "above50dma_pct": 56.6
-    },
-    {
-      "ticker": "ATAI",
-      "company": "AtaiBeckley Inc.",
-      "industry": "Pharmaceuticals: Major",
-      "price": 7.18,
-      "change_pct": 0.63,
-      "adr_pct": 5.7,
-      "dollar_volume": "$216.2M",
-      "market_cap_b": 2.656,
-      "rs_ibd": 85,
-      "above50dma_pct": 51.2
+      "above50dma_pct": 72.9
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -0.14,
-    "spx_1m": 1.81,
-    "spx_3m": 5.06,
-    "spx_34d": -0.72,
-    "spx_qtd": 0.21,
-    "spx_mtd": 0.21
+    "spx_1d": -1.21,
+    "spx_1m": 0.68,
+    "spx_3m": 4.22,
+    "spx_34d": -2.32,
+    "spx_qtd": -1.0,
+    "spx_mtd": -1.0
   },
-  "fetched_at_utc": "2026-07-22T21:47:11+00:00"
+  "fetched_at_utc": "2026-07-23T21:47:01+00:00"
 }

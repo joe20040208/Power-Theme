@@ -8,73 +8,73 @@
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.72,
-      "change_pct": -0.21,
-      "adr_pct": 2.6,
-      "dollar_volume": "$438.0M",
-      "market_cap_b": 8.861,
+      "price": 83.65,
+      "change_pct": -0.08,
+      "adr_pct": 2.5,
+      "dollar_volume": "$389.5M",
+      "market_cap_b": 8.854,
       "rs_ibd": 96,
-      "atr_ext_val": 29.12
+      "atr_ext_val": 29.71
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 134.08,
-      "change_pct": -0.09,
-      "adr_pct": 1.4,
-      "dollar_volume": "$158.5M",
-      "market_cap_b": 10.105,
+      "price": 134.26,
+      "change_pct": 0.13,
+      "adr_pct": 1.3,
+      "dollar_volume": "$140.3M",
+      "market_cap_b": 10.118,
       "rs_ibd": 95,
-      "atr_ext_val": 19.44
+      "atr_ext_val": 19.92
     },
     {
       "ticker": "FBRX",
       "company": "Forte Biosciences, Inc.",
       "industry": "Biotechnology",
-      "price": 56.63,
-      "change_pct": 11.63,
-      "adr_pct": 7.7,
-      "dollar_volume": "$76.8M",
-      "market_cap_b": 1.16,
+      "price": 59.7,
+      "change_pct": 5.42,
+      "adr_pct": 7.8,
+      "dollar_volume": "$56.4M",
+      "market_cap_b": 1.223,
       "rs_ibd": 98,
-      "atr_ext_val": 16.3
+      "atr_ext_val": 16.94
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
-      "price": 14.06,
-      "change_pct": 0.0,
-      "adr_pct": 5.2,
-      "dollar_volume": "$140.0M",
-      "market_cap_b": 2.023,
-      "rs_ibd": 76,
-      "atr_ext_val": 16.06
+      "price": 14.09,
+      "change_pct": 0.21,
+      "adr_pct": 4.8,
+      "dollar_volume": "$150.3M",
+      "market_cap_b": 2.027,
+      "rs_ibd": 77,
+      "atr_ext_val": 16.67
     },
     {
       "ticker": "TECH",
       "company": "Bio-Techne Corp",
       "industry": "Biotechnology",
-      "price": 71.78,
-      "change_pct": 0.21,
-      "adr_pct": 1.6,
-      "dollar_volume": "$225.4M",
-      "market_cap_b": 11.239,
+      "price": 71.77,
+      "change_pct": -0.01,
+      "adr_pct": 1.5,
+      "dollar_volume": "$213.9M",
+      "market_cap_b": 11.237,
       "rs_ibd": 78,
-      "atr_ext_val": 14.27
+      "atr_ext_val": 14.31
     },
     {
       "ticker": "TMHC",
       "company": "Taylor Morrison Home Corporation",
       "industry": "Homebuilding",
-      "price": 72.47,
-      "change_pct": -0.01,
+      "price": 72.45,
+      "change_pct": -0.03,
       "adr_pct": 0.5,
-      "dollar_volume": "$156.6M",
-      "market_cap_b": 6.667,
-      "rs_ibd": 47,
-      "atr_ext_val": 13.75
+      "dollar_volume": "$209.3M",
+      "market_cap_b": 6.665,
+      "rs_ibd": 46,
+      "atr_ext_val": 13.73
     },
     {
       "ticker": "PAYO",
@@ -83,19 +83,19 @@
       "price": 7.12,
       "change_pct": 0.0,
       "adr_pct": 1.1,
-      "dollar_volume": "$20.2M",
+      "dollar_volume": "$19.1M",
       "market_cap_b": 2.408,
-      "rs_ibd": 54,
-      "atr_ext_val": 12.63
+      "rs_ibd": 59,
+      "atr_ext_val": 12.66
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -0.14,
-    "spx_1m": 1.81,
-    "spx_3m": 5.06,
-    "spx_34d": -0.72,
-    "spx_qtd": 0.21,
-    "spx_mtd": 0.21
+    "spx_1d": -1.21,
+    "spx_1m": 0.68,
+    "spx_3m": 4.22,
+    "spx_34d": -2.32,
+    "spx_qtd": -1.0,
+    "spx_mtd": -1.0
   },
-  "fetched_at_utc": "2026-07-22T21:47:11+00:00"
+  "fetched_at_utc": "2026-07-23T21:47:01+00:00"
 }
