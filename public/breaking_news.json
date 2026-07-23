@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 23, 2026 (13:15 EST)",
+  "last_checked": "July 23, 2026 (13:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-23T13:20:29.438433-04:00",
+      "pub_time": "2026-07-23T13:15:03-04:00"
+    },
     {
       "headline": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
       "source": "CNBC",
@@ -1219,6 +1227,10 @@
     {
       "k": "jpmorgan report finds dramatic jump in aithemed etfs — despite rough quarter",
       "ts": "2026-07-23T17:15:33.355605+00:00"
+    },
+    {
+      "k": "odds of federal reserve rate hike surge as oil prices rip higher",
+      "ts": "2026-07-23T17:20:31.002211+00:00"
     }
   ]
 }
