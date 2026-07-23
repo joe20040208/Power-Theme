@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-23 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 747.41,
+    "spy_change_pct": -0.12,
+    "vix": 18.2,
+    "hy_oas": 2.69,
+    "yield_curve": 0.36,
+    "credit_status": "Complacent",
+    "s5fi": 59.1,
+    "mmth": 65.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-22 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1717,44 +1735,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVDA continues to ride the AI narrative and broader tech momentum, exhibiting strong technicals despite a lack of fresh fundamental news today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-11 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Risk-Off / Controlled De-risking",
-    "spy_price": 725.43,
-    "spy_change_pct": -1.58,
-    "vix": 20.84,
-    "hy_oas": 2.78,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 50.8,
-    "mmth": 60.1,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Apple unveils groundbreaking AI integration strategy for its ecosystem, potentially unlocking new revenue streams and revitalizing investor interest in its services growth."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "JPMorgan Chase issues stronger-than-expected Q2 revenue guidance, fueled by robust performance in consumer banking and capital markets."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA shares continue to experience profit-taking after recent parabolic gains, now testing a critical technical support level as institutional flows rebalance."
         }
       ]
     }
