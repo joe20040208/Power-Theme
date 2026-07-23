@@ -1,236 +1,59 @@
 {
-  "scan_time": "2026-07-22 08:05 ET",
+  "scan_time": "2026-07-23 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "ARWR",
-      "price": 74.52,
-      "gap_pct": 23.35,
-      "pm_volume": 51937,
-      "avg_vol_10d": 2240958,
-      "avg_dollar_vol": 166996190,
-      "mkt_cap": 10496663904,
-      "rvol": 0.69,
-      "adr_pct": 4.98,
+      "ticker": "HYLN",
+      "price": 3.93,
+      "gap_pct": 12.47,
+      "pm_volume": 223759,
+      "avg_vol_10d": 2520247,
+      "avg_dollar_vol": 9904571,
+      "mkt_cap": 700826065,
+      "rvol": 1.05,
+      "adr_pct": 10.78,
       "category": "FDA",
       "theme": "FDA",
-      "reasoning": "Arrowhead Pharmaceuticals stock jumps on Phase 3 trial results By Investing.com - Investing.com Nigeria",
+      "reasoning": "Why ServiceNow Shares Are Trading Higher By 7%; Here Are 20 Stocks Moving Premarket - Benzinga",
       "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Arrowhead Pharmaceuticals stock jumps on Phase 3 trial results By Investing.com - Investing.com Nigeria | Impact: See analysis.",
-      "analysis_details": "Arrowhead Pharmaceuticals stock jumps on Phase 3 trial results By Investing.com - Investing.com Nigeria",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Arrowhead Pharmaceuticals stock jumps on Phase 3 trial results By Investing.com - Investing.com Nigeria",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRi1Pa2ZVMDlvSlUxUmdRV3c4WUZpREdiREsxNFdRdDI5ZUUwQldmNXN4N1dGSjN1ZngwclJFZDRfeXE3aFBrZ2plWlRJRzZ5Qm9mVEs1Yk5RQ2lGN2lDUnpNcEVHYkNZYzJSaDNfTWZkWG03dWRkM1dkcjlQTTlhUnZkcmNwZTRoOGJfN1hIMUFtbTVCWXVkQVkzb2xzb1lwRTRET1dIUVhoa0lKUkl1NkhSdnBZWE5LaGpOY3VxZ3U?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Arrowhead Pharmaceuticals stock jumps on Phase 3 trial results By Investing.com - Investing.com Nigeria",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "SMCI",
-      "price": 25.5,
-      "gap_pct": 15.65,
-      "pm_volume": 3156705,
-      "avg_vol_10d": 31102382,
-      "avg_dollar_vol": 793110741,
-      "mkt_cap": 16495261138,
-      "rvol": 0.89,
-      "adr_pct": 5.97,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC | Impact: See analysis.",
-      "analysis_details": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQckYtS0FQUmxXa29iS1kzSTBTMHlLYkVXUXc4Q1NnYzc5aEdVTzJFTFlJT2djbnl5UFNNYjRPWXRMdXlKVm40bDd4M1IwdnYtNEk4cFFHMVVicjlZYzJfSDU1YzN4dE9aNEtoNVRiUFNQSGJ4SjdvbFRvVkN2WGRLQ1Q3b1BPYlBPRzBGNFNxRE1zZGxHcGww?oc=5"
-        },
-        {
-          "title": "Supermicro (SMCI) Stock Still Looks Undervalued Despite Legal Risks - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQblFlLUVucUdQQUk3TEhabXEyQlROOXJ3eWh1d2F1QVpqVlc0eDhpUXNrdHJ2cVZjRHBpbDVJOXFrMXRCY0FwRmYyZE1MVU1hOTh2M19TYllWdHZoU296SXF3V25fNF9MTnZCRjFpOENpZTRKejduOVNsc2lEVXpyR0lBSjExWHJrbTZlVTM4blVrSkw3S2x1WFBZX0p2LXM?oc=5"
-        },
-        {
-          "title": "Supermicro stock jumps on gross margin raise amid record $60 billion backlog - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPai05cGt1NGNPSU56dnRoZzM2S1JSNWdObTQ3WGNfQlNaOHJqcXh5UUo3ZmIxRVFUUVFuNHA2WS15Y1lpcjczQVhyMGVBajJ2ZkdNMDdGS3ZXSGtDVlVTcHdLeGRsQVdLcjFjdXhKYWFrSkprejJWSnJNZ3ptUFAxY3dOT3hGemowZVNHUldkamdVSWFzdnBCSEt4MUFGb1NXZ0g2SFFRai1EazVkS0dpZUpqMzl1OVRxYWllZWpsMXlHdlViV3dMdXZpcjY?oc=5"
-        },
-        {
-          "title": "Supermicro (SMCI) Faces ITC Patent Probe Over Memory Imports - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3ItZEloQ0o4bkMxUGFfWFk3OGdTemN2Y0gtb2FicmlYZUlqZkE5ZUhqOUFnZVU2SzhuZVZETDlQbWo3bGJRWm52NW1xd2lEa2ZHNDB6VUwxaHI0amxvMm5nSzdxTkhPSlo2SGhEb2FoclpiWlA1WU5sVjl4eEp2amxXTGlHV1REMWxIcVl3X3dqZjBMVUVoTlhLNUEyZw?oc=5"
-        },
-        {
-          "title": "S&P 500, Nasdaq, Dow Futures Ease As Oil Rally Tempers AI Optimism Ahead of Big Tech Earnings: SMCI, OKLO, XE, SKHY, GOOG In Focus",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/f7904fe7-798f-311b-be6c-ab2ab901896c/s%26p-500%2C-nasdaq%2C-dow-futures.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "FTAI",
-      "price": 210.25,
-      "gap_pct": 11.51,
-      "pm_volume": 117178,
-      "avg_vol_10d": 1339818,
-      "avg_dollar_vol": 281696734,
-      "mkt_cap": 21568069372,
-      "rvol": 1.21,
-      "adr_pct": 6.41,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's | Impact: See analysis.",
-      "analysis_details": "S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSWplUTExNlh1RlRCdVloMDFsS1k1UElOOHp2eDhtaXdOMndMRGl1RV8zU0lxVHJxSldaREQtQzlJN2h5V2F3NjlsU0F3Q1B4TGhnRHhJUGstQ3FHUzc5RndWMWFOSm44Y0ZxNHpUcmI4YjNOb2ZBd0paWk1rNS1admxVVmdTRFpZU0ZPdWZYYm13a2ZmVFhab09jMTV1QnBTa0pvcXllLS1MaTZJWGZDc0plVUFualJfYkFaSjNhTVVhVG5X?oc=5"
-        },
-        {
-          "title": "WCM Investment Management LLC Reduces Stock Position in FTAI Aviation Ltd. $FTAI - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZmM2SkVlVndZckdDV3QwRFVRcFd6LVY0VHZxUkMwMFhUWmY5OVlPbDdxUHlqVkFYNGVtNzdmYUl1X0QwZGN3WnhBYXBRMmhXcXV2M2pMMEtBVWJHN2ZZM2tCUjN3S1VyOXJ4VnE2cWhncVRMaVNHcEJHQXlqZ0FMTUFTU1pLUGt3ZWdSeFhrMnN1ejB5LVlsTnJhV0FJWVp0dExZRjJFWFplcGdhOF9MT0V4NGRRd2ZwZjRQdy1Pc0FyeHdHVV9hVmpXRUYyeDNGZ3k1eVJ3?oc=5"
-        },
-        {
-          "title": "Swiss National Bank Buys 98,808 Shares of FTAI Aviation Ltd. $FTAI - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZUVuM3BWUGxRM0ZrVWFhVkFQaE9aUVg4VjZOcVhvNi1HeUR2Y2dGRWhId3doRm1kZ2p3ZmEtSjFJaV9zZTR3Mno0YkRUZV9JZlh6UEIzbzZuSkpTS05xUHVJUFhCczNXc01EQjIyaXNlTGJRX2dqZ0x3Y2FoVy1RRWllX19QQVVKcTlRNUNpeTRBcXltUno2NWlVVm5kdjdvZC13SDR6bzRoZE9yNHFPWkVjTEgxSERYalhKdkpYeHcxZw?oc=5"
-        },
-        {
-          "title": "Bank of New York Mellon Corp Grows Stock Position in FTAI Aviation Ltd. $FTAI - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa3FhenhwYTVQMjFBdkh4ckNHbFpkbTdWY2Nzd1FacTNld0dkNENmUXdINjQ1TUtCOUhmQmZsX1U2eVVEdm9KU3cxWDFSUXprbTJLZmdJZXhEVHpzLVY3WV9IMzZyQkp1el9xaE5LRXltdVM1NllKTHJXNzdHWU5VN1dmTE1mNDdfdXM2cHphVHFiRVRJSERNWEhRdlQweUtzTmd4T3VNSl9MZm5tdGxqak1PakloNGNPOUVGeVRyeU5VV0RuNktENE9ISU5DMkxEY3c?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "S&P 500 Futures Decline in Premarket Trading; Super Micro Computer, FTAI Aviation Lead - Barron's",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "NRGV",
-      "price": 3.48,
-      "gap_pct": 7.18,
-      "pm_volume": 148016,
-      "avg_vol_10d": 4391855,
-      "avg_dollar_vol": 15283655,
-      "mkt_cap": 630712674,
-      "rvol": 1.13,
-      "adr_pct": 8.68,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Energy Vault (NYSE:NRGV) Trading 8.1% Higher - What's Next? - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Energy Vault (NYSE:NRGV) Trading 8.1% Higher - What's Next? - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Energy Vault (NYSE:NRGV) Trading 8.1% Higher - What's Next? - MarketBeat",
+      "analysis_detail": "Catalyst: Why ServiceNow Shares Are Trading Higher By 7%; Here Are 20 Stocks Moving Premarket - Benzinga | Impact: See analysis.",
+      "analysis_details": "Why ServiceNow Shares Are Trading Higher By 7%; Here Are 20 Stocks Moving Premarket - Benzinga",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Energy Vault (NYSE:NRGV) Trading 8.1% Higher - What's Next? - MarketBeat",
+          "title": "Why ServiceNow Shares Are Trading Higher By 7%; Here Are 20 Stocks Moving Premarket - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVTY3a2tBa012N0EtMkY0bm15TTVmM181R0MyY1dObFRmQUZ1dTlFcm9TUkFJT3c2b0tEX0RZWkVCaHFkQ19vbUdiUU1Fc2NpZXoxbGlJV0JEckJZVkFiZ1daUkcyZ0xRRUxqMkoyNkltVFRZbWpKUlIyMThvckpvZmFLbzdoQkhnazM0alRhVUdIeXQxY08zaXRzQjBBY3VFTUVuVzBhbw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTF9mejR0cFlNb3dReEJHRTc0M1ozN0NWTEFXOW0wWXlrYWsxVEdJVkpISFRBc214eTlDa20ybDltR1dseDFmZGRxVWtqa3daVnQyVHdYaWNodFEzUW9Hb1F0OFFVZ2FIbDhIbEROUEdCdlcyRy1fNGJxTE42ZlJ4RFdjN0ljay1kWEZxVUo0RzdrTVAzZjdTR1dTeUxJd3lndWtzWUsxU3ZUay10c1V4eHc1WnJJUFVsV0RTdkdGRzd0Zk5f?oc=5"
+        },
+        {
+          "title": "3 Penny Stocks With Strong Balance Sheets Worth A Closer Look - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXNpdDFrYW13MEJQY2JXMGllbWg4R1I2ZmtLV3I3b2pkNGxIUnVjcllhcHRRX3ItaVY3MzVDNXo4QTJ4UnRRUWFKUFdOQjZ2Tk1ISmp3RjN0WmZqT0JFYzlxTWphdVNwR25OSlYyTmNhWmRrWTVoM0tfcS14V1BEUkpoZ0Z0cGUzdnVpMW9MNDhEV3Nadll1UzhyWlF1MktOcnoyd3ItQ2NkY1JHZ3kwV2Q2SEpPTFRKR0JodWlkbV9KSXhaVThV0gHMAUFVX3lxTE5MOWMxdGFJOHhYQzhaRTRpSU1ZZTNRY0o0eUotREZrWUctNFBQS3o0OVFwNFlWQ0tZeXZkYzdXU0pCVmlWVE5YamxUWTVuSU1OeXNfNFJWcm92QnhsMnpBM3R6cGI5aU80RXdaQmZrUzlwOFlfMjQzM2tqS0cteTNqeWpVUnpNR1JCTWZSSlZlZUFMR1FzWFpYUkhHMk5mcENaUG1fdzc0M1dnZTdxc0FtdlFndXBvcEo1WTQtQXJyajlnX3hmTXBPZGZHRw?oc=5"
+        },
+        {
+          "title": "Clover Health Stock And 2 Penny Stocks With Stronger Balance Sheets - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRmdmSy1YT2N3Yjc1dm1aR012dXdBWHZuSW5HaEZZOTM2WVU3eFNnVkFteFRKTEx4c0NvMklId1NZay1zcUE3Zi1kRVY5SWxEYV9WemQ1LWljSy1ZZGNCSEdLRVVUX2dBS1ZId2kzdDVWc3NiSVR2ZGdVOE1DaFRrNndnTm1ZZXZfRTkxMTJRNW54elFiX0pyUnNlZWE0ZFF0TTZ0WXhGRUJlR2NoUFRTc0dGaVJFMlAwOFFKdUtGbUF0bXVkRHFjREpoVGZGT0UxN3JRdE9jVkHSAdgBQVVfeXFMUEZnZkstWE9jd2I3NXZtWkdNdnV3QVh2bkluR2hGWTkzNllVN3hTZ1ZBbXhUSkxMeHNDbzJJSHdTWWstc3FBN2YtZEVWOUlsRGFfVnpkNS1pY0stWWRjQkhHS0VVVF9nQUtWSHdpM3Q1VnNzYklUdmRnVThNQ2hUazZ3Z05tWWV2X0U5MTEyUTVueHpRYl9KclJzZWVhNGRRdE02dFl4RkVCZUdjaFBUU3NHRmlSRTJQMDhRSnVLRm1BdG11ZERxY0RKaFRmRk9FMTdyUXRPY1ZB?oc=5"
+        },
+        {
+          "title": "12 Industrials Stocks Moving In Wednesday's After-Market Session - Benzinga",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcjhjdUpCdFZaUWhRRmNmaklpUU9PMWhaaEt5V1MxQUFCWVlRZ2w1THJCMkZZZndsUXg2dDBWQ0czR3FoWG5BdEY5bWtYOGZycWxiUW5aTTB0V3dvWDEwb2hub1BNTUdQczZ6X21oRkNfUFBFeEFuNVlJR0tZTC1FZ0tsN1Bxa0pHS1VnVDN4SUVjWldnMWpZUGJxVkZ2ZnNZY01WVll2d1FneE16U282czBkTEtRQW1CLTdDRlBUYw?oc=5"
+        },
+        {
+          "title": "Hyliion to Build 2- and 3-Megawatt Power Systems for Navy - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZVlhNVVIOW9SejVaZlZwVnM1YnJrMXhVWXFOWFVXRjZ5NEpRLTYyMWJqbG8yTHJLLVlfdmE5QUdyNHVxNWdOSjRDVnVuX1ZjcDZkYkxOWjZ2RF9BQ0s4dE9PM05yYnQ2LUdZbVo2SnlSWXQ0VEg4OXd4WnFFX0JqWnJuRWR4Y3J0T2J1b1FoX1ZGX1BBV2hpM19WN1FiT3JnUlJQZmNUV3ZQTnlrUjFKb2F4R1g2UERTTjUteA?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $15M < $100M)",
+      "technical_status": "Fail (Avg $Vol $10M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -238,7 +61,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Energy Vault (NYSE:NRGV) Trading 8.1% Higher - What's Next? - MarketBeat",
+        "primary_claim": "Why ServiceNow Shares Are Trading Higher By 7%; Here Are 20 Stocks Moving Premarket - Benzinga",
         "discrepancy_note": ""
       },
       "gates_passed": 2,
@@ -254,35 +77,50 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "FLNC",
-      "price": 15.28,
-      "gap_pct": 5.69,
-      "pm_volume": 316372,
-      "avg_vol_10d": 8085725,
-      "avg_dollar_vol": 123549878,
-      "mkt_cap": 2816267029,
-      "rvol": 0.76,
-      "adr_pct": 8.76,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Fluence Energy, Inc. Class A Common Stock (Derivatives) Price Today | Live FLNC Price, Chart & Market Data - Binance",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "ticker": "CLF",
+      "price": 9.45,
+      "gap_pct": 8.94,
+      "pm_volume": 461400,
+      "avg_vol_10d": 18633551,
+      "avg_dollar_vol": 176087057,
+      "mkt_cap": 5390418550,
+      "rvol": 1.09,
+      "adr_pct": 4.71,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Why is Cleveland-Cliffs stock rallying today? - Investing.com",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Fluence Energy, Inc. Class A Common Stock (Derivatives) Price Today | Live FLNC Price, Chart & Market Data - Binance | Impact: See analysis.",
-      "analysis_details": "Fluence Energy, Inc. Class A Common Stock (Derivatives) Price Today | Live FLNC Price, Chart & Market Data - Binance",
+      "analysis_detail": "Catalyst: Why is Cleveland-Cliffs stock rallying today? - Investing.com | Impact: See analysis.",
+      "analysis_details": "Why is Cleveland-Cliffs stock rallying today? - Investing.com",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Fluence Energy, Inc. Class A Common Stock (Derivatives) Price Today | Live FLNC Price, Chart & Market Data - Binance",
+          "title": "Why is Cleveland-Cliffs stock rallying today? - Investing.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM0hUdzZYTmlfWUM1SGw0UXRQbU40LVFwT1VSdFNDWmxmbTdXWlhUS2JBdlpRY29fbklzZlBOQnkxRW10aFNSNEpiNkZnRnhxUEtmS3hRQUZ0NXkydk5ZQmY0TzdaRUdoS2F6Vlg1eGNDRnNmM05YclhDX2pYRVo0SUREZE05RWhQU090MQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX0tNUXcxUDgyM2hrbkpUV0IwR1VGUU9ScGg1Y1FQellJMy1WbHZFQlZlUmwyRF9EZVMtd1EyaEJUQkhONjVUN0d0Q1VqOUhDWjFVYnlucEtncTEzdE9vZWpnRkpQbVhzSm1jSjZ5SHRfNG00cURuWVBaTlBvWW1KTDVOSkcwT19lV1dPRWxYRkctWTJGZGtmc09hTjhYLWtzbEFTQmNXaHE?oc=5"
         },
         {
-          "title": "Fluence Energy Stock Short Interest Rises to 39.04% - Quiver Quantitative",
+          "title": "Cleveland-Cliffs (NYSE: CLF) grows Q2 2026 EBITDA and sees higher Q3 outlook - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVkJsaFRGSXBCWUZ1OERaNkFMYkxkSkdURmZNS3p2YkFKdFo3Y3dZMVZiU0x4S250SC14UUxVakVfZWhxd0JqMmYzTmsxb2NmWm1QQnV1UEo4cDFlZGNwVkhlS1JMeVBmUFh3LWFRYTFHanFpaDNscVBaUXV1QjM1NDJweTh4VndGdTV1NTZLUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOem5oXzBYUXFJQUNhSTdCeEx5UUNJdXRjRlV5MWZHRUZyYXdoa3NPUHpUcEZsS2pkLUxIOURwRmJHQlFXYXRNNFBrZzgwQVNnSXJ1bGZDd2NKQWNMVWZfWmFYdHVkZVlrMUJ1RGVkamw5Ul90cDVuc2JMd2J2VWs2azRaaThTM2JuclFIYzhJdTM0UGJEVUlrQWhKdWVabVdRYU5TbFJrWFRJR052?oc=5"
+        },
+        {
+          "title": "Cleveland-Cliffs shares rises nearly 7% on strong Q3 outlook By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZE9taG1GZmVhdGdoNkRFM3B2aUc2WEt4eExxOGlSbkduaVdISktZTWZBTlYxUUJibGpfN1huSVJvQVd6NENDaENUb05vbUVWNWFLNjFxaGJfZ0Jhb00zNjJIdG50eW5FOTV0UVdnd2pLdXNQUm95SjRSeThaOFZ6TXZDWkU4NHNtQzhqM24wdGxuSEtMcUhSQlowWkkyZy1MSEw3c08yS0xxLTJMX1NNU0RFcXdZbHo0NTdr?oc=5"
+        },
+        {
+          "title": "Cleveland-Cliffs (CLF) Stock May Be A Bargain On Cash Flow Recovery - webull.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZNlZ3MHlueHZXR1NiVjliN1FMWnJEUjY0clZqbVh0TkRsOEJ1bzZOQk53SEhqckY2bFdIeVhtLUFWb1BYOW5SVXN6SEhjZVIyVElSd2p4S00?oc=5"
+        },
+        {
+          "title": "Could Rapid Upward EPS Revisions Reshape Cleveland-Cliffs' (CLF) Steel Margin Narrative? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb2QtU2lncm1Kd3pTdHRBOXFERklEaFhHaFZoSWY1MGhaRGR2dnN0Qm14WG1pd1h4Qm1VQ3BkNjZEM3czT2tnWk95WFU0LXZJbjVlTHczZmxKbDNlaUNRZk5hN1g3by1xVzZiZi04X0U1a1d3eElYMkFSWm1FSVdrTUNPQ0hkMWlURkFCckJXcWlfSnUyRHRLV2tVREJzZFBESzZxV1BONnRhaVVjakRkeWVkOHpBR09ULWRaRkJWZXNMZy1aU1k4eG94QkVYdw?oc=5"
         }
       ],
       "float_shares": null,
@@ -297,7 +135,224 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Fluence Energy, Inc. Class A Common Stock (Derivatives) Price Today | Live FLNC Price, Chart & Market Data - Binance",
+        "primary_claim": "Why is Cleveland-Cliffs stock rallying today? - Investing.com",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "SKM",
+      "price": 33.94,
+      "gap_pct": 8.87,
+      "pm_volume": 129860,
+      "avg_vol_10d": 2398596,
+      "avg_dollar_vol": 81408348,
+      "mkt_cap": 13367457925,
+      "rvol": 1.09,
+      "adr_pct": 3.46,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "SK Telecom (NYSE: SKM) to fund ₩750,000,000,000 AI data center subsidiary SK Hyper - Stock Titan",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: SK Telecom (NYSE: SKM) to fund ₩750,000,000,000 AI data center subsidiary SK Hyper - Stock Titan | Impact: See analysis.",
+      "analysis_details": "SK Telecom (NYSE: SKM) to fund ₩750,000,000,000 AI data center subsidiary SK Hyper - Stock Titan",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "SK Telecom (NYSE: SKM) to fund ₩750,000,000,000 AI data center subsidiary SK Hyper - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3Y4R3JBaXZFUGRWNlNDSURmeEw2Umx3OE1nSHFwbmVwamJjZk5nZ2tUMlM2NkFTdVpHY2lMTUlhMW83MzNYZ2Q4SXFlbFNJdElpT25LcERoYWhndlBmQ1BWQlNEaVpfQnllSzVWekxQM2pORGRuNmZPZkFpanpwb0VLbmdPTlB3NXFFT3RUZ0pnNHNwQ2ZBZXRGWXRYYnpDNXZhcWxRb2JxZVo4T1BRTXN3?oc=5"
+        },
+        {
+          "title": "SK Telecom (NYSE: SKM) sets August 31 record date for Q2 dividend - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSTdPaGV4OEIzY1o1Sl9RQnVnYTVaSlQxZ01GbXZiRXBmS20tcHJIalpLcDdpUEZCTFZocjNOMjRXNnBoU3BGUUt6MURlaUptRDAySTkzMjEyX3p2LVc2VzZVSE1VS25LLUhRNHp2RjVzRTlDaU9YRmVhTWYzUXlYSV9LZmFFUWZwb1Z1Nk1nUHNqdXo1R1VrR0drZDNsdGU5TEhTSHYxVzJ1QmRFMVdEM3Fn?oc=5"
+        },
+        {
+          "title": "Is SK Telecom Co Ltd (SKM) Overvalued After 6.2% Rally? GF Value - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzZTcXhCZ0JUVDU2UGZ3dUlvMTJpdmxzalVKZmRXNEVTTW5ZOWhSTmQ0ajBfcE9WN1psU3FCMFhrVVNkUURRVjhhM1JmLUFtYU9xLVkzaEF1ampzcU9xQ2p2MkZRd05IeVBXd3JfZWFxV0tIOFdxR1BqR3p6MGQ2aWtCRld6YzRjc1gzVkY5ek9sUUpyd2NWVkd6bzJHSVlDV0g2OGljVk5mT2xYYWJrUDJJZ2k?oc=5"
+        },
+        {
+          "title": "SK Telecom (NYSE:SKM) Shares Gap Up - Here's What Happened - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNejhIRU04M0hBWXNINDFTQzN5LUF5cUFBbFNLVFBaMVlsd2daWm1aTnd4c2ViMkdIOWxrdDBXUGlLektJWnk0UWNXQmpJb0c2MTdmM2FZMVo1NHVSeG8tZXpxek5GWXY4SVdlRGRnYlZpNDBDdjBwV1UxLXBDRXNERUxlWURpb2dURHR2dUQtcXFidHFyVjRNb05BV0NOTGtTdVNhSVktbnppdw?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $81M < $100M, ADR 3.5% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "SK Telecom (NYSE: SKM) to fund ₩750,000,000,000 AI data center subsidiary SK Hyper - Stock Titan",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "DGX",
+      "price": 209.83,
+      "gap_pct": 5.87,
+      "pm_volume": 82230,
+      "avg_vol_10d": 916010,
+      "avg_dollar_vol": 192206378,
+      "mkt_cap": 23227431352,
+      "rvol": 2.75,
+      "adr_pct": 2.39,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "DGX Reports Strong Q2 Revenue Growth and Raises Full-Year Guidan - GuruFocus",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: DGX Reports Strong Q2 Revenue Growth and Raises Full-Year Guidan - GuruFocus | Impact: See analysis.",
+      "analysis_details": "DGX Reports Strong Q2 Revenue Growth and Raises Full-Year Guidan - GuruFocus",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "DGX Reports Strong Q2 Revenue Growth and Raises Full-Year Guidan - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWG1pMTM5bC1PR0JtNmF2MHQ1bTU5NzAtVHFNbjhzNGE4VFlyd3NERVVWS3N6Ymg2cHI1UWVaQ2YwVVlGaXAxS3ZQTVNsNzlDSVNzdzVBeEU1VjVhWm1TQVZFc1pfUmV3VFdUT191ZFV1alZ1Vno1VXVoZWVMQ1RQam94d1dFek9RRnJCN1UwTGUwUXFQbTNlN21xb09La2JxSTFOcGVMOA?oc=5"
+        },
+        {
+          "title": "Quest Diagnostics (DGX) Reports Strong Q2 Earnings, Raises Full Year Guidance - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT0x0ZjRiYjZLVXJWNm5lX2szQU92bm9mbWpGdmh6UGlpYjJfcHkzeFI4R1dqUTRRd2h4eWNxd1h2TTk3TnRQOWI1SWktWUc1NFRaV3h1LXhhUzkxMmJDZXdWNWFIZ21OM1pEZWdRajNDU1BOT0xKamFNR1BpZG5OVHFXZnFGR0dBcXdNR2lsNU1HOHl0b3BQajM3NzcxOThISVJqcll2ZUVPWWVwWkxYVlpnTQ?oc=5"
+        },
+        {
+          "title": "QUEST DIAGNOSTICS ($DGX) Releases Q2 2026 Earnings - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZlhITmZmN0xfTnFyc1F2ZzVFSm9na2IyZWFYODVRdUNLOXdhRmFPTmdPeVZZLVd1bDEwSk1Ec3gyLUw2dzllMWxmY1JOcGVkX2h4eW5ucVRwY3BNRmc2QmFERXRiQ0ZocFR4MWpDdE8xYnV1bFRTRnZnNHNHMGV4NHZzNEZZLXNjWEtLeThRc0FKYjg?oc=5"
+        },
+        {
+          "title": "Earnings Flash (DGX) Quest Diagnostics Incorporated Posts Q2 Adjusted EPS $3.12 per Share, vs. FactSet Est of $2.82 - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZjllYS1qYWZUNWRHZE1FR0l2MERHbHphUUNtM3BnQjVSbWs1RnhmOUVPXzM4cG1ES2hSZnNSX3RZNEd4THVodjNfbW16bUhOalMtUXlpbHpvOG0xdklZVllvaVhDRGo2MWh6NlhjQ0I3Z0JZOG9GSE9pVkRxNklQTXpJSVB0ZlBnQ2dXZ3hqQW56Y0dnM1BVV0NXSDRFc3NjczBwVGVkNTBlU0pXTlQ0VEFNOXB3RFBxdHRiSWIzWjhfd3dtb2VOTldBaXBpMm5ha1ZpVUJiOVh1dnJwZjZ2MmpB?oc=5"
+        },
+        {
+          "title": "Quest Diagnostics Rallies Ahead of Earnings as Investors Weigh Growth Initiatives - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV1dRUThQSTNCN3hpTWRQcXlEOFNHemJqa0RiTVhMbzRER3M0RkhJcUJ2WU5lVHdJTTFzeHR5NjN0Rk1xTV81dTJuOG1FUFdBMExUbWpuMkxndk1iQ3dPN2pUZVpSemR5akdONzdGVmtRRWZyVXRwS28wZEhNeWF5ZDc4UHRYUU9RblI5T2tTbTVaZi1IZk5iUHZwZVRVdEc2Y0dncmRyLU1pNG9JcklCaEZKT1c?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 2.4% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "DGX Reports Strong Q2 Revenue Growth and Raises Full-Year Guidan - GuruFocus",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "HUT",
+      "price": 109.86,
+      "gap_pct": 5.63,
+      "pm_volume": 57342,
+      "avg_vol_10d": 3848869,
+      "avg_dollar_vol": 422836748,
+      "mkt_cap": 12369588836,
+      "rvol": 0.72,
+      "adr_pct": 9.53,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Why is Hut 8 stock surging today? By Investing.com - Investing.com Canada",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Why is Hut 8 stock surging today? By Investing.com - Investing.com Canada | Impact: See analysis.",
+      "analysis_details": "Why is Hut 8 stock surging today? By Investing.com - Investing.com Canada",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Why is Hut 8 stock surging today? By Investing.com - Investing.com Canada",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYzhJcDNFbjRQdTVmTHdvU1d3WDVQcURweExUdzhITjd6RDNSNTV3TVJNd0QycHUwZFpWS294VE1CcTN1aU0xTHpQN0F0NjRjN21NWG1kZnVTVEJIQXhadWxJcFJFOXVBSzVOWUplb0RzUkRzbXB3akcwcVdxR0pycG1iU05TTmx0SXFJZDJzZFNoOGNlZHJ1RQ?oc=5"
+        },
+        {
+          "title": "11,950 Shares in Hut 8 Corp. $HUT Purchased by Independent Financial Group LLC - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY3BNeHJUN1ZCSGZvLTVyYmZ5MWhFY0M5cWcybjlwRjRldGszVFNsRlRRSnltSml3b2lDMllfaEJQX2JSa2FjeWFnV1F0ZDhIY0ZueS0wUHFLOHFSMFZlRTBpd0tHVFJZb21SREszdVBVbGl4VVp0enhzWUQ5ZFN1MEl4S3RSZGFGcEZIOVhPbGVQS2ctTGtfeDQ0ampEYkZTNnZ4M1p3ZmVxU3VxNElISjdzeTMtQ1BJRmRacGpLZ1pOLXpsV0RicXJ1XzJPTzJHQWc?oc=5"
+        },
+        {
+          "title": "(HUT) Movement as an Input in Quant Signal Sets - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeTVNZE1Nak9XeUM4ZGFlTzF1eWg0VmJyeEJzM3RRaVV2SGhEUzM3WnREZ29QWmREc05FbU1kbGNlN09kbE5VU3l1YnIySXd3LVBlLU1CcHI3ZGxWNUVFU1J4bkxoa2ljazM4VHRJdGxleHNfaEJWcm5BUE1ZMHhwZkVqcnNCQmxoVUx5RjZCem9xM1dWNjBwS2syWHZVWUdRNlREcl9MX1pKWWVlRHdQSEtjeTdzVHktWUJXelVtWU5tdw?oc=5"
+        },
+        {
+          "title": "CIFR, CLSK, MARA Stocks Jump After Hut 8, IREN Fuel Digital Infrastructure Rally - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaVVuN1J0dG9kcW1mb0NaTnd1ZWo2MWRKemk4MzhweXBPb2JXSUxXR3hqSUNPRHdSeUZaU1R5Y0pWQ1ZBdUcweV9mN2l6Slgzck5RNTFFb00tYkJ5RzlFN0IzODJ6NGRyQThUSVhEa1pqVVpDSTVhZldLR0NtWS1zMlI0c0ZQNzAzYi04NzJoZFRSWUEtMDl2MEJDbkhSZXpHcEpKOV82cWJVbkRIUjVfcjR3UQ?oc=5"
+        },
+        {
+          "title": "Benchmark Raises Hut 8 Price Target For Second Time In A Week",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/54c58a66-dbbf-3ebf-aa27-569f70313564/benchmark-raises-hut-8-price.html"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Why is Hut 8 stock surging today? By Investing.com - Investing.com Canada",
         "discrepancy_note": ""
       },
       "gates_passed": 5,
@@ -309,51 +364,61 @@
         "gate_adr": true
       },
       "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "SMMT",
-      "price": 14.63,
-      "gap_pct": 5.26,
-      "pm_volume": 64905,
-      "avg_vol_10d": 2982505,
-      "avg_dollar_vol": 43634048,
-      "mkt_cap": 11355258893,
-      "rvol": 1.55,
-      "adr_pct": 4.7,
-      "category": "FDA",
-      "theme": "FDA",
-      "reasoning": "Summit Therapeutics stock rises on positive cancer trial data By Investing.com - Investing.com Canada",
-      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
+      "ticker": "NOW",
+      "price": 95.46,
+      "gap_pct": 4.99,
+      "pm_volume": 1007783,
+      "avg_vol_10d": 19877320,
+      "avg_dollar_vol": 1897488967,
+      "mkt_cap": 98448659151,
+      "rvol": 2.44,
+      "adr_pct": 4.86,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "C",
+      "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Summit Therapeutics stock rises on positive cancer trial data By Investing.com - Investing.com Canada | Impact: See analysis.",
-      "analysis_details": "Summit Therapeutics stock rises on positive cancer trial data By Investing.com - Investing.com Canada",
+      "analysis_detail": "Catalyst: Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar | Impact: See analysis.",
+      "analysis_details": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Summit Therapeutics stock rises on positive cancer trial data By Investing.com - Investing.com Canada",
+          "title": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVUFfWDJlamtFWmFLYTFhY2tGWkxQT0RnbFRoblMxYXRfdjFnSTdyc0JfRmdyR0YyeDdZaTMzVFVyMmhhRHBEbVhsNFFsUFFFVU1PMEo3UE9mY2VKMFJocUJjLWFLYjRxTEZnOGMyeHB0NU5sVTlIRlhLRzJsdTVWeUJub05UOFo5VG9CMjlQdTlZVi1iM1lkejVfSm1kcHoyeFVuN1F6NGdsV3RHTDhyblg4dk16dTJibGVSOU81MA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd09KalBlejJHb0hHTnlCdnVUTDcxdUNVUVNlZHY0Z244cHVobXNGYWwtd3h0VVh5dHRxMnl1dlQyUzJnWVMtbWlzQzlSR0J3RkZMaEdubHRNWll0RHRobWtic0pNTkJTclBWUVBYZGdLSjJMX2c3SDFndm01Tld6OGdvSFZWZlNsam43UDlCUE1qNVkwVDJTeDVzb2l3bGtYYzFxZ241OG9uNzA?oc=5"
         },
         {
-          "title": "Summit Therapeutics (SMMT) Reports Positive Updates from HARMONi Clinical Trial - GuruFocus",
+          "title": "ServiceNow Stock Jumps After Earnings but AI Disruption Concerns Linger - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYk0zRzl3U0tQd1ZMbnNRZi1PY3pFbG5idVRXeURaeDRZUVJIeS1Fb1RMWUQ4MEhLdWwtdmVyOVR3d2syODlmQk5aTjRKTncxbThMNzc4R01sTTFmakRzV3Izdm55QTM0eVptb25GMjZjTGdXbko3UFhhRFNKLVp6eVJBbjcxN0RoOWhDeUo0SlhUQk81TVh4dE1lTjVKcjJBOEVIUEh1bHp6VklhZ1ZqVW5hekozdm8?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpZkRGSlBvWU1OOUhKVkxHT05DWENJdHVjRlJXNDZsaEpMaFQ2RHdtU3VTRGd2dklGNTV6UUJhdVVpVjFyY1R4eHBFREtjbGYxWnc4WXpvUU5qM084MHFYbHpvWW5aM082aXhNRW1LdGVoRTlDQnFHb3h1Y3hSdw?oc=5"
         },
         {
-          "title": "Summit Therapeutics (SMMT) Is Down 5.4% After Out-Licensing Ridinilazole To Biossil Inc. - simplywall.st",
+          "title": "Experian Connects Employee Onboarding and Third-Party Risk to AI Workflows - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNC1MaVFVYVBQZ0dGZzlYTXA0VU9CVXZIRkRHck5vWENlV1VNNmYtT3E0aDE0QjVjV0M2QWRCZW9oLXNIZWRLYi1QV1g0STRCVEZEQy1YZzdxVkMycW5ObzVoOUV0UU5oT0ItUmlEYklOMlFkWkhvXzUzVkxWMTlPcHNJVE5QOTdtVTFraWZWQ1BPY2hzR2JSMGlaODUtYmMtdXNrQ2dzQ2x4VU1WTzZOLXJvWlU1eVpOY1Y4Nzdhd0hrOWFSS2wwWTZicmprVWZVYjFndkw3bGh3MVFvZWYxR1QtWWZ3bmxk0gHuAUFVX3lxTFBqeV83akpocng1dHdwY3pZQml0SkpXd0tUak56Z1pjaVNWOUI1U0pvZE9hNHNjdUp2ZFM1WVlJZ0R1d3picWYtTkEybU90MnM1QmF5QUdDQ0htWXRISTE2ZjE3N0Q0aVcxWTUyWEhlSlltbEV2N19oZGdrQ1Z2ZjA0SGdUX1RSVERNNTZUUDRlWHl2Q0JZZmxGUDktSUozaG5UYUNrZW1aemdTMC1yR2hTZTNtX3JSaGhqNXk4dUtKOTlCeENBMzZWZEFwNTZPVllEcTZnS2xDOW82cFNXZ3QzS2d6MFZ4T1BIMldaMmc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNamJ5NlEyQmx2QUlvbllrbnlvMjRWTUJNd3hBSC1Fc1h4QmJWWGdWSlhKTVFWUHRfeFNkRkVLUGJtaVNNeWs3WlRFa2hSQW9IQlBUVjBQcGp3MU11OEpVUVF1UkcwWGwxWVRMZ1RxNFZwaDVveUo2c212alBZODl5c1RyZDRCNk8wcDgtS3BwM1JYUWVJdEpZSmxnRVRWVFhaSWRNSDh6MldUbUQ4NlVGbjNqNV9ldw?oc=5"
+        },
+        {
+          "title": "After-Hours Stock Movers: GOOGL, TSLA, NOW, IBM, TXN, MOH, URI - Investing.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnpFSU9CNkgwcVhZNVM3cVdzMmx2WHIyRjR2M2VtTTN3Rm16LV9VdHRaVFNlN0xoTFR1QWxETHRyU1QzeGxIbjE3aEtjRVg2ZEUweDRnUE15RVd6R09qdThuVFhZd2hTYnNvRmdvaTJNQ3FmMjJXaEwwYUl2VjU0MFFXM29hdE80WE1YdXU2TjMtNUdvSjZmUTVsNU8yalRmT3lnV3pvY05KV2VqYVBMc3RIdWh2dXNB?oc=5"
+        },
+        {
+          "title": "ServiceNow buys 5% of BusinessNext, values Indian software firm at $700 million",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/technology/ai/articles/servicenow-buys-5-businessnext-values-230416593.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $44M < $100M)",
+      "technical_status": "Pass",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -361,73 +426,147 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Summit Therapeutics stock rises on positive cancer trial data By Investing.com - Investing.com Canada",
+        "primary_claim": "Where the Stock Market May Be Heading Next and What to Buy Now - Morningstar",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "TMO",
+      "price": 526.46,
+      "gap_pct": 4.97,
+      "pm_volume": 209297,
+      "avg_vol_10d": 1881849,
+      "avg_dollar_vol": 990718225,
+      "mkt_cap": 195643841977,
+      "rvol": 1.42,
+      "adr_pct": 2.78,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Thermo Fisher stock rebounds after Q2 beat (TMO:NYSE) - Seeking Alpha",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Thermo Fisher stock rebounds after Q2 beat (TMO:NYSE) - Seeking Alpha | Impact: See analysis.",
+      "analysis_details": "Thermo Fisher stock rebounds after Q2 beat (TMO:NYSE) - Seeking Alpha",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Thermo Fisher stock rebounds after Q2 beat (TMO:NYSE) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lTVpLbVNlU3lKcE5qc21LazVUWEZxblNodjZEOUNfck13UFdFM1NQZVdCOUFEUzVSeklnUHg0TklxeU55dkFpTWdjRE1aUlIzajZLZENvZkQ1ejMxaWl0cWlmMm9yS0ZxaXc3bjBLSS1WR2dZMHd6b0FHNmdCanc?oc=5"
+        },
+        {
+          "title": "Thermo Fisher Scientific (TMO) Reports Strong Q2 Earnings with R - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNk1QZUd2Sml0MUllZHNyem9tS0xrUjQ4WGQwOUJud1VlMl9ibzdLdW1SY281MFpEOEc0SUhGTDRsX0VZMVg0M0c2Zm1hbDlLWDlIOHZFR09VQzkxSy1KSXB1cWktMUh6UlFFc2NXVUxfVTREWXB2ZEEwVDhweW9PZkR1NTMxREhXYWlKTHYyNklzSk1mc0xYRzV6RnR2T3ljbmhIU2lZMGM2Mk5ZWjR0X3hIQWo?oc=5"
+        },
+        {
+          "title": "Thermo Fisher’s (NYSE:TMO) Q2 CY2026 Sales Top Estimates - StockStory",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM05PRWk2dXU3Y1JkTzdJUFpwbFk1N0dMaUxOWW5OdGt3NGdydzhmS21jY3BNZjlqQ0t5VGo0bTN3N0JhdlFlSG9WY2REVHA4dHhWMlIycEpCT2EyQ3NReldCZDEzMl95VlJUV0Z0cUZPc2hUZWpMQ1pCcTlfX29jNkFGS2VDOFh0Z1ZZQWZYM1pYT3RMMUQyV3RzZmVCM2owbWVTTkFmc0pHTWd3?oc=5"
+        },
+        {
+          "title": "Thermo Fisher Introduces Excedion Mass Spectrometer for Drug Development - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmlfbjBmSkhQVGVYNV9mRTVmWEwwSjdEbHc4MG93TUdOcERudF9FTkRLNnpGRjJ4MEZ0cW80YTJYblRBQUpwVi1XZU94d3UtaWl2OGtzalg4V2wxcFBOSDMtMGdfMlNtWV9CQThGc2RPUnd6ZnR5S0NLVHdEQ1hfMnpnWHpRblZzNWk3cHpzTy05VTF3TnljWlBQdU9ObUpfbWRDR2Z0LVgwQQ?oc=5"
+        },
+        {
+          "title": "Thermo Fisher Scientific (TMO) Wins Kapiglucagon Contract, Is The Stock Still Undervalued? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdVJhNVhKbGpWQ1loVEl6UXJnbDNoWXRmRkxXREllelN5bGdvX3BiblZEZG9ySXR4TW5zSXpBOE85R3c2aGN1VjhWLVFKNFVoUHQ3YUxhRU84alMyd1RsNzRYUU9rXzFVSzVSOEM2ZkY5NE02SEtlVGJxYkFsU01admRpLXR1ekZEdXNheGQ4YUV2QUdaWGtKdkFvdTJMWU9BMnlGTHNDaGU2V2g3YXJwQUxKMERnbTJ3bTVwSVAtMHYtN0ZQQkR0dlVIVjN5Wm5UcUtQZGQzeXF5TG41WmVUb1lLRnVkZmtlZ2g40gHwAUFVX3lxTE1xYW9vWUgyOWFGYWExQVNCVFo4ZlJwSVVZZ29lQ245UDBqNzZCcmY1Y19xN1BmbTJTc1FjVVRJOVlLNk45SmVNTGpDZ01GOE1VR3Jkd2R4TXN2c1RwWWl4bUdEbHBRWlBabnlvUGZDQ096eVh0THp5a1ZwWk0tT29Mb3hyZHp4Wlo2U1BUYjdjX1lzamtleWhZcklXUTdWN1FwU01YRXRqZWRoY1NKNnZfSXNrbEM0bV8xWjJRTWM2RExJRVdlRGxxcE9DdGprZWs5SXdwcUpaWjVRN1g1dHAyeVRGQjNGaFhSWTBUbmlOeg?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 2.8% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Thermo Fisher stock rebounds after Q2 beat (TMO:NYSE) - Seeking Alpha",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
-        "gate_dollar_vol": false,
+        "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": true
+        "gate_adr": false
       },
       "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "T",
-      "price": 22.26,
-      "gap_pct": 4.63,
-      "pm_volume": 3561964,
-      "avg_vol_10d": 75078912,
-      "avg_dollar_vol": 1671256581,
-      "mkt_cap": 154670024773,
-      "rvol": 2.25,
-      "adr_pct": 3.07,
+      "ticker": "RTX",
+      "price": 194.88,
+      "gap_pct": 4.77,
+      "pm_volume": 93874,
+      "avg_vol_10d": 3936576,
+      "avg_dollar_vol": 767159931,
+      "mkt_cap": 262441657747,
+      "rvol": 1.55,
+      "adr_pct": 2.11,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "AT&T Stock Rises as Earnings Beat Helps Ease SpaceX Fears - Barron's",
+      "reasoning": "RTX (NYSE:RTX) Reports Upbeat Q2 CY2026, Stock Soars - StockStory",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: AT&T Stock Rises as Earnings Beat Helps Ease SpaceX Fears - Barron's | Impact: See analysis.",
-      "analysis_details": "AT&T Stock Rises as Earnings Beat Helps Ease SpaceX Fears - Barron's",
+      "analysis_detail": "Catalyst: RTX (NYSE:RTX) Reports Upbeat Q2 CY2026, Stock Soars - StockStory | Impact: See analysis.",
+      "analysis_details": "RTX (NYSE:RTX) Reports Upbeat Q2 CY2026, Stock Soars - StockStory",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "AT&T Stock Rises as Earnings Beat Helps Ease SpaceX Fears - Barron's",
+          "title": "RTX (NYSE:RTX) Reports Upbeat Q2 CY2026, Stock Soars - StockStory",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FU09SRFlVQ19XY1FpRzV6Qko3NENITWRlX1dsZlJPT09McnlVdmFWb0tMQWI0LW1vOEkyLS1mSEp6MXdyNEFiMUpUclVpYW5zMFRieXdGNm5FNW1SQkRpY25IUVloczdycF9hcGo0dVN4dHVORmc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR1BFQWV2VHVnRGJrNTZDeUVlcEpyeHVGTlNibXFrN182NkUwNkJVd29wc3RhZUNaMjJYd0d4N21wdU13RkZubjhISEtnS0FEeHEwRDEyZDEzZUhreXN5QU5VeGpsTmZKMTZ0THI3Sm9PNnR4T3ctbmlNNUxlNmtnNzRmY01EUk9WVEJ3ZTE2aXlOUFZKVXc4RzBsQ1B1LUY0XzlpQlY1OA?oc=5"
         },
         {
-          "title": "AT&T (NYSE:T) Reports Sales Below Analyst Estimates In Q2 CY2026 Earnings - StockStory",
+          "title": "Why Is RTX Stock Soaring Thursday? - RTX (NYSE:RTX) - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUnNScVRTNC1rSDZlMHcycDhzX1RvZ0JpYWN3MFlObHM2U1BBcDNxaEcxSk1sWjBlS0RJSG42b2NoUXo2REdSSFpXUU9qZHZkb292TlJ6YXhVZEUwdmFWMEVyYzZxdnViT1pwSWtkVjF0MGE1YzczbXpiemlDdVQxZFFRR211Mm9HZS0tUmdVZWtqR1JVbkRiSDFaanktc0NXd3hKajZ3SFB1MzdXTnlYYm1xUmZWTWZKUVdYQVBlNmhLVGN1?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbkFkcExwNmxUckd1bXdFLXQ4ZXlWMGtSdDkzQTF2N3BJUlNKd0xXSnl5eHgwb1JkTkNEbVVpUkFLQlFFUVc2R2JoQmdWLWlmVXdVeURKSFNJYzVyTS1hbG9xV3I1c3BTSkczQW9nN2FwMmRZaFZsSHpIOE5lTTNsemd2VEtrcE1lUGpFS21yaXJMWVFFdE5kQ2ItUVB0Q1NmTzIwMDFxeEZYcjdnT2tWNDl6Um8xTkpwMlZYRGNxMU5HaTg2dERVNG1idDRBQnRrUmt0RUozakFDREdISGxLcm93?oc=5"
         },
         {
-          "title": "AT&T Delivers Strong Second-Quarter Results as Investment-Led Strategy Gains Momentum - PR Newswire",
+          "title": "RTX Corp (NYSE:RTX) Quality Stock Surges on Massive Earnings Beat and Raised Guidance - ChartMill",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNldMRExsbWgyY3I1SFFIY0pmOXFfcmlueUE4QS1aeDhyX0hDVGZrY0RtZmpRQVZ3T2RVOG9lb2RxMXdJYldBZFJMWnd1X191MkpvVDJ4UjFOMkRhZnVuMGJ1eUtQeEFaSHhpcjBwR2FJdjhXZTB3UXZ2Yld5UFV2SXZoOFBGNTlobDlMMW1pcDZWdzFIUUdTVGoxVHZmMXhJdExhcHh5S3BIUk9nOG5PTnhBQzFWdmJUTUljZmp5eFNrVWRXYmwyLXVWQ0tNWWp0T216NEZfWQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTXhJN2RaUzVkTF9VUVFIQkxzRTREaFFxOVRFa2RJTVlTei1qdDVaWTBKNFpqMER1VXRqOXdEc2lBTUExTkw4YUI2YU5nQVp5elNXQ1BHZ0Q1WW93MFZ6X1MwZEZQYlk2RzlvdmZkX2JuQVM1cTBXczJWN1ZZN3hSdy15ZXJOWTJWcjRpb2QyRjVlMjQ5TjJpVVItc09FaldfZ1Fqc2dhSzAtLTE3QTU2NWNGVlQwSm9EN3VhZVlPSWFUbVhKdTVEdGZVX0pwUQ?oc=5"
         },
         {
-          "title": "Capital One earnings were good enough but didn't answer the big question hanging over the stock - CNBC",
+          "title": "Why is RTX stock surging today? By Investing.com - Investing.com Canada",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT21XYVBCTGRENElJYVYxdTBkQ2k2MklXWV9nb3JBemFxUVRrVUs0dFZXdGd1RnVGUXJTVml2MnJXMS1GYWs3anNqNGN5UG1QR3Q3ZFo0X0cxUWRGUGVzdXctUHExU1I0cThyaHAxeWdTTjNiMnNfemVYME1RU3Z6ejh4SVVfaXRJSEFNQS1tWEpab1FQT2oxYU1lTTRRQV84aHM4a1hmRnhsUll4S0ZzcHlR?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWTFHeHBwaDVMTmRnWTZrbV9kT2VabnU4b2xHTTRBOWcxYW1CLUkydnRRcG5Ea2pJVnJnN2lrS3VEQURmdE9KOXVxREJJdGxVcXhRRzNxU0VyYTBTMW0wWnd6c1FjOVJZQzNjNi1FcXJ5MUhOQ2N1eENOT2xOQjdjblJhRmlsRjBjQkVsTkFud3dPdC1TMGc?oc=5"
         },
         {
-          "title": "AT&T (T) Stock Still Looks Below Fair Value As Caution Lingers - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1RzODVzMUZWR3pKUzktV0tIMk9DWmh2QU1CNWdlQUVPVlBRUm96eHpxT0kyTGZxN2JTNkxDR215TTFPNlpzMmNMaHRGWWVyVVl2OTZtREtfSUh5YlVOR3FZNmFaNENOMW5BQ1BQNFVkc0dtcXRFMy1oN1lkWGRrcm9TeFdFOENORy01OUF1dEgwdUxfQnV2SGd2NGJ4MXVEM05Ea21QN2lWNGkzd2o3aTBrRjVzQdIBuwFBVV95cUxONm9RYWVjdXJvUFU0V2k0Z1UxUjBFejAtQVZ3X0QwdnJrYVBPM2IwSWpXeXp4MFZUN0dWVlFZZDFYaGk1ZVcxelBpcXRZQ0dBejktOW5hY1pxZnJrRzRWaDA0MTQwT0ZVSWtOMlM0cHlNX2hUMWRwblluZktueUxGbHk0SFdoSEgxTm4xX1lzMllBSW4wNzJyWUhDbzZFZllKWm9SeUtfYTBScEZodlJUc3lCSEVZNkVFeTh3?oc=5"
+          "title": "Reading Between The Lines Of GE's Latest Call",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/b1b3c0a5-ee0e-338a-8d33-190125f22506/reading-between-the-lines-of.html"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 3.1% < 4%)",
+      "technical_status": "Fail (ADR 2.1% < 4%)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -435,7 +574,81 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "AT&T Stock Rises as Earnings Beat Helps Ease SpaceX Fears - Barron's",
+        "primary_claim": "RTX (NYSE:RTX) Reports Upbeat Q2 CY2026, Stock Soars - StockStory",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "TSCO",
+      "price": 29.36,
+      "gap_pct": 4.63,
+      "pm_volume": 334138,
+      "avg_vol_10d": 8850511,
+      "avg_dollar_vol": 259851003,
+      "mkt_cap": 15397841927,
+      "rvol": 1.51,
+      "adr_pct": 3.33,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Tractor Supply (NASDAQ:TSCO) Issues FY 2026 Earnings Guidance - MarketBeat",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Tractor Supply (NASDAQ:TSCO) Issues FY 2026 Earnings Guidance - MarketBeat | Impact: See analysis.",
+      "analysis_details": "Tractor Supply (NASDAQ:TSCO) Issues FY 2026 Earnings Guidance - MarketBeat",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Tractor Supply (NASDAQ:TSCO) Issues FY 2026 Earnings Guidance - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjBNU2pIdHJiXzBiSlF6Rk9qVE56TzA4Y1N2RWdIM2hNSGZUVDNUXzlTV2htYzQzZWtkcUlQMDhhUW5WYld5X21xbTRBdk1RSGxKU1AyVTdZVFhpcDlHakVaU28yblVqWnN1dEFuR3ppWDhKTFBKX2hpVWNodXJSbUVXNG1FZFRYdEt4N3BMa3VYYXFUeXRHSUE3QTdvbnBRWGhPaXJxMjZPSHVNSzRnc2hn?oc=5"
+        },
+        {
+          "title": "Tractor Supply (NASDAQ:TSCO) Misses Q2 CY2026 Sales Expectations - The Chronicle-Journal",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeWViTGVDV19nREZBTURlTGFIcU1IUG9QOHFrX3RIZ1pQZ0xpTi10anI1alVIYVpKcGVkWUpTQ3dJOThOOFhIbnozcmVoMlNsUVY0RjU3NDRuTG1wb2dkeGJJSW5JRllIWENkbGJxVmZQRDdwOGxuRllhWE5Bb052Q29FbFkzdjl3STBOMnN3bEV0MVBTdTZrWG8wcmJ4Nl9rOW92VHpBLVUyQWphMkdzUjh4ZHhYdDlETEN6dVBqdi04MXZuQ0ZtY0E2TXlPUjViX1BYVFc0T25sTkk?oc=5"
+        },
+        {
+          "title": "Earnings Flash (TSCO) Tractor Supply Company Posts Q2 Adjusted EPS $0.81 per Share - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZjZWMmhtdnhhRlFVVTh5eGdURktZUGI3Vy1QRUlneHBoZHc3QVAtaG1lNERITEMycTFXc09UMmpIdm5Ca3N2NzVjVVA5SVJJSUhVZzE4YWtrckQxX2ZpNHY1cWJXSEpVbkREUzJxX1BKa3FacEdqZzRyXy1Xa3BwY2tuUW5wblgxMjlOT2pHekQ0QW1XZlBObGdQZUJ4Z1NXdTlkNG5SUm5sZzhMdWZPckVmM2ZUT2JVbWJEZUtYVzFqdE1ZVmVpX25DUjU?oc=5"
+        },
+        {
+          "title": "SEB Asset Management AB Acquires New Stake in Tractor Supply Company $TSCO - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1VOTmMxQ0hkeGoxU0dxMS1CLXNhM3NCa3VzRWZRRzNtN3pPOU5MVm5jMjdEOG0yUy1TZW1HMHV3Um16VlByTUFyZmtOMXBoaEtlY2FYYmlnWEpaV2VmeHBuVzZWVkVzT2NsQjhpM01Yc09WRGtHTTdpeDVrdnVWRW1qQjJUSDZMME1VaDlub1V3ODhUSTd5ZTI4LXNJQmpvME94WDlTZHZJVDlzdUk3MkVQWE9TTUVrZHEzQ2NyUGw4ejdEYW9Ha0l6R1RvT2c?oc=5"
+        },
+        {
+          "title": "Tractor Supply (TSCO) Launches Instacart Same Day Delivery From 2,400 Stores - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSHFYVGdGQzQwT2Z0eWZhSnFCenlJcW9aX0RHVUJ0aWdtX2lqdzgzM2t6UjJ4QUpYaXh4UkhkM21Hc1g4VTJ2MENaZkhTeTh0UEtaVUZFNFhHR2FOX2V3T25vajVMcUg1b1dHSHJPYW54amk1Qnp0NmpEYnR1VlJwX3pKdGpad29aTWZIckxMdV96ZzZqN1l3NllqNkNSNHZEaEw4bEhR?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 3.3% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Tractor Supply (NASDAQ:TSCO) Issues FY 2026 Earnings Guidance - MarketBeat",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
@@ -452,41 +665,51 @@
     },
     {
       "ticker": "KOS",
-      "price": 2.42,
-      "gap_pct": 4.54,
-      "pm_volume": 567691,
-      "avg_vol_10d": 20041501,
-      "avg_dollar_vol": 48500432,
-      "mkt_cap": 1435518079,
-      "rvol": 0.66,
-      "adr_pct": 7.42,
+      "price": 2.65,
+      "gap_pct": 4.15,
+      "pm_volume": 142575,
+      "avg_vol_10d": 19276727,
+      "avg_dollar_vol": 51083327,
+      "mkt_cap": 1571951621,
+      "rvol": 0.88,
+      "adr_pct": 7.39,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "KOS Maintains Rating by Stephens & Co. -- Price Target Lowered t - GuruFocus",
+      "reasoning": "KOS Stock Climbs As Jubilee Output And LNG Volumes Jump - StocksToTrade",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: KOS Maintains Rating by Stephens & Co. -- Price Target Lowered t - GuruFocus | Impact: See analysis.",
-      "analysis_details": "KOS Maintains Rating by Stephens & Co. -- Price Target Lowered t - GuruFocus",
+      "analysis_detail": "Catalyst: KOS Stock Climbs As Jubilee Output And LNG Volumes Jump - StocksToTrade | Impact: See analysis.",
+      "analysis_details": "KOS Stock Climbs As Jubilee Output And LNG Volumes Jump - StocksToTrade",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "KOS Maintains Rating by Stephens & Co. -- Price Target Lowered t - GuruFocus",
+          "title": "KOS Stock Climbs As Jubilee Output And LNG Volumes Jump - StocksToTrade",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEZaZlRZVzBnaVlIcHhacDg4bmN2RkFJU3AtN2d0UTlaZzVfZGhuMExaTDg0Vndqd1dMNHN5S3BxRUJOcHJ3M0cwUXV4WTRhQ3lhM1FjUzhCNVZlM096R2JQNll6RExlRk1HQ25Gck00TXozRzF1Q2JYemZhY3QxUFZUSEF2VGwzNkJmcURrQ2U2QjZTZFVvME1kRVdDZEEycV9HQzJVcnd4UjJZVnVLbE1IMGg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tcVNiaWhjZXZZb0MxR2NlblFsbktaS3cxQ0NwbjE1amtqSHBUSjgzVWVMY1pYSnN4UlNZMmt1MXd2R0xoQU9zRWVqZEc1U0l1N2xFUUVEejhheWRPUFZxQXFBNWxVdEEwc2k5TGRDVlh0OGdIU0ttbGJvcnRzc1E?oc=5"
         },
         {
-          "title": "Kosmos Energy Ltd (KOS) Q3 2025 Earnings Report - Results, Call & Slides - TipRanks",
+          "title": "Kosmos Energy KOS Extends Rally On Jubilee, LNG Strength - StocksToTrade",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Qbk5vRmRBM2VpazFIWUxZSFFPSUJ4VjFfeDZZMkdKWGEydFJFUEEwZEtpU0RoNVp3elI3QldfTEMyWWhMSU8zdjVTYW1QcFQtX25VTlhuUFZUOFJsbVAtWl9kc0pIUzBqUDhN?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80b3VMUXpCWWNpY2dvWmYxZU1oVXJaRUJsSVlmXzdvS21NNGF2VWtwWGlRUWFvLXowMWlOQjNXTnN2WHZxLWVSaGkzTkZ3X3QxUzlFYVVqZjVZNnlwVHRNdUZ5akpLbE9Id0ZxMTB6Vzd2NVJQWlVOcWFzN0Y?oc=5"
+        },
+        {
+          "title": "Kosmos Energy (NYSE:KOS) Shares Up 9.1% - Should You Buy? - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3FpTm9LXzc5ZlNYUjlSTVBNWXdLZVEzOXhmM25udkxnZVR6cEpCOFdhT1FNZUpvSW9IRDBsYTFmUWhuYl9TMWs3YUNVUVlyTmw1bExWd2xGR0hIWUhNeGhIbEV2cFJjbHp3d3VBQ1Q3QW5INVdMWlNUVW5LSkNsYTc2NTVtclFjZjFLb0t2MkZmcTlycC1mVlRJR0pOc2Y0QzFlMGp3?oc=5"
+        },
+        {
+          "title": "KOS Stock Climbs As Jubilee Output And LNG Cash Flow Build - timothysykes.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTZUVxcUkwVThaZzBqb2duLVJyRVplb1ZYbHNDYV93RExZb2JVb0oxZmVHQmUzNzRHa25SN1luTFJpY3hlYUpRUXdGcXdOUzduUGxITGxNQTZuWi1ySFdVRG1ybFBxblB0aXpFRVJDR0tDYW5saU51Z2hjQQ?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $49M < $100M)",
+      "technical_status": "Fail (Avg $Vol $51M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -494,7 +717,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "KOS Maintains Rating by Stephens & Co. -- Price Target Lowered t - GuruFocus",
+        "primary_claim": "KOS Stock Climbs As Jubilee Output And LNG Volumes Jump - StocksToTrade",
         "discrepancy_note": ""
       },
       "gates_passed": 2,
@@ -510,57 +733,47 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "EQNR",
-      "price": 37.59,
-      "gap_pct": 4.2,
-      "pm_volume": 66450,
-      "avg_vol_10d": 4036553,
-      "avg_dollar_vol": 151734027,
-      "mkt_cap": 90342291994,
-      "rvol": 0.9,
-      "adr_pct": 1.9,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Equinor (NYSE: EQNR) begins USD 1,125 million 2026 buyback tranche - Stock Titan",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "ticker": "WTI",
+      "price": 3.72,
+      "gap_pct": 3.23,
+      "pm_volume": 86677,
+      "avg_vol_10d": 3902724,
+      "avg_dollar_vol": 14518133,
+      "mkt_cap": 553453085,
+      "rvol": 0.87,
+      "adr_pct": 5.62,
+      "category": "Others",
+      "theme": "Others",
+      "reasoning": "WTI (USOIL) Is up 2.09% on Jul 23: Is the Market Repricing It? - TradingKey",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Equinor (NYSE: EQNR) begins USD 1,125 million 2026 buyback tranche - Stock Titan | Impact: See analysis.",
-      "analysis_details": "Equinor (NYSE: EQNR) begins USD 1,125 million 2026 buyback tranche - Stock Titan",
+      "analysis_detail": "Catalyst: WTI (USOIL) Is up 2.09% on Jul 23: Is the Market Repricing It? - TradingKey | Impact: See analysis.",
+      "analysis_details": "WTI (USOIL) Is up 2.09% on Jul 23: Is the Market Repricing It? - TradingKey",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Equinor (NYSE: EQNR) begins USD 1,125 million 2026 buyback tranche - Stock Titan",
+          "title": "WTI (USOIL) Is up 2.09% on Jul 23: Is the Market Repricing It? - TradingKey",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbS1pNy14aXZYb29pV0RlcThzNjh3am1LSXhYMVFWWmdFSmVUMnAzazFXNmN4MlpXdjVwTDBKWGhHVmQ0QkNhWEFSWU1WNGhwUjMwQ1RHbTZKc1Z4TEZkelh2cVI2R181NlV0aU5YcGxEWFNRbEtXcC1Sc2ptelpLQWFNMTkwZU1xRG9ObVFKMnl1dFN0QXo2aVhYNWN1VVlvekNBQWpQQ0hRWms?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQm5BVHRnbUNiT2NRY0JKdFJNYjlpU1NPM18wSUFIWERXemRpQXZtaGlhcG9JTjFReS1kNXBaeVhlbWVWRU0zYlVnT0RlT0tuOFJDVHg0XzJKanFKLTYyNzVRc0FOYWdUR3Q4TTRKckcwVGR5dmhPNG1UVzNWT3R0bjEzZ0NvSFBncFdFdA?oc=5"
         },
         {
-          "title": "Equinor (EQNR) Launches $1.13B Share Buyback Program - GuruFocus",
+          "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzFRNUthQmwzV2NnQW5pSjFTS1VnTHRScUJDdHg1bUtKQVE0c3Z3OGVvbkdONjhhU2cxcUs4MWpWZ1FBd2FEX3Fhc2Qxa3A1bEtGMkplNjBqX3FkLWJKWE9vVGxlQkhCRDkxRTFKSnRDZjRkdS1tWHUyZHpVN29CNHliVVZpRjg2ZjVPMFdIMEk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5"
         },
         {
-          "title": "Jennison Associates LLC Takes $8.58 Million Position in Equinor ASA $EQNR - MarketBeat",
+          "title": "WTI stock trades steadily as offshore production metrics support valuation - Ad-hoc-news.de",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlRqUmNQTkFHdXBUd3VSNWplUF9HbTBhc0dMNXgxQlNmaUZRYkxWUFM1WDZyN2NnRlQ5bThCN250SjJrUTZlRGNXdFZoX3FDamxrcDNGbmZ1aHM5dGZneFlZSXM1UW8tMzdjdndodkliV0FOSEp5djdWM1VjWk0zVk9NYm1wd2l6eHJ1OThHUEdWUDJPRno3WjVYTUJfYTdHWUhhY28xZzZTa3E4NFF3ckl2TTd2Z1FMTFRFaGU1LTFOUm5RZFJ6Z3lHVQ?oc=5"
-        },
-        {
-          "title": "Just love to see $Equinor (EQNR.US)$ steadily goes up since last week. - Moomoo",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTGFHTEsyT1p2V2FWeHpUSE5kX2g0YnA0WUVFSGw1elViQmVhSFpJRkdXSWxXT09oU0pzUlhIZzJNTWRVcG5NYjhKX1JlN1I5azk3dG1XUlNqZHVYWHJJYVpwemdvXy03eFpMNGxlYnRSTjNBeVNjWjR3akNrdXdsRjJWSDBZVGpQZmpEVDAwRndLZGw3VTVkSDBWU0NLVE56WkZvQmRn?oc=5"
-        },
-        {
-          "title": "Equinor to commence third tranche of the 2026 share buy-back programme - Yahoo Finance UK",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQUlCaHlUNHd5LUtFVDI3TDM5TGJXOHEydEpsZFBwVUlXZElWSWdxX0FIU01LMlNJUElIS3czLUwxOVk1YW5kN3RMSWs0azkzcWFjMU5FbzBwRmRWb09ldnp2OTBOSXhRa2NENmkweXBWRGd4WTlpOGRaNnBUV1Q3TDlRZG80bnZYcnh1Vw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQjN4Mmh5dkZ5bXZoNzlsR3h3R2xaWmw1YjZhXzRpOWxjSEVkeW0zc2lnNVUyR1oxclJrRE81NFJTMGl6YUplRmNxSC14RFV4bGRYSWNtNnNYM1lYMTE1XzN2NG1xOVhfNmZhY2NfVlVRS1NXRlNESEdfTkNwY2l3U0xiTjZ4NnJjVnR2LVo3T1NRQVpLLVloaS1LaGpXZTFzVXhaOTctUFVxMmItZmVlWi1CVWxNUVVyZF9rVXVaeVJ5eS1EZXR5YXhqa3htdw?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 1.9% < 4%)",
+      "technical_status": "Fail (Avg $Vol $15M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -568,168 +781,20 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Equinor (NYSE: EQNR) begins USD 1,125 million 2026 buyback tranche - Stock Titan",
+        "primary_claim": "WTI (USOIL) Is up 2.09% on Jul 23: Is the Market Repricing It? - TradingKey",
         "discrepancy_note": ""
       },
-      "gates_passed": 4,
+      "gates_passed": 2,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
       },
       "meets_all_gates": false,
       "tier": "Fail",
       "tier_label": "Excluded"
-    },
-    {
-      "ticker": "RKLB",
-      "price": 69.12,
-      "gap_pct": 3.3,
-      "pm_volume": 368445,
-      "avg_vol_10d": 19322409,
-      "avg_dollar_vol": 1335564910,
-      "mkt_cap": 41346215392,
-      "rvol": 0.94,
-      "adr_pct": 7.81,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC | Impact: See analysis.",
-      "analysis_details": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQckYtS0FQUmxXa29iS1kzSTBTMHlLYkVXUXc4Q1NnYzc5aEdVTzJFTFlJT2djbnl5UFNNYjRPWXRMdXlKVm40bDd4M1IwdnYtNEk4cFFHMVVicjlZYzJfSDU1YzN4dE9aNEtoNVRiUFNQSGJ4SjdvbFRvVkN2WGRLQ1Q3b1BPYlBPRzBGNFNxRE1zZGxHcGww?oc=5"
-        },
-        {
-          "title": "Rocket Lab (RKLB) Lands $266 Million Space Force Deal As Undervalued Case Faces A Test - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb2V3bVl1QXpKQWlla3ZSazdNZ183SXN0WWhuR1VjV3NtZUE4NVBUTDN6YXE5MG42X0RsY29oRU16LWtOV2hZblhkZ3NzZ0ZpTVRCS2FtQk1BUEprQU9ZMWFvQUJTa0RRMHNzUWg5TnIybmRkalhVOEZhYjQ0YTF6d2Q4aHBiSFdXTjI0dkZrNVhyekxndlIyZFp3Y0VwRllCcWhXUFE0c3Z2S0xVWVcwaUk4WTQwVlRSaU0wSzFZRjZ4WF9BeUJLYmFmck83UHPSAdQBQVVfeXFMUHBwVHBmTmpRODYwSi1ZNU9rNS1XZ2EtU3ozQ01FV2l6c1N1RTBxU3hULUFiVWFHR1YyUEFhZ0ptd2NoRGZZaE14UkRpSmlqNkNrWEw3a3BoZTBBUnRnNWduMzY3dnY1TEgxUDFBR2J2aENZWHNMZm80VzFIa1FCMGNOamV6dlJzQ0RtcjZZem9GdE9DZDNmS3hVVHdyekMzOFQtVUpkdnhZaGoxUHYtTjI1cVRTRHF1ekUtVjZDck5lVHdNdlRMYkRWREhDbWJrREVvaTI?oc=5"
-        },
-        {
-          "title": "RKLB Stock Pops 9% After-Hours On $266M Air Force Win — Retail Sees A Space Sector ‘Catalyst’ - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenM5T3lOd2IxdV9UVTFXNzNVZjVNUHlNUmNEMzNnWHlkT2tVZHVDeGVhOHJvYkpZdHV2Y3hWRDdvZUxkanFCUDdCbVdmSWJVRkt6WXZkRzFPWW9yMVJLSjJfZlQ2b29IQkFoWDk5S00yNkI4ODZtZW1yNjVfSjJrdWVHVjJMa2g0OG02WTlwLWxvdw?oc=5"
-        },
-        {
-          "title": "Rocket Lab Stock Rises After the Bell: Here's Why - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQXlFRGNYQXJGcWUyY3E5VkVYREEzTmhYRDA4a2JhckNBeC1hZmVNdm5kOVY5clpkTU1OblVnaHhfTllSTkFEbl9hREc3Wl9HZ3BQbUVQTmFBbkxIbGdEUjJiWkt3ekxrTm9jTDlFeGpOMks4OHVpYXY0TENhUGlrSUZCS2ZIRWlMU2lSdWRNWTZYUjROYmU3ZVQ5UTd6eDNsMVpjVnFtVWxzS29B?oc=5"
-        },
-        {
-          "title": "Rocket Lab wins $266 million Defense contract - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1yOGRubWxhVkw5dzRIRGNrRWRjS1BrOUI1QzhDNzJBajV4b19zc3JnOF9mNDRzbW40V3FwLXM1MzhSUXpMUjQyd2pDdTJOTVROdVJSc3BTc2oyS2xqT0dpbjgxVEdYNlZCTTdGUVk5ODV3aHdpUldtMzdsN1J0Tkdid0gxY1BfZ0lYeDRMX2dMTTVyVExaOTFaM19WaC1Cb2RYUndjSTJYdw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Stocks making the biggest moves premarket: Super Micro Computer, GE Vernova, Rocket Lab and more - CNBC",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "JOBY",
-      "price": 7.66,
-      "gap_pct": 3.13,
-      "pm_volume": 1138862,
-      "avg_vol_10d": 55115492,
-      "avg_dollar_vol": 422184669,
-      "mkt_cap": 7534704336,
-      "rvol": 1.66,
-      "adr_pct": 6.11,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "JOBY Stock Headed For Third Consecutive Day Of Gains As Virgin Atlantic Locks In Exclusive Air Taxi Partnership - TradingView",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: JOBY Stock Headed For Third Consecutive Day Of Gains As Virgin Atlantic Locks In Exclusive Air Taxi Partnership - TradingView | Impact: See analysis.",
-      "analysis_details": "JOBY Stock Headed For Third Consecutive Day Of Gains As Virgin Atlantic Locks In Exclusive Air Taxi Partnership - TradingView",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "JOBY Stock Headed For Third Consecutive Day Of Gains As Virgin Atlantic Locks In Exclusive Air Taxi Partnership - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNaVhaOTdFOE1TVUdBbWJIZmM4TzVHVE81Tmh4VXVta2JCNDRmU09qQ3JIc3lnNkFqejBFLW52QmRuc3paZjVKUV9TWU5NcEFOcHdMVWs1Smc1clA3Y3dDZXZOam5rNHJrd0tpdy1DMFA2SXU2SjktcXZzZFVncTRrOG15ME5WVkJMdm5LUlhkdU9semZwNkhxNjRLeWxHaThuRXdqUXRlSjBpX041VHpTZVlJTHZKbXBVbk1LWkRLeUE4QW5UUFRpOEo0M0E5eEwyRE9XY1FmU0MzYm9sQldyQmZVUFZldjJObXIxdXZIQ2I2QU9Td2l2WVNtNF9KRjJNYkE?oc=5"
-        },
-        {
-          "title": "Joby Aviation rises after finalizing Virgin Atlantic deal (JOBY:NYSE) - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2RCeEJjU0xrMElvV2RpWnVMS01xeDMxS25UM0hCUFdtY1Z3ano0eERoLXllbHVkNWl1LVk3YXpkVVlTRlg3bzZiQm1ab0pPZ2xuTkJIT09paUlrWEtnOXZOX1psbWtFWkdIYW8yeEFSZzR1NUtlZUZGYXFqeDZURGI2bF82eVpoUUhhVU1idEMxZ2FlcnlPbTd0TQ?oc=5"
-        },
-        {
-          "title": "Joby Aviation Drops As Virgin Deal Fails To Impress - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRHdGejBYRURweGJBLTVKRjBMRVZoWmNYS1pMVEJXUHl2TEJ5VFdsQmxyRnE1X21pQlVWOVYtcHNPY0hXMW8zbXFOcVZjNXc2aDI2N1c3NVYxRmNXTUhiaUhtRXdVdmZNM2s2N20tb2VsaDNTNF9vRFg0N0VGbGZyOU5nUDg1MkMyb3FVTGxzeWE5eDdz?oc=5"
-        },
-        {
-          "title": "Joby's planned Heathrow air taxi route could take 8 minutes - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1A2OHVfd29MR2xLc0plMWRHMkoyNXFSTGMya01ub0h4LXk0M01Ia3RCVnBTMXVlQTBvQlBIY21uYnB5WjFZSkZqU1JTQk9VQXFqdE9wWHRaamYtSUdsZmtuWlNka3JwdWw1bGp0OVBEY2VTcnZqQlQ0dEdQWU16bm4tQ0VoZzhzU0RiTDM5Q3p5eTR6M00xWkczX2hIUU9rMWNDc01pVEFSWHBzb183NkZFZ2thdWY5RWhXbQ?oc=5"
-        },
-        {
-          "title": "BETA's Big Day Out In Farnborough",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/18953aec-893e-3268-ae2d-a7239dcec89f/beta%27s-big-day-out-in.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "JOBY Stock Headed For Third Consecutive Day Of Gains As Virgin Atlantic Locks In Exclusive Air Taxi Partnership - TradingView",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
     }
   ],
   "ibkr_scanner": []
