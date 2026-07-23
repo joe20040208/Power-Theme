@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 23, 2026 (07:10 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 23, 2026 (07:15 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-23T07:15:31.462363-04:00",
+      "pub_time": "2026-07-23T07:13:44-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "nvidia unveils new ai model and expands japan’s physical ai ecosystem",
@@ -1182,6 +1191,14 @@
     {
       "k": "irs chief frank bisignano may have misled congress democrats say",
       "ts": "2026-07-23T11:10:30.556558+00:00"
+    },
+    {
+      "k": "moonshot ai accessed nvidias chips despite chinese export ban white house official says",
+      "ts": "2026-07-23T11:15:32.314955+00:00"
+    },
+    {
+      "k": "american airlines slashes 2026 earnings outlook as fuel costs spike",
+      "ts": "2026-07-23T11:15:32.314955+00:00"
     }
   ]
 }
