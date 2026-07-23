@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-23 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 738.18,
+    "spy_change_pct": -1.23,
+    "vix": 18.7,
+    "hy_oas": 2.68,
+    "yield_curve": 0.34,
+    "credit_status": "Complacent",
+    "s5fi": 57.3,
+    "mmth": 65.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-23 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1697,44 +1715,6 @@
           "ticker": "AAPL",
           "company": "Apple Inc.",
           "reason": "Apple continues to see consistent demand for its latest iPhone models, driven by steady consumer upgrade cycles and brand loyalty."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-11 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On Rally / Growth Surge",
-    "spy_price": 737.76,
-    "spy_change_pct": 1.7,
-    "vix": 19.44,
-    "hy_oas": 2.8,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 56.9,
-    "mmth": 63.5,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "STM",
-          "company": "STMicroelectronics N.V.",
-          "reason": "STM saw strong buying interest today following a significant analyst upgrade, signaling renewed confidence in its semiconductor outlook."
-        },
-        {
-          "ticker": "NVTS",
-          "company": "Navitas Semiconductor Corporation",
-          "reason": "NVTS is a high-conviction short candidate today due to corporate governance issues and dilution from a recent share sale, pressuring its valuation."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVDA continues to ride the AI narrative and broader tech momentum, exhibiting strong technicals despite a lack of fresh fundamental news today."
         }
       ]
     }
