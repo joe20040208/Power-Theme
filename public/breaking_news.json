@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 24, 2026 (10:10 EST)",
+  "last_checked": "July 24, 2026 (10:15 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump imposes 'sweeping' new tariffs on 60 trade partners as global duties expire",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-24T10:15:27.162279-04:00",
+      "pub_time": "2026-07-24T10:11:56-04:00"
+    },
     {
       "headline": "Trump slaps 'sweeping' new tariffs on 60 trade partners as global duties expire",
       "source": "CNBC",
@@ -1191,6 +1199,10 @@
     {
       "k": "how a chinese ai model stopped openai’s ‘unprecedented’ cyber attack",
       "ts": "2026-07-24T13:55:26.416392+00:00"
+    },
+    {
+      "k": "trump imposes sweeping new tariffs on 60 trade partners as global duties expire",
+      "ts": "2026-07-24T14:15:27.515008+00:00"
     }
   ]
 }
