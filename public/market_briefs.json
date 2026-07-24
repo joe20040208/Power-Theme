@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-24 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 738.93,
+    "spy_change_pct": 0.1,
+    "vix": 18.58,
+    "hy_oas": 2.77,
+    "yield_curve": 0.36,
+    "credit_status": "Complacent",
+    "s5fi": 61.7,
+    "mmth": 66.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-24 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1657,44 +1675,6 @@
           "ticker": "AMC",
           "company": "AMC Entertainment Holdings, Inc.",
           "reason": "Continues to experience elevated retail trading volume following yesterday's technical breakout above its 200-day moving average, driven by speculative flow."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-12 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Bullish Equities, VIX Retreat",
-    "spy_price": 741.75,
-    "spy_change_pct": 0.54,
-    "vix": 17.68,
-    "hy_oas": 2.78,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 61.1,
-    "mmth": 65.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "ARM",
-          "company": "Arm Holdings Plc",
-          "reason": "Arm Holdings Plc sees renewed bullish sentiment following an analyst upgrade highlighting its pivotal role in the burgeoning Agentic AI sector."
-        },
-        {
-          "ticker": "NBIS",
-          "company": "NovaBlue AI Solutions",
-          "reason": "NovaBlue AI Solutions (NBIS) is poised for significant institutional buying due to its confirmed entry into the Nasdaq-100 index, driving mechanical portfolio rebalancing."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp",
-          "reason": "Microsoft Corp (MSFT) continues to be a focus for tech momentum traders, benefiting from recycled themes of cloud growth and AI integration without fresh fundamental news today."
         }
       ]
     }
