@@ -8,58 +8,58 @@
       "ticker": "FBRX",
       "company": "Forte Biosciences, Inc.",
       "industry": "Biotechnology",
-      "price": 59.7,
-      "change_pct": 5.42,
-      "adr_pct": 7.8,
-      "dollar_volume": "$56.4M",
-      "market_cap_b": 1.223,
+      "price": 54.78,
+      "change_pct": -8.24,
+      "adr_pct": 8.6,
+      "dollar_volume": "$37.4M",
+      "market_cap_b": 1.122,
       "rs_ibd": 98,
-      "above50dma_pct": 131.4
+      "above50dma_pct": 107.4
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
-      "price": 14.09,
-      "change_pct": 0.21,
-      "adr_pct": 4.8,
-      "dollar_volume": "$150.3M",
-      "market_cap_b": 2.027,
+      "price": 14.1,
+      "change_pct": 0.07,
+      "adr_pct": 4.5,
+      "dollar_volume": "$153.8M",
+      "market_cap_b": 2.03,
       "rs_ibd": 77,
-      "above50dma_pct": 80.7
-    },
-    {
-      "ticker": "TRAX",
-      "company": "First Tracks Biotherapeutics, Inc.",
-      "industry": "Biotechnology",
-      "price": 37.64,
-      "change_pct": -1.39,
-      "adr_pct": 8.8,
-      "dollar_volume": "$32.2M",
-      "market_cap_b": 1.313,
-      "rs_ibd": 88,
-      "above50dma_pct": 74.9
+      "above50dma_pct": 77.8
     },
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.65,
-      "change_pct": -0.08,
-      "adr_pct": 2.5,
-      "dollar_volume": "$389.5M",
-      "market_cap_b": 8.854,
+      "price": 83.73,
+      "change_pct": 0.1,
+      "adr_pct": 2.3,
+      "dollar_volume": "$347.9M",
+      "market_cap_b": 8.873,
       "rs_ibd": 96,
-      "above50dma_pct": 72.9
+      "above50dma_pct": 69.7
+    },
+    {
+      "ticker": "TRAX",
+      "company": "First Tracks Biotherapeutics, Inc.",
+      "industry": "Biotechnology",
+      "price": 35.52,
+      "change_pct": -5.63,
+      "adr_pct": 9.3,
+      "dollar_volume": "$25.4M",
+      "market_cap_b": 1.239,
+      "rs_ibd": 87,
+      "above50dma_pct": 62.3
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": -1.21,
-    "spx_1m": 0.68,
-    "spx_3m": 4.22,
-    "spx_34d": -2.32,
-    "spx_qtd": -1.0,
-    "spx_mtd": -1.0
+    "spx_1d": null,
+    "spx_1m": null,
+    "spx_3m": null,
+    "spx_34d": null,
+    "spx_qtd": null,
+    "spx_mtd": null
   },
-  "fetched_at_utc": "2026-07-23T21:47:01+00:00"
+  "fetched_at_utc": "2026-07-24T21:49:34+00:00"
 }
