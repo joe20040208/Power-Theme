@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 24, 2026 (09:30 EST)",
+  "last_checked": "July 24, 2026 (09:35 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump slaps 'sweeping' new tariffs on 60 trade partners as global duties expire",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-24T09:35:27.567614-04:00",
+      "pub_time": "2026-07-24T09:31:53-04:00"
+    },
     {
       "headline": "Trump's new global tariff draws rebukes from trade partners over forced labor justification",
       "source": "CNBC",
@@ -12,10 +20,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "spacex stock sinks after starship test flight aborted pacing for a sixday losing streak",
-      "ts": "2026-07-17T13:35:24.391218+00:00"
-    },
     {
       "k": "netflix stock falls 10 as earnings forecast disappoints company says it will give fewer engagement",
       "ts": "2026-07-17T13:40:37.292890+00:00"
@@ -1187,6 +1191,10 @@
     {
       "k": "the clubs top 10 things to watch in the stock market friday",
       "ts": "2026-07-24T13:05:27.824662+00:00"
+    },
+    {
+      "k": "trump slaps sweeping new tariffs on 60 trade partners as global duties expire",
+      "ts": "2026-07-24T13:35:28.276623+00:00"
     }
   ]
 }
