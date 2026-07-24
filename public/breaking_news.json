@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 24, 2026 (09:40 EST)",
+  "last_checked": "July 24, 2026 (09:45 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -20,10 +20,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "netflix stock falls 10 as earnings forecast disappoints company says it will give fewer engagement",
-      "ts": "2026-07-17T13:40:37.292890+00:00"
-    },
     {
       "k": "apple dethrones nvidia as worlds most valuable company ending the chipmakers long run at the top",
       "ts": "2026-07-17T14:05:29.734229+00:00"
@@ -1199,6 +1195,10 @@
     {
       "k": "intels rides ai boom to fastest revenue growth in almost 15 years but shares sink",
       "ts": "2026-07-24T13:40:35.081202+00:00"
+    },
+    {
+      "k": "intel rides ai boom to fastest revenue growth in almost 15 years but shares sink",
+      "ts": "2026-07-24T13:45:32.059170+00:00"
     }
   ]
 }
