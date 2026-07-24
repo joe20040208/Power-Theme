@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23 17:05 ET",
-  "phase": "POST",
-  "session": "Post-Market",
+  "generated_at": "2026-07-24 08:05 ET",
+  "phase": "PRE",
+  "session": "Pre-Market",
   "assets": {
     "SPY": {
       "label": "S&P 500 ETF",
@@ -12,7 +12,7 @@
       "close": 738.18,
       "prev_open": 746.62,
       "prev_close": 747.41,
-      "volume": 54842853,
+      "volume": 55370700,
       "change_pct": -1.23
     },
     "QQQ": {
@@ -20,60 +20,60 @@
       "price": 691.96,
       "open": 694.67,
       "high": 698.66,
-      "low": 687.8,
+      "low": 687.79,
       "close": 691.96,
       "prev_open": 703.62,
       "prev_close": 705.35,
-      "volume": 38636588,
+      "volume": 43695900,
       "change_pct": -1.9
     },
     "^VIX": {
       "label": "VIX",
-      "price": 18.7,
-      "open": 17.67,
-      "high": 20.31,
-      "low": 17.32,
-      "close": 18.7,
-      "prev_open": 17.42,
-      "prev_close": 16.64,
+      "price": 18.89,
+      "open": 18.96,
+      "high": 19.05,
+      "low": 18.6,
+      "close": 18.89,
+      "prev_open": 17.67,
+      "prev_close": 18.7,
       "volume": 0,
-      "change_pct": 12.38
+      "change_pct": 1.02
     },
     "CL=F": {
       "label": "Crude Oil",
-      "price": 92.38,
-      "open": 87.72,
-      "high": 93.5,
-      "low": 87.32,
-      "close": 92.38,
-      "prev_open": 84.69,
-      "prev_close": 86.83,
-      "volume": 378605,
-      "change_pct": 6.39
+      "price": 89.98,
+      "open": 92.55,
+      "high": 92.83,
+      "low": 88.74,
+      "close": 89.98,
+      "prev_open": 87.72,
+      "prev_close": 92.19,
+      "volume": 107122,
+      "change_pct": -2.4
     },
     "^N225": {
       "label": "Nikkei 225",
-      "price": 66115.6,
-      "open": 66449.27,
-      "high": 67592.2,
-      "low": 65955.6,
-      "close": 66115.6,
-      "prev_open": 64544.05,
-      "prev_close": 66232.19,
-      "volume": 155300000,
-      "change_pct": -0.18
+      "price": 64611.15,
+      "open": 65584.25,
+      "high": 65720.81,
+      "low": 64201.03,
+      "close": 64611.15,
+      "prev_open": 66421.01,
+      "prev_close": 66422.6,
+      "volume": 0,
+      "change_pct": -2.73
     },
     "^GDAXI": {
       "label": "DAX",
-      "price": 24763.12,
-      "open": 24994.05,
-      "high": 25074.28,
-      "low": 24696.59,
-      "close": 24763.12,
-      "prev_open": 25001.31,
-      "prev_close": 25155.41,
+      "price": 24915.96,
+      "open": 24830.41,
+      "high": 25006.07,
+      "low": 24821.67,
+      "close": 24915.96,
+      "prev_open": 24994.05,
+      "prev_close": 24763.12,
       "volume": 0,
-      "change_pct": -1.56
+      "change_pct": 0.62
     }
   },
   "fred": {
