@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 23, 2026 (23:15 EST)",
+  "last_checked": "July 23, 2026 (23:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump's new global tariff draws rebukes from trade partners over forced-labor justification",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-23T23:20:33.175063-04:00",
+      "pub_time": "2026-07-23T23:15:46-04:00"
+    },
     {
       "headline": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
       "source": "CNBC",
@@ -1223,6 +1231,10 @@
     {
       "k": "us other nations back opensource ai with strong security at china summit",
       "ts": "2026-07-24T02:45:25.207385+00:00"
+    },
+    {
+      "k": "trumps new global tariff draws rebukes from trade partners over forcedlabor justification",
+      "ts": "2026-07-24T03:20:33.750646+00:00"
     }
   ]
 }
