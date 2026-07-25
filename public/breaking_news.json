@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 24, 2026 (20:15 EST)",
+  "last_checked": "July 24, 2026 (20:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump sued hours after new tariffs take effect, as experts say they may not hold up",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-24T20:20:25.942975-04:00",
+      "pub_time": "2026-07-24T20:18:53-04:00"
+    },
     {
       "headline": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
       "source": "CNBC",
@@ -25,14 +33,6 @@
       "direction": "bullish",
       "timestamp": "2026-07-24T09:35:27.567614-04:00",
       "pub_time": "2026-07-24T09:31:53-04:00"
-    },
-    {
-      "headline": "Trump's new global tariff draws rebukes from trade partners over forced labor justification",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-24T08:18:52.626217-04:00",
-      "pub_time": "2026-07-24T08:09:09-04:00"
     }
   ],
   "seen_keys": [
@@ -1211,6 +1211,14 @@
     {
       "k": "musks bad week tesla suffers worst slump since 2022 spacex drops ahead of starship test flight",
       "ts": "2026-07-24T20:25:35.256308+00:00"
+    },
+    {
+      "k": "trump sued hours after new tariffs take effect as experts say they may not hold up",
+      "ts": "2026-07-25T00:20:26.298679+00:00"
+    },
+    {
+      "k": "spacex launches massive starship rocket in first test flight since ipo",
+      "ts": "2026-07-25T00:20:26.298679+00:00"
     }
   ]
 }
