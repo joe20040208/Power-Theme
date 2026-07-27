@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-27 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 738.93,
+    "spy_change_pct": 0.1,
+    "vix": 17.73,
+    "hy_oas": 2.77,
+    "yield_curve": 0.36,
+    "credit_status": "Complacent",
+    "s5fi": 61.7,
+    "mmth": 66.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-24 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1637,44 +1655,6 @@
           "ticker": "GOOGL",
           "company": "Alphabet Inc. Class A",
           "reason": "Alphabet continues to trade on lingering sentiment from previous AI sector news and broader tech momentum, lacking a fresh catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-15 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-On / Equity Rally",
-    "spy_price": 741.75,
-    "spy_change_pct": 0.54,
-    "vix": 16.66,
-    "hy_oas": 2.78,
-    "yield_curve": 0.42,
-    "credit_status": "Complacent",
-    "s5fi": 61.1,
-    "mmth": 65.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Announced a breakthrough in applying quantum computing to drug discovery, hinting at significant future revenue streams and disrupting the biotech sector."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "Received a bullish upgrade from a leading financial analyst firm, citing robust Q2 loan growth projections and a strong investment banking pipeline."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "AMC",
-          "company": "AMC Entertainment Holdings, Inc.",
-          "reason": "Continues to experience elevated retail trading volume following yesterday's technical breakout above its 200-day moving average, driven by speculative flow."
         }
       ]
     }
