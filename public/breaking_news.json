@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 27, 2026 (19:35 EST)",
+  "last_checked": "July 27, 2026 (19:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "CNBC's The China Connection newsletter: A U.S.-China debate that's becoming bigger than tariffs",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-27T19:40:35.504896-04:00",
+      "pub_time": "2026-07-27T19:00:02-04:00"
+    },
     {
       "headline": "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers",
       "source": "CNBC",
@@ -1143,6 +1151,10 @@
     {
       "k": "jim cramer warns ais circular financing frenzy echoes the dotcom bubble",
       "ts": "2026-07-27T22:30:34.038764+00:00"
+    },
+    {
+      "k": "cnbcs the china connection newsletter a uschina debate thats becoming bigger than tariffs",
+      "ts": "2026-07-27T23:40:36.110263+00:00"
     }
   ]
 }
