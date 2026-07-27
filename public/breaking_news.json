@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 27, 2026 (08:00 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 27, 2026 (08:17 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Federal Reserve is likely to hold interest rates steady. Here's what that means for consumers",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-27T08:17:34.898144-04:00",
+      "pub_time": "2026-07-27T08:15:01-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "give me my money back south korean traders leveraged sk hynix samsung bets unravel after sello",
@@ -1126,6 +1135,10 @@
     {
       "k": "europe wildfire in pictures gigantic fire cloud engulfing france spain regions",
       "ts": "2026-07-27T11:45:28.212373+00:00"
+    },
+    {
+      "k": "federal reserve is likely to hold interest rates steady heres what that means for consumers",
+      "ts": "2026-07-27T12:17:35.330256+00:00"
     }
   ]
 }
