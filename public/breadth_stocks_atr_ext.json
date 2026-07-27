@@ -8,49 +8,61 @@
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.73,
-      "change_pct": 0.1,
-      "adr_pct": 2.3,
-      "dollar_volume": "$347.9M",
-      "market_cap_b": 8.873,
+      "price": 83.85,
+      "change_pct": 0.14,
+      "adr_pct": 2.1,
+      "dollar_volume": "$341.3M",
+      "market_cap_b": 8.885,
       "rs_ibd": 96,
-      "atr_ext_val": 30.48
+      "atr_ext_val": 31.1
+    },
+    {
+      "ticker": "FBRX",
+      "company": "Forte Biosciences, Inc.",
+      "industry": "Biotechnology",
+      "price": 76.5,
+      "change_pct": 39.65,
+      "adr_pct": 7.8,
+      "dollar_volume": "$180.7M",
+      "market_cap_b": 1.567,
+      "rs_ibd": 98,
+      "atr_ext_val": 23.04
     },
     {
       "ticker": "APGE",
       "company": "Apogee Therapeutics, Inc.",
       "industry": "Biotechnology",
       "price": 134.28,
-      "change_pct": 0.01,
+      "change_pct": 0.0,
       "adr_pct": 1.2,
-      "dollar_volume": "$137.3M",
+      "dollar_volume": "$136.1M",
       "market_cap_b": 10.12,
-      "rs_ibd": 95,
-      "atr_ext_val": 20.35
+      "rs_ibd": 94,
+      "atr_ext_val": 20.69
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
-      "price": 14.1,
-      "change_pct": 0.07,
-      "adr_pct": 4.5,
-      "dollar_volume": "$153.8M",
-      "market_cap_b": 2.03,
-      "rs_ibd": 77,
-      "atr_ext_val": 17.26
+      "price": 14.08,
+      "change_pct": -0.14,
+      "adr_pct": 4.2,
+      "dollar_volume": "$154.6M",
+      "market_cap_b": 2.027,
+      "rs_ibd": 73,
+      "atr_ext_val": 17.66
     },
     {
       "ticker": "TECH",
       "company": "Bio-Techne Corp",
       "industry": "Biotechnology",
-      "price": 71.6,
-      "change_pct": -0.24,
+      "price": 71.62,
+      "change_pct": 0.03,
       "adr_pct": 1.4,
-      "dollar_volume": "$207.2M",
-      "market_cap_b": 11.21,
-      "rs_ibd": 79,
-      "atr_ext_val": 14.1
+      "dollar_volume": "$218.8M",
+      "market_cap_b": 11.213,
+      "rs_ibd": 71,
+      "atr_ext_val": 14.09
     },
     {
       "ticker": "PAYO",
@@ -59,55 +71,43 @@
       "price": 7.12,
       "change_pct": 0.0,
       "adr_pct": 1.0,
-      "dollar_volume": "$17.4M",
+      "dollar_volume": "$18.0M",
       "market_cap_b": 2.408,
-      "rs_ibd": 60,
-      "atr_ext_val": 12.73
-    },
-    {
-      "ticker": "FBRX",
-      "company": "Forte Biosciences, Inc.",
-      "industry": "Biotechnology",
-      "price": 54.78,
-      "change_pct": -8.24,
-      "adr_pct": 8.6,
-      "dollar_volume": "$37.4M",
-      "market_cap_b": 1.122,
-      "rs_ibd": 98,
-      "atr_ext_val": 12.49
+      "rs_ibd": 61,
+      "atr_ext_val": 12.74
     },
     {
       "ticker": "SAFT",
       "company": "Safety Insurance Group, Inc.",
       "industry": "Property/Casualty Insurance",
-      "price": 103.2,
-      "change_pct": 41.49,
-      "adr_pct": 3.6,
-      "dollar_volume": "$27.0M",
-      "market_cap_b": 1.515,
+      "price": 103.0,
+      "change_pct": -0.19,
+      "adr_pct": 3.4,
+      "dollar_volume": "$46.0M",
+      "market_cap_b": 1.512,
       "rs_ibd": 75,
-      "atr_ext_val": 11.21
+      "atr_ext_val": 11.45
     },
     {
       "ticker": "DSGR",
       "company": "Distribution Solutions Group, Inc.",
       "industry": "Wholesale Distributors",
-      "price": 34.51,
+      "price": 34.52,
       "change_pct": 0.03,
-      "adr_pct": 2.1,
-      "dollar_volume": "$15.5M",
-      "market_cap_b": 1.594,
-      "rs_ibd": 61,
-      "atr_ext_val": 10.28
+      "adr_pct": 2.0,
+      "dollar_volume": "$16.0M",
+      "market_cap_b": 1.597,
+      "rs_ibd": 59,
+      "atr_ext_val": 10.73
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": null,
-    "spx_1m": null,
-    "spx_3m": null,
-    "spx_34d": null,
-    "spx_qtd": null,
-    "spx_mtd": null
+    "spx_1d": 0.02,
+    "spx_1m": 0.8,
+    "spx_3m": 3.34,
+    "spx_34d": 0.1,
+    "spx_qtd": -0.94,
+    "spx_mtd": -0.94
   },
-  "fetched_at_utc": "2026-07-24T21:49:34+00:00"
+  "fetched_at_utc": "2026-07-27T21:47:53+00:00"
 }
