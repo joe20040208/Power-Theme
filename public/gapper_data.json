@@ -1,59 +1,44 @@
 {
-  "scan_time": "2026-07-27 08:05 ET",
+  "scan_time": "2026-07-28 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "FBRX",
-      "price": 54.78,
-      "gap_pct": 39.59,
-      "pm_volume": 750621,
-      "avg_vol_10d": 682391,
-      "avg_dollar_vol": 37381379,
-      "mkt_cap": 1121829569,
-      "rvol": 0.61,
-      "adr_pct": 12.67,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "Stocks making the biggest moves premarket: Micron Technology, Forte Biosciences, ExxonMobil, Baker Hughes & more - CNBC",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "ticker": "ALT",
+      "price": 2.96,
+      "gap_pct": 11.82,
+      "pm_volume": 3035920,
+      "avg_vol_10d": 2660765,
+      "avg_dollar_vol": 7875864,
+      "mkt_cap": 575643496,
+      "rvol": 1.57,
+      "adr_pct": 5.39,
+      "category": "FDA",
+      "theme": "FDA",
+      "reasoning": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
+      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Stocks making the biggest moves premarket: Micron Technology, Forte Biosciences, ExxonMobil, Baker Hughes & more - CNBC | Impact: See analysis.",
-      "analysis_details": "Stocks making the biggest moves premarket: Micron Technology, Forte Biosciences, ExxonMobil, Baker Hughes & more - CNBC",
+      "analysis_detail": "Catalyst: Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha | Impact: See analysis.",
+      "analysis_details": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Stocks making the biggest moves premarket: Micron Technology, Forte Biosciences, ExxonMobil, Baker Hughes & more - CNBC",
+          "title": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUzVLMU5ib3QyUWszM1N4Q2toeDFTTm8yZDExSjJrdTk5cUI0RTdkWHg3OV9JQ09QenVyX2dYTG9zZjAxcDBGMUR2bkthdmJhSG9va29SXzQxLVYxTm5WbzJTMWNocEMxdnlWMEkxU0FmSVQ1VFFzRGRPLXU4dmpkT0NxeGxfUXo0NlR5WTVUX3pmT1dMeFJycXF3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTnJfVFJsV1d3OVJKNzJKUkR3MVJ1VHBENTRub1pHOXNDNk5TWHptRXFQTFpyb2JfQWxYb2dGNGJvVU1wa2hHUkw1b3ItZGZUZnFnYTIxdFhoVzBFMm1sS2Z3XzJFM2tXd2ZKbXlJbWEzTk5RVWU4a012Q2I2emJ6SXpZWk9GQQ?oc=5"
         },
         {
-          "title": "Forte Biosciences stock surges 39% on argenx acquisition deal - Investing.com",
+          "title": "Altimmune stock surges 18% on positive trial results - Investing.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVG9TbXRoYk51ZXRpVS15enVZbE43TkVReGRuSm5oWGR1TEQ3clhEcEdOZGJGQlliVnVpRG5wbFhnLTlHYV8xQ0s5WXZIZHlmSGtiWnFZcHNCRGZ3aHpBRjR2a19pb0pNR2dfX0dxNkkydmNFUi1ncVp0U3BnVFplYlVuZ3FTRVptQWoyaUtub1U5U3VqR0ktcm41X0RiZFkzdDJOclZPTjZJa0xoNWVpZzJFQ2VvTUNaempYWGJaRQ?oc=5"
-        },
-        {
-          "title": "Forte Biosciences shares jump after $2.2 billion takeover agreement with argenx - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaFJBMm1LRWNCVFQ0VEFhRUVXbjBaTUh1amVwVHRmZnRKb29oc1ROdHdwVGR4QW5jbGdXRC13MndLTGZpYXgtck10RFM5Z2RwZEhlcmJvQ3ZERWJWQkIzRmlHVmRYYXFvbU1fODJBQW5CSnp0REs2eXdDbUdoQkV4cWtZc2NoVUN0U3dtbUZESUl2SVY0UFZr?oc=5"
-        },
-        {
-          "title": "argenx to acquire Forte Biosciences (Nasdaq: FBRX) in $2.2B all-cash deal - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZndDNUdEbUFpaUsyLThsc0xKTU54WmtFLWp4N0M5UkltbE03ci1vb3Nhb19mR1ZLcU9lSTcxd0ZaN25PUGVYMjYzR2tzZkpNY0E0cTJqZEYzZDNQQ2FHTGRqWHF5N1h5ek1CZGNNQXFlSllpU0ctaHpLLURKcDdWLWdkYWhwb2xOS1pvRVZ6SjlnRGRrU3dhODZ6emRuV0Y5VlVPWlczTkRnY0I4QWNZ?oc=5"
-        },
-        {
-          "title": "Biggest stock movers Monday: AVGO, FBRX, oil companies, and more - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzk0LVZycEw5V1dRS2ZPUTh3NWp1RHN6dDFrNkhNQ0MtQ0JrcjVlaEE5RXk3S21VNE5oenFYS0h5S043eXRjcUNxYVJhRmFWejZBb3BvamFOV3JWWXZqd0JqVlhHUF9oTklOc3lHZWFadFFDbUdva1N0anoxLTI0SXRXaHlqSGZPMW14STJlcThZUGR2YUdZZFBMMU9DLVk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNazROQjJ0ek9tbGZvbzlSdjQyRGE5VXltR2NrYVM4SFRUaXp2NHppUHlybWZ0YzZxRnBBN3BTVldPZVhkQ1ViVGJCOFZZazVub3JLU2N6akxiVE1zV1psRTlmV2pIaDRYRTJTUnVkei1fb0xnZF9yX2JzQjUtLWJUbUtTRkR3bjFzeW5FOVN6R29KeTFEQlNOUXQ3MEk0VkxVQkEyektZeVRYUzRXcTljdkV5TQ?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $37M < $100M)",
+      "technical_status": "Fail (Avg $Vol $8M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -61,449 +46,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Stocks making the biggest moves premarket: Micron Technology, Forte Biosciences, ExxonMobil, Baker Hughes & more - CNBC",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "TRAX",
-      "price": 35.52,
-      "gap_pct": 33.03,
-      "pm_volume": 135449,
-      "avg_vol_10d": 714139,
-      "avg_dollar_vol": 25366217,
-      "mkt_cap": 1239377481,
-      "rvol": 0.59,
-      "adr_pct": 11.76,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "First Tracks Biotherapeutics Ord Shs|Price:35.520|Chg%:-2.120 - TradingKey",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: First Tracks Biotherapeutics Ord Shs|Price:35.520|Chg%:-2.120 - TradingKey | Impact: See analysis.",
-      "analysis_details": "First Tracks Biotherapeutics Ord Shs|Price:35.520|Chg%:-2.120 - TradingKey",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "First Tracks Biotherapeutics Ord Shs|Price:35.520|Chg%:-2.120 - TradingKey",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16eDZTLWduNGtJX04zLVRmaXdOMGVpZ3FyOWhyN25ySlJwYWtEWTdwUmxBMjQxdzcxTy1FSnh5YjJyWF9MT0ZUNlRvU0dTeDVXYlZVdWQwRjVYV3MyUWVrbGlNNWZLMkdjdmR0cGJn?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $25M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "First Tracks Biotherapeutics Ord Shs|Price:35.520|Chg%:-2.120 - TradingKey",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "NBIS",
-      "price": 187.77,
-      "gap_pct": 5.63,
-      "pm_volume": 241716,
-      "avg_vol_10d": 19979733,
-      "avg_dollar_vol": 3751594465,
-      "mkt_cap": 47252403645,
-      "rvol": 1.43,
-      "adr_pct": 10.28,
-      "category": "Government Policy",
-      "theme": "Government Policy",
-      "reasoning": "Nebius Just Revealed the Biggest Problem Facing Neocloud Stocks - Yahoo Finance",
-      "hypothesis": "Medium Conviction (RS Hold) — Look for dip-buy at 9-EMA/VWAP.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Nebius Just Revealed the Biggest Problem Facing Neocloud Stocks - Yahoo Finance | Impact: See analysis.",
-      "analysis_details": "Nebius Just Revealed the Biggest Problem Facing Neocloud Stocks - Yahoo Finance",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Nebius Just Revealed the Biggest Problem Facing Neocloud Stocks - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUkh3MmVmbjRCTWYzWFF2WGNFU0Q5VGtsYlpyNzFsVkpFbXFEYW1hUjJyYUhaRDRDaEpONjhaUGVLbkhCdnNKS293VnJGY1ZxVEV5bHU1SW9fTzJ1SmdVeEdjRmZ3bGdKaG1NXzNoZkY3QXFfRzJBYVhjdDd1MWp1T0VqZWNWWTdmSjBwdEN3Y05uU00xLTJReWtlcEhlNktsV2Q0?oc=5"
-        },
-        {
-          "title": "Nebius (NBIS) vs. Vertiv (VRT): Which AI Infrastructure Stock Is a Better Pick? - TipRanks",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSE9xaHQzekJoMmJyRDJ3UGFYTUdCNVJLZlZMVjJJRG5BVWNRZDVfand1N0Z5R05WY0VYdDBKNTE1cHNicGZKY2oxWEpfN1AtdVFpSkcxZjVucDJPaE5oUUt6WHFCNzlSU2MzMldxZGphUzZhUEoyN1FaekRqVXJxNndRZFFsZlFYaW4taGRIdUFaOHoxWUNua2Q1MHNNZlBoOFp4SQ?oc=5"
-        },
-        {
-          "title": "Nvidia's $2 Billion Stake Transforms Nebius Group (NASDAQ: NBIS) Into a Major AI Infrastructure Contender - foreignpolicyjournal.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdFYyRGRPUGhockZaTXdTLXFId1NzaTVWbjduY1N2MTZWUzctdlZxWkpfcU9lV1lqU294VkRIb3dta1VWYm9xWElPLTN6bjU0Q0QxVm1ZY3Nta0JmY2pzYTBNQV9QN19wbmUwVmpET2ZJb2FsOGhUUUJyYWViZXdscTNuR3NRNF9LeGF4TFZZU0w2aldJYUhRaTZXWjROTlpkLWFKbkNyNmlFemdpUnluSUxReTAzbVpIM1N6MEhIZ2p2UEM5SmlxZ1lwUXNJWkNfNGhnX2k2Ylhrc1FlWWNCb1FZWQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Nebius Just Revealed the Biggest Problem Facing Neocloud Stocks - Yahoo Finance",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "MBLY",
-      "price": 8.05,
-      "gap_pct": 5.34,
-      "pm_volume": 161411,
-      "avg_vol_10d": 9244792,
-      "avg_dollar_vol": 74420576,
-      "mkt_cap": 6844010229,
-      "rvol": 1.87,
-      "adr_pct": 6.9,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Piper Sandler upgrades Mobileye stock rating on robotaxi push - Investing.com",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Piper Sandler upgrades Mobileye stock rating on robotaxi push - Investing.com | Impact: See analysis.",
-      "analysis_details": "Piper Sandler upgrades Mobileye stock rating on robotaxi push - Investing.com",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Piper Sandler upgrades Mobileye stock rating on robotaxi push - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSEpZTlhERHdwWTQzeElhMDlwYkdSNVJxT04yTWRWM1lLYllUZnFabzVNNHRBNzlNQjZ6VVl3WWZNT0lQSWstaWNXY2ZuM3dTRVVTa1ZsZm1DMzlnRzU0Mi1yQXM1aXZrZFhqSGJBX3REcXlwLVN3NFVneklmQWR0QVJjaDhJUnprdS1Qd0xyQkFVTFJQLWVoNWxUa2tUMDNEVFE3dnZtRUZLejY3Nkx2X0dTa1RSaXFYUzNUaHNB?oc=5"
-        },
-        {
-          "title": "Mobileye Stock Is Down Despite Strong Results as Its Founder Steps Down. View the CEO Switch as a Reset, Not a Red Flag. - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczRrTU16VEV4dFZvaDlfYkYwNEZKN0ZyQnI1clhjSmc5WTNrRlBoZEN1cFNyM1FoX3RGMl8yeWJpXzVMNXJJZm00aDU4MzRiOEtXYmtWeGt2Skx6TDhqdTJQZzZ6SVdscEhmX2g3RjRQNDN4ZktpcUV1S3ZqVF9NbHhkYzY1MXdOcFE1alZNZEU5WFIwc2thV2lRZE9ZNERv?oc=5"
-        },
-        {
-          "title": "Mobileye Stock Is Down Despite Strong Results as Its… - inkl",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcW1qQ3VNMDVKV2dwVHZMcjBxZ0JDcFBNLVg5a0pWZmFJU2ZYcjNzUThHZ3FITnA4ZnZYTURaSmxub3hXZDhUQ2tNVGhORmNBVmN4elViTnVFNDBXZlVfY3V2N1VUOUY0RnpEYTM0anBiRE0wUjBhSW83VVNZdHgzWTR0Rk13S19wLS1IQ0cxOEh4cXQxUWFEaG5HU1dfbUZkNjQ4TXpKWEVXcGJ1UXlialdJRF8tWjdHazJFQWJncWs3UjRvS0prQ2RBUzR2ZEszNnF5RHZ3em9QMGs?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $74M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Piper Sandler upgrades Mobileye stock rating on robotaxi push - Investing.com",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "BMNR",
-      "price": 15.79,
-      "gap_pct": 5.32,
-      "pm_volume": 608247,
-      "avg_vol_10d": 36299402,
-      "avg_dollar_vol": 573167558,
-      "mkt_cap": 9524944508,
-      "rvol": 0.88,
-      "adr_pct": 6.42,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "96,341 Shares in BitMine Immersion Technologies, Inc. $BMNR Acquired by Entropy Technologies LP - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: 96,341 Shares in BitMine Immersion Technologies, Inc. $BMNR Acquired by Entropy Technologies LP - MarketBeat | Impact: See analysis.",
-      "analysis_details": "96,341 Shares in BitMine Immersion Technologies, Inc. $BMNR Acquired by Entropy Technologies LP - MarketBeat",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "96,341 Shares in BitMine Immersion Technologies, Inc. $BMNR Acquired by Entropy Technologies LP - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRnh3b0ZmZ0ViNzhwbUx3N2dfR2hlajFlQl9WbndiWWhaYlhLeF8wU3ZSYTF4ZHVLRTYyMVFnTzZWMExteHFnLXF6R0x2c2JpaDFlS3A5M3FlTUtuSThJYVIwTDdxRXNEendodTJxdU5CT01LbkpmMmwwNUJ4T0t3ZWg0eW9XOVFhMVBYRGE3WVZQRFg3eTRuNG5BMGkwbElyZC14MVJHSEtWSkVKV2JfS0Fmb2stSkRIMmkyMXVRclV1QllRcTN4MnRZWkhIQ001MHBOZ3NmdHB0bDlPU2ZiWUxrdUNHQVE?oc=5"
-        },
-        {
-          "title": "Top BitMine Immersion Technologies (BMNR) Competitors 2026 - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPY3lLbEZoNE5tTjJic0loVG9RX1dWVmdnVDlBSFhZaFdHXzFVclgwajdfaFNsVV9VNEtFN0g4RUxsalh1WkFiVTJaQzBwVWttZF9ESTZIM3dDX0lGcnQ5cUR5R3JXcVdDNU1BeWlqM0xRaFpLSndCN01UOWE1QQ?oc=5"
-        },
-        {
-          "title": "BitMine Nearing Inflection Point as Ethereum Buying Nears Key Target - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRUhpbDZaeXdoek5JWktfeHA4d2FKZlR5cGhSTTZRblE4NkxFUFNMZ2ZianJrVm9xRldUVDJDUzFOOThJVUQyMmNUYmlObzZTejdrcFBCXy04aXIwbjRFZlpuMm9aa25NTUxrWjhJRWxDWW9fVnUzZzhPODJaZl90YkFPamcwUnNnYzMwZUhVMmRzQ0VhR2dfWlJIbmhfNmdMNjY0cFJVdW83MVhMbExtQ2o1UWEzV21JLUtiZzFMR2NrbEU?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "96,341 Shares in BitMine Immersion Technologies, Inc. $BMNR Acquired by Entropy Technologies LP - MarketBeat",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "SAP",
-      "price": 160.0,
-      "gap_pct": 5.16,
-      "pm_volume": 149460,
-      "avg_vol_10d": 3677859,
-      "avg_dollar_vol": 588457440,
-      "mkt_cap": 186035688221,
-      "rvol": 2.13,
-      "adr_pct": 2.86,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha | Impact: See analysis.",
-      "analysis_details": "Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVDd2dXctZkE5MUhlcXJ6U0pEeGNoTjRQajBEelZ1Z2NjSlF4QTg1NDN4WmZaQnpfVFlMZGlGRF9adTdxYU52UFFUR3MtN0lVNG9WemcxLWtCUXh3REJfMHJWZzVma1ZheTRwNzJpYmtVeDh4ZFdqMFBqcUE4ek9YWnZhYkJSaWRHUjJlNnVtaTFCQ3EyNGdzRFFROG9mazdwbkJwUHVhNlZGTndtUGFXMU9qcGJWQWZEUnZlN0Y3TGxHdw?oc=5"
-        },
-        {
-          "title": "Software Stocks Extend Rebound, Led by SAP - marketscreener.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa1B3QkllRHRYeWI1NUg1bUdlWHpZcHR4VG1KQVBSNDhYc2xnVmkxUFM3NmdReDhlUW81RGp0LW9SVUh1NHlsQWtJUVNTOWExemo2and1YXNveG9DRVdaSEJka2hNZVFqTjdHTTdHcmZud1VDVHliMzdyZ0FaYml6Vk40cXNvVGxiNzNTZW1TcmhPQkFoTExBNFlB?oc=5"
-        },
-        {
-          "title": "Why is SAP stock surging today? - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTWYyNGF2NzFzV3dWdDJndVhnb3pCNlpCQzBzX2dZQ1d3VUd5MHJmZjVTZ0ZlOUVxMjJZWGxlc2lmalE4c0xOaEh5MWZXZjh4MDZVMm43T2dIRzF1enFWNUxOSEI1MHBZS0M4ZWs4TXZOdnFydlk3UGZuWkpBUGRqZlVBVHlCeXFWZEpRaFVHWXAta1lNU2tF?oc=5"
-        },
-        {
-          "title": "First Trust Advisors LP Grows Stock Holdings in SAP SE $SAP - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmFwVlpLcTU5XzJmQ2pmbXhjaDFNVDRTbi10bVlMOE13ZU50NGdPUFlTTTFGQUZPYWNtdVZob09UcUppOTdDLUhxYTlXWHVBSW1BWHUxMXRnU1BTM0gxalVyTmItSjVHMTk4Vng3WHBONWdobXFLNXhmbGFXaTNIMmQyYUVvUFlvSHh2N29ESi13MnU0a3ZJa19ZZ281Y1U2WnVCNXFNUXBORHVkaTJVVUdGaU5CQWNySDk4?oc=5"
-        },
-        {
-          "title": "SAP SE: Release of a capital market information - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTjVHZXlKUXRLRzZIdVBLLVVJTDhqWHlqalB2NURzZUg2ZEdDUkozMWszSWl4OFluMVZJTXhMejVIVjVrZ3diTF9wZF91ZVliVmJnZ0dRdGFvOE1xU0oxaWF6M0h4OV9JOHRVVHZrLTBkSGlIMlpCejhabmhGUkdrbmZTb3h5YkphZDhvaVphU1o1VFZtUlQ2VWhhemtyTlp3NXc?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 2.9% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "BE",
-      "price": 184.89,
-      "gap_pct": 4.92,
-      "pm_volume": 122907,
-      "avg_vol_10d": 13042015,
-      "avg_dollar_vol": 2411338153,
-      "mkt_cap": 52590828462,
-      "rvol": 1.25,
-      "adr_pct": 11.28,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Bloom Energy Stock Gains Ahead of Earnings - Benzinga",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Bloom Energy Stock Gains Ahead of Earnings - Benzinga | Impact: See analysis.",
-      "analysis_details": "Bloom Energy Stock Gains Ahead of Earnings - Benzinga",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Bloom Energy Stock Gains Ahead of Earnings - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT0ZEZnRuNmd4c1huOWZDU1dNQ0VpbkJ2eF83N2d4QjVvaTJxaVVzRTQ3WVBRZjFBWE80a3luTFRCWWFoOF9IbjRtUkx5QnMyRjE5RW9EeUhzaXNtcmt5X0tRQ0ZTcUZKZlp2al9XOTVJbVJHVEFGNHlGaE5XaURPZE8yUkZGa3lac295cUw1aWxVVXA0YW9ablZPMUVQRzcxRzNjY3V3?oc=5"
-        },
-        {
-          "title": "Castleark Management LLC Has $7.46 Million Stock Position in Bloom Energy Corporation $BE - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOemlMMllPR3hSblJ3ZWdNdlV6SkdIRldZREN2a1pxSWJ5dkd1YnZBTUVPWjJGeXJXcExMOTduRDdUYlRjMTl4eEpkR2pTaHhNMm5VajlQd0xZYlJuUkJlR2hmVzlEaVpiWWR3bDRodlVGSjV5X3NYSXpXa2xyRHRFRW9TclNib0ctWUdnT1YyN0xGUlRuTmp0bTZ6ZGFFa1p3MGw0dkg1V2ZMTjV1NERZanVRTVlYbnlWUzNnN1laZlpHeWl0WTRMdkwzQXlLN01CS0VJallUMnR5Z0dxeW9ONQ?oc=5"
-        },
-        {
-          "title": "BROOKFIELD Corp ON Sells 15,223 Shares of Bloom Energy Corporation $BE - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWUM3a0hTRTdtYWUxMVdmZlVCTkhTTURRdmhSNGRScEdUbU9aZmwwRkQ1R2dLaEtuLTI4X0IwVHFBVXdTQWFTZHlrQ1lYQUZMbXlIU3Q2amprdmdGV2ZFblA3cnpNNTdqd0V4YUgybUplNWpYQjBhbjhRdUwwdjJ1Yml0MjVCZGNuUUdmNDBHY1Z5TGVfLWREcXVSRFJ4MkpkYW84WnZjZzRBY0pDMGU3dWM0NG83MERmUS12OFJMcjJpLXFfUUtMXw?oc=5"
-        },
-        {
-          "title": "Bloom Energy (BE) To Report Earnings Tomorrow: Here Is What To Expect - StockStory",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ3liYzhUMWgyejFJZ3BIdkNSeFZYdzRETHp3ZmZiUGlzdDRXaFlPeVZXWkJmLXN6ekJTd3d2S2VTYmN6c0tXSU1qNkVFZTNDX2U5eUgzckdSSnRXckFsVVdYaTRLTVdrVUFiYmdWSnhOWmVwdGlqRzNYbk5sN3BpNTMyNGNtLTZiSktpN0duQmNzdUtyNjV0UXlaV1RnYXcwTHBIU2NHZVRGOER5bnRjSmFfdGdhdmdlbXpOTDVzRVc?oc=5"
-        },
-        {
-          "title": "iShsInc-MSCI Gl.Agric.Prod.ETFR (0I8C.BE) Stock Forum & Discussion - Yahoo! Finance Canada",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEc04zbUwyQmZrQWpac3hQX0ZzRzVsaV9jYjVVaHJPY2g2WER3UUg5SU1DaU90NV82MDR2V1hTRGtVMmgwZ01KN05xZkg3QnR3QVVkWEw4alMxbkVydlk4VUxzYw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Bloom Energy Stock Gains Ahead of Earnings - Benzinga",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "SBET",
-      "price": 5.81,
-      "gap_pct": 4.65,
-      "pm_volume": 60694,
-      "avg_vol_10d": 8345609,
-      "avg_dollar_vol": 48487988,
-      "mkt_cap": 1234017090,
-      "rvol": 0.8,
-      "adr_pct": 5.96,
-      "category": "Others",
-      "theme": "Technical / Flow",
-      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
-      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
-      "conviction": 25,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
-      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
-      "peer_tickers": [],
-      "headlines": [],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $48M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+        "primary_claim": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
         "discrepancy_note": ""
       },
       "gates_passed": 2,
@@ -519,924 +62,52 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "SKHY",
-      "price": 154.57,
-      "gap_pct": 4.55,
-      "pm_volume": 633923,
-      "avg_vol_10d": 50281717,
-      "avg_dollar_vol": 7772044997,
-      "mkt_cap": 873092650538,
-      "rvol": 0.42,
-      "adr_pct": 9.19,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "SK Hynix shares rally ahead of second-quarter earnings - Yahoo Finance",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: SK Hynix shares rally ahead of second-quarter earnings - Yahoo Finance | Impact: See analysis.",
-      "analysis_details": "SK Hynix shares rally ahead of second-quarter earnings - Yahoo Finance",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "SK Hynix shares rally ahead of second-quarter earnings - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR2VhWl9ER3Y3NmxqVGlDdTJ4OGZ5UHAtaXNQb0ZFR1B5QW1tcVV1YmlBdTdaTEZ4UHQxRHhaYlR4MWVSWlFYRUo5b0N5X2Y3UFFKUVRCNEZZT1lwYlZTc1lub0pxMS1XMk44alZDLUYzMTJfYUltcWlSTEJ2YS04RWZvMHZYTHZ3bDZhYmM5RE1UMk4za3B3?oc=5"
-        },
-        {
-          "title": "SK hynix Inc. (SKHY) stock price, news, quote and history - Yahoo Finance UK",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11cm9MY3lEMWNhZUh3Z2VoTjV6WTlhaVVHOWpzOUV4VDl5YVlRbVlTd3dXMzRLZ2VFaUxlWVdxaXRMVDAwVWI5U3VxSFNFWHd4aGc?oc=5"
-        },
-        {
-          "title": "SK Hynix, Samsung Ink $950 Billion AI Chip Deals, But Stocks Still Slide",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/b7c1e3f4-6dfd-30cc-84e2-d812d4b061a4/sk-hynix%2C-samsung-ink-%24950.html"
-        },
-        {
-          "title": "5 Earnings Reports to Watch as Big Techs AI Spending Faces a Test",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/m/12746bd3-fc09-34d2-8863-de33c3d228f9/5-earnings-reports-to-watch.html"
-        },
-        {
-          "title": "Kospi index and U.S. stock futures jump as new Hormuz talks send oil prices plunging amid Iran war pause while Wall Street awaits Fed meeting",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-index-u-stock-futures-002504570.html"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "SK Hynix shares rally ahead of second-quarter earnings - Yahoo Finance",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "IONQ",
-      "price": 32.84,
-      "gap_pct": 4.54,
-      "pm_volume": 324764,
-      "avg_vol_10d": 19453243,
-      "avg_dollar_vol": 638844500,
-      "mkt_cap": 12258184492,
-      "rvol": 0.82,
-      "adr_pct": 6.61,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "Why D-Wave Quantum Stock Is Surging on AT&T Partnership - Barron's",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Why D-Wave Quantum Stock Is Surging on AT&T Partnership - Barron's | Impact: See analysis.",
-      "analysis_details": "Why D-Wave Quantum Stock Is Surging on AT&T Partnership - Barron's",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Why D-Wave Quantum Stock Is Surging on AT&T Partnership - Barron's",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxajNNb2lLSTBKclNheXpWbm85bVEzYjN0eVFLRldoelpjR0ViRHFzcWhjWTFrM3A1NG00dGExOHVtOGl5QjNHUnh6S0ZIZlNGWExrY1R5T2NkZTBuYUFYRzRxc2JsTjFLNVpraUE2R3d4MW5s?oc=5"
-        },
-        {
-          "title": "IonQ (IONQ) And The Quantum Narrative Behind Its Valuation Gap - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWNkaFpLVWhDYURNZ0RlMlQ2U0h5VDVVTTdhRUdrMmZvRkd6RVBpQ0RKQmVQLUszS0FodXNkcWdkUHYxR1ZObFRIVjhEcFFJcDlsTUQ0RlRPYkxNREtOWGtTc19DdF85VG1uQmFweUdvTXJvTzY3M2RpZjFnWG9qZU9lM3prcWc4eEpQazcybGxoUF9VWTlINVlVRV9oTTlJVEJTU3dWVHM0VWhRVERGZEhKTXJMbFJq0gG-AUFVX3lxTE94RDZFVk9icnk3dlVyeXl2emRpOHJGa1lNdlNqTDJoaGFyNGw0Q2gteFA3YmtRTkVHM2ZXWVNvODVWdWJyclktTWVoRTFya0FoSGE1WEpGNVJlVFhzUU9mYlNPMVBYVGNKSVdpdm1iMDM1TGF6MlFqbmxTNlIxbVR0MnF1V042OXpkdHoydm1DRzhGREgtUC1CZU1xcUN6S3hCTUxrT2tUQ3JOLUM4SUctNXBGbVI4bW5DT0RLVEE?oc=5"
-        },
-        {
-          "title": "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low. - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXVUU3ZmOG1yeEphY3pjNm53Wm1SWEFWOHo4THpiZzBWODl1bnVzX0JCc0JqYmxoMDBFdG11b1ZKQzhoTkdVMGs4cGI5NzdiMFBPTFNQSEF3ME9oZmF2bVRBZDRJckQ2S0JTcjdheHlScGZnZnpQZHBtbENZR1k0Y1hET0NrLWJOekFGNHY4V092Y0xxblI3dmVzZw?oc=5"
-        },
-        {
-          "title": "IonQ vs. Rigetti: Who's Winning the $2.7 Trillion Quantum Computing Race? - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdVdhUTVldU0tMTVtejBzMHNpcDVoSEVXVm84Y2o2YkpyUGMwYm4xZU56V1ZSbzlNYXJicjl2aF93NVIxb2pRUXhBSVQ1M0FidHBKR2xtOEQySTBtbUt5czJtZnJnMGo5OF9PUVotck5LVUduYjBJcVQ2STNXX3JWMXp2aHpEaWJ5S3B6dlFjekw5ZVYxWmNmYw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Why D-Wave Quantum Stock Is Surging on AT&T Partnership - Barron's",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "RKLB",
-      "price": 63.91,
-      "gap_pct": 4.45,
-      "pm_volume": 609891,
-      "avg_vol_10d": 19570289,
-      "avg_dollar_vol": 1250737170,
-      "mkt_cap": 38229694943,
-      "rvol": 0.97,
-      "adr_pct": 7.57,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches? - Stocktwits",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches? - Stocktwits | Impact: See analysis.",
-      "analysis_details": "RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches? - Stocktwits",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTS1yY19CQnQ0VjZ3UFZfRTRDSWUyVWxJUTRSWGUwbzZPa2dFSTA1UXFGNDA4LS1CWDcwYzd4bGxIby1UUW1mdWM0MWdMbWNzOEswTDdhUEdZbHBFd2FRRGY3TlU5Unk3Zm0xQ3JUQzRMZzBPdXdxbGF5X2FZMm1XSjhvdEFfdWt6ejVZRDh4QlZ1Q0JiVWJnenVlWUw0THRUVS11bXVXaVROUEIyLUU4ZzhuRWJSZHdZMlNlTHpyWHZqYXBZdFlkMFNNOXd6OHhUc0gxNDEtZXI2Ujh5Y2psZVpCWjRlOEs3UWJqclZ2MTVUeExEU1ROemctMXpkeTlhWmc?oc=5"
-        },
-        {
-          "title": "Rocket Lab Secures Biggest Launch Deal Yet as Space Demand Grows - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkx1U0lwNnJHTlNhV01BbUVubUFqU0hwZGdIcmN0NUR5NWlzSDlDZ3J6T015Q0lZNGdLNjU2b3UtbWRVMXdvMkcwdWtXWXNyRFQ5MnVMSjRWRFpfZTI5c1Z4U2VYVnl6QTFRM1FLek5LQUZpajNPSHZUVk9EV3l6eXVqWG9JemhqY2VnZDBENTNxVXJPa2gzS0ZrSDJzMGZHVEo4MVF0QnYwVm94cGowZXVEd0F2T0ROUDFOLTBkdHhPWG8?oc=5"
-        },
-        {
-          "title": "Rocket Lab stock rises on $266M Space Force contract win - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUEyWkFRSFlaaklGb1hVQ1kzRC1lbnFERmd0b1d1RnJnVGpIeWNlUHE0STVYR1BER0l6WDBwNnhKWmF5TXFkU3NERUJfUEo4dWtJc2tmY0oybmhTQnpzT3NKRmVSM0ZrSnYtMGhDOXUzR1JlNzVlNTBYak9yc0N0eTA2NVpOMEV5VFMwQTRVWmRhTzhCUEtlSURfWkxFQzZkcUpvOHRVNGdlWl9jWmVtX0FxUWVGcnZU?oc=5"
-        },
-        {
-          "title": "Rocket Lab Stock Is Jumping for 2 Reasons - Barron's",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HYlItT1lhb3ROMzZ6Ul9zT2NPUEJBQTN1QXBPN0RnV0xfUExaZFluRDd1MzdKMktBcXlaZVFnd0hOM0VodFFVdExyTExZTVptLXMtZmR1TXl3OTZvNXpoejdBd1EwbF96LWcxWHNLel91cjZHWmJkNVh3?oc=5"
-        },
-        {
-          "title": "Rocket Lab Stock Has Plunged 60% From YTD High - Benzinga",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRjZSTXdiSWZGLWdXMVQwclNJc0RkbGFia3J5ZVlBbXBRUUdoZmdWeTNRVS1tMG5HN3hsMHp0TU9MSmxpbElZRVFOT3gzTHFhS3BUcUR5MVp4cm1wRjJ0Mm1BUW5ZUGo1eTByellEWjdPd05EYjlSSVBLSlFGMkdYczBDRDFHVVVTbFd4UmtqZ1FIdnpTZXlCUGJad3BVa1U?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "RKLB Stock Climbs Premarket On Landmark US Space Force Contract – How Is It Different From Commercial Launches? - Stocktwits",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "CIFR",
-      "price": 23.15,
-      "gap_pct": 4.41,
-      "pm_volume": 60147,
-      "avg_vol_10d": 26698752,
-      "avg_dollar_vol": 618076109,
-      "mkt_cap": 9469488693,
-      "rvol": 0.81,
-      "adr_pct": 10.27,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Troluce Capital Advisors LLC Buys Shares of 1,350,000 Cipher Mining Inc. $CIFR - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Troluce Capital Advisors LLC Buys Shares of 1,350,000 Cipher Mining Inc. $CIFR - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Troluce Capital Advisors LLC Buys Shares of 1,350,000 Cipher Mining Inc. $CIFR - MarketBeat",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Troluce Capital Advisors LLC Buys Shares of 1,350,000 Cipher Mining Inc. $CIFR - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOUhOa29BSUNGQS00M3dfMVJUSVo0dkZfdWRlTzJFQWc3WnZPMWc3bHlJY3pEV1MzRW8wb19UbFdSRWFBcG0wejNnZnRxT1BtQ2x0aFZYdWxoWHEzWXlQMnhaRGd4WHpSUlZGVmJySDZVQzA5RUd0bGRhVkVkOE44YVE2UWdROXFkYjBSVV9oMmNxQlRycjlRXzZKeTNfVXFDU1ZSaFRPdFBYTE95VEx2RzlHNUQ2NEpvZWt0RGpnYzRudUFCdzVKWVh2cUwxTXVO?oc=5"
-        },
-        {
-          "title": "Allspring Global Investments Holdings LLC Makes New $1.46 Million Investment in Cipher Mining Inc. $CIFR - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObktFMExMcVlmQmdubG5CUFZNUC02WlRTOWo0bTlMbXRtN3ZyakhKbzM5b3kxVVhKRmE4M1RIdk00ODlFczlzNXlTRTNFSGtlVWlIRkhrRkgyaktUVXVkakhHakxZdDhlUkJJS2t1d3VVcEhxUnZCTDVqOGw3LW9zYWk5a0JfSHRqaFFZakJUbE44MzNFdS02eW8yTUV0Z1B3R0N2Y0d5RThVX2JGdm5ONW1vREhhdzRjclZadXNmNEFQRF9UcW05Tm1LaEdLb1Zfd1gyQzBESzlEV1pqM25FUERwWU9HdG8tME9Ka0hwMUtxOGc?oc=5"
-        },
-        {
-          "title": "Why Is CIFR Stock Rising Despite Q1 Earnings Miss? - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU2haa1dxQ1RqVnZJSXFpRldxZmFmYlZTMmZHdDFOZkp1NmtDczdCTUdhdjVHMzhLWVdTM1huTmtiSHZGWV9RaE1RbG9QSWZJTF9LYU1xRGFnaGlxNXdZbE1GbG5YdVBIbm16UUFOS2J2d0hQRnNPVFVsRHRJRVNZZW9qWEo5VjFSbTl4UUtUMzlHejdKS0JuU2VLbEk2ZVNxd25GLTRnc3NPSTN6Skx6VmVUUTdObE5aYm9BU2dqd3hUS1VGSV9WczJCaEhVWFlXdkdEdA?oc=5"
-        },
-        {
-          "title": "Cipher Mining Shares (NASDAQ:CIFR) Surge 32% as AI-Driven Valuation Faces Execution Uncertainty - TechStock²",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWFzSzFnNWw1bnVYd201bGZKeWYyT3liQWY4OXhMVzJqU25vWDdRZHdnTFVSbDYxM0hiQTVzYVUzR1Utckk1YUNYRUU0SVNlLXp1WHRENUpMcmVkUVJ6bWh6U3FEX1dha0dUcktycE9pd0xoU0xoMVpYWV9pVDUyd2FCb3VxOTVNRjBIZzRkVlZpZloybUYwY0xidGx5RUxteWJfUlN1a0M4ejJVaV9Hd3Jn?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Troluce Capital Advisors LLC Buys Shares of 1,350,000 Cipher Mining Inc. $CIFR - MarketBeat",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "KEEL",
-      "price": 4.26,
-      "gap_pct": 4.23,
-      "pm_volume": 188931,
-      "avg_vol_10d": 27177687,
-      "avg_dollar_vol": 115776947,
-      "mkt_cap": 2572310031,
-      "rvol": 1.11,
-      "adr_pct": 9.33,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Keel Infrastructure to Report Q2 Results Before Aug. 10 Market Open - Stock Titan",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Keel Infrastructure to Report Q2 Results Before Aug. 10 Market Open - Stock Titan | Impact: See analysis.",
-      "analysis_details": "Keel Infrastructure to Report Q2 Results Before Aug. 10 Market Open - Stock Titan",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Keel Infrastructure to Report Q2 Results Before Aug. 10 Market Open - Stock Titan",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEtHVUhzMXZmQVdHSXV6NGQ5Y1Fxay1PYlFESng4N0lrS3hEYTZfdGJFbEJYLUktQkd5ck1TamlIbVZsOXhDNFNSNDFvUmx4eE5scTVZb0JzVXNBU1RuSW5xT3hibXctbHRYRGxqdklkeHhBR0ZMQkxKMGtVaGFWT3JHN3hkenVRTzhWSEx5SjI2aElldnM0a2ZvLWtaRm1hc2dtbHpjNXo2czB2WS1rS1Rob19MNVphbDhDR3VvSlQ?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Keel Infrastructure to Report Q2 Results Before Aug. 10 Market Open - Stock Titan",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "TCOM",
-      "price": 43.64,
-      "gap_pct": 3.92,
-      "pm_volume": 54098,
-      "avg_vol_10d": 2612227,
-      "avg_dollar_vol": 113997586,
-      "mkt_cap": 28792581514,
-      "rvol": 0.73,
-      "adr_pct": 2.49,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Ardmore Road Asset Management LP Takes $14.94 Million Position in Trip.com Group Limited Sponsored ADR $TCOM - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Ardmore Road Asset Management LP Takes $14.94 Million Position in Trip.com Group Limited Sponsored ADR $TCOM - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Ardmore Road Asset Management LP Takes $14.94 Million Position in Trip.com Group Limited Sponsored ADR $TCOM - MarketBeat",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Ardmore Road Asset Management LP Takes $14.94 Million Position in Trip.com Group Limited Sponsored ADR $TCOM - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNc0hiUXJWeVpzZldPREhDWVFRY0FLUmd1NzZneldLeWxhZFNfWllOVjJ5SjhIeTFqLWF6bkVyRGNBMHk2b2dZVnV4aXFLTVgtVFdSZE8wVFZTWjgzNWpKOG85SlE4clVGSWZ1MUxTQnBicWh4RFYwdTB1Wm51em1HMGlYcEZBSzFaWUVlZVpBU1oxOU1qdl9NZ0xQRFYySks3Z0Y3b00tZnlOSTdseGZHVDVYWjExMEx2dEZDY0QxbG9jYjlPVm9ZbWdhT0NnZ0M5anNBU2hXbHYwMTBCSURPOUd0SjVGb2VOckYwMGwtY3VBSmt5d0lISg?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 2.5% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Ardmore Road Asset Management LP Takes $14.94 Million Position in Trip.com Group Limited Sponsored ADR $TCOM - MarketBeat",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "RGTI",
-      "price": 14.15,
-      "gap_pct": 3.82,
-      "pm_volume": 272787,
-      "avg_vol_10d": 22000271,
-      "avg_dollar_vol": 311303835,
-      "mkt_cap": 4703442946,
-      "rvol": 0.68,
-      "adr_pct": 6.29,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Prediction: This Quantum Computing Stock Is Going to Plummet After Aug. 6 - The Globe and Mail",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Prediction: This Quantum Computing Stock Is Going to Plummet After Aug. 6 - The Globe and Mail | Impact: See analysis.",
-      "analysis_details": "Prediction: This Quantum Computing Stock Is Going to Plummet After Aug. 6 - The Globe and Mail",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Prediction: This Quantum Computing Stock Is Going to Plummet After Aug. 6 - The Globe and Mail",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVXc5Z1JMUWdrTU81eUExRmc4TWRhV19ORllaWGFHZXFDZEZ6ZjJONEpMdk85UmVVXzVuVnZwalJmeWUtQi1lcEhyMEh0WEZqWDQ3ckN5MkRKUDhvLVhidVhjUTN2RnpKVWpNdTVmU2JiNjgwTnZiZ05LN3Zac3BoOWFEaTR1Z0JVa3gzenI4dGhnbkhuVF8xQm9WS2ZLUXkyVGRTc2xMRUV5eG9iVTZibE45cGJlc3l4Qjc2NC1mOHVGRjNWcWZ1OWJ4YjVQcjEzVHJnLUpHOFQySl9WZmRiTXB4Nm1tdmo5WnUzdQ?oc=5"
-        },
-        {
-          "title": "IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSm5LSExVeWRXZEdOb051amMyLVBXN3BtSThtbFVMZ2R1N3RsYXppRDM3MXdoQUF5T1V2RWpVMWVGd3YwV1U4WnlEbTUzQnRHMmhxT3R1Z0trRkdVaGIyYnFTQ3dvUWgxNkxxV2p4VDc5amxoM3ItYmFQTkxSQnFaU1VMcS1jT3JjNmVaMExjMmFiY2ZxV0x0dS1hRnAtaGtxUV9MSVpIVGd4dXJZempPQVNtOTlNcG5ZZHZzY2lXeFY1U1p5X3NWRkhMeXVQaFBjaURIRG15RnZZMDAtMEE?oc=5"
-        },
-        {
-          "title": "What's Next For Rigetti Computing Stock? - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVNiWGF1NDVlaUhWNmZRck9WRkFqSzB2RnVscHdVdUQ1WmlwVFF6eFdfQUpPWGJoOHA0ZG5qckdCSHVYMDctMlRYRGNhc09OT3NsZWtneTJiS2tOUktxLTVkT1lWRmpnMV9SMk1hdUFtMURFZWxNQnA0RDNfeVFXa0pjS0dQY0hG?oc=5"
-        },
-        {
-          "title": "Rigetti Computing (RGTI) Stock Trades At A Premium Despite A Very Large 3 Year Return - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkhzbkNwY0xMYlgxWHpMY3FMby10YWUwNEE3ODloSVFqRjZ0dmo5UVNDYXgyOGY0d0x1SC0zYWpKaXVjd2QySy1VY0lLb3M0OWpJWTlZNkhDZGJsV1RTanA0dl9mczBFU0pjVWFtQkJEemNtNkdIVURULTNXU1FUaUFxMXZfdVlLTTNBaF8xMWlST2NfaGRDbDlqUzlGbUhldnU1X2E4UVRtZUZwUEVwUnFtbHpDemNJQ1BSU1g5WWJERkNBT08tSk9JbzBVRWcyVXVtLUFFQ3dzd9IB3wFBVV95cUxOcVdac2YwaFZXUFVEN3J1RHdIV0xldWRUTEZYVV80LXVFMjdxQ28wQ21VUENOZlVyV19QWk1KdjFOQnZEYkpaYktrb2FSLWNsYmV4dDhwWVR2Tm4zNnRJWjJKWkVEV3FGdy03ZVVUb1Bpc1l2OEpPTEcwdDZRbjZDeERuZXh5cEtLRlg1U0ptRGRhSy1MT0xkNWZoRjZnLUtKVmpTQmpoZzhlcmhza1hSZmlnZnJIRkZaRFplRU9pMmVUOGhrOU9XVEh2LVpJa2UtNkpOM1h5NzhQV1NScGZF?oc=5"
-        },
-        {
-          "title": "QBTS, INFQ, RGTI Stocks Explode: Quantum Rally Adds Nearly $5B In Market Cap On Trump Admin’s Major Bet — But Retail Is Very Divided - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQb3lLb3hMZV96TEVCdWcyVVI3Uk5wNHE2U05ZdGJTUGFNQUdtWkh5UDBIV3c1cVJmeTdPemlONlN0T1NjRXVwZTVUcWZNLWVzVmFKR0xCSUJXb2NENFpjY05JdjA1TVQwUGl1SXBIcGRUSEtWLXRjd1I4V2ZEbFQwaVFmYVIzd0xpZ3pxb3lfZE0wQjJ1YVFkM1Iwbk04NGVNUDRnSTl2UzdnbVlRTm95VWZqZnREeHkxdFliVjFoMWppMXdFOTBGcEM5N2JwbTF0dHhEYmwtbldVR0pQSWNjeHNaNDY2NFJ4ckFkUW90WWtzb1ZxWlFnUHZNOGRoYk9NSmNxMnBlRENRdmNkZ0E0UGhUN0JjNU5hMWg0?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Prediction: This Quantum Computing Stock Is Going to Plummet After Aug. 6 - The Globe and Mail",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "TE",
-      "price": 5.0,
-      "gap_pct": 3.8,
-      "pm_volume": 171108,
-      "avg_vol_10d": 42287267,
-      "avg_dollar_vol": 211436335,
-      "mkt_cap": 1396356812,
-      "rvol": 0.76,
-      "adr_pct": 10.3,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Renaissance Technologies LLC Boosts Stock Position in T1 Energy Inc $TE - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Renaissance Technologies LLC Boosts Stock Position in T1 Energy Inc $TE - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Renaissance Technologies LLC Boosts Stock Position in T1 Energy Inc $TE - MarketBeat",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Renaissance Technologies LLC Boosts Stock Position in T1 Energy Inc $TE - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcTU3MU1fQndlMnUyOUFTNnN6YS1aQzNJQV9LeFlObkFTU1pCbG5kWGJGSFB1QVZqbGJtNkZUYWVVanhYYUJHb1NDaGVaNzZSQ0tlbUZJck5zNDBONGlMWUlXZThySG1lTVFONExEejZnbE94YkVIMHExc2Z4RXVfSnRjSm14TXRBcHdkdDhNanRVNUZYbENaTF94VGJLUk11QUlDbW8tZVdqMnJhNFRlaDVPczhQcDkyOHdxMXB0RVlWOS1vMHY1SlR0bw?oc=5"
-        },
-        {
-          "title": "Morningstar Investment Management LLC Sells 15,368 Shares of TE Connectivity Ltd. $TEL - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMThiaUhxbnlQWWp3ZXl0cDktZ1VQbjR0X3l3WnNYOWhQYVFyUDQtNTY3d0dXQy1ibXBZRDJUQk5zelhfTGpoSmxvdEhKaDZNM1QwOUZ4Z3NkbVB0NkJEWWpsVHQwRkQwUllCS0hrUGdkeExjcncxVk1sZWM4UVhEekxnSGU4ZE9yZjk4X0ZrMnNXaVFtSjk3MEdOZ0I4NnkyUjZxQk9valZza3ZRTllzVkRfY0s5YlRjMU9yYVpKYTA2dVFNRXk1dWRONHZWMVBSRHRkV1RhLUtYWTdN?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Renaissance Technologies LLC Boosts Stock Position in T1 Energy Inc $TE - MarketBeat",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 3,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "AAL",
-      "price": 14.47,
-      "gap_pct": 3.7,
-      "pm_volume": 259643,
-      "avg_vol_10d": 141155017,
-      "avg_dollar_vol": 2042513096,
-      "mkt_cap": 9582014695,
-      "rvol": 0.48,
-      "adr_pct": 3.92,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American - TradingView",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American - TradingView | Impact: See analysis.",
-      "analysis_details": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American - TradingView",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American - TradingView",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObTJHUUJCQXEzU3VPbmVONlAyLU1MbzREXzdiRVA0TWZMSldYbllzSEdZaTM1TWdfS0pPREtKUzJwRjZDTl9XZ2dSTV9HZ0hDd3Y1cWtWdVMxOHhLRXFJVFEzZWlwdVhzUHhELWtWUFJ3TTlBdlVDSFZ6NldiSk9YcXYwYTlIdHQ5UTVPVDZ2cHA4U3kwT2xHaEdpRXowS3I2aWxEVWR3T2J5N2ExLXgxdklnYWxFaC1wbzQ4WnJrdGc1ajNzQWFJcjc0bzVnS1NTRmNGaEdwR1pUVTRzSEwzbUFNX01FdUxINHJZQUlmV0o0NUppNV83cXVn?oc=5"
-        },
-        {
-          "title": "American Airlines Cut Its Full-Year Guidance. The Stock Rose 6.8% the Next Day. - The Motley Fool",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWl2dXlkQVM3ZG9pc0J5YTRRTERQdHlQWG91UTFiQjJDWE5mM0YwZDcweDc4WmJkZldLVkp6Mmp0SUR6NG5DZURwVEVDaTBKbEwxeFI2OXlmSTRaZm0xaDJMSXlrZWN3NUhXYzNUX2ZXZ0hrTEItUnRKcmxRbmJ3eXNFMEhlS3dwVy0zWDJyZDU2a3dIR0VhQw?oc=5"
-        },
-        {
-          "title": "United reportedly sought merger with Delta before approaching American",
-          "source": "Finviz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/united-reportedly-sought-merger-delta-202320183.html"
-        },
-        {
-          "title": "United Approached Delta Last Year About Merging Airlines",
-          "source": "Finviz",
-          "url": "https://www.wsj.com/business/airlines/united-approached-delta-last-year-about-merging-airlines-af83fc64?mod=wsj_FV"
-        },
-        {
-          "title": "American Airlines Stock Plunges as Fuel Costs Surge. How to Play AAL Now. - Barchart.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1NHdElSdHpIYnZOcGtuWm52Y3VGUVJrNXJsa0lzekw2SVVnenNGcUxNRjloUHpVRi1wM1Qzb3dzSllOM0ctZWxFbk5sZmt2RWowczdoZlZpa1NFMlV5dEEtZ3RYNkFDWWNRajE2M2RRdWdZa3BUZldUSFJjQ05Ec2I3Q0xHdE5iVXh0M3dLVHNya1JoZ2oyX0ZhbkFwZzduMmZjb0pLSFl0aDlHN1FSRVZUUDJhZw?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (ADR 3.9% < 4%)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American - TradingView",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 4,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": false
-      },
-      "meets_all_gates": false,
-      "tier": "T3",
-      "tier_label": "Minor Catalyst"
-    },
-    {
-      "ticker": "ENVX",
-      "price": 3.95,
-      "gap_pct": 3.69,
-      "pm_volume": 84639,
-      "avg_vol_10d": 5701653,
-      "avg_dollar_vol": 22521529,
-      "mkt_cap": 861706107,
-      "rvol": 1.76,
-      "adr_pct": 7.26,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "Enovix Corp (ENVX) Shareholder Structure: Major Shareholders & Institutional Holdings - TradingKey",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Enovix Corp (ENVX) Shareholder Structure: Major Shareholders & Institutional Holdings - TradingKey | Impact: See analysis.",
-      "analysis_details": "Enovix Corp (ENVX) Shareholder Structure: Major Shareholders & Institutional Holdings - TradingKey",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Enovix Corp (ENVX) Shareholder Structure: Major Shareholders & Institutional Holdings - TradingKey",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WRHFtXzBjdnBfRkxvSGRPVTgtSldHTm1ERlBzc1JoLWdyUzVIMXFBQmtyWGZob2VwbUtCTnFDQzFEaVRUaGk1d1NObTZPZHF1N2cyX2lJNjk1ZmxWTEREMDhJU0o2bDA?oc=5"
-        },
-        {
-          "title": "ENVX Jul 2026 9.000 call (ENVX260731C00009000) interactive stock chart - Yahoo Finance Singapore",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13TExjU2I4LXZEaGtKQW9iTTFTYVk1dnhCQS1CeGJPdkpLSUVZTUpHbFA3aGUzU0pQMW5vWkpqZWFJZld6Uy1ZSFVHOWx1b1lHckdaMXBLQ2IydzZkajBSaDJsZkZEX0FIQldqSkhB?oc=5"
-        },
-        {
-          "title": "Snap Stock And Two Penny Shares With Stronger Balance Sheets - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNUtXdE80RDdHNG01VEtSbHRoWWNULVhNZVRWczdwb05XNkhFc0Q4ZU81Ti1XVm1xX0lUdzJhU0xYTlAxWU1RWkR1d3FDUzRCQ05SYW5BbXlNQVFSWU9HcHJNS2NVeDh4Tk1QcnpVZVRreWExVXhvM0JSeUxKTTJ4ejc0NEh3UGNoWVptNUJJTGU4T2NZendXZzVYeE5qRW9LdVg4RFJCUnV4SEU4aFVIR2l5cnA5TFV0YzVVZ2JsZXBzYjY1N1NjdFRB0gHPAUFVX3lxTE1pdFdZTUlYT1Uyb205Wl9QWmNJdHJzVVdNUkNCMi1QMDAtTnRrLUk2ZDdERG9ENFUtbjZUc3hsanFybGl4NTlLSTVNa2RPNFNQdzM5ZU5uN0trNEpnYW1Pdm1hdkQyZ0V5Ujg0VGU4aXhnWDdMNlN4SzlLQWh2X0dSRXhEakp0SmpZYVIyMFBiQXA3d1pLdU00YjExaXJQVk1KcEN4ak5SSk9DXzEwNkJxQklEYTR5d2N6aUZNNW1tcWFCWElxTXotUEtDRnFtMA?oc=5"
-        },
-        {
-          "title": "Snap Stock And Two Financially Strong Penny Stocks Worth A Closer Look - simplywall.st",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMFJDb1pxdzU2SU1xOTh4V0lEYjlGRll1NW14eUdvZ3dXOXFtUTJicktDWXl3VWhKRVJWV1dOLWNtS1VQTUlXQ1V0VTd2eWE3eDVKT1c1WGViLTBscVRRRUZPVUMtZjE3Umg0S2dUSVAwSXJUZTQ5QWN6Y2t0bjhUWjR0eW5Sb0phTks5aFlWbERKYVhyWC1ra29mOUtSam5mZXU5QUlzdEpHZW5OUkZiU0FlVEVmYlMzdDZudEhkT0VjNllvTk56OTNn0gHPAUFVX3lxTE15VHNmYmVCUFM5QjduaWVoT3F3bm9ubUJ2RmpGdkVEaE1oSFhaR3N0WFFlV3MzTEQ3dFVGeEdUWWwxbGhNM3VPMThQaTYxaDVhNnBVYWtnUTE4alpOb1NhZGRrZ3JaM3RtdVJ0bzA5bGI4cTBOR2JXMHJqTFNxUnJqcWFIT29Zd2h3MDQ5dWk4SmFGOTA2SFdOT05rVF9VZXU1b3cxbWJ0dVFNcl9RUU1PQnl3NHVzOV95UVB4bjJBV043emRBVWt1R2tVSzdZOA?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $23M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Enovix Corp (ENVX) Shareholder Structure: Major Shareholders & Institutional Holdings - TradingKey",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "INFQ",
-      "price": 8.97,
-      "gap_pct": 3.68,
-      "pm_volume": 132952,
-      "avg_vol_10d": 10230914,
-      "avg_dollar_vol": 91771299,
-      "mkt_cap": 1957226109,
-      "rvol": 0.98,
-      "adr_pct": 7.97,
-      "category": "Others",
-      "theme": "Others",
-      "reasoning": "IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits",
-      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
-      "conviction": 50,
-      "grade": "C",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits | Impact: See analysis.",
-      "analysis_details": "IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSm5LSExVeWRXZEdOb051amMyLVBXN3BtSThtbFVMZ2R1N3RsYXppRDM3MXdoQUF5T1V2RWpVMWVGd3YwV1U4WnlEbTUzQnRHMmhxT3R1Z0trRkdVaGIyYnFTQ3dvUWgxNkxxV2p4VDc5amxoM3ItYmFQTkxSQnFaU1VMcS1jT3JjNmVaMExjMmFiY2ZxV0x0dS1hRnAtaGtxUV9MSVpIVGd4dXJZempPQVNtOTlNcG5ZZHZzY2lXeFY1U1p5X3NWRkhMeXVQaFBjaURIRG15RnZZMDAtMEE?oc=5"
-        },
-        {
-          "title": "Infleqtion's Quantum Computing Potential and Risks - Intellectia AI",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZzZzdmgzYjUxOVJ6anB1U1BHNldFUEtaakd5QV9QZXhickVWXzF1bk5INGQ2ckx2b1hIWTJWdVZhcHBiZm9ybldFdVBWaUhXSkgtOHVHSDV1TGZpLUNHV29tNjZyUUVmanVQcWlVTGs3WWxDRjdQMEFwcHNZQmhCdTR4VHgySE1sbnBr?oc=5"
-        },
-        {
-          "title": "This Quantum Stock Is a Key Nvidia Partner and Looks Like a Buy Near a 52-Week Low - Yahoo Finance",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWnNBaWFuOHlMVHo5WkQ3dXpzb0I3MUtSbTY0RjgxdnRnYWxxeU1oaDBqUEx4dzVLMzY0WElDQXFid0NnaTBlUFNrT0dhdG1TblluZmp6LVA1dDRWaWh4VWR4c2w0eXdWVzdvR2lIdmZrYjJEYkZyQWZWWlhyXzNTTEVKbHU0U1A5QjhyRW5XUEk2V25hcmxyZUlZV1VhQQ?oc=5"
-        },
-        {
-          "title": "INFQ, HPE, WLY Stocks Rise On Trump Administration’s $5B Genesis Mission Expansion - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOODFVQ0tHVERJRjhRZ3d5NExXVm5PcVNYaXczTTlMYXlVNUxnU2Z5MEE2UFh5bC1oQWJkVEljTDdPNERpMHFtTkI2MlUyMzBTVWtyLUMtZERCdExkclFhNlhXUjFEb3NJVWY4MEpYajFHLUdrNWxFd1VZLURrNk1RVENqN25OTk9UQUdwaV8ybnZnWFEtQ2gta0tienFNTDJ1VkphYU9iU1dfQ01CclpDNTBNZkVxZVg0VHVuZzVGcThOZ3F1MWFqUjJFWQ?oc=5"
-        },
-        {
-          "title": "QBTS, INFQ, RGTI Stocks Explode: Quantum Rally Adds Nearly $5B In Market Cap On Trump Admin’s Major Bet — But Retail Is Very Divided - Stocktwits",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQb3lLb3hMZV96TEVCdWcyVVI3Uk5wNHE2U05ZdGJTUGFNQUdtWkh5UDBIV3c1cVJmeTdPemlONlN0T1NjRXVwZTVUcWZNLWVzVmFKR0xCSUJXb2NENFpjY05JdjA1TVQwUGl1SXBIcGRUSEtWLXRjd1I4V2ZEbFQwaVFmYVIzd0xpZ3pxb3lfZE0wQjJ1YVFkM1Iwbk04NGVNUDRnSTl2UzdnbVlRTm95VWZqZnREeHkxdFliVjFoMWppMXdFOTBGcEM5N2JwbTF0dHhEYmwtbldVR0pQSWNjeHNaNDY2NFJ4ckFkUW90WWtzb1ZxWlFnUHZNOGRoYk9NSmNxMnBlRENRdmNkZ0E0UGhUN0JjNU5hMWg0?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Fail (Avg $Vol $92M < $100M)",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "IBM, GFS, RGTI, QBTS, INFQ Stocks Soar After Trump Admin’s $2B Quantum Funding Push In Exchange For Equity Stakes: Report - Stocktwits",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 2,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": false,
-        "gate_dollar_vol": false,
-        "gate_mkt_cap": false,
-        "gate_adr": true
-      },
-      "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
-    },
-    {
-      "ticker": "WULF",
-      "price": 18.46,
-      "gap_pct": 3.66,
-      "pm_volume": 220399,
-      "avg_vol_10d": 33469674,
-      "avg_dollar_vol": 617850182,
-      "mkt_cap": 9147532336,
-      "rvol": 0.69,
-      "adr_pct": 8.91,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "Sona Asset Management US LLC Has $7.66 Million Stock Position in TeraWulf Inc. $WULF - MarketBeat",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Sona Asset Management US LLC Has $7.66 Million Stock Position in TeraWulf Inc. $WULF - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Sona Asset Management US LLC Has $7.66 Million Stock Position in TeraWulf Inc. $WULF - MarketBeat",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "Sona Asset Management US LLC Has $7.66 Million Stock Position in TeraWulf Inc. $WULF - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSlVNcEVrajJsekxzMHBnbUEwQThRc1pXbGVpb3k1X2FMUTZsV1dTQUZVN0xjSmZYQlBwb3pkR2loT3pFV3Exd1pYUXlVWHBFM0FXYVRiOWRoc05fMVB2MTlhbGsyZHl4d3RvRklfQXYxQzlBV1ljb1Z3NXZMRlBFS2xuYlBQeC1ZNVNhTDV4OUlNUEVmN0RNd1VSWlgwcVJ3dEZIdnVuUTVrZmJrRXJmWHBTOERjNERxTTRkQnhvNUttUzFjeUdKVDFTWG1yY2Mta2VpT1NsSDU?oc=5"
-        },
-        {
-          "title": "Troluce Capital Advisors LLC Purchases New Shares in TeraWulf Inc. $WULF - MarketBeat",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYXd4amhxSWREYWg5YjBzN2NrZXRHR0lUYWxOLTl1MklDeFJyX3d4c1ZtRGVLZ3ZsaVhkdUpVaUhZYkhYbTdBOVJHcXNGdGVmbFRYbzFEWUpkaWpzY0tKbmlOWUcyNm1tNDlSWTNvOWEwSmZQcG10VVFRMjNFSW04bzFHTE4yaHc3THZJSHF4VU41aHF4dDAxczRFZ3kzTUZWWFFpZlM4eGR5ZUtVRVFNTU1XUGtkYkpqbmJEeVh0bHRHdDhjZ2s5Z0lITQ?oc=5"
-        },
-        {
-          "title": "Chardan initiates Terawulf stock with buy rating on AI data center growth - Investing.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV3hRdzJ1V2lCX20wLXZxaGdodmZxUmNzOHp6LUlROXo3NGRkclZ1NEQ0djQ5TVRJVTQxRGFjWnloc1FNcm9VNk5XZGd2V05wNDk1Znc1ME1aaXllVmVaSGItTjVxdXFOVGJuVDBKdzg5X1FrVXpqbkZzQl93RUR3TmdXU3pVN0NkX2w0NExJRkp5UU1rcUpPQUdmeHhzRzJhbEdoQTF1SXRwN2x3eGs1WXpIdDd4UEtuODVZLVBIUXpIdmVpdXpwSjRSQU1yUQ?oc=5"
-        },
-        {
-          "title": "TeraWulf (NASDAQ:WULF) Stock Gains for Week; Anthropic Lease Implies 28% More Revenue per Megawatt - TechStock²",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXF5WTd0OVdfZjVQMEppQl9zTzYxOUxaMzM5cUJXUHlzakRJT1R4MWpuYlpFTEpzTF9XdUJtRFFrRV9OSGpZbVMyWDl2UjFKSEQ4Mk80YzJxX1BYaVlRSEVrUDZTLWgyU2d6TkNRalUwNkU0bzgwbm1tUFlwSlBOTE1GaGdIU1NMcTJNTkRJT2VZbmNoVWxKWEt4WEQ4eDVZWExFUWMwdU1felR5WThJOU9YUWs?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "Sona Asset Management US LLC Has $7.66 Million Stock Position in TeraWulf Inc. $WULF - MarketBeat",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "IREN",
-      "price": 37.07,
-      "gap_pct": 3.64,
-      "pm_volume": 263195,
-      "avg_vol_10d": 45881220,
-      "avg_dollar_vol": 1700816825,
-      "mkt_cap": 13228706857,
-      "rvol": 0.78,
-      "adr_pct": 8.43,
-      "category": "New Contract/Partnership",
-      "theme": "New Contract/Partnership",
-      "reasoning": "IREN Limited (NASDAQ:IREN) Shares Retain 10% Weekly Advance Despite Friday Slide, AI Deals Lend Support - TechStock²",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: IREN Limited (NASDAQ:IREN) Shares Retain 10% Weekly Advance Despite Friday Slide, AI Deals Lend Support - TechStock² | Impact: See analysis.",
-      "analysis_details": "IREN Limited (NASDAQ:IREN) Shares Retain 10% Weekly Advance Despite Friday Slide, AI Deals Lend Support - TechStock²",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "IREN Limited (NASDAQ:IREN) Shares Retain 10% Weekly Advance Despite Friday Slide, AI Deals Lend Support - TechStock²",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV21veFVOSFQzZkJYRTB1MGZRQmpJQmpzUjI0QlI0c3ZRT0VsSzVyOVlna2pJMUktSkJkYXJiYjVDSlBpenIyR1p4SEhIMXYwVm5uSUdoNE5SUkMtM09hU2xlTEw1aWRoUVhjQ0Z5T3ptSXV4QXZOZC1kNmozbkNTR1NCNlBobFZSWFVJZ0N3YVRMRVoyRnk1RDhQWWRSLWtFMEhRMzZpSDhSck43RFhVOWV1MVctdzZuS1dj?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "IREN Limited (NASDAQ:IREN) Shares Retain 10% Weekly Advance Despite Friday Slide, AI Deals Lend Support - TechStock²",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "SMR",
-      "price": 8.09,
-      "gap_pct": 3.58,
-      "pm_volume": 341201,
-      "avg_vol_10d": 31290626,
-      "avg_dollar_vol": 253141164,
-      "mkt_cap": 2956742518,
+      "ticker": "UL",
+      "price": 61.37,
+      "gap_pct": 7.82,
+      "pm_volume": 125557,
+      "avg_vol_10d": 3774317,
+      "avg_dollar_vol": 231629834,
+      "mkt_cap": 132451745439,
       "rvol": 1.17,
-      "adr_pct": 7.08,
+      "adr_pct": 1.43,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "Renaissance Technologies LLC Buys Shares of 5,455,800 NuScale Power Corporation $SMR - MarketBeat",
+      "reasoning": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "B",
+      "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Renaissance Technologies LLC Buys Shares of 5,455,800 NuScale Power Corporation $SMR - MarketBeat | Impact: See analysis.",
-      "analysis_details": "Renaissance Technologies LLC Buys Shares of 5,455,800 NuScale Power Corporation $SMR - MarketBeat",
+      "analysis_detail": "Catalyst: UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus | Impact: See analysis.",
+      "analysis_details": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Renaissance Technologies LLC Buys Shares of 5,455,800 NuScale Power Corporation $SMR - MarketBeat",
+          "title": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa3poQzdBNlhEUC1XLTNKMVI3UE81bl9pZmZqWGN0aTBEajBqMF9lVm1nZ3JBbWRpdVVUTEY4cjZtY080c3otQWpNVmZqdWdEdmRaaDF3Umx5cnNYV3ZocnVtUlRxalBMcW1fMkxrblJRWVZoVi1CMDAtSVpJbk5kZU8ySkc3Z1JxOVhKU1BJbHNhUGRoOThaT0FqV1V5a1d4OU5qdXFmQ24zdGZSMzZlTGl5VmZnTVRvYVBvT1UyZ2JlMS1rOTZYMWh2V0ZMdU9vRk14TWpEMHdydw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVh5Ri1qZ0hxOEEyVERoZ01wamYzZzBzV0s1UnJMUnRIb1hkOG5pUG5zZEhwVEJjbkRUSDM0Y3lrLUI4bzM4Yld3bGRGSDVPQVgzd0JhUldmRWZTMjA2N1poMTByX3lNUHd3STh4NGdoN01QZVBhYmpObUF5bjBaaHBxbGJURlpLQW5URl9KTXFjZ1E4NTMyV1NVbC01WjFhVjZZb000VQ?oc=5"
         },
         {
-          "title": "Nuclear Energy Stocks For AI Data Center Power Investors Should Watch - simplywall.st",
+          "title": "Cetera Investment Advisers Increases Holdings in Unilever PLC $UL - MarketBeat",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd21QLTlDRW1IX05DY1VwYUliYUFLT3NtNWRGMDN1cVdxZVpmQTdNQzdWSlc4MHN5OHR6bTltY19XendLYmhUQjU4QmlVVmYwN2diNmhUOG1Ya0c0RFpxYlVGb24tbzR5U3BfMkFnRUNKTlNrVXpaSThETXV4Mk9pWUFfOTNZSUZPTkZZYVpCaHM3Q3k4dnFSdW9zM1FuRVloeFBqUGkycFVpRHQycU1UeUxhWGJQQW1BX3VoNnJlY3Y3NVFXR0xndmlhdUJSYjjSAdQBQVVfeXFMTnhQMGF6al9qUEhEREJxakY5eGtjM3psUk0yU3JiQk5oTGFwczZzOS1nRmVFOWZqSzVZMlFYM09tNFh2MEd0MWRSaGJPM19nZnBzYzhqRkFBb3gtdGtLUHljeFloVl9RNnA4WTFtT0pHUTN1cDVvY0NyX21od3I2VDZwZ2l3dGNMQnQ3amhjUEF1S1poZ3FmUUhqa3FlRTZoSGdBeWVJMVhDblpwWGFCMmFjWjJJUHJpQWpxTDZmczE2OURiNVVRU043YnJHbVcxVkZCQng?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMG13SUNaaHd2c3NNUklCak85Q2UwQnJuWlRJcm5icmxOdlJrWVdSTkFhUVZ1eTIzZkRMdzg5SDFXdlRiamNOU2J2WjZnbjhRX3lBcHhYc08zaWpaelZwSi1lUVFDRkRnX2hJLXNTWHhuQjU2czUxdXdnVXBod3pUMFhlR3h6bFJCNWZvTFRmdV9iNkNpYmhkeXZZNkw2aVB6Z2QwcG16VkptUjMyUi1ueG05V0poZU5KUEwwLVd3ZEV3RTA?oc=5"
         },
         {
-          "title": "SMR Stock at 52-Week Lows: The Regulatory Moat the Cash-Burn Debate Keeps Missing - top1markets.com",
+          "title": "UL Looks 3.8% Overvalued on GF Value™ Amid Solid Dividend Fundam - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMlJJWG5jaUl3QmtSdGlEdFppLWxvZ3VnQmp6bXVDZWhaTEJYa2F3Tm96WVJvaUVjTzl0cTZXOXJyenFvY3ZadXlLel9hckNVbGtlSVJjTW0ycHV1a3E3bmpsbE9EeWI1V3dEQVdrb1hSbEhIYVdkZUFGbnc3dnNhd2VmRUtQWFE1?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOWZSR29NQnhzQWFya1B0LTdhNmJweWtScGZ1bnBNWVJEak42T1ZKUXl2MTF3eGV2Umx3dFRsbnl2Nk5TQ1REZVRsc09ZRG9FWG9Qald6My1kWXMwcXk5a09nTEFQdnVlNUtDNGRSSDA0NUxTRGJlbXdiYzhsamVWTWZIMFZkOGtjWDVPb29ya05mSmlwRnB1enpaNU9hblVva01wcEhlOW5kUQ?oc=5"
         },
         {
-          "title": "NuScale Power (NYSE: SMR) Stock Price Drops 85% But Long-Term Nuclear Opportunity Remains Intact - foreignpolicyjournal.com",
+          "title": "Unilever PLC (UL) Dividends & Stock Splits: Historical Payouts and Event Timeline - TradingKey",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUk5XNzJmWWsyZmVJZnJoVUdueEY1cW5rZkpqdkJWSEIwai1UeWpoYi1mcU53QkxSdEUtX05idzhTLUZWelVtcXRZQlJyMnUxTkIyRzBqV1lJNVowR3JfWDZpWU9QM296ak5VS0ZEUmVUZmNJbnlvT0lxM1hmZjJDbHR6cEVaaWZPV2cyZW5Cak1lREJiekRxWURfOUt6aGw3akxjUTZ2T0ZlaThVQWZYMkt2ZHQxTUNLZ3VLUDdrMjlZLXAzNFpLTVFqMnlDUE9jempCRDIzY20?oc=5"
-        },
-        {
-          "title": "NuScale Power (NYSE:SMR) shares rise on week, with equity raised close to $260 million received from partner - TechStock²",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXzJEVUV0SHI2SUVYZjZvY2xOZEt3c3U5ZXUwZlgtQ2xPWTNFeEFaaVJibTR1MXNTR2c1OHNGZ191cEQ3TnpzZXpYYmlkVUtXLVhNbkhCbll5ejQwVDdmWmVCcGt1SUVBMDFCbUJTZnNqQ0RlQk5mSDNia3ZSTFNqMmhuckREc1hjTEJjYzViM29pX1FSWFQ1aEthbnY5b0NVdDZxajhuSjZCbzZxejBCZTlZVW41YjgxWloyQVVPWjR2Zw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQ0JLbVQ3Y0tDYkkzM2JyazdIUldfNlh6Tk51d2l3VDBLMnIwanFGazZ2MklDSl9UTld0dGt1eHMyNnhRVl96Q3pwd2JUWGd3bU53N19oSGg3NWlPQkU4bVQ5amM2UW5KbTYyaA?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Pass",
+      "technical_status": "Fail (ADR 1.4% < 4%)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -1444,61 +115,66 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Renaissance Technologies LLC Buys Shares of 5,455,800 NuScale Power Corporation $SMR - MarketBeat",
+        "primary_claim": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
-        "gate_price": false,
+        "gate_price": true,
         "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": true
+        "gate_adr": false
       },
       "meets_all_gates": false,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
+      "tier": "Fail",
+      "tier_label": "Excluded"
     },
     {
-      "ticker": "ASTS",
-      "price": 56.2,
-      "gap_pct": 3.54,
-      "pm_volume": 138180,
-      "avg_vol_10d": 19297823,
-      "avg_dollar_vol": 1084537653,
-      "mkt_cap": 21812600422,
-      "rvol": 0.61,
-      "adr_pct": 8.59,
+      "ticker": "CORZ",
+      "price": 20.74,
+      "gap_pct": 6.08,
+      "pm_volume": 382728,
+      "avg_vol_10d": 8713769,
+      "avg_dollar_vol": 180723569,
+      "mkt_cap": 6592940725,
+      "rvol": 1.18,
+      "adr_pct": 7.19,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "PNC Financial Services Group Inc. Has $6.62 Million Stock Position in AST SpaceMobile, Inc. $ASTS - MarketBeat",
+      "reasoning": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: PNC Financial Services Group Inc. Has $6.62 Million Stock Position in AST SpaceMobile, Inc. $ASTS - MarketBeat | Impact: See analysis.",
-      "analysis_details": "PNC Financial Services Group Inc. Has $6.62 Million Stock Position in AST SpaceMobile, Inc. $ASTS - MarketBeat",
+      "analysis_detail": "Catalyst: Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com | Impact: See analysis.",
+      "analysis_details": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "PNC Financial Services Group Inc. Has $6.62 Million Stock Position in AST SpaceMobile, Inc. $ASTS - MarketBeat",
+          "title": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOVdWWW1mYXJsbjdXNnQ1dUV3U1lERHVDTzZVVDZwaHY4X2pUWFRLU3VCQXN0Szk5SFpWOFN0UVdkT1ROdF9RX2tleFhOWUx4YTVJWjJYTzk2b2labHRDSWU0Y0trQmpZTzE4UlhGQUJTcm5UZjY4bGJqUV9Ub2ZfTWw1dzJPTVcwajR4WTdUZEF6cmJIV0JIbDMxSGMyeXRUTWRPbnZ0MFVmb1lWZF9RVHk0a1hsem56bFVZRnZIakEtLUZld0ZGb2RVd1hNWWM0MWNhZVIwN1A4LXVNTkVHZllZZk05eXc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWWIzbXN2aEFzVlFDQ1VTNHZmN1BLWkxPbG9BMEdCSFVVWGdzVmpxS0o5d0VhRlJyeGpwMGZ2WEhaa0lVb2lFME9KclpabU9lenN5Y0Nfbi0wVDZGcnRubFhIaEpMSWdHTEY1SGs4S3hrcmt1Q0k0eF9sRi1nd2Q3Q3ROcHluNWZMdmFRUUVnRF9MZTV3am0zV0lhY24yMDZyTjNlTVFMd2otUlhGUWpSMUJISG1ZM01RT1daNHFwc3dManhUMl80MEE5UnliODVhLXdRUVp4X1pjc0ttLXdwaA?oc=5"
         },
         {
-          "title": "ASTS Stock Jumps Premarket: Analyst Says AST SpaceMobile Could Be ‘Too Little, Too Late’ As Starlink Widens D2D Lead - Yahoo Finance",
+          "title": "Core Scientific (NASDAQ: CORZ) lands major AMD AI data center pact - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlY5VUI3ZWw0djRUVHJhMkY3aGpqeDlUeUxpczJTYmdfcDJqd01Bb3dmaUxzLUtCcjlLTHMxOE9yUG0zOC1HNVpBWlA3Nm1rVTIxdjZ3ZEQ0aHZ4X1c0VkJYWUVKVmk3U0dWbEdQM1FKOW9mc29TZXRPWmJMU0RydnJoY1B4bG1rMjQ3UFVPR3NKN3VkOVRrblptbl9zMjhl?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY3pSMzdXOXFJZVZ3dk9qRjJzZUxmQ3Jsc0lmRUlLb0FpU3pGRkZFUXJwcnFGT09rSC1UZFFRR1NSVTNIUkxfTXpoYzZHSGtMRzYza2UzU05Xd21GREp0TDRaU0NRRTFveVVVOG85TXprMnpvaDdqVVNLM0pOMUp1bWprQ0NfNlMwbnRuR284MVNMelhlNGZmZVBPQmxnS3FXQkVxUzJscHNVUENSYTZ2NQ?oc=5"
         },
         {
-          "title": "ASTS Stock Eyes Weekly Comeback: AT&T Says AST SpaceMobile Satellite Offering Will 'Come To Fruition' Next Year - Stocktwits",
+          "title": "Why Core Scientific Stock Stumbled Today - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRGNaUWNQbGlWYlozT1BwOVRobVl5MHl0OE11Z3BzREpGaFAzd2ZIdkRnZkNxcmFqWHhrYjlHTlBKNmdyUmNtb3F4VW5aVzM5bWRqV0dTQTJjRUlYQ0VFa1EzS3pxbVk0ZTdqTXZGdzRraldGeF9mT05IWHlURS1vQ3dscXNaRldhX2dZVzJuTWFSQktiaDdnUXhtaU9QalQ0UG4zQlY5V2NSUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmJVVmFvakVmRjgxazlkTXM0QkRtR0o4NE9YeTlteVM1Vmo1bG1SZUM0TDdSNWlxUTVXeEduSUxkeHd2Vjh4bDFqWDhqaUVRRElyclZWZ0EzczE4c2hUOXdmZ0FjdnFvZUZkWDRmaXM4a2JIOV8wdG9FMXVNZ1VRT1E4U3F0UEkxRUNMRm5QVmlZdERxRkhlTHpIMUM4OExf?oc=5"
         },
         {
-          "title": "AST SpaceMobile (NASDAQ:ASTS) shares drop as company’s $1.15 billion fundraising highlights importance of launch schedule - TechStock²",
+          "title": "Core Scientific (CORZ) Downgraded to Market Perform by Analyst - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb29GME92bEM4ek5TR2hHdDZkdWtPeTVGRi1KdW4zSXV3OU13ajBoTmF3UWg2QVBZVEZ3VllNN1RSNDI3cmh2UGtqc09MT3JwWjZVeXUyRGk5elhPSFloVHlTQUN4YUN0SURWTzlDRVpzbHRqU1huUlVhTjh0Z211SkRFSWZYWGRwMnZfaHM4Y1pzS0cydE1PR1IxZmxjSWZuUGoyRWNSR3BjNVotNGNOUkd3?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWFiWjRoV2FyZDUxQVIxWC1MSWVUUHJsazBKZGFQSGxzcjhLN05kYVAycGYyaGlRakNsMVFhWlVSOFd5WG42WTZqSmpiV3RZWXNKREhLeW1MWGg2M0xIVGpQbFlPR0ctajF4cGVyQ1JXVUJFb2h2cVRndl90UUYwWVowcG9UTk5IQmcyUWJadDRuR3VTdE5wLUQ5d1otX1o2ejdPSXlOYm5PQ2pNSjB2NQ?oc=5"
+        },
+        {
+          "title": "CORZ Stock Falls On Lone Wall Street Downgrade – Analyst Hikes Targets For CLSK, CIFR, HUT - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTXFHTE1zSG1IVmZudzlsWGdjVm1aUVIyLUg3ZlVmR3h1eG44dTVrSi1yT2hvWC1OUkQ1RUhsQVVWSkJIZ3BmNDcxdVZrUG1UM3RHaGxoaWh2Mk9fQ29TSG1KOWdwLV93S3dQbWJlZjFXdF9hT3d6eHc5aDB4NUxnRUEwaTV1Rkx4eUoyT3AxS0dpMGZkeXc0RXg5SmxRSjNlMlczRFZ6RWptWF8tRHZDWTBwSk5wOFh0Nk16SUVURHBadW9qNEFXLXh0YWh4TWk2QmFQRUFWeC1YcU14RTlj?oc=5"
         }
       ],
       "float_shares": null,
@@ -1513,7 +189,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "PNC Financial Services Group Inc. Has $6.62 Million Stock Position in AST SpaceMobile, Inc. $ASTS - MarketBeat",
+        "primary_claim": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
         "discrepancy_note": ""
       },
       "gates_passed": 5,
@@ -1529,47 +205,57 @@
       "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "STM",
-      "price": 51.54,
-      "gap_pct": 3.51,
-      "pm_volume": 218978,
-      "avg_vol_10d": 13942517,
-      "avg_dollar_vol": 718597326,
-      "mkt_cap": 47446124396,
-      "rvol": 1.36,
-      "adr_pct": 4.66,
+      "ticker": "KO",
+      "price": 84.07,
+      "gap_pct": 3.58,
+      "pm_volume": 330740,
+      "avg_vol_10d": 16824318,
+      "avg_dollar_vol": 1414420414,
+      "mkt_cap": 361709695894,
+      "rvol": 1.27,
+      "adr_pct": 1.94,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "STMicroelectronics Buys Back 226,883 Shares in Five Days - Stock Titan",
+      "reasoning": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "B",
+      "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: STMicroelectronics Buys Back 226,883 Shares in Five Days - Stock Titan | Impact: See analysis.",
-      "analysis_details": "STMicroelectronics Buys Back 226,883 Shares in Five Days - Stock Titan",
+      "analysis_detail": "Catalyst: Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory | Impact: See analysis.",
+      "analysis_details": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "STMicroelectronics Buys Back 226,883 Shares in Five Days - Stock Titan",
+          "title": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdFFOWDk3SzBvUVZQODhmcGx2Zmt3N2EwQ3N5QTFiVTI5LXJDOWlwbFo4MFpuY2tYcVc3S1hYNW9OdkJGd0gzOVFBbHFyam8ta25JQVdHOU5zTXJ2TUROQ1J6bmZBeGZZbDZ4a01pZkd0ZWNiVmgtVEdPSC1VVHdrdDlqbG9sODJNcGNDNVAyQTZubE84MWI2ZTZWQjRJQjlmbktlWk5Eb1RvOXM4WllRbTBadUZSRk9I?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONmVEc0lCVE5fYUkxVjRpb0hZTW1OclpMNEdSeWpaRll5YkRleC1yMWVfS25uWmZweTlPRkw5X3hzLWdzdk1UMi01cklBLTNqWVpkYlNzZ3MySFVRbURVeDB3OFZWclJsODFIWjNFeTNKQUI0VFpjM2JkZEhlcUE5ZFJOMHl6eU1kY0ExTzlPa2xGaE1rUlF4QzVneU9pdVZqa181Mg?oc=5"
         },
         {
-          "title": "PNC Financial Services Group Inc. Has $7.90 Million Stock Holdings in STMicroelectronics N.V. $STM - MarketBeat",
+          "title": "Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs - CNBC",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTzFRQ1lWb0pFREltSG1JODJ2UHp4YzJjX3YwZUFNb3ZUWkN6YXFmMXA3dUpMRjh2Rmg5Sm8tV29VR2RSaGtfOTVFMXhkRjZzck4zQWRxTW5yYTU5cXZmVDBIMlRoWmZ2TUg3NjBRYzFQMU5mUEtuSEhNSXFVN1JBbzN4STdjWGlrQXAtTVBGLWZkM2VDd0NVR1p1b0wtU1VycmlzZ3J1Wk1EZHRJQWdaeEJmbGZPdmNyUjJYZUJUQlotcDBVbENQQUl1MFNrd2E1akRXSG9DVC1kenZzeW9WeVpOOEw0RE14?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44N0RXQ1dNenhKNVJoLXJSTmFBMll6WE1BQUg2RUFja2Rzby1oVTgwRHl3dEdMamRLSTFjeWtkajFibVdXREs0NlU5OU9yeWhkOFdVMUp6d0h3ZHJ4aHNKVXQ0bVlpNm8zNHhoNEdDUHRVSVFh0gF6QVVfeXFMTWMzRV9ybTg4cFVfOEVDSnhELVpua3k1SEphTHBkQkVrdWhFRC1neUFLOFBhekxicVpLVTE1ajZsTm5FTGFqbzZ0QmhHR2tGc0owWVVway1wRWdsaXhSQVRqQlpvYkdkRmxFbzJuQlY0OUtydkxCcE5vQWc?oc=5"
         },
         {
-          "title": "IDMs target AI margins, boosting Taiwan power suppliers",
+          "title": "Quantinno Capital Management LP Increases Position in CocaCola Company (The) $KO - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNjFWZHVRdU1IMUFrWmtuU1N2WVQtX01nb1hldDIzdy1HaHl2Zi0xWElyeS1lZi1CNHoxbUJPN3dxN2UzbHpjMklUblE1dW03LVJzTWtaR0xTVUlnZndBZ0FCTXUyV013TGlLRUtYQ2p5RXlBV3gteGNQYUZIb1RzRkxvS2wyZlAzRUJfQ1pZSk9pNjBIWl9jQXFsemp3UVA5TTA3aDNYcVY5cmhMVG1TX1dTN3RyRVNhNUpObDlqYnJWMTJfVWtwZGVsLTJQOUNNX2RlZA?oc=5"
+        },
+        {
+          "title": "Is Coca-Cola (KO) Quietly Defining Its Resilience Playbook Through Dividends And Cyber Recovery? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnlKUGlxM0xyWHV6d3lzcjJrSm9RWUFDTWNCUGVWZG96a0JvVjlNcHA4VjVrR0RXQ2ZUMTltd2ZMZGVDazdxSENtSF9JUmtwYk15RUFLczhUYkJ2SnBOWHFhN1YxWThzZDMxQ0ZiVlZEamdPV05UaHpIZUF0QUd4MFVsWmNmYnRwTUM0UkVvRzhkV2JoSjdjOUNzOE8zWVNpWjJRLTZBMkhubUtCQTNuRm4ycU1qSjlLNEJyblc4NmozRWFPYkdmXzlBRTlMd1g4OEt30gHYAUFVX3lxTE5nUVRFSlJ6Rl9GMHZhYktQZ0RCTzhTX0pYSEhJZ2xQVzdxaHl0azlIV1pXRTFXR2NDQ296REFkSk5wU2VoYVpfTy01LVVyaVBDNEV3NmFBbEJYdlhKOTllX09yVDM5QS1OemFKQzdSRFE4OTF2SDA1ZEZSRHpxZldQdGp5WUd1bnc1bzI0cmZiZC03UkQyUXoxWWF3MGlLZjRnVHhoMEY1VjFWY0hBSlNhZ2NOYWNsNHJMMmRGNThBWmNyMlFIazlMdVJ0WlhwNXI0TFJadHdHMQ?oc=5"
+        },
+        {
+          "title": "Coca-Cola Earnings Will Test Whether Beverage Demand Still Has Fizz",
           "source": "Finviz",
-          "url": "https://www.digitimes.com/news/a20260727PD210/texas-instruments-stmicroelectronics-demand-market-power-semiconductors.html"
+          "url": "https://www.barrons.com/articles/coca-cola-earnings-stock-price-49ac3d04?mod=bar_FV"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Pass",
+      "technical_status": "Fail (ADR 1.9% < 4%)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -1577,84 +263,20 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "STMicroelectronics Buys Back 226,883 Shares in Five Days - Stock Titan",
+        "primary_claim": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
         "discrepancy_note": ""
       },
-      "gates_passed": 5,
+      "gates_passed": 4,
       "gates_detail": {
         "gate_rs": true,
         "gate_price": true,
         "gate_dollar_vol": true,
         "gate_mkt_cap": true,
-        "gate_adr": true
+        "gate_adr": false
       },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
-    },
-    {
-      "ticker": "APLD",
-      "price": 27.19,
-      "gap_pct": 3.51,
-      "pm_volume": 147387,
-      "avg_vol_10d": 19012635,
-      "avg_dollar_vol": 516953546,
-      "mkt_cap": 7770073706,
-      "rvol": 0.94,
-      "adr_pct": 7.78,
-      "category": "Earnings",
-      "theme": "Earnings",
-      "reasoning": "APLD Earnings Are Hours Away. Calls Already Outnumber Puts 3 to 1. - Moomoo",
-      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
-      "conviction": 50,
-      "grade": "B",
-      "finviz_theme": "—",
-      "analysis_detail": "Catalyst: APLD Earnings Are Hours Away. Calls Already Outnumber Puts 3 to 1. - Moomoo | Impact: See analysis.",
-      "analysis_details": "APLD Earnings Are Hours Away. Calls Already Outnumber Puts 3 to 1. - Moomoo",
-      "peer_tickers": [],
-      "headlines": [
-        {
-          "title": "APLD Earnings Are Hours Away. Calls Already Outnumber Puts 3 to 1. - Moomoo",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdHRNZm96dFpVR3ZNcDV2TDJyVW9hemtHeU95QmJYWVZfa3ExTVlwcExMNlhqQUkzWWVsaVpTQXFaZk1zdENlak12MnVadklYdzVCY1cxZ0NIVHNFelRHZ3dwWncwMDNTZG1CY1E4bEJ1dWFicnRobi1JTjhjZUM0WjJvNk5ZR0JJbndRX1FqTlpRVlBZTnAzUDV3VlZISGxmQ3FTWWVES0kyUlQxUF85ME5wSQ?oc=5"
-        },
-        {
-          "title": "Applied Digital (NASDAQ: APLD) Stock Price Faces Earnings Test With 174% Revenue Growth Expected - foreignpolicyjournal.com",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUVVnM0V5QXZWeHJBZEViRDhTRlNNdXNRcVhYN2FLNVdOdVVLMk1fTmJNQXdKc3NTcnV5Yk9tUHFWdGVkQ29lZmpiSmhjR3Q0ZUQtNUFXSUlLaHlSYl92WXQyVjhsQWw2d3hwZW04anVzWm9hc0NuMktZRzh6dGRZemRhYkt1RjdPSEJMMmJJcUU4YndWaFpiUzUxX1ZsX0VHbTluaV8xYXVjakhQRnB6RkN3WDRWbURYMkVneDM5eGV3RVRrQzRlNkNFdDJ4aXJ3ZlNTZmYtLXM?oc=5"
-        },
-        {
-          "title": "5 Biggest Earnings Reports to Watch This Week - 24/7 Wall St.",
-          "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZTQwcE5tSjV0VUQ1N18zeHFiQUVWY2JTVnBDUElKdHR6d0NCeTZRalR1c2VXbzlYeURSNENRcXFUcF9FMEpucURFQXR2aTBaNndaRHZuWVRVaFZyNTRLNFMwSFAza0N4MW1xYkJXNkhlTFFwNklhSUVvU2treUpOODdzYmYxVFlzdHQ3N3VaNmVMaGM?oc=5"
-        }
-      ],
-      "float_shares": null,
-      "short_float": null,
-      "daily_pct": null,
-      "industry": "—",
-      "technical_status": "Pass",
-      "verification": {
-        "status": "Unconfirmed",
-        "confidence_score": 50,
-        "sources_consulted": [
-          "Finviz",
-          "Google News"
-        ],
-        "primary_claim": "APLD Earnings Are Hours Away. Calls Already Outnumber Puts 3 to 1. - Moomoo",
-        "discrepancy_note": ""
-      },
-      "gates_passed": 5,
-      "gates_detail": {
-        "gate_rs": true,
-        "gate_price": true,
-        "gate_dollar_vol": true,
-        "gate_mkt_cap": true,
-        "gate_adr": true
-      },
-      "meets_all_gates": true,
-      "tier": "T2",
-      "tier_label": "Strong Catalyst"
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
     }
   ],
   "ibkr_scanner": []
