@@ -1,7 +1,24 @@
 {
-  "last_checked": "July 28, 2026 (07:05 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 28, 2026 (07:10 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Analysis: Kevin Warsh's Fed press conference will be revealing even without a rate hike",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-28T07:10:29.920841-04:00",
+      "pub_time": "2026-07-28T07:00:01-04:00"
+    },
+    {
+      "headline": "New Republican ads slam Democrats opposed to Trump's tariffs",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-28T07:10:29.920841-04:00",
+      "pub_time": "2026-07-28T07:00:01-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "gm beats on earnings raises guidance amid resilient consumer pricing",
@@ -1170,6 +1187,18 @@
     {
       "k": "cocacola tops earnings estimates hikes fullyear outlook as demand for drinks climbs",
       "ts": "2026-07-28T11:00:37.607154+00:00"
+    },
+    {
+      "k": "blurred front lines trump to meet zelenskyy as ukraine iran wars collide",
+      "ts": "2026-07-28T11:10:30.460589+00:00"
+    },
+    {
+      "k": "analysis kevin warshs fed press conference will be revealing even without a rate hike",
+      "ts": "2026-07-28T11:10:30.460589+00:00"
+    },
+    {
+      "k": "new republican ads slam democrats opposed to trumps tariffs",
+      "ts": "2026-07-28T11:10:30.460589+00:00"
     }
   ]
 }
