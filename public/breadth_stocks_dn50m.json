@@ -3,16 +3,33 @@
   "filter": "dn50m",
   "label": "Down 50%+ Monthly",
   "min_cap_b": 1.0,
-  "count": 0,
-  "stocks": [],
+  "count": 1,
+  "stocks": [
+    {
+      "ticker": "WOLF",
+      "company": "Wolfspeed, Inc.",
+      "industry": "Semiconductors",
+      "market_cap_b": 1.137,
+      "price": 21.88,
+      "change_pct": -8.07,
+      "dollar_volume": "$89.1M",
+      "adr_pct": 20.3,
+      "perf_1m": -52.02,
+      "perf_3m": -17.12,
+      "perf_34d": null,
+      "perf_qtd": -17.12,
+      "perf_mtd": -52.02,
+      "rs_ibd": 99
+    }
+  ],
   "spx_benchmarks": {
-    "spx_1d": 0.02,
-    "spx_1m": 0.8,
-    "spx_3m": 3.34,
-    "spx_34d": 0.1,
-    "spx_qtd": -0.94,
-    "spx_mtd": -0.94
+    "spx_1d": 0.21,
+    "spx_1m": 1.02,
+    "spx_3m": 3.55,
+    "spx_34d": 0.31,
+    "spx_qtd": -0.73,
+    "spx_mtd": -0.73
   },
-  "fetched_at_utc": "2026-07-27T21:48:05+00:00",
+  "fetched_at_utc": "2026-07-28T21:50:47+00:00",
   "source": "tv_fallback"
 }

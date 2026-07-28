@@ -2,76 +2,88 @@
   "ok": true,
   "filter": "above50dma",
   "label": ">50 DMA",
-  "count": 5,
+  "count": 6,
   "stocks": [
     {
       "ticker": "FBRX",
       "company": "Forte Biosciences, Inc.",
       "industry": "Biotechnology",
-      "price": 76.5,
-      "change_pct": 39.65,
-      "adr_pct": 7.8,
-      "dollar_volume": "$180.7M",
-      "market_cap_b": 1.567,
+      "price": 76.65,
+      "change_pct": 0.2,
+      "adr_pct": 7.2,
+      "dollar_volume": "$195.6M",
+      "market_cap_b": 1.57,
       "rs_ibd": 98,
-      "above50dma_pct": 178.7
+      "above50dma_pct": 168.9
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 42.03,
-      "change_pct": 18.33,
-      "adr_pct": 9.2,
-      "dollar_volume": "$35.7M",
-      "market_cap_b": 1.467,
-      "rs_ibd": 94,
-      "above50dma_pct": 88.0
+      "price": 41.85,
+      "change_pct": -0.43,
+      "adr_pct": 9.1,
+      "dollar_volume": "$35.8M",
+      "market_cap_b": 1.46,
+      "rs_ibd": 92,
+      "above50dma_pct": 83.3
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
       "price": 14.08,
-      "change_pct": -0.14,
-      "adr_pct": 4.2,
-      "dollar_volume": "$154.6M",
+      "change_pct": 0.0,
+      "adr_pct": 3.9,
+      "dollar_volume": "$158.1M",
       "market_cap_b": 2.027,
-      "rs_ibd": 73,
-      "above50dma_pct": 74.4
+      "rs_ibd": 72,
+      "above50dma_pct": 71.4
     },
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.85,
-      "change_pct": 0.14,
-      "adr_pct": 2.1,
-      "dollar_volume": "$341.3M",
-      "market_cap_b": 8.885,
+      "price": 83.86,
+      "change_pct": 0.01,
+      "adr_pct": 2.0,
+      "dollar_volume": "$318.2M",
+      "market_cap_b": 8.886,
       "rs_ibd": 96,
-      "above50dma_pct": 66.8
+      "above50dma_pct": 63.9
     },
     {
-      "ticker": "COAG",
-      "company": "Hemab Therapeutics Holdings, Inc.",
-      "industry": "Biotechnology",
-      "price": 50.39,
-      "change_pct": 6.51,
-      "adr_pct": 7.9,
-      "dollar_volume": "$21.3M",
-      "market_cap_b": 2.353,
-      "rs_ibd": 83,
-      "above50dma_pct": 54.0
+      "ticker": "GSHD",
+      "company": "Goosehead Insurance, Inc.",
+      "industry": "Insurance Brokers/Services",
+      "price": 68.82,
+      "change_pct": 11.0,
+      "adr_pct": 5.8,
+      "dollar_volume": "$45.7M",
+      "market_cap_b": 2.444,
+      "rs_ibd": 37,
+      "above50dma_pct": 52.1
+    },
+    {
+      "ticker": "MAN",
+      "company": "ManpowerGroup",
+      "industry": "Personnel Services",
+      "price": 55.4,
+      "change_pct": 3.22,
+      "adr_pct": 5.1,
+      "dollar_volume": "$115.8M",
+      "market_cap_b": 2.577,
+      "rs_ibd": 77,
+      "above50dma_pct": 50.5
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 0.02,
-    "spx_1m": 0.8,
-    "spx_3m": 3.34,
-    "spx_34d": 0.1,
-    "spx_qtd": -0.94,
-    "spx_mtd": -0.94
+    "spx_1d": 0.21,
+    "spx_1m": 1.02,
+    "spx_3m": 3.55,
+    "spx_34d": 0.31,
+    "spx_qtd": -0.73,
+    "spx_mtd": -0.73
   },
-  "fetched_at_utc": "2026-07-27T21:47:53+00:00"
+  "fetched_at_utc": "2026-07-28T21:50:34+00:00"
 }
