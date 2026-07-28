@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 28, 2026 (10:35 EST)",
+  "last_checked": "July 28, 2026 (10:40 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-28T10:40:29.421953-04:00",
+      "pub_time": "2026-07-28T10:38:29-04:00"
+    },
     {
       "headline": "Analysis: Kevin Warsh's Fed press conference will be revealing even without a rate hike",
       "source": "CNBC",
@@ -20,14 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "bessent says us could sanction china over ai model theft",
-      "ts": "2026-07-21T14:35:33.575327+00:00"
-    },
-    {
-      "k": "bets against spacex grow to 32 of float as elon musk warns short sellers wont survive",
-      "ts": "2026-07-21T14:35:33.575327+00:00"
-    },
     {
       "k": "nvidia details its nextgeneration vera cpu for ai setting up challenge to amd and intel",
       "ts": "2026-07-21T15:05:49.585776+00:00"
@@ -1203,6 +1203,10 @@
     {
       "k": "visa is cutting 7 of employees in efficiency push as ai reshapes work",
       "ts": "2026-07-28T14:35:32.179154+00:00"
+    },
+    {
+      "k": "trump new tariffs doing the same thing as the ones struck down by supreme court",
+      "ts": "2026-07-28T14:40:30.279294+00:00"
     }
   ]
 }
