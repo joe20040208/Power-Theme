@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 28, 2026 (11:15 EST)",
+  "last_checked": "July 28, 2026 (11:20 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Analysis: Kevin Warsh has three reasons to hold off on a Fed rate hike this week",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-28T11:20:33.890599-04:00",
+      "pub_time": "2026-07-28T11:16:00-04:00"
+    },
     {
       "headline": "Trump: New tariffs 'doing the same thing' as the ones struck down by Supreme Court",
       "source": "CNBC",
@@ -1219,6 +1227,10 @@
     {
       "k": "the future of wall street is here as startups and brokers build ai agents to trade 247",
       "ts": "2026-07-28T15:10:41.240832+00:00"
+    },
+    {
+      "k": "analysis kevin warsh has three reasons to hold off on a fed rate hike this week",
+      "ts": "2026-07-28T15:20:34.430784+00:00"
     }
   ]
 }
