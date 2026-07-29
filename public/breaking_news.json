@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 28, 2026 (20:00 EST)",
+  "last_checked": "July 28, 2026 (20:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Senate sets up votes to sanction Russia for Ukraine war",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-28T20:05:28.593922-04:00",
+      "pub_time": "2026-07-28T20:03:14-04:00"
+    },
     {
       "headline": "Senate to set up key vote on Russia sanctions",
       "source": "CNBC",
@@ -28,10 +36,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "japan exports and imports grow at fastest pace since november 2022 beating estimates",
-      "ts": "2026-07-22T00:05:22.678112+00:00"
-    },
     {
       "k": "japan exports and imports grow at fastest pace in june since november 2022 beating estimates",
       "ts": "2026-07-22T00:15:30.234937+00:00"
@@ -1231,6 +1235,18 @@
     {
       "k": "senate confirms jay clayton as trumps director of national intelligence replacing pulte",
       "ts": "2026-07-28T23:45:30.719441+00:00"
+    },
+    {
+      "k": "iran launches surprise ballistic missile attack on us forces in the middle east",
+      "ts": "2026-07-29T00:05:29.032553+00:00"
+    },
+    {
+      "k": "sk hynix secondquarter revenue more than triples — but misses estimates",
+      "ts": "2026-07-29T00:05:29.032553+00:00"
+    },
+    {
+      "k": "senate sets up votes to sanction russia for ukraine war",
+      "ts": "2026-07-29T00:05:29.032553+00:00"
     }
   ]
 }
