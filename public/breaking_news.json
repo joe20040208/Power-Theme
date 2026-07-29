@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 29, 2026 (16:14 EST)",
+  "last_checked": "July 29, 2026 (16:15 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "tesla misses on earnings despite revenue beat",
-      "ts": "2026-07-22T20:15:33.904323+00:00"
-    },
     {
       "k": "ibm lowers fullyear forecast after earnings warning",
       "ts": "2026-07-22T20:25:26.424779+00:00"
@@ -1243,6 +1239,10 @@
     {
       "k": "microsoft earnings are out – here are the numbers",
       "ts": "2026-07-29T20:10:32.502903+00:00"
+    },
+    {
+      "k": "microsoft beats q4 cloud expectations as fullyear azure revenue tops 100 billion",
+      "ts": "2026-07-29T20:15:45.404928+00:00"
     }
   ]
 }
