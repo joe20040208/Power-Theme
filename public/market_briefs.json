@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-29 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 739.09,
+    "spy_change_pct": 0.02,
+    "vix": 18.3,
+    "hy_oas": 2.81,
+    "yield_curve": 0.35,
+    "credit_status": "Complacent",
+    "s5fi": 67.2,
+    "mmth": 71.6,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-28 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1557,44 +1575,6 @@
           "ticker": "AMC",
           "company": "AMC Entertainment Holdings Inc.",
           "reason": "Experiencing elevated retail interest and short-squeeze potential following recent social media chatter and options flow, despite no new fundamental catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-17 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Tech Weakness / Cautious Tone",
-    "spy_price": 750.33,
-    "spy_change_pct": -0.6,
-    "vix": 16.46,
-    "hy_oas": 2.71,
-    "yield_curve": 0.38,
-    "credit_status": "Complacent",
-    "s5fi": 65.7,
-    "mmth": 67.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Fresh news of a groundbreaking partnership in quantum AI computing suggests significant long-term growth and market leadership in emerging technologies."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "An influential analyst upgrade today, citing stronger-than-expected Q2 AWS guidance, positions Amazon for robust cloud revenue momentum."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla Inc.",
-          "reason": "Continues to trade on pure technicals and ongoing sentiment, with no fresh fundamental catalysts today, but remains highly active due to persistent institutional flow."
         }
       ]
     }
