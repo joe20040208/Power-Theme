@@ -1,44 +1,59 @@
 {
-  "scan_time": "2026-07-28 08:05 ET",
+  "scan_time": "2026-07-29 08:05 ET",
   "earnings_today": [],
   "gappers": [
     {
-      "ticker": "ALT",
-      "price": 2.96,
-      "gap_pct": 11.82,
-      "pm_volume": 3035920,
-      "avg_vol_10d": 2660765,
-      "avg_dollar_vol": 7875864,
-      "mkt_cap": 575643496,
-      "rvol": 1.57,
-      "adr_pct": 5.39,
-      "category": "FDA",
-      "theme": "FDA",
-      "reasoning": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
-      "hypothesis": "High Risk (Volatility Trap) — Expect 2nd-half mean reversion; avoid open chase.",
+      "ticker": "VRRM",
+      "price": 4.18,
+      "gap_pct": 26.2,
+      "pm_volume": 715474,
+      "avg_vol_10d": 3565229,
+      "avg_dollar_vol": 14902657,
+      "mkt_cap": 634969821,
+      "rvol": 1.04,
+      "adr_pct": 4.64,
+      "category": "New Contract/Partnership",
+      "theme": "New Contract/Partnership",
+      "reasoning": "Verra Mobility (NASDAQ: VRRM) resets 7-year Avis contract on less favorable terms - Stock Titan",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "C",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha | Impact: See analysis.",
-      "analysis_details": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
+      "analysis_detail": "Catalyst: Verra Mobility (NASDAQ: VRRM) resets 7-year Avis contract on less favorable terms - Stock Titan | Impact: See analysis.",
+      "analysis_details": "Verra Mobility (NASDAQ: VRRM) resets 7-year Avis contract on less favorable terms - Stock Titan",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
+          "title": "Verra Mobility (NASDAQ: VRRM) resets 7-year Avis contract on less favorable terms - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTnJfVFJsV1d3OVJKNzJKUkR3MVJ1VHBENTRub1pHOXNDNk5TWHptRXFQTFpyb2JfQWxYb2dGNGJvVU1wa2hHUkw1b3ItZGZUZnFnYTIxdFhoVzBFMm1sS2Z3XzJFM2tXd2ZKbXlJbWEzTk5RVWU4a012Q2I2emJ6SXpZWk9GQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV1JFZGRoMWJNM25vVkFMczRLUUVQblFJa0JjOUtldFAwZVp5cXM4eDc3MEZNQVN1ZDhielZxWkNVY3VwZ19HOHZzdHlzZ0lTS3VKbVctN3kzZUM5MGUyOTMzV1UxN3JpSGk5b1V1Ri1MODFpZF9sNnBnVEFaMnFWYmI3YXU0cVhwcUpvWThYLUF6OU1obFNva3BWRnFvVGlOTzdRcVdHcHpmVzBZ?oc=5"
         },
         {
-          "title": "Altimmune stock surges 18% on positive trial results - Investing.com",
+          "title": "VRRM Looks 84.8% Undervalued on GF Value™ After Avis Budget Deal - GuruFocus",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNazROQjJ0ek9tbGZvbzlSdjQyRGE5VXltR2NrYVM4SFRUaXp2NHppUHlybWZ0YzZxRnBBN3BTVldPZVhkQ1ViVGJCOFZZazVub3JLU2N6akxiVE1zV1psRTlmV2pIaDRYRTJTUnVkei1fb0xnZF9yX2JzQjUtLWJUbUtTRkR3bjFzeW5FOVN6R29KeTFEQlNOUXQ3MEk0VkxVQkEyektZeVRYUzRXcTljdkV5TQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN3JtYS1IaWVEUEpoQndfUlhoUlotQkYwUjB0Q2ZFVTZGVmhXVmlKZEVmSi1aUmFNbk05dV9Fekh3ZTlXc3dpQ1RSMHhhU2lkbGF3WnlQc0VEMHJGMnZIYlBfRmM1MEhLSFFOQ0xjRHdIdUVqTTJNeWRCUjJNdjd2NkpTYVg5R2VKTnVzRUZnNlYzRlRtaWhzT0dnS3pHZkd4a0E?oc=5"
+        },
+        {
+          "title": "Verra Mobility resumes relationship with Avis, but new contract 'materially less favorable' (VRRM:NASDAQ) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdXQ1cVhtb0JiQVpCeVp2QS1STlU0M0Q4cnJIdXZHSjNRWERIN3NnSjBoV1dNUWt6UVl6TXpnY2ZCUTNxckJaT3ktTFMzZVczdWp5anVUbXQxTWpBY29qRmw2b3hlMFlIX083UHVpcVdSQXZXdVB6dWxlV2xGVTFINzJBNWl3Q1RJc0lKOTc2TzduT2t1M21SME9KVERVcVowekJyVTllZDdFdkgybmRzWFMxZlU1NHFhRXZJaVdHRk5vUFJF?oc=5"
+        },
+        {
+          "title": "Verra Mobility Reaches Framework Agreement with Avis Budget Group",
+          "source": "Finviz",
+          "url": "/news/373800/verra-mobility-reaches-framework-agreement-with-avis-budget-group"
+        },
+        {
+          "title": "VRRM UPCOMING DEADLINE : The Gross Law Firm Alerts Verra Mobility Corporation Stockholders of Securities Class Action - Contact the Firm - PR Newswire",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPcnpITzBnNUxyU3M4MGhMQWgyLUs4ZUtNVjQzQTJaN3F2QmNzUWV4ZmxGVzIzWURCcUtxZnZ2bFZOWWtHSkxxUEU1YS02MlhCLW4yajl1RXVGRUZqZS1tN214cVlJX1dONGdCQS1DMFBRb3VvS1hNN1lhLS1ZMFhjSEhpTTZtUjFXUnJMSkM2ZjBPbGRjeENPR0JoSlhDenkzOXNXcVF5bEN3UjhPX1BROER3NUFwMjd4bDBfSXlHdE5HWm12TkdDOTlXWXJWelllbzNGR2NZQ1BybzhaWGVNMHp1bWdOaGFpZFFoQXFoVXprcmdZVDVNMjBtYjNNZnF4WXlFLWNyNDZlcTA3R2pPV0RjdTlaS1J6VVBR?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (Avg $Vol $8M < $100M)",
+      "technical_status": "Fail (Avg $Vol $15M < $100M)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -46,7 +61,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Altimmune stock rises as GLP-1 cuts drinking (ALT:NASDAQ) - Seeking Alpha",
+        "primary_claim": "Verra Mobility (NASDAQ: VRRM) resets 7-year Avis contract on less favorable terms - Stock Titan",
         "discrepancy_note": ""
       },
       "gates_passed": 2,
@@ -62,52 +77,57 @@
       "tier_label": "Excluded"
     },
     {
-      "ticker": "UL",
-      "price": 61.37,
-      "gap_pct": 7.82,
-      "pm_volume": 125557,
-      "avg_vol_10d": 3774317,
-      "avg_dollar_vol": 231629834,
-      "mkt_cap": 132451745439,
-      "rvol": 1.17,
-      "adr_pct": 1.43,
+      "ticker": "GEHC",
+      "price": 64.11,
+      "gap_pct": 9.97,
+      "pm_volume": 89855,
+      "avg_vol_10d": 5905425,
+      "avg_dollar_vol": 378596797,
+      "mkt_cap": 29163112593,
+      "rvol": 1.19,
+      "adr_pct": 2.93,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
+      "reasoning": "GE HealthCare Stock Soars After Earnings. Here’s What Drove the Profit Gains. - Barron's",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "C",
+      "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus | Impact: See analysis.",
-      "analysis_details": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
+      "analysis_detail": "Catalyst: GE HealthCare Stock Soars After Earnings. Here’s What Drove the Profit Gains. - Barron's | Impact: See analysis.",
+      "analysis_details": "GE HealthCare Stock Soars After Earnings. Here’s What Drove the Profit Gains. - Barron's",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
+          "title": "GE HealthCare Stock Soars After Earnings. Here’s What Drove the Profit Gains. - Barron's",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVh5Ri1qZ0hxOEEyVERoZ01wamYzZzBzV0s1UnJMUnRIb1hkOG5pUG5zZEhwVEJjbkRUSDM0Y3lrLUI4bzM4Yld3bGRGSDVPQVgzd0JhUldmRWZTMjA2N1poMTByX3lNUHd3STh4NGdoN01QZVBhYmpObUF5bjBaaHBxbGJURlpLQW5URl9KTXFjZ1E4NTMyV1NVbC01WjFhVjZZb000VQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN21SdzBkR1hpX0dZS0FPaWZ1X0JpczUzanN0QzNXYlZkSzhuaHgxaGhiY05jUnNjdWNSOW5kVmZsZWREYzdnVlpoUWRTaHlXa3h5NWZUaE9ySXJGYWJPZW0xMW8wbjhxTXJzWDViME9LSkVDcmNnTk02QnA2WTJjUy13?oc=5"
         },
         {
-          "title": "Cetera Investment Advisers Increases Holdings in Unilever PLC $UL - MarketBeat",
+          "title": "GE HealthCare posts record orders, $23.9B backlog in Q2 - Stock Titan",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMG13SUNaaHd2c3NNUklCak85Q2UwQnJuWlRJcm5icmxOdlJrWVdSTkFhUVZ1eTIzZkRMdzg5SDFXdlRiamNOU2J2WjZnbjhRX3lBcHhYc08zaWpaelZwSi1lUVFDRkRnX2hJLXNTWHhuQjU2czUxdXdnVXBod3pUMFhlR3h6bFJCNWZvTFRmdV9iNkNpYmhkeXZZNkw2aVB6Z2QwcG16VkptUjMyUi1ueG05V0poZU5KUEwwLVd3ZEV3RTA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRm1PaU5NcTNhZFl2RWd0UThhMklSZUlkMDRoR2FzakFTdFRTdW9GdDBDMEZvSGdySjJVY1UtMllsSnQ3d2lqQkUzM0xXWkJYM05DUlhWMC1KU3RzMVlKY21UbDVxeEVkeEMyQ2RrejFaSURCU0FLLXFHb0wwb3B3WXJmWkx6aWRYNW9JOVd6UWJGRWpPeVlueEkwV1I5OVpkQ2MzYkZacFJoVGs?oc=5"
         },
         {
-          "title": "UL Looks 3.8% Overvalued on GF Value™ Amid Solid Dividend Fundam - GuruFocus",
+          "title": "GE HealthCare’s (NASDAQ:GEHC) Q2 CY2026: Beats On Revenue, Stock Soars - StockStory",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOWZSR29NQnhzQWFya1B0LTdhNmJweWtScGZ1bnBNWVJEak42T1ZKUXl2MTF3eGV2Umx3dFRsbnl2Nk5TQ1REZVRsc09ZRG9FWG9Qald6My1kWXMwcXk5a09nTEFQdnVlNUtDNGRSSDA0NUxTRGJlbXdiYzhsamVWTWZIMFZkOGtjWDVPb29ya05mSmlwRnB1enpaNU9hblVva01wcEhlOW5kUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT0x5NDVCcFF2X0F5Y1daZkdHWkdaYkxva2lGVXJVTXJ6X2h0aW14YlRVVzlRcTdCbTZFSmJDc2hfSHU0V2R4T0VxN010Y1pWUDEyamctMjQyTlEzd1VOeGctUUZPR0hFQk9jYkQzUVpvX2FyN2ZNeUw4MzBqU1otNHBJeUpqV0hMN1k5T0V0VUpqcWhxSTN3OFAwNWlxVVVCMkRUZVh5MmJQZDl6OXNaMUZIVkFTaldOa0NkR2JmejI?oc=5"
         },
         {
-          "title": "Unilever PLC (UL) Dividends & Stock Splits: Historical Payouts and Event Timeline - TradingKey",
+          "title": "GE HealthCare Q2 revenue rises 5.7% to $5.3 billion - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQ0JLbVQ3Y0tDYkkzM2JyazdIUldfNlh6Tk51d2l3VDBLMnIwanFGazZ2MklDSl9UTld0dGt1eHMyNnhRVl96Q3pwd2JUWGd3bU53N19oSGg3NWlPQkU4bVQ5amM2UW5KbTYyaA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaXRtdVlzSTdKS21jcE9CREdaejdlTUdjQnZYMFpWcDVXaDFWbjRfSUZKSWdtMGhmaVZXNFpHZWFNQTVUaXY5YnRUVGhyX1E2TDYzLVhMQzZmelJwSXg3MXJadmNlNGZPUW1CMUtwTmgzQzR3RHFRQU1GYTJrNUNkLWFqQnB5bzVwa2hLc0NBT2xpZw?oc=5"
+        },
+        {
+          "title": "GE HealthCare: Q2 Earnings Snapshot - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNEt1aEhGbVppOFNJODFSNWxfeE5Yemt2VWs5UTc0OFh3UWZ4NUZNSlZiWDlmQlJZVHQyTnY4MnFEUElaX20tUWgwRG9kUTYxNTV6V3pQRjVrc1FZcUVQTDlnT2tiajU2WnQzVFBtd1F4WngtMVU4UjR5OWdWMWNFcDNXWFZFTkl0RW9FVDEtRWFKYTFqVno3dWdEVQ?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 1.4% < 4%)",
+      "technical_status": "Fail (ADR 2.9% < 4%)",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -115,7 +135,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "UL Looks 5.3% Overvalued on GF Value™ as Dividend Remains Attrac - GuruFocus",
+        "primary_claim": "GE HealthCare Stock Soars After Earnings. Here’s What Drove the Profit Gains. - Barron's",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
@@ -127,54 +147,54 @@
         "gate_adr": false
       },
       "meets_all_gates": false,
-      "tier": "Fail",
-      "tier_label": "Excluded"
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "CORZ",
-      "price": 20.74,
-      "gap_pct": 6.08,
-      "pm_volume": 382728,
-      "avg_vol_10d": 8713769,
-      "avg_dollar_vol": 180723569,
-      "mkt_cap": 6592940725,
-      "rvol": 1.18,
-      "adr_pct": 7.19,
+      "ticker": "BE",
+      "price": 166.84,
+      "gap_pct": 9.78,
+      "pm_volume": 776997,
+      "avg_vol_10d": 15663726,
+      "avg_dollar_vol": 2613336046,
+      "mkt_cap": 47456615593,
+      "rvol": 1.99,
+      "adr_pct": 10.97,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
+      "reasoning": "J.P. Morgan Weighs In on Bloom Energy Stock After Post-Earnings Jump - TipRanks",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
       "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com | Impact: See analysis.",
-      "analysis_details": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
+      "analysis_detail": "Catalyst: J.P. Morgan Weighs In on Bloom Energy Stock After Post-Earnings Jump - TipRanks | Impact: See analysis.",
+      "analysis_details": "J.P. Morgan Weighs In on Bloom Energy Stock After Post-Earnings Jump - TipRanks",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
+          "title": "J.P. Morgan Weighs In on Bloom Energy Stock After Post-Earnings Jump - TipRanks",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWWIzbXN2aEFzVlFDQ1VTNHZmN1BLWkxPbG9BMEdCSFVVWGdzVmpxS0o5d0VhRlJyeGpwMGZ2WEhaa0lVb2lFME9KclpabU9lenN5Y0Nfbi0wVDZGcnRubFhIaEpMSWdHTEY1SGs4S3hrcmt1Q0k0eF9sRi1nd2Q3Q3ROcHluNWZMdmFRUUVnRF9MZTV3am0zV0lhY24yMDZyTjNlTVFMd2otUlhGUWpSMUJISG1ZM01RT1daNHFwc3dManhUMl80MEE5UnliODVhLXdRUVp4X1pjc0ttLXdwaA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcXVQeUQyREU0MXpOOVZmbVhmckgwQ1FOaG42OEktYldSdFNNLUlFdXNQWXJZYngwNjlDNzNHcGVpTHFQOHczLWZwanRJazV0R0Uxb3haYTcySG1KeDdYSUdDcVNEdUJLZ3VLbU9yTTRXUkJzOVVNOWYzdFotTDEwWTJpOTc5cm5veW1hNmE2Y2NOQUMwS0dacWRGYURwQQ?oc=5"
         },
         {
-          "title": "Core Scientific (NASDAQ: CORZ) lands major AMD AI data center pact - Stock Titan",
+          "title": "Bloom Energy (BE) Stock Looks Fully Priced After A Very Large Run - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY3pSMzdXOXFJZVZ3dk9qRjJzZUxmQ3Jsc0lmRUlLb0FpU3pGRkZFUXJwcnFGT09rSC1UZFFRR1NSVTNIUkxfTXpoYzZHSGtMRzYza2UzU05Xd21GREp0TDRaU0NRRTFveVVVOG85TXprMnpvaDdqVVNLM0pOMUp1bWprQ0NfNlMwbnRuR284MVNMelhlNGZmZVBPQmxnS3FXQkVxUzJscHNVUENSYTZ2NQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ28zNWFTaGhJaVgxVy1hOXJTenZJQ3R6ZlJISHRaVzdCZllacDZEVFZyeEJneWhjNThNUUp3U3g0YWJsSW5ydGZZMWEwR0dJNVIwNWh6UFNTcXJGX3NORC1oTHRDQm1VQUpvbzgxRHN2algxbDYtejZqZmUyUVlNUUtWSTRnQVU5Mkt3OGFVMVB4bGdIbjVoQ0tlUQ?oc=5"
         },
         {
-          "title": "Why Core Scientific Stock Stumbled Today - Yahoo Finance",
+          "title": "BE Stock Soars 10% After-Hours On Beating Q2 Expectations, Raised 2026 Revenue Outlook; CEO Says Order Backlog Outpacing Revenue - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmJVVmFvakVmRjgxazlkTXM0QkRtR0o4NE9YeTlteVM1Vmo1bG1SZUM0TDdSNWlxUTVXeEduSUxkeHd2Vjh4bDFqWDhqaUVRRElyclZWZ0EzczE4c2hUOXdmZ0FjdnFvZUZkWDRmaXM4a2JIOV8wdG9FMXVNZ1VRT1E4U3F0UEkxRUNMRm5QVmlZdERxRkhlTHpIMUM4OExf?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaFlwOHFwQ3lPSGs4VGlHYnBwMTJHTktLU3Q4dlZvVVlnR0VUOEpqVWZtQ3VobnUzcFZYVWtLcVVGREw0Y3l1RW9qME5OSkRrbkozYzBmYmRxUU5pbjZuRDNsZ3pmSGtNNng2NDFiWEVYSzFLUklrR0NlaldjNlQ5c1ViOHV0NXRmVG5NNGFObHpuTU9XT3FrOGVYelh1TTNsOG84Snc5VGctZGtENmtQQkVWa1M4UFE?oc=5"
         },
         {
-          "title": "Core Scientific (CORZ) Downgraded to Market Perform by Analyst - GuruFocus",
+          "title": "Bloom Energy Jumps On Blowout Earnings, Strong Guidance For AI Infrastructure Play - Investor's Business Daily",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWFiWjRoV2FyZDUxQVIxWC1MSWVUUHJsazBKZGFQSGxzcjhLN05kYVAycGYyaGlRakNsMVFhWlVSOFd5WG42WTZqSmpiV3RZWXNKREhLeW1MWGg2M0xIVGpQbFlPR0ctajF4cGVyQ1JXVUJFb2h2cVRndl90UUYwWVowcG9UTk5IQmcyUWJadDRuR3VTdE5wLUQ5d1otX1o2ejdPSXlOYm5PQ2pNSjB2NQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0ExdExsZ1c3dHU2c3pKVElZNVR3VXhZMEZ0U3h4TkZlbGNSU2owdEFGOVA4eExvRVNXbWtVRW5jLUxYeE9Ja2kzWXN3WDNTcDNLbTNCMkN3RXdKYnRuN0p1cFhjeEt6LUtVemxLUVNZWGw5eEROM3lrajF3ZXh0SldyVFFFUmkxR0l3VEVMNXFBT0Rn?oc=5"
         },
         {
-          "title": "CORZ Stock Falls On Lone Wall Street Downgrade – Analyst Hikes Targets For CLSK, CIFR, HUT - Stocktwits",
+          "title": "Bloom Energy Blows Past Q2 Estimates, Shares Jump - Bloom Energy (NYSE:BE) - Benzinga",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTXFHTE1zSG1IVmZudzlsWGdjVm1aUVIyLUg3ZlVmR3h1eG44dTVrSi1yT2hvWC1OUkQ1RUhsQVVWSkJIZ3BmNDcxdVZrUG1UM3RHaGxoaWh2Mk9fQ29TSG1KOWdwLV93S3dQbWJlZjFXdF9hT3d6eHc5aDB4NUxnRUEwaTV1Rkx4eUoyT3AxS0dpMGZkeXc0RXg5SmxRSjNlMlczRFZ6RWptWF8tRHZDWTBwSk5wOFh0Nk16SUVURHBadW9qNEFXLXh0YWh4TWk2QmFQRUFWeC1YcU14RTlj?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQnhKbVBmVENjN3NmbllYbVdaTzBnajlpbEExenZIM3F0RnctNVNiX0xRb2ZDeUJhXzE0aWZNN1dua0JTRmJMdkFmbTR6ZFV4SkNOMWs1eEZnNUczSmdscGY2R2Y2aGdQc2NuZUhsSnRaSUxtdjRLbERKOHFrc05qaWlLT3lBOWxGT1hJQm5aQW5PZ0hPdElLNnRwWmRyZkVoVTRpMzdXN1M?oc=5"
         }
       ],
       "float_shares": null,
@@ -189,7 +209,7 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Earnings Flash (CORZ) Core Scientific Posts Q2 Net Loss $3.32 a Share, vs. FactSet Est of $0.06 Loss - marketscreener.com",
+        "primary_claim": "J.P. Morgan Weighs In on Bloom Energy Stock After Post-Earnings Jump - TipRanks",
         "discrepancy_note": ""
       },
       "gates_passed": 5,
@@ -205,57 +225,57 @@
       "tier_label": "Strong Catalyst"
     },
     {
-      "ticker": "KO",
-      "price": 84.07,
-      "gap_pct": 3.58,
-      "pm_volume": 330740,
-      "avg_vol_10d": 16824318,
-      "avg_dollar_vol": 1414420414,
-      "mkt_cap": 361709695894,
-      "rvol": 1.27,
-      "adr_pct": 1.94,
+      "ticker": "TER",
+      "price": 320.65,
+      "gap_pct": 9.15,
+      "pm_volume": 117452,
+      "avg_vol_10d": 3438856,
+      "avg_dollar_vol": 1102669176,
+      "mkt_cap": 50195242660,
+      "rvol": 1.98,
+      "adr_pct": 7.33,
       "category": "Earnings",
       "theme": "Earnings",
-      "reasoning": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
+      "reasoning": "TER Stock Gains After Q2 Beat – CEO Says AI Demand Remains 'Robust,' Sees Growth Extending Into 2027 - Stocktwits",
       "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
       "conviction": 50,
-      "grade": "C",
+      "grade": "B",
       "finviz_theme": "—",
-      "analysis_detail": "Catalyst: Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory | Impact: See analysis.",
-      "analysis_details": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
+      "analysis_detail": "Catalyst: TER Stock Gains After Q2 Beat – CEO Says AI Demand Remains 'Robust,' Sees Growth Extending Into 2027 - Stocktwits | Impact: See analysis.",
+      "analysis_details": "TER Stock Gains After Q2 Beat – CEO Says AI Demand Remains 'Robust,' Sees Growth Extending Into 2027 - Stocktwits",
       "peer_tickers": [],
       "headlines": [
         {
-          "title": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
+          "title": "TER Stock Gains After Q2 Beat – CEO Says AI Demand Remains 'Robust,' Sees Growth Extending Into 2027 - Stocktwits",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONmVEc0lCVE5fYUkxVjRpb0hZTW1OclpMNEdSeWpaRll5YkRleC1yMWVfS25uWmZweTlPRkw5X3hzLWdzdk1UMi01cklBLTNqWVpkYlNzZ3MySFVRbURVeDB3OFZWclJsODFIWjNFeTNKQUI0VFpjM2JkZEhlcUE5ZFJOMHl6eU1kY0ExTzlPa2xGaE1rUlF4QzVneU9pdVZqa181Mg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV3M0cmJ5dm5jejF5cVFSY25xWlQ2ejc5Z1dkWlZnSDJJZXY0eFpGN2g4SjVVbDd2alRWTkNOM0FjT1FOLTJmUWVUMTh0VzFsSGFVQmFONUZ6ckljMjkwSllLWGlaSDNObEthQjBBNGNMUVNVdU1qMnRCTklCSm9CbkE5empYbXV2VE5HbkpDVlVvYjJMMzJtT0JKVk5PZDZGSUgyM0hrY2tvemFCMnpRMUNlZXVRaWZVOEJlTA?oc=5"
         },
         {
-          "title": "Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs - CNBC",
+          "title": "Why Is Teradyne Stock Soaring Wednesday? - Yahoo Finance",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44N0RXQ1dNenhKNVJoLXJSTmFBMll6WE1BQUg2RUFja2Rzby1oVTgwRHl3dEdMamRLSTFjeWtkajFibVdXREs0NlU5OU9yeWhkOFdVMUp6d0h3ZHJ4aHNKVXQ0bVlpNm8zNHhoNEdDUHRVSVFh0gF6QVVfeXFMTWMzRV9ybTg4cFVfOEVDSnhELVpua3k1SEphTHBkQkVrdWhFRC1neUFLOFBhekxicVpLVTE1ajZsTm5FTGFqbzZ0QmhHR2tGc0owWVVway1wRWdsaXhSQVRqQlpvYkdkRmxFbzJuQlY0OUtydkxCcE5vQWc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeTNZMk0yaUZyZXByeHNEWl9oZmwxMXA0WElhRW5qcktpNTBhN2dHR21RMlFxQ080VWJwZzgwMlpDdnpoRDVZT210Y2hfZ3VhamF6Z29KUU8xeWd5Xzk5NEpHOGRxczFoenhvekdxLUFXTWFXS2l4TDZVc2xQNHJ0Zk5lTy01QkNiYzl5MS10QzZ5UlhiOU9qMGpQVmZVS1NKU2tB?oc=5"
         },
         {
-          "title": "Quantinno Capital Management LP Increases Position in CocaCola Company (The) $KO - MarketBeat",
+          "title": "Teradyne (NASDAQ:TER): An Affordable Growth Play with Strong Momentum and Solid Fundamentals - ChartMill",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNjFWZHVRdU1IMUFrWmtuU1N2WVQtX01nb1hldDIzdy1HaHl2Zi0xWElyeS1lZi1CNHoxbUJPN3dxN2UzbHpjMklUblE1dW03LVJzTWtaR0xTVUlnZndBZ0FCTXUyV013TGlLRUtYQ2p5RXlBV3gteGNQYUZIb1RzRkxvS2wyZlAzRUJfQ1pZSk9pNjBIWl9jQXFsemp3UVA5TTA3aDNYcVY5cmhMVG1TX1dTN3RyRVNhNUpObDlqYnJWMTJfVWtwZGVsLTJQOUNNX2RlZA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQkowN0VnRzg5Z2VOVl9YQWczMl8ySG1hbjQzX2psMlNPQnluQW5XYW93YW1GUnNHU0dPV3daUU5iNnRjaUpCdU1CUkJrTU45NHF1RDkxaGZuTl9NakI5RF9IeFJuRzJhUGppOF9UYjg4VW9RYW9ERjk0WEZMNW9rVHl0bFN3WkJFZkJlamVTN1JRNENPOGVJS1RVVElRbFN0Q2pjVHBvMGRpMVhLd1A1UnF5SDZxZUZwTzJNczU5YW1lUWd2bVV4dlV1Z2oyLUFVZW9USFJn?oc=5"
         },
         {
-          "title": "Is Coca-Cola (KO) Quietly Defining Its Resilience Playbook Through Dividends And Cyber Recovery? - simplywall.st",
+          "title": "TERADYNE ($TER) Releases Q2 2026 Earnings, Stock Rises - Quiver Quantitative",
           "source": "Google News",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnlKUGlxM0xyWHV6d3lzcjJrSm9RWUFDTWNCUGVWZG96a0JvVjlNcHA4VjVrR0RXQ2ZUMTltd2ZMZGVDazdxSENtSF9JUmtwYk15RUFLczhUYkJ2SnBOWHFhN1YxWThzZDMxQ0ZiVlZEamdPV05UaHpIZUF0QUd4MFVsWmNmYnRwTUM0UkVvRzhkV2JoSjdjOUNzOE8zWVNpWjJRLTZBMkhubUtCQTNuRm4ycU1qSjlLNEJyblc4NmozRWFPYkdmXzlBRTlMd1g4OEt30gHYAUFVX3lxTE5nUVRFSlJ6Rl9GMHZhYktQZ0RCTzhTX0pYSEhJZ2xQVzdxaHl0azlIV1pXRTFXR2NDQ296REFkSk5wU2VoYVpfTy01LVVyaVBDNEV3NmFBbEJYdlhKOTllX09yVDM5QS1OemFKQzdSRFE4OTF2SDA1ZEZSRHpxZldQdGp5WUd1bnc1bzI0cmZiZC03UkQyUXoxWWF3MGlLZjRnVHhoMEY1VjFWY0hBSlNhZ2NOYWNsNHJMMmRGNThBWmNyMlFIazlMdVJ0WlhwNXI0TFJadHdHMQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQakJ1X0s3d3dkNF9QVklDOVlMTFhfMUw1WC1qU3V0LU83eGdndFk2UDhlQXNheUpYczdGcmpYam4wX1ZEXzdIaFQzcWIySG9LYnN3Tmg2QThVRHd0QktDNnRwb0xQM01fSF8waWxiZ2d3amwzaVQtZEhpeHlaMVZhZEltVHM1bkdaUUdGanFoYjlQSjlBM3B3d0dWVQ?oc=5"
         },
         {
-          "title": "Coca-Cola Earnings Will Test Whether Beverage Demand Still Has Fizz",
-          "source": "Finviz",
-          "url": "https://www.barrons.com/articles/coca-cola-earnings-stock-price-49ac3d04?mod=bar_FV"
+          "title": "Teradyne (TER) Stock Could Be Fully Priced After A 268% Run - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVHp0c29EYjROdVBRMVJvTFBfRWFERktUdURNNVBMNVZDVVNBMVJ0Y0tRWmpJX04zQk04Rm1WN3FFREFhdThFSk1LYzFnUGx4dGt0Q1NTc0YxQUQzTGtSaWc3NGdKc0VFbVRISVMyOEhtcTJiSC05ZDJJa2Z4VENOLVVZV1AxS3R3ZlAxN25RZkFEWFM4ekxUNzVNbjJGbmJfSjdXSE05RWVyQTZqc3BFTHdvdVNNUzNjUXRQQWczeDNWSnItMG5rNUR2NjnSAcwBQVVfeXFMUFR6dHNvRGI0TnVQUTFSb0xQX0VhREZLVHVETTVQTDVWQ1VTQTFSdGNLUVpqSV9OM0JNOEZtVjdxRURBYXU4RUpNS2MxZ1BseHRrdENTU3NGMUFEM0xrUmlnNzRnSnNFRW1USElTMjhIbXEyYkgtOWQySWtmeFRDTi1VWVdQMUt0d2ZQMTduUWZBRFhTOHpMVDc1TW4yRm5iX0o3V0hNOUVlckE2anNwRUx3b3VTTVMzY1F0UEFnM3gzVkpyLTBuazVEdjY5?oc=5"
         }
       ],
       "float_shares": null,
       "short_float": null,
       "daily_pct": null,
       "industry": "—",
-      "technical_status": "Fail (ADR 1.9% < 4%)",
+      "technical_status": "Pass",
       "verification": {
         "status": "Unconfirmed",
         "confidence_score": 50,
@@ -263,7 +283,804 @@
           "Finviz",
           "Google News"
         ],
-        "primary_claim": "Coca-Cola (NYSE:KO) Exceeds Q2 CY2026 Expectations - StockStory",
+        "primary_claim": "TER Stock Gains After Q2 Beat – CEO Says AI Demand Remains 'Robust,' Sees Growth Extending Into 2027 - Stocktwits",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "GFS",
+      "price": 49.02,
+      "gap_pct": 6.08,
+      "pm_volume": 165555,
+      "avg_vol_10d": 3913715,
+      "avg_dollar_vol": 191850309,
+      "mkt_cap": 26897313744,
+      "rvol": 1.15,
+      "adr_pct": 5.5,
+      "category": "Others",
+      "theme": "Others",
+      "reasoning": "GlobalFoundries jumps on $300M U.S. award for silicon photonics (GFS:NASDAQ) - Seeking Alpha",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: GlobalFoundries jumps on $300M U.S. award for silicon photonics (GFS:NASDAQ) - Seeking Alpha | Impact: See analysis.",
+      "analysis_details": "GlobalFoundries jumps on $300M U.S. award for silicon photonics (GFS:NASDAQ) - Seeking Alpha",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "GlobalFoundries jumps on $300M U.S. award for silicon photonics (GFS:NASDAQ) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWZNUmJFeENuNnVkaGRJUVRZekVoZ253b01JQ1pWdzBqbVBKWUVRMk1PenhHck1yQlNKM3JPYU5RNDBTNFJCNU02amZXcDkzdFZsaXdtS0ZEeUZmRE1WZTM1T19uVjZDRzZfNXpHV2R5OHV6VGxRUjVoTThVZ1k4cUdxcG41T2VhVWkwYmd0V2NnRE5aMGlVQUhzUDEtM1U?oc=5"
+        },
+        {
+          "title": "5 Red Days In A Row: GLOBALFOUNDRIES Stock Is Down 17% - Trefis",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdXoyZzZRc3YtaHk3Wk1ydFl4NXZkUFQ3OEMzSzNuRWhvUkxQQW9uS3pxSFJvUGpPcDd5UGJVc2psY3MyVlFBMzVyVkZQaVpKTUNKSkV2VjFxeVk5MV95NkZnM2lhZDc2WHhIeUVkZDJIOC1xS3ZLejYydVZjRmdMNjJvOVFfZGxiNmxBQkVySnBzLTVzMFBfQk1zMVc4NThXQ2VLa0RPZWVrSl9wZDlmQm13?oc=5"
+        },
+        {
+          "title": "A Look at GLOBALFOUNDRIES Inc (GFS) After 7.8% Decline -- GF Val - GuruFocus",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdmdPVmZNblJGQUhGc0E4MG9yOFBIQnUtczlBLV90c01IU2VPTktVVnFsZUpQMGh3aDNReklzUmdwOEo1MVRiVVhoS0p0dWgtVFhJTi1zeXJRLXUzVE5CQjhFYnlKMTVoNG9UbllzeG1YamE2NW1OdnozemZFSmN5YjM4QzdaMDBfX25JZFJRTjJIeHlqajBremJ0b2h3emd6Y0dIXzYtTVN5Q0RKM2dZVmMzWmtrN3dI?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "GlobalFoundries jumps on $300M U.S. award for silicon photonics (GFS:NASDAQ) - Seeking Alpha",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T3",
+      "tier_label": "Minor Catalyst"
+    },
+    {
+      "ticker": "HAYW",
+      "price": 15.11,
+      "gap_pct": 5.89,
+      "pm_volume": 201956,
+      "avg_vol_10d": 3276329,
+      "avg_dollar_vol": 49505331,
+      "mkt_cap": 3278310586,
+      "rvol": 0.99,
+      "adr_pct": 2.92,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Hayward Q2 net sales rise 6 percent to $318.4 million - Quiver Quantitative",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Hayward Q2 net sales rise 6 percent to $318.4 million - Quiver Quantitative | Impact: See analysis.",
+      "analysis_details": "Hayward Q2 net sales rise 6 percent to $318.4 million - Quiver Quantitative",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Hayward Q2 net sales rise 6 percent to $318.4 million - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmRla0paREg2d1dWSXVzZUJFeURTTDk1RmstVjEzdDNHU29qTW8wN2NQT1RCNFNyelNpbmxVRkZqT3VNUFc5eGV4X3Zkc0RRQ0FZU2xPbmhHUGhmSFY0UkhfZWVQTGprOF83ck5wbk9HLWNXODdBdzllRWdoeS1CT1FpaFE4MGNfbWFWUkxKcG40Zw?oc=5"
+        },
+        {
+          "title": "Hayward Holdings (NYSE: HAYW) lifts Q2 sales to $318M and strengthens cash - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRW9vX3ZEekJRYmxSUDNvVDdIZnhGY3I3b3JuQVdVT0hZWXVLMnVLVlpNOU5tbnNfOFhLeDRRNVU4MllRcEVNQ3dGMWZCLWVHXzRUV3JNNERsUUVrcVF3UXRpWkFoN2UyZXd5d2xHNmpfU3BkRzBYalpidlctc0JOUGtWMjFxVzJzd0NOZS1tYmpOQkY4aUQ5R1lnckthWmx2NXhFTDBDXzNUb1UzdE5lOUhmZw?oc=5"
+        },
+        {
+          "title": "Pool technology maker Hayward reaffirms 2026 guidance after Q2 sales rise 6% - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaUJPUFBvSXphSS0wX1B6djN3bjRQVFV1dGJOVHdSOU16bXRoZTRaQ3JhdTFBcW42UHVBNG9KNnVSa25nMkhyUmZDb3dlaktvR3lXVko0TGtKMW0tYVNpTUtlTnEycTFGenBhRVRTVkFkSnBnc2NZaDdNS0RFZzRTRFBFTUlUNTNyUFlmLVV3R0VaZzBfOE82WXh1OUxnVVM5d3R5aXhnWmE1Yll5Mm81QnBLS1R2dmlnLVppVDZn?oc=5"
+        },
+        {
+          "title": "HAYW|Hayward Holdings Inc|Price:15.135|Chg%:+0.585 - TradingKey",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WY21GR2xtWnJaY1NWeExlMGVwWW13d1lvM0NFVm9XSzFOM3ExWENFb0NPLWlIYnJydnpGXzdIN3U5RmJFMmVXUXhJR214ZzQyajVXbWxJd3lXd2ozQVVoV0Q1VWxJeWM1Rmt3RjJ3?oc=5"
+        },
+        {
+          "title": "Arrowstreet Capital Limited Partnership Purchases 605,743 Shares of Hayward Holdings, Inc. $HAYW - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd3NDVExmYzlnbkdVR2luck1lcTdvckNHaWM4MW8zQXpQY2loc3hhVDRxRnVDbURIX0xoSEtkVW5CVlktSEVzdFc5dkZXeGhoTlRUb3Y5ZGhReDZ3OWJZQURmOGxnSlRMS2RPMjZxdUJUc0MyWU9LZ1dBVjlCeHgtbG5SWFB3anVueHphZmM5czgyNFVSZ2NpRGRFekROVXA4cWoxc25xRmc4Ykw3WExyVzFEVjdVTkpScGNzQllGVkxHbjdIRzVCZEQ4aFgzWEdna0pzNXZsUC1qUkk1a0lLNTN5cUlhYUtn?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $50M < $100M, ADR 2.9% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Hayward Q2 net sales rise 6 percent to $318.4 million - Quiver Quantitative",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "F",
+      "price": 14.96,
+      "gap_pct": 5.82,
+      "pm_volume": 649350,
+      "avg_vol_10d": 56343161,
+      "avg_dollar_vol": 842893689,
+      "mkt_cap": 59611002227,
+      "rvol": 1.32,
+      "adr_pct": 2.91,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Ford stock rises as automaker hikes full-year guidance, beats on Q2 earnings - Yahoo Finance",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Ford stock rises as automaker hikes full-year guidance, beats on Q2 earnings - Yahoo Finance | Impact: See analysis.",
+      "analysis_details": "Ford stock rises as automaker hikes full-year guidance, beats on Q2 earnings - Yahoo Finance",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Ford stock rises as automaker hikes full-year guidance, beats on Q2 earnings - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOek5aUGVwRnhmejQ3ZVRFVzBtTzk2TEZYR21sTzNLQTR4S0thMDNqQU5FLS1TOFczTDFlTWdtUl9XMDNPME1LeUpZRGtCcXdTcktOV2oyQWpxN0ozZ0lJZmhhT24zN2N4NEFXbnhGVmxmcUpVZVY5VERZZEFvaTJ0UXZCTURpVDZEVmFSZHplUDJPM2U4T0VTdHVNLW1taHFDWXZpR1pXZk95WUJIS25aYWw4SzFfLUpaRk0tZlUySEJleE5ZUm9neGpkUGhZYm1ubzdyaUJR?oc=5"
+        },
+        {
+          "title": "Ford (F) Stock Stays Above Fair Value While Sales Sit Below Fair Value - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNTVUMTRBZE9zWE5GSTJiUF9LekdmQjVjYmRpYUttV1NJSHkzNGNiQThDT191M2xJbnUyV2RWM1JoSXF2bGZDaHQwaml3dXNiYkExRTctejhRSkhWc3ZRNTFXb0tLT3dUcWc3YkZGX1B6S3RmR1Z2YjBFd2NqLVRZSXVGMzM3b21PZGdvUE9nY1I3eVhYQXdUd3d5aHY5QmFVUFZrdGJXb3B5emp0V1hMaHltX21uNzBiRVQ4dFRxQjVKWjUxV2fSAcsBQVVfeXFMUDY5dUNkaXlCWWZrQkhEMDJGYnhnWDV5QW84QzdaLXhIbVU5dTU2QTVndjZpdmVVazF6RXdCS0M3emsyZmMyZk5KM2p0YVg0NGxRN2UzN0paczR3M1VOempHS182RDh5ZHFLd1l2NGVSMDZaUEIwX05nM3gzQWdxS1JlOGl1X1pEOHY2X3VJaTZfSTZ3VXZvbmFWRlY1c2E1THU3dUJxVlNybjFMNmNvQktzZXNxZWNfWUVzUDVueXF6RHBoVU5CNW5QMzg?oc=5"
+        },
+        {
+          "title": "Ford (NYSE:F) Misses Q2 CY2026 Revenue Estimates, But Stock Soars 6.6% - StockStory",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVDJZWFlzMDduN3ZwSXQxOGh3ckdKaW9oYTN4dEJmRGd5OUJac0FWTnZOR0RKQXNHMEdBZF9QSzRlYW1IUDBDWVozc3ozWG4xUnZJQWdZTkdwRjhnUmxIcEJpdFdPdTktcnBjZnc2UHRWNUY2ZkN2bDR1QXJzOWVPdW1TZUFpS3JMQnIwdEZKM0Y0U0ZRM3R1QmZ6dGtLUjlXb3FDX1VnZjdSV2pZeHJyQXpwYS0zd3d3MjcxZ2RPbW5OeHc?oc=5"
+        },
+        {
+          "title": "F Stock Jumps 8% After-Hours On Q2 Earnings Beat — Ford Also Raises 2026 Profit Outlook - TradingView",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZW9mdFREaVRaVm5xMjRoSGczMVVlZ2Y2SjlZQjliUm1Ec1pQNExMS1ozUkxiRVVnWGVjaHNKZjZqMWppeW5WRjJmTGFYN25iSklUakc0TVRIRG45SzhWUkFSVVZSVzVUWkk5Vzh3dWtXcV9oRURNby1nSnlXSVRWeDkya2NudWlHX2RmX3RPZnpyMGR3X1R1cjBWQnFBeHgwYWd4dEVRTVNpZ0ZnVy1hdEZ3M05QUEhFMUM0c3hjM19mQjAzblpqZnJIOVN3OUg3Wjd2Mm1PU05GSURMLUE?oc=5"
+        },
+        {
+          "title": "FORD MOTOR ($F) Releases Q2 2026 Earnings, Stock Rises - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYllha2Z3M1FUUDhFOVRabUNWRUpjVVRWMkdkYmNDTHdKY2wteVEyakZqTGY1am1GRWk4dUpkLWk4MnJ0RUdUU0VXUnlOUW1ualVFWGlKZnVNdVhsbnhiMTVXdlBEUXYxV1JJWGtSTnpCam44T1F3bWdwUEotdHlOWjhSQWV5WTVvUVVxRkZJTlVNZmRDcUlDYmNfSQ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 2.9% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Ford stock rises as automaker hikes full-year guidance, beats on Q2 earnings - Yahoo Finance",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "KOS",
+      "price": 2.34,
+      "gap_pct": 5.13,
+      "pm_volume": 111468,
+      "avg_vol_10d": 14253442,
+      "avg_dollar_vol": 33353054,
+      "mkt_cap": 1388062840,
+      "rvol": 0.86,
+      "adr_pct": 7.19,
+      "category": "Others",
+      "theme": "Technical / Flow",
+      "reasoning": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+      "hypothesis": "Caution (Gap & Trap Risk) — Avoid open chase; wait for 15-min base confirmation.",
+      "conviction": 25,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Unknown | Impact: Speculative. Significant price move on no news suggests Low Float squeeze or technical stop-running. High risk of Gap and Trap without fundamental backing.",
+      "analysis_details": "• **What Happened**\nNo news catalyst identified within the last 24 hours. The gap is likely technical or flow-driven.\n\n• **Key Consideration**\nLow Float squeezes and overnight program flows can create sizable gaps with no fundamental backing. These are typically Gap and Trap setups — the stock often fades to fill the gap by end of day.",
+      "peer_tickers": [],
+      "headlines": [],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $33M < $100M)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "No immediate fundamental catalyst found; price action likely driven by technical breakout or institutional flow.",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": false,
+        "gate_adr": true
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "STX",
+      "price": 747.3,
+      "gap_pct": 4.64,
+      "pm_volume": 97418,
+      "avg_vol_10d": 5752715,
+      "avg_dollar_vol": 4299003920,
+      "mkt_cap": 167566320479,
+      "rvol": 1.53,
+      "adr_pct": 7.37,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "STX Stock Rallies As Much As 9% After-Hours On Q4 Beat, Raised Guidance, And Locked-In 2028 Demand - Stocktwits",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: STX Stock Rallies As Much As 9% After-Hours On Q4 Beat, Raised Guidance, And Locked-In 2028 Demand - Stocktwits | Impact: See analysis.",
+      "analysis_details": "STX Stock Rallies As Much As 9% After-Hours On Q4 Beat, Raised Guidance, And Locked-In 2028 Demand - Stocktwits",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "STX Stock Rallies As Much As 9% After-Hours On Q4 Beat, Raised Guidance, And Locked-In 2028 Demand - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVXFCNGJQY1hnS3lpV1owXzZoaGVmWGQ2Sm9GZHI3OGtUYUUwRWRZcmNtY2dscHIzWFlxNkxnbm9oNGpCVUlRb3dZa0VMUUdmWHdOQ1JLV0UxWWV2U1JFQlkxVkJxZXBkTFAxTFJ5UkxGM2lHM1AxdUR5UWZTUGF0czVuM29VZTlPQUNwMDhuWXFwdzJEcjY4dXhfVlRMTmdRcF9sMkl0aGJRWkNXRFFwNy1odmRQLWFVMVRLRTZpLURYcE41RmFDMzZfc1ZNVUd5UnZ0aEdBT2RjeENKakVHWnV1TzdtTTF1NXdNQ091Z1k?oc=5"
+        },
+        {
+          "title": "SK Hynixs Q2 Miss Triggers Memory Stock Rout: MU, SNDK Slip But STX Holds Up In Green After Q4 Strong Report",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/60aea8d8-2a46-3ebc-b81b-2e521a68f565/sk-hynix%E2%80%99s-q2-miss-triggers.html"
+        },
+        {
+          "title": "Seagate forecasts strong 1Q growth on sustained AI-driven cloud demand",
+          "source": "Finviz",
+          "url": "https://www.digitimes.com/news/a20260729VL202/seagate-demand-revenue-growth-profit.html"
+        },
+        {
+          "title": "Seagates 48% Revenue Surge Silences Growing AI Infrastructure Skeptics",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/18d36e54-cfb3-36f8-a25d-676bff78d18d/seagate%E2%80%99s-48%25-revenue-surge.html"
+        },
+        {
+          "title": "What The Options Market Is Signaling About The Volatility In SanDisk Stock",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/d3c2678a-0090-3187-a9ed-e9b71e145609/what-the-options-market-is.html"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "STX Stock Rallies As Much As 9% After-Hours On Q4 Beat, Raised Guidance, And Locked-In 2028 Demand - Stocktwits",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "AVTR",
+      "price": 12.42,
+      "gap_pct": 4.59,
+      "pm_volume": 526907,
+      "avg_vol_10d": 12670346,
+      "avg_dollar_vol": 157365697,
+      "mkt_cap": 8479821760,
+      "rvol": 1.78,
+      "adr_pct": 4.58,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Avantor (NYSE:AVTR) Delivers Impressive Q2 CY2026, Stock Soars - StockStory",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Avantor (NYSE:AVTR) Delivers Impressive Q2 CY2026, Stock Soars - StockStory | Impact: See analysis.",
+      "analysis_details": "Avantor (NYSE:AVTR) Delivers Impressive Q2 CY2026, Stock Soars - StockStory",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Avantor (NYSE:AVTR) Delivers Impressive Q2 CY2026, Stock Soars - StockStory",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDliRlFkS1BBLTUwVEZ5akFwUnJfM0wtVkc5MzNianYxMWVUbVB2NmhSU2hmTFY2SGF5Njg3SnBuZ2cwMEtfeXM1Z1VWajVYc1cxTGlra3FPM241V1ZDRVA0WlJCWXZvVVRkVDJ1UnRwQnJ2SlJ2S052UVQ3emlOeGNmWng2MHFwYzc1aVV4TS1tWWwySUE1elQ2Z0c2a3dCT2QyWjBqMEdKUXA1VHY4cXlkTGRPdw?oc=5"
+        },
+        {
+          "title": "Earnings Flash (AVTR) Avantor, Inc. Posts Q2 Adjusted EPS $0.21 per Share, vs. FactSet Est of $0.19 - marketscreener.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWmREMV9GLTNSbnJVZnY3TlAxRjVCNXNEZWFtTFBRcmNpcHFqTjFZRlBVUVlRME9RVU13LTlab0tfZk5JMWJjX3liVnYxYTBmanpVWlNxcGlyTnF2Zkg2UnlBcVpLNWc3MnpSNlB4dnprcjBMRDNZT0dDODFfb2RjQzBpaW05dmZScHFEdWhqMDFiOWJCMS1YQm5adU05OWxYUGdDRVp1WS12Y3k4a2hpbHV5TUVxRzBkQVdJVTR5OXR1akZORFFvOTV5R2dUc0R0LVVpYlViZm1td3dz?oc=5"
+        },
+        {
+          "title": "Avantor Inc (AVTR) Risk Assessment: Volatility, Financial Risk & Investment Risk - TradingKey",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKa2tPMEJqYmVJV3VXN2Q1SGpwUENxeFp4V3ZiTVFxcGZoUkpMa0JWYjdfR1lXWHVmZUNxamNvSEZiOG9zS2FuOC1IWFVlZWl4SmpEVmk4RDVPbUlxYWQ1NkF6TktwR0xmNDlBeUFR?oc=5"
+        },
+        {
+          "title": "Avantor (AVTR) Extends HIV Prevention Partnership, Is The Upside Already Priced In? - simplywall.st",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNT2xCNXpUbkdxZ1ZKOHdic1E1YndndmVDZHd0Z3BtVVNkSXpmTmRYS1d0d2VHNlVUNnFDbG5aOHNYOTU4R1lXVzhBanBudXJoS3FiejJUSDk3emlHMHo5dFNpeWZlV09vblR1aVRCenJnZ2Z4OTFSYlNnbHh1WHdSY3duX0RjQnNtMUt1VFVkSXdsZ0NUWHYxUUQ3VnZxc0pCUUFqQ3NCRm1CSzBLLWpTZFJzeUZhQnRyN0J1TXhKMlF0XzV3elRiMnVkUHpTODZYU2FudjRB0gHbAUFVX3lxTFAxdEJQVW5DZ1M1V0QwQ1BZREZhUGFtX2lvN2VvRlE3T3dSY1VUbjE3aXRiRmVLMFVFdmlSQlZ6cnRQaG1uSVJ4TDBPS2lKZG5wLUR0azdSdHFDVmhsY1BMMUFXSGdsREMtamM1WF9PNTV2ZWhqSzJ0Zmg1bVlRVm9TVURUZ0cybUp2LWJVRS1kYW1ycW9KbTd1bGNEMGNEckdGaWJFbno1blg1U211MWhnWXhfS1BNTWF6WDlJa2F6Z3BGUkk3eGJnWWtzbnpWZmtpNU1yUEtCT1BNOA?oc=5"
+        },
+        {
+          "title": "How (AVTR) Movements Inform Risk Allocation Models - Stock Traders Daily",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSVhMak9yZkhIcE1Wd1BwR0xSUzZFRlEzYjI3SjR1ZzYyazVtWXlDNzh2UHVJdXBtdExJR2dWWVpBUEt2eFBkVHo1WXY1ZVk3UV9IOWtncWRWRGlibklnc3JyVHF0SUxscVFEY0dEYnRfMGgxeEU5UFZuXzFCcTlxMy0zeGxhdS1IazlLWk5LRFpvUVdWUkVQcmlWSW1mU1lpRHUyZFZaWEtySzhwOW9kUk0yMjhFZi1IQ0xYSFMzWXFMODh2YnVJ?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Avantor (NYSE:AVTR) Delivers Impressive Q2 CY2026, Stock Soars - StockStory",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "SBSW",
+      "price": 8.38,
+      "gap_pct": 3.58,
+      "pm_volume": 102162,
+      "avg_vol_10d": 4602824,
+      "avg_dollar_vol": 38571665,
+      "mkt_cap": 5855639374,
+      "rvol": 0.85,
+      "adr_pct": 3.54,
+      "category": "Others",
+      "theme": "Others",
+      "reasoning": "Sibanye Stillwater Ltd (SBSW) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
+      "hypothesis": "Medium Conviction (RS Hold) — Monitor price action at open.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Sibanye Stillwater Ltd (SBSW) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey | Impact: See analysis.",
+      "analysis_details": "Sibanye Stillwater Ltd (SBSW) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Sibanye Stillwater Ltd (SBSW) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tZlZOSFZFVzVfYThobS1CVWlxeURWZDRLYjBZQjNzMVlCbUFUOTVYLUtfRDJxZE9EY1VERFZGWGJRdm80a00yM3ZJSlp2YkNRNmxleVhpUlRhUEdudExJcDkzTVZ5TW8?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (Avg $Vol $39M < $100M, ADR 3.5% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Sibanye Stillwater Ltd (SBSW) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 2,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": false,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "Fail",
+      "tier_label": "Excluded"
+    },
+    {
+      "ticker": "TEVA",
+      "price": 31.67,
+      "gap_pct": 3.57,
+      "pm_volume": 119860,
+      "avg_vol_10d": 4601363,
+      "avg_dollar_vol": 145725166,
+      "mkt_cap": 36540053012,
+      "rvol": 1.25,
+      "adr_pct": 2.85,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Teva's UZEDY Therapy Volume Rose 63%; More Than 800 Prescribers Added Monthly - Stock Titan",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Teva's UZEDY Therapy Volume Rose 63%; More Than 800 Prescribers Added Monthly - Stock Titan | Impact: See analysis.",
+      "analysis_details": "Teva's UZEDY Therapy Volume Rose 63%; More Than 800 Prescribers Added Monthly - Stock Titan",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Teva's UZEDY Therapy Volume Rose 63%; More Than 800 Prescribers Added Monthly - Stock Titan",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWxRajNwb29UNktZa252enBvSl9ia3FpTTdGcmctdXlUbmx0cDBNdU9Sc080YW53TGE2YV9wVVEwNmZabG56VjRrMFNaaEpiZEJaR3hTanlabmlfbGVNMnpoUkw1QzhzZ2RqaGg4dkpmZFQ2VjROOHdyb3FoR1lIRzF1U3N3aldqOFlqU3FfeElUYXI1NUVKRTBFV1B2T3ZsTl9CS28xZ0NJRHJKWk9YbDIxUk5Jdw?oc=5"
+        },
+        {
+          "title": "Teva stock gains after Q2 revenue beat (TEVA:NYSE) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EbzVVQjhWdDEwV3YxQml4elRVV1AwVFJGYzVaWURXVHRmTGxXODV3ckhzZnBzRmJ3NVV1a2ZKU2V4WnN6OWNpTEtqTHVMX2JTSGRWdmVuZXROaG1icXMxZEpYYW1kazNQbklVWFlLZHM4NlNnbG84dHRR?oc=5"
+        },
+        {
+          "title": "Teva posts strong revenue growth as branded drugs surpass $1 billion, despite acquisition-driven loss - calcalistech.com",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41alpsSU5DUVFMN2FJZ1dfNThsZ2JXVDdadFBna2gtdWVLX05FNWRSQTdINUtfb2FsTTlDV1FPcm9ZbFV6Q29obTlPTU85Yk1YTFNYRWVzcm5KNlVJZ0lRRndTQm5ZY0E?oc=5"
+        },
+        {
+          "title": "Teva Pharmaceutical Industries Ltd. $TEVA Shares Purchased by ADAR1 Capital Management LLC - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR2tUR3FPQ1lteG51U0N6Q2otSEtHakt1dmRXWm4xeFVfMXFmMmZZeUozalhndDE5R1ptNnNZZ0FheUkwTnBtTDQ5a24tTmptRjQ2VlQzWG9uWTBSQkE4Q2JvVzBYcXc4UVlNZGtCeWlmWlpPVWxqVHFDRzNBVENIMXlzVFRxZ3kxUldfbXZ1bGVsbmhWVEk0X0FWSmtSWkczZW56cmd6X3BRNUhjSmRlZzE2MnNBdnlabGtteHpPOHZJc1NWbVUxbk5PQV9HNjdIYk5mcHdxVEpXb3BuYmdGcU5xZw?oc=5"
+        },
+        {
+          "title": "Teva Stock Is Rebounding. Its Drug Pipeline Holds the Key to Growth. - Barron's",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORFFMWkF6MUVvbVhidl9aaE9BUW1IMWlSaGZSNnV5NDJFQnlINHZyazZndGM2T0dTZ2ZYelJzVFJUWjhqUmY5Nk5nQ2FBM3p6amp4d3dqbHlWVlNJYlB2T3ZCVk5wV3hnTjhDSzBXNXEzTy16dlIwT0N6dDVuQnhwZUFoUndSdTlpUUE?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 2.9% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Teva's UZEDY Therapy Volume Rose 63%; More Than 800 Prescribers Added Monthly - Stock Titan",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 4,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "WDC",
+      "price": 463.51,
+      "gap_pct": 3.39,
+      "pm_volume": 130807,
+      "avg_vol_10d": 7571157,
+      "avg_dollar_vol": 3509306981,
+      "mkt_cap": 159763616935,
+      "rvol": 1.56,
+      "adr_pct": 7.62,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Fund Update: 43,900 WESTERN DIGITAL (WDC) shares added to FJARDE AP-FONDEN |FOURTH SWEDISH NATIONAL PENSION FUND portfolio - Quiver Quantitative",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Fund Update: 43,900 WESTERN DIGITAL (WDC) shares added to FJARDE AP-FONDEN |FOURTH SWEDISH NATIONAL PENSION FUND portfolio - Quiver Quantitative | Impact: See analysis.",
+      "analysis_details": "Fund Update: 43,900 WESTERN DIGITAL (WDC) shares added to FJARDE AP-FONDEN |FOURTH SWEDISH NATIONAL PENSION FUND portfolio - Quiver Quantitative",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Fund Update: 43,900 WESTERN DIGITAL (WDC) shares added to FJARDE AP-FONDEN |FOURTH SWEDISH NATIONAL PENSION FUND portfolio - Quiver Quantitative",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSVpxemFQOElhMGl0Z1ZoSUFtUUx5YVpnYUM1MWpDbzlmVE1VODF6QmVJMVRYaUM0bHlSZjZRTkZhbl9VOUxqWUhJbXByT3pDSVAyY1NGUFJBS01od2RtcEVkei1FWlJLVjR5VE5BeXI4Mzk0bGdobGczU0ZjRjkwSkJrQjdQZmpTWmw5U21kUVhsVUpNZnFLd3lZMmp6RnRJSV91c0toOWNhSGlXS2tOWHMwUE5HVXE3VmVqdTNPMGl3Y3BXLVRYM0hzZ1NfMWRQeG50c3RBOTBSc1g0NGtJSGFXMndiZjV2Tm1qcHBPTklrZlBQcThuYg?oc=5"
+        },
+        {
+          "title": "MU, SNDK, WDC, Memory Stocks Plunge After SK Hynix Issues Weak Forecast: Analyst Says ‘Estimates Are BS In Exponential Growth’ - Yahoo Finance",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTEk1T3Bwb2xmdzBjZml4OEk5TS04THlPZmhkd25xVTZRVWdhN2ozcVRrM0NTZHkxcjREZ0FVdTZuM0wyblcwdVNEdS16S0Y3UDY5d0NFczg5WGxFSVNmZkJpeVRRcjl0dVctYUVvMGNEbHRJbHlqaWR2U2l0Vmsxc3hrcGRSTktHMzgzYnVWTUZybTdr?oc=5"
+        },
+        {
+          "title": "Cramer Sees Echoes of Dot-Com Bust as Wall Street Flees AI Stocks for Safety",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/c2d39088-c6d5-3d65-8d21-2fc3c3af8c89/cramer-sees-echoes-of-dot-com.html"
+        },
+        {
+          "title": "What The Options Market Is Signaling About The Volatility In SanDisk Stock",
+          "source": "Finviz",
+          "url": "https://finance.yahoo.com/m/d3c2678a-0090-3187-a9ed-e9b71e145609/what-the-options-market-is.html"
+        },
+        {
+          "title": "Why the Dow Gained 500 Points, but the Nasdaq Struggled",
+          "source": "Finviz",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-072826/card/why-the-dow-gained-500-points-but-the-nasdaq-struggled-AKIeXTsTRs6tlD7s2HVC?mod=bar_FV"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Fund Update: 43,900 WESTERN DIGITAL (WDC) shares added to FJARDE AP-FONDEN |FOURTH SWEDISH NATIONAL PENSION FUND portfolio - Quiver Quantitative",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "VG",
+      "price": 12.17,
+      "gap_pct": 3.29,
+      "pm_volume": 77362,
+      "avg_vol_10d": 18581408,
+      "avg_dollar_vol": 226135735,
+      "mkt_cap": 30234637026,
+      "rvol": 0.82,
+      "adr_pct": 5.23,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "Venture Global, Inc. $VG Shares Sold by Readystate Asset Management LP - MarketBeat",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: Venture Global, Inc. $VG Shares Sold by Readystate Asset Management LP - MarketBeat | Impact: See analysis.",
+      "analysis_details": "Venture Global, Inc. $VG Shares Sold by Readystate Asset Management LP - MarketBeat",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "Venture Global, Inc. $VG Shares Sold by Readystate Asset Management LP - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc01hdFBIUVlvSy0welFrU0Y4bERDeTRmSTRsQTJzZkhBRTMzaWJwdWgtVDRxbFdjalpPSDgyTmhzUXE4b2FGOWZucjgyUHRGTlowQ3JjWWJidjl4WVlDbVJzc0F4MVNGbGRqWVVWdDdHMXJnSF9MV2tkYmdCREVab3ZaYnZJQ3diMEtHU1ZxNWhCVFB6bnpUS0ltRzBYeFhGd3RYZWVSdFphM1lRa3J6Z2szVENTWHBLVU5vRXZ4MlU0cHhhYzlJ?oc=5"
+        },
+        {
+          "title": "Jonathan Thayer Sells 111,111 Shares of Venture Global (NYSE:VG) Stock - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFZWNmQ3S2Q2NVhiVi1CZEpOVzFtdUZqdkxkbEJGUmxNWm42c052ejV2Vkc5c2tRaVdiajNhc2o3R2hfZ0hON2FxZ2ZfR1FnbG8zeEs0Nld3U1ZFdTRSakZGSFdCdy13OWppYldXd2R6MjNfRkZkS3g3MGVjdkZvbkJOVFRnOHlDZkVYQ2ZudmtqTFJIRlhoV2NQeHNxb1lOMjRfN1hZQzdOZENOTERqc21UeVZiaDV6Tmd5bw?oc=5"
+        },
+        {
+          "title": "VG Stock Surges On New LNG Supply Deals, Strong Q1 Report – Retail Says Venture Global Is A Solid Hold - Stocktwits",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMFlBNWtJMWJPQ18wX09ld3EtZWlIbTZfMWlCQlNYMjdRWTVNWTBsTkNsX0pzWXZMTjNROFhqcnEydzVYVGdqdVhtZnNVTVBaRWdtZXNEN3lGLVNMRUhDMDBVYlI5WGFfYUVCWUFFTVFvWG9zeEVudzNoUU5SbE1nQ1ZCUnlwcWNhVUhUOW9keW1DazVpdFhxdmhmaldiNmV5bWt1OXRzbUZTWE95eDVBTTJTRk54QmlYU3dkTzBrMlo0MFl4bUtKV2gzQXJsQ2xUeDNlMF9zbmZ4U3VjUjJXbmlpV3dCZDlWa0U5U2xSUXhiMEVSbFE?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Pass",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "Venture Global, Inc. $VG Shares Sold by Readystate Asset Management LP - MarketBeat",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 5,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": true,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": true
+      },
+      "meets_all_gates": true,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "STLA",
+      "price": 5.76,
+      "gap_pct": 3.13,
+      "pm_volume": 409303,
+      "avg_vol_10d": 17835915,
+      "avg_dollar_vol": 102734870,
+      "mkt_cap": 21680171636,
+      "rvol": 1.84,
+      "adr_pct": 2.52,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "122,000 Reasons to Believe This Turnaround Story Stock Will Soar - The Motley Fool",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "B",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: 122,000 Reasons to Believe This Turnaround Story Stock Will Soar - The Motley Fool | Impact: See analysis.",
+      "analysis_details": "122,000 Reasons to Believe This Turnaround Story Stock Will Soar - The Motley Fool",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "122,000 Reasons to Believe This Turnaround Story Stock Will Soar - The Motley Fool",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlhITVFDVnJqY3Z0eG1zc1FsajIyQ09ucm9PSWM3VlZaR3ZNbVlPYTRRYTVrSmdyRy02NG5EUjM1ZkpkaUpOT19VcWhjQ0tDYVkxZXV0ZmFaUlpfRld0M3AzV0VSZXdEMVRzOVpZbzRZbUU1QmRuNkkySjdxUEp5VEpQR0t6Z19sVGFUcmtLaw?oc=5"
+        },
+        {
+          "title": "Bank of New York Mellon Corp Sells 220,256 Shares of Stellantis N.V. $STLA - MarketBeat",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOE1kS01GWmdKNEpFbl9UOFNsaExDZ1ZjWGxuLUNPUWdOZGRBdHFtLWFKV1EwOGdPa3BDX1QtSXM5RlZoaF90ZXVPMVVja0llZEcwWWxBOGt3eVVYYU5LdVBCWkFRWDZ4WDZUVFQxUjBXTXk5cHVqaWhaV2lib0Z4ZGtXVDVqbHlPQkgxZjl5VTBDY293X2VHTVlqMWV4TF9jdkg5T3RKbmljTmY2NF8xcF9KaVVTYXpkQm9FV3YwREEyblFkczFOWm1Eaw?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 2.5% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "122,000 Reasons to Believe This Turnaround Story Stock Will Soar - The Motley Fool",
+        "discrepancy_note": ""
+      },
+      "gates_passed": 3,
+      "gates_detail": {
+        "gate_rs": true,
+        "gate_price": false,
+        "gate_dollar_vol": true,
+        "gate_mkt_cap": true,
+        "gate_adr": false
+      },
+      "meets_all_gates": false,
+      "tier": "T2",
+      "tier_label": "Strong Catalyst"
+    },
+    {
+      "ticker": "BP",
+      "price": 41.67,
+      "gap_pct": 3.06,
+      "pm_volume": 159641,
+      "avg_vol_10d": 6343251,
+      "avg_dollar_vol": 264323269,
+      "mkt_cap": 107931197289,
+      "rvol": 1.32,
+      "adr_pct": 1.56,
+      "category": "Earnings",
+      "theme": "Earnings",
+      "reasoning": "BP Stock | Should You Buy Now? | BP Stock Analysis Danny Rohl (RMjvMGMTnC) - Mshale",
+      "hypothesis": "High Conviction (Gap & Go) — Watch for 5-min ORB above PM High.",
+      "conviction": 50,
+      "grade": "C",
+      "finviz_theme": "—",
+      "analysis_detail": "Catalyst: BP Stock | Should You Buy Now? | BP Stock Analysis Danny Rohl (RMjvMGMTnC) - Mshale | Impact: See analysis.",
+      "analysis_details": "BP Stock | Should You Buy Now? | BP Stock Analysis Danny Rohl (RMjvMGMTnC) - Mshale",
+      "peer_tickers": [],
+      "headlines": [
+        {
+          "title": "BP Stock | Should You Buy Now? | BP Stock Analysis Danny Rohl (RMjvMGMTnC) - Mshale",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZMUtDRlRjSGc2SUFwaTAtcGhlN25uOGlaYTBZNkpRRlVuWVNYUmxMMzBadEsybWhXaGJ5M1QwM2VwNUpaX0lab0tRbXp1aDF5bUZUMm5LUG9IVGM?oc=5"
+        },
+        {
+          "title": "BP Stock Surge? What’s Really Driving The Buzz In 2025 River Plate - Gimnasia (yVDqYFepg1) - Mshale",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sSnBuUlFqblhSZF83ekdTSUllSFVaT1VhZlZsemtIcXZGbXBEanM2NW9YUDktOGMtc2dJMThaNnBfYXo0VzdCcXNBSmoyS21aa1RjdWFYcldZbWs?oc=5"
+        },
+        {
+          "title": "BP: Cheap, Low-Leveraged, And Positioned For Stronger Earnings (NYSE:BP) - Seeking Alpha",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1RwaTdpN1c2WGNNa05PRF9QeU9yR0RvWkh2VnU5ZUNRUGV4UlI3NlI1dl94UlBldUJyT2t5TXI1aEp4QTd2elItSWVFeC1KMWFucDlDX0UxTkVHY3p2VkZvaVhLZFZTS0dIeEM4ZVFkNHdCdHAyTzlVUlhYYzB2anNZYTQ3Sy02WExpeUN4MnlnSFN3SjlXVkF3d1V2dzR4RElDOFRnWjg5MlVGMHM5Y20tWkRkd1VXQV9Z?oc=5"
+        }
+      ],
+      "float_shares": null,
+      "short_float": null,
+      "daily_pct": null,
+      "industry": "—",
+      "technical_status": "Fail (ADR 1.6% < 4%)",
+      "verification": {
+        "status": "Unconfirmed",
+        "confidence_score": 50,
+        "sources_consulted": [
+          "Finviz",
+          "Google News"
+        ],
+        "primary_claim": "BP Stock | Should You Buy Now? | BP Stock Analysis Danny Rohl (RMjvMGMTnC) - Mshale",
         "discrepancy_note": ""
       },
       "gates_passed": 4,
