@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 30, 2026 (15:25 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 30, 2026 (15:30 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-30T15:30:34.139138-04:00",
+      "pub_time": "2026-07-30T15:21:01-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "doj withdraws subpoenas to ny times reporters in trump plane probe",
@@ -1282,6 +1291,14 @@
     {
       "k": "china’s openweight model lead exposes america’s ai blind spot",
       "ts": "2026-07-30T18:55:32.022605+00:00"
+    },
+    {
+      "k": "trump says sanctions bill should include tariffs on iran despite trivial trade with us",
+      "ts": "2026-07-30T19:30:34.659421+00:00"
+    },
+    {
+      "k": "the odyssey extends stay in 70mm imax theaters as shows sell out weeks in advance",
+      "ts": "2026-07-30T19:30:34.659421+00:00"
     }
   ]
 }
