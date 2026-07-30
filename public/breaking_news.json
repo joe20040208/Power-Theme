@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 30, 2026 (19:00 EST)",
+  "last_checked": "July 30, 2026 (19:05 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Amazon got $600 million in Trump tariff refunds and will pass return along to some customers",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-30T19:05:35.541069-04:00",
+      "pub_time": "2026-07-30T18:46:47-04:00"
+    },
     {
       "headline": "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
       "source": "CNBC",
@@ -1343,6 +1351,10 @@
     {
       "k": "microsofts xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees",
       "ts": "2026-07-30T22:45:29.389389+00:00"
+    },
+    {
+      "k": "amazon got 600 million in trump tariff refunds and will pass return along to some customers",
+      "ts": "2026-07-30T23:05:36.242023+00:00"
     }
   ]
 }
