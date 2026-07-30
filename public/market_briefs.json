@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-30 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 741.69,
+    "spy_change_pct": 1.68,
+    "vix": 17.09,
+    "hy_oas": 2.87,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 60.9,
+    "mmth": 69.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-30 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1497,44 +1515,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "NVDA is experiencing renewed buying pressure driven by continued speculative interest in the AI sector and strong technical momentum, without new fundamental catalysts today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-18 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Tech-Led Risk-On Rally",
-    "spy_price": 746.74,
-    "spy_change_pct": 0.78,
-    "vix": 16.4,
-    "hy_oas": 2.63,
-    "yield_curve": 0.29,
-    "credit_status": "Complacent",
-    "s5fi": 55.9,
-    "mmth": 63.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "Intel surged today on reports of securing significant new contracts, signaling strong demand for its foundry and chip offerings."
-        },
-        {
-          "ticker": "MRVL",
-          "company": "Marvell Technology, Inc.",
-          "reason": "Marvell Technology saw substantial institutional flow driven by its pivotal role in the expanding AI infrastructure sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA remains a focus for AI exposure, benefiting from broad sector momentum rather than a fresh fundamental catalyst today."
         }
       ]
     }
