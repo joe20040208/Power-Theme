@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-30 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 729.46,
+    "spy_change_pct": -1.54,
+    "vix": 19.13,
+    "hy_oas": 2.84,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 63.0,
+    "mmth": 68.8,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-29 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1517,44 +1535,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA remains a focus for AI exposure, benefiting from broad sector momentum rather than a fresh fundamental catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-18 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Risk-Off Confirmation",
-    "spy_price": 740.96,
-    "spy_change_pct": -1.25,
-    "vix": 17.5,
-    "hy_oas": 2.71,
-    "yield_curve": 0.29,
-    "credit_status": "Complacent",
-    "s5fi": 54.6,
-    "mmth": 64.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA shares are catching a bid after announcing a new breakthrough in quantum computing integration, positioning it as a leader in next-gen AI infrastructure."
-        },
-        {
-          "ticker": "JPM",
-          "company": "JPMorgan Chase & Co.",
-          "reason": "JPMorgan Chase is gaining traction following an analyst upgrade citing robust net interest margin expansion and a strong capital return outlook for the remainder of the year."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "TSLA",
-          "company": "Tesla Inc.",
-          "reason": "Tesla remains under pressure as concerns persist over production stability and competitive pricing, with no new catalysts emerging to offset negative sentiment."
         }
       ]
     }
