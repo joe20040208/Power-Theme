@@ -1,16 +1,7 @@
 {
-  "last_checked": "July 30, 2026 (15:00 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Treasury sell-off continues after divided Fed holds interest rates steady",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-07-30T03:00:39.379512-04:00",
-      "pub_time": "2026-07-30T02:56:06-04:00"
-    }
-  ],
+  "last_checked": "July 30, 2026 (15:05 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "as the sp 500 sells off traders eye key risk pivot level",
