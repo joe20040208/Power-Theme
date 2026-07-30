@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 30, 2026 (09:50 EST)",
+  "last_checked": "July 30, 2026 (09:55 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -12,10 +12,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
-      "ts": "2026-07-23T13:50:32.145704+00:00"
-    },
     {
       "k": "american airlines stock tumbles 8 as fuel spike further postpones turnaround",
       "ts": "2026-07-23T14:00:41.859660+00:00"
@@ -1275,6 +1271,10 @@
     {
       "k": "meta tanks 9 continuing record losing streak while microsoft jumps 14 as ai trade splits",
       "ts": "2026-07-30T13:40:38.916526+00:00"
+    },
+    {
+      "k": "starbucks raises fullyear outlook as ceo tells cnbc the chain is winning back customer loyalty",
+      "ts": "2026-07-30T13:55:36.510535+00:00"
     }
   ]
 }
