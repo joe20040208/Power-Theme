@@ -1,5 +1,5 @@
 {
-  "last_checked": "July 30, 2026 (19:25 EST)",
+  "last_checked": "July 30, 2026 (19:30 EST)",
   "has_alert": true,
   "alerts": [
     {
@@ -1355,6 +1355,10 @@
     {
       "k": "amazon got 600 million in trump tariff refunds and will pass return along to some customers",
       "ts": "2026-07-30T23:05:36.242023+00:00"
+    },
+    {
+      "k": "anthropic says its claude models gained unauthorized access to other organizations systems",
+      "ts": "2026-07-30T23:30:37.786228+00:00"
     }
   ]
 }
