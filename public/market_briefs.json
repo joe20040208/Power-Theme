@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-31 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 747.03,
+    "spy_change_pct": 0.72,
+    "vix": 15.99,
+    "hy_oas": 2.84,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 61.0,
+    "mmth": 68.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-31 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1457,44 +1475,6 @@
           "ticker": "BA",
           "company": "The Boeing Company",
           "reason": "Continues to face scrutiny over production delays for key aircraft models, creating ongoing overhang despite some positive delivery news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-19 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Tech-Led Rally, Risk-On",
-    "spy_price": 746.74,
-    "spy_change_pct": 1.04,
-    "vix": 16.78,
-    "hy_oas": 2.63,
-    "yield_curve": 0.27,
-    "credit_status": "Complacent",
-    "s5fi": 55.9,
-    "mmth": 63.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "Intel's new partnership and foundry validation underpin a bullish outlook for its semiconductor manufacturing capabilities and market share."
-        },
-        {
-          "ticker": "HIVE",
-          "company": "Hive Digital Technologies Inc.",
-          "reason": "Hive's strategic pivot into AI and new contract wins position it for significant growth in the high-demand artificial intelligence sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "Nvidia Corporation",
-          "reason": "No specific new catalyst today, but continues to attract strong investor flow on underlying AI demand and broad market momentum."
         }
       ]
     }
