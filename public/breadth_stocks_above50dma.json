@@ -2,100 +2,88 @@
   "ok": true,
   "filter": "above50dma",
   "label": ">50 DMA",
-  "count": 7,
+  "count": 6,
   "stocks": [
     {
       "ticker": "FBRX",
       "company": "Forte Biosciences, Inc.",
       "industry": "Biotechnology",
-      "price": 76.98,
-      "change_pct": 0.59,
-      "adr_pct": 6.3,
-      "dollar_volume": "$259.6M",
-      "market_cap_b": 1.576,
+      "price": 76.6,
+      "change_pct": -0.49,
+      "adr_pct": 5.9,
+      "dollar_volume": "$259.8M",
+      "market_cap_b": 1.569,
       "rs_ibd": 98,
-      "above50dma_pct": 150.8
+      "above50dma_pct": 140.7
     },
     {
       "ticker": "TRAX",
       "company": "First Tracks Biotherapeutics, Inc.",
       "industry": "Biotechnology",
-      "price": 47.78,
-      "change_pct": 14.12,
-      "adr_pct": 8.2,
-      "dollar_volume": "$42.5M",
-      "market_cap_b": 1.667,
-      "rs_ibd": 92,
-      "above50dma_pct": 99.7
+      "price": 44.04,
+      "change_pct": -7.83,
+      "adr_pct": 9.0,
+      "dollar_volume": "$40.0M",
+      "market_cap_b": 1.537,
+      "rs_ibd": 90,
+      "above50dma_pct": 80.0
     },
     {
       "ticker": "UTZ",
       "company": "Utz Brands Inc",
       "industry": "Food: Specialty/Candy",
-      "price": 14.11,
-      "change_pct": 0.36,
-      "adr_pct": 3.4,
-      "dollar_volume": "$165.6M",
-      "market_cap_b": 2.031,
-      "rs_ibd": 71,
-      "above50dma_pct": 66.2
+      "price": 14.12,
+      "change_pct": 0.07,
+      "adr_pct": 3.2,
+      "dollar_volume": "$165.5M",
+      "market_cap_b": 2.033,
+      "rs_ibd": 76,
+      "above50dma_pct": 63.7
     },
     {
       "ticker": "CRNX",
       "company": "Crinetics Pharmaceuticals, Inc.",
       "industry": "Pharmaceuticals: Major",
-      "price": 83.63,
-      "change_pct": -0.3,
-      "adr_pct": 1.8,
-      "dollar_volume": "$288.7M",
-      "market_cap_b": 8.862,
+      "price": 83.52,
+      "change_pct": -0.13,
+      "adr_pct": 1.7,
+      "dollar_volume": "$259.0M",
+      "market_cap_b": 8.85,
       "rs_ibd": 96,
-      "above50dma_pct": 57.5
+      "above50dma_pct": 54.5
+    },
+    {
+      "ticker": "CDNA",
+      "company": "CareDx, Inc.",
+      "industry": "Medical Specialties",
+      "price": 43.71,
+      "change_pct": 14.72,
+      "adr_pct": 5.2,
+      "dollar_volume": "$49.8M",
+      "market_cap_b": 2.258,
+      "rs_ibd": 96,
+      "above50dma_pct": 54.2
     },
     {
       "ticker": "CBZ",
       "company": "CBIZ, Inc.",
       "industry": "Miscellaneous Commercial Services",
-      "price": 55.25,
-      "change_pct": 0.64,
-      "adr_pct": 4.3,
-      "dollar_volume": "$148.4M",
-      "market_cap_b": 2.964,
-      "rs_ibd": 55,
-      "above50dma_pct": 52.6
-    },
-    {
-      "ticker": "HURN",
-      "company": "Huron Consulting Group Inc.",
-      "industry": "Miscellaneous Commercial Services",
-      "price": 163.76,
-      "change_pct": -3.88,
-      "adr_pct": 5.4,
-      "dollar_volume": "$74.3M",
-      "market_cap_b": 2.605,
-      "rs_ibd": 72,
-      "above50dma_pct": 51.3
-    },
-    {
-      "ticker": "PBF",
-      "company": "PBF Energy Inc.",
-      "industry": "Oil Refining/Marketing",
-      "price": 73.1,
-      "change_pct": 15.39,
-      "adr_pct": 5.4,
-      "dollar_volume": "$251.7M",
-      "market_cap_b": 8.648,
-      "rs_ibd": 93,
-      "above50dma_pct": 50.7
+      "price": 55.08,
+      "change_pct": -0.31,
+      "adr_pct": 4.0,
+      "dollar_volume": "$153.5M",
+      "market_cap_b": 2.955,
+      "rs_ibd": 54,
+      "above50dma_pct": 50.1
     }
   ],
   "spx_benchmarks": {
-    "spx_1d": 1.66,
-    "spx_1m": -0.61,
-    "spx_3m": 3.17,
-    "spx_34d": 0.59,
-    "spx_qtd": -0.61,
-    "spx_mtd": -0.61
+    "spx_1d": 0.7,
+    "spx_1m": 0.09,
+    "spx_3m": 3.59,
+    "spx_34d": 0.78,
+    "spx_qtd": 0.09,
+    "spx_mtd": 0.09
   },
-  "fetched_at_utc": "2026-07-30T21:52:45+00:00"
+  "fetched_at_utc": "2026-07-31T21:51:44+00:00"
 }
