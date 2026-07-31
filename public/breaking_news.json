@@ -1,7 +1,16 @@
 {
-  "last_checked": "July 31, 2026 (14:15 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "July 31, 2026 (14:20 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-31T14:20:32.733274-04:00",
+      "pub_time": "2026-07-31T14:16:18-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "strait of hormuz traffic may not return to normal for 12 months or more according to prediction mar",
@@ -1410,6 +1419,10 @@
     {
       "k": "the sp 500 is stuck at a key battleground level this obscure index could determine the market’s ne",
       "ts": "2026-07-31T18:15:43.627810+00:00"
+    },
+    {
+      "k": "analysis markets heard a dovish kevin warsh the fed chairmans own words suggest a rate hike",
+      "ts": "2026-07-31T18:20:33.223162+00:00"
     }
   ]
 }
