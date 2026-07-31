@@ -1,7 +1,15 @@
 {
-  "last_checked": "July 31, 2026 (17:25 EST)",
+  "last_checked": "July 31, 2026 (17:53 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump's AI executive order nears key deadline as regulation debate intensifies",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-07-31T17:53:59.566694-04:00",
+      "pub_time": "2026-07-31T17:46:32-04:00"
+    },
     {
       "headline": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
       "source": "CNBC",
@@ -1403,6 +1411,14 @@
     {
       "k": "alphabet amazon and microsoft added nearly 15 trillion in combined value this week",
       "ts": "2026-07-31T20:20:33.252474+00:00"
+    },
+    {
+      "k": "trumps ai executive order nears key deadline as regulation debate intensifies",
+      "ts": "2026-07-31T21:54:00.056146+00:00"
+    },
+    {
+      "k": "trump appeals order that slammed his irs lawsuit and referred his lawyer to bar",
+      "ts": "2026-07-31T21:54:00.056146+00:00"
     }
   ]
 }
