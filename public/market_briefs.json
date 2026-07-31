@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-07-31 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 741.69,
+    "spy_change_pct": 1.68,
+    "vix": 16.97,
+    "hy_oas": 2.87,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 60.9,
+    "mmth": 69.7,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-30 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1477,44 +1495,6 @@
           "ticker": "NVDA",
           "company": "Nvidia Corporation",
           "reason": "No specific new catalyst today, but continues to attract strong investor flow on underlying AI demand and broad market momentum."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-19 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Divergence, US Retreat",
-    "spy_price": 739.06,
-    "spy_change_pct": -1.25,
-    "vix": 17.09,
-    "hy_oas": 2.63,
-    "yield_curve": 0.27,
-    "credit_status": "Complacent",
-    "s5fi": 55.9,
-    "mmth": 63.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "GOOGL is anticipated to open higher following a critical report indicating accelerating cloud market share gains and positive sentiment from its recent AI product showcase."
-        },
-        {
-          "ticker": "PFE",
-          "company": "Pfizer Inc.",
-          "reason": "PFE is drawing bullish attention after announcing promising Phase 3 trial results for a novel oncology drug, suggesting significant revenue potential."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "NVDA is experiencing renewed buying pressure driven by continued speculative interest in the AI sector and strong technical momentum, without new fundamental catalysts today."
         }
       ]
     }
