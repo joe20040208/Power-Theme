@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-03 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 747.03,
+    "spy_change_pct": 0.72,
+    "vix": 15.99,
+    "hy_oas": 2.84,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 61.0,
+    "mmth": 68.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-07-31 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1437,44 +1455,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Positioning adjustments and sector rotation continue to drive NVDA's price action amidst a lack of fresh fundamental news today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-22 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Growth Resurgence / VIX Lift",
-    "spy_price": 746.74,
-    "spy_change_pct": 1.04,
-    "vix": 17.33,
-    "hy_oas": 2.63,
-    "yield_curve": 0.27,
-    "credit_status": "Complacent",
-    "s5fi": 55.9,
-    "mmth": 63.9,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Announces new AI computing architecture expected to revolutionize data center performance, sparking significant upgrades to price targets."
-        },
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Unveils surprisingly strong pre-orders for its latest augmented reality device, signaling robust consumer demand and a new product cycle inflection."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "BA",
-          "company": "The Boeing Company",
-          "reason": "Continues to face scrutiny over production delays for key aircraft models, creating ongoing overhang despite some positive delivery news."
         }
       ]
     }
