@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-03 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 757.67,
+    "spy_change_pct": 1.42,
+    "vix": 15.86,
+    "hy_oas": 2.84,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 61.6,
+    "mmth": 70.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-03 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1417,44 +1435,6 @@
           "ticker": "NVDA",
           "company": "Nvidia Corp.",
           "reason": "Nvidia sees continued analyst upgrades post-earnings, driven by ongoing AI server demand, maintaining strong technical momentum."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-22 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "US Cautious, Global Mixed",
-    "spy_price": 744.39,
-    "spy_change_pct": -0.31,
-    "vix": 17.28,
-    "hy_oas": 2.66,
-    "yield_curve": 0.27,
-    "credit_status": "Complacent",
-    "s5fi": 55.1,
-    "mmth": 63.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "WDC",
-          "company": "Western Digital Corporation",
-          "reason": "Strong demand for AI-related storage solutions and anticipated supply shortages fueled today's price action."
-        },
-        {
-          "ticker": "INTC",
-          "company": "Intel Corporation",
-          "reason": "Announcement of a significant new contract with Apple is expected to bolster Intel's foundry business and market position."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Positioning adjustments and sector rotation continue to drive NVDA's price action amidst a lack of fresh fundamental news today."
         }
       ]
     }
