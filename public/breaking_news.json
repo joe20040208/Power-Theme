@@ -1,7 +1,15 @@
 {
-  "last_checked": "August 03, 2026 (15:55 EST)",
+  "last_checked": "August 03, 2026 (16:00 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Twenty five states sue Trump administration over latest global tariffs",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-08-03T16:00:44.219227-04:00",
+      "pub_time": "2026-08-03T15:58:47-04:00"
+    },
     {
       "headline": "25 states sue Trump administration over latest global tariffs",
       "source": "CNBC",
@@ -1451,6 +1459,10 @@
     {
       "k": "25 states sue trump administration over latest global tariffs",
       "ts": "2026-08-03T19:50:27.185684+00:00"
+    },
+    {
+      "k": "twenty five states sue trump administration over latest global tariffs",
+      "ts": "2026-08-03T20:00:44.746864+00:00"
     }
   ]
 }
