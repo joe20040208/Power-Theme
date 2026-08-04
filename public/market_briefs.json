@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-04 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 747.03,
+    "spy_change_pct": 0.72,
+    "vix": 15.62,
+    "hy_oas": 2.84,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 61.6,
+    "mmth": 70.4,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-03 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1397,44 +1415,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "The stock traded primarily on broad market risk-off sentiment and technical weakness, lacking fresh fundamental catalysts to counter the downtrend."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-23 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-Off Deepens",
-    "spy_price": 744.39,
-    "spy_change_pct": -0.31,
-    "vix": 19.66,
-    "hy_oas": 2.66,
-    "yield_curve": 0.27,
-    "credit_status": "Complacent",
-    "s5fi": 55.1,
-    "mmth": 63.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft announces strategic partnership with a major AI infrastructure provider, signaling accelerated cloud expansion and AI integration."
-        },
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet's Waymo granted expanded robotaxi operating permit in a new major metropolitan area, pointing to significant revenue growth in autonomous driving."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "Nvidia Corp.",
-          "reason": "Nvidia sees continued analyst upgrades post-earnings, driven by ongoing AI server demand, maintaining strong technical momentum."
         }
       ]
     }
