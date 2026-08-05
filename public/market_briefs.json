@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-05 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 769.79,
+    "spy_change_pct": -0.2,
+    "vix": 15.81,
+    "hy_oas": 2.73,
+    "yield_curve": 0.43,
+    "credit_status": "Complacent",
+    "s5fi": 68.0,
+    "mmth": 71.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-05 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1337,44 +1355,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA",
           "reason": "Continues to see strong investor interest driven by persistent AI server demand and positive flow-based trading momentum, consolidating recent gains."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-24 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Broad Weakness, Unwinding Risk",
-    "spy_price": 733.24,
-    "spy_change_pct": -0.05,
-    "vix": 18.63,
-    "hy_oas": 2.71,
-    "yield_curve": 0.34,
-    "credit_status": "Complacent",
-    "s5fi": 60.5,
-    "mmth": 65.8,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MU",
-          "company": "Micron Technology, Inc.",
-          "reason": "Micron received a new analyst buy recommendation today, signaling strong conviction in its memory and storage solutions amidst increasing demand."
-        },
-        {
-          "ticker": "BE",
-          "company": "Bloom Energy Corporation",
-          "reason": "Bloom Energy announced a strategic partnership with Oracle to power AI campuses, positioning it strongly within the growing AI infrastructure market."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Microsoft showed minimal price movement today, with momentum largely driven by broader market sentiment and no fresh fundamental catalysts."
         }
       ]
     }
