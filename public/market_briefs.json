@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-06 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 769.79,
+    "spy_change_pct": -0.2,
+    "vix": 15.98,
+    "hy_oas": 2.73,
+    "yield_curve": 0.45,
+    "credit_status": "Complacent",
+    "s5fi": 68.0,
+    "mmth": 71.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-05 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1317,44 +1335,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corp.",
           "reason": "Continues to see steady flow and minor technical follow-through from prior AI-driven narratives, lacking fresh major news today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-25 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Optimism, US Futures Stable",
-    "spy_price": 733.24,
-    "spy_change_pct": -0.05,
-    "vix": 18.07,
-    "hy_oas": 2.71,
-    "yield_curve": 0.3,
-    "credit_status": "Complacent",
-    "s5fi": 60.4,
-    "mmth": 65.6,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "Receives accelerated FDA approval for a novel Alzheimer's treatment, significantly expanding its market potential and competitive advantage."
-        },
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Announces a major breakthrough in quantum computing, positioning itself as a key innovator in the rapidly evolving AI landscape."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA",
-          "reason": "Continues to see strong investor interest driven by persistent AI server demand and positive flow-based trading momentum, consolidating recent gains."
         }
       ]
     }
