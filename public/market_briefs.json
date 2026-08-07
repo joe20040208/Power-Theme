@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-07 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 768.56,
+    "spy_change_pct": -0.16,
+    "vix": 15.17,
+    "hy_oas": 2.75,
+    "yield_curve": 0.44,
+    "credit_status": "Complacent",
+    "s5fi": 66.2,
+    "mmth": 71.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-06 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1297,44 +1315,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA (NVDA) sees continued institutional accumulation as analysts reiterate strong AI chip demand forecasts ahead of quarter-end, reflecting sustained flow into the sector."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-25 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Cautious Growth Momentum",
-    "spy_price": 734.3,
-    "spy_change_pct": 0.14,
-    "vix": 18.89,
-    "hy_oas": 2.76,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 61.3,
-    "mmth": 65.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "MU",
-          "company": "Micron Technology",
-          "reason": "Strong Q2 earnings beat and raised guidance signal robust demand in the semiconductor sector."
-        },
-        {
-          "ticker": "GLW",
-          "company": "Corning Inc.",
-          "reason": "Announced a significant deal with Amazon for data center infrastructure, signaling strong growth in optical communications."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Continues to see steady flow and minor technical follow-through from prior AI-driven narratives, lacking fresh major news today."
         }
       ]
     }
