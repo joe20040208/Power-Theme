@@ -1,5 +1,5 @@
 {
-  "generated_at": "August 06, 2026 (18:30 EDT)",
+  "generated_at": "August 06, 2026 (21:03 EDT)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -32,8 +32,8 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66300.44,
-      "change_pct": 3.66
+      "price": 65121.81,
+      "change_pct": -1.78
     },
     "dax": {
       "label": "DAX",
@@ -42,8 +42,8 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10867.89,
-      "change_pct": -0.19
+      "price": 10888.3,
+      "change_pct": 0.08
     }
   },
   "macro_breadth": {
