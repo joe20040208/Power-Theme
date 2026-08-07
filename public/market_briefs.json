@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-07 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 773.26,
+    "spy_change_pct": 0.61,
+    "vix": 14.9,
+    "hy_oas": 2.71,
+    "yield_curve": 0.44,
+    "credit_status": "Complacent",
+    "s5fi": 67.2,
+    "mmth": 74.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-07 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1277,44 +1295,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corporation",
           "reason": "Microsoft showed continued strength today on persistent AI infrastructure demand narratives, maintaining its upward channel despite broader market weakness."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-26 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Divergent Growth / Volatility Rising",
-    "spy_price": 734.3,
-    "spy_change_pct": 0.14,
-    "vix": 20.09,
-    "hy_oas": 2.76,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 61.3,
-    "mmth": 65.2,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "AAPL",
-          "company": "Apple Inc.",
-          "reason": "Apple announces significant AI advancements for upcoming iOS 18 update, sparking upgrade cycle optimism and strong pre-market buying interest."
-        },
-        {
-          "ticker": "AMZN",
-          "company": "Amazon.com Inc.",
-          "reason": "Amazon Web Services (AWS) secures a multi-billion dollar strategic cloud contract with a major enterprise client, boosting Q2 outlook and driving fresh institutional accumulation."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA (NVDA) sees continued institutional accumulation as analysts reiterate strong AI chip demand forecasts ahead of quarter-end, reflecting sustained flow into the sector."
         }
       ]
     }
