@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-10 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 773.03,
+    "spy_change_pct": -0.03,
+    "vix": 15.46,
+    "hy_oas": 2.7,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 66.8,
+    "mmth": 72.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-10 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1237,44 +1255,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Continues to attract speculative interest based on the persistent AI narrative, but lacks fresh fundamental news beyond general sector trends."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-29 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "US Equity Softness / Global Stability",
-    "spy_price": 728.99,
-    "spy_change_pct": -0.72,
-    "vix": 18.27,
-    "hy_oas": 2.78,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 61.9,
-    "mmth": 66.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "Announcing a new generation of AI data center GPUs with significant performance improvements and energy efficiency gains, securing major pre-orders from hyperscalers."
-        },
-        {
-          "ticker": "TSM",
-          "company": "Taiwan Semiconductor Manufacturing Company",
-          "reason": "Reportedly finalizing plans for an accelerated expansion of its US chip fabrication facilities, bolstered by new federal incentives, ensuring future supply chain resilience."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "WMT",
-          "company": "Walmart Inc.",
-          "reason": "Continues to see volume from defensive rotation flows as investors seek stable consumer staples amidst broader market uncertainty, despite no fresh company-specific news."
         }
       ]
     }
