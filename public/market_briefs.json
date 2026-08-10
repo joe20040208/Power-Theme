@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-10 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 773.26,
+    "spy_change_pct": 0.61,
+    "vix": 15.46,
+    "hy_oas": 2.71,
+    "yield_curve": 0.46,
+    "credit_status": "Complacent",
+    "s5fi": 67.2,
+    "mmth": 74.0,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-07 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1257,44 +1275,6 @@
           "ticker": "WMT",
           "company": "Walmart Inc.",
           "reason": "Continues to see volume from defensive rotation flows as investors seek stable consumer staples amidst broader market uncertainty, despite no fresh company-specific news."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-26 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Global Divergence, Western Risk-Off",
-    "spy_price": 728.99,
-    "spy_change_pct": -0.72,
-    "vix": 18.41,
-    "hy_oas": 2.78,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 61.9,
-    "mmth": 66.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet announced a breakthrough in quantum AI computing today, propelling its cloud division to the forefront of enterprise solutions, leading to significant institutional upgrades."
-        },
-        {
-          "ticker": "LLY",
-          "company": "Eli Lilly and Company",
-          "reason": "Eli Lilly received fast-track FDA approval for its new Alzheimer's drug, positioning it for rapid market penetration and substantial revenue growth in the coming quarters."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Microsoft showed continued strength today on persistent AI infrastructure demand narratives, maintaining its upward channel despite broader market weakness."
         }
       ]
     }
