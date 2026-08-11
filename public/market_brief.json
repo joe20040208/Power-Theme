@@ -1,30 +1,30 @@
 {
-  "generated_at": "August 11, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "August 11, 2026 (10:20 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7753.11,
-      "change": -4.53,
-      "change_pct": -0.06
+      "price": 7759.94,
+      "change": 6.83,
+      "change_pct": 0.09
     },
     {
       "label": "Nasdaq 100",
-      "price": 29621.8,
-      "change": -100.5,
-      "change_pct": -0.34
+      "price": 29645.99,
+      "change": 24.19,
+      "change_pct": 0.08
     },
     {
       "label": "VIX",
-      "price": 15.53,
-      "change": 0.07,
+      "price": 15.46,
+      "change": 0.0,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.7,
-      "change": -0.0,
+      "price": 4.68,
+      "change": -0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -37,12 +37,12 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 26392.04,
-      "change_pct": 0.26
+      "price": 26435.68,
+      "change_pct": 0.42
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10873.03,
+      "price": 10873.01,
       "change_pct": 0.1
     }
   },
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 66.8,
-    "mmth": 72.3,
+    "s5fi": 67.2,
+    "mmth": 73.2,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
