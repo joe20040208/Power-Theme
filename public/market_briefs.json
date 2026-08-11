@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-11 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 773.03,
+    "spy_change_pct": -0.03,
+    "vix": 15.47,
+    "hy_oas": 2.7,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 66.8,
+    "mmth": 72.3,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-10 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1217,44 +1235,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "NVIDIA continues its upward trajectory driven by persistent AI sector tailwinds and short-covering activity, sustaining momentum from previous weeks' narratives."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-29 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "US Risk-On, Tech Leading",
-    "spy_price": 741.0,
-    "spy_change_pct": 1.65,
-    "vix": 17.65,
-    "hy_oas": 2.83,
-    "yield_curve": 0.28,
-    "credit_status": "Complacent",
-    "s5fi": 62.6,
-    "mmth": 65.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "IRDM",
-          "company": "Iridium Communications Inc.",
-          "reason": "Received an acquisition offer, signaling significant value unlock and potential for a merger arbitrage play."
-        },
-        {
-          "ticker": "ONDS",
-          "company": "Ondas Holdings Inc.",
-          "reason": "Benefited from an index inclusion and subsequent short squeeze, driving outsized momentum and positioning shifts."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Continues to attract speculative interest based on the persistent AI narrative, but lacks fresh fundamental news beyond general sector trends."
         }
       ]
     }
