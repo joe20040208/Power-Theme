@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-11 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 770.56,
+    "spy_change_pct": -0.32,
+    "vix": 15.28,
+    "hy_oas": 2.7,
+    "yield_curve": 0.47,
+    "credit_status": "Complacent",
+    "s5fi": 66.3,
+    "mmth": 72.8,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-11 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1197,44 +1215,6 @@
           "ticker": "MSFT",
           "company": "Microsoft Corp.",
           "reason": "Continued bullish sentiment largely driven by recycled AI narrative and broad market strength, rather than fresh catalyst today."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-30 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Strong Risk-On Momentum",
-    "spy_price": 741.0,
-    "spy_change_pct": 1.65,
-    "vix": 17.4,
-    "hy_oas": 2.83,
-    "yield_curve": 0.28,
-    "credit_status": "Complacent",
-    "s5fi": 62.6,
-    "mmth": 65.0,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOG",
-          "company": "Alphabet Inc.",
-          "reason": "Google surged after announcing a breakthrough in quantum AI computing, potentially revolutionizing data processing for enterprise clients."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corporation",
-          "reason": "Microsoft gained on reports of securing a multi-billion dollar AI infrastructure contract with a major government agency, reinforcing its leadership in cloud and AI solutions."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "NVIDIA continues its upward trajectory driven by persistent AI sector tailwinds and short-covering activity, sustaining momentum from previous weeks' narratives."
         }
       ]
     }
