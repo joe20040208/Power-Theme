@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-12 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 770.56,
+    "spy_change_pct": -0.32,
+    "vix": 15.37,
+    "hy_oas": 2.7,
+    "yield_curve": 0.48,
+    "credit_status": "Complacent",
+    "s5fi": 66.2,
+    "mmth": 72.8,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-11 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1177,44 +1195,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "NVIDIA continues to benefit from recycled momentum as investors rotate into established AI and semiconductor leaders after quarter-end rebalancing."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-06-30 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Risk-On Rally / Growth Bias",
-    "spy_price": 746.77,
-    "spy_change_pct": 0.78,
-    "vix": 16.45,
-    "hy_oas": 2.8,
-    "yield_curve": 0.28,
-    "credit_status": "Complacent",
-    "s5fi": 60.3,
-    "mmth": 64.1,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "ABVX",
-          "company": "AbbVie Inc.",
-          "reason": "Positive clinical trial data for a key pipeline asset drove significant investor interest."
-        },
-        {
-          "ticker": "RKLB",
-          "company": "Rocket Lab USA, Inc.",
-          "reason": "A major contract win significantly strengthens their position in the defense and space sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Continued bullish sentiment largely driven by recycled AI narrative and broad market strength, rather than fresh catalyst today."
         }
       ]
     }
