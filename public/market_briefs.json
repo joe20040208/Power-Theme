@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-13 17:05 ET",
+    "phase": "POST",
+    "session": "Post-Market",
+    "mood": "",
+    "spy_price": 777.88,
+    "spy_change_pct": 0.7,
+    "vix": 14.63,
+    "hy_oas": 2.71,
+    "yield_curve": 0.48,
+    "credit_status": "Complacent",
+    "s5fi": 71.2,
+    "mmth": 74.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-13 08:05 ET",
     "phase": "PRE",
     "session": "Pre-Market",
@@ -1117,44 +1135,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corporation",
           "reason": "Profit-taking continues in bellwether AI stock amidst broader tech sector weakness, without fresh fundamental catalysts."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-07-02 08:05 ET",
-    "phase": "PRE",
-    "session": "Pre-Market",
-    "mood": "Global Risk-Off / Tech Retreat",
-    "spy_price": 745.76,
-    "spy_change_pct": -0.14,
-    "vix": 16.53,
-    "hy_oas": 2.75,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 60.2,
-    "mmth": 64.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "GOOGL",
-          "company": "Alphabet Inc.",
-          "reason": "Alphabet (GOOGL) shares are gaining pre-market following reports of Google Cloud securing a substantial multi-year AI infrastructure deal with a major financial institution."
-        },
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "Microsoft (MSFT) is seeing positive momentum after unveiling a new suite of enterprise AI tools designed to enhance data analytics and cybersecurity for corporate clients."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp.",
-          "reason": "NVIDIA (NVDA) is experiencing continued technical selling pressure after yesterday's broader tech weakness, with traders watching for potential short-term oversold bounces."
         }
       ]
     }
