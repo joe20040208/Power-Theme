@@ -1,6 +1,6 @@
 {
-  "generated_at": "August 12, 2026 (18:30 EDT)",
-  "session": "Post-Market",
+  "generated_at": "August 13, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -16,15 +16,15 @@
     },
     {
       "label": "VIX",
-      "price": 14.55,
-      "change": -0.73,
+      "price": 14.53,
+      "change": -0.02,
       "change_pct": null,
       "zone_label": "Calm"
     },
     {
       "label": "10Y Yield",
-      "price": 4.68,
-      "change": -0.0,
+      "price": 4.67,
+      "change": -0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66970.22,
-      "change_pct": 2.08
+      "price": 68308.59,
+      "change_pct": 1.16
     },
     "dax": {
       "label": "DAX",
-      "price": 26391.42,
-      "change_pct": 0.26
+      "price": 26419.96,
+      "change_pct": 0.34
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10833.15,
-      "change_pct": -0.1
+      "price": 10794.26,
+      "change_pct": -0.36
     }
   },
   "macro_breadth": {
