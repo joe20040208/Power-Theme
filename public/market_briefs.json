@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-13 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 772.49,
+    "spy_change_pct": 0.25,
+    "vix": 14.54,
+    "hy_oas": 2.72,
+    "yield_curve": 0.48,
+    "credit_status": "Complacent",
+    "s5fi": 68.2,
+    "mmth": 71.9,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-12 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1137,44 +1155,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp.",
           "reason": "NVIDIA (NVDA) is experiencing continued technical selling pressure after yesterday's broader tech weakness, with traders watching for potential short-term oversold bounces."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-07-01 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "US Tech Under Pressure",
-    "spy_price": 745.76,
-    "spy_change_pct": -0.14,
-    "vix": 16.59,
-    "hy_oas": 2.75,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 60.2,
-    "mmth": 64.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "BE",
-          "company": "Bloom Energy",
-          "reason": "BE surged on news of an expanded partnership to provide critical infrastructure for a leading AI data center developer, signaling strong future demand."
-        },
-        {
-          "ticker": "NOW",
-          "company": "ServiceNow",
-          "reason": "NOW jumped after unveiling a new AI-driven cyber risk management offering, positioning it to capture market share in a critical and growing sector."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corp",
-          "reason": "NVDA traded largely on existing AI enthusiasm and technical flow today, with no fresh fundamental catalyst driving its price action."
         }
       ]
     }
