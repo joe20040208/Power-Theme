@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-14 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 777.88,
+    "spy_change_pct": 0.7,
+    "vix": 14.51,
+    "hy_oas": 2.71,
+    "yield_curve": 0.48,
+    "credit_status": "Complacent",
+    "s5fi": 71.1,
+    "mmth": 74.5,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-13 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1097,44 +1115,6 @@
           "ticker": "NVDA",
           "company": "NVIDIA Corp",
           "reason": "NVIDIA is experiencing continued technical selling pressure following yesterday's broad tech weakness, absent any fresh positive catalysts to stem the flow."
-        }
-      ]
-    }
-  },
-  {
-    "generated_at": "2026-07-02 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Tech Divergence, Global Resilience",
-    "spy_price": 744.78,
-    "spy_change_pct": -0.13,
-    "vix": 16.15,
-    "hy_oas": 2.74,
-    "yield_curve": 0.31,
-    "credit_status": "Complacent",
-    "s5fi": 62.6,
-    "mmth": 67.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "PLTR",
-          "company": "Palantir Technologies Inc.",
-          "reason": "Strong new contract wins signal accelerating enterprise and government adoption, reinforcing its growth trajectory."
-        },
-        {
-          "ticker": "HOOD",
-          "company": "Robinhood Markets, Inc.",
-          "reason": "Strategic move into AI-native blockchain and global expansion opens significant new revenue streams and market opportunities."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "NVDA",
-          "company": "NVIDIA Corporation",
-          "reason": "Profit-taking continues in bellwether AI stock amidst broader tech sector weakness, without fresh fundamental catalysts."
         }
       ]
     }
