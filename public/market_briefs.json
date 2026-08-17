@@ -1,5 +1,23 @@
 [
   {
+    "generated_at": "2026-08-17 08:05 ET",
+    "phase": "PRE",
+    "session": "Pre-Market",
+    "mood": "",
+    "spy_price": 776.34,
+    "spy_change_pct": -0.2,
+    "vix": 14.9,
+    "hy_oas": 2.71,
+    "yield_curve": 0.51,
+    "credit_status": "Complacent",
+    "s5fi": 72.6,
+    "mmth": 75.2,
+    "generational_buy_zone": false,
+    "reversal": false,
+    "reversal_description": "",
+    "ticker_intel": {}
+  },
+  {
     "generated_at": "2026-08-14 17:05 ET",
     "phase": "POST",
     "session": "Post-Market",
@@ -1060,43 +1078,5 @@
     "reversal": false,
     "reversal_description": "",
     "ticker_intel": {}
-  },
-  {
-    "generated_at": "2026-07-03 17:05 ET",
-    "phase": "POST",
-    "session": "Post-Market",
-    "mood": "Mixed Sentiment, Tech Weakness",
-    "spy_price": 744.78,
-    "spy_change_pct": -0.13,
-    "vix": 15.81,
-    "hy_oas": 2.75,
-    "yield_curve": 0.35,
-    "credit_status": "Complacent",
-    "s5fi": 62.6,
-    "mmth": 67.7,
-    "generational_buy_zone": false,
-    "reversal": false,
-    "reversal_description": "",
-    "ticker_intel": {
-      "a_grade": [
-        {
-          "ticker": "INFQ",
-          "company": "InfoQuest Corp.",
-          "reason": "Analyst Upgrade with Significant Price Target indicates strong institutional conviction and potential for immediate upward re-rating."
-        },
-        {
-          "ticker": "RIVN",
-          "company": "Rivian Automotive, Inc.",
-          "reason": "A strong Beat & Raise quarter signals robust operational execution and improving fundamental outlook, driving renewed investor confidence."
-        }
-      ],
-      "c_grade": [
-        {
-          "ticker": "MSFT",
-          "company": "Microsoft Corp.",
-          "reason": "While lacking a fresh news catalyst today, Microsoft continues to benefit from an underlying AI narrative and strong technical flows, making it a relevant name for sustained interest."
-        }
-      ]
-    }
   }
 ]
