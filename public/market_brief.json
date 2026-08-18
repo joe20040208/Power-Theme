@@ -1,49 +1,49 @@
 {
-  "generated_at": "August 17, 2026 (18:30 EDT)",
-  "session": "Post-Market",
+  "generated_at": "August 18, 2026 (08:53 EDT)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7745.06,
-      "change": -40.7,
-      "change_pct": -0.52
-    },
-    {
-      "label": "Nasdaq 100",
-      "price": 29995.38,
-      "change": -50.76,
+      "price": 7785.76,
+      "change": -13.23,
       "change_pct": -0.17
     },
     {
+      "label": "Nasdaq 100",
+      "price": 30046.14,
+      "change": -38.36,
+      "change_pct": -0.13
+    },
+    {
       "label": "VIX",
-      "price": 15.19,
-      "change": 0.94,
+      "price": 15.78,
+      "change": 1.53,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 4.72,
-      "change": 0.03,
+      "price": 4.74,
+      "change": 0.04,
       "change_pct": null,
-      "trend_label": "Stable"
+      "trend_label": "Rising"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 68713.8,
-      "change_pct": 0.59
+      "price": 67460.73,
+      "change_pct": -1.82
     },
     "dax": {
       "label": "DAX",
-      "price": 26440.31,
-      "change_pct": 0.53
+      "price": 26243.41,
+      "change_pct": -0.74
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10720.3,
-      "change_pct": -0.28
+      "price": 10747.52,
+      "change_pct": -0.02
     }
   },
   "macro_breadth": {
