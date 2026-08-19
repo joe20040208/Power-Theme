@@ -1,23 +1,23 @@
 {
-  "generated_at": "August 19, 2026 (08:53 EDT)",
-  "session": "Pre-Market",
+  "generated_at": "August 19, 2026 (09:45 EDT)",
+  "session": "Market Hours",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7691.76,
-      "change": -53.3,
-      "change_pct": -0.69
+      "price": 7722.41,
+      "change": 30.65,
+      "change_pct": 0.4
     },
     {
       "label": "Nasdaq 100",
-      "price": 29490.96,
-      "change": -504.42,
-      "change_pct": -1.68
+      "price": 29521.08,
+      "change": 30.12,
+      "change_pct": 0.1
     },
     {
       "label": "VIX",
-      "price": 15.45,
-      "change": -0.39,
+      "price": 15.16,
+      "change": -0.68,
       "change_pct": null,
       "zone_label": "Normal"
     },
@@ -37,21 +37,21 @@
     },
     "dax": {
       "label": "DAX",
-      "price": 26158.3,
-      "change_pct": 0.11
+      "price": 26114.07,
+      "change_pct": -0.05
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10744.84,
-      "change_pct": 0.16
+      "price": 10722.61,
+      "change_pct": -0.05
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 62.4,
-    "mmth": 70.2,
+    "s5fi": 67.6,
+    "mmth": 72.2,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
