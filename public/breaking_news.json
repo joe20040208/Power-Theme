@@ -1,16 +1,7 @@
 {
-  "last_checked": "September 03, 2026 (18:24 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-09-03T15:40:52.291750-04:00",
-      "pub_time": "2026-09-03T15:18:59-04:00"
-    }
-  ],
+  "last_checked": "September 04, 2026 (11:59 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "carney claps back at lutnick says canada will resume trade talks when the americans are ready",
@@ -79,6 +70,26 @@
     {
       "k": "automakers urge congress to permanently ban chinese connected vehicles in us",
       "ts": "2026-09-03T22:24:38.361458+00:00"
+    },
+    {
+      "k": "trump tells fed to slash rates or hell end trade with countries with us surpluses",
+      "ts": "2026-09-04T16:00:00.386498+00:00"
+    },
+    {
+      "k": "wbna commissioner cathy engelbert to retire at the end of 2026",
+      "ts": "2026-09-04T16:00:00.386498+00:00"
+    },
+    {
+      "k": "labor day marks the start of fallcations as wealthy travelers avoid summer crowds",
+      "ts": "2026-09-04T16:00:00.386498+00:00"
+    },
+    {
+      "k": "2year yield rises to highest since january 2025 after hot jobs report boosts expectations that the",
+      "ts": "2026-09-04T16:00:00.386498+00:00"
+    },
+    {
+      "k": "bitcoin heads for third winning week in a row as macro pressures mount",
+      "ts": "2026-09-04T16:00:00.386498+00:00"
     }
   ]
 }
