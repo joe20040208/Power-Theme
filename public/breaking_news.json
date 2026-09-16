@@ -1,7 +1,23 @@
 {
-  "last_checked": "September 16, 2026 (15:53 EST)",
+  "last_checked": "September 16, 2026 (18:44 EST)",
   "has_alert": true,
   "alerts": [
+    {
+      "headline": "Trump demands 1% or lower interest rate after first Fed hike since 2023",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-09-16T18:44:44.850915-04:00",
+      "pub_time": "2026-09-16T18:25:22-04:00"
+    },
+    {
+      "headline": "Here are five key takeaways from Wednesday's Fed rate hike",
+      "source": "CNBC Markets",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-09-16T18:44:44.850915-04:00",
+      "pub_time": "2026-09-16T17:23:51-04:00"
+    },
     {
       "headline": "Fed approves interest rate hike, signals one more to come this year",
       "source": "CNBC Markets",
@@ -12,26 +28,6 @@
     }
   ],
   "seen_keys": [
-    {
-      "k": "nfl teams still undervalued says jacksonville jaguars owner shad khan",
-      "ts": "2026-09-09T22:21:39.047981+00:00"
-    },
-    {
-      "k": "bessent’s political turn in gop speech tests his bondmarket credibility",
-      "ts": "2026-09-09T22:21:39.047981+00:00"
-    },
-    {
-      "k": "amazon adds cybersecurity veteran kevin mandia to board 2 years after he left google",
-      "ts": "2026-09-09T22:21:39.047981+00:00"
-    },
-    {
-      "k": "fewer than half of vulnerable congressional candidates have speaking roles at gop convention",
-      "ts": "2026-09-09T22:21:39.047981+00:00"
-    },
-    {
-      "k": "conversations from goldman sachs communacopia ai blowback broadband and disneys free tier",
-      "ts": "2026-09-09T22:21:39.047981+00:00"
-    },
     {
       "k": "apple makes biggest change to iphone release cadence in 7 years in ternus first showcase as ceo",
       "ts": "2026-09-10T16:04:28.494712+00:00"
@@ -327,6 +323,22 @@
     {
       "k": "fed approves interest rate hike signals one more to come this year",
       "ts": "2026-09-16T19:53:27.787419+00:00"
+    },
+    {
+      "k": "trump demands 1 or lower interest rate after first fed hike since 2023",
+      "ts": "2026-09-16T22:44:45.321452+00:00"
+    },
+    {
+      "k": "analysis how trump could reignite the fed independence fight after warshs rate hike",
+      "ts": "2026-09-16T22:44:45.321452+00:00"
+    },
+    {
+      "k": "amazon obtains right to buy stock in generac boosting power companys share price by over 40",
+      "ts": "2026-09-16T22:44:45.321452+00:00"
+    },
+    {
+      "k": "here are five key takeaways from wednesdays fed rate hike",
+      "ts": "2026-09-16T22:44:45.321452+00:00"
     }
   ]
 }
