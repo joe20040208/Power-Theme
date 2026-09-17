@@ -1,53 +1,8 @@
 {
-  "last_checked": "September 16, 2026 (18:44 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Trump demands 1% or lower interest rate after first Fed hike since 2023",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-09-16T18:44:44.850915-04:00",
-      "pub_time": "2026-09-16T18:25:22-04:00"
-    },
-    {
-      "headline": "Here are five key takeaways from Wednesday's Fed rate hike",
-      "source": "CNBC Markets",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-09-16T18:44:44.850915-04:00",
-      "pub_time": "2026-09-16T17:23:51-04:00"
-    },
-    {
-      "headline": "Fed approves interest rate hike, signals one more to come this year",
-      "source": "CNBC Markets",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-09-16T15:53:27.284322-04:00",
-      "pub_time": "2026-09-16T15:02:17-04:00"
-    }
-  ],
+  "last_checked": "September 17, 2026 (12:33 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
-    {
-      "k": "apple makes biggest change to iphone release cadence in 7 years in ternus first showcase as ceo",
-      "ts": "2026-09-10T16:04:28.494712+00:00"
-    },
-    {
-      "k": "the likelihood of a fed interest rate hike next week just got a lot higher",
-      "ts": "2026-09-10T16:04:28.494712+00:00"
-    },
-    {
-      "k": "trumps 1 trillionplus dividend plan meets immediate bipartisan pushback",
-      "ts": "2026-09-10T16:04:28.494712+00:00"
-    },
-    {
-      "k": "kimmel says interview with senate candidate talarico wont air on abc amid fcc threats",
-      "ts": "2026-09-10T16:04:28.494712+00:00"
-    },
-    {
-      "k": "us crude oil tops 100 again – last seen in may – as market braces for prolonged iran war",
-      "ts": "2026-09-10T16:04:28.494712+00:00"
-    },
     {
       "k": "elon musks boring co turns to middle east for expansion in reaching 23 billion valuation",
       "ts": "2026-09-10T19:28:46.127322+00:00"
@@ -339,6 +294,22 @@
     {
       "k": "here are five key takeaways from wednesdays fed rate hike",
       "ts": "2026-09-16T22:44:45.321452+00:00"
+    },
+    {
+      "k": "trump photo seems to reference kennedy center demolition amid legal battle over closure",
+      "ts": "2026-09-17T16:33:46.124999+00:00"
+    },
+    {
+      "k": "ai needs to have reasonable guidelines palantirs karp tells cnbc",
+      "ts": "2026-09-17T16:33:46.124999+00:00"
+    },
+    {
+      "k": "how record diesel prices will rip through the us economy trucks and rails are only the start",
+      "ts": "2026-09-17T16:33:46.124999+00:00"
+    },
+    {
+      "k": "oil prices fall as saudi arabia reportedly offers more crude via hormuz after pipeline attack",
+      "ts": "2026-09-17T16:33:46.124999+00:00"
     }
   ]
 }
