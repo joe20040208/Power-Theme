@@ -1,40 +1,17 @@
 {
-  "last_checked": "September 18, 2026 (12:05 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "September 18, 2026 (15:28 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump says he's banning MS NOW, CNN and Politico from White House",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-09-18T15:28:37.788543-04:00",
+      "pub_time": "2026-09-18T15:15:02-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "here’s the inflation breakdown for august 2026 — in one chart",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "analysis hot inflation data sets up a fed rate hike what happens if warsh wavers",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "iran russia condemn western economic sanctions and urge brics bloc to deepen economic ties",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "record us cyclosporiasis outbreak is over cdc says",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "wealthy investors are pouring billions into this new tax strategy despite risks",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "ai regulation calls grow in dc after researchers extinction warning",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "nycs baklava guy started selling turkish pastries as a joke now it brings in 20kmonth its",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
-    {
-      "k": "oil prices fall after doubledigit weekly gains above 100",
-      "ts": "2026-09-11T16:08:13.922246+00:00"
-    },
     {
       "k": "saudi arabia shut down eastwest crude oil pipeline after multiple attacks",
       "ts": "2026-09-11T19:29:25.448427+00:00"
@@ -346,6 +323,26 @@
     {
       "k": "why more companies are fighting over consumers beauty health and wellness spending",
       "ts": "2026-09-18T16:05:05.433297+00:00"
+    },
+    {
+      "k": "trump says hes banning ms now cnn and politico from white house",
+      "ts": "2026-09-18T19:28:39.596967+00:00"
+    },
+    {
+      "k": "three words from kevin warsh have wall street wondering how far the fed will go with rate hikes",
+      "ts": "2026-09-18T19:28:39.596967+00:00"
+    },
+    {
+      "k": "elon musk talks up ai safety while fighting regulation in wild week of strange alliances",
+      "ts": "2026-09-18T19:28:39.596967+00:00"
+    },
+    {
+      "k": "nike parts ways with kylian mbappé soccer superstar signs with on",
+      "ts": "2026-09-18T19:28:39.596967+00:00"
+    },
+    {
+      "k": "mcdonalds is the new value meal says trader mike khouw",
+      "ts": "2026-09-18T19:28:39.596967+00:00"
     }
   ]
 }
