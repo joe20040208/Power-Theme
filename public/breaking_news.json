@@ -1,7 +1,16 @@
 {
-  "last_checked": "September 22, 2026 (12:35 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "September 22, 2026 (16:02 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-09-22T16:02:50.066517-04:00",
+      "pub_time": "2026-09-22T15:59:05-04:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "iran war has cost on average 246 million per day in its first five months cbo finds",
@@ -314,6 +323,46 @@
     {
       "k": "circle lands 100 million from binance to ramp up global usdc expansion",
       "ts": "2026-09-22T16:35:16.201384+00:00"
+    },
+    {
+      "k": "trump administration is examining whether a diesel export ban is feasible treasury secretary says",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "trump discloses more than 1100 july trades including up to 25 million each in sales of microsoft",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "trump administration removes around 760000 obamacare enrollments alleging fraud",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "royal caribbean nears 3 billion deal to take 50 equity stake in sandals",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "cisco stock sinks 5 after piper sandler cuts price target on growth concerns",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "anthropic and openai roll out cheaper models in first release since call for slowdown",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "lennar shares pop as berkshire builds almost a 10 stake in beleaguered homebuilder",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "peloton is revamping its treadmills with new features in the next phase of its turnaround",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "us strikes greenland deal at un to expand military presence at arctic outposts",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
+    },
+    {
+      "k": "trump slams iran and cuba defends ai growth in boastful un speech",
+      "ts": "2026-09-22T20:02:50.531454+00:00"
     }
   ]
 }
