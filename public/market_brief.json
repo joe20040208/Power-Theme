@@ -1,30 +1,30 @@
 {
-  "generated_at": "September 29, 2026 (14:29 EDT)",
-  "session": "Market Hours",
+  "generated_at": "September 29, 2026 (20:35 EDT)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 7668.73,
-      "change": -14.96,
-      "change_pct": -0.19
+      "price": 7670.84,
+      "change": -12.85,
+      "change_pct": -0.17
     },
     {
       "label": "Nasdaq 100",
-      "price": 30329.79,
-      "change": 52.98,
-      "change_pct": 0.17
+      "price": 30339.33,
+      "change": 62.52,
+      "change_pct": 0.21
     },
     {
       "label": "VIX",
-      "price": 16.18,
-      "change": 0.11,
+      "price": 16.04,
+      "change": -0.03,
       "change_pct": null,
       "zone_label": "Normal"
     },
     {
       "label": "10Y Yield",
-      "price": 5.27,
-      "change": 0.03,
+      "price": 5.26,
+      "change": 0.02,
       "change_pct": null,
       "trend_label": "Stable"
     }
@@ -32,26 +32,26 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 65877.62,
-      "change_pct": -0.73
+      "price": 66418.52,
+      "change_pct": 0.82
     },
     "dax": {
       "label": "DAX",
-      "price": 25399.21,
-      "change_pct": 0.1
+      "price": 25374.42,
+      "change_pct": -0.13
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10636.71,
-      "change_pct": -0.45
+      "price": 10684.9,
+      "change_pct": -0.1
     }
   },
   "macro_breadth": {
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 26.9,
-    "mmth": 47.4,
+    "s5fi": 27.3,
+    "mmth": 47.7,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
