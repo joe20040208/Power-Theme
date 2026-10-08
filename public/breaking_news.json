@@ -1,40 +1,25 @@
 {
-  "last_checked": "October 07, 2026 (19:30 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "October 08, 2026 (14:38 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-08T14:38:04.810496-04:00",
+      "pub_time": "2026-10-08T13:31:03-04:00"
+    },
+    {
+      "headline": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-08T14:38:04.810496-04:00",
+      "pub_time": "2026-10-08T13:13:32-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "10year treasury yield slides after hitting highest levels in 24 years",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "general motor q3 sales drop 55 while toyota buoyed by evs hybrids",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "trump accounts have autoenrolled more than 60 million children treasury says",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "treasury sanctions operation targets irans auto rail industries in latest economic attack",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "judge dismisses reflecting pool case permanently cites risk trump will force new charges",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "former linkedin chief roslansky to leave microsoft following other exec departures",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "new york citys click to cancel subscription rule takes effect joining states with similar laws",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
-    {
-      "k": "next openais and anthropics may come straight to retail market heres what to know before investing",
-      "ts": "2026-10-01T18:13:40.967738+00:00"
-    },
     {
       "k": "nike shares drop as retailer posts disappointing sales announces layoffs as part of restructuring",
       "ts": "2026-10-01T23:02:10.274497+00:00"
@@ -162,6 +147,42 @@
     {
       "k": "trump awarding medals to musk dell nadella and other tech execs at science summit",
       "ts": "2026-10-07T23:30:01.401841+00:00"
+    },
+    {
+      "k": "nvidia oracle coreweave and other ai stocks sink on openai revenue report",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "trump says us will not attack iran before midterm election",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "us suspends microsoft adobe from green card labor program in foreign worker crackdown",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "inflation on many everyday items was entirely due to tariffs ny fed says",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "little relief expected for gas prices ahead of election day according to prediction markets",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "america shut out chinese evs britain welcomed them — and now faces a difficult choice",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "treasury sanctions 17 tankers linked to irans shadow fleet in economic pressure campaign",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "treasury yields are lower after reaching multiyear highs traders weigh latest bond auction",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
+    },
+    {
+      "k": "cnbcs financial advisor 100 best financial advisors top firms for 2026 ranked",
+      "ts": "2026-10-08T18:38:05.397037+00:00"
     }
   ]
 }
