@@ -144,8 +144,11 @@ jobs:
         run: npm ci --legacy-peer-deps && npm run build
         env:
           CI: false
-          REACT_APP_FINNHUB_KEY: ${{ secrets.FINNHUB_API_KEY }}
-          REACT_APP_GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Block API keys in public bundle
+        if: steps.trading_day.outputs.is_trading_day == 'true'
+        run: |
+          if grep -rEl 'AIza[0-9A-Za-z_-]{35}' build/; then echo '::error::API key found in build output'; exit 1; fi
 
       - uses: actions/configure-pages@v4
         if: steps.trading_day.outputs.is_trading_day == 'true'

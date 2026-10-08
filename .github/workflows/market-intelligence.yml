@@ -90,7 +90,10 @@ jobs:
         run: npm ci --legacy-peer-deps && npm run build
         env:
           CI: false
-          REACT_APP_GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Block API keys in public bundle
+        run: |
+          if grep -rEl 'AIza[0-9A-Za-z_-]{35}' build/; then echo '::error::API key found in build output'; exit 1; fi
 
       - uses: actions/configure-pages@v4
 
