@@ -1,53 +1,8 @@
 {
-  "last_checked": "October 08, 2026 (19:41 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-10-08T14:38:04.810496-04:00",
-      "pub_time": "2026-10-08T13:31:03-04:00"
-    },
-    {
-      "headline": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-10-08T14:38:04.810496-04:00",
-      "pub_time": "2026-10-08T13:13:32-04:00"
-    }
-  ],
+  "last_checked": "October 09, 2026 (14:08 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
-    {
-      "k": "ford fends off hyundai to retain no 3 us sales position in third quarter",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "men are losing ground in the labor market heres why",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "g7 nations to release diesel stocks as wars in europe and middle east constrain fuel supplies",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "american starts letting customers mix cash and miles for tickets",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "your health insurance premiums may take a big jump in 2027 — heres why",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "10year treasury yield ticks higher despite weakerthanexpected jobs report",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
-    {
-      "k": "oil prices mixed as g7 nations to release diesel stocks",
-      "ts": "2026-10-02T17:39:03.536892+00:00"
-    },
     {
       "k": "doj says it will not reopen criminal probe into former fed chair powell",
       "ts": "2026-10-02T21:58:27.511834+00:00"
@@ -179,6 +134,22 @@
     {
       "k": "spacex deal to acquire spectrum license hammers shares of att verizon and tmobile",
       "ts": "2026-10-08T23:41:11.025758+00:00"
+    },
+    {
+      "k": "trump appoints committee to investigate statements by the feds lisa cook",
+      "ts": "2026-10-09T18:08:51.368293+00:00"
+    },
+    {
+      "k": "hurricane isaias disrupts us oil production in gulf of mexico threatens refineries",
+      "ts": "2026-10-09T18:08:51.368293+00:00"
+    },
+    {
+      "k": "verizon stock heads for worst day since 2002 as spacex us network plans whack telcos",
+      "ts": "2026-10-09T18:08:51.368293+00:00"
+    },
+    {
+      "k": "tesla drops full selfdriving brand name in europe after regulator pushback",
+      "ts": "2026-10-09T18:08:51.368293+00:00"
     }
   ]
 }
