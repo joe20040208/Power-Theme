@@ -1,36 +1,17 @@
 {
-  "last_checked": "October 20, 2026 (12:34 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "October 20, 2026 (16:19 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-20T16:19:37.401537-04:00",
+      "pub_time": "2026-10-20T15:28:43-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "more republicans come out against trumps diesel deal with putin",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "the latest inflation data is expected to show price increases are accelerating",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "airport attacks put aviation in crosshairs of geopolitical conflicts",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "jpmorgan chase blocks outside ai agents like muse instinct from directly accessing accounts",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "walmart to cover some glp1s inhalers and insulin for employees at no cost as it expands benefits",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "kimberly guilfoyle resigns as ambassador to greece at white houses request",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
-    {
-      "k": "social security costofliving adjustment for 2027 may be above average some say its not enough",
-      "ts": "2026-10-13T19:03:08.739449+00:00"
-    },
     {
       "k": "anthropic urges court in washington dc to rehear appeal of pentagon blacklisting",
       "ts": "2026-10-13T23:39:14.277706+00:00"
@@ -262,6 +243,26 @@
     {
       "k": "oil prices fall as traders hope for diplomatic progress in middle east",
       "ts": "2026-10-20T16:34:00.597929+00:00"
+    },
+    {
+      "k": "netflix posts thirdquarter earnings beat says viewer engagement remains healthy",
+      "ts": "2026-10-20T20:19:37.705929+00:00"
+    },
+    {
+      "k": "boeing wins faa approval for 737 max 10 after years of delays",
+      "ts": "2026-10-20T20:19:37.705929+00:00"
+    },
+    {
+      "k": "united airlines slashes 2026 profit outlook on fuel prices but travelers keep booking despite highe",
+      "ts": "2026-10-20T20:19:37.705929+00:00"
+    },
+    {
+      "k": "housing is flashing warning signs just as the fed weighs more interest rate hikes",
+      "ts": "2026-10-20T20:19:37.705929+00:00"
+    },
+    {
+      "k": "salesforce announces 566 billion deal for braze sending brze stock soaring 51",
+      "ts": "2026-10-20T20:19:37.705929+00:00"
     }
   ]
 }
