@@ -1,40 +1,25 @@
 {
-  "last_checked": "October 23, 2026 (12:43 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "October 23, 2026 (16:14 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "U.S. dropping some Canada tariffs, Susan Collins says as trade war looms over Maine Senate race",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-23T16:14:31.235318-04:00",
+      "pub_time": "2026-10-23T14:54:16-04:00"
+    },
+    {
+      "headline": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-23T16:14:31.235318-04:00",
+      "pub_time": "2026-10-23T15:53:13-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "brent oil touches 110 as iran escalates hormuz attacks ukraine vows to hit russian refineries",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "katie zacharia out as trumps white house press secretary",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "apple’s 1999 iphone duo puts the companys statussymbol power to the test",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "wall streets fear gauge is ripping traders see it going even higher",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "trump says white house didnt order starlink restrictions in ukraine",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "heres who netflix just brought in to run content — and what it means for the streamer",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "the austin powers steamroller how to trade coreweaves slow moving crisis",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
-    {
-      "k": "debt is eating up a bigger chunk of your raise research shows",
-      "ts": "2026-10-16T19:50:05.307586+00:00"
-    },
     {
       "k": "analysis why a 2 trillion deficit and 5 treasury yields are becoming americas biggest economic c",
       "ts": "2026-10-16T22:40:18.369479+00:00"
@@ -234,6 +219,42 @@
     {
       "k": "silicon valley democrats demand investigation into starlink restrictions in ukraine",
       "ts": "2026-10-23T16:43:53.759061+00:00"
+    },
+    {
+      "k": "us dropping some canada tariffs susan collins says as trade war looms over maine senate race",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "in hunt for starlink alternative ukraine partners with nokia and satellite maker iceye",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "trumps executive order targets mortgage insurance refinance costs what it means for borrowers",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "scalpers offer apple iphone duo buyers hundreds extra outside beijing launch",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "musks spacex is still restricting starlink in ukraine and the toll is rising",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "meta shares are down 9 this week heres why mike khouw is buying now",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "qatar deal to buy us natural gas shows how iran war has redrawn global energy markets",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "investors are starting to find opportunities in the battered bond market",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
+    },
+    {
+      "k": "american express is cutting 5 of its workforce to prepare for ai",
+      "ts": "2026-10-23T20:14:31.597969+00:00"
     }
   ]
 }
