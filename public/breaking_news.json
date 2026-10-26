@@ -1,24 +1,7 @@
 {
-  "last_checked": "October 23, 2026 (19:46 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "U.S. dropping some Canada tariffs, Susan Collins says as trade war looms over Maine Senate race",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-10-23T16:14:31.235318-04:00",
-      "pub_time": "2026-10-23T14:54:16-04:00"
-    },
-    {
-      "headline": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-10-23T16:14:31.235318-04:00",
-      "pub_time": "2026-10-23T15:53:13-04:00"
-    }
-  ],
+  "last_checked": "October 26, 2026 (14:28 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
     {
       "k": "openai bugging suspects conduct could pose danger to us national security feds warn",
@@ -259,6 +242,22 @@
     {
       "k": "moodys holds steady on frances credit rating as country grapples with turmoil and higher yields",
       "ts": "2026-10-23T23:46:49.699856+00:00"
+    },
+    {
+      "k": "microsoft offers voluntary buyouts to 60000 employees as ai leads to efficiency push",
+      "ts": "2026-10-26T18:28:05.864759+00:00"
+    },
+    {
+      "k": "the arc of trump how the president lost the coalition that put him in the white house",
+      "ts": "2026-10-26T18:28:05.864759+00:00"
+    },
+    {
+      "k": "trump doj unlawfully fired epstein prosecutor maurene comey judge rules",
+      "ts": "2026-10-26T18:28:05.864759+00:00"
+    },
+    {
+      "k": "lula wins brazil runoff after prediction markets favored bolsonaro",
+      "ts": "2026-10-26T18:28:05.864759+00:00"
     }
   ]
 }
