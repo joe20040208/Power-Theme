@@ -1,32 +1,17 @@
 {
-  "last_checked": "October 27, 2026 (21:07 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "October 28, 2026 (14:05 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-10-28T14:05:31.746160-04:00",
+      "pub_time": "2026-10-28T13:39:43-04:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "how ukraine’s drone strikes on russia crippled the world’s second largest diesel supplier",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
-    {
-      "k": "spacex stock jumps 10 after earnings beat and musk hints at tesla tieup",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
-    {
-      "k": "intel hits construction milestone at ohio chip fab that’s at least 5 years behind schedule",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
-    {
-      "k": "tesla earnings loom after musk calls spacex merger a good idea",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
-    {
-      "k": "musks spacex stock gift is tip of the iceberg for trump accounts altimeters gerstner says",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
-    {
-      "k": "goldman sachs jpmorgan and morgan stanley are dominating the ai stock boom heres their edge",
-      "ts": "2026-10-21T16:52:20.723443+00:00"
-    },
     {
       "k": "tesla beats on earnings and sales even as auto revenue declines",
       "ts": "2026-10-21T20:28:14.347447+00:00"
@@ -278,6 +263,26 @@
     {
       "k": "indian investors rush to nvidia spacex apple as local trading apps roll out access to us stocks",
       "ts": "2026-10-28T01:07:59.393584+00:00"
+    },
+    {
+      "k": "fed holds rates steady despite concerns over inflation",
+      "ts": "2026-10-28T18:05:32.172565+00:00"
+    },
+    {
+      "k": "apple brings touch to the mac reversing yearsold stance on touchscreen laptop",
+      "ts": "2026-10-28T18:05:32.172565+00:00"
+    },
+    {
+      "k": "trump is using tariffs as a tool for grift raskin says in demand for donor records",
+      "ts": "2026-10-28T18:05:32.172565+00:00"
+    },
+    {
+      "k": "looking for yield this could be one of the best times in recent market history to buy corporate bon",
+      "ts": "2026-10-28T18:05:32.172565+00:00"
+    },
+    {
+      "k": "watch live options traders break down a massive alphabet trade into earnings",
+      "ts": "2026-10-28T18:05:32.172565+00:00"
     }
   ]
 }
