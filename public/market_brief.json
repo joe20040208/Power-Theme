@@ -1,5 +1,5 @@
 {
-  "generated_at": "November 09, 2026 (17:54 EST)",
+  "generated_at": "November 09, 2026 (22:39 EST)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -32,8 +32,8 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 57434.77,
-      "change_pct": -5.96
+      "price": 60475.78,
+      "change_pct": 2.89
     },
     "dax": {
       "label": "DAX",
@@ -42,7 +42,7 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10782.87,
+      "price": 10782.9,
       "change_pct": 1.02
     }
   },
