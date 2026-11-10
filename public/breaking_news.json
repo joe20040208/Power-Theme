@@ -1,64 +1,25 @@
 {
-  "last_checked": "November 09, 2026 (17:05 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "November 10, 2026 (14:28 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-11-10T14:28:29.755789-05:00",
+      "pub_time": "2026-11-10T13:48:55-05:00"
+    },
+    {
+      "headline": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-11-10T14:28:29.755789-05:00",
+      "pub_time": "2026-11-10T13:08:40-05:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "us reportedly strikes irans qeshm island as vance hopes for ‘negotiated settlement’ with tehran",
-      "ts": "2026-11-03T03:21:46.894774+00:00"
-    },
-    {
-      "k": "openai hires former us army secretary dan driscoll for national security role",
-      "ts": "2026-11-03T03:21:46.894774+00:00"
-    },
-    {
-      "k": "north korea denies links to binance hack as researchers trace stolen billions",
-      "ts": "2026-11-03T03:21:46.894774+00:00"
-    },
-    {
-      "k": "meta seeks to raise up to 25 billion in debt sale as ai spending jumps",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "binance coceo richard teng says hackers used fake job interviews ai tool to steal 63 billion in",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "sullivan what the 2026 midterms could mean for energy investors",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "what the 2026 midterm elections could mean for trumps final two years",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "the poison pill ballot measure that could kill the california billionaire tax",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "midterm elections could jolt stocks if democrats sweep congress",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "examex ceo shares when business leaders need to speak up about politics you should care about wha",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "job openings posted big september gain in positive sign for labor market ahead of payrolls report",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "russia confirms new ukraine peace talks as melania trump prepares to host ceasefire meeting",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "pfizer hikes fullyear outlook as newer products grow taps company veteran as new cfo",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
-    {
-      "k": "stock market after midterm elections what sp 500 history shows",
-      "ts": "2026-11-03T19:16:01.394888+00:00"
-    },
     {
       "k": "amd stock jumps 8 on earnings as data center revenue nearly doubles",
       "ts": "2026-11-04T00:28:28.884705+00:00"
@@ -234,6 +195,26 @@
     {
       "k": "lucid misses wall street’s earnings expectations expands loan from saudi arabia fund",
       "ts": "2026-11-09T22:05:06.270143+00:00"
+    },
+    {
+      "k": "10year treasury yield races back to 5 as inflation data waller comments drive rate hike expectati",
+      "ts": "2026-11-10T19:28:30.077116+00:00"
+    },
+    {
+      "k": "nvidia hires law firm wachtell lipton to lead jensen huang affair probe",
+      "ts": "2026-11-10T19:28:30.077116+00:00"
+    },
+    {
+      "k": "credit card debt climbs to a record 129 trillion new york fed research finds",
+      "ts": "2026-11-10T19:28:30.077116+00:00"
+    },
+    {
+      "k": "amazons ring unveils flying drone and robot to patrol homes and businesses",
+      "ts": "2026-11-10T19:28:30.077116+00:00"
+    },
+    {
+      "k": "alphabet shares appear to have bottomed how to play it for a quick rebound",
+      "ts": "2026-11-10T19:28:30.077116+00:00"
     }
   ]
 }
