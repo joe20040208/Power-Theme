@@ -1,45 +1,8 @@
 {
-  "last_checked": "November 10, 2026 (19:28 EST)",
-  "has_alert": true,
-  "alerts": [
-    {
-      "headline": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-11-10T14:28:29.755789-05:00",
-      "pub_time": "2026-11-10T13:48:55-05:00"
-    },
-    {
-      "headline": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
-      "source": "CNBC",
-      "grade": "GOV",
-      "direction": "bullish",
-      "timestamp": "2026-11-10T14:28:29.755789-05:00",
-      "pub_time": "2026-11-10T13:08:40-05:00"
-    }
-  ],
+  "last_checked": "November 11, 2026 (14:23 EST)",
+  "has_alert": false,
+  "alerts": [],
   "seen_keys": [
-    {
-      "k": "amd stock jumps 8 on earnings as data center revenue nearly doubles",
-      "ts": "2026-11-04T00:28:28.884705+00:00"
-    },
-    {
-      "k": "trump doj sends target letters to democrats in alaska senate criminal probe reports",
-      "ts": "2026-11-04T00:28:28.884705+00:00"
-    },
-    {
-      "k": "crowdstrikes new kill switch can stop rogue ai agents in their tracks ceo says",
-      "ts": "2026-11-04T00:28:28.884705+00:00"
-    },
-    {
-      "k": "strand bookstore to pay nearly 15 million over covid loan tied to sen wydens wife",
-      "ts": "2026-11-04T00:28:28.884705+00:00"
-    },
-    {
-      "k": "jim cramer sees signs of life in tech stocks — but not from the usual winners",
-      "ts": "2026-11-04T00:28:28.884705+00:00"
-    },
     {
       "k": "what republicans huge loss means for trump",
       "ts": "2026-11-04T19:31:46.489337+00:00"
@@ -227,6 +190,30 @@
     {
       "k": "coreweave beats on revenue and lifts guidance easing ai slowdown concerns",
       "ts": "2026-11-11T00:28:10.181092+00:00"
+    },
+    {
+      "k": "analysis is nvidia too big to fail its ai financing web raises the stakes",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
+    },
+    {
+      "k": "prediction markets tied to clinical trials and drug approvals draw lawmakers ire",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
+    },
+    {
+      "k": "apples record run ignites options flurry — watch options action live",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
+    },
+    {
+      "k": "bouncing wynn shares might be primed for the wheel strategy",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
+    },
+    {
+      "k": "meta head of infrastructure will leave and be succeeded by former aws cloud exec",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
+    },
+    {
+      "k": "how democrats could snarl trump administration stakes in private sector companies",
+      "ts": "2026-11-11T19:23:46.411326+00:00"
     }
   ]
 }
