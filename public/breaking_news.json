@@ -1,7 +1,16 @@
 {
-  "last_checked": "November 11, 2026 (20:50 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "November 12, 2026 (14:41 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-11-12T14:41:21.838514-05:00",
+      "pub_time": "2026-11-12T14:05:25-05:00"
+    }
+  ],
   "seen_keys": [
     {
       "k": "wall streets fear gauge surges the most since april why traders think it should be even higher",
@@ -170,6 +179,38 @@
     {
       "k": "cramers stance on nvidias stock amid reports that ceo jensen huang may be ousted",
       "ts": "2026-11-12T01:50:25.040458+00:00"
+    },
+    {
+      "k": "heres what nvidia interim ceo colette kress and board chair harvey jones wrote to nvidia employees",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "donald trump jr exits advisory role at kalshi prediction market",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "in a policy switch the fed says its october 2027 meeting will not see a vote on interest rates",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "jensen huangs nvidia exit casts shadow over wall street’s 500 billion ai financing bet",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "nvidia stock pares morning losses after ceo jensen huang announces resignation",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "‘a dark day for nvidia’ here’s what analysts have been saying about jensen huang’s departure",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "jensen and lori huangs nvidia fortune is jointly controlled how that makes things complicated now",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
+    },
+    {
+      "k": "oil prices rise after trump says no iran deal needed weve got their strait",
+      "ts": "2026-11-12T19:41:22.169061+00:00"
     }
   ]
 }
