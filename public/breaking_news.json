@@ -1,32 +1,17 @@
 {
-  "last_checked": "November 17, 2026 (21:46 EST)",
-  "has_alert": false,
-  "alerts": [],
+  "last_checked": "November 18, 2026 (15:10 EST)",
+  "has_alert": true,
+  "alerts": [
+    {
+      "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "source": "CNBC",
+      "grade": "GOV",
+      "direction": "bullish",
+      "timestamp": "2026-11-18T15:10:52.202130-05:00",
+      "pub_time": "2026-11-18T14:41:59-05:00"
+    }
+  ],
   "seen_keys": [
-    {
-      "k": "analysis is nvidia too big to fail its ai financing web raises the stakes",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
-    {
-      "k": "prediction markets tied to clinical trials and drug approvals draw lawmakers ire",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
-    {
-      "k": "apples record run ignites options flurry — watch options action live",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
-    {
-      "k": "bouncing wynn shares might be primed for the wheel strategy",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
-    {
-      "k": "meta head of infrastructure will leave and be succeeded by former aws cloud exec",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
-    {
-      "k": "how democrats could snarl trump administration stakes in private sector companies",
-      "ts": "2026-11-11T19:23:46.411326+00:00"
-    },
     {
       "k": "nvidia prepares to oust jensen huang wsj reports — stock sinks",
       "ts": "2026-11-12T01:50:25.040458+00:00"
@@ -178,6 +163,30 @@
     {
       "k": "nvidia takes positive step forward with stronger sales outlook here’s our thoughts on the stock",
       "ts": "2026-11-18T02:46:54.535689+00:00"
+    },
+    {
+      "k": "nvidia interim ceo kress tells employees ‘let’s move forward’ at first allhands meeting since jense",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
+    },
+    {
+      "k": "fed officials expect more rate hikes worry about ai impact on inflation minutes show",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
+    },
+    {
+      "k": "one of ais most notorious doomers stands to make billions in anthropics ipo",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
+    },
+    {
+      "k": "vance scraps schedule to address tech outages as trump admin insists incidents arent linked",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
+    },
+    {
+      "k": "i watched trump xi and putin gather in china here are my top takeaways",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
+    },
+    {
+      "k": "nvidia reverses metals crash ahead of anthropic ipo",
+      "ts": "2026-11-18T20:10:52.567722+00:00"
     }
   ]
 }
