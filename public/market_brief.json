@@ -1,6 +1,6 @@
 {
-  "generated_at": "November 23, 2026 (19:37 EST)",
-  "session": "Post-Market",
+  "generated_at": "November 24, 2026 (00:23 EST)",
+  "session": "Pre-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 58447.16,
-      "change_pct": 3.56
+      "price": 58725.84,
+      "change_pct": 4.06
     },
     "dax": {
       "label": "DAX",
-      "price": 24802.78,
-      "change_pct": -2.6
+      "price": 25337.27,
+      "change_pct": 2.15
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10346.3,
-      "change_pct": -1.02
+      "price": 10480.8,
+      "change_pct": 1.3
     }
   },
   "macro_breadth": {
