@@ -1,39 +1,39 @@
 {
-  "generated_at": "November 20, 2026 (15:57 EST)",
-  "session": "Market Hours",
+  "generated_at": "November 23, 2026 (19:37 EST)",
+  "session": "Post-Market",
   "global_snapshot": [
     {
       "label": "S&P 500",
-      "price": 6893.11,
-      "change": -282.72,
-      "change_pct": -3.94
+      "price": 7237.17,
+      "change": 326.78,
+      "change_pct": 4.73
     },
     {
       "label": "Nasdaq 100",
-      "price": 24951.0,
-      "change": -1566.05,
-      "change_pct": -5.91
+      "price": 26746.1,
+      "change": 1717.12,
+      "change_pct": 6.86
     },
     {
       "label": "VIX",
-      "price": 37.72,
-      "change": 9.28,
+      "price": 26.62,
+      "change": -9.27,
       "change_pct": null,
-      "zone_label": "Extreme Fear"
+      "zone_label": "Anxiety Zone"
     },
     {
       "label": "10Y Yield",
-      "price": 4.91,
-      "change": -0.14,
+      "price": 4.92,
+      "change": 0.01,
       "change_pct": null,
-      "trend_label": "Falling"
+      "trend_label": "Stable"
     }
   ],
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 59444.21,
-      "change_pct": 0.71
+      "price": 58447.16,
+      "change_pct": 3.56
     },
     "dax": {
       "label": "DAX",
@@ -42,7 +42,7 @@
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10346.34,
+      "price": 10346.3,
       "change_pct": -1.02
     }
   },
@@ -50,8 +50,8 @@
     "credit_spread": null,
     "credit_date": null,
     "credit_regime": null,
-    "s5fi": 40.9,
-    "mmth": 46.0,
+    "s5fi": 49.3,
+    "mmth": 52.0,
     "breadth_flush": false,
     "generational": false,
     "breadth_status": ""
