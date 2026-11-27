@@ -1,5 +1,5 @@
 {
-  "generated_at": "November 25, 2026 (17:11 EST)",
+  "generated_at": "November 26, 2026 (22:41 EST)",
   "session": "Post-Market",
   "global_snapshot": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "label": "VIX",
-      "price": 28.29,
-      "change": 1.93,
+      "price": 26.8,
+      "change": -1.49,
       "change_pct": null,
       "zone_label": "Anxiety Zone"
     },
@@ -32,18 +32,18 @@
   "global_indices": {
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 58644.63,
-      "change_pct": 3.91
+      "price": 58172.04,
+      "change_pct": 1.17
     },
     "dax": {
       "label": "DAX",
-      "price": 24702.13,
-      "change_pct": -1.26
+      "price": 25215.52,
+      "change_pct": 2.08
     },
     "ftse": {
       "label": "FTSE 100",
-      "price": 10426.94,
-      "change_pct": -0.38
+      "price": 10609.3,
+      "change_pct": 1.75
     }
   },
   "macro_breadth": {
